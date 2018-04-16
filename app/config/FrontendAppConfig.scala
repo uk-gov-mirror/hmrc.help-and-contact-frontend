@@ -18,9 +18,9 @@ package config
 
 import com.google.inject.{Inject, Singleton}
 import controllers.routes
-import play.api.{Configuration, Environment}
 import play.api.i18n.Lang
-import play.api.mvc.{AnyContent, Request}
+import play.api.mvc.Request
+import play.api.{Configuration, Environment}
 import uk.gov.hmrc.play.config.ServicesConfig
 import utils.PortalUrlBuilder
 
@@ -40,16 +40,23 @@ class FrontendAppConfig @Inject() (override val runModeConfiguration: Configurat
   lazy val loginContinueUrl = loadConfig("urls.loginContinue")
 
   def getUrl(key: String): String = loadConfig(s"urls.$key")
+
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
+  def getYoutubeVideoId(key: String) = loadConfig(s"urls.external.youtube.$key")
+
   private lazy val businessAccountHost = runModeConfiguration.getString("urls.business-account.host").getOrElse("")
+
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
   lazy val languageTranslationEnabled = runModeConfiguration.getBoolean("microservice.services.features.welsh-translation").getOrElse(true)
+
   def languageMap: Map[String, Lang] = Map(
     "english" -> Lang("en"),
     "cymraeg" -> Lang("cy"))
+
   def routeToSwitchLanguage = (lang: String) => routes.LanguageSwitchController.switchToLanguage(lang)
+
   private lazy val portalHost = loadConfig("portal.host")
 
   def getPortalUrl(key: String)(implicit request: Request[_]): String =

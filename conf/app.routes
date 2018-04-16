@@ -11,3 +11,7 @@ GET        /this-service-has-been-reset                 controllers.SessionExpir
 GET        /unauthorised                                controllers.UnauthorisedController.onPageLoad
 
 GET        /vat/:page                                   controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.VAT, page: String)
+
+GET        /self-assessment/:page                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.SelfAssessment, page: String)
+
+GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)

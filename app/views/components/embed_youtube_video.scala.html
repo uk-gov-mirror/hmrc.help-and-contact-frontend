@@ -1,4 +1,4 @@
-/*
+@*
  * Copyright 2018 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,24 +12,11 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *@
 
-package models
+@(videoId: String)
 
-import play.api.mvc.JavascriptLiteral
-import utils.WithName
-
-sealed trait HelpCategory
-object HelpCategory {
-  case object VAT extends WithName("vat") with HelpCategory
-  case object SelfAssessment extends WithName("self-assessment") with HelpCategory
-
-  val values = Seq(VAT, SelfAssessment)
-
-  implicit val jsLiteral: JavascriptLiteral[HelpCategory] = new JavascriptLiteral[HelpCategory] {
-    override def to(value: HelpCategory): String = value match {
-      case VAT => "VAT"
-      case SelfAssessment => "SelfAssessment"
-    }
-  }
-}
+<div class="video-container">
+    <iframe src=@{s"http://www.youtube.com/embed/$videoId?autoplay=0&rel=0"} allowfullscreen="" frameborder="0">
+    </iframe>
+</div>
