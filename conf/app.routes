@@ -1,3 +1,13 @@
 # microservice specific routes
 
-GET        /hello-world             @uk.gov.hmrc.helpandcontactfrontend.controllers.HelloWorld.helloWorld
+GET        /index                                       controllers.IndexController.onPageLoad
+
+GET        /assets/*file                                controllers.Assets.versioned(path="/public", file: Asset)
+
+GET        /language/:lang                              controllers.LanguageSwitchController.switchToLanguage(lang: String)
+
+GET        /this-service-has-been-reset                 controllers.SessionExpiredController.onPageLoad
+
+GET        /unauthorised                                controllers.UnauthorisedController.onPageLoad
+
+GET        /vat/how-to-pay                              controllers.VatController.paymentsAndDeadlines
