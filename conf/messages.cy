@@ -15,7 +15,6 @@ site.no = No
 site.yes = Yes
 site.continue = Parhau
 site.service_name = Cyfrif treth busnes
-site.textarea.char_limit = (Limit is {0} characters)
 site.signout = Allgofnodi
 
 unauthorised.title = Ni allwch weld y dudalen hon
