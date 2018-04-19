@@ -57,3 +57,21 @@ vat.payments_and_deadlines.input_tax = treth fewnbwn
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = ychydig yn wahanol ym mhob gwlad yn yr UE
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob wlad yn yr UE wedi gosod isafswm a all gael ei ad-dalu
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Questions about VAT
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.questions_about_vat.title = Cysylltu â CThEM ynghylch TAW
+vat.questions_about_vat.heading = Cysylltu â CThEM ynghylch TAW
+vat.questions_about_vat.you_can = Gallwch
+vat.questions_about_vat.make_enquiry = wneud ymholiad ynghylch TAW ar-lein
+vat.questions_about_vat.or =  neu
+vat.questions_about_vat.call_us = drwy ein ffonio
+vat.questions_about_vat.send_long_questions = Anfonwch gwestiynau hir, neu gwestiynau gyda gwaith papur wedi’i atodi, drwy’r post i:
+vat.questions_about_vat.vat_enquiries_team = Cyllid a Thollau EM - Tîm Ymholiadau Ysgrifenedig TAW
+vat.questions_about_vat.address_line_1 = Alexander House
+vat.questions_about_vat.address_line_2 = 21 Victoria Avenue
+vat.questions_about_vat.address_line_3 = Southend-On-Sea
+vat.questions_about_vat.address_line_4 = SS99 1BD
+vat.questions_about_vat.address_line_5 = Y Deyrnas Unedig
+vat.questions_about_vat.online_enquiries = Cewch ateb cyflymach o anfon ymholiadau ar-lein.
