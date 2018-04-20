@@ -27,6 +27,7 @@ import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import uk.gov.hmrc.play.bootstrap.http.FrontendErrorHandler
 import views.html.sa._
 import views.html.vat._
 
