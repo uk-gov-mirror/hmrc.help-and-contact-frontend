@@ -60,6 +60,27 @@ vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob w
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Register or Deregister
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.register_or_deregister.heading = Cofrestru neu ddadgofrestru ar gyfer TAW
+vat.register_or_deregister.register_for_vat = Cofrestru ar gyfer TAW
+vat.register_or_deregister.you_must_register_for_vat_with_hmrc_ = Mae’n rhaid i chi gofrestru ar gyfer TAW gyda Chyllid a Thollau EM (CThEM) os yw trosiant trethadwy TAW eich busnes yn fwy nag £85,000.
+vat.register_or_deregister.when_you_register_ = Ar ôl cofrestru, bydd tystysgrif cofrestru TAW yn cael ei hanfon atoch. Mae’n cadarnhau’r canlynol:
+vat.register_or_deregister.your_vat_number = eich rhif TAW
+vat.register_or_deregister.when_to_submit_your_first_vat_return_and_payment = pryd i gyflwyno’ch Ffurflen TAW gyntaf a’ch taliad cyntaf
+vat.register_or_deregister.your_effective_date_of_registration_ = eich ’dyddiad y daw i rym’ ar gyfer eich cofrestriad - hwn yw’r dyddiad yr aethoch dros y trothwy, neu’r dyddiad y gwnaethoch ofyn i gofrestru os oedd yn wirfoddol
+vat.register_or_deregister.most_businesses_can = Gall y rhan fwyaf o fusnesau
+vat.register_or_deregister.register_online = gofrestru ar-lein
+vat.register_or_deregister.and_create_an_online_vat_account = a chreu cyfrif TAW ar-lein - gan gynnwys partneriaethau a grŵp o gwmnïau sy’n cofrestru o dan yr un rhif TAW.
+vat.register_or_deregister.deregister_for_vat = Dadgofrestru ar gyfer TAW
+vat.register_or_deregister.you_must = Mae’n rhaid i chi
+vat.register_or_deregister.cancel_your_registration = ganslo’ch cofrestriad
+vat.register_or_deregister.if_you_are_no_longer_eligible_ = os nad ydych bellach yn gymwys i fod wedi’ch cofrestru ar gyfer TAW. Er enghraifft:
+vat.register_or_deregister.you_stop_trading_or_ = rydych yn rhoi’r gorau i fasnachu neu’n rhoi’r gorau i wneud cyflenwadau trethadwy TAW
+vat.register_or_deregister.you_join_a_vat_group = ydych yn ymuno â grŵp TAW
+vat.register_or_deregister.you_must_cancel_within_30_days_ = Mae’n rhaid i chi ganslo cyn pen 30 diwrnod os ydych yn peidio â bod yn gymwys neu gallwch wynebu cosb.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 vat.questions_about_vat.title = Cysylltu â CThEM ynghylch TAW
