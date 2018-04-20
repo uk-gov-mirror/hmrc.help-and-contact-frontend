@@ -75,3 +75,131 @@ vat.questions_about_vat.address_line_3 = Southend-On-Sea
 vat.questions_about_vat.address_line_4 = SS99 1BD
 vat.questions_about_vat.address_line_5 = United Kingdom
 vat.questions_about_vat.online_enquiries = Online enquiries get faster replies.
+
+#######################################################
+##  Self Assessment
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ How to Pay your Self Assessment
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+howToPaySelfAssessment.title = How to pay your Self Assessment
+howToPaySelfAssessment.heading = How to pay your Self Assessment
+howToPaySelfAssessment.viewing.your.calculation = Viewing your calculation
+howToPaySelfAssessment.paying.your.sa.bill = Paying your Self Assessment tax bill
+howToPaySelfAssessment.penalties.appeals = Penalties and appeals
+howToPaySelfAssessment.appeal.against.penalty = Appeal against a penalty
+howToPaySelfAssessment.check.status.of.appeal = Check the status of an appeal
+howToPaySelfAssessment.further.help.with.penalties = Further help with penalties
+howToPaySelfAssessment.paragraph1 = HMRC’s online tax return automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, you can view your calculation.
+howToPaySelfAssessment.paragraph2 = This shows how your tax bill has been worked out. It shows your income, your personal allowance, the tax due, any class 4 and class 2 National Insurance contributions, and the payments that are due on 31 January 2018. You can print a copy of this for your own records.
+howToPaySelfAssessment.paragraph3 = The deadlines for paying are 31 January for a tax bill for the previous year and your first payment on account, and 31 July for your second payment on account. Make sure you pay HMRC on time. You will be charged interest and may have to pay a penalty if your payment is late. You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
+howToPaySelfAssessment.paragraph4 = If you are paying your bill the same or the next day you can use:
+howToPaySelfAssessment.paragraph5 = You need a paying-in slip from HMRC to pay at a bank or building society.
+howToPaySelfAssessment.paragraph6 = If you have longer to pay your bill you can use:
+howToPaySelfAssessment.paragraph7 = You’ll have a penalty showing on your account if you:
+howToPaySelfAssessment.paragraph8 = You can appeal if you have a ‘reasonable excuse’, for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.
+howToPaySelfAssessment.paragraph9 = You can’t appeal a penalty online or by phone. Find out more about
+howToPaySelfAssessment.paragraph10 = If you get your penalty notice by email from HMRC, you can either fill in
+howToPaySelfAssessment.paragraph11 = or write to HMRC, giving your reasons for appealing.
+howToPaySelfAssessment.paragraph12 = Send your form or letter to HMRC’s
+howToPaySelfAssessment.paragraph13 = You’ll need a breakdown of your
+howToPaySelfAssessment.paragraph14 = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
+howtoPaySelfAssessment.video.transcript = - video transcript
+howtoPaySelfAssessment.online.telephone.banking = online or telephone banking
+howtoPaySelfAssessment.faster.payments = (Faster Payments)
+howtoPaySelfAssessment.chaps = CHAPS
+howtoPaySelfAssessment.debit.credit.card.online = a debit or credit card online
+howtoPaySelfAssessment.bank.building.society = a bank or building society
+howtoPaySelfAssessment.bacs = Bacs
+howtoPaySelfAssessment.direct.debit = Direct Debit
+howtoPaySelfAssessment.cheque = Cheque by post
+howtoPaySelfAssessment.3.working.days = (3 working days)
+howtoPaySelfAssessment.3.working.days.already.setup = (3 working days if you already have one set up, 5 working days if you need to set one up)
+howtoPaySelfAssessment.budgeting.for.sa.bill = Budgeting for your Self Assessment tax bill
+howtoPaySelfAssessment.sent.tax.return.late = sent in your tax return late
+howtoPaySelfAssessment.paid.tax.late = paid tax late
+howtoPaySelfAssessment.did.not.pay.enough.tax = didn’t pay enough tax
+howtoPaySelfAssessment.reasonable.excuses = reasonable excuses
+howtoPaySelfAssessment.and = and
+howtoPaySelfAssessment.how.to.appeal = how to appeal
+howtoPaySelfAssessment.by.post = by post.
+howtoPaySelfAssessment.form.sa370 = form SA370
+howtoPaySelfAssessment.address.for.sa.enquiries = address for Self Assessment enquiries
+howtoPaySelfAssessment.penalties = penalties
+howtoPaySelfAssessment.interest = interest
+howtoPaySelfAssessment.self.assessment.penalties = Self Assessment penalties
+
+#######################################################
+##  Transcripts
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Viewing your self assessment calculation transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+viewingYourCalculationTranscript.title = Viewing your calculation - video transcript
+viewingYourCalculationTranscript.heading = Viewing your calculation - video transcript
+viewingYourCalculationTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+viewingYourCalculationTranscript.paragraph2 = When you use HMRC’s online tax return, it automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, you can view your calculation.
+viewingYourCalculationTranscript.paragraph3 = You will then see this screen. This shows the amount you’re due to pay for 2016-17. It includes Class 4 and Class 2 National Insurance, if any are due.
+viewingYourCalculationTranscript.paragraph4 = If you’re due to pay £1,000 or more, you also make a ‘payment on account’. A ‘payment on account’ is half of your previous year’s tax and class 4 National Insurance bill.
+viewingYourCalculationTranscript.paragraph5 = For 2016-17, your payment is due by 31 January 2018. You’ll make a second ‘payment on account’ in July 2018. But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2017-18 tax year on your Self Assessment statement when you complete the tax return next year. If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
+viewingYourCalculationTranscript.paragraph6 = You can then see exactly how your tax bill has been worked out. It shows your income, your personal allowance, the tax due, any class 4 National Insurance, class 2 National Insurance, and the payments that are due on 31 January 2018. You can print a copy of this for your own records.
+viewingYourCalculationTranscript.paragraph7 = You’ll find more help and support on GOV.UK.
+viewingYourCalculationTranscript.paragraph8 = Webinars and other videos about Self Assessment are available from HMRC.
+viewingYourCalculationTranscript.paragraph9 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Paying your self assessment tax bill transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+payingYourSelfAssessmentTaxBillTranscript.title = Paying your Self Assessment tax bill - video transcript
+payingYourSelfAssessmentTaxBillTranscript.heading = Paying your Self Assessment tax bill - video transcript
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = The term ‘tax bill’ refers to your bill for Income Tax and any Class 2 and class 4 National Insurance you may be due to pay.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = The deadlines for paying are 31 January for a tax bill for the previous year and your first payment on account, and 31 July for your second payment on account.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Make sure you pay HMRC on time. You’ll be charged interest and may have to pay a penalty if your payment is late. You don’t have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = As soon as you have filled in your tax return online, you can see your tax calculation and how much you are due to pay. For payments to reach HMRC on the same or next day, you should use any of these methods.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = You need a paying-in slip from HMRC to pay at a bank, building society or Post Office.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Please note that the Post Office service is being withdrawn from 15 December 2017, and you won’t be able to use a personal credit card from 13 January 2018.
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods.
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = When you first set up a direct debit, you need to allow 5 working days for payments to reach HMRC.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = If you prefer to pay regularly throughout the year, you can use a budget payment plan. The payment plan lets you decide how much to pay each week or month, and you can stop paying for up to 6 months too. Many people find they get used to making regular monthly payments. It can be quite a relief in January when they notice the reduction in the amount to be paid. Remember though, you have to pay any difference by the deadline.
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = You can view your HMRC online account to check if your payment’s been received – it should show as paid 4 to 7 working days later. 
+payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Online payment services may be slow at busy times. Check if there are any delays by referring to ‘service availability and issues’ on the GOV.UK website. But don’t wait until 31 January to do this!
+payingYourSelfAssessmentTaxBillTranscript.paragraph14 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Budgeting for your Self Assessment tax bill transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+budgetingYourSelfAssessmentTaxBillTranscript.title = Budgeting for your Self Assessment tax bill - video transcript
+budgetingYourSelfAssessmentTaxBillTranscript.heading = Budgeting for your Self Assessment tax bill - video transcript
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph2 = Why is it so important to budget for payments to HMRC early on? Well, HMRC wants you to pay the right tax, at the right time.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph3 = Depending on when you first start self-employment, it can be some time before you get your first tax bill. Added to that, if your bill for tax and class 4 National Insurance is over £1000, your first bill will be one and a half times what you owe as you also need to make a payment on account.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph4 = Don’t worry though as this is going towards next year’s tax bill. It’s really easy to budget for these payments as HMRC offers a ‘Ready Reckoner’ tool. Just search GOV.UK. When you get to this page click ‘start now’. Using the ‘Ready Reckoner’ tool is easy. Just enter an estimate of your self-employed profit for the month and it will give you an idea of what to put aside towards your tax and National Insurance bill. However, it’s important to be aware, that although it’ll give you an idea of what to pay, it only covers income from self-employment.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph5 = For example, some people stay in employment while they start their business just to see how things go. Once you know what you want to pay, go online and you can set up a budget payment plan via direct debit.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph6 = As long as you are up to date with previous Self Assessment payments, you can make regular payments in advance. It’s really flexible. You can stop paying if you want to. You need to remember though, that if you’ve not paid enough to cover your bill in full you’ll still need to pay the difference by the deadline. Budgeting helps with cash flow because you can see exactly how much is going out of the business at any time.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph7 = Because you have an idea of how your business is doing, you can also decide whether to reduce the payment on account. You’ll find more help and support on GOV.UK.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph8 = Webinars and other videos about Self Assessment are available from HMRC.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Self Assessment penalties transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+selfAssessmentPenaltiesTranscript.title = Self Assessment penalties - video transcript
+selfAssessmentPenaltiesTranscript.heading = Self Assessment penalties - video transcript
+selfAssessmentPenaltiesTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+selfAssessmentPenaltiesTranscript.paragraph2 = You may have heard there are penalties if your tax return is sent to HMRC late. You need to be aware that you should submit and pay your online tax return by 31 January.
+selfAssessmentPenaltiesTranscript.paragraph3 = You’ll usually be charged a penalty if you’re late.
+selfAssessmentPenaltiesTranscript.paragraph4 = Here’s how to find out more. Search GOV.UK for ‘Self Assessment tax returns’. And then select ‘penalties’. You’ll see that you’ll be charged a £100 penalty if your tax return is up to 3 months late, there’s also penalties if you pay your tax bill late.
+selfAssessmentPenaltiesTranscript.paragraph5 = Further penalties are added if you are more three months late with the return, or if you still haven’t paid. These can soon add up.
+selfAssessmentPenaltiesTranscript.paragraph6 = There’s a calculator to help you work out what the penalties might be. Select ‘Start now’, then choose the year and follow the steps through to get an estimate of what you could be charged in penalties.
+selfAssessmentPenaltiesTranscript.paragraph7 = For example, this is an estimate if your tax return for 2015-16 was submitted 6 months late, online on 31 July with the tax paid the same day.
+selfAssessmentPenaltiesTranscript.paragraph8 = Of course, you can avoid any penalties by doing your tax return and paying anything you owe well before 31 January.
+selfAssessmentPenaltiesTranscript.paragraph9 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return. This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this. You’ll find more help and support on GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph10 = Webinars and other videos about Self Assessment are available from HMRC.
+selfAssessmentPenaltiesTranscript.paragraph11 = Thanks for watching.
+
+

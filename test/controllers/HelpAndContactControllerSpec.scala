@@ -24,8 +24,10 @@ import play.api.test.Helpers._
 import play.twirl.api.{Html, HtmlFormat}
 import views.html.vat.{payments_and_deadlines, questions_about_vat}
 
-class HelpAndContactControllerSpec extends ControllerSpecBase {
+import views.html.vat.payments_and_deadlines
+import views.html.sa._
 
+class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
@@ -43,24 +45,28 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   "HelpAndContact Controller" must {
 
     "return 404 for a page that does not exist" in {
-      val result = controller().onPageLoad(VAT, "abcdefgh").apply(fakeRequest)
-      status(result) mustBe NOT_FOUND
+      HelpCategory.values.foreach { category =>
+        val result = controller().onPageLoad(category, "abcdefgh").apply(fakeRequest)
+        status(result) mustBe NOT_FOUND
+      }
     }
   }
-
 
   behave like pageRouter(
     HelpCategory.VAT,
     "how-to-pay",
     () => payments_and_deadlines(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
   behave like pageRouter(
     HelpCategory.VAT,
     "questions",
     () => questions_about_vat(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "how-to-pay",
+    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
-
-
-
-
