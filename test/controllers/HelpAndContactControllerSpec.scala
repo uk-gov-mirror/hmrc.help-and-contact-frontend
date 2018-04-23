@@ -19,13 +19,11 @@ package controllers
 import controllers.actions._
 import handlers.ErrorHandler
 import models.HelpCategory
-import models.HelpCategory.VAT
 import play.api.test.Helpers._
-import play.twirl.api.{Html, HtmlFormat}
-import views.html.vat.{payments_and_deadlines, questions_about_vat}
-
-import views.html.vat.payments_and_deadlines
+import play.twirl.api.HtmlFormat
 import views.html.sa._
+import views.html.sa.register_deregister
+import views.html.vat.{payments_and_deadlines, questions_about_vat}
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
@@ -56,6 +54,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.VAT,
     "how-to-pay",
     () => payments_and_deadlines(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "register-or-deregister",
+    () => register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(

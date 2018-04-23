@@ -16,10 +16,10 @@
 
 package controllers
 
-import javax.inject.Inject
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
+import javax.inject.Inject
 import models.HelpCategory
 import models.HelpCategory.{SelfAssessment, VAT}
 import models.requests.ServiceInfoRequest
@@ -55,6 +55,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
   private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
       case "how-to-pay" => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
+      case "register-or-deregister" => Ok(register_deregister(appConfig)(request.serviceInfoContent))
       case "help-with-return" => Ok(self_assessment_tax_return_check(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
