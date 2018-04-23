@@ -1,4 +1,4 @@
-/*
+@*
  * Copyright 2018 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,13 +12,11 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *@
 
-package controllers
+@(videoId: String)
 
-import uk.gov.hmrc.http.cache.client.CacheMap
-import base.SpecBase
-
-trait ControllerSpecBase extends SpecBase {
-
-}
+<div class="video-container">
+    <iframe src=@{s"http://www.youtube.com/embed/$videoId?autoplay=0&rel=0"} allowfullscreen="" frameborder="0">
+    </iframe>
+</div>

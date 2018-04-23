@@ -14,11 +14,22 @@
  * limitations under the License.
  */
 
-package controllers
+package models
 
-import uk.gov.hmrc.http.cache.client.CacheMap
-import base.SpecBase
+import play.api.mvc.JavascriptLiteral
+import utils.WithName
 
-trait ControllerSpecBase extends SpecBase {
+sealed trait HelpCategory
+object HelpCategory {
+  case object VAT extends WithName("vat") with HelpCategory
+  case object SelfAssessment extends WithName("self-assessment") with HelpCategory
 
+  val values = Seq(VAT, SelfAssessment)
+
+  implicit val jsLiteral: JavascriptLiteral[HelpCategory] = new JavascriptLiteral[HelpCategory] {
+    override def to(value: HelpCategory): String = value match {
+      case VAT => "VAT"
+      case SelfAssessment => "SelfAssessment"
+    }
+  }
 }

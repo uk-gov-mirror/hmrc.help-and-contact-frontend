@@ -59,12 +59,150 @@ vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = ychydig y
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob wlad yn yr UE wedi gosod isafswm a all gael ei ad-dalu
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Questions about VAT
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.questions_about_vat.title = Cysylltu â CThEM ynghylch TAW
+vat.questions_about_vat.heading = Cysylltu â CThEM ynghylch TAW
+vat.questions_about_vat.you_can = Gallwch
+vat.questions_about_vat.make_enquiry = wneud ymholiad ynghylch TAW ar-lein
+vat.questions_about_vat.or =  neu
+vat.questions_about_vat.call_us = drwy ein ffonio
+vat.questions_about_vat.send_long_questions = Anfonwch gwestiynau hir, neu gwestiynau gyda gwaith papur wedi’i atodi, drwy’r post i:
+vat.questions_about_vat.vat_enquiries_team = Cyllid a Thollau EM - Tîm Ymholiadau Ysgrifenedig TAW
+vat.questions_about_vat.address_line_1 = Alexander House
+vat.questions_about_vat.address_line_2 = 21 Victoria Avenue
+vat.questions_about_vat.address_line_3 = Southend-On-Sea
+vat.questions_about_vat.address_line_4 = SS99 1BD
+vat.questions_about_vat.address_line_5 = Y Deyrnas Unedig
+vat.questions_about_vat.online_enquiries = Cewch ateb cyflymach o anfon ymholiadau ar-lein.
+#######################################################
+##  SELF ASSESSMENT
+#######################################################
 
-########################################################################################################################
-### Self Assessment
-########################################################################################################################
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ How to pay your Self Assessment
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+howToPaySelfAssessment.title = Sut i dalu’ch Hunanasesiad
+howToPaySelfAssessment.heading = Sut i dalu’ch Hunanasesiad
+howToPaySelfAssessment.viewing.your.calculation = Bwrw golwg ar eich cyfrifiad
+howToPaySelfAssessment.paying.your.sa.bill = Talu’ch bil treth Hunanasesiad
+howToPaySelfAssessment.penalties.appeals = Cosbau ac apeliadau
+howToPaySelfAssessment.appeal.against.penalty = Apelio yn erbyn cosb
+howToPaySelfAssessment.check.status.of.appeal = Gwirio statws apêl
+howToPaySelfAssessment.further.help.with.penalties = Help pellach gyda chosbau
+howToPaySelfAssessment.paragraph1 = Mae Ffurflen Dreth ar-lein CThEM yn cyfrifo’n awtomatig yr hyn sydd angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg ar eich cyfrifiad.
+howToPaySelfAssessment.paragraph2 = Mae hyn yn dangos sut mae’ch bil treth wedi’i gyfrifo. Mae’n dangos eich incwm, eich lwfans personol, y dreth sy’n ddyledus, unrhyw gyfraniadau Yswiriant Gwladol Dosbarth 4 a Dosbarth 2, a’r taliadau sy’n ddyledus ar 31 Ionawr 2018. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
+howToPaySelfAssessment.paragraph3 = Y dyddiad cau i dalu bil treth ar gyfer y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif yw 31 Ionawr, a’r dyddiad cau i dalu eich ail daliad ar gyfrif yw 31 Gorffennaf. Gwnewch yn siŵr eich bod yn talu CThEM ar amser. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb. Nid oes rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i’w dalu. Os gwnewch hyn, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
+howToPaySelfAssessment.paragraph4 = Os ydych yn talu’ch bil yr un diwrnod neu’r diwrnod nesaf, gallwch ddefnyddio:
+howToPaySelfAssessment.paragraph5 = Mae angen i chi gael slip talu oddi wrth CThEM er mwyn talu mewn banc neu gymdeithas adeiladu.
+howToPaySelfAssessment.paragraph6 = Os oes gennych fwy o amser i dalu’ch bil, gallwch ddefnyddio:
+howToPaySelfAssessment.paragraph7 = Bydd cosb i’w gweld ar eich cyfrif os:
+howToPaySelfAssessment.paragraph8 = Gallwch apelio os oes gennych ‘esgus rhesymol’, er enghraifft os bu rhaid i chi aros yn yr ysbyty, a hynny’n annisgwyl. Mae’n rhaid i chi apelio cyn pen 30 diwrnod o’r dyddiad yr anfonwyd y gosb atoch.
+howToPaySelfAssessment.paragraph9 = Ni allwch apelio yn erbyn cosb ar-lein neu dros y ffôn. Rhagor o wybodaeth am
+howToPaySelfAssessment.paragraph10 = Os ydych yn cael hysbysiad o gosb drwy e-bost gan CThEM, gallwch naill ai lenwi
+howToPaySelfAssessment.paragraph11 = neu ysgrifennu at CThEM, gan roi’ch rhesymau dros apelio.
+howToPaySelfAssessment.paragraph12 = Anfonwch eich ffurflen neu lythyr i gyfeiriad CThEM
+howToPaySelfAssessment.paragraph13 = Bydd angen dadansoddiad arnoch o’ch
+howToPaySelfAssessment.paragraph14 = Bydd CThEM yn anfon manylion cyswllt y swyddfa sy’n delio â’ch achos atoch cyn pen 15 diwrnod ar ôl i’ch apêl ddod i law.
+howtoPaySelfAssessment.video.transcript = - trawsgrifiad fideo
+howtoPaySelfAssessment.online.telephone.banking = bancio ar-lein neu dros y ffôn
+howtoPaySelfAssessment.faster.payments = (Taliadau Cyflymach)
+howtoPaySelfAssessment.chaps = CHAPS
+howtoPaySelfAssessment.debit.credit.card.online = cerdyn debyd neu gredyd ar-lein
+howtoPaySelfAssessment.bank.building.society = banc neu gymdeithas adeiladu
+howtoPaySelfAssessment.bacs = Bacs
+howtoPaySelfAssessment.direct.debit = Debyd Uniongyrchol
+howtoPaySelfAssessment.cheque = Siec drwy’r post
+howtoPaySelfAssessment.3.working.days = (3 diwrnod gwaith)
+howtoPaySelfAssessment.3.working.days.already.setup = (3 diwrnod gwaith os oes gennych un eisoes wedi’i drefnu, 5 diwrnod gwaith os oes angen i chi drefnu un newydd)
+howtoPaySelfAssessment.budgeting.for.sa.bill = Cyllido ar gyfer eich bil treth Hunanasesiad
+howtoPaySelfAssessment.sent.tax.return.late = ydych wedi cyflwyno’ch Ffurflen Dreth yn hwyr
+howtoPaySelfAssessment.paid.tax.late = ydych wedi talu’ch treth yn hwyr
+howtoPaySelfAssessment.did.not.pay.enough.tax = nad ydych wedi talu digon o dreth
+howtoPaySelfAssessment.reasonable.excuses = esgusodion rhesymol
+howtoPaySelfAssessment.and = a
+howtoPaySelfAssessment.how.to.appeal = sut i apelio
+howtoPaySelfAssessment.by.post = drwy’r post.
+howtoPaySelfAssessment.form.sa370 = ffurflen SA370
+howtoPaySelfAssessment.address.for.sa.enquiries = ar gyfer ymholiadau Hunanasesiad
+howtoPaySelfAssessment.penalties = cosbau
+howtoPaySelfAssessment.interest = llog
+howtoPaySelfAssessment.self.assessment.penalties = Cosbau Hunanasesiad
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tax Return Check
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.tax_return_check.title = How to pay VAT and deadlines
+
+#######################################################
+##  Transcripts
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Viewing your self assessment calculation transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+viewingYourCalculationTranscript.title = Bwrw golwg ar eich cyfrifiad -trawsgrifiad fideo
+viewingYourCalculationTranscript.heading = Bwrw golwg ar eich cyfrifiad - trawsgrifiad fideo
+viewingYourCalculationTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+viewingYourCalculationTranscript.paragraph2 = Pan fyddwch yn defnyddio Ffurflen Dreth ar-lein CThEM, mae’n cyfrifo’n awtomatig faint y mae angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg ar eich cyfrifiad.
+viewingYourCalculationTranscript.paragraph3 = Yna fe welwch y sgrin hon. Mae’r sgrin hon yn dangos y swm sydd angen i chi ei dalu ar gyfer 2016-17. Mae’n cynnwys unrhyw Yswiriant Gwladol Dosbarth 4 a Dosbarth 2 sy’n ddyledus.
+viewingYourCalculationTranscript.paragraph4 = Os oes angen i chi dalu £1,000 neu fwy, byddwch hefyd yn gwneud ‘taliad ar gyfrif’. Mae ‘taliad ar gyfrif’ yn werth hanner eich bil treth ac Yswiriant Gwladol Dosbarth 4 ar gyfer y flwyddyn flaenorol.
+viewingYourCalculationTranscript.paragraph5 = Ar gyfer 2016-17, bydd eich taliad yn ddyledus erbyn 31 Ionawr 2018. Byddwch yn gwneud ail ‘daliad ar gyfrif’ ym mis Gorffennaf 2018. Ond peidiwch â phoeni, bydd y taliadau hyn ar gyfrif yn cael eu tynnu o’r swm y bydd angen i chi ei dalu am y flwyddyn dreth 2017-18 ar eich datganiad Hunanasesiad pan fyddwch yn llenwi’r Ffurflen Dreth y flwyddyn nesaf. Os hoffech weld sut mae’r ffigyrau wedi’u cyfrifo mewn mwy o fanylder, dewiswch ‘Gweld ac argraffu’ch cyfrifiad llawn’.
+viewingYourCalculationTranscript.paragraph6 = Yna, gallwch weld yn union sut mae’ch bil treth wedi’i chyfrifo. Mae’n dangos eich incwm, eich lwfans personol, y dreth sy’n ddyledus, unrhyw Yswiriant Gwladol Dosbarth 4, Yswiriant Gwladol Dosbarth 2, a’r taliadau sy’n ddyledus ar 31 Ionawr 2018. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
+viewingYourCalculationTranscript.paragraph7 = Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
+viewingYourCalculationTranscript.paragraph8 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+viewingYourCalculationTranscript.paragraph9 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Paying your self assessment tax bill transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae’r term ‘bil treth’ yn cyfeirio at eich bil ar gyfer Treth Incwm ac unrhyw Yswiriant Gwladol Dosbarth 2 a Dosbarth 4 efallai y bydd yn rhaid i chi ei dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Y dyddiad cau i dalu bil treth ar gyfer y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif yw 31 Ionawr, a’r dyddiad cau i dalu eich ail daliad ar gyfrif yw 31 Gorffennaf.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Gwnewch yn siŵr eich bod yn talu CThEM mewn pryd. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb. Nid oes rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i’w dalu. Os gwnewch hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = Cyn gynted ag y byddwch wedi llenwi’ch Ffurflen Dreth ar-lein, gallwch weld eich cyfrifiad treth a faint sydd arnoch i’w dalu. Er mwyn i daliadau gyrraedd CThEM ar yr un diwrnod neu’r diwrnod canlynol, dylech ddefnyddio un o’r dulliau hyn.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = Mae angen i chi gael slip talu oddi wrth CThEM er mwyn talu mewn banc, cymdeithas adeiladu neu Swyddfa’ Post.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Sylwer bod gwasanaeth Swyddfa’r Post yn cael ei dynnu’n ôl o 15 Rhagfyr 2017 ymlaen, ac ni chewch ddefnyddio cerdyn credyd personol o 13 Ionawr 2018 ymlaen.
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Os oes gennych amser i ganiatáu 3 diwrnod gwaith i’ch taliad gyrraedd CThEM, gallwch ddefnyddio un o’r dulliau hyn.
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Os ydych yn talu drwy’r post, gallwch gynnwys llythyr â’ch taliad er mwyn gofyn am dderbynneb oddi wrth CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Pan fyddwch yn sefydlu debyd uniongyrchol y tro cyntaf, mae angen i chi ganiatáu 5 diwrnod gwaith i’r taliadau gyrraedd CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol. Mae’r cynllun talu yn gadael i chi benderfynu faint i’w dalu bob wythnos neu fis, a gallwch roi’r gorau i dalu am hyd at 6 mis hefyd. Mae gwneud taliadau misol yn dod yn ail natur i lawer o bobl. Mae llawer yn gwerthfawrogi’r gostyngiad yn y swm i’w dalu ym mis Ionawr. Cofiwch, mae’n rhaid i chi dalu unrhyw wahaniaeth erbyn y dyddiad cau.
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Gallwch fwrw golwg ar eich cyfrif ar-lein gyda CThEM i wirio os yw’ch taliad wedi dod i law - dylai ddangos wedi ei dalu 4 i 7 diwrnod gwaith yn ddiweddarach.
+payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Gall gwasanaethau talu ar-lein fod yn araf yn ystod adegau prysur. Gwiriwch a oes unrhyw oedi drwy gyfeirio at argaeledd y gwasanaeth a phroblemau ar wefan GOV.UK. Ond peidiwch ag aros tan 31 Ionawr i wneud hynny!
+payingYourSelfAssessmentTaxBillTranscript.paragraph14 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Budgeting for your Self Assessment tax bill transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+budgetingYourSelfAssessmentTaxBillTranscript.title = Cyllido ar gyfer eich bil treth Hunanasesiad - trawsgrifiad fideo
+budgetingYourSelfAssessmentTaxBillTranscript.heading = Cyllido ar gyfer eich bil treth Hunanasesiad - trawsgrifiad fideo
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph2 = Pam ei bod mor bwysig gyllidebu ymlaen llaw ar gyfer taliadau i CThEM? Wel, mae CThEM am i chi dalu’r dreth gywir, ar yr adeg gywir.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph3 = Yn dibynnu ar pryd y byddwch yn dechrau hunangyflogaeth, gall fod peth amser cyn i chi gael eich bil treth cyntaf. Yn ogystal, os yw’ch bil ar gyfer treth ac Yswiriant Gwladol Dosbarth 4 yn fwy na £1000, bydd eich bil cyntaf yn un a hanner gwaith yn fwy na’r hyn sydd arnoch gan y bydd angen i chi hefyd wneud taliad ar gyfrif.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph4 = Peidiwch â phoeni, bydd hyn yn mynd tuag at fil treth y flwyddyn nesaf. Mae’n hawdd iawn cyllidebu ar gyfer y taliadau hyn gan fod CThEM yn cynnig twlsyn ‘Cyfrifydd Parod’. Chwiliwch ar GOV.UK. Pan gyrhaeddwch y dudalen hon, cliciwch ar ‘Dechrau nawr’. Mae’n hawdd defnyddio’r twlsyn ‘Cyfrifydd Parod’. Rhowch amcangyfrif o’ch elw hunangyflogedig am y mis, a bydd yn rhoi syniad i chi o’r swm y dylech ei roi o’r neilltu tuag at eich bil treth ac Yswiriant Gwladol. Fodd bynnag, er y bydd yn rhoi syniad i chi o’r hyn sydd i’w dalu, mae’n bwysig bod yn ymwybodol mai dim ond incwm o hunangyflogaeth sydd dan sylw.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph5 = Er enghraifft, mae rhai pobl yn aros mewn gwaith tra byddant yn dechrau eu busnes i weld sut mae pethau’n mynd. Ar ôl i chi wybod beth rydych am ei dalu, ewch ar-lein i drefnu cynllun talu cyllidebol drwy ddebyd uniongyrchol.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph6 = Cyn belled â’ch bod wedi gwneud pob taliad Hunanasesiad blaenorol, gallwch wneud taliadau rheolaidd ymlaen llaw. Mae wir yn hyblyg. Gallwch roi’r gorau i dalu unrhyw bryd. Er hynny, cadwch mewn cof y bydd angen i chi dalu’r gwahaniaeth erbyn y dyddiad cau os na fyddwch wedi talu digon i dalu’ch bil yn llawn. Mae cyllidebu’n helpu gyda llif arian oherwydd gallwch weld faint yn union sy’n mynd allan o’r busnes ar unrhyw adeg.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gan fod gennych syniad o sut mae’ch busnes yn dod yn ei flaen, gallwch hefyd benderfynu a ddylech leihau’ch taliad ar gyfrif. Cewch ragor o help a chefnogaeth ar GOV.UK.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph8 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Self Assessment penalties transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+selfAssessmentPenaltiesTranscript.title = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.heading = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+selfAssessmentPenaltiesTranscript.paragraph2 = Efallai eich bod wedi clywed y gallwch wynebu cosb o anfon eich Ffurflen Dreth i CThEM yn hwyr. Cofiwch y dylech gyflwyno a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph3 = Fel arfer, codir cosb arnoch os ydych yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph4 = Dyma sut i gael gwybod rhagor. Chwiliwch ar GOV.UK am ‘Ffurflenni Treth Hunanasesiad’. Ac yna dewiswch ‘cosbau’. Fe welwch y codir cosb o £100 arnoch os yw’ch Ffurflen Dreth hyd at 3 mis yn hwyr. Mae cosbau hefyd os ydych yn talu’ch bil treth yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph5 = Ychwanegir cosbau pellach os ydych yn anfon y Ffurflen Dreth fwy na 3 mis yn hwyr, neu os ydych yn dal i fod heb dalu. Gall y rhain gynyddu’n fuan.
+selfAssessmentPenaltiesTranscript.paragraph6 = Mae cyfrifiannell ar gael i’ch helpu i gyfrifo’r cosbau posibl. Dewiswch ‘Dechrau nawr’, yna dewiswch y flwyddyn a dilynwch y camau i gael amcangyfrif o’r cosbau posibl a allai gael eu codi arnoch.
+selfAssessmentPenaltiesTranscript.paragraph7 = Er enghraifft, dyma amcangyfrif os cafodd eich Ffurflen Dreth ar gyfer 2015-16 ei chyflwyno ar-lein 6 mis yn hwyr ar 31 Gorffennaf, gyda’r dreth wedi’i thalu ar yr un diwrnod.
+selfAssessmentPenaltiesTranscript.paragraph8 = Wrth gwrs, gallwch osgoi unrhyw gosbau drwy lenwi’ch Ffurflen Dreth a thalu unrhyw beth sy’n ddyledus gennych ymhell cyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph9 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y bydd gwneud camgymeriad ar y Ffurflen Dreth yn arwain at gosb. Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir yn eich helpu i lenwi’ch Ffurflen Dreth ac i osgoi hyn. Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph10 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+selfAssessmentPenaltiesTranscript.paragraph11 = Diolch am wylio.
