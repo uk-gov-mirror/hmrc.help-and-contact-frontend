@@ -22,7 +22,7 @@ import handlers.ErrorHandler
 import javax.inject.Inject
 import models.HelpCategory
 import models.HelpCategory.{SelfAssessment, VAT}
-import models.requests.ServiceInfoRequest
+import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
