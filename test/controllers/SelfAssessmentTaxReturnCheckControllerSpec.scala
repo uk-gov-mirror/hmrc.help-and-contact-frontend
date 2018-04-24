@@ -19,7 +19,7 @@ package controllers
 import controllers.actions._
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
-import views.html.selfAssessment.self_assessment_tax_return_check
+import views.html.sa.self_assessment_tax_return_check
 
 class SelfAssessmentTaxReturnCheckControllerSpec extends ControllerSpecBase {
 

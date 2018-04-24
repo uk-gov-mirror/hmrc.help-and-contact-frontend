@@ -162,7 +162,14 @@ self_assessment.register_deregister.classtwo_ni = Bydd CThEM hefyd yn canslo’c
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tax Return Check
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.tax_return_check.title = How to pay VAT and deadlines
+self_assessment.tax_return_check.title = Help gyda Ffurflen Dreth Hunanasesiad
+self_assessment.tax_return_check.heading = Help gyda Ffurflen Dreth Hunanasesiad
+self_assessment.tax_return_check.who_must_send = Pwy sydd rhaid anfon Ffurflen Dreth?
+self_assessment.tax_return_check.why_have_i_been = Why have I been sent a tax return - video transcript
+self_assessment.tax_return_check.you_will_usually = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig.
+self_assessment.tax_return_check.you_can_anonymously = Gallwch wirio a oes rhaid i chi lenwi Ffurflen Dreth Hunanasesiad.
+self_assessment.tax_return_check.it_is_not_connected = Nid yw’n gysylltiedig â gwasanaethau ar-lein Cyllid a Thollau EM felly mae’n gwbl ddienw.
+self_assessment.tax_return_check.if_you_are_sent = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny - hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os nad ydych yn anfon Ffurflen Dreth yn ôl erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb. Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad. Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig.
 
 #######################################################
 ##  Transcripts

@@ -19,9 +19,17 @@
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(
-    title = messages("sa.tax_return_check.title"),
+    title = messages("self_assessment.tax_return_check.title"),
     appConfig = appConfig,
     bodyClasses = None,
     serviceInfoContent = serviceInfoContent) {
+
+    <h1 class="heading-xlarge">@Messages("self_assessment.tax_return_check.heading")</h1>
+    <h2 class="heading-large-macro">@Messages("self_assessment.tax_return_check.who_must_send")</h2>
+    <p>@Messages("self_assessment.tax_return_check.why_have_i_been")</p>
+    <p>@Messages("self_assessment.tax_return_check.you_will_usually")</p>
+    <p>@Messages("self_assessment.tax_return_check.you_can_anonymously")</p>
+    <p>@Messages("self_assessment.tax_return_check.it_is_not_connected")</p>
+    <p>@Messages("self_assessment.tax_return_check.if_you_are_sent")</p>
 
 }

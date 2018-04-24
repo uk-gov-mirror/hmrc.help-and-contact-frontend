@@ -27,7 +27,6 @@ import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
 import views.html.sa._
-import views.html.selfAssessment.self_assessment_tax_return_check
 import views.html.vat.{payments_and_deadlines, questions_about_vat}
 
 class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
