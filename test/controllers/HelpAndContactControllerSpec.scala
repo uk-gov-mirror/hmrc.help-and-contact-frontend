@@ -73,4 +73,10 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "how-to-pay",
     () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "help-with-return",
+    () => self_assessment_tax_return_check(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }

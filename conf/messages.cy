@@ -165,11 +165,27 @@ self_assessment.register_deregister.classtwo_ni = Bydd CThEM hefyd yn canslo’c
 self_assessment.tax_return_check.title = Help gyda Ffurflen Dreth Hunanasesiad
 self_assessment.tax_return_check.heading = Help gyda Ffurflen Dreth Hunanasesiad
 self_assessment.tax_return_check.who_must_send = Pwy sydd rhaid anfon Ffurflen Dreth?
-self_assessment.tax_return_check.why_have_i_been = Why have I been sent a tax return - video transcript
+self_assessment.tax_return_check.your_first_self_assessment = Eich Ffurflen Dreth Hunanasesiad gyntaf
+self_assessment.tax_return_check.why_have_i_been = Pam yr ydwyf wedi cael Ffurflen Dreth
+self_assessment.tax_return_check.tailor_your_return = Teilwra’ch Ffurflen Dreth
+self_assessment.tax_return_check.your_self_employed_return = Eich Ffurflen Dreth Hunangyflogaeth
+self_assessment.tax_return_check.your_income_from_property_return = Eich Ffurflen Dreth Incwm o Eiddo
+self_assessment.tax_return_check.video_transcript = - trawsgrifiad fideo
 self_assessment.tax_return_check.you_will_usually = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig.
-self_assessment.tax_return_check.you_can_anonymously = Gallwch wirio a oes rhaid i chi lenwi Ffurflen Dreth Hunanasesiad.
-self_assessment.tax_return_check.it_is_not_connected = Nid yw’n gysylltiedig â gwasanaethau ar-lein Cyllid a Thollau EM felly mae’n gwbl ddienw.
+self_assessment.tax_return_check.you_can_anonymously = Gallwch chi ddienw
+self_assessment.tax_return_check.check_if_you = wirio a oes rhaid i chi lenwi Ffurflen Dreth Hunanasesiad
 self_assessment.tax_return_check.if_you_are_sent = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny - hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os nad ydych yn anfon Ffurflen Dreth yn ôl erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb. Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad. Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig.
+self_assessment.tax_return_check.self_assessment_is_a = Mae Hunanasesiad yn system y mae Cyllid a Thollau EM (CThEM) yn ei defnyddio i gasglu Treth Incwm.
+self_assessment.tax_return_check.tax_is_usually = Fel arfer, didynnir treth yn awtomatig o gyflogau, pensiynau a chynilion. Mae’n rhaid i bobl a busnesau ag incwm arall roi gwybod amdano mewn Ffurflen Dreth.
+self_assessment.tax_return_check.self_assessment_is_not = Nid yw Hunanasesiad ar gyfer pobl hunangyflogedig yn unig. Rhaid i bawb sy’n gorfod llenwi Ffurflen Dreth wneud hynny, hyd yn oed os nad oes unrhyw beth i’w dalu. Efallai y codir cosb arnoch os na wnewch hyn.
+self_assessment.tax_return_check.if_you_need_to = Os oes angen i chi anfon un, rydych yn ei llenwi ar ôl diwedd y flwyddyn dreth (5 Ebrill) y mae’n gymwys ar ei chyfer.
+self_assessment.tax_return_check.if_you_did_not = Os na wnaethoch anfon Ffurflen Dreth ar-lein y llynedd, dylech ganiatáu amser ychwanegol (hyd at 20 diwrnod gwaith) gan y bydd angen i chi gofrestru yn gyntaf.
+self_assessment.tax_return_check.you_will_tailor = Byddwch yn teilwra’ch Ffurflen Dreth ar y 3 tudalen gyntaf. Defnyddiwch yr adran hon i roi gwybod i ni am eich gwahanol fathau o incwm, cyflogaeth a hunangyflogaeth fel eich bod ond yn gweld y rhannau o’r Ffurflen Dreth sydd eu hangen arnoch.
+self_assessment.tax_return_check.if_you_started = Os dechreuoch hunangyflogaeth neu y gwnaethoch roi’r gorau iddi yn ystod y flwyddyn, mae’n bwysig nodi’r dyddiadau fel y gall CThEM ddiweddaru’ch cofnodion.
+self_assessment.tax_return_check.did_not_trade = Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny a byddai’ch incwm wedi bod dros £83,000, eich ateb yw “Iawn”. Er enghraifft: Pe bai incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
+self_assessment.tax_return_check.do_not_fill = Peidiwch â llenwi’r adran hon os ydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Mae hynny’n cael ei ystyried yn hunangyflogaeth a dylech lenwi’r adran honno.
+self_assessment.tax_return_check.if_your_property = Os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd, llenwch yr adran Dramor.
+self_assessment.tax_return_check.if_from_partnership = Os oedd eich incwm o eiddo yn dod o bartneriaeth, llenwch adran y Bartneriaeth.
 
 #######################################################
 ##  Transcripts

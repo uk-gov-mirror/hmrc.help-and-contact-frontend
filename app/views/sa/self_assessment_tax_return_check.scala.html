@@ -24,12 +24,73 @@
     bodyClasses = None,
     serviceInfoContent = serviceInfoContent) {
 
-    <h1 class="heading-xlarge">@Messages("self_assessment.tax_return_check.heading")</h1>
-    <h2 class="heading-large-macro">@Messages("self_assessment.tax_return_check.who_must_send")</h2>
-    <p>@Messages("self_assessment.tax_return_check.why_have_i_been")</p>
+    @components.heading("self_assessment.tax_return_check.heading", "heading-xlarge")
+
+    <h2>@Messages("self_assessment.tax_return_check.who_must_send")</h2>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"))
+
+    <p>@Messages("self_assessment.tax_return_check.why_have_i_been")
+        @messages("self_assessment.tax_return_check.video_transcript")</p>
+
     <p>@Messages("self_assessment.tax_return_check.you_will_usually")</p>
-    <p>@Messages("self_assessment.tax_return_check.you_can_anonymously")</p>
-    <p>@Messages("self_assessment.tax_return_check.it_is_not_connected")</p>
+
+    <p>@Messages("self_assessment.tax_return_check.you_can_anonymously")
+        <a id="check-if-you"
+        href="@appConfig.getGovUrl("CheckIfYouNeedToSelfAssessment")"
+        data-journey-click="HelpWithSa:click:CheckIfYouNeedToSelfAssessment">
+        @messages("self_assessment.tax_return_check.check_if_you")</a>.
+    </p>
+
     <p>@Messages("self_assessment.tax_return_check.if_you_are_sent")</p>
 
+    <h2>@messages("self_assessment.tax_return_check.your_first_self_assessment")</h2>
+
+    <p>@messages("self_assessment.tax_return_check.self_assessment_is_a")</p>
+
+    <p>@messages("self_assessment.tax_return_check.tax_is_usually")</p>
+
+    <p>@messages("self_assessment.tax_return_check.self_assessment_is_not")</p>
+
+    <p>@messages("self_assessment.tax_return_check.if_you_need_to")</p>
+
+    <p>@messages("self_assessment.tax_return_check.if_you_did_not")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"))
+
+    <p>@messages("self_assessment.tax_return_check.your_first_self_assessment")
+    @messages("self_assessment.tax_return_check.video_transcript")</p>
+
+    <h2>@messages("self_assessment.tax_return_check.tailor_your_return")</h2>
+
+    <p>@messages("self_assessment.tax_return_check.you_will_tailor")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"))
+
+    <p>@messages("self_assessment.tax_return_check.tailor_your_return")
+        @messages("self_assessment.tax_return_check.video_transcript")</p>
+
+    <h2>@messages("self_assessment.tax_return_check.your_self_employed_return")</h2>
+
+    <p>@messages("self_assessment.tax_return_check.if_you_started")</p>
+
+    <p>@messages("self_assessment.tax_return_check.did_not_trade")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"))
+
+    <p>@messages("self_assessment.tax_return_check.your_self_employed_return")
+        @messages("self_assessment.tax_return_check.video_transcript")</p>
+
+    <h2>@messages("self_assessment.tax_return_check.your_income_from_property_return")</h2>
+
+    <p>@messages("self_assessment.tax_return_check.do_not_fill")</p>
+
+    <p>@messages("self_assessment.tax_return_check.if_your_property")</p>
+
+    <p>@messages("self_assessment.tax_return_check.if_from_partnership")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"))
+
+    <p>@messages("self_assessment.tax_return_check.your_income_from_property_return")
+        @messages("self_assessment.tax_return_check.video_transcript")</p>
 }
