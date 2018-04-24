@@ -59,6 +59,27 @@ vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU c
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Register or Deregister
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.register_or_deregister.heading = Register or deregister for VAT
+vat.register_or_deregister.register_for_vat = Register for VAT
+vat.register_or_deregister.deregister_for_vat = Deregister for VAT
+vat.register_or_deregister.you_must_register_for_vat_with_hmrc_ = You must register for VAT with HM Revenue and Customs (HMRC) if your business’ VAT taxable turnover is more than £85,000 a year.
+vat.register_or_deregister.when_you_register_ = When you register, you will be sent a VAT registration certificate. This confirms:
+vat.register_or_deregister.your_vat_number = your VAT number
+vat.register_or_deregister.when_to_submit_your_first_vat_return_and_payment = when to submit your first VAT Return and payment
+vat.register_or_deregister.your_effective_date_of_registration_ = your ‘effective date of registration’ - this is the date you went over the threshold, or the date you asked to register if it was voluntary
+vat.register_or_deregister.most_businesses_can = Most businesses can
+vat.register_or_deregister.register_online = register online
+vat.register_or_deregister.and_create_an_online_vat_account = and create an online VAT account - including partnerships and a group of companies registering under one VAT number.
+vat.register_or_deregister.you_must = You must
+vat.register_or_deregister.cancel_your_registration = cancel your registration
+vat.register_or_deregister.if_you_are_no_longer_eligible_ = if you are no longer eligible to be VAT registered. For example:
+vat.register_or_deregister.you_stop_trading_or_ = you stop trading or making VAT taxable supplies
+vat.register_or_deregister.you_join_a_vat_group = you join a VAT group
+vat.register_or_deregister.you_must_cancel_within_30_days_ = You must cancel within 30 days if you stop being eligible or you may be charged a penalty.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 vat.questions_about_vat.title = Contact HMRC about VAT
