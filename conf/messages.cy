@@ -62,6 +62,7 @@ vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch bus
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.register_or_deregister.title = Cofrestru neu ddadgofrestru ar gyfer TAW
 vat.register_or_deregister.heading = Cofrestru neu ddadgofrestru ar gyfer TAW
 vat.register_or_deregister.register_for_vat = Cofrestru ar gyfer TAW
 vat.register_or_deregister.you_must_register_for_vat_with_hmrc_ = Mae’n rhaid i chi gofrestru ar gyfer TAW gyda Chyllid a Thollau EM (CThEM) os yw trosiant trethadwy TAW eich busnes yn fwy nag £85,000.
