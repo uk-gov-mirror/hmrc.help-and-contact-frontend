@@ -282,7 +282,7 @@ selfAssessmentPenaltiesTranscript.paragraph10 = Webinars and other videos about 
 selfAssessmentPenaltiesTranscript.paragraph11 = Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Why have I been sent a tax return
+#~~ Why have I been sent a tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 whySentTaxReturnTranscript.title = Why have I been sent a tax return - video transcript
 whySentTaxReturnTranscript.heading = Why have I been sent a tax return - video transcript
@@ -294,7 +294,7 @@ whySentTaxReturnTranscript.paragraph5 = You must also tell HMRC if you’ve stop
 whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Your first Self Assessment tax return
+#~~ Your first Self Assessment tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 yourFirstTaxReturnTranscript.title = Your first Self Assessment tax return - video transcript
 yourFirstTaxReturnTranscript.heading = Your first Self Assessment tax return - video transcript
