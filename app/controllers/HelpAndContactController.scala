@@ -50,7 +50,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     page match {
       case "how-to-pay"          => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
       case "questions"           => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
-      case "register-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
+      case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
       case _                     => NotFound(errorHandler.notFoundTemplate)
     }
   }

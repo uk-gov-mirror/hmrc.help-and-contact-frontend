@@ -25,7 +25,7 @@ import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
 import views.html.sa.{how_to_pay_self_assessment, register_deregister, _}
-import views.html.vat.{payments_and_deadlines, questions_about_vat}
+import views.html.vat.{payments_and_deadlines, questions_about_vat, _}
 
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
@@ -76,6 +76,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.VAT,
     "questions",
     () => questions_about_vat(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.VAT,
+    "register-or-deregister",
+    () => register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
