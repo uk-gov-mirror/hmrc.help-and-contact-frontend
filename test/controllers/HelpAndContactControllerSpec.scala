@@ -20,19 +20,33 @@ import controllers.actions._
 import handlers.ErrorHandler
 import models.HelpCategory
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
+import play.api.mvc.AnyContentAsEmpty
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
-import views.html.sa.{how_to_pay_self_assessment, register_deregister}
+import uk.gov.hmrc.domain.SaUtr
+import views.html.sa.{how_to_pay_self_assessment, register_deregister, _}
 import views.html.vat.{payments_and_deadlines, questions_about_vat}
+
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
-  val fakeServiceInfoRequest = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, None), HtmlFormat.empty)
+  def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr), HtmlFormat.empty)
 
   def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
       s"display the correct $helpCategory view for /$page" in {
         val result = controller().onPageLoad(helpCategory, page).apply(fakeRequest)
+        status(result) mustBe OK
+        contentAsString(result) mustBe view().toString
+      }
+    }
+  }
+
+  def pageRouterWithEnrolments(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable,
+                 requestToApply: ServiceInfoRequest[AnyContentAsEmpty.type], controller: HelpAndContactController) = {
+    "HelpAndContactController onPageLoad" must {
+      s"display the correct $helpCategory view for /$page" in {
+        val result = controller.onPageLoad(helpCategory, page)(requestToApply)
         status(result) mustBe OK
         contentAsString(result) mustBe view().toString
       }
@@ -73,6 +87,39 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   behave like pageRouter(
     HelpCategory.SelfAssessment,
     "how-to-pay",
-    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest, messages)
+    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
+
+  "behave appropriately for enrolments" when {
+    "the user has no enrolments" must {
+      behave like pageRouterWithEnrolments(
+        HelpCategory.SelfAssessment,
+        "evidence-of-income",
+        () => sa_evidence(frontendAppConfig, false, "http://localhost:9020/business-account/self-assessment")
+          (HtmlFormat.empty)
+          (fakeServiceInfoRequest(), messages),
+        fakeServiceInfoRequest(),
+        controller()
+      )
+    }
+
+    "the user has an SA enrolment" must {
+
+      val testUtr = Some(SaUtr("testUtr"))
+      def controllerWithEnrolment() =
+        new HelpAndContactController(frontendAppConfig, messagesApi, FakeAuthActionWithSaEnrolment(testUtr),
+          FakeServiceInfoAction, injector.instanceOf[ErrorHandler])
+
+      behave like pageRouterWithEnrolments(
+        HelpCategory.SelfAssessment,
+        "evidence-of-income",
+        () => sa_evidence(frontendAppConfig, true, "http://localhost:9020/business-account/self-assessment")
+          (HtmlFormat.empty)
+          (fakeServiceInfoRequest(testUtr), messages),
+        fakeServiceInfoRequest(testUtr),
+        controllerWithEnrolment()
+      )
+    }
+
+  }
 }

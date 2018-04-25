@@ -180,6 +180,19 @@ self_assessment.register_deregister.this_could_be_because = Gallai hyn fod oherw
 self_assessment.register_deregister.closing_business = Bydd angen i chi anfon Ffurflenni Treth terfynol a rhoi gwybod i weithwyr eich bod yn cau’ch busnes.
 self_assessment.register_deregister.classtwo_ni = Bydd CThEM hefyd yn canslo’ch cyfraniadau Yswiriant Gwladol Dosbarth 2.
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~  SaEvidence
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.evidence.title = Cael tystiolaeth o’ch incwm (SA302)
+sa.evidence.heading = Cael tystiolaeth o’ch incwm (SA302)
+
+sa.evidence.what_is_sa302=Gallwch gael tystiolaeth o’ch enillion am y 4 blynedd diwethaf gydag SA302.
+sa.evidence.tax_year_overview=Gallwch hefyd gael trosolwg blwyddyn dreth am unrhyw flwyddyn.
+sa.evidence.where_to_get.pre_link=Gallwch gael eich SA302 yn adran
+sa.evidence.where_to_get.link_text=‘Rhagor o fanylion Hunanasesiad’
+sa.evidence.where_to_get.post_link=eich cyfrif.
+sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
+
 #######################################################
 ##  Transcripts
 #######################################################
