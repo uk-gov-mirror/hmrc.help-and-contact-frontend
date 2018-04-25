@@ -19,13 +19,15 @@ package controllers
 import controllers.actions._
 import handlers.ErrorHandler
 import models.HelpCategory
+import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
-import views.html.sa._
-import views.html.sa.register_deregister
+import views.html.sa.{how_to_pay_self_assessment, register_deregister}
 import views.html.vat.{payments_and_deadlines, questions_about_vat}
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
+
+  val fakeServiceInfoRequest = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, None), HtmlFormat.empty)
 
   def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
@@ -57,12 +59,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   )
 
   behave like pageRouter(
-    HelpCategory.SelfAssessment,
-    "register-or-deregister",
-    () => register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
-  )
-
-  behave like pageRouter(
     HelpCategory.VAT,
     "questions",
     () => questions_about_vat(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
@@ -70,8 +66,14 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     HelpCategory.SelfAssessment,
+    "register-or-deregister",
+    () => register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
     "how-to-pay",
-    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest, messages)
   )
 
   behave like pageRouter(
