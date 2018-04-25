@@ -30,8 +30,13 @@
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"))
 
-    <p>@Messages("self_assessment.tax_return_check.why_have_i_been")
-        @messages("self_assessment.tax_return_check.video_transcript")</p>
+    <p>
+        <a id="why-have-been-sent-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
+        data-journey-click="HelpWithSa:click:WhyHaveIBeenSent">
+            @Messages("self_assessment.tax_return_check.why_have_i_been")
+            @messages("self_assessment.tax_return_check.video_transcript")</a>
+    </p>
 
     <p>@Messages("self_assessment.tax_return_check.you_will_usually")</p>
 

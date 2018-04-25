@@ -95,12 +95,18 @@ class SelfAssessmentTaxReturnCheckViewSpec extends ViewBehaviours {
         "check if you need to fill in a Self Assessment tax return",
         "https://www.gov.uk/check-if-you-need-a-tax-return",
         "HelpWithSa:click:CheckIfYouNeedToSelfAssessment")
+      assertLinkById(
+        doc,
+        "why-have-been-sent-transcript",
+        "Why have I been sent a tax return - video transcript",
+        "/business-account/help/transcript/why-sent-tax-return",
+        "HelpWithSa:click:WhyHaveIBeenSent")
     }
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
       val listOfVideoId: List[String] = List("9CHjVpoTpgQ", "G16qqjgfYEU", "RoN2vyQrlo0", "aRVTK9v1-VI", "4YmcrAwptdQ")
-      listOfVideoId.foreach(id => doc.toString must include(s"http://www.youtube.com/embed/$id?autoplay=0"))
+      listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
   }
 }

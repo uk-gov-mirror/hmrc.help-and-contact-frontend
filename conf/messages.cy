@@ -258,3 +258,15 @@ selfAssessmentPenaltiesTranscript.paragraph8 = Wrth gwrs, gallwch osgoi unrhyw g
 selfAssessmentPenaltiesTranscript.paragraph9 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y bydd gwneud camgymeriad ar y Ffurflen Dreth yn arwain at gosb. Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir yn eich helpu i lenwi’ch Ffurflen Dreth ac i osgoi hyn. Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph10 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 selfAssessmentPenaltiesTranscript.paragraph11 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Why have I been sent a tax return
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+whySentTaxReturnTranscript.title = Pam yr ydwyf wedi cael Ffurflen Dreth - trawsgrifiad fideo
+whySentTaxReturnTranscript.heading = Pam yr ydwyf wedi cael Ffurflen Dreth - trawsgrifiad fideo
+whySentTaxReturnTranscript.paragraph1 = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig. Ond gallwch weld a oes angen i chi lenwi Ffurflen Dreth Hunanasesiad, yn gyflym ac yn hawdd ar GOV.UK, gan ddefnyddio’r cysylltiad ar ddiwedd y fideo hwn.
+whySentTaxReturnTranscript.paragraph2 = Nid yw’n gysylltiedig â gwasanaethau ar-lein Cyllid a Thollau EM felly mae’n gwbl ddienw.
+whySentTaxReturnTranscript.paragraph3 = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny – hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os na fyddwch yn anfon eich Ffurflen Dreth atom erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
+whySentTaxReturnTranscript.paragraph4 = Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad.
+whySentTaxReturnTranscript.paragraph5 = Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig. Gallwch wneud hyn i gyd – a chael gwybod llawer mwy – ar GOV.UK.
+whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return

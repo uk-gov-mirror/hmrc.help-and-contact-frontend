@@ -38,6 +38,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         case "paying-your-self-assessment-tax-bill" => Ok(paying_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent))
         case "budgeting-your-self-assessment-tax-bill" => Ok(budgeting_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent))
         case "self-assessment-penalties" => Ok(self_assessment_penalties(appConfig)(request.serviceInfoContent))
+        case "why-sent-tax-return" => Ok(why_sent_tax_return(appConfig)(request.serviceInfoContent))
         case _ => NotFound(errorHandler.notFoundTemplate)
       }
   }
