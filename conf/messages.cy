@@ -270,3 +270,32 @@ whySentTaxReturnTranscript.paragraph3 = Os anfonir Ffurflen Dreth atoch, neu os 
 whySentTaxReturnTranscript.paragraph4 = Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad.
 whySentTaxReturnTranscript.paragraph5 = Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig. Gallwch wneud hyn i gyd – a chael gwybod llawer mwy – ar GOV.UK.
 whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your first Self Assessment tax return
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yourFirstTaxReturnTranscript.title = Eich Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+yourFirstTaxReturnTranscript.paragraph2 = Mae’r Ffurflen Dreth, sydd fod cyrraedd erbyn 31 Ionawr 2018, ar gyfer y flwyddyn dreth 6 Ebrill 2016 i 5 Ebrill 2017.
+yourFirstTaxReturnTranscript.paragraph3 = Nid yw Hunanasesiad ar gyfer pobl hunangyflogedig yn unig. Rhaid i bawb sy’n gorfod llenwi Ffurflen Dreth wneud hynny, hyd yn oed os nad oes dim i’w dalu. Efallai y codir cosb arnoch os na wnewch hyn.
+yourFirstTaxReturnTranscript.paragraph4 = Mae twlsyn defnyddiol ar GOV.UK i’ch helpu i benderfynu a oes angen i chi lenwi Ffurflen Dreth, ac nid oes angen i chi fod wedi’ch cofrestru i’w ddefnyddio.
+yourFirstTaxReturnTranscript.paragraph5 = Bydd angen i chi gofrestru ar gyfer Hunanasesiad erbyn 5 Hydref yn dilyn diwedd y flwyddyn dreth neu efallai y codir cosb arnoch.
+yourFirstTaxReturnTranscript.paragraph6 = Mae fideo byr yn y gyfres hon ar sut i gofrestru.
+yourFirstTaxReturnTranscript.paragraph7 = Unwaith y byddwch wedi’ch cofrestru ac wedi actifadu’r gwasanaeth ar-lein, rydych yn barod i lenwi’ch Ffurflen Dreth Hunanasesiad cyntaf. Rhaid cynnwys eich holl incwm wrth lenwi’ch Ffurflen Dreth, felly bydd angen eich cofnodion arnoch.
+yourFirstTaxReturnTranscript.paragraph8 = Dyma rai o’r pethau y bydd eu hangen arnoch o bosib. Cewch ragor o wybodaeth am gadw cofnodion ar wefan GOV.UK. Unwaith y bydd gennych eich holl wybodaeth, ewch i GOV.UK a mewngofnodwch gyda’r Dynodydd Defnyddiwr (ID) a’r cyfrinair a gawsoch pan wnaethoch gofrestru ar gyfer Hunanasesiad ar-lein.
+yourFirstTaxReturnTranscript.paragraph9 = Mae cysylltiadau i’ch helpu os cewch broblemau.
+yourFirstTaxReturnTranscript.paragraph10 = Mae’r dudalen ‘croeso’ yn rhoi rhywfaint o wybodaeth i chi ynghylch pwy all ddefnyddio’r gwasanaeth ar-lein a phwy sydd ddim. Gall y rhan fwyaf o bobl ei ddefnyddio.
+yourFirstTaxReturnTranscript.paragraph11 = Cyn i chi lenwi’ch Ffurflen Dreth, gofynnir i chi roi rhywfaint o wybodaeth amdanoch chi’ch hun i ni. Rhaid i chi lenwi pob blwch sydd â seren goch wrth ei ochr.
+yourFirstTaxReturnTranscript.paragraph12 = Mae llawer o bobl yn synnu bod y sgriniau Hunanasesiad ar-lein yn hawdd i’w defnyddio ac yn eich helpu drwy’r broses.
+yourFirstTaxReturnTranscript.paragraph13 = Mae’r sgrin hon yn rhoi gwybod i chi fod y dyddiad geni wedi’i nodi’n anghywir. Mae’n gywir erbyn hyn 30/01/1960. Rhaid i chi ddangos pedwar digid am y flwyddyn, nid yw ‘60’ yn unig yn ddigon.
+yourFirstTaxReturnTranscript.paragraph14 = Yn yr adran nesaf, gallwch deilwra’ch Ffurflen Dreth. Rydych yn ateb cyfres o gwestiynau Iawn / Na i sicrhau eich bod ond yn llenwi’r hyn sydd ei angen.
+yourFirstTaxReturnTranscript.paragraph15 = Os ydych yn ansicr ynghylch cwestiwn, dewiswch y marc cwestiwn ar yr ochr. Yna fe welwch rai nodiadau arweiniad ynghylch yr hyn y mae angen i chi ei wneud. Bob tro y cliciwch y botwm ‘nesaf’, bydd yr hyn rydych wedi’i nodi’n cael ei gadw.
+yourFirstTaxReturnTranscript.paragraph16 = Nid oes rhaid i chi lenwi’ch Ffurflen Dreth yn gyfan gwbl ar unwaith. Gallwch adael y Ffurflen Dreth ar unrhyw adeg a dod yn ôl ati yn nes ymlaen. Mae hyn o gymorth os nad oes gennych bopeth wrth law. Gallwch ddefnyddio’r botwm ‘Cadw’ i wneud hyn.
+yourFirstTaxReturnTranscript.paragraph17 = Mae’r botwm ‘Gwirio eich cynnydd’ yn eich helpu i weld faint rydych wedi’i lenwi a faint sy’n rhaid i chi ei wneud o hyd. Mae’r bar ar frig y sgrin yn symud yn ei flaen wrth i chi lenwi’r Ffurflen Dreth.
+yourFirstTaxReturnTranscript.paragraph18 = Pan fyddwch wedi llenwi’ch Ffurflen Dreth, gofynnir i chi wirio bod popeth yn gywir. Mae hwn yn dangos crynodeb o’r hyn rydych wedi’i lenwi ac yn cadarnhau’r hyn rydych wedi ei ddweud nad oes angen i chi ei lenwi.
+yourFirstTaxReturnTranscript.paragraph19 = Ar y cam hwn, gallwch fynd yn ôl a gwneud newidiadau. Pan fyddwch yn siŵr bod popeth yn gywir, gallwch weld eich cyfrifiad. Mae’r Ffurflen Dreth ar-lein yn cyfrifo faint sydd arnoch i’w dalu.
+yourFirstTaxReturnTranscript.paragraph20 = Gallwch yna gadw copi o’ch Ffurflen Dreth at eich cofnodion eich hun. Cofiwch anfon y ffurflen i CThEM. Gwnewch hyn yn yr adran ‘Cyflwyno Ffurflen Dreth’. Bydd angen eich Dynodydd Defnyddiwr (ID) a’ch cyfrinair arnoch i wneud hyn.
+yourFirstTaxReturnTranscript.paragraph21 = Cewch neges ar-lein i gadarnhau bod CThEM wedi cael eich Ffurflen Dreth, ar ôl i chi ei chyflwyno.
+yourFirstTaxReturnTranscript.paragraph22 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+yourFirstTaxReturnTranscript.paragraph23 = Diolch am wylio.

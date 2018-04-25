@@ -101,6 +101,12 @@ class SelfAssessmentTaxReturnCheckViewSpec extends ViewBehaviours {
         "Why have I been sent a tax return - video transcript",
         "/business-account/help/transcript/why-sent-tax-return",
         "HelpWithSa:click:WhyHaveIBeenSent")
+      assertLinkById(
+        doc,
+        "your-first-tax-return-transcript",
+        "Your first Self Assessment tax return - video transcript",
+        "/business-account/help/transcript/your-first-tax-return",
+        "HelpWithSa:click:YourFirstTaxReturn")
     }
 
     "have youtube url in html for each embedded video" in {

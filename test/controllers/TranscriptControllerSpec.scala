@@ -64,6 +64,16 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "self-assessment-penalties",
     () => self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "why-sent-tax-return",
+    () => why_sent_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "your-first-tax-return",
+    () => your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
 
 

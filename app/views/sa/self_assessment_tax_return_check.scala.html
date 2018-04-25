@@ -63,8 +63,12 @@
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"))
 
-    <p>@messages("self_assessment.tax_return_check.your_first_self_assessment")
-    @messages("self_assessment.tax_return_check.video_transcript")</p>
+    <a id="your-first-tax-return-transcript"
+    href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")"
+    data-journey-click="HelpWithSa:click:YourFirstTaxReturn">
+        @messages("self_assessment.tax_return_check.your_first_self_assessment")
+        @messages("self_assessment.tax_return_check.video_transcript")</a>
+    </p>
 
     <h2>@messages("self_assessment.tax_return_check.tailor_your_return")</h2>
 
