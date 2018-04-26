@@ -182,7 +182,7 @@ self_assessment.register_deregister.closing_business = Bydd angen i chi anfon Ff
 self_assessment.register_deregister.classtwo_ni = Bydd CThEM hefyd yn canslo’ch cyfraniadau Yswiriant Gwladol Dosbarth 2.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~  SaEvidence
+#~~  SA Evidence
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.evidence.title = Cael tystiolaeth o’ch incwm (SA302)
 sa.evidence.heading = Cael tystiolaeth o’ch incwm (SA302)
@@ -194,6 +194,25 @@ sa.evidence.where_to_get.link_text=‘Rhagor o fanylion Hunanasesiad’
 sa.evidence.where_to_get.post_link=eich cyfrif.
 sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.title = Treuliau
+sa.expenses.heading = Treuliau
+sa.expenses.expenses_if_you_are_self_employed = Treuliau os ydych yn hunangyflogedig
+sa.expenses.you_put_all_of_your_allowable_expenses_ = Rydych yn rhoi’ch treuliau caniataol i gyd ar gyfer y flwyddyn dreth ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau gyda’ch Ffurflen Dreth. Cadwch hwy fel eich bod yn gallu’u dangos i CThEM, os bydd gofyn i chi wneud hynny.
+sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddio ’Treuliau syml’ i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle eich busnes. Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle eich busnes dros y flwyddyn.
+sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
+sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £83,000 neu fwy, mae angen i chi nodi bob traul.
+sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £83,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
+sa.expenses.calculating_motoring_expenses = Cyfrifo treuliau moduro
+sa.expenses.you_can_claim_business_expenses_for_ = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
+sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
+sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
+sa.expenses.the_flat_rate_covers_the_whole_cost_ = Mae’r gyfradd unffurf wastad yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd - felly ni allwch hawlio lwfans cyfalaf am ei brynu.
+sa.expenses.video_transcript = trawsgrifiad fideo
+
+
 #######################################################
 ##  Transcripts
 #######################################################
@@ -201,7 +220,7 @@ sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Bwrw golwg ar eich cyfrifiad -trawsgrifiad fideo
+viewingYourCalculationTranscript.title = Bwrw golwg ar eich cyfrifiad - trawsgrifiad fideo
 viewingYourCalculationTranscript.heading = Bwrw golwg ar eich cyfrifiad - trawsgrifiad fideo
 viewingYourCalculationTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
 viewingYourCalculationTranscript.paragraph2 = Pan fyddwch yn defnyddio Ffurflen Dreth ar-lein CThEM, mae’n cyfrifo’n awtomatig faint y mae angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg ar eich cyfrifiad.
@@ -265,3 +284,33 @@ selfAssessmentPenaltiesTranscript.paragraph8 = Wrth gwrs, gallwch osgoi unrhyw g
 selfAssessmentPenaltiesTranscript.paragraph9 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y bydd gwneud camgymeriad ar y Ffurflen Dreth yn arwain at gosb. Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir yn eich helpu i lenwi’ch Ffurflen Dreth ac i osgoi hyn. Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph10 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 selfAssessmentPenaltiesTranscript.paragraph11 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses if you are self employed transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.expenses_for_self_employed_transcript.title = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.expenses_for_self_employed_transcript.heading = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.expenses_for_self_employed_transcript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein. Os ydych yn hunangyflogedig, bydd gan eich busnes amryw o gostau rhedeg. Gallwch dynnu rhai o’r costau hyn i gyfrifo’ch elw trethadwy, cyn belled â’u bod yn dreuliau caniataol.
+sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Nid yw treuliau caniataol yn cynnwys arian a ddidynnwch o’ch busnes i dalu am bryniadau preifat. Hynny yw, nid yw treuliau busnes caniataol yn cynnwys pethau fel llety, bwyd, dillad, gwyliau nac unrhyw bethau eraill rydych yn eu prynu ar eich cyfer chi a’ch teulu.
+sa.expenses.expenses_for_self_employed_transcript.paragraph3 = Mae angen i chi gadw cofnod o’ch holl dreuliau busnes fel tystiolaeth o’ch costau. Rydych yn ychwanegu’ch holl dreuliau caniataol ar gyfer y flwyddyn dreth a’u rhoi ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau wrth gyflwyno’ch Ffurflen Dreth i CThEM. Cadwch nhw fel y gallwch eu dangos i CThEM, os gofynnir i chi wneud hynny. Gallwch ddewis defnyddio ’Treuliau symlach’.
+sa.expenses.expenses_for_self_employed_transcript.paragraph4 = Mae hon yn ffordd o gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Nid oes rhaid i chi wneud hyn. Gallwch benderfynu a yw hyn yn gweddu i’ch busnes.
+sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Ni ellir defnyddio treuliau symlach gan gwmnïau cyfyngedig na phartneriaethau busnes sy’n cynnwys cwmni cyfyngedig. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle’ch busnes.
+sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle’ch busnes dros y flwyddyn.
+sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Yna, ar ddiwedd y flwyddyn, defnyddiwch y gyfradd unffurf i gyfrifo’ch treuliau a chynhwyswch y symiau yn eich Ffurflen Dreth Hunanasesiad. Cewch ragor o wybodaeth am hyn ar wefan GOV.UK.
+sa.expenses.expenses_for_self_employed_transcript.paragraph8 = Am gostau eraill, ac os penderfynwch beidio â defnyddio treuliau symlach, cadwch gofnodion cywir o’r hyn rydych yn ei brynu a’r costau.
+sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Dyma rai treuliau busnes cyffredin: eiddo ac offer swyddfa, ceir, faniau a theithio, staff, stoc, costau cyfreithiol ac ariannol, marchnata a thanysgrifiadau.
+sa.expenses.expenses_for_self_employed_transcript.paragraph10 = Ar gyfer blwyddyn dreth 2016-17, os yw’ch incwm busnes yn £83,000 neu fwy, mae angen i chi nodi bob traul o dan y pennawd priodol. Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny ac y byddai’ch incwm wedi bod dros £83,000, mae angen i chi nodi bob traul yn yr un ffordd.
+sa.expenses.expenses_for_self_employed_transcript.paragraph11 = Er enghraifft, os gwnaethoch fasnachu o fis Hydref i fis Ebrill, (hynny yw chwe mis), a’ch incwm busnes oedd £50,000, yna byddai’ch incwm busnes am 12 mis llawn wedi bod yn £100,000. Os yw’ch incwm busnes yn is na £83,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
+sa.expenses.expenses_for_self_employed_transcript.paragraph12 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Calculating motoring expenses transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.calculating_motoring_expenses.title = Cyfrifo treuliau moduro - trawsgrifiad fideo
+sa.expenses.calculating_motoring_expenses.heading = Cyfrifo treuliau moduro - trawsgrifiad fideo
+sa.expenses.calculating_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes a phersonol. Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ond ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
+sa.expenses.calculating_motoring_expenses.paragraph2 = Mae dwy ffordd o gyfrifo’ch treuliau moduro: defnyddio’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
+sa.expenses.calculating_motoring_expenses.paragraph3 = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes.
+sa.expenses.calculating_motoring_expenses.paragraph4 = Er enghraifft, os oedd defnydd busnes yn gyfrifol am 75% o’r defnydd o’r cerbyd, a chyfanswm eich costau rhedeg yw £6,000, yna’r defnydd busnes o hwnnw yw £4,500 - sef y ffigwr i’w gynnwys ar eich Ffurflen Dreth Hunanasesiad. Os ydych yn defnyddio’r dull costau gwirioneddol, gallwch hawlio lwfans cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar wefan GOV.UK. Fel arall, gallwch hawlio treuliau gan ddefnyddio cyfradd unffurf ar gyfer milltiroedd busnes. Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu.
+sa.expenses.calculating_motoring_expenses.paragraph5 = Gallwch ddod o hyd i’r cyfraddau unffurf presennol ar GOV.UK. Unwaith eto, bydd angen i chi wybod faint o filltiroedd rydych yn eu teithio a pha ganran oedd at ddefnydd busnes. Cofiwch, unwaith y byddwch yn dechrau defnyddio’r dull cyfradd unffurf ar gyfer cerbyd, ni allwch newid i’r dull costau gwirioneddol. Serch hynny, gallwch ddefnyddio’r dull costau gwirioneddol ar gyfer cerbyd gwahanol. Mae yna wiriwr ar GOV.UK i weld pa ddull sydd orau i chi. Defnyddiwch y cysylltiad ar ddiwedd y fideo hwn i fynd ato.
+sa.expenses.calculating_motoring_expenses.paragraph6 = Cewch ragor o help a chefnogaeth ar weminarau GOV.UK, ac mae fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.

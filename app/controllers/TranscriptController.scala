@@ -38,6 +38,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         case "paying-your-self-assessment-tax-bill" => Ok(paying_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent))
         case "budgeting-your-self-assessment-tax-bill" => Ok(budgeting_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent))
         case "self-assessment-penalties" => Ok(self_assessment_penalties(appConfig)(request.serviceInfoContent))
+        case "expenses-if-you-are-self-employed" => Ok(expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent))
+        case "calculating-motoring-expenses" => Ok(calculating_motoring_expenses(appConfig)(request.serviceInfoContent))
         case _ => NotFound(errorHandler.notFoundTemplate)
       }
   }
