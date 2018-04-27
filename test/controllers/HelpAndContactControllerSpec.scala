@@ -79,7 +79,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     HelpCategory.VAT,
-    "register-deregister",
+    "register-or-deregister",
     () => register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
@@ -98,7 +98,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   behave like pageRouter(
     HelpCategory.SelfAssessment,
     "help-with-return",
-    () => self_assessment_tax_return_check(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   "behave appropriately for enrolments" when {

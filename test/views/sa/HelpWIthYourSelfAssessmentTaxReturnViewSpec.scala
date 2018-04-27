@@ -18,14 +18,14 @@ package views.sa
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.self_assessment_tax_return_check
+import views.html.sa.help_with_your_self_assessment_tax_return
 import collection.JavaConverters._
 
-class SelfAssessmentTaxReturnCheckViewSpec extends ViewBehaviours {
+class HelpWIthYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "self_assessment.tax_return_check"
 
-  def createView = () => self_assessment_tax_return_check(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "SelfAssessmentTaxReturnCheck view" must {
     behave like normalPage(createView, messageKeyPrefix)

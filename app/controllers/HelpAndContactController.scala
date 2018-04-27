@@ -26,7 +26,6 @@ import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
-import uk.gov.hmrc.play.bootstrap.http.FrontendErrorHandler
 import views.html.sa._
 import views.html.vat._
 
@@ -57,7 +56,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     page match {
       case "how-to-pay" => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_deregister(appConfig)(request.serviceInfoContent))
-      case "help-with-return" => Ok(self_assessment_tax_return_check(appConfig)(request.serviceInfoContent))
+      case "help-with-return" => Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
       case "evidence-of-income" => {
         Ok(sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))
         (request.serviceInfoContent))
