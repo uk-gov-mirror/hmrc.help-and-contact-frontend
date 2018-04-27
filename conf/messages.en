@@ -155,30 +155,30 @@ howtoPaySelfAssessment.self.assessment.penalties = Self Assessment penalties
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tax Return Check
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-self_assessment.tax_return_check.title = Help with your Self Assessment return
-self_assessment.tax_return_check.heading = Help with your Self Assessment return
-self_assessment.tax_return_check.who_must_send = Who must send a tax return?
-self_assessment.tax_return_check.your_first_self_assessment = Your first Self Assessment tax return
-self_assessment.tax_return_check.why_have_i_been = Why have I been sent a tax return
-self_assessment.tax_return_check.tailor_your_return = Tailor your tax return
-self_assessment.tax_return_check.your_self_employed_return = Your self-employed tax return
-self_assessment.tax_return_check.your_income_from_property_return = Your income from property tax return
-self_assessment.tax_return_check.video_transcript = - video transcript
-self_assessment.tax_return_check.you_will_usually = You will usually be sent a tax return if you are registered as self-employed.
-self_assessment.tax_return_check.you_can_anonymously = You can anonymously
-self_assessment.tax_return_check.check_if_you = check if you need to fill in a Self Assessment tax return
-self_assessment.tax_return_check.if_you_are_sent = If you are sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you do not have any tax to pay. If you do not send a tax return back by the deadline you may have to pay a penalty. If you used to send a tax return but do not need to send one for the last tax year, contact HMRC to close your Self Assessment account. You must also tell HMRC if you have stopped being self-employed.
-self_assessment.tax_return_check.self_assessment_is_a = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
-self_assessment.tax_return_check.tax_is_usually = Tax is usually deducted automatically from wages, pensions and savings. People and businesses with other income must report it in a tax return.
-self_assessment.tax_return_check.self_assessment_is_not = Self Assessment is not just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you do not.
-self_assessment.tax_return_check.if_you_need_to = If you need to send one, you fill it in after the end of the tax year (5 April) it applies to.
-self_assessment.tax_return_check.if_you_did_not = If you did not send an online return last year, allow extra time (up to 20 working days) as you will need to register first.
-self_assessment.tax_return_check.you_will_tailor = You will tailor your tax return on the first 3 pages. Use this section to tell us about your different types of income, employments and self-employments so that you only see the parts of the tax return that you need to.
-self_assessment.tax_return_check.if_you_started = If you started or ceased self-employment during the year, it is important to enter the dates so HMRC can update your records.
-self_assessment.tax_return_check.did_not_trade = If you did not trade for a full year, but if you had and your income would have been over £83,000, you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been £100,000.
-self_assessment.tax_return_check.do_not_fill = Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as self-employment and you should fill in that section.
-self_assessment.tax_return_check.if_your_property = If your property is outside the European Economic Area, fill in the Foreign section.
-self_assessment.tax_return_check.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
+helpWithYourSelfAssessmentTaxReturn.title = Help with your Self Assessment return
+helpWithYourSelfAssessmentTaxReturn.heading = Help with your Self Assessment return
+helpWithYourSelfAssessmentTaxReturn.who_must_send = Who must send a tax return?
+helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Your first Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Why have I been sent a tax return
+helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Tailor your tax return
+helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Your self-employed tax return
+helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return = Your income from property tax return
+helpWithYourSelfAssessmentTaxReturn.video_transcript = - video transcript
+helpWithYourSelfAssessmentTaxReturn.you_will_usually = You will usually be sent a tax return if you are registered as self-employed.
+helpWithYourSelfAssessmentTaxReturn.you_can_anonymously = You can anonymously
+helpWithYourSelfAssessmentTaxReturn.check_if_you = check if you need to fill in a Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.if_you_are_sent = If you are sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you do not have any tax to pay. If you do not send a tax return back by the deadline you may have to pay a penalty. If you used to send a tax return but do not need to send one for the last tax year, contact HMRC to close your Self Assessment account. You must also tell HMRC if you have stopped being self-employed.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_a = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
+helpWithYourSelfAssessmentTaxReturn.tax_is_usually = Tax is usually deducted automatically from wages, pensions and savings. People and businesses with other income must report it in a tax return.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_not = Self Assessment is not just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you do not.
+helpWithYourSelfAssessmentTaxReturn.if_you_need_to = If you need to send one, you fill it in after the end of the tax year (5 April) it applies to.
+helpWithYourSelfAssessmentTaxReturn.if_you_did_not = If you did not send an online return last year, allow extra time (up to 20 working days) as you will need to register first.
+helpWithYourSelfAssessmentTaxReturn.you_will_tailor = You will tailor your tax return on the first 3 pages. Use this section to tell us about your different types of income, employments and self-employments so that you only see the parts of the tax return that you need to.
+helpWithYourSelfAssessmentTaxReturn.if_you_started = If you started or ceased self-employment during the year, it is important to enter the dates so HMRC can update your records.
+helpWithYourSelfAssessmentTaxReturn.did_not_trade = If you did not trade for a full year, but if you had and your income would have been over £83,000, you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been £100,000.
+helpWithYourSelfAssessmentTaxReturn.do_not_fill = Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as self-employment and you should fill in that section.
+helpWithYourSelfAssessmentTaxReturn.if_your_property = If your property is outside the European Economic Area, fill in the Foreign section.
+helpWithYourSelfAssessmentTaxReturn.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -333,4 +333,23 @@ yourFirstTaxReturnTranscript.paragraph21 = You’ll receive a message online, to
 yourFirstTaxReturnTranscript.paragraph22 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
 yourFirstTaxReturnTranscript.paragraph23 = Thanks for watching.
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Tailor your tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+tailorYourTaxReturnTranscript.title = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.heading = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.paragraph1 = replace
+tailorYourTaxReturnTranscript.paragraph2 = replace
+tailorYourTaxReturnTranscript.paragraph3 = replace
+tailorYourTaxReturnTranscript.paragraph4 = replace
+tailorYourTaxReturnTranscript.paragraph5 = replace
+tailorYourTaxReturnTranscript.paragraph6 = replace
+tailorYourTaxReturnTranscript.paragraph7 = replace
+tailorYourTaxReturnTranscript.paragraph8 = replace
+tailorYourTaxReturnTranscript.paragraph9 = replace
+tailorYourTaxReturnTranscript.paragraph10 = replace
+tailorYourTaxReturnTranscript.paragraph11 = replace
+tailorYourTaxReturnTranscript.paragraph12 = replace
+tailorYourTaxReturnTranscript.paragraph13 = replace
+tailorYourTaxReturnTranscript.paragraph14 = replace

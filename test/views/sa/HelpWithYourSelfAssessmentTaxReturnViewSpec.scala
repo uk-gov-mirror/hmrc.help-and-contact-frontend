@@ -21,9 +21,9 @@ import views.behaviours.ViewBehaviours
 import views.html.sa.help_with_your_self_assessment_tax_return
 import collection.JavaConverters._
 
-class HelpWIthYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
+class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "self_assessment.tax_return_check"
+  val messageKeyPrefix = "helpWithYourSelfAssessmentTaxReturn"
 
   def createView = () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
@@ -107,6 +107,12 @@ class HelpWIthYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return - video transcript",
         "/business-account/help/transcript/your-first-tax-return",
         "HelpWithSa:click:YourFirstTaxReturn")
+      assertLinkById(
+        doc,
+        "tailor-your-tax-return-transcript",
+        "Tailor your tax return - video transcript",
+        "/business-account/help/transcript/tailor-your-tax-return",
+        "HelpWithSa:click:TailorYourTaxReturn")
     }
 
     "have youtube url in html for each embedded video" in {

@@ -40,6 +40,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         case "self-assessment-penalties" => Ok(self_assessment_penalties(appConfig)(request.serviceInfoContent))
         case "why-sent-tax-return" => Ok(why_sent_tax_return(appConfig)(request.serviceInfoContent))
         case "your-first-tax-return" => Ok(your_first_tax_return(appConfig)(request.serviceInfoContent))
+        case "tailor-your-tax-return" => Ok(tailor_your_tax_return(appConfig)(request.serviceInfoContent))
         case _ => NotFound(errorHandler.notFoundTemplate)
       }
   }

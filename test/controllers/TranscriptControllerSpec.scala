@@ -74,6 +74,11 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "your-first-tax-return",
     () => your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "tailor-your-tax-return",
+    () => tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
 
 
