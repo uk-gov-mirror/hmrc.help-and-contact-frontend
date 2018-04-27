@@ -189,7 +189,6 @@ self_assessment.register_deregister.registering_for_self_assessment = Registerin
 self_assessment.register_deregister.you_must_register_to_file = You must register to file a Self Assessment tax return within 6 months of the end of the tax year when you became self-employed or received income that you need to pay tax on. A tax year ends on 5 April. If you do not register, you could be fined.
 self_assessment.register_deregister.if_you_have_sent_tax_returns_before = If you have sent tax returns before
 self_assessment.register_deregister.if_you_have_sent_tax_returns_before_you_need = If you have sent tax returns before you will need your 10-digit Unique Taxpayer Reference or UTR. You will also be able to use an online account you previously set up to file your tax return but you still need to register.
-
 self_assessment.register_deregister.register_if_you_are_self_employed_sent_tax_return = Register if you are self-employed and you have sent a tax return before
 self_assessment.register_deregister.you_will_need_utr = You will need to find your 10-digit Unique Taxpayer Reference (UTR) from when you registered for Self Assessment previously.
 self_assessment.register_deregister.signed_up_before = If you have signed up for the online service before, you should use the same account to file your tax return.
@@ -213,7 +212,6 @@ self_assessment.register_deregister.classtwo_ni = HMRC will also cancel your Cla
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.evidence.title = Get evidence of your income (SA302)
 sa.evidence.heading = Get evidence of your income (SA302)
-
 sa.evidence.what_is_sa302=You can get evidence of your earnings for the last 4 years with an SA302.
 sa.evidence.tax_year_overview=You can also get a tax year overview for any year.
 sa.evidence.where_to_get.pre_link=You can get your SA302 in the
