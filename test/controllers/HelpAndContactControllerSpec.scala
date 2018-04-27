@@ -23,12 +23,9 @@ import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.api.mvc.AnyContentAsEmpty
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
-import views.html.sa.{how_to_pay_self_assessment, register_deregister, self_assessment_tax_return_check}
-import views.html.vat.{payments_and_deadlines, questions_about_vat, register_or_deregister}
 import uk.gov.hmrc.domain.SaUtr
-import views.html.sa.{how_to_pay_self_assessment, register_deregister, _}
-import views.html.vat.{payments_and_deadlines, questions_about_vat}
-
+import views.html.sa._
+import views.html.vat._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 

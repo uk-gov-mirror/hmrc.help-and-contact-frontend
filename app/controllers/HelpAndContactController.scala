@@ -26,6 +26,7 @@ import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import uk.gov.hmrc.play.bootstrap.http.FrontendErrorHandler
 import views.html.sa._
 import views.html.vat._
 
@@ -47,7 +48,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     page match {
       case "how-to-pay"          => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
       case "questions"           => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
-      case "register-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
+      case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
       case _                     => NotFound(errorHandler.notFoundTemplate)
     }
   }

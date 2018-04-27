@@ -61,6 +61,7 @@ vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your busine
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.register_or_deregister.title = Register or deregister for VAT
 vat.register_or_deregister.heading = Register or deregister for VAT
 vat.register_or_deregister.register_for_vat = Register for VAT
 vat.register_or_deregister.deregister_for_vat = Deregister for VAT
