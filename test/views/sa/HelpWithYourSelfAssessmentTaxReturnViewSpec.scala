@@ -113,6 +113,12 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Tailor your tax return - video transcript",
         "/business-account/help/transcript/tailor-your-tax-return",
         "HelpWithSa:click:TailorYourTaxReturn")
+      assertLinkById(
+        doc,
+        "your-self-employed-tax-return-transcript",
+        "Your self-employed tax return - video transcript",
+        "/business-account/help/transcript/your-self-employed-tax-return",
+        "HelpWithSa:click:YourSelfEmployedTaxReturn")
     }
 
     "have youtube url in html for each embedded video" in {

@@ -77,7 +77,7 @@
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"))
 
-    <a>
+    <p>
         <a id="tailor-your-tax-return-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"
         data-journey-click="HelpWithSa:click:TailorYourTaxReturn">
@@ -93,8 +93,13 @@
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"))
 
-    <p>@messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")
-        @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</p>
+    <p>
+        <a id="your-self-employed-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("your-self-employed-tax-return")"
+        data-journey-click="HelpWithSa:click:YourSelfEmployedTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
 
     <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")</h2>
 
