@@ -356,7 +356,7 @@ tailorYourTaxReturnTranscript.paragraph13 = Mae gweminarau a fideos eraill am Hu
 tailorYourTaxReturnTranscript.paragraph14 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Your self employment tax return transcript
+#~~ Your self employed tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 yourSelfEmployedTaxReturnTranscript.title = Eich Ffurflen Dreth Hunangyflogaeth - trawsgrifiad fideo
@@ -377,3 +377,25 @@ yourSelfEmployedTaxReturnTranscript.paragraph13 = Mae’r ychydig eithriadau wed
 yourSelfEmployedTaxReturnTranscript.paragraph14 = Mae sgrin ar gyfer gwybodaeth arall. Yna, edrychwch dros eich manylion ar y dudalen grynodeb hon. Os ydych wedi rhoi’r gorau i hunangyflogaeth, rhowch wybod i CThEM.
 yourSelfEmployedTaxReturnTranscript.paragraph15 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 yourSelfEmployedTaxReturnTranscript.paragraph16 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your income from property tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+yourIncomeFromPropertyTaxReturnTranscript.title = Eich Ffurflen Dreth Incwm o Eiddo - trawsgrifiad fideo
+yourIncomeFromPropertyTaxReturnTranscript.heading = Eich Ffurflen Dreth Incwm o Eiddo - trawsgrifiad fideo
+yourIncomeFromPropertyTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = Ar eich Ffurflen Dreth Hunanasesiad, rhoesoch wybod fod gennych incwm o eiddo. Dyma’r rhan o’r Ffurflen Dreth y byddwch yn mynd iddi.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Peidiwch â dechrau llenwi’r adran hon os cewch incwm o lety wedi’i ddodrefnu yn eich cartref sy’n gyfystyr â masnach - er enghraifft, rydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Llenwch yr adran ‘hunangyflogaeth’ yn lle hynny.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph4 = Peidiwch, ychwaith, â llenwi’r adran hon os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd - yn yr achos hwnnw llenwch yr adran dramor. Ac os oedd eich incwm o eiddo yn dod o bartneriaeth - llenwch yr adran Partneriaeth.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Rhowch fanylion am eich eiddo ar y tudalennau hyn. Dyma le rydych yn hawlio unrhyw ryddhad Rhentu Ystafell. Os oedd eich incwm yn uwch na’r trothwy Rhentu Ystafell, byddwch yn gwneud addasiad ar gyfer y swm sydd wedi’i eithrio yn nes ymlaen. Rhowch wybod i CThEM swm yr incwm o eiddo a gawsoch yma.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = Ar gyfer eiddo wedi’i osod ar y cyd, rhowch eich cyfran chi’n unig. Defnyddiwch ffurflen 17 os ydych am newid sut mae’r incwm wedi’i rannu. Dim ond os ydych yn landlord dibreswyl y caiff treth y DU ei didynnu. Yna, cyfrifir cyfanswm eich incwm o eiddo. Dyma le rydych yn nodi’ch costau rhedeg.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = Mae treuliau caniataol yn cynnwys cost atgyweiriadau lle rydych yn adfer ased i’w gyflwr gwreiddiol ond nid ar gyfer gwaith gwella na gwaith uwchraddio. Mae’r rhain yn draul cyfalaf. Os yw cyfanswm eich incwm o eiddo yn is na £83,000, nid oes angen i chi lenwi’r blychau i gyd.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = Ychwanegwch eich treuliau at ei gilydd a rhowch y cyfanswm, llai unrhyw dreuliau gosod llety gwyliau wedi’i ddodrefnu, yn y blwch hwn.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = Nid yw’r lwfans adnewyddu na’r lwfans traul 10%, ar gyfer cost amnewid dodrefn neu lenni ac ati, ar gael mwyach. Mae addasiadau’n mynd yma.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph10 = Ar gyfer gosodiadau preswyl yn unig, dyma le rydych yn hawlio cost amnewid eitemau domestig. Defnyddiwch y marc cwestiwn am ragor o wybodaeth.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = Os ydych yn hawlio rhyddhad Rhentu Ystafell ond y cawsoch fwy na’r trothwy, rhowch y swm eithriedig yma.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = Bydd yr elw, wedi’i addasu ar gyfer y flwyddyn, yn cael ei gyfrifo ar eich cyfer. Os oes elw, rhaid i chi nodi unrhyw golledion nas defnyddiwyd o flynyddoedd cynharach.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = Bydd yr elw trethadwy neu’r golled wedi’i addasu yn ymddangos isod a bydd y golled i’w chario ymlaen yn cael ei chyfrifo ar eich cyfer. Rhowch unrhyw wybodaeth arall, yna edrychwch ar eich ffigurau ar sgrin olaf y crynodeb. Os gwelwch wall, gallwch fynd yn ôl a’i newid.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Diolch am wylio.

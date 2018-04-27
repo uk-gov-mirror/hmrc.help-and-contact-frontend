@@ -119,6 +119,12 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your self-employed tax return - video transcript",
         "/business-account/help/transcript/your-self-employed-tax-return",
         "HelpWithSa:click:YourSelfEmployedTaxReturn")
+      assertLinkById(
+        doc,
+        "your-income-from-property-tax-return-transcript",
+        "Your income from property tax return - video transcript",
+        "/business-account/help/transcript/your-income-from-property-tax-return",
+        "HelpWithSa:click:YourIncomeFromPropertyTaxReturn")
     }
 
     "have youtube url in html for each embedded video" in {

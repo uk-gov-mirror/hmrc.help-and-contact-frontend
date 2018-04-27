@@ -111,6 +111,12 @@
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"))
 
-    <p>@messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")
-        @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</p>
+    <p>
+        <a id="your-income-from-property-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("your-income-from-property-tax-return")"
+        data-journey-click="HelpWithSa:click:YourIncomeFromPropertyTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
 }

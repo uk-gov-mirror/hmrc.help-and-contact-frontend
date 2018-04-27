@@ -42,6 +42,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         case "your-first-tax-return" => Ok(your_first_tax_return(appConfig)(request.serviceInfoContent))
         case "tailor-your-tax-return" => Ok(tailor_your_tax_return(appConfig)(request.serviceInfoContent))
         case "your-self-employed-tax-return" => Ok(your_self_employed_tax_return(appConfig)(request.serviceInfoContent))
+        case "your-income-from-property-tax-return" => Ok(your_income_from_property_tax_return(appConfig)(request.serviceInfoContent))
         case _ => NotFound(errorHandler.notFoundTemplate)
       }
   }

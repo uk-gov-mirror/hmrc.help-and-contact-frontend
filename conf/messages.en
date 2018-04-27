@@ -376,3 +376,25 @@ yourSelfEmployedTaxReturnTranscript.paragraph13 = The few exemptions are listed 
 yourSelfEmployedTaxReturnTranscript.paragraph14 = There’s a screen for other information, and then check your entries on this summary page. If you’ve stopped self-employment tell HMRC.
 yourSelfEmployedTaxReturnTranscript.paragraph15 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
 yourSelfEmployedTaxReturnTranscript.paragraph16 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your income from property tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+yourIncomeFromPropertyTaxReturnTranscript.title = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.heading = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = On your Self Assessment tax return you’ve said you have income from property. This is the section of the tax return you go to.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Don’t start filling in this section if you receive income from letting furnished accommodation in your home that amounts to a trade - for example, you run a guest house or offer bed and breakfast. Fill in the ‘self-employment’ section instead.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph4 = Don’t fill this in if your property is outside the European Economic Area either - in that case fill in the foreign section. And if your property income was from a partnership - fill in the Partnership section.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Enter details about your property on these pages. This is where you claim any Rent a Room relief. If your income was above the Rent a Room threshold you make an adjustment for the exempt amount later. Tell HMRC the amount of property income you received here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = For jointly let property, only put your share. Use form 17 if you want to change the split of the income. UK tax is only taken off if you’re a non-resident landlord. Then, your total income from property is calculated. This is where you enter your running costs.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = Allowable expenses include the cost of repairs where you’re restoring an asset to its original condition but not for improvements or upgrades. These are a capital expense. If your total property income is below £83,000 you don’t need to fill in all the boxes.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = Add up your expenses and put the total, less any furnished holiday lettings expenses, in this box. 
+yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = The renewals allowance and the 10% wear and tear allowance for the cost of replacing furniture or furnishings are no longer available. Adjustments go here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph10 = For residential lettings only, this is where you claim the cost of replacing domestic items. Use the question mark for more information.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = If you’re claiming Rent a Room relief but received more than the threshold, enter the exempt amount here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = The adjusted profit for the year will be calculated for you. If there’s a profit you must enter any unused losses from earlier years.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = The taxable profit or adjusted loss will display below and the loss to carry forward will be calculated for you. Enter any other information then check your figures on the final summary screen. If you spot an error you can always go back and change it.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Thanks for watching.
