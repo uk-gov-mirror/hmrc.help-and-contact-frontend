@@ -182,7 +182,7 @@ self_assessment.register_deregister.closing_business = You will need to send fin
 self_assessment.register_deregister.classtwo_ni = HMRC will also cancel your Class 2 National Insurance contributions.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#  SaEvidence
+#~~  SA Evidence
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.evidence.title = Get evidence of your income (SA302)
 sa.evidence.heading = Get evidence of your income (SA302)
@@ -193,6 +193,25 @@ sa.evidence.where_to_get.pre_link=You can get your SA302 in the
 sa.evidence.where_to_get.link_text=more Self Assessment details
 sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.title = Expenses
+sa.expenses.heading = Expenses
+sa.expenses.expenses_if_you_are_self_employed = Expenses if you are self employed
+sa.expenses.you_put_all_of_your_allowable_expenses_ = You put all of your allowable expenses for the tax year on your Self-Assessment tax return. Do not send proof of your expenses with your tax return. Keep them so that you can show them to HMRC, if asked.
+sa.expenses.you_can_choose_to_use_simplified_expenses_ = You can choose to use ‘Simplified expenses’ to work out some of your expenses using flat rates instead of working out your actual business costs. You can use flat rates for business costs for vehicles, working from home, living in your business premises. Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.
+sa.expenses.simplified_expenses_cannot_be_used_ = Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.
+sa.expenses.if_you_do_not_use_simplified_expenses_ = If you do not use simplified expenses and if your business income is £83,000 or more, you need to enter each expense.
+sa.expenses.if_your_business_income_is_below_ = If your business income is below £83,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
+sa.expenses.calculating_motoring_expenses = Calculating motoring expenses
+sa.expenses.you_can_claim_business_expenses_for_ = You can claim business expenses for a number of things including fuel and vehicle insurance. You cannot claim for non-business driving, or for fines or travel between home and work.
+sa.expenses.you_can_claim_either_the_actual_costs_ = You can claim either the actual costs, or a flat rate for business mileage. Once you have chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
+sa.expenses.the_flat_rate_covers_the_whole_cost_ = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
+sa.expenses.video_transcript = video transcript
+
 
 #######################################################
 ##  Transcripts
@@ -265,3 +284,33 @@ selfAssessmentPenaltiesTranscript.paragraph8 = Of course, you can avoid any pena
 selfAssessmentPenaltiesTranscript.paragraph9 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return. This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this. You’ll find more help and support on GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph10 = Webinars and other videos about Self Assessment are available from HMRC.
 selfAssessmentPenaltiesTranscript.paragraph11 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses if you are self employed transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.expenses_for_self_employed_transcript.title = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.heading = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.paragraph1 = This is one of a series of videos about online Self Assessment. If you’re self-employed your business will have various running costs. You can take away some of these costs to work out your taxable profit as long as they’re allowable expenses.
+sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Allowable expenses don’t include money you take from your business to pay for private purchases. In other words, allowable business expenses don’t include things like accommodation, food, clothing, holidays and any other things you buy for you and your family.
+sa.expenses.expenses_for_self_employed_transcript.paragraph3 = You need to keep records of all your business expenses as proof of your costs. You add up all of your allowable expenses for the tax year and put them on your Self-Assessment tax return. Don’t send in proof of your expenses when you send your tax return to HMRC. Keep them so that you can show them to HMRC, if asked. You can choose to use ‘Simplified expenses’.
+sa.expenses.expenses_for_self_employed_transcript.paragraph4 = This is a way of working out some of your expenses using flat rates instead of working out your actual business costs. You don’t have to do this. You can decide if it suits your business.
+sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Simplified expenses can’t be used by limited companies or business partnerships involving a limited company. You can use flat rates for business costs for vehicles, working from home, living in your business premises.
+sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.
+sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Then, at the end of the year, use the flat rate to work out your expenses and include the amounts in your Self Assessment tax return. Find out more about this on the GOV.UK website.
+sa.expenses.expenses_for_self_employed_transcript.paragraph8 = For other expenses, and if you decide not to use simplified expenses, keep accurate records of what you buy and their costs.
+sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Here’s some commonly used business expenses: office property and equipment, car, van and travel, staff, stock, legal and financial costs, marketing and subscriptions.
+sa.expenses.expenses_for_self_employed_transcript.paragraph10 = For the tax year 2016-17, if your business income is £83,000 or more, you need to enter each expense under the appropriate heading. If you didn’t trade for a full year, but if you had, and your income would have been more than £83,000 you need to enter each expense in the same way.
+sa.expenses.expenses_for_self_employed_transcript.paragraph11 = For example, if you traded from October to April, (that’s six months), and your business income was £50,000, then your business income for a full 12 months would have been £100,000. If your business income is below £83,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
+sa.expenses.expenses_for_self_employed_transcript.paragraph12 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Calculating motoring expenses transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.calculating_motoring_expenses.title = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.heading = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.paragraph1 = If you work for yourself you may have a car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things including fuel and vehicle insurance. But you can’t claim for non-business driving, or for fines or travel between home and work.
+sa.expenses.calculating_motoring_expenses.paragraph2 = There are two ways of working out your motoring expenses: using the actual costs, or a flat rate for business mileage. Once you’ve chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+sa.expenses.calculating_motoring_expenses.paragraph3 = If you decide to use the actual costs, you’ll need to know how many miles the vehicle has done over the year. Then work out what percentage was for business.
+sa.expenses.calculating_motoring_expenses.paragraph4 = For example, if your business use was 75%, and your total running costs are £6,000, then the business use of that is £4,500 – which is the figure to include on your Self Assessment tax return. If you use the actual cost method, you can claim a capital allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on the GOV.UK website. Alternatively, you can claim expenses using a flat rate for business mileage. The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you can’t claim a capital allowance for its purchase.
+sa.expenses.calculating_motoring_expenses.paragraph5 = You can find the current flat rates on GOV.UK. Again you’ll need to know how many miles you travel and what percentage was on business. Remember, once you start using the flat rate method for a vehicle, you can’t switch to the actual cost method. But you can use the actual cost method for a different vehicle. There’s a checker on GOV.UK to work out which method is best for you. Use the link at the end of this video to go to it.
+sa.expenses.calculating_motoring_expenses.paragraph6 = You’ll find more help and support on GOV.UK Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
