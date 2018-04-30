@@ -195,6 +195,43 @@ sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
 
 #######################################################
+## Corporation Tax
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# How to pay
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.how_to_pay.title                                 = How to pay your Corporation Tax
+ct.how_to_pay_heading                               = How to pay your Corporation Tax
+ct.how_to_pay.deadlines.heading                     = Deadlines
+ct.how_to_pay.deadlines.body                        = The deadline for your payment will depend on your taxable profits.
+ct.how_to_pay.up_to_1point5_million.heading         = If your taxable profits are up to £1.5 million
+ct.how_to_pay.up_to_1point5_million.body            = You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. Your accounting period is usually your financial year, but you may have 2 accounting periods in
+ct.how_to_pay.year_company_set_up                   = the year you set up your company
+ct.how_to_pay.more_than_1point5_million.heading     = If your taxable profits are more than £1.5 million
+ct.how_to_pay.you_must_pay_                         = You must pay your Corporation Tax
+ct.how_to_pay.instalments                           = in instalments
+ct.how_to_pay.make_sure_you_pay                     = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may
+ct.how_to_pay.charge_you_interest                   = charge you interest
+ct.how_to_pay.if_you_do_not_pay_on_time_            = if you do not pay on time. They will
+ct.how_to_pay.pay_you_interest                      = pay you interest
+ct.how_to_pay.if_you_pay_your_tax_early             = if you pay your tax early.
+ct.how_to_pay.ways_to_pay                           = Ways to pay
+ct.how_to_pay.you_can_no_longer_pay_                = You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.
+ct.how_to_pay.the_time_you_need_                    = The time you need to allow depends on how you pay.
+ct.how_to_pay.same_or_next_day                      = If you are paying your bill the same or the next day you can use
+ct.how_to_pay.online_or_telephone_banking           = online or telephone banking
+ct.how_to_pay.chaps                                 = CHAPS
+ct.how_to_pay.longer_to_pay                         = If you have longer to pay your bill you can use
+ct.how_to_pay.bacs                                  = Bacs
+ct.how_to_pay.three_working_days                    = (3 working days)
+ct.how_to_pay.debit_or_credit_card                  = online by debit or credit card
+ct.how_to_pay.your                                  = your
+ct.how_to_pay.bank_or_building_society              = bank or building society
+ct.how_to_pay.direct_debit                          = Direct Debit
+ct.how_to_pay.direct_debit_timescale                = (3 working days if you already have one set up, 5 working days if you need to set one up)
+
+#######################################################
 ##  Transcripts
 #######################################################
 

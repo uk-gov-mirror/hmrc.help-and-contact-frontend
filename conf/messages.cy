@@ -195,6 +195,43 @@ sa.evidence.where_to_get.post_link=eich cyfrif.
 sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
 
 #######################################################
+##  Corporation Tax
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# How to pay
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.how_to_pay.title                                 = Sut i dalu Treth Gorfforaeth
+ct.how_to_pay_heading                               = Sut i dalu Treth Gorfforaeth
+ct.how_to_pay.deadlines.heading                     = Dyddiadau cau
+ct.how_to_pay.deadlines.body                        = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
+ct.how_to_pay.up_to_1point5_million.heading         = Os yw eich elw trethadwy hyd at £1.5 miliwn
+ct.how_to_pay.up_to_1point5_million.body            = Rhaid i chi dalu eich Treth Gorfforaeth naw mis ac un diwrnod ar ôl diwedd eich cyfnod cyfrifyddu. Fel arfer eich cyfnod cyfrifyddu yw’ch blwyddyn ariannol, ond mae’n bosibl y bydd gennych ddau gyfnod cyfrifyddu yn ystod
+ct.how_to_pay.year_company_set_up                   = y flwyddyn rydych yn sefydlu eich cwmni
+ct.how_to_pay.more_than_1point5_million.heading     = Os yw eich elw trethadwy dros £1.5 miliwn
+ct.how_to_pay.you_must_pay_                         = Rhaid i chi dalu eich Treth Gorfforaeth
+ct.how_to_pay.instalments                           = mewn rhandaliadau
+ct.how_to_pay.make_sure_you_pay                     = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
+ct.how_to_pay.charge_you_interest                   = codi llog arnoch
+ct.how_to_pay.if_you_do_not_pay_on_time_            = os na fyddwch yn talu mewn pryd. Byddant yn
+ct.how_to_pay.pay_you_interest                      = talu llog i chi
+ct.how_to_pay.if_you_pay_your_tax_early             = os byddwch yn talu’ch treth yn gynnar.
+ct.how_to_pay.ways_to_pay                           = Dulliau talu
+ct.how_to_pay.you_can_no_longer_pay_                = Ni allwch dalu yn Swyddfa’r Post mwyach. Ni allwch dalu Treth Gorfforaeth drwy’r post.
+ct.how_to_pay.the_time_you_need_                    = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
+ct.how_to_pay.same_or_next_day                      = Os ydych yn talu’ch bil yr un diwrnod neu’r diwrnod nesaf, gallwch ddefnyddio
+ct.how_to_pay.online_or_telephone_banking           = Bancio ar-lein neu fancio dros y ffôn
+ct.how_to_pay.chaps                                 = CHAPS
+ct.how_to_pay.longer_to_pay                         = Os oes gennych fwy o amser i dalu’ch bil, gallwch ddefnyddio
+ct.how_to_pay.bacs                                  = Bacs
+ct.how_to_pay.three_working_days                    = (3 diwrnod gwaith)
+ct.how_to_pay.debit_or_credit_card                  = Ar-lein gan ddefnyddio cerdyn debyd neu gredyd
+ct.how_to_pay.your                                  = Eich
+ct.how_to_pay.bank_or_building_society              = banc neu gymdeithas adeiladu
+ct.how_to_pay.direct_debit                          = Debyd Uniongyrchol
+ct.how_to_pay.direct_debit_timescale                = (3 diwrnod gwaith os oes gennych un eisoes wedi’i drefnu, 5 diwrnod gwaith os oes angen i chi drefnu un newydd)
+
+#######################################################
 ##  Transcripts
 #######################################################
 
