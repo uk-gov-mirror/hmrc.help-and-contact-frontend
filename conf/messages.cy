@@ -238,6 +238,42 @@ sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio�
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = Mae’r gyfradd unffurf wastad yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd - felly ni allwch hawlio lwfans cyfalaf am ei brynu.
 sa.expenses.video_transcript = trawsgrifiad fideo
 
+#######################################################
+##  Corporation Tax
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.contact_hmrc.title                           = Cysylltu â CThEM ynghylch Treth Gorfforaeth
+ct.contact_hmrc.heading                         = Cysylltu â CThEM ynghylch Treth Gorfforaeth
+ct.contact_hmrc.phone                           = Ffôn
+ct.contact_hmrc.call_hmrc_                      = Ffoniwch CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
+ct.contact_hmrc.need_utr_                       = Pan fyddwch yn ffonio, bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch. Mae hwn i’w weld ar lythyrau gan CThEM ac yn
+ct.contact_hmrc.your_online_services_account    = eich cyfrif gwasanaethau ar-lein
+ct.contact_hmrc.telephone                       = Ffôn:
+ct.contact_hmrc.uk_number                       = 0300 200 1900
+ct.contact_hmrc.outside_uk                      = Y tu allan i’r DU:
+ct.contact_hmrc.outside_uk_number               = +44 300 200 1900
+ct.contact_hmrc.fax                             = Ffacs:
+ct.contact_hmrc.fax_number                      = 01766 516 100
+ct.contact_hmrc.opening_times.heading           = Oriau agor:
+ct.contact_hmrc.opening_times.body              = Dydd Llun i ddydd Gwener: 8am i 6pm 
+ct.contact_hmrc.closed_weekends                 = Ar gau ar y penwythnos.
+ct.contact_hmrc.best_time_to_call.heading       = Yr amser gorau i alw:
+ct.contact_hmrc.best_time_to_call.body          = Mae’n bosibl y bydd llinellau’n brysur rhwng 8am i 9am a 5pm i 6pm.
+ct.contact_hmrc.call_charges                    = Gwybodaeth am gostau galwadau
+ct.contact_hmrc.post                            = Post
+ct.contact_hmrc.write_to_hmrc_                  = Ysgrifennwch at CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
+ct.contact_hmrc.you_dont_need_to_include_       = Does dim rhaid i chi gynnwys enw stryd, enw dinas na Blwch Swyddfa’r Post pan fyddwch yn ysgrifennu i’r cyfeiriad hwn.
+ct.contact_hmrc.couriers_                       = Dylai negeswyr ddefnyddio
+ct.contact_hmrc.different_address               = cyfeiriad gwahanol
+ct.contact_hmrc.corporation_tax_services        = Gwasanaethau Treth Gorfforaeth
+ct.contact_hmrc.street_address                  = Cyllid a Thollau EM
+ct.contact_hmrc.ct_services_postcode            = BX9 1AX
+ct.contact_hmrc.united_kingdom                  = Y Deyrnas Unedig 
+ct.contact_hmrc.if_you_are_replying_            = Os ydych yn ateb llythyr rydych wedi’i gael ynglŷn â’ch Treth Gorfforaeth, dylech ddefnyddio’r cyfeiriad ar y llythyr hwnnw.
+
 
 #######################################################
 ##  Transcripts

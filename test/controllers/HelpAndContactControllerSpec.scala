@@ -26,6 +26,11 @@ import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
 import views.html.sa._
 import views.html.vat._
+<<<<<<< HEAD
+=======
+import views.html.ct._
+
+>>>>>>> BTA-568: Implemented ct contact page - Note: css still has to be fixed
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
@@ -105,6 +110,9 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.SelfAssessment,
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    HelpCategory.CorporationTax,
+    "questions",
+    () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   "behave appropriately for enrolments" when {

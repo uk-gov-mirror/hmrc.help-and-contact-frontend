@@ -21,13 +21,14 @@ import controllers.actions._
 import handlers.ErrorHandler
 import javax.inject.Inject
 import models.HelpCategory
-import models.HelpCategory.{SelfAssessment, VAT}
+import models.HelpCategory.{CorporationTax, SelfAssessment, VAT}
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
 import views.html.sa._
 import views.html.vat._
+import views.html.ct._
 
 class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
                                          override val messagesApi: MessagesApi,
@@ -40,6 +41,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
       category match {
         case VAT => vat(page)
         case SelfAssessment => selfAssessment(page)
+        case CorporationTax => corporationTax(page)
       }
   }
 
@@ -64,5 +66,13 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
       case "expenses"               => Ok(expenses(appConfig)(request.serviceInfoContent))
       case _                        => NotFound(errorHandler.notFoundTemplate)
     }
+  }
+
+  private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+    page match {
+      case "questions"              => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
+      case _                        => NotFound(errorHandler.notFoundTemplate)
+    }
+
   }
 }
