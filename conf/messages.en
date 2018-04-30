@@ -202,7 +202,7 @@ sa.evidence.why_you_might_need_documents=You might be asked for these documents 
 # How to pay
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ct.how_to_pay.title                                 = How to pay your Corporation Tax
-ct.how_to_pay_heading                               = How to pay your Corporation Tax
+ct.how_to_pay.heading                               = How to pay your Corporation Tax
 ct.how_to_pay.deadlines.heading                     = Deadlines
 ct.how_to_pay.deadlines.body                        = The deadline for your payment will depend on your taxable profits.
 ct.how_to_pay.up_to_1point5_million.heading         = If your taxable profits are up to £1.5 million
@@ -211,7 +211,7 @@ ct.how_to_pay.year_company_set_up                   = the year you set up your c
 ct.how_to_pay.more_than_1point5_million.heading     = If your taxable profits are more than £1.5 million
 ct.how_to_pay.you_must_pay_                         = You must pay your Corporation Tax
 ct.how_to_pay.instalments                           = in instalments
-ct.how_to_pay.make_sure_you_pay                     = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may
+ct.how_to_pay.make_sure_you_pay_                    = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may
 ct.how_to_pay.charge_you_interest                   = charge you interest
 ct.how_to_pay.if_you_do_not_pay_on_time_            = if you do not pay on time. They will
 ct.how_to_pay.pay_you_interest                      = pay you interest

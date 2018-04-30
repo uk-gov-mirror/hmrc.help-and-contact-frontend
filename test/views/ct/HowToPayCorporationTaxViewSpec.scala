@@ -18,15 +18,13 @@ package views.ct
 
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.twirl.api.HtmlFormat
-import uk.gov.hmrc.domain.{SaUtr, SaUtrGenerator}
+import uk.gov.hmrc.domain.{SaUtr}
 import views.behaviours.ViewBehaviours
-import views.html.sa.how_to_pay_self_assessment
-
-import scala.util.Random
+import views.html.ct.how_to_pay_corporation_tax
 
 class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "corporation_tax.how_to_pay"
+  val messageKeyPrefix = "ct.how_to_pay"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr), HtmlFormat.empty)
@@ -51,7 +49,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("The deadline for your payment will depend on your taxable profits.")
 
       doc.text() must include("You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. " +
-        "Your accounting period is usually your financial year, but you may have two accounting periods in ")
+        "Your accounting period is usually your financial year, but you may have 2 accounting periods in ")
 
       doc.text() must include("You must pay your Corporation Tax ")
 
@@ -60,13 +58,12 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include(" if you pay your tax early.")
 
       doc.text() must include("You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.")
-      doc.text() must include("The time you need to allow depends on hwo you pay.")
+      doc.text() must include("The time you need to allow depends on how you pay.")
       doc.text() must include("If you are paying your bill the same or the next day you can use")
-      doc.text() must include("You’ll have a penalty showing on your account if you:")
       doc.text() must include("If you have longer to pay your bill you can use")
       doc.text() must include("(3 working days)")
       doc.text() must include("your")
-      doc.text() must include("(3 working days if you have already set one up, 5 working days if you need to set one up)")
+      doc.text() must include("(3 working days if you already have one set up, 5 working days if you need to set one up)")
 
     }
 
@@ -83,13 +80,13 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "instalments",
         "in instalments",
         "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
-        "HowToPayCt:click:instalments")
+        "HowToPayCt:click:Instalments")
       assertLinkById(
         doc,
         "charge-you-interest",
         "charge you interest",
         "https://www.gov.uk/guidance/corporation-tax-interest-charges",
-        "HowToPayCt:click:ChargeYou_interest")
+        "HowToPayCt:click:ChargeYouInterest")
       assertLinkById(
         doc,
         "pay-you-interest",
@@ -113,25 +110,25 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "debit-or-credit-card",
         "online by debit or credit card",
         "https://www.gov.uk/pay-corporation-tax/debit-or-credit-card",
-        "HowToPaySa:click:DebitOrCreditCard")
+        "HowToPayCt:click:DebitOrCreditCard")
       assertLinkById(
         doc,
         "bank-or-building-society",
-        "a bank or building society",
+        "bank or building society",
         "https://www.gov.uk/pay-corporation-tax/bank-or-building-society",
-        "HowToPaySa:click:BankOrBuildingSociety")
+        "HowToPayCt:click:BankOrBuildingSociety")
       assertLinkById(
         doc,
         "bacs",
         "Bacs",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
-        "HowToPaySa:click:Bacs")
+        "HowToPayCt:click:Bacs")
       assertLinkById(
         doc,
         "direct-debit",
         "Direct Debit",
         "https://www.gov.uk/pay-corporation-tax/direct-debit",
-        "HowToPaySa:click:DirectDebit")
+        "HowToPayCt:click:DirectDebit")
     }
 
   }

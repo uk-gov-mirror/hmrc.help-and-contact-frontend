@@ -202,7 +202,7 @@ sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau
 # How to pay
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ct.how_to_pay.title                                 = Sut i dalu Treth Gorfforaeth
-ct.how_to_pay_heading                               = Sut i dalu Treth Gorfforaeth
+ct.how_to_pay.heading                               = Sut i dalu Treth Gorfforaeth
 ct.how_to_pay.deadlines.heading                     = Dyddiadau cau
 ct.how_to_pay.deadlines.body                        = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
 ct.how_to_pay.up_to_1point5_million.heading         = Os yw eich elw trethadwy hyd at £1.5 miliwn
@@ -211,7 +211,7 @@ ct.how_to_pay.year_company_set_up                   = y flwyddyn rydych yn sefyd
 ct.how_to_pay.more_than_1point5_million.heading     = Os yw eich elw trethadwy dros £1.5 miliwn
 ct.how_to_pay.you_must_pay_                         = Rhaid i chi dalu eich Treth Gorfforaeth
 ct.how_to_pay.instalments                           = mewn rhandaliadau
-ct.how_to_pay.make_sure_you_pay                     = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
+ct.how_to_pay.make_sure_you_pay_                    = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
 ct.how_to_pay.charge_you_interest                   = codi llog arnoch
 ct.how_to_pay.if_you_do_not_pay_on_time_            = os na fyddwch yn talu mewn pryd. Byddant yn
 ct.how_to_pay.pay_you_interest                      = talu llog i chi
