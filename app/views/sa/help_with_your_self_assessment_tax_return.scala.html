@@ -1,0 +1,122 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(
+    title = messages("helpWithYourSelfAssessmentTaxReturn.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
+
+    @components.heading("helpWithYourSelfAssessmentTaxReturn.heading", "heading-xlarge")
+
+    <h2>@Messages("helpWithYourSelfAssessmentTaxReturn.who_must_send")</h2>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"))
+
+    <p>
+        <a id="why-have-been-sent-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
+        data-journey-click="HelpWithSa:click:WhyHaveIBeenSent">
+            @Messages("helpWithYourSelfAssessmentTaxReturn.why_have_i_been")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
+    <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_will_usually")</p>
+
+    <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_can_anonymously")
+        <a id="check-if-you"
+        href="@appConfig.getGovUrl("CheckIfYouNeedToSelfAssessment")"
+        data-journey-click="HelpWithSa:click:CheckIfYouNeedToSelfAssessment">
+        @messages("helpWithYourSelfAssessmentTaxReturn.check_if_you")</a>.
+    </p>
+
+    <p>@Messages("helpWithYourSelfAssessmentTaxReturn.if_you_are_sent")</p>
+
+    <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")</h2>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.self_assessment_is_a")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.tax_is_usually")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.self_assessment_is_not")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_need_to")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_did_not")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"))
+
+    <p>
+        <a id="your-first-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")"
+        data-journey-click="HelpWithSa:click:YourFirstTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
+    <h2>@messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")</h2>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.you_will_tailor")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"))
+
+    <p>
+        <a id="tailor-your-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"
+        data-journey-click="HelpWithSa:click:TailorYourTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
+    <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")</h2>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_started")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.did_not_trade")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"))
+
+    <p>
+        <a id="your-self-employed-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("your-self-employed-tax-return")"
+        data-journey-click="HelpWithSa:click:YourSelfEmployedTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
+    <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")</h2>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.do_not_fill")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_your_property")</p>
+
+    <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_from_partnership")</p>
+
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"))
+
+    <p>
+        <a id="your-income-from-property-tax-return-transcript"
+        href="@controllers.routes.TranscriptController.onPageLoad("your-income-from-property-tax-return")"
+        data-journey-click="HelpWithSa:click:YourIncomeFromPropertyTaxReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")
+            @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")</a>
+    </p>
+
+}

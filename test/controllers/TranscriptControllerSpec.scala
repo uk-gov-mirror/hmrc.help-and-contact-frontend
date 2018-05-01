@@ -64,6 +64,41 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "self-assessment-penalties",
     () => self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "why-sent-tax-return",
+    () => why_sent_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "your-first-tax-return",
+    () => your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "tailor-your-tax-return",
+    () => tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "your-self-employed-tax-return",
+    () => your_self_employed_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "your-income-from-property-tax-return",
+    () => your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "expenses-if-you-are-self-employed",
+    () => expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "calculating-motoring-expenses",
+    () => calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
 
 
