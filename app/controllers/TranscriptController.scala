@@ -43,6 +43,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         case "tailor-your-tax-return" => Ok(tailor_your_tax_return(appConfig)(request.serviceInfoContent))
         case "your-self-employed-tax-return" => Ok(your_self_employed_tax_return(appConfig)(request.serviceInfoContent))
         case "your-income-from-property-tax-return" => Ok(your_income_from_property_tax_return(appConfig)(request.serviceInfoContent))
+        case "expenses-if-you-are-self-employed" => Ok(expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent))
+        case "calculating-motoring-expenses" => Ok(calculating_motoring_expenses(appConfig)(request.serviceInfoContent))
         case _ => NotFound(errorHandler.notFoundTemplate)
       }
   }

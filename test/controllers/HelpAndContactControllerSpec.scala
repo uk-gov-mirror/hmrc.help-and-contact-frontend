@@ -101,6 +101,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "expenses",
+    () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
   "behave appropriately for enrolments" when {
     "the user has no enrolments" must {
       behave like pageRouterWithEnrolments(

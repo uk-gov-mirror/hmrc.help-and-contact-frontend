@@ -45,23 +45,24 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "how-to-pay"          => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
-      case "questions"           => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
+      case "questions"              => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
-      case _                     => NotFound(errorHandler.notFoundTemplate)
+      case _                        => NotFound(errorHandler.notFoundTemplate)
     }
   }
 
   private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "how-to-pay" => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_deregister(appConfig)(request.serviceInfoContent))
-      case "help-with-return" => Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
-      case "evidence-of-income" => {
+      case "help-with-return"       => Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
+      case "evidence-of-income"     => {
         Ok(sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))
         (request.serviceInfoContent))
       }
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case "expenses"               => Ok(expenses(appConfig)(request.serviceInfoContent))
+      case _                        => NotFound(errorHandler.notFoundTemplate)
     }
   }
 }

@@ -89,6 +89,16 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "your-income-from-property-tax-return",
     () => your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "expenses-if-you-are-self-employed",
+    () => expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    "calculating-motoring-expenses",
+    () => calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
 
 
