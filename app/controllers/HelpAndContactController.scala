@@ -70,7 +70,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "questions"              => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
+      case "contact-hmrc"              => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
       case _                        => NotFound(errorHandler.notFoundTemplate)
     }
 

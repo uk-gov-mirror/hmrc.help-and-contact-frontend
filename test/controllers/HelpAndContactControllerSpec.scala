@@ -111,7 +111,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
     HelpCategory.CorporationTax,
-    "questions",
+    "contact-hmrc",
     () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 

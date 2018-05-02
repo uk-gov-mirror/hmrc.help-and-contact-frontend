@@ -94,13 +94,17 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "call-charges",
         "Find out about call charges",
         "https://www.gov.uk/call-charges",
-        "ContactHMRCAboutCT:click:CallCharges")
+        "ContactHMRCAboutCT:click:CallCharges",
+        true,
+        true)
       assertLinkById(
         doc,
         "courier-address",
         "different address",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
-        "ContactHMRCAboutCT:click:CourierAddress")
+        "ContactHMRCAboutCT:click:CourierAddress",
+        true,
+        true)
     }
 
   }
