@@ -28,7 +28,6 @@ import views.html.sa._
 import views.html.vat._
 import views.html.ct._
 
-
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr), HtmlFormat.empty)
