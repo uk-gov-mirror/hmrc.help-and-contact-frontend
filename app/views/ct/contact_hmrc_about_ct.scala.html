@@ -1,0 +1,78 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(title = messages("ct.contact_hmrc.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
+
+  <h1 class="heading-xlarge">@Messages("ct.contact_hmrc.heading")</h1>
+
+  <h2 class="margin-top-xlarge">@Messages("ct.contact_hmrc.phone")</h2>
+  <p>@Messages("ct.contact_hmrc.call_hmrc_")</p>
+  <p>@Messages("ct.contact_hmrc.need_utr_")
+    <a id="your-online-services-account" href="@appConfig.getBusinessAccountUrl("home")"
+    data-journey-click="ContactHMRCAboutCT:click:YourOnlineServicesAccount"> @messages("ct.contact_hmrc.your_online_services_account")</a>.</p>
+  <div class="contact">
+    <div>
+      <p>@messages("ct.contact_hmrc.telephone")
+        <span class="bold contact-number">@messages("ct.contact_hmrc.uk_number")</span>
+      </p>
+      <p>@messages("ct.contact_hmrc.outside_uk")
+        <span class="bold contact-number">@messages("ct.contact_hmrc.outside_uk_number")</span>
+      </p>
+      <p>@messages("ct.contact_hmrc.fax")
+        <span class="bold contact-number">@messages("ct.contact_hmrc.fax_number")</span>
+      </p>
+    </div>
+  </div>
+
+  <p class="no-margin-bottom">@messages("ct.contact_hmrc.opening_times.heading")</p>
+  <ul class="no-margin-top">
+    <li>@messages("ct.contact_hmrc.opening_times.body")</li>
+    <li>@messages("ct.contact_hmrc.closed_weekends")</li>
+  </ul>
+
+  <p class="no-margin-bottom">@messages("ct.contact_hmrc.best_time_to_call.heading")</p>
+  <p>@messages("ct.contact_hmrc.best_time_to_call.body")</p>
+
+  <a id="call-charges" href="@appConfig.getGovUrl("callCharges")" target="_blank" rel="external noopener" data-journey-click="ContactHMRCAboutCT:click:CallCharges"> @messages("ct.contact_hmrc.call_charges")</a>
+
+  <h2 class="heading-medium margin-top-large">@messages("ct.contact_hmrc.post")</h2>
+  <p>@messages("ct.contact_hmrc.write_to_hmrc_")</p>
+  <p>@messages("ct.contact_hmrc.you_dont_need_to_include_")</p>
+  <p>@messages("ct.contact_hmrc.couriers_")
+  <a id="courier-address" href="@appConfig.getGovUrl("ctCourierAddress")" target="_blank" rel="external noopener" data-journey-click="ContactHMRCAboutCT:click:CourierAddress"> @messages("ct.contact_hmrc.different_address")</a>.</p>
+  <address class="address">
+    <p>
+      <span class="address-line">
+        @messages("ct.contact_hmrc.corporation_tax_services")
+      </span>
+      <span class="address-line">
+        @messages("ct.contact_hmrc.street_address")
+      </span>
+      <span class="address-line">
+        @messages("ct.contact_hmrc.ct_services_postcode")
+      </span>
+      <span class="address-line">
+        @messages("ct.contact_hmrc.united_kingdom")
+      </span>
+    </p>
+  </address>
+
+  <p>@messages("ct.contact_hmrc.if_you_are_replying_")</p>
+}

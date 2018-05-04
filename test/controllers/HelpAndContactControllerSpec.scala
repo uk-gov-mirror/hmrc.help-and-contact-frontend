@@ -26,6 +26,7 @@ import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
 import views.html.sa._
 import views.html.vat._
+import views.html.ct._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
@@ -105,6 +106,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.SelfAssessment,
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+  
+  behave like pageRouter(
+    HelpCategory.CorporationTax,
+    "contact-hmrc",
+    () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   "behave appropriately for enrolments" when {
