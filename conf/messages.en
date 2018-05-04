@@ -238,6 +238,21 @@ sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the ac
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
 sa.expenses.video_transcript = video transcript
 
+
+#######################################################
+##  EPAYE
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.contact_hmrc.title = Contact HMRC about PAYE
+epaye.contact_hmrc.heading = Contact HMRC about PAYE
+epaye.contact_hmrc.you_can = You can
+epaye.contact_hmrc.contact_us = contact us
+epaye.contact_hmrc.with_questions_about_paye = with questions about PAYE.
+
+
 #######################################################
 ##  Corporation Tax
 #######################################################
@@ -272,7 +287,7 @@ ct.contact_hmrc.corporation_tax_services = Corporation Tax Services
 ct.contact_hmrc.street_address = HM Revenue and Customs
 ct.contact_hmrc.ct_services_postcode = BX9 1AX
 ct.contact_hmrc.united_kingdom = United Kingdom
-ct.contact_hmrc.if_you_are_replying_  = If you’re replying to a letter you’ve received about your Corporation Tax, you should use the address on that letter.
+ct.contact_hmrc.if_you_are_replying_ = If you’re replying to a letter you’ve received about your Corporation Tax, you should use the address on that letter.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # How to pay
