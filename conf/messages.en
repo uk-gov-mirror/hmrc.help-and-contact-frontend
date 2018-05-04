@@ -153,6 +153,34 @@ howtoPaySelfAssessment.interest = interest
 howtoPaySelfAssessment.self.assessment.penalties = Self Assessment penalties
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help with your self assessment tax return
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+helpWithYourSelfAssessmentTaxReturn.title = Help with your Self Assessment return
+helpWithYourSelfAssessmentTaxReturn.heading = Help with your Self Assessment return
+helpWithYourSelfAssessmentTaxReturn.who_must_send = Who must send a tax return?
+helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Your first Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Why have I been sent a tax return
+helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Tailor your tax return
+helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Your self-employed tax return
+helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return = Your income from property tax return
+helpWithYourSelfAssessmentTaxReturn.video_transcript = - video transcript
+helpWithYourSelfAssessmentTaxReturn.you_will_usually = You will usually be sent a tax return if you are registered as self-employed.
+helpWithYourSelfAssessmentTaxReturn.you_can_anonymously = You can anonymously
+helpWithYourSelfAssessmentTaxReturn.check_if_you = check if you need to fill in a Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.if_you_are_sent = If you are sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you do not have any tax to pay. If you do not send a tax return back by the deadline you may have to pay a penalty. If you used to send a tax return but do not need to send one for the last tax year, contact HMRC to close your Self Assessment account. You must also tell HMRC if you have stopped being self-employed.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_a = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
+helpWithYourSelfAssessmentTaxReturn.tax_is_usually = Tax is usually deducted automatically from wages, pensions and savings. People and businesses with other income must report it in a tax return.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_not = Self Assessment is not just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you do not.
+helpWithYourSelfAssessmentTaxReturn.if_you_need_to = If you need to send one, you fill it in after the end of the tax year (5 April) it applies to.
+helpWithYourSelfAssessmentTaxReturn.if_you_did_not = If you did not send an online return last year, allow extra time (up to 20 working days) as you will need to register first.
+helpWithYourSelfAssessmentTaxReturn.you_will_tailor = You will tailor your tax return on the first 3 pages. Use this section to tell us about your different types of income, employments and self-employments so that you only see the parts of the tax return that you need to.
+helpWithYourSelfAssessmentTaxReturn.if_you_started = If you started or ceased self-employment during the year, it is important to enter the dates so HMRC can update your records.
+helpWithYourSelfAssessmentTaxReturn.did_not_trade = If you did not trade for a full year, but if you had and your income would have been over £83,000, you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been £100,000.
+helpWithYourSelfAssessmentTaxReturn.do_not_fill = Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as self-employment and you should fill in that section.
+helpWithYourSelfAssessmentTaxReturn.if_your_property = If your property is outside the European Economic Area, fill in the Foreign section.
+helpWithYourSelfAssessmentTaxReturn.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,7 +190,6 @@ self_assessment.register_deregister.registering_for_self_assessment = Registerin
 self_assessment.register_deregister.you_must_register_to_file = You must register to file a Self Assessment tax return within 6 months of the end of the tax year when you became self-employed or received income that you need to pay tax on. A tax year ends on 5 April. If you do not register, you could be fined.
 self_assessment.register_deregister.if_you_have_sent_tax_returns_before = If you have sent tax returns before
 self_assessment.register_deregister.if_you_have_sent_tax_returns_before_you_need = If you have sent tax returns before you will need your 10-digit Unique Taxpayer Reference or UTR. You will also be able to use an online account you previously set up to file your tax return but you still need to register.
-
 self_assessment.register_deregister.register_if_you_are_self_employed_sent_tax_return = Register if you are self-employed and you have sent a tax return before
 self_assessment.register_deregister.you_will_need_utr = You will need to find your 10-digit Unique Taxpayer Reference (UTR) from when you registered for Self Assessment previously.
 self_assessment.register_deregister.signed_up_before = If you have signed up for the online service before, you should use the same account to file your tax return.
@@ -182,17 +209,71 @@ self_assessment.register_deregister.closing_business = You will need to send fin
 self_assessment.register_deregister.classtwo_ni = HMRC will also cancel your Class 2 National Insurance contributions.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#  SaEvidence
+#~~  SA Evidence
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.evidence.title = Get evidence of your income (SA302)
 sa.evidence.heading = Get evidence of your income (SA302)
-
 sa.evidence.what_is_sa302=You can get evidence of your earnings for the last 4 years with an SA302.
 sa.evidence.tax_year_overview=You can also get a tax year overview for any year.
 sa.evidence.where_to_get.pre_link=You can get your SA302 in the
 sa.evidence.where_to_get.link_text=more Self Assessment details
 sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.title = Expenses
+sa.expenses.heading = Expenses
+sa.expenses.expenses_if_you_are_self_employed = Expenses if you are self employed
+sa.expenses.you_put_all_of_your_allowable_expenses_ = You put all of your allowable expenses for the tax year on your Self-Assessment tax return. Do not send proof of your expenses with your tax return. Keep them so that you can show them to HMRC, if asked.
+sa.expenses.you_can_choose_to_use_simplified_expenses_ = You can choose to use ‘Simplified expenses’ to work out some of your expenses using flat rates instead of working out your actual business costs. You can use flat rates for business costs for vehicles, working from home, living in your business premises. Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.
+sa.expenses.simplified_expenses_cannot_be_used_ = Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.
+sa.expenses.if_you_do_not_use_simplified_expenses_ = If you do not use simplified expenses and if your business income is £83,000 or more, you need to enter each expense.
+sa.expenses.if_your_business_income_is_below_ = If your business income is below £83,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
+sa.expenses.calculating_motoring_expenses = Calculating motoring expenses
+sa.expenses.you_can_claim_business_expenses_for_ = You can claim business expenses for a number of things including fuel and vehicle insurance. You cannot claim for non-business driving, or for fines or travel between home and work.
+sa.expenses.you_can_claim_either_the_actual_costs_ = You can claim either the actual costs, or a flat rate for business mileage. Once you have chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
+sa.expenses.the_flat_rate_covers_the_whole_cost_ = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
+sa.expenses.video_transcript = video transcript
+
+#######################################################
+##  Corporation Tax
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.contact_hmrc.title                           = Contact HMRC about Corporation Tax
+ct.contact_hmrc.heading                         = Contact HMRC about Corporation Tax
+ct.contact_hmrc.phone                           = Phone
+ct.contact_hmrc.call_hmrc_                      = Call HMRC for help with general Corporation Tax enquiries.
+ct.contact_hmrc.need_utr_                       = You’ll need your 10-digit Unique Tax Reference when you call. You can find this on letters from HMRC and in
+ct.contact_hmrc.your_online_services_account    = your online services account
+ct.contact_hmrc.telephone                       = Telephone:
+ct.contact_hmrc.uk_number                       = 0300 200 3410
+ct.contact_hmrc.outside_uk                      = Outside UK:
+ct.contact_hmrc.outside_uk_number               = +44 151 268 0571
+ct.contact_hmrc.fax                             = Fax:
+ct.contact_hmrc.fax_number                      = 03000 543 889
+ct.contact_hmrc.opening_times.heading           = Opening times:
+ct.contact_hmrc.opening_times.body              = Monday to Friday: 8am to 6pm
+ct.contact_hmrc.closed_weekends                 = Closed weekends.
+ct.contact_hmrc.best_time_to_call.heading       = Best time to call:
+ct.contact_hmrc.best_time_to_call.body          = Phone lines may be less busy between 8am to 9am and 5pm to 6pm.
+ct.contact_hmrc.call_charges                    = Find out about call charges
+ct.contact_hmrc.post                            = Post
+ct.contact_hmrc.write_to_hmrc_                  = Write to HMRC for help with general Corporation Tax enquiries.
+ct.contact_hmrc.you_dont_need_to_include_       = You don’t need to include a street name, city name or PO box when writing to this address.
+ct.contact_hmrc.couriers_                       = Couriers should use a
+ct.contact_hmrc.different_address               = different address
+ct.contact_hmrc.corporation_tax_services        = Corporation Tax Services
+ct.contact_hmrc.street_address                  = HM Revenue and Customs
+ct.contact_hmrc.ct_services_postcode            = BX9 1AX
+ct.contact_hmrc.united_kingdom                  = United Kingdom
+ct.contact_hmrc.if_you_are_replying_            = If you’re replying to a letter you’ve received about your Corporation Tax, you should use the address on that letter.
+
 
 #######################################################
 ## Corporation Tax
@@ -302,3 +383,137 @@ selfAssessmentPenaltiesTranscript.paragraph8 = Of course, you can avoid any pena
 selfAssessmentPenaltiesTranscript.paragraph9 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return. This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this. You’ll find more help and support on GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph10 = Webinars and other videos about Self Assessment are available from HMRC.
 selfAssessmentPenaltiesTranscript.paragraph11 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Why have I been sent a tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+whySentTaxReturnTranscript.title = Why have I been sent a tax return - video transcript
+whySentTaxReturnTranscript.heading = Why have I been sent a tax return - video transcript
+whySentTaxReturnTranscript.paragraph1 = You’ll usually be sent a tax return if you’re registered as self-employed. But you can check if you need to fill in a Self Assessment tax return quickly and easily on GOV.UK, using the link at the end of this video.
+whySentTaxReturnTranscript.paragraph2 = It’s not connected to HM Revenue and Customs online services so it’s completely anonymous.
+whySentTaxReturnTranscript.paragraph3 = If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.
+whySentTaxReturnTranscript.paragraph4 = If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.
+whySentTaxReturnTranscript.paragraph5 = You must also tell HMRC if you’ve stopped being self-employed. You can do all this – and find out much more – on GOV.UK.
+whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your first Self Assessment tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yourFirstTaxReturnTranscript.title = Your first Self Assessment tax return - video transcript
+yourFirstTaxReturnTranscript.heading = Your first Self Assessment tax return - video transcript
+yourFirstTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+yourFirstTaxReturnTranscript.paragraph2 = The tax return due by 31 January 2018 is for the tax year 6 April 2016 to 5 April 2017.
+yourFirstTaxReturnTranscript.paragraph3 = Self Assessment isn’t just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you don’t.
+yourFirstTaxReturnTranscript.paragraph4 = There’s a useful tool on GOV.UK to help you decide if you need to complete a tax return, and you don’t need to be registered to use it.
+yourFirstTaxReturnTranscript.paragraph5 = You’ll need to register for Self Assessment by 5 October following the end of the tax year or you may be charged a penalty.
+yourFirstTaxReturnTranscript.paragraph6 = There’s a short video in this series on how to register.
+yourFirstTaxReturnTranscript.paragraph7 = Once you’ve registered and activated the online service you’re ready to complete your first Self Assessment tax return. All income has to be included when you complete your tax return, so you’ll need your records.
+yourFirstTaxReturnTranscript.paragraph8 = These are some of the things you might need. There’s more about record keeping on the GOV.UK website. Once you have all your information, go to GOV.UK and sign in with the user ID and password you got when you signed up to Self Assessment online.
+yourFirstTaxReturnTranscript.paragraph9 = There are links to help if you have any problems.
+yourFirstTaxReturnTranscript.paragraph10 = The ‘welcome’ page gives you some information about who can and who can’t use the online service. Most people can.
+yourFirstTaxReturnTranscript.paragraph11 = Before you fill in your tax return, you’ll be asked to ‘Tell us about you’. You must make an entry at every box with a red star beside it.
+yourFirstTaxReturnTranscript.paragraph12 = Many people are surprised to find the Self Assessment online screens are very user friendly and help you through the process.
+yourFirstTaxReturnTranscript.paragraph13 = This screen is letting you know the date of birth has been entered incorrectly. It is now correct 30/01/1960. You must show four digits for the year, just ‘60 is not accepted.
+yourFirstTaxReturnTranscript.paragraph14 = In the next section, you can ‘Tailor your return’. You answer a series of Yes/No questions to ensure that you only fill in what you need.
+yourFirstTaxReturnTranscript.paragraph15 = If you are unsure about a question, select the question mark at the side. You’ll then find some guidance notes about what you need to do. Every time you use the ‘next’ button, what you have entered has been saved.
+yourFirstTaxReturnTranscript.paragraph16 = You don’t have to complete it all in one go. You can leave the return at any time and come back to it later. This is helpful if you don’t have everything to hand. You can use the ‘Save’ button to do this.
+yourFirstTaxReturnTranscript.paragraph17 = The ‘Check your progress’ button helps you to see how much you have completed and still have to do. The bar at the top of the screen moves along as you fill out the return.
+yourFirstTaxReturnTranscript.paragraph18 = When you have filled in your return, you’ll be asked to check that everything is correct. This shows a summary of what you have filled in and confirms what you’ve said you don’t need to fill in.
+yourFirstTaxReturnTranscript.paragraph19 = At this stage you can go back and make changes. When you’re sure everything is correct, you can ‘view your calculation’. The online tax return works out how much you are due to pay.
+yourFirstTaxReturnTranscript.paragraph20 = You can then save a copy of your return for your own records. Remember to send the return to HMRC. Do this in the ‘submit return’ section. You’ll need your user ID and password to do this.
+yourFirstTaxReturnTranscript.paragraph21 = You’ll receive a message online, to confirm that HMRC has received your return, when you submit it.
+yourFirstTaxReturnTranscript.paragraph22 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+yourFirstTaxReturnTranscript.paragraph23 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Tailor your tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tailorYourTaxReturnTranscript.title = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.heading = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+tailorYourTaxReturnTranscript.paragraph2 = Once you’re in the online tax return you need to ‘Tailor your return’. Three pages, of Yes/No questions ensuring that you’re only given the sections you need.
+tailorYourTaxReturnTranscript.paragraph3 = Page 1 is about the sources of income you had, for example employment, self-employment or partnership income. If you’re unsure about a question, select the ‘question mark’.
+tailorYourTaxReturnTranscript.paragraph4 = You’ll then be given guidance. You must select ‘Yes’ or ‘No’ to all questions with a red star. On this page, that’s all of them. When you choose ‘Yes’, you may be asked for further information. For example, if you choose ‘Yes’ for the employment section, you’re asked how many employments or directorships you had, and you have to give the employer’s name.
+tailorYourTaxReturnTranscript.paragraph5 = You don’t have to complete your return all in one go. You can leave at any time and come back later which can be helpful if you don’t have everything to hand. You use the ‘Save’ button to do this.
+tailorYourTaxReturnTranscript.paragraph6 = When you select the ‘next’ button, what you’ve already entered is saved.
+tailorYourTaxReturnTranscript.paragraph7 = ‘Next’ takes you to page 2. This asks about other types of income like bank interest, dividends and pensions. This question can cause confusion – it’s for losses on other taxable income such as casual earnings or commission. It’s not for losses you would enter in another section of the return, for example, self-employed losses in the self-employed section. If in doubt use the question mark.
+tailorYourTaxReturnTranscript.paragraph8 = ‘Next’ takes you to page 3. This is mainly about tax reliefs, including pension contributions or charitable gifts, Married Couple’s Allowance and Marriage Allowance.
+tailorYourTaxReturnTranscript.paragraph9 = This is not refunds you’ve received during the tax year for an earlier year, or refunds through an employer. It’s the 2016-17 tax you’ve paid, which has already been refunded by HMRC or Jobcentre Plus. ‘Next’ takes you to ‘Fill in your return’.
+tailorYourTaxReturnTranscript.paragraph10 = From here you give details of the income you had and any tax you paid.
+tailorYourTaxReturnTranscript.paragraph11 = Remember the tax return due on 31 January 2018 is for the tax year 6 April 2016 to 5 April 2017. Any tax you owe must be paid by 31 January 2018.
+tailorYourTaxReturnTranscript.paragraph12 = And don’t forget you can file your Self Assessment anytime, so don’t leave it until the last minute. You’ll find more help and support on GOV.UK.
+tailorYourTaxReturnTranscript.paragraph13 = Webinars and other videos about Self Assessment are available from HMRC.
+tailorYourTaxReturnTranscript.paragraph14 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your self employment tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yourSelfEmployedTaxReturnTranscript.title = Your self-employed tax return - video transcript
+yourSelfEmployedTaxReturnTranscript.heading = Your self-employed tax return - video transcript
+yourSelfEmployedTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment tax returns.
+yourSelfEmployedTaxReturnTranscript.paragraph2 = You’ve tailored your return. Now tell HMRC about your self-employed income.
+yourSelfEmployedTaxReturnTranscript.paragraph3 = The first question is about your annual turnover. If you didn’t trade for a full year, but if you had and your income would’ve been over £83,000, you answer ‘yes’.
+yourSelfEmployedTaxReturnTranscript.paragraph4 = For example: If your business income over 6 months was £50,000, then for 12 months it would’ve been £100,000. If your trading income is over £83,000 then you may need to register for VAT. You’ll also need to give detailed information, such as listing expenses. We’re choosing ‘no’.
+yourSelfEmployedTaxReturnTranscript.paragraph5 = Statements appear about your self-employment. Choose those that apply. Many people will select ‘None of these apply’. Your business description goes on page 2.
+yourSelfEmployedTaxReturnTranscript.paragraph6 = If you started or ceased self-employment during the year, it’s important to enter the dates so HMRC can update your records. Next takes you to accounting details. Enter your end of year date. When you start self-employment we recommend you use 5th April as this is the end of the tax year. Consider cash basis. If you answer ‘Yes’, you may not be able to make claims for some expenses, capital allowances and loss relief.
+yourSelfEmployedTaxReturnTranscript.paragraph7 = Use the question mark for guidance or search for cash basis on GOV.UK.
+yourSelfEmployedTaxReturnTranscript.paragraph8 = On this page, show your turnover and allowable expenses.
+yourSelfEmployedTaxReturnTranscript.paragraph9 = If your income is below the VAT threshold, just add together all the allowable expenses and enter a single figure, or you can enter them separately. The calculations are done automatically. ‘Next’ takes you to the Capital Allowances page. With cash basis, you can only claim capital allowances on business cars. Other tax adjustments are on the next page.
+yourSelfEmployedTaxReturnTranscript.paragraph10 = Include the value of any goods or services you’ve had for your own use, any losses brought forward from an earlier year and any other business income.
+yourSelfEmployedTaxReturnTranscript.paragraph11 = The next page is for losses. There’s a link to a worksheet and helpsheet 227 with more guidance. These aren’t sent to HMRC. You only need to complete the tax deducted page if you’re in the construction industry scheme to show contractor deductions.
+yourSelfEmployedTaxReturnTranscript.paragraph12 = Only answer ‘Yes’ if you’re exempt from Class 4 National Insurance contributions.
+yourSelfEmployedTaxReturnTranscript.paragraph13 = The few exemptions are listed in the help screen, just use the question mark.
+yourSelfEmployedTaxReturnTranscript.paragraph14 = There’s a screen for other information, and then check your entries on this summary page. If you’ve stopped self-employment tell HMRC.
+yourSelfEmployedTaxReturnTranscript.paragraph15 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+yourSelfEmployedTaxReturnTranscript.paragraph16 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Your income from property tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yourIncomeFromPropertyTaxReturnTranscript.title = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.heading = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = On your Self Assessment tax return you’ve said you have income from property. This is the section of the tax return you go to.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Don’t start filling in this section if you receive income from letting furnished accommodation in your home that amounts to a trade - for example, you run a guest house or offer bed and breakfast. Fill in the ‘self-employment’ section instead.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph4 = Don’t fill this in if your property is outside the European Economic Area either - in that case fill in the foreign section. And if your property income was from a partnership - fill in the Partnership section.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Enter details about your property on these pages. This is where you claim any Rent a Room relief. If your income was above the Rent a Room threshold you make an adjustment for the exempt amount later. Tell HMRC the amount of property income you received here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = For jointly let property, only put your share. Use form 17 if you want to change the split of the income. UK tax is only taken off if you’re a non-resident landlord. Then, your total income from property is calculated. This is where you enter your running costs.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = Allowable expenses include the cost of repairs where you’re restoring an asset to its original condition but not for improvements or upgrades. These are a capital expense. If your total property income is below £83,000 you don’t need to fill in all the boxes.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = Add up your expenses and put the total, less any furnished holiday lettings expenses, in this box. 
+yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = The renewals allowance and the 10% wear and tear allowance for the cost of replacing furniture or furnishings are no longer available. Adjustments go here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph10 = For residential lettings only, this is where you claim the cost of replacing domestic items. Use the question mark for more information.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = If you’re claiming Rent a Room relief but received more than the threshold, enter the exempt amount here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = The adjusted profit for the year will be calculated for you. If there’s a profit you must enter any unused losses from earlier years.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = The taxable profit or adjusted loss will display below and the loss to carry forward will be calculated for you. Enter any other information then check your figures on the final summary screen. If you spot an error you can always go back and change it.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses if you are self employed transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.expenses_for_self_employed_transcript.title = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.heading = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.paragraph1 = This is one of a series of videos about online Self Assessment. If you’re self-employed your business will have various running costs. You can take away some of these costs to work out your taxable profit as long as they’re allowable expenses.
+sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Allowable expenses don’t include money you take from your business to pay for private purchases. In other words, allowable business expenses don’t include things like accommodation, food, clothing, holidays and any other things you buy for you and your family.
+sa.expenses.expenses_for_self_employed_transcript.paragraph3 = You need to keep records of all your business expenses as proof of your costs. You add up all of your allowable expenses for the tax year and put them on your Self-Assessment tax return. Don’t send in proof of your expenses when you send your tax return to HMRC. Keep them so that you can show them to HMRC, if asked. You can choose to use ‘Simplified expenses’.
+sa.expenses.expenses_for_self_employed_transcript.paragraph4 = This is a way of working out some of your expenses using flat rates instead of working out your actual business costs. You don’t have to do this. You can decide if it suits your business.
+sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Simplified expenses can’t be used by limited companies or business partnerships involving a limited company. You can use flat rates for business costs for vehicles, working from home, living in your business premises.
+sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.
+sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Then, at the end of the year, use the flat rate to work out your expenses and include the amounts in your Self Assessment tax return. Find out more about this on the GOV.UK website.
+sa.expenses.expenses_for_self_employed_transcript.paragraph8 = For other expenses, and if you decide not to use simplified expenses, keep accurate records of what you buy and their costs.
+sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Here’s some commonly used business expenses: office property and equipment, car, van and travel, staff, stock, legal and financial costs, marketing and subscriptions.
+sa.expenses.expenses_for_self_employed_transcript.paragraph10 = For the tax year 2016-17, if your business income is £83,000 or more, you need to enter each expense under the appropriate heading. If you didn’t trade for a full year, but if you had, and your income would have been more than £83,000 you need to enter each expense in the same way.
+sa.expenses.expenses_for_self_employed_transcript.paragraph11 = For example, if you traded from October to April, (that’s six months), and your business income was £50,000, then your business income for a full 12 months would have been £100,000. If your business income is below £83,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
+sa.expenses.expenses_for_self_employed_transcript.paragraph12 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Calculating motoring expenses transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.expenses.calculating_motoring_expenses.title = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.heading = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.paragraph1 = If you work for yourself you may have a car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things including fuel and vehicle insurance. But you can’t claim for non-business driving, or for fines or travel between home and work.
+sa.expenses.calculating_motoring_expenses.paragraph2 = There are two ways of working out your motoring expenses: using the actual costs, or a flat rate for business mileage. Once you’ve chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+sa.expenses.calculating_motoring_expenses.paragraph3 = If you decide to use the actual costs, you’ll need to know how many miles the vehicle has done over the year. Then work out what percentage was for business.
+sa.expenses.calculating_motoring_expenses.paragraph4 = For example, if your business use was 75%, and your total running costs are £6,000, then the business use of that is £4,500 – which is the figure to include on your Self Assessment tax return. If you use the actual cost method, you can claim a capital allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on the GOV.UK website. Alternatively, you can claim expenses using a flat rate for business mileage. The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you can’t claim a capital allowance for its purchase.
+sa.expenses.calculating_motoring_expenses.paragraph5 = You can find the current flat rates on GOV.UK. Again you’ll need to know how many miles you travel and what percentage was on business. Remember, once you start using the flat rate method for a vehicle, you can’t switch to the actual cost method. But you can use the actual cost method for a different vehicle. There’s a checker on GOV.UK to work out which method is best for you. Use the link at the end of this video to go to it.
+sa.expenses.calculating_motoring_expenses.paragraph6 = You’ll find more help and support on GOV.UK Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.

@@ -1,0 +1,76 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(
+    title = messages("yourFirstTaxReturnTranscript.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
+
+    @components.heading("yourFirstTaxReturnTranscript.heading", "heading-xlarge")
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph1")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph2")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph3")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph4")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph5")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph6")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph7")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph8")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph9")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph10")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph11")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph12")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph13")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph14")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph15")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph16")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph17")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph18")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph19")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph20")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph21")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph22")</p>
+
+    <p>@messages("yourFirstTaxReturnTranscript.paragraph23")</p>
+
+
+}

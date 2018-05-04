@@ -24,9 +24,9 @@ import play.api.mvc.AnyContentAsEmpty
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
-import views.html.sa.{how_to_pay_self_assessment, register_deregister, _}
-import views.html.vat.{payments_and_deadlines, questions_about_vat, _}
-
+import views.html.sa._
+import views.html.vat._
+import views.html.ct._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
@@ -94,6 +94,24 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.SelfAssessment,
     "how-to-pay",
     () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "help-with-return",
+    () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "expenses",
+    () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+  
+  behave like pageRouter(
+    HelpCategory.CorporationTax,
+    "contact-hmrc",
+    () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   "behave appropriately for enrolments" when {
