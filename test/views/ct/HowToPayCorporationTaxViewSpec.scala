@@ -47,16 +47,12 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
     "have correct content" in {
       val doc = asDocument(createView()())
       doc.text() must include("The deadline for your payment will depend on your taxable profits.")
-
       doc.text() must include("You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. " +
         "Your accounting period is usually your financial year, but you may have 2 accounting periods in ")
-
       doc.text() must include("You must pay your Corporation Tax ")
-
       doc.text() must include("Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may")
       doc.text() must include(" if you do not pay on time. They will ")
       doc.text() must include(" if you pay your tax early.")
-
       doc.text() must include("You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.")
       doc.text() must include("The time you need to allow depends on how you pay.")
       doc.text() must include("If you are paying your bill the same or the next day you can use")
@@ -64,7 +60,6 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("(3 working days)")
       doc.text() must include("your")
       doc.text() must include("(3 working days if you already have one set up, 5 working days if you need to set one up)")
-
     }
 
     "have correct links" in {
@@ -130,6 +125,5 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/pay-corporation-tax/direct-debit",
         "HowToPayCt:click:DirectDebit")
     }
-
   }
 }

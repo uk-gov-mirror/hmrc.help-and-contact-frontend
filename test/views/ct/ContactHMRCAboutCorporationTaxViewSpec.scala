@@ -22,7 +22,7 @@ import uk.gov.hmrc.domain.{SaUtr}
 import views.behaviours.ViewBehaviours
 import views.html.ct.contact_hmrc_about_ct
 
-class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
+class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "ct.contact_hmrc"
 
@@ -45,38 +45,26 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
     "have correct content" in {
       val doc = asDocument(createView()())
       doc.text() must include("Call HMRC for help with general Corporation Tax enquiries.")
-
       doc.text() must include("You’ll need your 10-digit Unique Tax Reference when you call." +
         " You can find this on letters from HMRC and in")
-
       doc.text() must include("Telephone:")
       doc.text() must include("0300 200 3410")
-
       doc.text() must include("Outside UK: ")
       doc.text() must include("+44 151 268 0571")
-
       doc.text() must include("Fax:")
       doc.text() must include("03000 543 889")
-
       doc.text() must include("Opening times:")
       doc.text() must include("Monday to Friday: 8am to 6pm")
-
       doc.text() must include("Closed weekends.")
-
       doc.text() must include("Best time to call:")
       doc.text() must include("Phone lines may be less busy between 8am to 9am and 5pm to 6pm.")
-
       doc.text() must include("Write to HMRC for help with general Corporation Tax enquiries.")
-
       doc.text() must include("You don’t need to include a street name, city name or PO box when writing to this address.")
-
       doc.text() must include("Couriers should use a")
-
       doc.text() must include("Corporation Tax Services")
       doc.text() must include("HM Revenue and Customs")
       doc.text() must include("BX9 1AX")
       doc.text() must include("United Kingdom")
-
       doc.text() must include("If you’re replying to a letter you’ve received about your Corporation Tax," +
         " you should use the address on that letter.")
     }
@@ -106,6 +94,5 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         true,
         true)
     }
-
   }
 }
