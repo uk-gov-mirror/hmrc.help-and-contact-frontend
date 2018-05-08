@@ -274,11 +274,6 @@ ct.contact_hmrc.ct_services_postcode            = BX9 1AX
 ct.contact_hmrc.united_kingdom                  = Y Deyrnas Unedig 
 ct.contact_hmrc.if_you_are_replying_            = Os ydych yn ateb llythyr rydych wedi’i gael ynglŷn â’ch Treth Gorfforaeth, dylech ddefnyddio’r cyfeiriad ar y llythyr hwnnw.
 
-
-#######################################################
-##  Corporation Tax
-#######################################################
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # How to pay
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -302,6 +297,7 @@ ct.how_to_pay.you_can_no_longer_pay_                = Ni allwch dalu yn Swyddfa�
 ct.how_to_pay.the_time_you_need_                    = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
 ct.how_to_pay.same_or_next_day                      = Os ydych yn talu’ch bil yr un diwrnod neu’r diwrnod nesaf, gallwch ddefnyddio
 ct.how_to_pay.online_or_telephone_banking           = Bancio ar-lein neu fancio dros y ffôn
+ct.how_to_pay.faster_payments                       = (y gwasanaeth Taliadau Cyflymach)
 ct.how_to_pay.chaps                                 = CHAPS
 ct.how_to_pay.longer_to_pay                         = Os oes gennych fwy o amser i dalu’ch bil, gallwch ddefnyddio
 ct.how_to_pay.bacs                                  = Bacs

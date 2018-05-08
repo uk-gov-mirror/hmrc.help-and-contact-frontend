@@ -274,11 +274,6 @@ ct.contact_hmrc.ct_services_postcode            = BX9 1AX
 ct.contact_hmrc.united_kingdom                  = United Kingdom
 ct.contact_hmrc.if_you_are_replying_            = If you’re replying to a letter you’ve received about your Corporation Tax, you should use the address on that letter.
 
-
-#######################################################
-## Corporation Tax
-#######################################################
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # How to pay
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -302,6 +297,7 @@ ct.how_to_pay.you_can_no_longer_pay_                = You can no longer pay at t
 ct.how_to_pay.the_time_you_need_                    = The time you need to allow depends on how you pay.
 ct.how_to_pay.same_or_next_day                      = If you are paying your bill the same or the next day you can use
 ct.how_to_pay.online_or_telephone_banking           = online or telephone banking
+ct.how_to_pay.faster_payments                       = (Faster Payments)
 ct.how_to_pay.chaps                                 = CHAPS
 ct.how_to_pay.longer_to_pay                         = If you have longer to pay your bill you can use
 ct.how_to_pay.bacs                                  = Bacs

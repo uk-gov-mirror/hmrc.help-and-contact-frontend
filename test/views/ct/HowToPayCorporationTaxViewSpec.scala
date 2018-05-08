@@ -56,6 +56,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.")
       doc.text() must include("The time you need to allow depends on how you pay.")
       doc.text() must include("If you are paying your bill the same or the next day you can use")
+      doc.text() must include("Faster Payments")
       doc.text() must include("If you have longer to pay your bill you can use")
       doc.text() must include("(3 working days)")
       doc.text() must include("your")
