@@ -70,61 +70,81 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "year-company-set-up",
         "the year you set up your company",
         "https://www.gov.uk/first-company-accounts-and-return",
-        "HowToPayCt:click:YearCompanySetUp")
+        "HowToPayCt:click:YearCompanySetUp",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "instalments",
         "in instalments",
         "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
-        "HowToPayCt:click:Instalments")
+        "HowToPayCt:click:Instalments",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "charge-you-interest",
         "charge you interest",
         "https://www.gov.uk/guidance/corporation-tax-interest-charges",
-        "HowToPayCt:click:ChargeYouInterest")
+        "HowToPayCt:click:ChargeYouInterest",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "pay-you-interest",
         "pay you interest",
         "https://www.gov.uk/get-refund-interest-corporation-tax",
-        "HowToPayCt:click:PayYouInterest")
+        "HowToPayCt:click:PayYouInterest",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "online-or-telephone-banking",
         "online or telephone banking",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
-        "HowToPayCt:click:OnlineOrTelephoneBanking")
+        "HowToPayCt:click:OnlineOrTelephoneBanking",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "chaps",
         "CHAPS",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
-        "HowToPayCt:click:CHAPS")
+        "HowToPayCt:click:CHAPS",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "debit-or-credit-card",
         "online by debit or credit card",
         "https://www.gov.uk/pay-corporation-tax/debit-or-credit-card",
-        "HowToPayCt:click:DebitOrCreditCard")
+        "HowToPayCt:click:DebitOrCreditCard",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "bank-or-building-society",
         "bank or building society",
         "https://www.gov.uk/pay-corporation-tax/bank-or-building-society",
-        "HowToPayCt:click:BankOrBuildingSociety")
+        "HowToPayCt:click:BankOrBuildingSociety",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "bacs",
         "Bacs",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
-        "HowToPayCt:click:Bacs")
+        "HowToPayCt:click:Bacs",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "direct-debit",
         "Direct Debit",
         "https://www.gov.uk/pay-corporation-tax/direct-debit",
-        "HowToPayCt:click:DirectDebit")
+        "HowToPayCt:click:DirectDebit",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
   }
 }
