@@ -114,6 +114,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
+  behave like pageRouter(
+    HelpCategory.CorporationTax,
+    "how-to-pay",
+    () => how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
   "behave appropriately for enrolments" when {
     "the user has no enrolments" must {
       behave like pageRouterWithEnrolments(
@@ -144,6 +150,5 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
         controllerWithEnrolment()
       )
     }
-
   }
 }

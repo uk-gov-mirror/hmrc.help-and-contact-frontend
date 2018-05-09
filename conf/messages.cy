@@ -245,35 +245,68 @@ sa.expenses.video_transcript = trawsgrifiad fideo
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ct.contact_hmrc.title                           = Cysylltu â CThEM ynghylch Treth Gorfforaeth
-ct.contact_hmrc.heading                         = Cysylltu â CThEM ynghylch Treth Gorfforaeth
-ct.contact_hmrc.phone                           = Ffôn
-ct.contact_hmrc.call_hmrc_                      = Ffoniwch CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
-ct.contact_hmrc.need_utr_                       = Pan fyddwch yn ffonio, bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch. Mae hwn i’w weld ar lythyrau gan CThEM ac yn
-ct.contact_hmrc.your_online_services_account    = eich cyfrif gwasanaethau ar-lein
-ct.contact_hmrc.telephone                       = Ffôn:
-ct.contact_hmrc.uk_number                       = 0300 200 1900
-ct.contact_hmrc.outside_uk                      = Y tu allan i’r DU:
-ct.contact_hmrc.outside_uk_number               = +44 300 200 1900
-ct.contact_hmrc.fax                             = Ffacs:
-ct.contact_hmrc.fax_number                      = 01766 516 100
-ct.contact_hmrc.opening_times.heading           = Oriau agor:
-ct.contact_hmrc.opening_times.body              = Dydd Llun i ddydd Gwener: 8am i 6pm 
-ct.contact_hmrc.closed_weekends                 = Ar gau ar y penwythnos.
-ct.contact_hmrc.best_time_to_call.heading       = Yr amser gorau i alw:
-ct.contact_hmrc.best_time_to_call.body          = Mae’n bosibl y bydd llinellau’n brysur rhwng 8am i 9am a 5pm i 6pm.
-ct.contact_hmrc.call_charges                    = Gwybodaeth am gostau galwadau
-ct.contact_hmrc.post                            = Post
-ct.contact_hmrc.write_to_hmrc_                  = Ysgrifennwch at CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
-ct.contact_hmrc.you_dont_need_to_include_       = Does dim rhaid i chi gynnwys enw stryd, enw dinas na Blwch Swyddfa’r Post pan fyddwch yn ysgrifennu i’r cyfeiriad hwn.
-ct.contact_hmrc.couriers_                       = Dylai negeswyr ddefnyddio
-ct.contact_hmrc.different_address               = cyfeiriad gwahanol
-ct.contact_hmrc.corporation_tax_services        = Gwasanaethau Treth Gorfforaeth
-ct.contact_hmrc.street_address                  = Cyllid a Thollau EM
-ct.contact_hmrc.ct_services_postcode            = BX9 1AX
-ct.contact_hmrc.united_kingdom                  = Y Deyrnas Unedig 
-ct.contact_hmrc.if_you_are_replying_            = Os ydych yn ateb llythyr rydych wedi’i gael ynglŷn â’ch Treth Gorfforaeth, dylech ddefnyddio’r cyfeiriad ar y llythyr hwnnw.
+ct.contact_hmrc.title = Cysylltu â CThEM ynghylch Treth Gorfforaeth
+ct.contact_hmrc.heading = Cysylltu â CThEM ynghylch Treth Gorfforaeth
+ct.contact_hmrc.phone = Ffôn
+ct.contact_hmrc.call_hmrc_ = Ffoniwch CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
+ct.contact_hmrc.need_utr_ = Pan fyddwch yn ffonio, bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch. Mae hwn i’w weld ar lythyrau gan CThEM ac yn
+ct.contact_hmrc.your_online_services_account = eich cyfrif gwasanaethau ar-lein
+ct.contact_hmrc.telephone = Ffôn:
+ct.contact_hmrc.uk_number = 0300 200 1900
+ct.contact_hmrc.outside_uk = Y tu allan i’r DU:
+ct.contact_hmrc.outside_uk_number = +44 300 200 1900
+ct.contact_hmrc.fax = Ffacs:
+ct.contact_hmrc.fax_number = 01766 516 100
+ct.contact_hmrc.opening_times.heading = Oriau agor:
+ct.contact_hmrc.opening_times.body = Dydd Llun i ddydd Gwener: 8am i 6pm 
+ct.contact_hmrc.closed_weekends = Ar gau ar y penwythnos.
+ct.contact_hmrc.best_time_to_call.heading = Yr amser gorau i alw:
+ct.contact_hmrc.best_time_to_call.body = Mae’n bosibl y bydd llinellau’n brysur rhwng 8am i 9am a 5pm i 6pm.
+ct.contact_hmrc.call_charges = Gwybodaeth am gostau galwadau
+ct.contact_hmrc.post = Post
+ct.contact_hmrc.write_to_hmrc_ = Ysgrifennwch at CThEM am help gydag ymholiadau cyffredinol ynghylch Treth Gorfforaeth.
+ct.contact_hmrc.you_dont_need_to_include_ = Does dim rhaid i chi gynnwys enw stryd, enw dinas na Blwch Swyddfa’r Post pan fyddwch yn ysgrifennu i’r cyfeiriad hwn.
+ct.contact_hmrc.couriers_ = Dylai negeswyr ddefnyddio
+ct.contact_hmrc.different_address = cyfeiriad gwahanol
+ct.contact_hmrc.corporation_tax_services = Gwasanaethau Treth Gorfforaeth
+ct.contact_hmrc.street_address = Cyllid a Thollau EM
+ct.contact_hmrc.ct_services_postcode = BX9 1AX
+ct.contact_hmrc.united_kingdom = Y Deyrnas Unedig 
+ct.contact_hmrc.if_you_are_replying_ = Os ydych yn ateb llythyr rydych wedi’i gael ynglŷn â’ch Treth Gorfforaeth, dylech ddefnyddio’r cyfeiriad ar y llythyr hwnnw.
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# How to pay
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.how_to_pay.title = Sut i dalu Treth Gorfforaeth
+ct.how_to_pay.heading = Sut i dalu Treth Gorfforaeth
+ct.how_to_pay.deadlines.heading = Dyddiadau cau
+ct.how_to_pay.deadlines.body = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
+ct.how_to_pay.up_to_1point5_million.heading = Os yw eich elw trethadwy hyd at £1.5 miliwn
+ct.how_to_pay.up_to_1point5_million.body = Rhaid i chi dalu eich Treth Gorfforaeth naw mis ac un diwrnod ar ôl diwedd eich cyfnod cyfrifyddu. Fel arfer eich cyfnod cyfrifyddu yw’ch blwyddyn ariannol, ond mae’n bosibl y bydd gennych ddau gyfnod cyfrifyddu yn ystod
+ct.how_to_pay.year_company_set_up = y flwyddyn rydych yn sefydlu eich cwmni
+ct.how_to_pay.more_than_1point5_million.heading = Os yw eich elw trethadwy dros £1.5 miliwn
+ct.how_to_pay.you_must_pay_ = Rhaid i chi dalu eich Treth Gorfforaeth
+ct.how_to_pay.instalments = mewn rhandaliadau
+ct.how_to_pay.make_sure_you_pay_ = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
+ct.how_to_pay.charge_you_interest = codi llog arnoch
+ct.how_to_pay.if_you_do_not_pay_on_time_ = os na fyddwch yn talu mewn pryd. Byddant yn
+ct.how_to_pay.pay_you_interest = talu llog i chi
+ct.how_to_pay.if_you_pay_your_tax_early = os byddwch yn talu’ch treth yn gynnar.
+ct.how_to_pay.ways_to_pay = Dulliau talu
+ct.how_to_pay.you_can_no_longer_pay_ = Ni allwch dalu yn Swyddfa’r Post mwyach. Ni allwch dalu Treth Gorfforaeth drwy’r post.
+ct.how_to_pay.the_time_you_need_ = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
+ct.how_to_pay.same_or_next_day = Os ydych yn talu’ch bil yr un diwrnod neu’r diwrnod nesaf, gallwch ddefnyddio
+ct.how_to_pay.online_or_telephone_banking = Bancio ar-lein neu fancio dros y ffôn
+ct.how_to_pay.faster_payments = (y gwasanaeth Taliadau Cyflymach)
+ct.how_to_pay.chaps = CHAPS
+ct.how_to_pay.longer_to_pay = Os oes gennych fwy o amser i dalu’ch bil, gallwch ddefnyddio
+ct.how_to_pay.bacs = Bacs
+ct.how_to_pay.three_working_days = (3 diwrnod gwaith)
+ct.how_to_pay.debit_or_credit_card = Ar-lein gan ddefnyddio cerdyn debyd neu gredyd
+ct.how_to_pay.your = Eich
+ct.how_to_pay.bank_or_building_society = banc neu gymdeithas adeiladu
+ct.how_to_pay.direct_debit = Debyd Uniongyrchol
+ct.how_to_pay.direct_debit_timescale = (3 diwrnod gwaith os oes gennych un eisoes wedi’i drefnu, 5 diwrnod gwaith os oes angen i chi drefnu un newydd)
 
 #######################################################
 ##  Transcripts
