@@ -24,9 +24,10 @@ import play.api.mvc.AnyContentAsEmpty
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
+import views.html.ct._
+import views.html.epaye._
 import views.html.sa._
 import views.html.vat._
-import views.html.ct._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
@@ -120,6 +121,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     () => how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
+  behave like pageRouter(
+    HelpCategory.Epaye,
+    "contact-hmrc",
+    () => contact_hmrc_about_epaye(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
   "behave appropriately for enrolments" when {
     "the user has no enrolments" must {
       behave like pageRouterWithEnrolments(
@@ -134,7 +141,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     }
 
     "the user has an SA enrolment" must {
-
       val testUtr = Some(SaUtr("testUtr"))
       def controllerWithEnrolment() =
         new HelpAndContactController(frontendAppConfig, messagesApi, FakeAuthActionWithSaEnrolment(testUtr),

@@ -21,14 +21,15 @@ import controllers.actions._
 import handlers.ErrorHandler
 import javax.inject.Inject
 import models.HelpCategory
-import models.HelpCategory.{CorporationTax, SelfAssessment, VAT}
+import models.HelpCategory._
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import views.html.epaye._
+import views.html.ct._
 import views.html.sa._
 import views.html.vat._
-import views.html.ct._
 
 class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
                                          override val messagesApi: MessagesApi,
@@ -39,17 +40,24 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
   def onPageLoad(category: HelpCategory, page: String) = (authenticate andThen serviceInfo) {
     implicit request =>
       category match {
-        case VAT => vat(page)
-        case SelfAssessment => selfAssessment(page)
         case CorporationTax => corporationTax(page)
+        case Epaye => ePaye(page)
+        case SelfAssessment => selfAssessment(page)
+        case VAT => vat(page)
       }
   }
 
-  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "how-to-pay"             => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
-      case "questions"              => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
-      case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
+      case "contact-hmrc"           => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
+      case _                        => NotFound(errorHandler.notFoundTemplate)
+    }
+  }
+
+  private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+    page match {
+      case "contact-hmrc"           => Ok(contact_hmrc_about_epaye(appConfig)(request.serviceInfoContent))
       case _                        => NotFound(errorHandler.notFoundTemplate)
     }
   }
@@ -68,11 +76,13 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     }
   }
 
-  private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "contact-hmrc"           => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
-      case "how-to-pay"             => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
+      case "questions"              => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
+      case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
       case _                        => NotFound(errorHandler.notFoundTemplate)
     }
   }
+
 }

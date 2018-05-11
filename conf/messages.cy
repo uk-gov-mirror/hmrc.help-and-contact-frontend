@@ -238,6 +238,21 @@ sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio�
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = Mae’r gyfradd unffurf wastad yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd - felly ni allwch hawlio lwfans cyfalaf am ei brynu.
 sa.expenses.video_transcript = trawsgrifiad fideo
 
+
+#######################################################
+##  EPAYE
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.contact_hmrc.title = Cysylltu â CThEM ynghylch TWE
+epaye.contact_hmrc.heading = Cysylltu â CThEM ynghylch TWE
+epaye.contact_hmrc.you_can = Gallwch
+epaye.contact_hmrc.contact_us =  gysylltu â ni
+epaye.contact_hmrc.with_questions_about_paye = gyda chwestiynau ynglŷn â TWE.
+
+
 #######################################################
 ##  Corporation Tax
 #######################################################
