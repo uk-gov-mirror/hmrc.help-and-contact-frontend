@@ -139,6 +139,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     () => contact_hmrc_about_epaye(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
+  behave like pageRouter(
+    HelpCategory.Epaye,
+    "view-check-correct-submissions",
+    () => view_check_correct_submissions(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
   "behave appropriately for enrolments" when {
     "the user has no enrolments" must {
       behave like pageRouterWithEnrolments(

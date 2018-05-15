@@ -277,6 +277,45 @@ epaye.contact_hmrc.you_can = Gallwch
 epaye.contact_hmrc.contact_us =  gysylltu â ni
 epaye.contact_hmrc.with_questions_about_paye = gyda chwestiynau ynglŷn â TWE.
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ View, Check or Correct Submissions
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.submissions.title = Gweld, gwirio neu gywiro eich cyflwyniadau
+epaye.submissions.heading = Gweld, gwirio neu gywiro eich cyflwyniadau
+epaye.submissions.when_you_can_view_ = Pryd y gallwch weld eich cyflwyniadau
+epaye.submissions.submissions_show_up_ = Mae cyflwyniadau yn ymddangos yn eich balans ar adegau gwahanol, yn dibynnu ar bryd yr ydych yn eu cyflwyno.
+epaye.submissions.your_payments_to_hmrc = Eich taliadau i CThEM
+epaye.submissions.payments_you_made_ = Gall taliadau a wnaed gennych i CThEM gymryd hyd at 6 diwrnod gwaith cyn ymddangos yn eich balans.
+epaye.submissions.check_your_paye_submissions = Gwirio eich cyflwyniadau TWE
+epaye.submissions.email_confirmations = E-byst cadarnhad
+epaye.submissions.we_send_an_email_ = Rydym yn anfon e-bost i’ch cyfeiriad Porth y Llywodraeth bob tro rydym yn cael Cyflwyniad Taliadau Llawn (FPS) neu Grynodeb o Daliadau’r Cyflogwr (EPS).
+epaye.submissions.your_government_gateway_email_ = Eich e-bost Porth y Llywodraeth yw {0}.
+epaye.submissions.change_address_link = Newid y cyfeiriad hwn.
+epaye.submissions.payroll_software_confirmations = Cadarnhad meddalwedd y gyflogres
+epaye.submissions.you_can_also_check = Gallwch hefyd wirio neu weld cyflwyniadau ym meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
+epaye.submissions.to_check_if_hmrc_received_ = Er mwyn gwirio a yw CThEM wedi cael cyflwyniad, dewiswch ‘Gweld y cyflwyniadau sydd wedi llwyddo’ ar eich hafan i gyflogwyr.
+epaye.submissions.to_view_a_specific_submission_ = Er mwyn gweld cyflwyniad penodol, dilynwch y cyfarwyddiadau hyn yn y canllaw i ddefnyddwyr, ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’:
+epaye.submissions.view_fps = gweld FPS
+epaye.submissions.fps_page_number = (tudalen 25)
+epaye.submissions.view_eps = gweld EPS
+epaye.submissions.eps_page_number = (tudalen 37)
+epaye.submissions.contact_your_software_provider_ = Cysylltwch â darparwr eich meddalwedd os nad ydych yn defnyddio BPT.
+epaye.submissions.correct_a_paye_submission = Cywiro cyflwyniad TWE
+epaye.submissions.you_must_use_your_payroll_software_ = Mae’n rhaid i chi ddefnyddio eich meddalwedd gyflogres er mwyn cywiro Cyflwyniadau Taliadau Llawn (FPS) neu Grynodebau o Daliadau’r Cyflogwr (EPS). Ni all staff CThEM wneud newidiadau ar eich rhan.
+epaye.submissions.submissions_for_the_current_tax_year = Cyflwyniadau ar gyfer y flwyddyn dreth bresennol
+epaye.submissions.you_can_make_changes_ = Gallwch wneud newidiadau i gyflwyniadau ar gyfer y flwyddyn dreth bresennol hyd at Ebrill 19.
+epaye.submissions.follow_the_user_guide_ = Dilynwch y canllaw i ddefnyddwyr os ydych yn defnyddio meddalwedd Offer TWE Sylfaenol (BPT) CThEM:
+epaye.submissions.correct_fps = cywiro FPS
+epaye.submissions.correct_eps = cywiro EPS
+epaye.submissions.submissions_from_an_earlier_tax_year = Cyflwyniadau o flwyddyn dreth gynharach
+epaye.submissions.if_you_spot_an_error = Os ydych yn sylwi ar wall mewn cyflwyniad ar ôl i’r flwyddyn dreth ddod i ben, mae’n rhaid i chi gyflwyno ‘Diweddariad Blwyddyn Gynharach’ os yw hyn ar ôl Ebrill 19.
+epaye.submissions.you_can = Gallwch
+epaye.submissions.submit_an_earlier_year_update_ = gyflwyno Diweddariad Blwyddyn Gynharach gan ddefnyddio Offer TWE Sylfaenol
+epaye.submissions.if_you_use_bpt_ = os ydych yn defnyddio BPT i reoli eich cyflogres.
+epaye.submissions.if_you_use_commercial_software_ = Os ydych yn defnyddio meddalwedd fasnachol er mwyn rheoli eich cyflogres, gwiriwch gyda darparwr eich meddalwedd a yw’n gallu prosesu Diweddariadau Blwyddyn Gynharach.
+epaye.submissions.if_your_software_does_not_offer_ = Os nad yw eich meddalwedd yn cynnig Diweddariadau Blwyddyn Gynharach, bydd angen i chi
+epaye.submissions.install_bpt_ = osod BPT er mwyn cyflwyno Diweddariad Blwyddyn Gynharach
+
 
 #######################################################
 ##  Corporation Tax
