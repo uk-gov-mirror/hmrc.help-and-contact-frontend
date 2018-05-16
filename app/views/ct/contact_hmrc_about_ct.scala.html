@@ -24,9 +24,7 @@
 
   <h2 class="margin-top-xlarge">@Messages("ct.contact_hmrc.phone")</h2>
   <p>@Messages("ct.contact_hmrc.call_hmrc_")</p>
-  <p>@Messages("ct.contact_hmrc.need_utr_")
-    <a id="your-online-services-account" href="@appConfig.getBusinessAccountUrl("home")"
-    data-journey-click="ContactHMRCAboutCT:click:YourOnlineServicesAccount"> @messages("ct.contact_hmrc.your_online_services_account")</a>.</p>
+  <p>@Messages("ct.contact_hmrc.need_utr_") <a id="your-online-services-account" href="@appConfig.getBusinessAccountUrl("home")" data-journey-click="ContactHMRCAboutCT:click:YourOnlineServicesAccount"> @messages("ct.contact_hmrc.your_online_services_account")</a>.</p>
   <div class="contact">
     <div>
       <p>@messages("ct.contact_hmrc.telephone")
@@ -59,18 +57,10 @@
   <a id="courier-address" href="@appConfig.getGovUrl("ctCourierAddress")" target="_blank" rel="external noopener" data-journey-click="ContactHMRCAboutCT:click:CourierAddress"> @messages("ct.contact_hmrc.different_address")</a>.</p>
   <address class="address">
     <p>
-      <span class="address-line">
-        @messages("ct.contact_hmrc.corporation_tax_services")
-      </span>
-      <span class="address-line">
-        @messages("ct.contact_hmrc.street_address")
-      </span>
-      <span class="address-line">
-        @messages("ct.contact_hmrc.ct_services_postcode")
-      </span>
-      <span class="address-line">
-        @messages("ct.contact_hmrc.united_kingdom")
-      </span>
+      <span class="address-line">@messages("ct.contact_hmrc.corporation_tax_services")</span>
+      <span class="address-line">@messages("ct.contact_hmrc.street_address")</span>
+      <span class="address-line">@messages("ct.contact_hmrc.ct_services_postcode")</span>
+      <span class="address-line">@messages("ct.contact_hmrc.united_kingdom")</span>
     </p>
   </address>
 

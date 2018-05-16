@@ -243,6 +243,31 @@ sa.expenses.video_transcript = trawsgrifiad fideo
 ##  EPAYE
 #######################################################
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# PAYE and CIS refunds
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.paye_and_cis_refunds.title = Ad-daliadau TWE ac Ad-daliadau Cynllun y Diwydiant Adeiladu (CIS)
+epaye.paye_and_cis_refunds.heading = Ad-daliadau TWE ac Ad-daliadau Cynllun y Diwydiant Adeiladu (CIS)
+epaye.paye_and_cis_refunds.paye_refunds = Ad-daliadau TWE
+epaye.paye_and_cis_refunds.if_hmrc_owes_you_money_for_employers_paye_ = Os oes ar CThEM arian i chi ar gyfer TWE y cyflogwr, gallwch ddidynnu’r swm sy’n ddyledus i chi o’ch taliad nesaf i CThEM ar gyfer TWE y cyflogwr.
+epaye.paye_and_cis_refunds.you_do_not_need_to_tell_hmrc = Does dim rhaid i chi roi gwybod i CThEM.
+epaye.paye_and_cis_refunds.if_the_refund_is_because_you_made_a_mistake_ = Os yw’r ad-daliad oherwydd eich bod wedi gwneud camgymeriad ar gyflwyniad cyflogres, mae’n rhaid i chi gywiro’r cyflwyniad cyn i chi addasu’ch taliad i CThEM.
+epaye.paye_and_cis_refunds.apply_for_a_refund_by_post = Gwneud cais am ad-daliad drwy’r post
+epaye.paye_and_cis_refunds.you_can_also_request_a_refund_by_post = Gallwch hefyd wneud cais am ad-daliad drwy’r post.
+epaye.paye_and_cis_refunds.it_takes_several_months_for_hmrc_to_process_ = Mae’n cymryd sawl mis i CThEM brosesu ceisiadau am ad-daliad. Mae’n gynt didynnu’r ad-daliad o’ch taliad nesaf ar gyfer TWE y cyflogwr.
+epaye.paye_and_cis_refunds.you_will_only_get_a_refund_if_you_do_not_owe = Cewch ad-daliad dim ond os nad oes arnoch arian ar gyfer trethi eraill.
+epaye.paye_and_cis_refunds.write_to_the_following_address_including_details_ = Ysgrifennwch i’r cyfeiriad canlynol, gan gynnwys manylion y cyfrif banc rydych am i’r ad-daliad fynd iddo:
+epaye.paye_and_cis_refunds.national_insurance_contributions_ = Swyddfa Cyfraniadau Yswiriant Gwladol a Chyflogwyr
+epaye.paye_and_cis_refunds.hm_revenue_and_customs = Cyllid a Thollau EM
+epaye.paye_and_cis_refunds.bx9_1bx = LL49 9AB
+epaye.paye_and_cis_refunds.united_kingdom = Y Deyrnas Unedig
+epaye.paye_and_cis_refunds.more_about_refunds = Rhagor o wybodaeth am ad-daliadau
+epaye.paye_and_cis_refunds.cis_refunds = Ad-daliadau CIS
+epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
+epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
+epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad CIS
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

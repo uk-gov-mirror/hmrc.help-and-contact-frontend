@@ -15,8 +15,8 @@
  *@
 
 @import config.FrontendAppConfig
-
 @import models.requests.ServiceInfoRequest
+
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: ServiceInfoRequest[_], messages: Messages)
 
   @main_template( title = messages("ct.how_to_pay.title"),

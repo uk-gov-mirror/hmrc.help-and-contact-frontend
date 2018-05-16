@@ -96,8 +96,7 @@ trait ViewSpecBase extends SpecBase {
     }
   }
 
-  def assertLinkById(doc: Document, linkId: String, expectedText: String, expectedUrl: String, expectedGAEvent: String,
-                     expectedIsExternal: Boolean = false, expectedOpensInNewTab: Boolean = false) {
+  def assertLinkById(doc: Document, linkId: String, expectedText: String, expectedUrl: String, expectedGAEvent: String, expectedIsExternal: Boolean = false, expectedOpensInNewTab: Boolean = false) {
     val link = doc.getElementById(linkId)
     assert(link.text() == expectedText, s"\n\n Link $linkId does not have text $expectedText")
     assert(link.attr("href") == expectedUrl, s"\n\n Link $linkId does not expectedUrl $expectedUrl")
