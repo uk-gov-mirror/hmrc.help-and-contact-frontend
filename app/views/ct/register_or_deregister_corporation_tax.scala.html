@@ -17,19 +17,69 @@
 @import config.FrontendAppConfig
 
 @import models.requests.ServiceInfoRequest
-@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: ServiceInfoRequest[_], messages: Messages)
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
-  @main_template( title = messages("ct.how_to_pay.title"),
-    appConfig = appConfig,
-    bodyClasses = None,
-    serviceInfoContent = serviceInfoContent) {
+@main_template( title = messages("ct.register_deregister.title"),
+appConfig = appConfig,
+bodyClasses = None,
+serviceInfoContent = serviceInfoContent) {
 
-    @components.heading("ct.how_to_pay.heading", "heading-xlarge")
+@components.heading("ct.register_deregister.heading", "heading-xlarge")
 
-    <h2>@messages("ct.how_to_pay.deadlines.heading")</h2>
+    <p>
+        @messages("ct.register_deregister.after.you.have")
+        <a id="register-company-house" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerYourCompany")"
+        data-journey-click="RegisterDeregisterCt:click:RegisterWithCompaniesHouse">@messages("ct.register_deregister.register_with_companies_house")</a>
+        @messages("ct.register_deregister.with_companies_house")
+        <a id="guidance" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxGuidance")"
+        data-journey-click="RegisterDeregisterCt:click:Guidance">@messages("ct.register_deregister.check")</a>.
+    </p>
 
-    <p>@messages("ct.how_to_pay.deadlines.body")</p>
+    <p class="bold">@messages("ct.register_deregister.penalty_notice")</p>
 
-    <h2>@messages("ct.how_to_pay.up_to_1point5_million.heading")</h2>
 
-  }
+    <h2>@messages("ct.register_deregister.how_to_register.heading")</h2>
+
+    <p>
+        @messages("ct.register_deregister.utr")
+        <a id="register-for-hmrc-taxes" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerForHMRCTaxes")"
+        data-journey-click="RegisterDeregisterCt:click:RegisterForHMRCTaxes">@messages("ct.register_deregister.register_link")</a>.
+    </p>
+
+    <p>@messages("ct.register_deregister.this_is_posted")</p>
+
+    <p>
+        @messages("ct.register_deregister.call_helpline")
+        @messages("ct.register_deregister.no_utr")
+    </p>
+
+    <p>
+        @messages("ct.register_deregister.what_you_need")
+    </p>
+
+    <ul class="list list-bullet">
+        <li>@messages("ct.register_deregister.item_1")</li>
+        <li>
+            @messages("ct.register_deregister.item_2_start")
+            <a id="accounting-periods" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxAccountingPeriods")"
+            data-journey-click="RegisterDeregisterCt:click:AccountingPeriods">@messages("ct.register_deregister.item_2_link")</a>
+            @messages("ct.register_deregister.item_2_end")
+        </li>
+        <li>@messages("ct.register_deregister.item_3")</li>
+    </ul>
+
+
+    <h2>@messages("ct.register_deregister.what_happens_next.heading")</h2>
+
+<p>
+    @messages("ct.register_deregister.deadline_start")<a id="deadline-link" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
+    data-journey-click="RegisterDeregisterCt:click:CompanyTaxReturns">@messages("ct.register_deregister.deadline_link")</a>
+
+    @messages("ct.register_deregister.deadline_end")
+</p>
+
+
+    <h2>@messages("ct.register_deregister.no_longer_trading.heading")</h2>
+
+
+}
