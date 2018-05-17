@@ -27,7 +27,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "ct.how_to_pay"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
-    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr), HtmlFormat.empty)
+    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
   def createView(saUtr: Option[SaUtr] = None) = () => how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)

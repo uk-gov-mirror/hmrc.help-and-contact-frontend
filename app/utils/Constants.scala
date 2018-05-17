@@ -14,10 +14,21 @@
  * limitations under the License.
  */
 
-package models.requests
+package utils
 
-import play.api.mvc.{Request, WrappedRequest}
-import uk.gov.hmrc.domain.SaUtr
+object AffinityGroupValue {
+  val INDIVIDUAL = "Individual"
+  val ORGANISATION = "Organisation"
+  val AGENT = "Agent"
+}
 
-case class AuthenticatedRequest[A](request: Request[A], saUtr: Option[SaUtr], email: Option[String]) extends WrappedRequest[A](request)
+object EnrolmentState {
+  val ACTIVATED = "Activated"
+  val NOT_YET_ACTIVATED = "NotYetActivated"
+}
 
+object CredentialRole {
+  //Admin is also known as User. Admin is a platform name, User is the GG name.
+  val USER = "User"
+  val ASSISTANT = "Assistant"
+}

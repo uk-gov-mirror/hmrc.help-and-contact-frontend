@@ -16,7 +16,7 @@
 
 @import config.FrontendAppConfig
 
-@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+@(appConfig: FrontendAppConfig, email:Option[String])(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(title = messages("epaye.submissions.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
 
@@ -24,6 +24,15 @@
 
 <h2>@messages("epaye.submissions.when_you_can_view_")</h2>
   <p>@messages("epaye.submissions.submissions_show_up_")</p>
+  <p>@messages("epaye.submissions.if_you_make_fps_on_time_")</p>
+  <p>
+      @messages("epaye.submissions.if_you_make_fps_late_")
+      <a id="payroll-guide" href="@appConfig.getGovUrl("payrollGuide")" data-journey-click="HelpEPAYEContentLink:click:PayrollGuide"
+          target="_blank" rel="external noopener">
+        @messages("epaye.submissions.gov_uk_guide_on_payroll")</a>.
+  </p>
+  <p>@messages("epaye.submissions.eps_between_20th_and_5th_")</p>
+  <p>@messages("epaye.submissions.eps_between_6th_and_19th_")</p>
 
 <h2>@messages("epaye.submissions.your_payments_to_hmrc")</h2>
   <p>@messages("epaye.submissions.payments_you_made_")</p>
@@ -31,8 +40,8 @@
 <h2>@messages("epaye.submissions.check_your_paye_submissions")</h2>
   <h3>@messages("epaye.submissions.email_confirmations")</h3>
     <p>@messages("epaye.submissions.we_send_an_email_")</p>
-    <p>@messages("epaye.submissions.your_government_gateway_email_", "!!TODO!!")</p>
-    <a id="change-address" href="@appConfig.getBusinessAccountUrl("manageAccount")" data-journey-click="HelpEPAYEContentLink:click:ChangeAddress">
+    <p>@messages("epaye.submissions.your_government_gateway_email_", email.getOrElse(messages("epaye.submissions.not_specified")) )</p>
+    <a id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="HelpEPAYEContentLink:click:ChangeAddress">
       @messages("epaye.submissions.change_address_link")</a>
 
   <h3>@messages("epaye.submissions.payroll_software_confirmations")</h3>

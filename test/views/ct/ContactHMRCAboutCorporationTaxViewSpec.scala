@@ -27,7 +27,7 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "ct.contact_hmrc"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
-    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr), HtmlFormat.empty)
+    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
   def createView(saUtr: Option[SaUtr] = None) = () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
