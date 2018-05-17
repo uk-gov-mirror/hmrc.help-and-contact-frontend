@@ -19,12 +19,12 @@
 @import models.requests.ServiceInfoRequest
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
-@main_template( title = messages("ct.register_deregister.title"),
-appConfig = appConfig,
-bodyClasses = None,
-serviceInfoContent = serviceInfoContent) {
+@main_template(title = messages("ct.register_deregister.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
 
-@components.heading("ct.register_deregister.heading", "heading-xlarge")
+    @components.heading("ct.register_deregister.heading", "heading-xlarge")
 
     <p>
         @messages("ct.register_deregister.after.you.have")
@@ -49,12 +49,13 @@ serviceInfoContent = serviceInfoContent) {
     <p>@messages("ct.register_deregister.this_is_posted")</p>
 
     <p>
-        @messages("ct.register_deregister.call_helpline")
+        <a id="call-helpline" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("callHelpline")"
+        data-journey-click="RegisterDeregisterCt:click:CallHelpline">@messages("ct.register_deregister.call_helpline")</a>
         @messages("ct.register_deregister.no_utr")
     </p>
 
     <p>
-        @messages("ct.register_deregister.what_you_need")
+    @messages("ct.register_deregister.what_you_need")
     </p>
 
     <ul class="list list-bullet">
@@ -71,15 +72,19 @@ serviceInfoContent = serviceInfoContent) {
 
     <h2>@messages("ct.register_deregister.what_happens_next.heading")</h2>
 
-<p>
-    @messages("ct.register_deregister.deadline_start")<a id="deadline-link" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
-    data-journey-click="RegisterDeregisterCt:click:CompanyTaxReturns">@messages("ct.register_deregister.deadline_link")</a>
-
-    @messages("ct.register_deregister.deadline_end")
-</p>
-
+    <p>
+        @messages("ct.register_deregister.deadline_start")
+        <a id="deadline-link" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
+        data-journey-click="RegisterDeregisterCt:click:CompanyTaxReturns">
+        @messages("ct.register_deregister.deadline_link")</a>@messages("ct.register_deregister.deadline_end")
+    </p>
 
     <h2>@messages("ct.register_deregister.no_longer_trading.heading")</h2>
 
-
+    <p>
+        @messages("ct.register_deregister.stop.paying")
+        <a id="close-limited-company" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("closeLimitedCompany")"
+        data-journey-click="RegisterDeregisterCt:click:CloseLimitedCompany">
+        @messages("ct.register_deregister.close.company")</a>.
+<p>
 }

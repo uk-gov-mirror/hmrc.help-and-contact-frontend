@@ -352,10 +352,12 @@ ct.register_deregister.item_2_link = accounting period
 ct.register_deregister.item_2_end = will start from this date)
 ct.register_deregister.item_3 = the date your annual accounts are made up to
 
-ct.register_deregister.deadline_start = HMRC will tell you the deadline for paying Corporation Tax. You will need to file a
+ct.register_deregister.deadline_start = HMRC will tell you the deadline for paying Corporation Tax. You will need to file a 
 ct.register_deregister.deadline_link = Company Tax Return
 ct.register_deregister.deadline_end = , even if you make a loss or have no Corporation Tax to pay.
 
+ct.register_deregister.stop.paying = To stop paying Corporation Tax, you will need to
+ct.register_deregister.close.company = close the limited company
 
 #######################################################
 ##  Transcripts
