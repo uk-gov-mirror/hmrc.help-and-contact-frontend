@@ -243,6 +243,31 @@ sa.expenses.video_transcript = video transcript
 ##  EPAYE
 #######################################################
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# PAYE and CIS refunds
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.paye_and_cis_refunds.title = PAYE refunds and Construction Industry Scheme (CIS) refunds
+epaye.paye_and_cis_refunds.heading = PAYE refunds and Construction Industry Scheme (CIS) refunds
+epaye.paye_and_cis_refunds.paye_refunds = PAYE refunds
+epaye.paye_and_cis_refunds.if_hmrc_owes_you_money_for_employers_paye_ = If HMRC owes you money for employer’s PAYE, you can deduct the amount that you are owed from your next employer’s PAYE payment to HMRC.
+epaye.paye_and_cis_refunds.you_do_not_need_to_tell_hmrc = You do not need to tell HMRC.
+epaye.paye_and_cis_refunds.if_the_refund_is_because_you_made_a_mistake_ = If the refund is because you made a mistake in a payroll submission, you must correct the submission before you adjust your payment to HMRC.
+epaye.paye_and_cis_refunds.apply_for_a_refund_by_post = Apply for a refund by post
+epaye.paye_and_cis_refunds.you_can_also_request_a_refund_by_post = You can also request a refund by post.
+epaye.paye_and_cis_refunds.it_takes_several_months_for_hmrc_to_process_ = It takes several months for HMRC to process refund requests. It is faster to deduct the refund from your next employer’s PAYE payment.
+epaye.paye_and_cis_refunds.you_will_only_get_a_refund_if_you_do_not_owe = You will only get a refund if you do not owe money for other taxes.
+epaye.paye_and_cis_refunds.write_to_the_following_address_including_details_ = Write to the following address, including details of the bank account you want the refund to go to:
+epaye.paye_and_cis_refunds.national_insurance_contributions_ = National Insurance Contributions and Employers Office
+epaye.paye_and_cis_refunds.hm_revenue_and_customs = HM Revenue and Customs
+epaye.paye_and_cis_refunds.bx9_1bx = BX9 1BX
+epaye.paye_and_cis_refunds.united_kingdom = United Kingdom
+epaye.paye_and_cis_refunds.more_about_refunds = More about refunds
+epaye.paye_and_cis_refunds.cis_refunds = CIS refunds
+epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = If you are a limited company that acts as a subcontractor under the Construction Industry Scheme (CIS) and your CIS account is in credit at the end of the year, you can request a repayment.
+epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = We aim to process repayments within 25 working days of receiving it, if we agree with your claim.
+epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Do not call unless it has been more than 40 working days, as we may still be considering your claim.
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a CIS refund
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
