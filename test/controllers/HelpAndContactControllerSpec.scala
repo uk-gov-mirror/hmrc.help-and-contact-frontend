@@ -129,6 +129,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     HelpCategory.Epaye,
+    "refunds",
+    () => paye_and_cis_refunds(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
+  behave like pageRouter(
+    HelpCategory.Epaye,
     "contact-hmrc",
     () => contact_hmrc_about_epaye(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
