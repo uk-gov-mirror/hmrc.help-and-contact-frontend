@@ -29,8 +29,8 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
 
   def doc = asDocument(createView())
   def docWithoutEmail = asDocument(createViewWithoutEmail())
-  "View Check Correct Submissions view with an email accessible" must {
 
+  "View Check Correct Submissions view with an email accessible" must {
 
     behave like normalPage(createView, messageKeyPrefix)
 
@@ -135,4 +135,47 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "HelpEPAYEContentLink:click:InstallBPT", expectedIsExternal = true, expectedOpensInNewTab = true)
     }
   }
+
+  "View Check Correct Submissions view with no email accessible" must {
+
+    behave like normalPage(createView, messageKeyPrefix)
+
+    "contain correct content" in {
+
+      docWithoutEmail.getElementsByTag("h1").first().text() mustBe "View, check or correct your submissions"
+      docWithoutEmail.text() must include("Submissions show up in your balance at different times depending on when you submit them.")
+      docWithoutEmail.text() must include("If you make a Full Payment Submission (FPS) on time, your balance will be updated by the 10th of the next month.")
+      docWithoutEmail.text() must include("If you make a FPS late, see the")
+      docWithoutEmail.text() must include("If we receive an Employer Payment Summary (EPS) between the 20th and the 5th of the month, your balance will be updated by the 10th of the next month.")
+      docWithoutEmail.text() must include("If we receive an EPS between the 6th and the 19th of the month, your balance will be updated within 1 day.")
+      docWithoutEmail.text() must include("Payments you made to HMRC can take up to 6 working days to appear in your balance.")
+      docWithoutEmail.text() must include("We can send you an email each time we receive a Full Payment Submission (FPS) or Employer Payment Summary (EPS), if you")
+      docWithoutEmail.text() must include("to your Government Gateway account.")
+      docWithoutEmail.text() must include("You can also check or view submissions in HMRC’s Basic PAYE Tools (BPT) software.")
+      docWithoutEmail.text() must include("To check if HMRC received a submission, select ‘View successful submissions’ from your employer homepage.")
+      docWithoutEmail.text() must include("To view a specific submission, follow these instructions in the user guide, but select ‘View’ instead of ‘Change’:")
+      docWithoutEmail.text() must include("Contact your software provider if you do not use BPT.")
+      docWithoutEmail.text() must include("You must use your payroll software to correct Full Payment Submissions (FPSs) or Employer Payment Summaries (EPSs). HMRC staff cannot make changes for you.")
+      docWithoutEmail.text() must include("You can make changes to submissions for the current tax year until April 19.")
+      docWithoutEmail.text() must include("Follow the user guide if you use HMRC’s Basic PAYE Tools software (BPT):")
+      docWithoutEmail.text() must include("Contact your software provider if you do not use BPT.")
+      docWithoutEmail.text() must include("(page 25)")
+      docWithoutEmail.text() must include("(page 37)")
+      docWithoutEmail.text() must include("If you spot an error in a submission after the tax year has ended, you need to submit an ‘Earlier Year Update’ if it is after April 19.")
+      docWithoutEmail.text() must include("You can")
+      docWithoutEmail.text() must include("if you use BPT to manage your payroll.")
+      docWithoutEmail.text() must include("If you use commercial software to manage your payroll, check with your software provider whether it can process Earlier Year Updates.")
+      docWithoutEmail.text() must include("If your software doesn’t offer Earlier Year Updates, you will need to")
+    }
+
+    "have the correct 'Add an email' link" in {
+      assertLinkById(docWithoutEmail,"add-email", "add an email",
+        "http://localhost:9020/business-account/manage-account/government-gateway-warning",
+        "HelpEPAYEContentLink:click:AddEmail", expectedOpensInNewTab = false)
+    }
+
+
+  }
+
+
 }

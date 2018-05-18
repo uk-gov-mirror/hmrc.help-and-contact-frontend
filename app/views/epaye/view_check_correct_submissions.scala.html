@@ -39,11 +39,19 @@
 
 <h2>@messages("epaye.submissions.check_your_paye_submissions")</h2>
   <h3>@messages("epaye.submissions.email_confirmations")</h3>
-    <p>@messages("epaye.submissions.we_send_an_email_")</p>
-    <p>@messages("epaye.submissions.your_government_gateway_email_", email.getOrElse(messages("epaye.submissions.not_specified")) )</p>
-    <a id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="HelpEPAYEContentLink:click:ChangeAddress">
-      @messages("epaye.submissions.change_address_link")</a>
-
+    @if(email.isDefined) {
+      <p>@messages("epaye.submissions.we_send_an_email_")</p>
+      <p>@messages("epaye.submissions.your_government_gateway_email_", email.getOrElse(messages("epaye.submissions.not_specified")) )</p>
+      <a id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="HelpEPAYEContentLink:click:ChangeAddress">
+        @messages("epaye.submissions.change_address_link")</a>
+    } else {
+      <p>
+        @messages("epaye.submissions.we_can_send_")
+        <a id="add-email" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="HelpEPAYEContentLink:click:AddEmail">
+          @messages("epaye.submissions.add_an_email")</a>
+        @messages("epaye.submissions.to_your_government_gateway_account")
+      </p>
+    }
   <h3>@messages("epaye.submissions.payroll_software_confirmations")</h3>
     <p>@messages("epaye.submissions.you_can_also_check_")</p>
     <p>@messages("epaye.submissions.to_check_if_hmrc_received_")</p>
