@@ -47,14 +47,14 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       doc.text() must include("Your Government Gateway email is user@test.com")
       doc.text() must include("You can also check or view submissions in HMRC’s Basic PAYE Tools (BPT) software.")
       doc.text() must include("To check if HMRC received a submission, select ‘View successful submissions’ from your employer homepage.")
-      doc.text() must include("To view a specific submission, follow these instructions in the user guide, but select ‘View’ instead of ‘Change’:")
+      doc.text() must include("To view a specific submission, follow these instructions in the ")
+      doc.text() must include(", but select ‘View’ instead of ‘Change’.")
       doc.text() must include("Contact your software provider if you do not use BPT.")
       doc.text() must include("You must use your payroll software to correct Full Payment Submissions (FPSs) or Employer Payment Summaries (EPSs). HMRC staff cannot make changes for you.")
       doc.text() must include("You can make changes to submissions for the current tax year until April 19.")
-      doc.text() must include("Follow the user guide if you use HMRC’s Basic PAYE Tools software (BPT):")
+      doc.text() must include("Follow the")
+      doc.text() must include("if you use HMRC’s Basic PAYE Tools software (BPT).")
       doc.text() must include("Contact your software provider if you do not use BPT.")
-      doc.text() must include("(page 25)")
-      doc.text() must include("(page 37)")
       doc.text() must include("If you spot an error in a submission after the tax year has ended, you need to submit an ‘Earlier Year Update’ if it is after April 19.")
       doc.text() must include("You can")
       doc.text() must include("if you use BPT to manage your payroll.")
@@ -98,30 +98,18 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
        "HelpEPAYEContentLink:click:ChangeAddress", expectedOpensInNewTab = false)
     }
 
-    "have the correct 'View an FPS' link" in {
-      assertLinkById(doc,"view-fps","view an FPS",
-        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide#page=25",
-        "HelpEPAYEContentLink:click:ViewFPS", expectedIsExternal = true, expectedOpensInNewTab = true)
+    "have the correct 'user guide (view)' link" in {
+      assertLinkById(doc,"view-user-guide","user guide",
+        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
+        "HelpEPAYEContentLink:click:UserGuideView", expectedIsExternal = true, expectedOpensInNewTab = true)
     }
 
-    "have the correct 'View an EPS' link" in {
-      val doc = asDocument(createView())
-      assertLinkById(doc, "view-eps", "view an EPS",
-        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide#page=37",
-        "HelpEPAYEContentLink:click:ViewEPS", expectedIsExternal = true, expectedOpensInNewTab = true)
+    "have the correct 'user guide (correct)' link" in {
+      assertLinkById(doc,"correct-user-guide","user guide",
+        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
+        "HelpEPAYEContentLink:click:UserGuideCorrect", expectedIsExternal = true, expectedOpensInNewTab = true)
     }
 
-    "have the correct 'correct an FPS' link" in {
-      assertLinkById(doc, "correct-fps", "correct an FPS",
-        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide#page=25",
-        "HelpEPAYEContentLink:click:CorrectFPS", expectedIsExternal = true, expectedOpensInNewTab = true)
-    }
-
-    "have the correct 'correct an EPS' link" in {
-      assertLinkById(doc, "correct-eps", "correct an EPS",
-        "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide#page=37",
-        "HelpEPAYEContentLink:click:CorrectEPS", expectedIsExternal = true, expectedOpensInNewTab = true)
-    }
 
     "have the correct 'submit an Earlier Year Update' link" in {
       assertLinkById(doc, "submit-earlier-year-update", "submit an Earlier Year Update using Basic PAYE Tools",
@@ -153,14 +141,14 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       docWithoutEmail.text() must include("to your Government Gateway account.")
       docWithoutEmail.text() must include("You can also check or view submissions in HMRC’s Basic PAYE Tools (BPT) software.")
       docWithoutEmail.text() must include("To check if HMRC received a submission, select ‘View successful submissions’ from your employer homepage.")
-      docWithoutEmail.text() must include("To view a specific submission, follow these instructions in the user guide, but select ‘View’ instead of ‘Change’:")
+      docWithoutEmail.text() must include("To view a specific submission, follow these instructions in the")
+      docWithoutEmail.text() must include(", but select ‘View’ instead of ‘Change’.")
       docWithoutEmail.text() must include("Contact your software provider if you do not use BPT.")
       docWithoutEmail.text() must include("You must use your payroll software to correct Full Payment Submissions (FPSs) or Employer Payment Summaries (EPSs). HMRC staff cannot make changes for you.")
       docWithoutEmail.text() must include("You can make changes to submissions for the current tax year until April 19.")
-      docWithoutEmail.text() must include("Follow the user guide if you use HMRC’s Basic PAYE Tools software (BPT):")
+      docWithoutEmail.text() must include("Follow the")
+      docWithoutEmail.text() must include("if you use HMRC’s Basic PAYE Tools software (BPT).")
       docWithoutEmail.text() must include("Contact your software provider if you do not use BPT.")
-      docWithoutEmail.text() must include("(page 25)")
-      docWithoutEmail.text() must include("(page 37)")
       docWithoutEmail.text() must include("If you spot an error in a submission after the tax year has ended, you need to submit an ‘Earlier Year Update’ if it is after April 19.")
       docWithoutEmail.text() must include("You can")
       docWithoutEmail.text() must include("if you use BPT to manage your payroll.")

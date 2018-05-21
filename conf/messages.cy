@@ -301,28 +301,25 @@ epaye.submissions.add_an_email = ychwanegu e-bost
 epaye.submissions.to_your_government_gateway_account = i’ch cyfrif Porth y Llywodraeth.
 epaye.submissions.payroll_software_confirmations = Cadarnhad meddalwedd y gyflogres
 epaye.submissions.you_can_also_check_ = Gallwch hefyd wirio neu weld cyflwyniadau ym meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
-epaye.submissions.to_check_if_hmrc_received_ = Er mwyn gwirio a yw CThEM wedi cael cyflwyniad, dewiswch ‘Gweld y cyflwyniadau sydd wedi llwyddo’ ar eich hafan i gyflogwyr.
 epaye.submissions.to_view_a_specific_submission_ = Er mwyn gweld cyflwyniad penodol, dilynwch y cyfarwyddiadau hyn yn y canllaw i ddefnyddwyr, ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’:
-epaye.submissions.view_fps = gweld FPS
-epaye.submissions.fps_page_number = (tudalen 25)
-epaye.submissions.view_eps = gweld EPS
-epaye.submissions.eps_page_number = (tudalen 37)
+epaye.submissions.to_view_a_specific_submission_ = Er mwyn gweld cyflwyniad penodol, dilynwch y cyfarwyddiadau hyn yn y
+epaye.submissions.user_guide = canllaw i ddefnyddwyr
+epaye.submissions.but_select_ = , ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’.
 epaye.submissions.contact_your_software_provider_ = Cysylltwch â darparwr eich meddalwedd os nad ydych yn defnyddio BPT.
 epaye.submissions.correct_a_paye_submission = Cywiro cyflwyniad TWE
 epaye.submissions.you_must_use_your_payroll_software_ = Mae’n rhaid i chi ddefnyddio eich meddalwedd gyflogres er mwyn cywiro Cyflwyniadau Taliadau Llawn (FPS) neu Grynodebau o Daliadau’r Cyflogwr (EPS). Ni all staff CThEM wneud newidiadau ar eich rhan.
 epaye.submissions.submissions_for_the_current_tax_year = Cyflwyniadau ar gyfer y flwyddyn dreth bresennol
 epaye.submissions.you_can_make_changes_ = Gallwch wneud newidiadau i gyflwyniadau ar gyfer y flwyddyn dreth bresennol hyd at Ebrill 19.
-epaye.submissions.follow_the_user_guide_ = Dilynwch y canllaw i ddefnyddwyr os ydych yn defnyddio meddalwedd Offer TWE Sylfaenol (BPT) CThEM:
-epaye.submissions.correct_fps = cywiro FPS
-epaye.submissions.correct_eps = cywiro EPS
+epaye.submissions.follow_the = Dilynwch y
+epaye.submissions.if_you_use_ = os ydych yn defnyddio meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
 epaye.submissions.submissions_from_an_earlier_tax_year = Cyflwyniadau o flwyddyn dreth gynharach
 epaye.submissions.if_you_spot_an_error_ = Os ydych yn sylwi ar wall mewn cyflwyniad ar ôl i’r flwyddyn dreth ddod i ben, mae’n rhaid i chi gyflwyno ‘Diweddariad Blwyddyn Gynharach’ os yw hyn ar ôl Ebrill 19.
 epaye.submissions.you_can = Gallwch
-epaye.submissions.submit_an_earlier_year_update_ = gyflwyno Diweddariad Blwyddyn Gynharach gan ddefnyddio Offer TWE Sylfaenol
+epaye.submissions.submit_an_earlier_year_update_ = cyflwyno Diweddariad Blwyddyn Gynharach gan ddefnyddio Offer TWE Sylfaenol
 epaye.submissions.if_you_use_bpt_ = os ydych yn defnyddio BPT i reoli eich cyflogres.
 epaye.submissions.if_you_use_commercial_software_ = Os ydych yn defnyddio meddalwedd fasnachol er mwyn rheoli eich cyflogres, gwiriwch gyda darparwr eich meddalwedd a yw’n gallu prosesu Diweddariadau Blwyddyn Gynharach.
 epaye.submissions.if_your_software_does_not_offer_ = Os nad yw eich meddalwedd yn cynnig Diweddariadau Blwyddyn Gynharach, bydd angen i chi
-epaye.submissions.install_bpt_ = osod BPT er mwyn cyflwyno Diweddariad Blwyddyn Gynharach
+epaye.submissions.install_bpt_ = gosod Offer TWE Sylfaenol er mwyn cyflwyno Diweddariad Blwyddyn Gynharach.
 
 
 #######################################################

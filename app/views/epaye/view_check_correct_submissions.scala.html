@@ -55,21 +55,12 @@
   <h3>@messages("epaye.submissions.payroll_software_confirmations")</h3>
     <p>@messages("epaye.submissions.you_can_also_check_")</p>
     <p>@messages("epaye.submissions.to_check_if_hmrc_received_")</p>
-    <p>@messages("epaye.submissions.to_view_a_specific_submission_")</p>
-    <ul class="list list-bullet">
-      <li>
-        <a id="view-fps" href="@appConfig.getGovUrl("viewOrCorrectFps")" data-journey-click="HelpEPAYEContentLink:click:ViewFPS"
-            target="_blank" rel="external noopener">
-          @messages("epaye.submissions.view_fps")</a>
-        @messages("epaye.submissions.fps_page_number")
-      </li>
-      <li>
-        <a id="view-eps" href="@appConfig.getGovUrl("viewOrCorrectEps")" data-journey-click="HelpEPAYEContentLink:click:ViewEPS"
-            target="_blank" rel="external noopener">
-          @messages("epaye.submissions.view_eps")</a>
-        @messages("epaye.submissions.eps_page_number")
-      </li>
-    </ul>
+    <p>
+      @messages("epaye.submissions.to_view_a_specific_submission_")
+      <a id="view-user-guide" href="@appConfig.getGovUrl("bptGuide")" data-journey-click="HelpEPAYEContentLink:click:UserGuideView"
+        target="_blank" rel="external noopener">
+        @messages("epaye.submissions.user_guide")</a>@messages("epaye.submissions.but_select_")
+    </p>
     <p>@messages("epaye.submissions.contact_your_software_provider_")</p>
 
 <h2>@messages("epaye.submissions.correct_a_paye_submission")</h2>
@@ -77,21 +68,12 @@
 
   <h3>@messages("epaye.submissions.submissions_for_the_current_tax_year")</h3>
     <p>@messages("epaye.submissions.you_can_make_changes_")</p>
-    <p>@messages("epaye.submissions.follow_the_user_guide_")</p>
-    <ul class="list list-bullet">
-      <li>
-        <a id="correct-fps" href="@appConfig.getGovUrl("viewOrCorrectFps")" data-journey-click="HelpEPAYEContentLink:click:CorrectFPS"
-            target="_blank" rel="external noopener">
-          @messages("epaye.submissions.correct_fps")</a>
-        @messages("epaye.submissions.fps_page_number")
-      </li>
-      <li>
-        <a id="correct-eps" href="@appConfig.getGovUrl("viewOrCorrectEps")" data-journey-click="HelpEPAYEContentLink:click:CorrectEPS"
-            target="_blank" rel="external noopener">
-          @messages("epaye.submissions.correct_eps")</a>
-        @messages("epaye.submissions.eps_page_number")
-      </li>
-    </ul>
+    <p>@messages("epaye.submissions.follow_the")
+      <a id="correct-user-guide" href="@appConfig.getGovUrl("bptGuide")" data-journey-click="HelpEPAYEContentLink:click:UserGuideCorrect"
+          target="_blank" rel="external noopener">
+        @messages("epaye.submissions.user_guide")</a>
+      @messages("epaye.submissions.if_you_use_")
+    </p>
     <p>@messages("epaye.submissions.contact_your_software_provider_")</p>
 
   <h3>@messages("epaye.submissions.submissions_from_an_earlier_tax_year")</h3>
