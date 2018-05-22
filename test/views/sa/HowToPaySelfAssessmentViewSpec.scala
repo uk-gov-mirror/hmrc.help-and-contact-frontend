@@ -29,7 +29,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "howToPaySelfAssessment"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
-    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr), HtmlFormat.empty)
+    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
   def createView(saUtr: Option[SaUtr] = None) = () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)

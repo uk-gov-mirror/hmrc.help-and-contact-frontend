@@ -49,8 +49,8 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config
   override def invokeBlock[A](request: Request[A], block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
     implicit val hc: HeaderCarrier = HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
 
-    authorised().retrieve(Retrievals.allEnrolments) {
-      case enrolments => block(AuthenticatedRequest(request, getSaUtr(enrolments)))
+    authorised().retrieve(Retrievals.allEnrolments and Retrievals.email) {
+      case enrolments ~ email => block(AuthenticatedRequest(request, getSaUtr(enrolments), email))
     } recover {
       case ex: NoActiveSession =>
         Redirect(config.loginUrl, Map("continue" -> Seq(config.loginContinueUrl)))

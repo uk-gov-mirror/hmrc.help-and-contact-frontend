@@ -58,9 +58,10 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "contact-hmrc"           => Ok(contact_hmrc_about_epaye(appConfig)(request.serviceInfoContent))
-      case "refunds"                => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
-      case _                        => NotFound(errorHandler.notFoundTemplate)
+      case "contact-hmrc"                     => Ok(contact_hmrc_about_epaye(appConfig)(request.serviceInfoContent))
+      case "refunds"                          => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
+      case "view-check-correct-submissions"   => Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
+      case _                                  => NotFound(errorHandler.notFoundTemplate)
     }
   }
 
