@@ -357,20 +357,20 @@ ct.register_deregister.how_to_register.heading = Sut i gofrestru
 ct.register_deregister.what_happens_next.heading = Yr hyn sy’n digwydd nesaf
 ct.register_deregister.no_longer_trading.heading = Dweud wrth CThEM nad ydych yn masnachu mwyach
 
-ct.register_deregister.after.you.have = Wedi i chi
+ct.register_deregister_after_you_have = Wedi i chi
 ct.register_deregister.register_with_companies_house = gofrestru eich cwmni
-ct.register_deregister.with_companies_house = gyda Thŷ’r Cwmnïau, bydd angen i chi gofrestru’r cwmni ar gyfer Treth Gorfforaeth cyn pen 3 mis o ddechrau gweithredu. Mae hyn yn cynnwys prynu, gwerthu, hysbysebu, rhentu eiddo a chyflogi rhywun. Gallwch
-ct.register_deregister.check = wirio os nad ydych yn sicr beth sy’n cyfrif fel dechrau gweithredu
+ct.register_deregister.with_companies_house_ = gyda Thŷ’r Cwmnïau, bydd angen i chi gofrestru’r cwmni ar gyfer Treth Gorfforaeth cyn pen 3 mis o ddechrau gweithredu. Mae hyn yn cynnwys prynu, gwerthu, hysbysebu, rhentu eiddo a chyflogi rhywun. Gallwch
+ct.register_deregister.check_ = wirio os nad ydych yn sicr beth sy’n cyfrif fel dechrau gweithredu
 
-ct.register_deregister.penalty_notice = Mae’n bosibl y codir cosb arnoch os byddwch yn cofrestru’n hwyr.
+ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os byddwch yn cofrestru’n hwyr.
 
-ct.register_deregister.utr = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch cyn i chi
-ct.register_deregister.register_link = gofrestru ar gyfer Treth Gorfforaeth ar-lein
-ct.register_deregister.this_is_posted = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o'r cwmni'n cofrestru gyda Thŷ'r Cwmnïau (cael ei gorffori).
+ct.register_deregister.utr_ = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch cyn i chi
+ct.register_deregister.register_link_ = gofrestru ar gyfer Treth Gorfforaeth ar-lein
+ct.register_deregister.this_is_posted_ = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o'r cwmni'n cofrestru gyda Thŷ'r Cwmnïau (cael ei gorffori).
 ct.register_deregister.call_helpline = Ffoniwch y llinell gymorth
-ct.register_deregister.no_utr = os na chawsoch Gyfeirnod Unigryw y Trethdalwr ar ôl cofrestru eich cwmni.
+ct.register_deregister.no_utr_ = os na chawsoch Gyfeirnod Unigryw y Trethdalwr ar ôl cofrestru eich cwmni.
 
-ct.register_deregister.what_you_need = Bydd yn rhaid i chi roi gwybod y canlynol i CThEM:
+ct.register_deregister.what_you_need_ = Bydd yn rhaid i chi roi gwybod y canlynol i CThEM:
 ct.register_deregister.item_1 = rhif cofrestru eich cwmni
 ct.register_deregister.item_2_start = y dyddiad y gwnaethoch ddechrau masnachu (bydd
 ct.register_deregister.item_2_link = cyfnod cyfrifyddu
@@ -381,8 +381,8 @@ ct.register_deregister.deadline_start = Bydd CThEM yn rhoi gwybod i chi beth yw�
 ct.register_deregister.deadline_link = Ffurflen Dreth y Cwmni
 ct.register_deregister.deadline_end = , hyd yn oed os gwnewch golled neu os nad oes gennych Dreth Gorfforaeth i’w thalu.
 
-ct.register_deregister.stop.paying = I stopio talu Treth Gorfforaeth, bydd angen i ch
-ct.register_deregister.close.company = gau’r cwmni cyfyngedig
+ct.register_deregister_stop_paying_ = I stopio talu Treth Gorfforaeth, bydd angen i ch
+ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig
 
 #######################################################
 ##  Transcripts
