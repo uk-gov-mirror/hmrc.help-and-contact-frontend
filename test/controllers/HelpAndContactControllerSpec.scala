@@ -31,7 +31,7 @@ import views.html.vat._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
-  def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr, Some("user@test.com")), HtmlFormat.empty)
+  def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr, Some("user@example.com")), HtmlFormat.empty)
 
   def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
@@ -142,7 +142,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   behave like pageRouter(
     HelpCategory.Epaye,
     "view-check-correct-submissions",
-    () => view_check_correct_submissions(frontendAppConfig, Some("user@test.com"))(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () => view_check_correct_submissions(frontendAppConfig, Some("user@example.com"))(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   "behave appropriately for enrolments" when {
