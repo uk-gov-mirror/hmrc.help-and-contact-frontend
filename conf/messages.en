@@ -348,6 +348,42 @@ ct.how_to_pay.bank_or_building_society = bank or building society
 ct.how_to_pay.direct_debit = Direct Debit
 ct.how_to_pay.direct_debit_timescale = (3 working days if you already have one set up, 5 working days if you need to set one up)
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Register for Corporation Tax or tell HMRC you are no longer trading
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ct.register_deregister.title = Register for Corporation Tax or tell HMRC you are no longer trading
+ct.register_deregister.heading = Register for Corporation Tax or tell HMRC you are no longer trading
+ct.register_deregister.how_to_register.heading = How to register
+ct.register_deregister.what_happens_next.heading = What happens next
+ct.register_deregister.no_longer_trading.heading = Tell HMRC you are no longer trading
+
+ct.register_deregister_after_you_have = After you have
+ct.register_deregister.register_with_companies_house = registered your company
+ct.register_deregister.with_companies_house_ = with Companies House, you will need to register it for Corporation Tax within 3 months of starting to do business. This includes buying, selling, advertising, renting a property and employing someone. You can
+ct.register_deregister.check_ = check if you’re unsure what counts as starting to do business
+
+ct.register_deregister.penalty_notice_ = You may get a penalty if you register late.
+
+ct.register_deregister.utr_ = You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR) before you
+ct.register_deregister.register_link_ = register for Corporation Tax online
+ct.register_deregister.this_is_posted_ = This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days of the company being registered with Companies House (incorporated).
+ct.register_deregister.call_helpline = Call the helpline
+ct.register_deregister.no_utr_ = if you did not get a UTR after registering your company.
+
+ct.register_deregister.what_you_need_ = You will need to tell HMRC:
+ct.register_deregister.item_1 = your company’s registration number
+ct.register_deregister.item_2_start = the date you started to do business (your company’s first
+ct.register_deregister.item_2_link = accounting period
+ct.register_deregister.item_2_end = will start from this date)
+ct.register_deregister.item_3 = the date your annual accounts are made up to
+
+ct.register_deregister.deadline_start = HMRC will tell you the deadline for paying Corporation Tax. You will need to file a 
+ct.register_deregister.deadline_link = Company Tax Return
+ct.register_deregister.deadline_end = , even if you make a loss or have no Corporation Tax to pay.
+
+ct.register_deregister_stop_paying_ = To stop paying Corporation Tax, you will need to
+ct.register_deregister_close_company_ = close the limited company
+
 #######################################################
 ##  Transcripts
 #######################################################

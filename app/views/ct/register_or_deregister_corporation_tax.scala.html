@@ -1,0 +1,90 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@import models.requests.ServiceInfoRequest
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(title = messages("ct.register_deregister.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
+
+    @components.heading("ct.register_deregister.heading", "heading-xlarge")
+
+    <p>
+        @messages("ct.register_deregister_after_you_have")
+        <a id="register-company-house" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerYourCompany")"
+        data-journey-click="RegisterDeregisterCt:click:RegisterWithCompaniesHouse">@messages("ct.register_deregister.register_with_companies_house")</a>
+        @messages("ct.register_deregister.with_companies_house_")
+        <a id="guidance" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxGuidance")"
+        data-journey-click="RegisterDeregisterCt:click:Guidance">@messages("ct.register_deregister.check_")</a>.
+    </p>
+
+    <p class="bold">@messages("ct.register_deregister.penalty_notice_")</p>
+
+
+    <h2>@messages("ct.register_deregister.how_to_register.heading")</h2>
+
+    <p>
+        @messages("ct.register_deregister.utr_")
+        <a id="register-for-hmrc-taxes" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerForHMRCTaxes")"
+        data-journey-click="RegisterDeregisterCt:click:RegisterForHMRCTaxes">@messages("ct.register_deregister.register_link_")</a>.
+    </p>
+
+    <p>@messages("ct.register_deregister.this_is_posted_")</p>
+
+    <p>
+        <a id="call-helpline" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("callHelpline")"
+        data-journey-click="RegisterDeregisterCt:click:CallHelpline">@messages("ct.register_deregister.call_helpline")</a>
+        @messages("ct.register_deregister.no_utr_")
+    </p>
+
+    <p>
+    @messages("ct.register_deregister.what_you_need_")
+    </p>
+
+    <ul class="list list-bullet">
+        <li>@messages("ct.register_deregister.item_1")</li>
+        <li>
+            @messages("ct.register_deregister.item_2_start")
+            <a id="accounting-periods" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxAccountingPeriods")"
+            data-journey-click="RegisterDeregisterCt:click:AccountingPeriods">@messages("ct.register_deregister.item_2_link")</a>
+            @messages("ct.register_deregister.item_2_end")
+        </li>
+        <li>@messages("ct.register_deregister.item_3")</li>
+    </ul>
+
+
+    <h2>@messages("ct.register_deregister.what_happens_next.heading")</h2>
+
+    <p>
+        @messages("ct.register_deregister.deadline_start")
+        <a id="deadline-link" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
+        data-journey-click="RegisterDeregisterCt:click:CompanyTaxReturns">
+        @messages("ct.register_deregister.deadline_link")</a>@messages("ct.register_deregister.deadline_end")
+    </p>
+
+    <h2>@messages("ct.register_deregister.no_longer_trading.heading")</h2>
+
+    <p>
+        @messages("ct.register_deregister_stop_paying_")
+        <a id="close-limited-company" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("closeLimitedCompany")"
+        data-journey-click="RegisterDeregisterCt:click:CloseLimitedCompany">
+        @messages("ct.register_deregister_close_company_")</a>.
+<p>
+}
