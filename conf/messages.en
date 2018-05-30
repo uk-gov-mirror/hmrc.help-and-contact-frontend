@@ -633,3 +633,23 @@ sa.expenses.calculating_motoring_expenses.paragraph3 = If you decide to use the 
 sa.expenses.calculating_motoring_expenses.paragraph4 = For example, if your business use was 75%, and your total running costs are £6,000, then the business use of that is £4,500 – which is the figure to include on your Self Assessment tax return. If you use the actual cost method, you can claim a capital allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on the GOV.UK website. Alternatively, you can claim expenses using a flat rate for business mileage. The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you can’t claim a capital allowance for its purchase.
 sa.expenses.calculating_motoring_expenses.paragraph5 = You can find the current flat rates on GOV.UK. Again you’ll need to know how many miles you travel and what percentage was on business. Remember, once you start using the flat rate method for a vehicle, you can’t switch to the actual cost method. But you can use the actual cost method for a different vehicle. There’s a checker on GOV.UK to work out which method is best for you. Use the link at the end of this video to go to it.
 sa.expenses.calculating_motoring_expenses.paragraph6 = You’ll find more help and support on GOV.UK Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC about Self Assessment
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.contact_hmrc.title = Contact HMRC about Self Assessment
+sa.contact_hmrc.heading = Contact HMRC about Self Assessment
+sa.contact_hmrc.questions_about_self_assessment = Questions about Self Assessment
+sa.contact_hmrc.if_you_have_a_tax_query_ = If you have a tax query and cannot find an answer online,
+sa.contact_hmrc.call_us = call us
+sa.contact_hmrc.webchat = Webchat
+sa.contact_hmrc.talk_to_an_adviser_online = Talk to an adviser online
+sa.contact_hmrc.postal_address_for_hmrc = Postal address for HMRC
+sa.contact_hmrc.for_enquiries_and_penalty_appeals_ = For enquiries and penalty appeals, use this address:
+sa.contact_hmrc.self_assessment = Self Aassessment
+sa.contact_hmrc.hm_revenue_and_customs = HM Revenue and Customs
+sa.contact_hmrc.bx9_1as = BX9 1AS
+sa.contact_hmrc.united_kingdom = United Kingdom
+sa.contact_hmrc.you_do_not_need_to_include_a_street_name_ = You do not need to include a street name or PO box. Couriers should use a
+sa.contact_hmrc.different_address = different address
