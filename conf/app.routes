@@ -10,6 +10,8 @@ GET        /this-service-has-been-reset                 controllers.SessionExpir
 
 GET        /unauthorised                                controllers.UnauthorisedController.onPageLoad
 
+GET        /                                            controllers.HelpAndContactController.menu
+
 GET        /corporation-tax/:page                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.CorporationTax, page: String)
 GET        /epaye/:page                                 controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.Epaye, page: String)
 GET        /self-assessment/:page                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.SelfAssessment, page: String)

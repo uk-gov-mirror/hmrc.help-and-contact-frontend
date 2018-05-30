@@ -1,0 +1,45 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@import models.HelpCategory.SelfAssessment
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(
+    title = messages("help_and_contact.title"),
+    appConfig = appConfig,
+    bodyClasses = Some("business-tax"),
+    serviceInfoContent = serviceInfoContent) {
+
+    <h1 class="heading-xlarge">@Messages("help_and_contact.heading")</h1>
+    <h2 class="section-header">@Messages("help_and_contact.self_assessment")</h2>
+
+    <div class="grid-row">
+        <div class="column-one-third">
+            <ul>
+                <li>
+                    <a id="register-deregister-self-assessment"
+                    href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-deregister")"
+                    data-journey-click="HelpAndContact:click:RegisterDeregisterSelfAssessment">
+                        @messages("help_and_contact.register_deregister_self_assessment")
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+}

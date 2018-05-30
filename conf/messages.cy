@@ -24,6 +24,15 @@ unauthorised.nocorptax = Nid ydych wedi ychwanegu Dreth Gorfforaeth i’r cyfrif
 unauthorised.correctid = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda’r Dynodydd Defnyddiwr cywir.
 
 ########################################################################################################################
+### Help and Contact main
+########################################################################################################################
+
+help_and_contact.title = placeholder text
+help_and_contact.heading = placeholder text
+help_and_contact.self_assessment = placeholder text
+help_and_contact.register_deregister_self_assessment = Cofrestru neu ddadgofrestru ar gyfer Hunanasesiad
+
+########################################################################################################################
 ### VAT
 ########################################################################################################################
 
