@@ -33,9 +33,37 @@
             <ul>
                 <li>
                     <a id="register-deregister-self-assessment"
-                    href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-deregister")"
-                    data-journey-click="HelpAndContact:click:RegisterDeregisterSelfAssessment">
-                        @messages("help_and_contact.register_deregister_self_assessment")
+                      href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-deregister")"
+                      data-journey-click="HelpAndContact:click:RegisterDeregisterSelfAssessment">
+                        @messages("self_assessment.register_deregister.title")
+                    </a>
+                </li>
+                <li>
+                    <a id="how-to-pay-self-assessment"
+                      href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "how-to-pay")"
+                      data-journey-click="HelpAndContact:click:HowToPaySelfAssessment">
+                        @messages("help_and_contact.self_assessment.how_to_pay")
+                    </a>
+                </li>
+                <li>
+                    <a id="expenses"
+                      href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "expenses")"
+                      data-journey-click="HelpAndContact:click:Expenses">
+                          @messages("sa.expenses.title")
+                    </a>
+                </li>
+                <li>
+                    <a id="evidence-of-income"
+                       href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "evidence-of-income")"
+                      data-journey-click="HelpAndContact:click:EvidenceOfIncome">
+                        @messages("help_and_contact.self_assessment.evidence_of_income")
+                    </a>
+                </li>
+                <li>
+                    <a id="help-with-sa-return"
+                       href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "help-with-return")"
+                      data-journey-click="HelpAndContact:click:HelpWithSaReturn">
+                        @messages("help_and_contact.self_assessment.help_with_your_tax_return")
                     </a>
                 </li>
             </ul>

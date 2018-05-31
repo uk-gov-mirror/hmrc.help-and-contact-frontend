@@ -49,6 +49,30 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "Register or deregister for Self Assessment",
         "/business-account/help/self-assessment/register-or-deregister",
         "HelpAndContact:click:RegisterDeregisterSelfAssessment")
+      assertLinkById(
+        doc,
+        "how-to-pay-self-assessment",
+        "How to pay Self Assessment",
+        "/business-account/help/self-assessment/how-to-pay",
+        "HelpAndContact:click:HowToPaySelfAssessment")
+      assertLinkById(
+        doc,
+        "expenses",
+        "Expenses",
+        "/business-account/help/self-assessment/expenses",
+        "HelpAndContact:click:Expenses")
+      assertLinkById(
+        doc,
+        "evidence-of-income",
+        "Get evidence of your income",
+        "/business-account/help/self-assessment/evidence-of-income",
+        "HelpAndContact:click:EvidenceOfIncome")
+      assertLinkById(
+        doc,
+        "help-with-sa-return",
+        "Help with your tax return",
+        "/business-account/help/self-assessment/help-with-return",
+        "HelpAndContact:click:HelpWithSaReturn")
     }
   }
 }
