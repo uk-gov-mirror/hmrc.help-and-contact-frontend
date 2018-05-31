@@ -29,9 +29,9 @@ unauthorised.correctid = Make sure you’re signed in with the correct user ID.
 help_and_contact.title = Help and contact - Business tax account
 help_and_contact.heading = Help and contact
 help_and_contact.self_assessment = Self Assessment
-help_and_contact.self_assessment.how_to_pay = How to pay Self Assessment
-help_and_contact.self_assessment.evidence_of_income = Get evidence of your income
-help_and_contact.self_assessment.help_with_your_tax_return = Help with your tax return
+help_and_contact.vat = VAT
+help_and_contact.corporation_tax = Corporation Tax
+help_and_contact.paye_for_employers = PAYE for employers
 
 ########################################################################################################################
 ### VAT

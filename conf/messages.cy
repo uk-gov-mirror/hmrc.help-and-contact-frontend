@@ -27,10 +27,12 @@ unauthorised.correctid = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda’r Dyn
 ### Help and Contact main
 ########################################################################################################################
 
-help_and_contact.title = placeholder text
-help_and_contact.heading = placeholder text
-help_and_contact.self_assessment = placeholder text
-help_and_contact.register_deregister_self_assessment = Cofrestru neu ddadgofrestru ar gyfer Hunanasesiad
+help_and_contact.title = Cymorth a chysylltu - Cyfrif treth busnes
+help_and_contact.heading = Cymorth a chysylltu
+help_and_contact.self_assessment = Hunanasesiad
+help_and_contact.vat = TAW
+help_and_contact.corporation_tax = Treth Gorfforaeth
+help_and_contact.paye_for_employers = TWE i gyflogwyr
 
 ########################################################################################################################
 ### VAT
