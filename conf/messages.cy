@@ -642,3 +642,23 @@ sa.expenses.calculating_motoring_expenses.paragraph3 = Os penderfynwch ddefnyddi
 sa.expenses.calculating_motoring_expenses.paragraph4 = Er enghraifft, os oedd defnydd busnes yn gyfrifol am 75% o’r defnydd o’r cerbyd, a chyfanswm eich costau rhedeg yw £6,000, yna’r defnydd busnes o hwnnw yw £4,500 - sef y ffigwr i’w gynnwys ar eich Ffurflen Dreth Hunanasesiad. Os ydych yn defnyddio’r dull costau gwirioneddol, gallwch hawlio lwfans cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar wefan GOV.UK. Fel arall, gallwch hawlio treuliau gan ddefnyddio cyfradd unffurf ar gyfer milltiroedd busnes. Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu.
 sa.expenses.calculating_motoring_expenses.paragraph5 = Gallwch ddod o hyd i’r cyfraddau unffurf presennol ar GOV.UK. Unwaith eto, bydd angen i chi wybod faint o filltiroedd rydych yn eu teithio a pha ganran oedd at ddefnydd busnes. Cofiwch, unwaith y byddwch yn dechrau defnyddio’r dull cyfradd unffurf ar gyfer cerbyd, ni allwch newid i’r dull costau gwirioneddol. Serch hynny, gallwch ddefnyddio’r dull costau gwirioneddol ar gyfer cerbyd gwahanol. Mae yna wiriwr ar GOV.UK i weld pa ddull sydd orau i chi. Defnyddiwch y cysylltiad ar ddiwedd y fideo hwn i fynd ato.
 sa.expenses.calculating_motoring_expenses.paragraph6 = Cewch ragor o help a chefnogaeth ar weminarau GOV.UK, ac mae fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Contact HMRC about Self Assessment
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.contact_hmrc.title = Cysylltu â CThEM ynghylch Hunanasesiad
+sa.contact_hmrc.heading = Cysylltu â CThEM ynghylch Hunanasesiad
+sa.contact_hmrc.questions_about_self_assessment = Cwestiynau ynghylch Hunanasesiad
+sa.contact_hmrc.if_you_have_a_tax_query_ = Os oes gennych ymholiad treth ac na allwch gael hyd i ateb ar-lein,
+sa.contact_hmrc.call_us = ffoniwch ni
+sa.contact_hmrc.webchat = Sgwrs dros y we
+sa.contact_hmrc.talk_to_an_adviser_online = Siarad ag ymgynghorydd ar-lein
+sa.contact_hmrc.postal_address_for_hmrc = Cyfeiriad post ar gyfer CThEM
+sa.contact_hmrc.for_enquiries_and_penalty_appeals_ = Defnyddiwch y cyfeiriad hwn er mwyn gofyn cwestiynau ac apelio yn erbyn cosb:
+sa.contact_hmrc.self_assessment = Hunanasesiad
+sa.contact_hmrc.hm_revenue_and_customs = Cyllid a Thollau EM</span><span class="address-line">Canolfan Cyswllt Cymraeg</span><span class="address-line">Tŷ Moelwyn</span><span class="address-line">Porthmadog</span><span class="address-line">Gwynedd
+sa.contact_hmrc.bx9_1as = LL49 9AB
+sa.contact_hmrc.united_kingdom = Y Deyrnas Unedig
+sa.contact_hmrc.you_do_not_need_to_include_a_street_name_ = Dylai negeswyr ddefnyddio
+sa.contact_hmrc.different_address = cyfeiriad gwahanol

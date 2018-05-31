@@ -73,6 +73,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
+      case "contact-hmrc"           => Ok(contact_hmrc_about_sa(appConfig)(request.serviceInfoContent))
       case "evidence-of-income"     => {
         Ok(sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))
         (request.serviceInfoContent))

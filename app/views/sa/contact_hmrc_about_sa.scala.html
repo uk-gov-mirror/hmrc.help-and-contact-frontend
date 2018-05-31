@@ -1,0 +1,49 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@cspScriptElements = {
+  @uk.gov.hmrc.csp.WebchatClient.webchatClickToChatScriptPartial(appConfig.webchatEntryPointForSa, appConfig.webchatTemplate)
+}
+
+@main_template(title = messages("sa.contact_hmrc.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent, scriptElem = Some(cspScriptElements)) {
+
+  <h1 class="heading-xlarge">@Messages("sa.contact_hmrc.heading")</h1>
+
+  <h2>@Messages("sa.contact_hmrc.questions_about_self_assessment")</h2>
+  <p>@Messages("sa.contact_hmrc.if_you_have_a_tax_query_") <a href="@appConfig.getGovUrl("addressForSaEnquiries")" id="call-us" target="_blank" rel="external noopener" data-journey-click="HelpSAContactHmrc:click:CallUs">@Messages("sa.contact_hmrc.call_us")</a>.</p>
+
+  <h2>@Messages("sa.contact_hmrc.webchat")</h2>
+  <p><a href="javascript:void(0)" id="talk-to-adviser" onclick="openChat()" data-journey-click="HelpSAContactHmrc:click:TalkToAdviser">@Messages("sa.contact_hmrc.talk_to_an_adviser_online")</a></p>
+
+  <h2>@Messages("sa.contact_hmrc.postal_address_for_hmrc")</h2>
+  <p>@Messages("sa.contact_hmrc.for_enquiries_and_penalty_appeals_")</p>
+
+  <address class="address">
+    <p>
+      <span class="address-line">@messages("sa.contact_hmrc.self_assessment")</span>
+      <span class="address-line">@Html(messages("sa.contact_hmrc.hm_revenue_and_customs"))</span>
+      <span class="address-line">@messages("sa.contact_hmrc.bx9_1as")</span>
+      <span class="address-line">@messages("sa.contact_hmrc.united_kingdom")</span>
+    </p>
+  </address>
+
+  <p>@Messages("sa.contact_hmrc.you_do_not_need_to_include_a_street_name_") <a href="@appConfig.getGovUrl("courierAddress")" id="different-address" target="_blank" rel="external noopener" data-journey-click="HelpSAContactHmrc:click:DifferentAddress">@Messages("sa.contact_hmrc.different_address")</a>.</p>
+
+}
