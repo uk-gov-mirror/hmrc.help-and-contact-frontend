@@ -59,7 +59,7 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
       doc.text() must include("If you have sent tax returns before")
     }
 
-    "contain 'If you hae sent tax returns before'" in {
+    "contain 'If you have sent tax returns before'" in {
       val doc = asDocument(createView())
       doc.text() must include("If you have sent tax returns before you will need your 10-digit Unique Taxpayer Reference or UTR. " +
         "You will also be able to use an online account you previously set up to file your tax return but you still need to register.")
@@ -80,7 +80,7 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
       doc.text() must include("Register if you are self-employed and you have not sent a tax return before")
     }
 
-    "contain 'You will get a letter within 10 working days" in {
+    "contain 'You will get a letter within 10 working days'" in {
       val doc = asDocument(createView())
       doc.text() must include("You will get a letter within 10 working days (21 if you are abroad) with your Unique Taxpayer Reference (UTR). " +
         "You will need this to enrol for Self Assessment online services so you can file your return online.")
