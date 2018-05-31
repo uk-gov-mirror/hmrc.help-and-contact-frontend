@@ -51,7 +51,7 @@ class ContactHMRCAboutSelfAssessmentSpec extends ViewBehaviours {
 
     "contain the 'call us' link" in {
       val doc: Document = asDocument(createView())
-      assertLinkById(doc, "call-us", "call us", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment", expectedGAEvent = "HelpSAContactHmrc:click:CallUs")
+      assertLinkById(doc, "call-us", "call us", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment", expectedGAEvent = "HelpSAContactHmrc:click:CallUs", true, true)
     }
 
     "contain the 'Talk to an adviser online' (webchat) link" in {
@@ -64,7 +64,7 @@ class ContactHMRCAboutSelfAssessmentSpec extends ViewBehaviours {
 
     "contain the 'different address' link" in {
       val doc: Document = asDocument(createView())
-      assertLinkById(doc, "different-address", "different address", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers", expectedGAEvent = "HelpSAContactHmrc:click:DifferentAddress")
+      assertLinkById(doc, "different-address", "different address", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers", expectedGAEvent = "HelpSAContactHmrc:click:DifferentAddress", true, true)
     }
   }
 
