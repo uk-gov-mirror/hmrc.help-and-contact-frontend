@@ -19,7 +19,8 @@ package views
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.help_and_contact
-import collection.JavaConverters._
+
+import scala.collection.JavaConverters._
 
 class helpAndContactViewSpec extends ViewBehaviours {
 

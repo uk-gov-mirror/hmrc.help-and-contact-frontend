@@ -16,21 +16,22 @@
 
 package controllers
 
+import javax.inject.Inject
+
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
-import javax.inject.Inject
 import models.HelpCategory
 import models.HelpCategory._
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.AnyContent
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import views.html.ct._
+import views.html.epaye._
 import views.html.help_and_contact
 import views.html.sa._
-import views.html.ct._
 import views.html.vat._
-import views.html.epaye._
 
 class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
                                          override val messagesApi: MessagesApi,
@@ -38,7 +39,7 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
                                          serviceInfo: ServiceInfoAction,
                                          errorHandler: ErrorHandler) extends FrontendController with I18nSupport {
 
-  def menu = (authenticate andThen serviceInfo) {
+  def mainPage = (authenticate andThen serviceInfo) {
     implicit request =>
     Ok(help_and_contact(appConfig)(request.serviceInfoContent))
   }

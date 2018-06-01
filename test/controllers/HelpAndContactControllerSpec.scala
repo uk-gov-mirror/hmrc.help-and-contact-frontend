@@ -67,8 +67,8 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
       }
     }
 
-    "serve the menu page" in {
-      val result = controller().menu().apply(fakeRequest)
+    "serve the main page" in {
+      val result = controller().mainPage().apply(fakeRequest)
       status(result) mustBe OK
       contentAsString(result) mustBe help_and_contact(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages).toString()
     }

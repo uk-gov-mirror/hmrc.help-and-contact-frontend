@@ -20,167 +20,167 @@
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(
-    title = messages("help_and_contact.title"),
-    appConfig = appConfig,
-    bodyClasses = Some("help-and-contact-homepage"),
-    serviceInfoContent = serviceInfoContent) {
+  title = messages("help_and_contact.title"),
+  appConfig = appConfig,
+  bodyClasses = Some("help-and-contact-homepage"),
+  serviceInfoContent = serviceInfoContent) {
 
-    <h1 class="heading-xlarge">@Messages("help_and_contact.heading")</h1>
-    <h2>@Messages("help_and_contact.self_assessment")</h2>
+  <h1 class="heading-xlarge">@Messages("help_and_contact.heading")</h1>
+  <h2>@Messages("help_and_contact.self_assessment")</h2>
 
-    <div class="grid-row">
-        <div class="column-one-third">
-            <p>
-                <a id="register-deregister-self-assessment"
-                  href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-deregister")"
-                  data-journey-click="HelpAndContact:click:RegisterDeregisterSelfAssessment">
-                      @messages("self_assessment.register_deregister.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="how-to-pay-self-assessment"
-                  href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "how-to-pay")"
-                  data-journey-click="HelpAndContact:click:HowToPaySelfAssessment">
-                      @messages("howToPaySelfAssessment.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="expenses"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "expenses")"
-                   data-journey-click="HelpAndContact:click:Expenses">
-                      @messages("sa.expenses.heading")
-                </a>
-            </p>
-        </div>
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="register-deregister-self-assessment"
+          href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-deregister")"
+          data-journey-click="HelpAndContact:click:RegisterDeregisterSelfAssessment">
+            @messages("self_assessment.register_deregister.heading")
+        </a>
+      </p>
     </div>
-    <div class="grid-row">
-        <div class="column-one-third">
-            <p>
-                <a id="evidence-of-income"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "evidence-of-income")"
-                   data-journey-click="HelpAndContact:click:EvidenceOfIncome">
-                      @messages("sa.evidence.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="help-with-sa-return"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "help-with-return")"
-                   data-journey-click="HelpAndContact:click:HelpWithSelfAssessmentReturn">
-                      @messages("helpWithYourSelfAssessmentTaxReturn.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="contact-about-self-assessment"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "contact-hmrc")"
-                   data-journey-click="HelpAndContact:click:ContactAboutSelfAssessment">
-                      @messages("sa.contact_hmrc.heading")
-                </a>
-            </p>
-        </div>
+    <div class="column-one-third">
+      <p>
+        <a id="how-to-pay-self-assessment"
+          href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "how-to-pay")"
+          data-journey-click="HelpAndContact:click:HowToPaySelfAssessment">
+            @messages("howToPaySelfAssessment.heading")
+        </a>
+      </p>
     </div>
-
-    <h2>@Messages("help_and_contact.vat")</h2>
-
-    <div class="grid-row">
-        <div class="column-one-third">
-            <p>
-                <a id="register-deregister-vat"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "register-or-deregister")"
-                   data-journey-click="HelpAndContact:click:RegisterDeregisterVat">
-                      @messages("vat.register_or_deregister.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="how-to-pay-vat"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "how-to-pay")"
-                   data-journey-click="HelpAndContact:click:HowToPayVat">
-                      @messages("vat.payments_and_deadlines.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="contact-about-vat"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "questions")"
-                   data-journey-click="HelpAndContact:click:ContactAboutVat">
-                      @messages("vat.questions_about_vat.heading")
-                </a>
-            </p>
-        </div>
+    <div class="column-one-third">
+      <p>
+        <a id="expenses"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "expenses")"
+           data-journey-click="HelpAndContact:click:Expenses">
+            @messages("sa.expenses.heading")
+        </a>
+      </p>
     </div>
-
-    <h2>@Messages("help_and_contact.corporation_tax")</h2>
-
-    <div class="grid-row">
-        <div class="column-one-third">
-            <p>
-                <a id="register-or-tell-no-longer-trading-corporation-tax"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "register-or-tell-hmrc-you-are-no-longer-trading")"
-                   data-journey-click="HelpAndContact:click:RegisterOrTellNoLongerTradingCorporationTax">
-                      @messages("ct.register_deregister.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="how-to-pay-corporation-tax"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "how-to-pay")"
-                   data-journey-click="HelpAndContact:click:HowToPayCorporationTax">
-                      @messages("ct.how_to_pay.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="contact-about-corporation-tax"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "contact-hmrc")"
-                   data-journey-click="HelpAndContact:click:ContactAboutCorporationTax">
-                      @messages("ct.contact_hmrc.heading")
-                </a>
-            </p>
-        </div>
+  </div>
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="evidence-of-income"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "evidence-of-income")"
+           data-journey-click="HelpAndContact:click:EvidenceOfIncome">
+            @messages("sa.evidence.heading")
+        </a>
+      </p>
     </div>
-
-    <h2>@Messages("help_and_contact.paye_for_employers")</h2>
-
-    <div class="grid-row">
-        <div class="column-one-third">
-            <p>
-                <a id="view-check-or-correct-epaye"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "view-check-correct-submissions")"
-                   data-journey-click="HelpAndContact:click:ViewCheckCorrectEpaye">
-                      @messages("epaye.submissions.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="paye-and-cis-refunds"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "refunds")"
-                   data-journey-click="HelpAndContact:click:PayeAndCisRefunds">
-                      @messages("epaye.paye_and_cis_refunds.heading")
-                </a>
-            </p>
-        </div>
-        <div class="column-one-third">
-            <p>
-                <a id="contact-about-epaye"
-                   href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "contact-hmrc")"
-                   data-journey-click="HelpAndContact:click:ContactAboutEpaye">
-                      @messages("epaye.contact_hmrc.heading")
-                </a>
-            </p>
-        </div>
+    <div class="column-one-third">
+      <p>
+        <a id="help-with-sa-return"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "help-with-return")"
+           data-journey-click="HelpAndContact:click:HelpWithSelfAssessmentReturn">
+            @messages("helpWithYourSelfAssessmentTaxReturn.heading")
+        </a>
+      </p>
     </div>
+    <div class="column-one-third">
+      <p>
+        <a id="contact-about-self-assessment"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "contact-hmrc")"
+           data-journey-click="HelpAndContact:click:ContactAboutSelfAssessment">
+            @messages("sa.contact_hmrc.heading")
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <h2>@Messages("help_and_contact.vat")</h2>
+
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="register-deregister-vat"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "register-or-deregister")"
+           data-journey-click="HelpAndContact:click:RegisterDeregisterVat">
+            @messages("vat.register_or_deregister.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="how-to-pay-vat"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "how-to-pay")"
+           data-journey-click="HelpAndContact:click:HowToPayVat">
+            @messages("vat.payments_and_deadlines.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="contact-about-vat"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "questions")"
+           data-journey-click="HelpAndContact:click:ContactAboutVat">
+            @messages("vat.questions_about_vat.heading")
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <h2>@Messages("help_and_contact.corporation_tax")</h2>
+
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="register-or-tell-no-longer-trading-corporation-tax"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "register-or-tell-hmrc-you-are-no-longer-trading")"
+           data-journey-click="HelpAndContact:click:RegisterOrTellNoLongerTradingCorporationTax">
+            @messages("ct.register_deregister.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="how-to-pay-corporation-tax"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "how-to-pay")"
+           data-journey-click="HelpAndContact:click:HowToPayCorporationTax">
+            @messages("ct.how_to_pay.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="contact-about-corporation-tax"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "contact-hmrc")"
+           data-journey-click="HelpAndContact:click:ContactAboutCorporationTax">
+            @messages("ct.contact_hmrc.heading")
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <h2>@Messages("help_and_contact.paye_for_employers")</h2>
+
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="view-check-or-correct-epaye"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "view-check-correct-submissions")"
+           data-journey-click="HelpAndContact:click:ViewCheckCorrectEpaye">
+            @messages("epaye.submissions.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="paye-and-cis-refunds"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "refunds")"
+           data-journey-click="HelpAndContact:click:PayeAndCisRefunds">
+            @messages("epaye.paye_and_cis_refunds.heading")
+        </a>
+      </p>
+    </div>
+    <div class="column-one-third">
+      <p>
+        <a id="contact-about-epaye"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "contact-hmrc")"
+           data-journey-click="HelpAndContact:click:ContactAboutEpaye">
+            @messages("epaye.contact_hmrc.heading")
+        </a>
+      </p>
+    </div>
+  </div>
 
 }
