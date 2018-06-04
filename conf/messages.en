@@ -23,6 +23,17 @@ unauthorised.nocorptax = You haven’t added Corporation Tax to this account.
 unauthorised.correctid = Make sure you’re signed in with the correct user ID.
 
 ########################################################################################################################
+### Help and Contact main
+########################################################################################################################
+
+help_and_contact.title = Help and contact - Business tax account
+help_and_contact.heading = Help and contact
+help_and_contact.self_assessment = Self Assessment
+help_and_contact.vat = VAT
+help_and_contact.corporation_tax = Corporation Tax
+help_and_contact.paye_for_employers = PAYE for employers
+
+########################################################################################################################
 ### VAT
 ########################################################################################################################
 

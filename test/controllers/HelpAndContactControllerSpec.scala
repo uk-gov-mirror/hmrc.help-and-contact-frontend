@@ -26,6 +26,7 @@ import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
 import views.html.ct._
 import views.html.epaye._
+import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
 
@@ -64,6 +65,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
         val result = controller().onPageLoad(category, "abcdefgh").apply(fakeRequest)
         status(result) mustBe NOT_FOUND
       }
+    }
+
+    "serve the main page" in {
+      val result = controller().mainPage().apply(fakeRequest)
+      status(result) mustBe OK
+      contentAsString(result) mustBe help_and_contact(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages).toString()
     }
   }
 
