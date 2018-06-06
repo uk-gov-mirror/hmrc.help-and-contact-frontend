@@ -34,6 +34,16 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr, Some("user@example.com")), HtmlFormat.empty)
 
+  def pageRedirect(helpCategory: HelpCategory, page: String, destinationUrl: String) = {
+    "HelpAndContactController onPageLoad" must {
+      s"redirect /business-account/help/$helpCategory/$page to $destinationUrl" in {
+        val result = controller().onPageLoad(helpCategory, page).apply(fakeRequest)
+        status(result) mustBe MOVED_PERMANENTLY
+        redirectLocation(result).get mustBe destinationUrl
+      }
+    }
+  }
+
   def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
       s"display the correct $helpCategory view for /$page" in {
@@ -150,6 +160,24 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.Epaye,
     "view-check-correct-submissions",
     () => view_check_correct_submissions(frontendAppConfig, Some("user@example.com"))(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+  )
+
+  behave like pageRedirect(
+    HelpCategory.Epaye,
+    "check-submissions",
+    "/business-account/help/epaye/view-check-correct-submissions"
+  )
+
+  behave like pageRedirect(
+    HelpCategory.Epaye,
+    "paye-refund",
+    "/business-account/help/epaye/refunds"
+  )
+
+  behave like pageRedirect(
+    HelpCategory.Epaye,
+    "",
+    "/business-account/help"
   )
 
   "behave appropriately for enrolments" when {
