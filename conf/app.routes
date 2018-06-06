@@ -14,7 +14,7 @@ GET        /                                            controllers.HelpAndConta
 
 GET        /corporation-tax/:page                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.CorporationTax, page: String)
 
-GET        /epaye/                                      controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.Epaye, page = "")
+GET        /epaye                                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.Epaye, page = "")
 GET        /epaye/:page                                 controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.Epaye, page: String)
 
 GET        /self-assessment/:page                       controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.SelfAssessment, page: String)
