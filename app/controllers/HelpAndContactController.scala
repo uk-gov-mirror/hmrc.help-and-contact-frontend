@@ -69,8 +69,8 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
       case "refunds"                          => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
       case "view-check-correct-submissions"   => Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
       case "check-submissions"                => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
+      case "latency"                          => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
       case "paye-refund"                      => MovedPermanently("/business-account/help/epaye/refunds")
-      case "latency"                          => MovedPermanently("/business-account/help")
       case ""                                 => MovedPermanently("/business-account/help")
       case _                                  => NotFound(errorHandler.notFoundTemplate)
     }
