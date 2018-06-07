@@ -176,6 +176,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   behave like pageRedirect(
     HelpCategory.Epaye,
+    "latency",
+    "/business-account/help"
+  )
+
+  behave like pageRedirect(
+    HelpCategory.Epaye,
     "",
     "/business-account/help"
   )
