@@ -37,12 +37,20 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
     "contain the 'register online' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "register-for-vat", "register online", "https://online.hmrc.gov.uk/registration/newbusiness/business-allowed", expectedGAEvent = "HelpVatRegisterDeregisterContentLink:click:RegisterOnline")
+      assertLinkById(doc,
+        "register-for-vat",
+        "register online",
+        "https://online.hmrc.gov.uk/registration/newbusiness/business-allowed",
+        expectedGAEvent = "link - click:Register or deregister for VAT:register online")
     }
 
     "contain the 'cancel your registration' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "cancel-vat-registration", "cancel your registration", "https://www.gov.uk/vat-registration/cancel-registration", expectedGAEvent = "HelpVatRegisterDeregisterContentLink:click:CancelYourRegistration")
+      assertLinkById(doc,
+        "cancel-vat-registration",
+        "cancel your registration",
+        "https://www.gov.uk/vat-registration/cancel-registration",
+        expectedGAEvent = "link - click:Register or deregister for VAT:cancel your registration")
     }
 
   }

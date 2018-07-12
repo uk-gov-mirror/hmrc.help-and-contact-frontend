@@ -96,91 +96,91 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "viewing-self-assessment-calculation-transcript",
         "Viewing your calculation - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
-        "HowToPaySa:click:ViewSelfAssessmentCalculationTranscript")
+        "link - click:How to pay your Self Assessment:Viewing your calculation")
       assertLinkById(
         doc,
         "paying-your-self-assessment-bill-transcript",
         "Paying your Self Assessment tax bill - video transcript",
         "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
-        "HowToPaySa:click:PayingSelfAssessmentBillTranscript")
+        "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill")
       assertLinkById(
         doc,
         "online-or-telephone-banking",
         "online or telephone banking",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=online-or-telephone-banking",
-        "HowToPaySa:click:OnlineOrTelephoneBanking")
+        "link - click:How to pay your Self Assessment:online or telephone banking")
       assertLinkById(
         doc,
         "chaps",
         "CHAPS",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=chaps",
-        "HowToPaySa:click:CHAPS")
+        "link - click:How to pay your Self Assessment:CHAPS")
       assertLinkById(
         doc,
         "debit-or-credit-card",
         "a debit or credit card online",
         "https://www.gov.uk/pay-self-assessment-tax-bill/by-debit-or-credit-card-online?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=debit-or-credit-card-online",
-        "HowToPaySa:click:DebitOrCreditCard")
+        "link - click:How to pay your Self Assessment:a debit or credit card online")
       assertLinkById(
         doc,
         "bank-or-building-society",
         "a bank or building society",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-or-building-society?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=bank-or-building-society",
-        "HowToPaySa:click:BankOrBuildingSociety")
+        "link - click:How to pay your Self Assessment:a bank or building society")
       assertLinkById(
         doc,
         "bacs",
         "Bacs",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details",
-        "HowToPaySa:click:Bacs")
+        "link - click:How to pay your Self Assessment:Bacs")
       assertLinkById(
         doc,
         "direct-debit",
         "Direct Debit",
         "https://www.gov.uk/pay-self-assessment-tax-bill/direct-debit",
-        "HowToPaySa:click:DirectDebit")
+        "link - click:How to pay your Self Assessment:Direct Debit")
       assertLinkById(
         doc,
         "cheque-by-post",
         "Cheque by post",
         "https://www.gov.uk/pay-self-assessment-tax-bill/by-post",
-        "HowToPaySa:click:ChequeByPost")
+        "link - click:How to pay your Self Assessment:Cheque by post")
       assertLinkById(
         doc,
         "budgeting-for-sa-bill-transcript",
         "Budgeting for your Self Assessment tax bill - video transcript",
         "/business-account/help/transcript/budgeting-your-self-assessment-tax-bill",
-        "HowToPaySa:click:BudgetingSaBillTranscript")
+        "link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill")
       assertLinkById(
         doc,
         "reasonable-excuses",
         "reasonable excuses",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
-        "HowToPaySa:click:ReasonableExcuses")
+        "link - click:How to pay your Self Assessment:reasonable excuses")
       assertLinkById(
         doc,
         "how-to-appeal",
         "how to appeal",
         "https://www.gov.uk/tax-appeals/penalty",
-        "HowToPaySa:click:HowToAppeal")
+        "link - click:How to pay your Self Assessment:how to appeal")
       assertLinkById(
         doc,
         "form-SA370",
         "form SA370",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
-        "HowToPaySa:click:FormSA370")
+        "link - click:How to pay your Self Assessment:form SA370")
       assertLinkById(
         doc,
         "address-for-sa-enquiries",
         "address for Self Assessment enquiries",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
-        "HowToPaySa:click:AddressForSaEnquiries")
+        "link - click:How to pay your Self Assessment:address for Self Assessment enquiries")
       assertLinkById(
         doc,
         "self-assessment-penalties-transcript",
         "Self Assessment penalties - video transcript",
         "/business-account/help/transcript/self-assessment-penalties",
-        "HowToPaySa:click:SelfAssessmentPenaltiesTranscript")
+        "link - click:How to pay your Self Assessment:Self Assessment penalties")
     }
 
     "have youtube url in html for each embedded video" in {
@@ -214,7 +214,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "penalties",
         "penalties",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/penalties?lang=eng",
-        "HowToPaySa:click:Penalties")
+        "link - click:How to pay your Self Assessment:penalties")
     }
 
     "have an interest link" in {
@@ -225,7 +225,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "interest",
         "interest",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/interests?lang=eng",
-        "HowToPaySa:click:Interest")
+        "link - click:How to pay your Self Assessment:interest")
     }
   }
 }

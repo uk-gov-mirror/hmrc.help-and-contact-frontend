@@ -38,47 +38,84 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
 
     "contain the 'online or telephone banking' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "online-or-telephone-banking", "online or telephone banking", "https://www.gov.uk/pay-vat/bank-details", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:OnlineTelephoneBanking")
+      assertLinkById(
+        doc,
+        "online-or-telephone-banking",
+        "online or telephone banking",
+        "https://www.gov.uk/pay-vat/bank-details",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:online or telephone banking")
     }
 
     "contain the 'CHAPS' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "chaps", "CHAPS", "https://www.gov.uk/pay-vat/bank-details", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:Chaps")
+      assertLinkById(doc,
+        "chaps",
+        "CHAPS",
+        "https://www.gov.uk/pay-vat/bank-details",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:chaps")
     }
 
     "contain the 'online by debit or credit card' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "debit-or-credit-card", "online by debit or credit card", "https://www.gov.uk/pay-vat/by-debit-or-credit-card-online", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:OnlineDebitCreditCard")
+      assertLinkById(doc,
+        "debit-or-credit-card",
+        "online by debit or credit card",
+        "https://www.gov.uk/pay-vat/by-debit-or-credit-card-online",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:online by debit or credit card")
     }
 
     "contain the 'bank or building society' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "bank-or-building-society", "bank or building society", "https://www.gov.uk/pay-vat/bank-or-building-society", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:BankBuildingSociety")
+      assertLinkById(doc,
+        "bank-or-building-society",
+        "bank or building society",
+        "https://www.gov.uk/pay-vat/bank-or-building-society",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:bank or building society")
     }
 
     "contain the 'direct debit' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "direct-debit", "Direct Debit", "https://www.gov.uk/pay-vat/direct-debit", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:DirectDebit")
+      assertLinkById(doc,
+        "direct-debit",
+        "Direct Debit",
+        "https://www.gov.uk/pay-vat/direct-debit",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:Direct Debit")
     }
 
     "contain the 'Bacs' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "bacs", "Bacs", "https://www.gov.uk/pay-vat/bank-details", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:Bacs")
+      assertLinkById(doc,
+        "bacs",
+        "Bacs",
+        "https://www.gov.uk/pay-vat/bank-details",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:Bacs")
     }
 
     "contain the 'standing order' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "standing-order", "standing order", "https://www.gov.uk/pay-vat/standing-order", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:StandingOrder")
+      assertLinkById(doc,
+        "standing-order",
+        "standing order",
+        "https://www.gov.uk/pay-vat/standing-order",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:standing order")
     }
 
     "contain the 'get a refund of VAT paid in another EU country' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "get-eu-vat-refund", "get a refund of VAT paid in another EU country", "https://www.gov.uk/guidance/vat-refunds-for-uk-businesses-buying-from-other-eu-countries", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:GetaRefund")
+      assertLinkById(doc,
+        "get-eu-vat-refund",
+        "get a refund of VAT paid in another EU country",
+        "https://www.gov.uk/guidance/vat-refunds-for-uk-businesses-buying-from-other-eu-countries",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:get a refund of VAT paid in another EU country")
     }
 
     "contain the 'input tax' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "input-tax", "input tax", "https://www.gov.uk/government/publications/vat-notice-700-the-vat-guide/vat-notice-700-the-vat-guide#input-tax-introduction-and-general-rules", expectedGAEvent = "HelpVatPaymentsDeadlinesContentLink:click:InputTax")
+      assertLinkById(doc,
+        "input-tax",
+        "input tax",
+        "https://www.gov.uk/government/publications/vat-notice-700-the-vat-guide/vat-notice-700-the-vat-guide#input-tax-introduction-and-general-rules",
+        expectedGAEvent = "link - click:How to pay VAT and deadlines:input tax")
     }
 
   }

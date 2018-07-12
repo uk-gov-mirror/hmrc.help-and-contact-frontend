@@ -72,49 +72,63 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "register-company-house",
         "registered your company",
         "https://www.gov.uk/limited-company-formation/register-your-company",
-        "RegisterDeregisterCt:click:RegisterWithCompaniesHouse", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "guidance",
         "check if you’re unsure what counts as starting to do business",
         "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
-        "RegisterDeregisterCt:click:Guidance", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if you’re unsure what counts as starting to do business",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "register-for-hmrc-taxes",
         "register for Corporation Tax online",
         "https://online.hmrc.gov.uk/registration/newbusiness/introduction",
-        "RegisterDeregisterCt:click:RegisterForHMRCTaxes", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax online",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "call-helpline",
         "Call the helpline",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/corporation-tax-enquiries",
-        "RegisterDeregisterCt:click:CallHelpline", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Call the helpline",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "accounting-periods",
         "accounting period",
         "https://www.gov.uk/corporation-tax-accounting-period",
-        "RegisterDeregisterCt:click:AccountingPeriods", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:accounting period",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "deadline-link",
         "Company Tax Return",
         "https://www.gov.uk/company-tax-returns",
-        "RegisterDeregisterCt:click:CompanyTaxReturns", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Return",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "close-limited-company",
         "close the limited company",
         "https://www.gov.uk/closing-a-limited-company",
-        "RegisterDeregisterCt:click:CloseLimitedCompany", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:close the limited company",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
   }
 }
