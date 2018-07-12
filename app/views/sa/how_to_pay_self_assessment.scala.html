@@ -36,7 +36,7 @@
     <p>
         <a id="viewing-self-assessment-calculation-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("viewing-your-self-assessment-calculation")"
-        data-journey-click="HowToPaySa:click:ViewSelfAssessmentCalculationTranscript">
+        data-journey-click="link - click:How to pay your Self Assessment:Viewing your calculation">
             @messages("howToPaySelfAssessment.viewing.your.calculation") @messages("howtoPaySelfAssessment.video.transcript")
         </a>
     </p>
@@ -52,7 +52,7 @@
     <p>
         <a id="paying-your-self-assessment-bill-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("paying-your-self-assessment-tax-bill")"
-        data-journey-click="HowToPaySa:click:PayingSelfAssessmentBillTranscript">
+        data-journey-click="link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill">
             @messages("howToPaySelfAssessment.paying.your.sa.bill") @messages("howtoPaySelfAssessment.video.transcript")
         </a>
     </p>
@@ -62,21 +62,22 @@
     <ul class="list list-bullet">
         <li>
             <a id="online-or-telephone-banking" href="@appConfig.getGovUrl("onlineOrTelephoneBanking")"
-            data-journey-click="HowToPaySa:click:OnlineOrTelephoneBanking">@messages("howtoPaySelfAssessment.online.telephone.banking")</a>
+            data-journey-click="link - click:How to pay your Self Assessment:online or telephone banking">@messages("howtoPaySelfAssessment.online.telephone.banking")</a>
             @messages("howtoPaySelfAssessment.faster.payments")
         </li>
         <li>
-            <a id="chaps" href="@appConfig.getGovUrl("chaps")" data-journey-click="HowToPaySa:click:CHAPS">
+            <a id="chaps" href="@appConfig.getGovUrl("chaps")"
+            data-journey-click="link - click:How to pay your Self Assessment:CHAPS">
             @messages("howtoPaySelfAssessment.chaps")</a>
         </li>
         <li>
             <a id="debit-or-credit-card" href="@appConfig.getGovUrl("saDebitOrCreditCard")"
-            data-journey-click="HowToPaySa:click:DebitOrCreditCard">
+            data-journey-click="link - click:How to pay your Self Assessment:a debit or credit card online">
             @messages("howtoPaySelfAssessment.debit.credit.card.online")</a>
         </li>
         <li>
             <a id="bank-or-building-society" href="@appConfig.getGovUrl("saBankOrBuildingSociety")"
-            data-journey-click="HowToPaySa:click:BankOrBuildingSociety">
+            data-journey-click="link - click:How to pay your Self Assessment:a bank or building society">
             @messages("howtoPaySelfAssessment.bank.building.society")</a>
         </li>
     </ul>
@@ -87,17 +88,20 @@
 
     <ul class="list list-bullet">
         <li>
-            <a id="bacs" href="@appConfig.getGovUrl("bacs")" data-journey-click="HowToPaySa:click:Bacs">
+            <a id="bacs" href="@appConfig.getGovUrl("bacs")"
+            data-journey-click="link - click:How to pay your Self Assessment:Bacs">
             @messages("howtoPaySelfAssessment.bacs")</a>
             @messages("howtoPaySelfAssessment.3.working.days")
         </li>
         <li>
-            <a id="direct-debit" href="@appConfig.getGovUrl("saDirectDebit")" data-journey-click="HowToPaySa:click:DirectDebit">
+            <a id="direct-debit" href="@appConfig.getGovUrl("saDirectDebit")"
+            data-journey-click="link - click:How to pay your Self Assessment:Direct Debit">
             @messages("howtoPaySelfAssessment.direct.debit")</a>
             @messages("howtoPaySelfAssessment.3.working.days.already.setup")
         </li>
         <li>
-            <a id="cheque-by-post" href="@appConfig.getGovUrl("chequeByPost")" data-journey-click="HowToPaySa:click:ChequeByPost">
+            <a id="cheque-by-post" href="@appConfig.getGovUrl("chequeByPost")"
+            data-journey-click="link - click:How to pay your Self Assessment:Cheque by post">
             @messages("howtoPaySelfAssessment.cheque")</a>
             @messages("howtoPaySelfAssessment.3.working.days")
         </li>
@@ -108,7 +112,7 @@
     <p>
         <a id="budgeting-for-sa-bill-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("budgeting-your-self-assessment-tax-bill")"
-        data-journey-click="HowToPaySa:click:BudgetingSaBillTranscript">
+        data-journey-click="link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill">
             @messages("howtoPaySelfAssessment.budgeting.for.sa.bill") @messages("howtoPaySelfAssessment.video.transcript")</a>
     </p>
 
@@ -125,10 +129,11 @@
     <p>@messages("howToPaySelfAssessment.paragraph8")</p>
 
     <p>@messages("howToPaySelfAssessment.paragraph9")
-        <a id="reasonable-excuses" href="@appConfig.getGovUrl("reasonableExcuses")" data-journey-click="HowToPaySa:click:ReasonableExcuses">
+        <a id="reasonable-excuses" href="@appConfig.getGovUrl("reasonableExcuses")"
+        data-journey-click="link - click:How to pay your Self Assessment:reasonable excuses">
         @messages("howtoPaySelfAssessment.reasonable.excuses")</a>
         @messages("howtoPaySelfAssessment.and") <a id="how-to-appeal" href="@appConfig.getGovUrl("howToAppeal")"
-        data-journey-click="HowToPaySa:click:HowToAppeal">
+        data-journey-click="link - click:How to pay your Self Assessment:how to appeal">
         @messages("howtoPaySelfAssessment.how.to.appeal")</a>
         @messages("howtoPaySelfAssessment.by.post")
     </p>
@@ -136,14 +141,15 @@
     <h2>@messages("howToPaySelfAssessment.appeal.against.penalty")</h2>
 
     <p>@messages("howToPaySelfAssessment.paragraph10")
-        <a id="form-SA370" href="@appConfig.getGovUrl("formSa370")" data-journey-click="HowToPaySa:click:FormSA370">
+        <a id="form-SA370" href="@appConfig.getGovUrl("formSa370")"
+        data-journey-click="link - click:How to pay your Self Assessment:form SA370">
         @messages("howtoPaySelfAssessment.form.sa370")</a>
         @messages("howToPaySelfAssessment.paragraph11")
     </p>
 
     <p>@messages("howToPaySelfAssessment.paragraph12")
         <a id="address-for-sa-enquiries" href="@appConfig.getGovUrl("addressForSaEnquiries")"
-        data-journey-click="HowToPaySa:click:AddressForSaEnquiries">
+        data-journey-click="link - click:How to pay your Self Assessment:address for Self Assessment enquiries">
         @messages("howtoPaySelfAssessment.address.for.sa.enquiries")</a>.
     </p>
 
@@ -151,14 +157,14 @@
         @messages("howToPaySelfAssessment.paragraph13")
         @if(request.request.saUtr.isDefined) {
             <a id="penalties" href="@appConfig.getPortalUrl("selfAssessmentPenalties", request.request.saUtr)"
-            data-journey-click="HowToPaySa:click:Penalties">@messages("howtoPaySelfAssessment.penalties")</a>
+            data-journey-click="link - click:How to pay your Self Assessment:penalties">@messages("howtoPaySelfAssessment.penalties")</a>
         } else {
             @messages("howtoPaySelfAssessment.penalties")
         }
         @messages("howtoPaySelfAssessment.and")
         @if(request.request.saUtr.isDefined) {
             <a id="interest" href="@appConfig.getPortalUrl("selfAssessmentInterest", request.request.saUtr)"
-            data-journey-click="HowToPaySa:click:Interest">@messages("howtoPaySelfAssessment.interest")</a>.
+            data-journey-click="link - click:How to pay your Self Assessment:interest">@messages("howtoPaySelfAssessment.interest")</a>.
         } else {
             @messages("howtoPaySelfAssessment.interest").
         }
@@ -175,7 +181,7 @@
     <p>
         <a id="self-assessment-penalties-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("self-assessment-penalties")"
-        data-journey-click="HowToPaySa:click:SelfAssessmentPenaltiesTranscript">
+        data-journey-click="link - click:How to pay your Self Assessment:Self Assessment penalties">
             @messages("howtoPaySelfAssessment.self.assessment.penalties") @messages("howtoPaySelfAssessment.video.transcript")</a>
     </p>
 }
