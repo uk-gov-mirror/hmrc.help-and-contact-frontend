@@ -96,13 +96,13 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "viewing-self-assessment-calculation-transcript",
         "Viewing your calculation - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
-        "link - click:How to pay your Self Assessment:Viewing your calculation")
+        "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript")
       assertLinkById(
         doc,
         "paying-your-self-assessment-bill-transcript",
         "Paying your Self Assessment tax bill - video transcript",
         "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
-        "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill")
+        "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video transcript")
       assertLinkById(
         doc,
         "online-or-telephone-banking",
@@ -150,7 +150,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "budgeting-for-sa-bill-transcript",
         "Budgeting for your Self Assessment tax bill - video transcript",
         "/business-account/help/transcript/budgeting-your-self-assessment-tax-bill",
-        "link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill")
+        "link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill - video transcript")
       assertLinkById(
         doc,
         "reasonable-excuses",
@@ -180,7 +180,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "self-assessment-penalties-transcript",
         "Self Assessment penalties - video transcript",
         "/business-account/help/transcript/self-assessment-penalties",
-        "link - click:How to pay your Self Assessment:Self Assessment penalties")
+        "link - click:How to pay your Self Assessment:Self Assessment penalties - video transcript")
     }
 
     "have youtube url in html for each embedded video" in {

@@ -31,7 +31,7 @@
 
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("expensesForSelfEmployed"))
 
-  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="expenses-if-you-are-self-employed-transcript" data-journey-click="HelpSAExpenses:click:ExpensesForSelfEmployedTranscript">@Messages("sa.expenses.expenses_if_you_are_self_employed") - @Messages("sa.expenses.video_transcript")</a></p>
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="expenses-if-you-are-self-employed-transcript" data-journey-click="link - click:Expenses:Expenses if you are self employed - video transcript">@Messages("sa.expenses.expenses_if_you_are_self_employed") - @Messages("sa.expenses.video_transcript")</a></p>
 
   <h2 class="margin-top-xlarge">@Messages("sa.expenses.calculating_motoring_expenses")</h2>
   <p>@Messages("sa.expenses.you_can_claim_business_expenses_for_")</p>
@@ -41,5 +41,5 @@
 
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("calculatingMotoringExpenses"))
 
-  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="HelpSAExpenses:click:CalculatingMotoringExpensesTranscript">@Messages("sa.expenses.calculating_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.calculating_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
 }

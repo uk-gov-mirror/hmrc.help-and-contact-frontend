@@ -51,20 +51,32 @@ class ContactHMRCAboutSelfAssessmentSpec extends ViewBehaviours {
 
     "contain the 'call us' link" in {
       val doc: Document = asDocument(createView())
-      assertLinkById(doc, "call-us", "call us", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment", expectedGAEvent = "HelpSAContactHmrc:click:CallUs", true, true)
+      assertLinkById(doc,
+        "call-us",
+        "call us",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
+        expectedGAEvent = "link - click:Contact HMRC about Self Assessment:call us",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
 
     "contain the 'Talk to an adviser online' (webchat) link" in {
       val doc: Document = asDocument(createView())
       val webchatLink: Element = doc.getElementById("talk-to-adviser")
       webchatLink.attr("href") mustBe "javascript:void(0)"
-      webchatLink.attr("data-journey-click") mustBe "HelpSAContactHmrc:click:TalkToAdviser"
+      webchatLink.attr("data-journey-click") mustBe "link - click:Contact HMRC about Self Assessment:Talk to an adviser online"
       webchatLink.attr("onclick") mustBe "openChat()"
     }
 
     "contain the 'different address' link" in {
       val doc: Document = asDocument(createView())
-      assertLinkById(doc, "different-address", "different address", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers", expectedGAEvent = "HelpSAContactHmrc:click:DifferentAddress", true, true)
+      assertLinkById(doc,
+        "different-address",
+        "different address",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
+        expectedGAEvent = "link - click:Contact HMRC about Self Assessment:different address",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
   }
 
