@@ -37,7 +37,15 @@ class ContactHmrcAboutEpayeViewSpec extends ViewBehaviours {
 
     "contain the 'contact us' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "contact-us", "contact us", "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/employer-enquiries", expectedGAEvent = "HelpEpaye:click:ContactHmrcAboutEpaye", true, true)
+      assertLinkById(
+        doc,
+        "contact-us",
+        "contact us",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/employer-enquiries",
+        expectedGAEvent = "link - click:Contact HMRC about PAYE:contact us",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true
+      )
     }
 
   }

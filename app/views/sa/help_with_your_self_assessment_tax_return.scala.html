@@ -31,14 +31,15 @@
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"))
 
   <p>
-    <a id="why-have-been-sent-transcript" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")" data-journey-click="HelpWithSa:click:WhyHaveIBeenSent">
+    <a id="why-have-been-sent-transcript" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
+       data-journey-click="link - click:Help with your Self Assessment return:Why have I been sent a tax return - video transcript">
       @Messages("helpWithYourSelfAssessmentTaxReturn.why_have_i_been")
       @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
   </p>
 
   <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_will_usually")</p>
-  <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_can_anonymously") <a id="check-if-you" href="@appConfig.getGovUrl("CheckIfYouNeedToSelfAssessment")" data-journey-click="HelpWithSa:click:CheckIfYouNeedToSelfAssessment">@messages("helpWithYourSelfAssessmentTaxReturn.check_if_you")</a>.
+  <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_can_anonymously") <a id="check-if-you" href="@appConfig.getGovUrl("CheckIfYouNeedToSelfAssessment")" data-journey-click="link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return">@messages("helpWithYourSelfAssessmentTaxReturn.check_if_you")</a>.
   </p>
 
   <p>@Messages("helpWithYourSelfAssessmentTaxReturn.if_you_are_sent")</p>
@@ -53,7 +54,8 @@
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"))
 
   <p>
-    <a id="your-first-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")" data-journey-click="HelpWithSa:click:YourFirstTaxReturn">
+    <a id="your-first-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")"
+       data-journey-click="link - click:Help with your Self Assessment return:Your first Self Assessment tax return - video transcript">
         @messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")
         @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
@@ -65,7 +67,8 @@
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"))
 
   <p>
-    <a id="tailor-your-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"       data-journey-click="HelpWithSa:click:TailorYourTaxReturn">
+    <a id="tailor-your-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"
+       data-journey-click="link - click:Help with your Self Assessment return:Tailor your tax return - video transcript">
       @messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")
       @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
@@ -80,7 +83,7 @@
   <p>
     <a id="your-self-employed-tax-return-transcript"
     href="@controllers.routes.TranscriptController.onPageLoad("your-self-employed-tax-return")"
-    data-journey-click="HelpWithSa:click:YourSelfEmployedTaxReturn">
+    data-journey-click="link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript">
       @messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")
       @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
@@ -97,7 +100,7 @@
   <p>
     <a id="your-income-from-property-tax-return-transcript"
       href="@controllers.routes.TranscriptController.onPageLoad("your-income-from-property-tax-return")"
-      data-journey-click="HelpWithSa:click:YourIncomeFromPropertyTaxReturn">
+      data-journey-click="link - click:Help with your Self Assessment return:Your income from property tax return - video transcript">
         @messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")
         @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>

@@ -39,7 +39,7 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
       assertLinkById(doc, "stop-self-assessment",
         "tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.",
         "http://localhost:9020/business-account/self-assessment/stop",
-        "HelpSARegisterDeregisterContentLink:click:StopFilingTaxReturns")
+        "link - click:Register or deregister for Self Assessment:tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.")
     }
 
     "have a h2 heading of 'Registering for Self Assessment'" in {

@@ -52,94 +52,94 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "register-deregister-self-assessment",
         "Register or deregister for Self Assessment",
         "/business-account/help/self-assessment/register-or-deregister",
-        "HelpAndContact:click:RegisterDeregisterSelfAssessment")
+        "link - click:Help and contact:Register or deregister for Self Assessment")
       assertLinkById(
         doc,
         "how-to-pay-self-assessment",
         "How to pay your Self Assessment",
         "/business-account/help/self-assessment/how-to-pay",
-        "HelpAndContact:click:HowToPaySelfAssessment")
+        "link - click:Help and contact:How to pay your Self Assessment")
       assertLinkById(
         doc,
         "expenses",
         "Expenses",
         "/business-account/help/self-assessment/expenses",
-        "HelpAndContact:click:Expenses")
+        "link - click:Help and contact:Expenses")
       assertLinkById(
         doc,
         "evidence-of-income",
         "Get evidence of your income (SA302)",
         "/business-account/help/self-assessment/evidence-of-income",
-        "HelpAndContact:click:EvidenceOfIncome")
+        "link - click:Help and contact:Get evidence of your income (SA302)")
       assertLinkById(
         doc,
         "help-with-sa-return",
         "Help with your Self Assessment return",
         "/business-account/help/self-assessment/help-with-return",
-        "HelpAndContact:click:HelpWithSelfAssessmentReturn")
+        "link - click:Help and contact:Help with your Self Assessment return")
       assertLinkById(
         doc,
         "contact-about-self-assessment",
         "Contact HMRC about Self Assessment",
         "/business-account/help/self-assessment/contact-hmrc",
-        "HelpAndContact:click:ContactAboutSelfAssessment")
+        "link - click:Help and contact:Contact HMRC about Self Assessment")
 
       assertLinkById(
         doc,
         "register-deregister-vat",
         "Register or deregister for VAT",
         "/business-account/help/vat/register-or-deregister",
-        "HelpAndContact:click:RegisterDeregisterVat")
+        "link - click:Help and contact:Register or deregister for VAT")
       assertLinkById(
         doc,
         "how-to-pay-vat",
         "How to pay VAT and deadlines",
         "/business-account/help/vat/how-to-pay",
-        "HelpAndContact:click:HowToPayVat")
+        "link - click:Help and contact:How to pay VAT and deadlines")
       assertLinkById(
         doc,
         "contact-about-vat",
         "Contact HMRC about VAT",
         "/business-account/help/vat/questions",
-        "HelpAndContact:click:ContactAboutVat")
+        "link - click:Help and contact:Contact HMRC about VAT")
 
       assertLinkById(
         doc,
         "register-or-tell-no-longer-trading-corporation-tax",
         "Register for Corporation Tax or tell HMRC you are no longer trading",
         "/business-account/help/corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading",
-        "HelpAndContact:click:RegisterOrTellNoLongerTradingCorporationTax")
+        "link - click:Help and contact:Register for Corporation Tax or tell HMRC you are no longer trading")
       assertLinkById(
         doc,
         "how-to-pay-corporation-tax",
         "How to pay your Corporation Tax",
         "/business-account/help/corporation-tax/how-to-pay",
-        "HelpAndContact:click:HowToPayCorporationTax")
+        "link - click:Help and contact:How to pay your Corporation Tax")
       assertLinkById(
         doc,
         "contact-about-corporation-tax",
         "Contact HMRC about Corporation Tax",
         "/business-account/help/corporation-tax/contact-hmrc",
-        "HelpAndContact:click:ContactAboutCorporationTax")
+        "link - click:Help and contact:Contact HMRC about Corporation Tax")
 
       assertLinkById(
         doc,
         "view-check-or-correct-epaye",
         "View, check or correct your submissions",
         "/business-account/help/epaye/view-check-correct-submissions",
-        "HelpAndContact:click:ViewCheckCorrectEpaye")
+        "link - click:Help and contact:View, check or correct your submissions")
       assertLinkById(
         doc,
         "paye-and-cis-refunds",
         "PAYE refunds and Construction Industry Scheme (CIS) refunds",
         "/business-account/help/epaye/refunds",
-        "HelpAndContact:click:PayeAndCisRefunds")
+        "link - click:Help and contact:PAYE refunds and Construction Industry Scheme (CIS) refunds")
       assertLinkById(
         doc,
         "contact-about-epaye",
         "Contact HMRC about PAYE",
         "/business-account/help/epaye/contact-hmrc",
-        "HelpAndContact:click:ContactAboutEpaye")
+        "link - click:Help and contact:Contact HMRC about PAYE")
     }
   }
 }

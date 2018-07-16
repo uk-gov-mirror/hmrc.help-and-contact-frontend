@@ -94,37 +94,37 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "check-if-you",
         "check if you need to fill in a Self Assessment tax return",
         "https://www.gov.uk/check-if-you-need-a-tax-return",
-        "HelpWithSa:click:CheckIfYouNeedToSelfAssessment")
+        "link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return")
       assertLinkById(
         doc,
         "why-have-been-sent-transcript",
         "Why have I been sent a tax return - video transcript",
         "/business-account/help/transcript/why-sent-tax-return",
-        "HelpWithSa:click:WhyHaveIBeenSent")
+        "link - click:Help with your Self Assessment return:Why have I been sent a tax return - video transcript")
       assertLinkById(
         doc,
         "your-first-tax-return-transcript",
         "Your first Self Assessment tax return - video transcript",
         "/business-account/help/transcript/your-first-tax-return",
-        "HelpWithSa:click:YourFirstTaxReturn")
+        "link - click:Help with your Self Assessment return:Your first Self Assessment tax return - video transcript")
       assertLinkById(
         doc,
         "tailor-your-tax-return-transcript",
         "Tailor your tax return - video transcript",
         "/business-account/help/transcript/tailor-your-tax-return",
-        "HelpWithSa:click:TailorYourTaxReturn")
+        "link - click:Help with your Self Assessment return:Tailor your tax return - video transcript")
       assertLinkById(
         doc,
         "your-self-employed-tax-return-transcript",
         "Your self-employed tax return - video transcript",
         "/business-account/help/transcript/your-self-employed-tax-return",
-        "HelpWithSa:click:YourSelfEmployedTaxReturn")
+        "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,
         "your-income-from-property-tax-return-transcript",
         "Your income from property tax return - video transcript",
         "/business-account/help/transcript/your-income-from-property-tax-return",
-        "HelpWithSa:click:YourIncomeFromPropertyTaxReturn")
+        "link - click:Help with your Self Assessment return:Your income from property tax return - video transcript")
     }
 
     "have youtube url in html for each embedded video" in {

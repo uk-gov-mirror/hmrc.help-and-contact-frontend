@@ -37,12 +37,20 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     "contain the 'Expenses if you’re self-employed - video transcript' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "expenses-if-you-are-self-employed-transcript", "Expenses if you are self employed - video transcript", "/business-account/help/transcript/expenses-if-you-are-self-employed", expectedGAEvent = "HelpSAExpenses:click:ExpensesForSelfEmployedTranscript")
+      assertLinkById(doc,
+        "expenses-if-you-are-self-employed-transcript",
+        "Expenses if you are self employed - video transcript",
+        "/business-account/help/transcript/expenses-if-you-are-self-employed",
+        expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
     }
 
     "contain the 'Calculating motoring expenses - video transcript' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc, "calculating-motoring-expenses-transcript", "Calculating motoring expenses - video transcript", "/business-account/help/transcript/calculating-motoring-expenses", expectedGAEvent = "HelpSAExpenses:click:CalculatingMotoringExpensesTranscript")
+      assertLinkById(doc,
+        "calculating-motoring-expenses-transcript",
+        "Calculating motoring expenses - video transcript",
+        "/business-account/help/transcript/calculating-motoring-expenses",
+        expectedGAEvent = "link - click:Expenses:Calculating motoring expenses - video transcript")
     }
 
     "have youtube url in html for each embedded video" in {

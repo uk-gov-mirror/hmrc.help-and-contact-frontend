@@ -76,23 +76,23 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "your-online-services-account",
         "your online services account",
         "http://localhost:9020/business-account",
-        "ContactHMRCAboutCT:click:YourOnlineServicesAccount")
+        "link - click:Contact HMRC about Corporation Tax:your online services account")
       assertLinkById(
         doc,
         "call-charges",
         "Find out about call charges",
         "https://www.gov.uk/call-charges",
-        "ContactHMRCAboutCT:click:CallCharges",
-        true,
-        true)
+        "link - click:Contact HMRC about Corporation Tax:Find out about call charges",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "courier-address",
         "different address",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
-        "ContactHMRCAboutCT:click:CourierAddress",
-        true,
-        true)
+        "link - click:Contact HMRC about Corporation Tax:different address",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
   }
 }

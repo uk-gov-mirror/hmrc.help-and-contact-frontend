@@ -40,7 +40,7 @@ class QuestionsAboutVATViewSpec extends ViewBehaviours {
         linkId = "make-a-vat-enquiry-online",
         expectedText = "make a VAT enquiry online",
         expectedUrl="http://localhost:8080/portal/shortforms/form/VATGenEnq?dept-name=&sub-dept-name=&location=47&lang=eng",
-        expectedGAEvent = "HelpVatContactHMRCContentLink:click:MakeEnquiryOnline")
+        expectedGAEvent = "link - click:Contact HMRC about VAT:make a VAT enquiry online")
     }
 
     "contain the 'call us' link" in {
@@ -49,7 +49,7 @@ class QuestionsAboutVATViewSpec extends ViewBehaviours {
         linkId = "contact-hmrc-about-vat",
         expectedText = "call us",
         expectedUrl="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/vat-enquiries",
-        expectedGAEvent = "HelpVatContactHMRCContentLink:click:CallUs")
+        expectedGAEvent = "link - click:Contact HMRC about VAT:call us")
     }
 
   }

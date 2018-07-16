@@ -39,38 +39,66 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
     }
 
     "have the correct 'Guide on payroll' link" in {
-      assertLinkById(doc, "payroll-guide", "GOV.UK guide on payroll",
+      assertLinkById(
+        doc,
+        "payroll-guide",
+        "GOV.UK guide on payroll",
         "https://www.gov.uk/running-payroll/fps-after-payday#viewing-late-fps-reports-in-your-hmrc-online-account",
-        "HelpEPAYEContentLink:click:PayrollGuide", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:View, check or correct your submissions:GOV.UK guide on payroll",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
 
     "have the correct 'Change this address' link" in {
-      assertLinkById(doc,"change-address", "Change this address.", "http://localhost:9020/business-account/manage-account/government-gateway-warning",
-       "HelpEPAYEContentLink:click:ChangeAddress", expectedOpensInNewTab = false)
+      assertLinkById(
+        doc,
+        "change-address",
+        "Change this address.",
+        "http://localhost:9020/business-account/manage-account/government-gateway-warning",
+        "link - click:View, check or correct your submissions:Change this address"
+      )
     }
 
     "have the correct 'user guide (view)' link" in {
-      assertLinkById(doc,"view-user-guide","user guide",
+      assertLinkById(
+        doc,
+        "view-user-guide","user guide",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
-        "HelpEPAYEContentLink:click:UserGuideView", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:View check or correct your submissions:view user guide",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
 
     "have the correct 'user guide (correct)' link" in {
-      assertLinkById(doc,"correct-user-guide","user guide",
+      assertLinkById(
+        doc,
+        "correct-user-guide","user guide",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
-        "HelpEPAYEContentLink:click:UserGuideCorrect", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:View check or correct your submissions:correct user guide",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
 
     "have the correct 'submit an Earlier Year Update' link" in {
-      assertLinkById(doc, "submit-earlier-year-update", "submit an Earlier Year Update using Basic PAYE Tools",
+      assertLinkById(
+        doc,
+        "submit-earlier-year-update",
+        "submit an Earlier Year Update using Basic PAYE Tools",
         "https://www.gov.uk/government/publications/basic-paye-tools-earlier-year-update-payroll-user",
-        "HelpEPAYEContentLink:click:SubmitEarlierYearUpdate", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:View check or correct your submissions:submit an Earlier Year Update using Basic PAYE Tools",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
 
     "have the correct 'install BPT' link" in {
-      assertLinkById(doc, "install-bpt", "install BPT to submit an Earlier Year Update",
+      assertLinkById(
+        doc,
+        "install-bpt",
+        "install BPT to submit an Earlier Year Update",
         "https://www.gov.uk/government/publications/basic-paye-tools-earlier-year-update-alongside-commercial-software",
-        "HelpEPAYEContentLink:click:InstallBPT", expectedIsExternal = true, expectedOpensInNewTab = true)
+        "link - click:View check or correct your submissions:install BPT to submit an Earlier Year Update",
+        expectedIsExternal = true,
+        expectedOpensInNewTab = true)
     }
   }
 
@@ -84,9 +112,13 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
     }
 
     "have the correct 'Add an email' link" in {
-      assertLinkById(docWithoutEmail,"add-email", "add an email",
+      assertLinkById(
+        docWithoutEmail,
+        "add-email",
+        "add an email",
         "http://localhost:9020/business-account/manage-account/government-gateway-warning",
-        "HelpEPAYEContentLink:click:AddEmail", expectedOpensInNewTab = false)
+        "link - click:View check or correct your submissions:add an email"
+      )
     }
   }
 }

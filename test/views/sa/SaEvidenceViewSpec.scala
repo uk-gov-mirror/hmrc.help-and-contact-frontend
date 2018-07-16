@@ -16,7 +16,6 @@
 
 package views.sa
 
-import org.jsoup.Jsoup
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.sa_evidence
@@ -32,7 +31,12 @@ class SaEvidenceViewSpec extends ViewBehaviours {
 
       "have a link to the simple assessment subpage" in {
         val doc = asDocument(createView())
-        assertLinkById(doc, "more_details", "more Self Assessment details", "bta-base/more-details","HelpSAEvidenceOfIncomeLink:click:EvidenceOfIncome" )
+        assertLinkById(
+          doc,
+          "more_details",
+          "more Self Assessment details",
+          "bta-base/more-details",
+          "link - click:Get evidence of your income (SA302):more Self Assessment details" )
       }
     }
     "the user has no SA enrolment" must{
