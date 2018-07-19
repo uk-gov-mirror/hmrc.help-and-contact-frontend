@@ -33,8 +33,8 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView())
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
-      val contentList = List(
+      val elements: List[String] = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val contentList: List[String] = List(
         "If you work for yourself you may have a car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things including fuel and vehicle insurance. But you can’t claim for non-business driving, or for fines or travel between home and work.",
         "There are two ways of working out your motoring expenses: using the actual costs, or a flat rate for business mileage. Once you’ve chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.",
         "If you decide to use the actual costs, you’ll need to know how many miles the vehicle has done over the year. Then work out what percentage was for business.",
@@ -43,7 +43,7 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
         "You’ll find more help and support on GOV.UK Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching."
       )
 
-      contentList.zipAll(elements, "", "").foreach {
+      contentList.zip(elements).foreach {
         case (content, element) => element mustBe content
       }
     }

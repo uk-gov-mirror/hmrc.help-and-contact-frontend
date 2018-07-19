@@ -89,6 +89,20 @@
     </a>
   </p>
 
+  <h2>@messages("helpWithYourSelfAssessmentTaxReturn.class_2_National_Insurance_changes")</h2>
+
+  <p>@messages("helpWithYourSelfAssessmentTaxReturn.the_way_you_pay")</p>
+
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("class2NationalInsuranceChanges"))
+
+  <p>
+      <a id="class2-national-insurance-changes-transcript" href="@controllers.routes.TranscriptController.onPageLoad("class-2-national-insurance-changes")"
+      data-journey-click="link - click:Help With Your Self Assessment return:Class 2 National Insurance changes: Self Assessment - video transcript">
+      @messages("helpWithYourSelfAssessmentTaxReturn.class_2_national_insurance_link")
+      @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
+      </a>
+  </p>
+
   <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")</h2>
 
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.do_not_fill")</p>
