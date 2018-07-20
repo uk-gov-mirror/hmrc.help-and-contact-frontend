@@ -86,6 +86,11 @@ class TranscriptControllerSpec extends ControllerSpecBase {
   )
 
   behave like pageRouter(
+    "class-2-national-insurance-changes",
+    () => class_2_national_insurance_changes(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRouter(
     "your-income-from-property-tax-return",
     () => your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )

@@ -174,6 +174,7 @@ helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Eich Ffurflen D
 helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Pam yr ydwyf wedi cael Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Teilwra’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Eich Ffurflen Dreth Hunangyflogaeth
+helpWithYourSelfAssessmentTaxReturn.class_2_National_Insurance_changes = Newidiadau i Yswiriant Gwladol Dosbarth 2
 helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return = Eich Ffurflen Dreth Incwm o Eiddo
 helpWithYourSelfAssessmentTaxReturn.video_transcript = - trawsgrifiad fideo
 helpWithYourSelfAssessmentTaxReturn.you_will_usually = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig.
@@ -188,6 +189,8 @@ helpWithYourSelfAssessmentTaxReturn.if_you_did_not = Os na wnaethoch anfon Ffurf
 helpWithYourSelfAssessmentTaxReturn.you_will_tailor = Byddwch yn teilwra’ch Ffurflen Dreth ar y 3 tudalen gyntaf. Defnyddiwch yr adran hon i roi gwybod i ni am eich gwahanol fathau o incwm, cyflogaeth a hunangyflogaeth fel eich bod ond yn gweld y rhannau o’r Ffurflen Dreth sydd eu hangen arnoch.
 helpWithYourSelfAssessmentTaxReturn.if_you_started = Os dechreuoch hunangyflogaeth neu y gwnaethoch roi’r gorau iddi yn ystod y flwyddyn, mae’n bwysig nodi’r dyddiadau fel y gall CThEM ddiweddaru’ch cofnodion.
 helpWithYourSelfAssessmentTaxReturn.did_not_trade = Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny a byddai’ch incwm wedi bod dros £83,000, eich ateb yw “Iawn”. Er enghraifft: Pe bai incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
+helpWithYourSelfAssessmentTaxReturn.the_way_you_pay = Newidiodd y ffordd rydych yn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 ar 6 Ebrill 2015. Yn lle talu drwy Ddebyd Uniongyrchol, rydych yn talu’r swm llawn ar gyfer y flwyddyn drwy’ch bil treth Hunanasesiad.
+helpWithYourSelfAssessmentTaxReturn.class_2_national_insurance_link = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.do_not_fill = Peidiwch â llenwi’r adran hon os ydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Mae hynny’n cael ei ystyried yn hunangyflogaeth a dylech lenwi’r adran honno.
 helpWithYourSelfAssessmentTaxReturn.if_your_property = Os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd, llenwch yr adran Dramor.
 helpWithYourSelfAssessmentTaxReturn.if_from_partnership = Os oedd eich incwm o eiddo yn dod o bartneriaeth, llenwch adran y Bartneriaeth.
@@ -593,6 +596,20 @@ yourSelfEmployedTaxReturnTranscript.paragraph13 = Mae’r ychydig eithriadau wed
 yourSelfEmployedTaxReturnTranscript.paragraph14 = Mae sgrin ar gyfer gwybodaeth arall. Yna, edrychwch dros eich manylion ar y dudalen grynodeb hon. Os ydych wedi rhoi’r gorau i hunangyflogaeth, rhowch wybod i CThEM.
 yourSelfEmployedTaxReturnTranscript.paragraph15 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 yourSelfEmployedTaxReturnTranscript.paragraph16 = Diolch am wylio.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Class 2 National Insurance changes transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class2NationalInsuranceChangesTranscript.title = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad - trawsgrifiad fideo
+class2NationalInsuranceChangesTranscript.heading = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad - trawsgrifiad fideo
+class2NationalInsuranceChangesTranscript.paragraph1 = Newidiodd y ffordd rydych yn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 ar 6 Ebrill 2015. Yn lle talu drwy Ddebyd Uniongyrchol, rydych yn talu’r swm llawn ar gyfer y flwyddyn drwy’ch bil treth Hunanasesiad. Ar eich Ffurflen Dreth Hunanasesiad rydych wedi rhoi gwybod eich bod yn hunangyflogedig neu mewn partneriaeth. Dyma le mae’ch cyfraniadau Yswiriant Gwladol Dosbarth 2 yn cael eu cynnwys.
+class2NationalInsuranceChangesTranscript.paragraph2 = Bydd y Ffurflen Dreth yn dangos swm y cyfraniadau Yswiriant Gwladol Dosbarth 2 sydd arnoch ar gyfer y flwyddyn. Mae hyn wedi’i seilio ar nifer yr wythnosau yr oeddech yn hunangyflogedig yn ystod y flwyddyn dreth.
+class2NationalInsuranceChangesTranscript.paragraph3 = Er enghraifft, os oeddech yn hunangyflogedig drwy gydol y flwyddyn, byddai cyfradd wythnosol cyfraniadau Yswiriant Gwladol Dosbarth 2, sef £2.80, yn cael ei lluosi â’r 52 wythnos yr oeddech yn hunangyflogedig, gan roi cyfanswm o £145.60 mewn cyfraniadau Yswiriant Gwladol Dosbarth 2 ar gyfer y flwyddyn.
+class2NationalInsuranceChangesTranscript.paragraph4 = Os yw’r ffigur yn anghywir mae’n bosibl mai’r rheswm dros hyn yw nad yw CThEM yn gwybod eich bod wedi dechrau hunangyflogaeth neu wedi dod â hi i ben yn ystod y flwyddyn. Os mai dyma’r sefyllfa, dylech ddiweddaru’ch manylion hunangyflogaeth yma.
+class2NationalInsuranceChangesTranscript.paragraph5 = Ar ôl i chi wneud hyn, gallwch ail-gyfrifo swm y cyfraniadau Yswiriant Gwladol Dosbarth 2. Os oedd eich elw’n llai na £5,965, ni fydd yn rhaid i chi dalu cyfraniadau Yswiriant Gwladol Dosbarth 2 ac nid oes rhaid i chi wneud cais am eithriad mwyach. Er nad oes rhaid i chi dalu cyfraniadau Yswiriant Gwladol Dosbarth 2, bydd swm sy’n ddyledus yn dal i gael ei ddangos yma. Os ydych am wneud taliadau Yswiriant Gwladol Dosbarth 2 gwirfoddol, dylech ddewis ‘Iawn’ yma. Fel arall, dylech ddewis ‘Na’. O dan rai amgylchiadau, gallwch ddewis talu’r dreth sydd arnoch drwy’ch cod treth TWE. Fodd bynnag, ni allwch dalu cyfraniadau Yswiriant Gwladol Dosbarth 2 yn y ffordd hon a bydd yn rhaid talu unrhyw gyfraniadau sy’n ddyledus erbyn 31 Ionawr 2017. Mae’r sgrin crynodeb o’r cyfrifiad yn dangos cyfanswm y dreth a’r cyfraniadau Yswiriant Gwladol sy’n ddyledus a’r taliadau ar gyfrif.
+class2NationalInsuranceChangesTranscript.paragraph6 = Bydd cyfraniadau Yswiriant Gwladol Dosbarth 2 yn cael eu cynnwys yn y cyfanswm sy’n ddyledus ar gyfer 2015-16.
+class2NationalInsuranceChangesTranscript.paragraph7 = Nid ydynt yn cael eu cynnwys wrth gyfrifo’r taliadau ar gyfrif. Gallwch fwrw golwg ar y cyfrifiad llawn, a’i argraffu, yma. Mae hwn yn rhoi dadansoddiad o’r dreth, cyfraniadau Yswiriant Gwladol Dosbarth 4 a’ch cyfraniadau Yswiriant Gwladol Dosbarth 2. Cewch ragor o help a chymorth ar GOV.UK.
+class2NationalInsuranceChangesTranscript.paragraph8 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your income from property tax return transcript
