@@ -195,7 +195,7 @@ helpWithYourSelfAssessmentTaxReturn.if_your_property = If your property is outsi
 helpWithYourSelfAssessmentTaxReturn.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Register or Deregister
+#~~ Register or Deregister`
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 self_assessment.register_deregister.title = Register or deregister for Self Assessment
