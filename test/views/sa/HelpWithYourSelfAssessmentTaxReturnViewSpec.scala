@@ -126,7 +126,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "class2-national-insurance-changes-transcript",
-        "Class 2 National Insurance changes: Self Assessment - video transcript",
+        "Class 2 National Insurance - Self Assessment - video transcript",
         "/business-account/help/transcript/class-2-national-insurance-changes",
         "link - click:Help With Your Self Assessment return:Class 2 National Insurance changes: Self Assessment - video transcript")
       assertLinkById(

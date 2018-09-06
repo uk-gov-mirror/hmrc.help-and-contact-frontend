@@ -190,7 +190,7 @@ helpWithYourSelfAssessmentTaxReturn.you_will_tailor = Byddwch yn teilwra’ch Ff
 helpWithYourSelfAssessmentTaxReturn.if_you_started = Os dechreuoch hunangyflogaeth neu y gwnaethoch roi’r gorau iddi yn ystod y flwyddyn, mae’n bwysig nodi’r dyddiadau fel y gall CThEM ddiweddaru’ch cofnodion.
 helpWithYourSelfAssessmentTaxReturn.did_not_trade = Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny a byddai’ch incwm wedi bod dros £83,000, eich ateb yw “Iawn”. Er enghraifft: Pe bai incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
 helpWithYourSelfAssessmentTaxReturn.the_way_you_pay = Newidiodd y ffordd rydych yn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 ar 6 Ebrill 2015. Yn lle talu drwy Ddebyd Uniongyrchol, rydych yn talu’r swm llawn ar gyfer y flwyddyn drwy’ch bil treth Hunanasesiad.
-helpWithYourSelfAssessmentTaxReturn.class_2_national_insurance_link = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad
+helpWithYourSelfAssessmentTaxReturn.class_2_national_insurance_link = Yswiriant Gwladol Dosbarth 2 – Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.do_not_fill = Peidiwch â llenwi’r adran hon os ydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Mae hynny’n cael ei ystyried yn hunangyflogaeth a dylech lenwi’r adran honno.
 helpWithYourSelfAssessmentTaxReturn.if_your_property = Os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd, llenwch yr adran Dramor.
 helpWithYourSelfAssessmentTaxReturn.if_from_partnership = Os oedd eich incwm o eiddo yn dod o bartneriaeth, llenwch adran y Bartneriaeth.
@@ -449,17 +449,24 @@ ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Bwrw golwg ar eich cyfrifiad - trawsgrifiad fideo
-viewingYourCalculationTranscript.heading = Bwrw golwg ar eich cyfrifiad - trawsgrifiad fideo
-viewingYourCalculationTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-viewingYourCalculationTranscript.paragraph2 = Pan fyddwch yn defnyddio Ffurflen Dreth ar-lein CThEM, mae’n cyfrifo’n awtomatig faint y mae angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg ar eich cyfrifiad.
-viewingYourCalculationTranscript.paragraph3 = Yna fe welwch y sgrin hon. Mae’r sgrin hon yn dangos y swm sydd angen i chi ei dalu ar gyfer 2016-17. Mae’n cynnwys unrhyw Yswiriant Gwladol Dosbarth 4 a Dosbarth 2 sy’n ddyledus.
-viewingYourCalculationTranscript.paragraph4 = Os oes angen i chi dalu £1,000 neu fwy, byddwch hefyd yn gwneud ‘taliad ar gyfrif’. Mae ‘taliad ar gyfrif’ yn werth hanner eich bil treth ac Yswiriant Gwladol Dosbarth 4 ar gyfer y flwyddyn flaenorol.
-viewingYourCalculationTranscript.paragraph5 = Ar gyfer 2016-17, bydd eich taliad yn ddyledus erbyn 31 Ionawr 2018. Byddwch yn gwneud ail ‘daliad ar gyfrif’ ym mis Gorffennaf 2018. Ond peidiwch â phoeni, bydd y taliadau hyn ar gyfrif yn cael eu tynnu o’r swm y bydd angen i chi ei dalu am y flwyddyn dreth 2017-18 ar eich datganiad Hunanasesiad pan fyddwch yn llenwi’r Ffurflen Dreth y flwyddyn nesaf. Os hoffech weld sut mae’r ffigyrau wedi’u cyfrifo mewn mwy o fanylder, dewiswch ‘Gweld ac argraffu’ch cyfrifiad llawn’.
-viewingYourCalculationTranscript.paragraph6 = Yna, gallwch weld yn union sut mae’ch bil treth wedi’i chyfrifo. Mae’n dangos eich incwm, eich lwfans personol, y dreth sy’n ddyledus, unrhyw Yswiriant Gwladol Dosbarth 4, Yswiriant Gwladol Dosbarth 2, a’r taliadau sy’n ddyledus ar 31 Ionawr 2018. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
-viewingYourCalculationTranscript.paragraph7 = Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
-viewingYourCalculationTranscript.paragraph8 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-viewingYourCalculationTranscript.paragraph9 = Diolch am wylio.
+viewingYourCalculationTranscript.title = Viewing your calculation - video transcript
+viewingYourCalculationTranscript.heading = Viewing your calculation - video transcript
+viewingYourCalculationTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+viewingYourCalculationTranscript.paragraph2 = When you use HMRC’s online tax return, it automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, view your calculation.
+viewingYourCalculationTranscript.paragraph3 = You will then see this screen. This shows the amount you’re due to pay for 2017-18. This includes Class 4 and Class 2 National Insurance, if any are due.
+viewingYourCalculationTranscript.paragraph4 = If you’re due to pay £1,000 or more, you also make a ‘payment on account’. A ‘payment on account’ is half of your previous year’s tax and class 4 National Insurance bill.
+viewingYourCalculationTranscript.paragraph5 = For 2017-18, your payment is due by 31 January 2019. You’ll make a second ‘payment on account’ in July 2019. But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2018-19 tax year on your Self Assessment statement when you complete the tax return next year. If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
+viewingYourCalculationTranscript.paragraph6 = You can then see exactly how your tax bill has been worked out. It shows your:
+viewingYourCalculationTranscript.para6bullet1 = income
+viewingYourCalculationTranscript.para6bullet2 = Personal Allowance
+viewingYourCalculationTranscript.para6bullet3 = tax due
+viewingYourCalculationTranscript.para6bullet4 = Class 4 National Insurance
+viewingYourCalculationTranscript.para6bullet5 = Class 2 National Insurance
+viewingYourCalculationTranscript.para6bullet6 = payments due on 31 January 2019
+viewingYourCalculationTranscript.paragraph6a = These estimated payments don’t include any payments you may have already made. You can print a copy of this for your own records.
+viewingYourCalculationTranscript.paragraph7 = You’ll find more help and support on GOV.UK.
+viewingYourCalculationTranscript.paragraph8 = Webinars and other videos about Self Assessment are available from HMRC.
+viewingYourCalculationTranscript.paragraph9 = Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
@@ -558,21 +565,21 @@ yourFirstTaxReturnTranscript.paragraph23 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tailor your tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tailorYourTaxReturnTranscript.title = Teilwra’ch Ffurflen Dreth - trawsgrifiad fideo
-tailorYourTaxReturnTranscript.heading = Teilwra’ch Ffurflen Dreth - trawsgrifiad fideo
-tailorYourTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-tailorYourTaxReturnTranscript.paragraph2 = Unwaith y byddwch ar y Ffurflen Dreth ar-lein, mae angen i chi 'Addasu eich Ffurflen Dreth'. Mae tair tudalen o gwestiynau Iawn / Na, gan sicrhau mai dim ond yr adrannau sydd eu hangen arnoch sy'n cael eu rhoi i chi.
-tailorYourTaxReturnTranscript.paragraph3 = Mae tudalen 1 yn ymwneud â'r ffynonellau incwm a gawsoch, er enghraifft incwm cyflogaeth, hunangyflogaeth neu bartneriaeth. Os nad ydych yn siŵr am gwestiwn, dewiswch y 'marc cwestiwn'.
-tailorYourTaxReturnTranscript.paragraph4 = Byddwch wedyn yn cael arweiniad. Rhaid i chi ddewis 'Iawn' neu 'Na' i bob cwestiwn â seren goch. Ar y dudalen hon, dyna nhw i gyd. O ddewis 'Iawn', efallai y cewch eich gofyn am ragor o wybodaeth. Er enghraifft, os dewiswch 'Iawn' ar gyfer yr adran gyflogaeth, cewch eich gofyn faint o gyflogaethau neu swyddi cyfarwyddwr a gawsoch, a rhaid i chi roi enw'r cyflogwr.
-tailorYourTaxReturnTranscript.paragraph5 = Nid oes rhaid i chi lenwi'ch Ffurflen Dreth yn gyfan gwbl ar unwaith. Gallwch adael ar unrhyw adeg a dod yn ôl yn ddiweddarach. Gall hyn fod o gymorth os nad oes gennych bopeth wrth law. Defnyddiwch y botwm 'Cadw' i wneud hyn.
-tailorYourTaxReturnTranscript.paragraph6 = Mae 'Nesaf' yn mynd â chi i dudalen 2. Mae hyn yn gofyn am fathau eraill o incwm fel llog banc, difidendau a phensiynau. Gall y cwestiwn hwn achosi dryswch - ond mae ar gyfer colledion ar incwm trethadwy arall, fel enillion neu gomisiwn achlysurol. Nid yw ar gyfer colledion y byddech yn eu rhoi mewn rhan arall o'r ffurflen, er enghraifft, colledion hunangyflogedig yn yr adran hunangyflogedig. Os oes gennych unrhyw amheuaeth, defnyddiwch y marc cwestiwn.
-tailorYourTaxReturnTranscript.paragraph7 = Mae 'Nesaf' yn mynd â chi i dudalen 3. Mae hyn yn ymwneud â rhyddhad treth yn bennaf, gan gynnwys cyfraniadau pensiwn neu anrhegion elusennol, Lwfans Pâr Priod a Lwfans Priodas.
-tailorYourTaxReturnTranscript.paragraph8 = Nid ad-daliadau a gawsoch yn ystod y flwyddyn dreth am flwyddyn gynharach yw hyn, nac ad-daliadau drwy gyflogwr. Dyma'r dreth 2016-17 rydych wedi ei thalu, sydd eisoes wedi ei had-dalu gan CThEM neu'r Ganolfan Byd Gwaith. Bydd 'Nesaf' yn mynd â chi i 'Llenwch eich Ffurflen Dreth'.
-tailorYourTaxReturnTranscript.paragraph9 = O fan hyn, rhowch fanylion yr incwm a gawsoch ac unrhyw dreth a dalwyd gennych.
-tailorYourTaxReturnTranscript.paragraph10 = Cofiwch fod y Ffurflen Dreth, sydd fod cyrraedd erbyn 31 Ionawr 2018, ar gyfer y flwyddyn dreth 6 Ebrill 2016 i 5 Ebrill 2017. Rhaid talu unrhyw dreth sydd arnoch erbyn 31 Ionawr 2018.
-tailorYourTaxReturnTranscript.paragraph11 = Cofiwch y gallwch gyflwyno'ch Hunanasesiad ar unrhyw bryd, felly peidiwch â'i adael tan y funud olaf. Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
-tailorYourTaxReturnTranscript.paragraph12 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-tailorYourTaxReturnTranscript.paragraph13 = Diolch am wylio.
+tailorYourTaxReturnTranscript.title = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.heading = Tailor your tax return - video transcript
+tailorYourTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+tailorYourTaxReturnTranscript.paragraph2 = Once you’re in the online tax return you need to ‘Tailor your return’. Three pages, of Yes/No questions ensuring that you’re only given the sections you need.
+tailorYourTaxReturnTranscript.paragraph3 = Page 1 is about the sources of income you had, for example employment, self-employment or partnership income. If you’re unsure about a question, select the ‘question mark’.
+tailorYourTaxReturnTranscript.paragraph4 = You’ll then be given guidance. You must select ‘Yes’ or ‘No’ to all questions on these pages. When you choose ‘Yes’, you may be asked for further information. For example, if you choose ‘Yes’ for the employment section, you’re asked how many employments or directorships you had, and you have to give the employer’s name.
+tailorYourTaxReturnTranscript.paragraph5 = You don’t have to complete your return all in one go. Once you have answered the questions on a page and selected ‘Save and continue’, you can leave and come back later which can be helpful if you don’t have everything to hand.
+tailorYourTaxReturnTranscript.paragraph6 = ‘Save and continue’ takes you to page 2. This asks about other types of income like bank interest, dividends and pensions. This question can cause confusion – it’s for losses on other taxable income such as casual earnings or commission. It’s not for losses you would enter in another section of the return, for example, self-employed losses in the self-employed section. If in doubt use the question mark.
+tailorYourTaxReturnTranscript.paragraph7 = Page 3 is mainly about tax reliefs, including pension contributions, charitable gifts, Married Couple’s Allowance and Marriage Allowance.
+tailorYourTaxReturnTranscript.paragraph8 = This is not refunds you’ve received during the tax year for an earlier year, or refunds through an employer. It’s the 2017-18 tax you’ve paid, which has already been refunded by HMRC or Jobcentre Plus. ‘Save and continue’ takes you to ‘Fill in your return’.
+tailorYourTaxReturnTranscript.paragraph9 = From here you’ll be taken to the sections you need, to give the details of the income you had and any tax you paid.
+tailorYourTaxReturnTranscript.paragraph10 = Remember the tax return due on 31 January 2019 is for the tax year 6 April 2017 to 5 April 2018. Any tax you owe must be paid by 31 January 2019.
+tailorYourTaxReturnTranscript.paragraph11 = You can file your Self Assessment anytime, don’t leave it until the last minute. You’ll find more help and support on GOV.UK.
+tailorYourTaxReturnTranscript.paragraph12 = Webinars and other videos about Self Assessment are available from HMRC.
+tailorYourTaxReturnTranscript.paragraph13 = Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your self employed tax return transcript
@@ -599,73 +606,87 @@ yourSelfEmployedTaxReturnTranscript.paragraph16 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Class 2 National Insurance changes transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class2NationalInsuranceChangesTranscript.title = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad - trawsgrifiad fideo
-class2NationalInsuranceChangesTranscript.heading = Newidiadau i Yswiriant Gwladol Dosbarth 2: Hunanasesiad - trawsgrifiad fideo
+class2NationalInsuranceChangesTranscript.title = Class 2 National Insurance - Self Assessment - video transcript
+class2NationalInsuranceChangesTranscript.heading = Class 2 National Insurance - Self Assessment - video transcript
 class2NationalInsuranceChangesTranscript.paragraph0 = This is one of a series of videos about online Self Assessment.
 class2NationalInsuranceChangesTranscript.paragraph1a = Class 2 National Insurance is paid through your Self Assessment tax return by 31 January following the end of the tax year.
 class2NationalInsuranceChangesTranscript.paragraph1b = On your Self Assessment tax return you’ve said that you’re self-employed or in a partnership.
 class2NationalInsuranceChangesTranscript.paragraph1c = This is where your Class 2 National Insurance contributions are included.
-class2NationalInsuranceChangesTranscript.paragraph2 = Bydd y Ffurflen Dreth yn dangos swm y cyfraniadau Yswiriant Gwladol Dosbarth 2 sydd arnoch ar gyfer y flwyddyn. Mae hyn wedi’i seilio ar nifer yr wythnosau yr oeddech yn hunangyflogedig yn ystod y flwyddyn dreth.
-class2NationalInsuranceChangesTranscript.paragraph3 = Er enghraifft, os oeddech yn hunangyflogedig drwy gydol y flwyddyn, byddai cyfradd wythnosol cyfraniadau Yswiriant Gwladol Dosbarth 2, sef £2.80, yn cael ei lluosi â’r 52 wythnos yr oeddech yn hunangyflogedig, gan roi cyfanswm o £145.60 mewn cyfraniadau Yswiriant Gwladol Dosbarth 2 ar gyfer y flwyddyn.
-class2NationalInsuranceChangesTranscript.paragraph4 = Os yw’r ffigur yn anghywir mae’n bosibl mai’r rheswm dros hyn yw nad yw CThEM yn gwybod eich bod wedi dechrau hunangyflogaeth neu wedi dod â hi i ben yn ystod y flwyddyn. Os mai dyma’r sefyllfa, dylech ddiweddaru’ch manylion hunangyflogaeth yma.
-class2NationalInsuranceChangesTranscript.paragraph5 = Ar ôl i chi wneud hyn, gallwch ail-gyfrifo swm y cyfraniadau Yswiriant Gwladol Dosbarth 2. Os oedd eich elw’n llai na £5,965, ni fydd yn rhaid i chi dalu cyfraniadau Yswiriant Gwladol Dosbarth 2 ac nid oes rhaid i chi wneud cais am eithriad mwyach. Er nad oes rhaid i chi dalu cyfraniadau Yswiriant Gwladol Dosbarth 2, bydd swm sy’n ddyledus yn dal i gael ei ddangos yma. Os ydych am wneud taliadau Yswiriant Gwladol Dosbarth 2 gwirfoddol, dylech ddewis ‘Iawn’ yma. Fel arall, dylech ddewis ‘Na’. O dan rai amgylchiadau, gallwch ddewis talu’r dreth sydd arnoch drwy’ch cod treth TWE. Fodd bynnag, ni allwch dalu cyfraniadau Yswiriant Gwladol Dosbarth 2 yn y ffordd hon a bydd yn rhaid talu unrhyw gyfraniadau sy’n ddyledus erbyn 31 Ionawr 2017. Mae’r sgrin crynodeb o’r cyfrifiad yn dangos cyfanswm y dreth a’r cyfraniadau Yswiriant Gwladol sy’n ddyledus a’r taliadau ar gyfrif.
-class2NationalInsuranceChangesTranscript.paragraph5a = The calculation summary screen shows the total tax and National Insurance contributions due and the payments on account.
-class2NationalInsuranceChangesTranscript.paragraph6 = Bydd cyfraniadau Yswiriant Gwladol Dosbarth 2 yn cael eu cynnwys yn y cyfanswm sy’n ddyledus ar gyfer 2015-16.
-class2NationalInsuranceChangesTranscript.paragraph7 = Nid ydynt yn cael eu cynnwys wrth gyfrifo’r taliadau ar gyfrif. Gallwch fwrw golwg ar y cyfrifiad llawn, a’i argraffu, yma. Mae hwn yn rhoi dadansoddiad o’r dreth, cyfraniadau Yswiriant Gwladol Dosbarth 4 a’ch cyfraniadau Yswiriant Gwladol Dosbarth 2. Cewch ragor o help a chymorth ar GOV.UK.
-class2NationalInsuranceChangesTranscript.paragraph8 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
+class2NationalInsuranceChangesTranscript.paragraph2 = The return will show the amount of Class 2 you owe for the year. This is based on the number of weeks that you were self-employed during the tax year.
+class2NationalInsuranceChangesTranscript.paragraph3 = For example, if you were self-employed all year, the Class 2 weekly rate of £2.85 would be multiplied by the 52 weeks you were self-employed, giving total Class 2 National Insurance contributions for the year of £148.20.
+class2NationalInsuranceChangesTranscript.paragraph4 = If the figure is wrong it may be because HMRC doesn’t know that you started or ended self-employment during the year. If this is the case, please update your self-employment details here.
+class2NationalInsuranceChangesTranscript.paragraph5 = Once you’ve done this you can recalculate the Class 2 amount. If your profits were less than £6,025 you won’t have to pay Class 2. Although you don’t need to pay Class 2 there will still be an amount owed shown here. If you want to make voluntary Class 2 payments select ‘Yes’ here. Otherwise, select ‘No’. In some circumstances you can choose to pay the tax you owe through your PAYE tax code, but you can’t pay Class 2 National Insurance this way and any due will have to be paid by 31 January 2019. The calculation summary screen shows the total tax and National Insurance contributions due and the payments on account.
+class2NationalInsuranceChangesTranscript.paragraph6 = The Class 2 National Insurance contributions will be included in the total amount due for 2017-18.
+class2NationalInsuranceChangesTranscript.paragraph7 = They’re not included in the calculation of payments on account. You can view and print out the full calculation here. This gives a breakdown of the tax, Class 4 National Insurance and your Class 2 National Insurance contributions. You’ll find more help and support on GOV.UK.
+class2NationalInsuranceChangesTranscript.paragraph8 = Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your income from property tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-yourIncomeFromPropertyTaxReturnTranscript.title = Eich Ffurflen Dreth Incwm o Eiddo - trawsgrifiad fideo
-yourIncomeFromPropertyTaxReturnTranscript.heading = Eich Ffurflen Dreth Incwm o Eiddo - trawsgrifiad fideo
-yourIncomeFromPropertyTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = Ar eich Ffurflen Dreth Hunanasesiad, rhoesoch wybod fod gennych incwm o eiddo. Dyma’r rhan o’r Ffurflen Dreth y byddwch yn mynd iddi.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Peidiwch â dechrau llenwi’r adran hon os cewch incwm o lety wedi’i ddodrefnu yn eich cartref sy’n gyfystyr â masnach - er enghraifft, rydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Llenwch yr adran ‘hunangyflogaeth’ yn lle hynny.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph4 = Peidiwch, ychwaith, â llenwi’r adran hon os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd - yn yr achos hwnnw llenwch yr adran dramor. Ac os oedd eich incwm o eiddo yn dod o bartneriaeth - llenwch yr adran Partneriaeth.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Rhowch fanylion am eich eiddo ar y tudalennau hyn. Dyma le rydych yn hawlio unrhyw ryddhad Rhentu Ystafell. Os oedd eich incwm yn uwch na’r trothwy Rhentu Ystafell, byddwch yn gwneud addasiad ar gyfer y swm sydd wedi’i eithrio yn nes ymlaen. Rhowch wybod i CThEM swm yr incwm o eiddo a gawsoch yma.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = Ar gyfer eiddo wedi’i osod ar y cyd, rhowch eich cyfran chi’n unig. Defnyddiwch ffurflen 17 os ydych am newid sut mae’r incwm wedi’i rannu. Dim ond os ydych yn landlord dibreswyl y caiff treth y DU ei didynnu. Yna, cyfrifir cyfanswm eich incwm o eiddo. Dyma le rydych yn nodi’ch costau rhedeg.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = Mae treuliau caniataol yn cynnwys cost atgyweiriadau lle rydych yn adfer ased i’w gyflwr gwreiddiol ond nid ar gyfer gwaith gwella na gwaith uwchraddio. Mae’r rhain yn draul cyfalaf. Os yw cyfanswm eich incwm o eiddo yn is na £83,000, nid oes angen i chi lenwi’r blychau i gyd.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = Ychwanegwch eich treuliau at ei gilydd a rhowch y cyfanswm, llai unrhyw dreuliau gosod llety gwyliau wedi’i ddodrefnu, yn y blwch hwn.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = Nid yw’r lwfans adnewyddu na’r lwfans traul 10%, ar gyfer cost amnewid dodrefn neu lenni ac ati, ar gael mwyach. Mae addasiadau’n mynd yma.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph10 = Ar gyfer gosodiadau preswyl yn unig, dyma le rydych yn hawlio cost amnewid eitemau domestig. Defnyddiwch y marc cwestiwn am ragor o wybodaeth.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = Os ydych yn hawlio rhyddhad Rhentu Ystafell ond y cawsoch fwy na’r trothwy, rhowch y swm eithriedig yma.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = Bydd yr elw, wedi’i addasu ar gyfer y flwyddyn, yn cael ei gyfrifo ar eich cyfer. Os oes elw, rhaid i chi nodi unrhyw golledion nas defnyddiwyd o flynyddoedd cynharach.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = Bydd yr elw trethadwy neu’r golled wedi’i addasu yn ymddangos isod a bydd y golled i’w chario ymlaen yn cael ei chyfrifo ar eich cyfer. Rhowch unrhyw wybodaeth arall, yna edrychwch ar eich ffigurau ar sgrin olaf y crynodeb. Os gwelwch wall, gallwch fynd yn ôl a’i newid.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Diolch am wylio.
+yourIncomeFromPropertyTaxReturnTranscript.title = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.heading = Your income from property tax return - video transcript
+yourIncomeFromPropertyTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = On your Self Assessment tax return you’ve said you have income from UK property over £1,000 including foreign property income. This is the section of the tax return you go to.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Don’t start filling in this section if:
+yourIncomeFromPropertyTaxReturnTranscript.para3bullet1 = you receive income from letting furnished accommodation in your home that amounts to a trade - for example, you run a guest house or offer bed and breakfast. Fill in the ‘self-employment’ section instead.
+yourIncomeFromPropertyTaxReturnTranscript.para3bullet2 = your property is outside the European Economic Area - fill in the ‘Foreign’ section.
+yourIncomeFromPropertyTaxReturnTranscript.para3bullet3 = your property income was from a partnership - fill in the Partnership section.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Enter details about your property on these pages. This is where you claim any Rent a Room relief. If your income was above the Rent a Room threshold you make an adjustment for the exempt amount later. Tell HMRC the amount of property income you received here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = For jointly let property, only put your share. Use form 17 if you want to change the split of the income.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6a = You can claim the £1,000 property income allowance here, but remember you can’t then deduct any expenses against your income. See the question mark for further guidance.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6b = From April 2017 the default basis for calculating your income and expenses is cash basis. If you use traditional accounting select ‘Yes’ here, otherwise select ‘No’.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6c = UK tax is only taken off if you’re a non-resident landlord. Then, your total income from property is calculated. This is where you enter your running costs.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = Allowable expenses include the cost of repairs where you’re restoring an asset to its original condition but not for improvements or upgrades. These are a capital expense.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7a = In the tax year 2017-18 finance costs for residential properties are restricted to 75%. The figure you enter here will be 75% of your total residential finance costs and you’ll claim a basic rate tax reduction shortly. This doesn’t affect commercial lettings, see the guidance for more details.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph7b = If your total property income is below £85,000 you don’t need to fill in all the boxes.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = Add up your expenses and put the total in this box, less any Loan interest and financial costs, these must be entered separately.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = Adjustments go here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph10 = For residential lettings only, this is where you claim the cost of replacing domestic items. Use the question mark for more information.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = If you’re claiming Rent a Room relief but received more than the threshold, enter the exempt amount here.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = The adjusted profit for the year will be calculated for you. If there’s a profit you must enter any unused losses from earlier years.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = The taxable profit or adjusted loss will display below and the loss to carry forward will be calculated for you. Enter here the amount of residential finance costs that you couldn’t deduct from your expenses. For 2017/18 that’s 25% of your total.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph13a = Enter any other information you feel is needed to support your entries, then check your figures on the final summary screen. If you spot an error you can always go back and change it.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses if you are self employed transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.expenses_for_self_employed_transcript.title = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
-sa.expenses.expenses_for_self_employed_transcript.heading = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
-sa.expenses.expenses_for_self_employed_transcript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein. Os ydych yn hunangyflogedig, bydd gan eich busnes amryw o gostau rhedeg. Gallwch dynnu rhai o’r costau hyn i gyfrifo’ch elw trethadwy, cyn belled â’u bod yn dreuliau caniataol.
+sa.expenses.expenses_for_self_employed_transcript.title = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.heading = Expenses if you’re self-employed - video transcript
+sa.expenses.expenses_for_self_employed_transcript.paragraph1 = This is one of a series of videos about online Self Assessment. If you’re self-employed your business will have various running costs. You can take away some of these costs to work out your taxable profit as long as they’re allowable expenses.
 sa.expenses.expenses_for_self_employed_transcript.paragraph1a = You can’t claim any expenses if you use the £1,000 tax-free trading allowance. There’s more about this on GOV.UK
-sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Nid yw treuliau caniataol yn cynnwys arian a ddidynnwch o’ch busnes i dalu am bryniadau preifat. Hynny yw, nid yw treuliau busnes caniataol yn cynnwys pethau fel llety, bwyd, dillad, gwyliau nac unrhyw bethau eraill rydych yn eu prynu ar eich cyfer chi a’ch teulu.
-sa.expenses.expenses_for_self_employed_transcript.paragraph3 = Mae angen i chi gadw cofnod o’ch holl dreuliau busnes fel tystiolaeth o’ch costau. Rydych yn ychwanegu’ch holl dreuliau caniataol ar gyfer y flwyddyn dreth a’u rhoi ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau wrth gyflwyno’ch Ffurflen Dreth i CThEM. Cadwch nhw fel y gallwch eu dangos i CThEM, os gofynnir i chi wneud hynny. Gallwch ddewis defnyddio ’Treuliau symlach’.
-sa.expenses.expenses_for_self_employed_transcript.paragraph4 = Mae hon yn ffordd o gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Nid oes rhaid i chi wneud hyn. Gallwch benderfynu a yw hyn yn gweddu i’ch busnes.
-sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Ni ellir defnyddio treuliau symlach gan gwmnïau cyfyngedig na phartneriaethau busnes sy’n cynnwys cwmni cyfyngedig. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle’ch busnes.
-sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle’ch busnes dros y flwyddyn.
-sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Yna, ar ddiwedd y flwyddyn, defnyddiwch y gyfradd unffurf i gyfrifo’ch treuliau a chynhwyswch y symiau yn eich Ffurflen Dreth Hunanasesiad. Cewch ragor o wybodaeth am hyn ar wefan GOV.UK.
-sa.expenses.expenses_for_self_employed_transcript.paragraph8 = Am gostau eraill, ac os penderfynwch beidio â defnyddio treuliau symlach, cadwch gofnodion cywir o’r hyn rydych yn ei brynu a’r costau.
-sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Dyma rai treuliau busnes cyffredin: eiddo ac offer swyddfa, ceir, faniau a theithio, staff, stoc, costau cyfreithiol ac ariannol, marchnata a thanysgrifiadau.
-sa.expenses.expenses_for_self_employed_transcript.paragraph10 = Ar gyfer blwyddyn dreth 2016-17, os yw’ch incwm busnes yn £83,000 neu fwy, mae angen i chi nodi bob traul o dan y pennawd priodol. Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny ac y byddai’ch incwm wedi bod dros £83,000, mae angen i chi nodi bob traul yn yr un ffordd.
-sa.expenses.expenses_for_self_employed_transcript.paragraph11 = Er enghraifft, os gwnaethoch fasnachu o fis Hydref i fis Ebrill, (hynny yw chwe mis), a’ch incwm busnes oedd £50,000, yna byddai’ch incwm busnes am 12 mis llawn wedi bod yn £100,000. Os yw’ch incwm busnes yn is na £83,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.expenses_for_self_employed_transcript.paragraph12 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
+sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Allowable expenses don’t include money you take from your business to pay for private purchases. In other words, allowable business expenses don’t include things like accommodation, food, clothing, holidays and any other things you buy for you and your family.
+sa.expenses.expenses_for_self_employed_transcript.paragraph3 = You need to keep records of all your business expenses as proof of your costs. You add up all of your allowable expenses for the tax year and put them on your Self-Assessment tax return. Don’t send in proof of your expenses when you send your tax return to HMRC. Keep them so that you can show them to HMRC, if asked. You can choose to use ‘Simplified expenses’.
+sa.expenses.expenses_for_self_employed_transcript.paragraph4 = This is a way of working out some of your expenses using flat rates instead of working out your actual business costs. You don’t have to do this. You can decide if it suits your business.
+sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Simplified expenses can’t be used by limited companies or business partnerships involving a limited company. You can use flat rates for:
+sa.expenses.expenses_for_self_employed_transcript.para5bullet1 = business costs for vehicles
+sa.expenses.expenses_for_self_employed_transcript.para5bullet2 = working from home
+sa.expenses.expenses_for_self_employed_transcript.para5bullet3 = living in your business premises
+sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.
+sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Then, at the end of the year, use the flat rate to work out your expenses and include the amounts in your Self Assessment tax return. Find out more about this on the GOV.UK website.
+sa.expenses.expenses_for_self_employed_transcript.paragraph8 = For other expenses, and if you decide not to use simplified expenses, keep accurate records of what you buy and their costs.
+sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Here’s some commonly used business expenses:
+sa.expenses.expenses_for_self_employed_transcript.para9bullet1 = office property and equipment
+sa.expenses.expenses_for_self_employed_transcript.para9bullet2 = car, van and travel
+sa.expenses.expenses_for_self_employed_transcript.para9bullet3 = staff
+sa.expenses.expenses_for_self_employed_transcript.para9bullet4 = legal and financial costs
+sa.expenses.expenses_for_self_employed_transcript.para9bullet5 = marketing and subscriptions
+sa.expenses.expenses_for_self_employed_transcript.paragraph10 = For the tax year 2017-18, if your business income is £85,000 or more, you need to enter each expense under the appropriate heading. If you didn’t trade for a full year, but if you had, and your income would have been more than £85,000 you need to enter each expense in the same way.
+sa.expenses.expenses_for_self_employed_transcript.paragraph11 = For example, if you traded from October to April, (that’s six months), and your business income was £50,000, then your business income for a full 12 months would have been £100,000. If your business income is below £85,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
+sa.expenses.expenses_for_self_employed_transcript.paragraph12 = You’ll find more help and support on GOV.UK. Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.calculating_motoring_expenses.title = Cyfrifo treuliau moduro - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.heading = Cyfrifo treuliau moduro - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes a phersonol. Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ond ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
-sa.expenses.calculating_motoring_expenses.paragraph2 = Mae dwy ffordd o gyfrifo’ch treuliau moduro: defnyddio’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
-sa.expenses.calculating_motoring_expenses.paragraph3 = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes.
-sa.expenses.calculating_motoring_expenses.paragraph4 = Er enghraifft, os oedd defnydd busnes yn gyfrifol am 75% o’r defnydd o’r cerbyd, a chyfanswm eich costau rhedeg yw £6,000, yna’r defnydd busnes o hwnnw yw £4,500 - sef y ffigwr i’w gynnwys ar eich Ffurflen Dreth Hunanasesiad. Os ydych yn defnyddio’r dull costau gwirioneddol, gallwch hawlio lwfans cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar wefan GOV.UK. Fel arall, gallwch hawlio treuliau gan ddefnyddio cyfradd unffurf ar gyfer milltiroedd busnes. Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu.
-sa.expenses.calculating_motoring_expenses.paragraph5 = Gallwch ddod o hyd i’r cyfraddau unffurf presennol ar GOV.UK. Unwaith eto, bydd angen i chi wybod faint o filltiroedd rydych yn eu teithio a pha ganran oedd at ddefnydd busnes. Cofiwch, unwaith y byddwch yn dechrau defnyddio’r dull cyfradd unffurf ar gyfer cerbyd, ni allwch newid i’r dull costau gwirioneddol. Serch hynny, gallwch ddefnyddio’r dull costau gwirioneddol ar gyfer cerbyd gwahanol. Mae yna wiriwr ar GOV.UK i weld pa ddull sydd orau i chi. Defnyddiwch y cysylltiad ar ddiwedd y fideo hwn i fynd ato.
-sa.expenses.calculating_motoring_expenses.paragraph6 = Cewch ragor o help a chefnogaeth ar weminarau GOV.UK, ac mae fideos eraill am Hunanasesiad ar gael gan CThEM. Diolch am wylio.
-
+sa.expenses.calculating_motoring_expenses.title = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.heading = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.paragraph1 = If you work for yourself you may have a car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things including fuel and vehicle insurance. But you can’t claim for non-business driving, fines or travel between home and work.
+sa.expenses.calculating_motoring_expenses.paragraph2 = There are two ways of working out your motoring expenses: using the actual costs, or a flat rate for business mileage. Once you’ve chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+sa.expenses.calculating_motoring_expenses.paragraph3 = If you decide to use the actual costs, you’ll need to know how many miles the vehicle has done over the year. Then work out what percentage was for business.
+sa.expenses.calculating_motoring_expenses.paragraph4 = For example, if your business use was 75%, and your total running costs are £6,000, then the business use of that is £4,500 – which is the figure to include on your Self Assessment tax return. If you use the actual cost method, you can also claim a capital allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on the GOV.UK website. Alternatively, you can claim expenses using a flat rate for business mileage. The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you can’t claim a capital allowance for its purchase.
+sa.expenses.calculating_motoring_expenses.paragraph5 = You can find the current flat rates on GOV.UK. You’ll need to keep a record of how many business miles you travel. Remember, once you start using the flat rate method for a vehicle, you can’t switch to the actual cost method. But you can use the actual cost method for a different vehicle. There’s a checker on GOV.UK to work out which method is best for you. Use the link at the end of this video to go to it.
+sa.expenses.calculating_motoring_expenses.paragraph6 = You’ll find more help and support on GOV.UK Webinars and other videos about Self Assessment are available from HMRC. Thanks for watching.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment

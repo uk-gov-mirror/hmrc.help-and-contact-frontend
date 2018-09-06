@@ -34,6 +34,16 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
 
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
+
+      val bulletsList = List(
+        "income",
+        "Personal Allowance",
+        "tax due",
+        "Class 4 National Insurance",
+        "Class 2 National Insurance",
+        "payments due on 31 January 2019"
+      )
 
       val contentList = List(
         "This is one of a series of videos about online Self Assessment.",
@@ -47,9 +57,8 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
           "But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2018-19 tax year on your " +
           "Self Assessment statement when you complete the tax return next year. If you’d like to see how the figures have been worked out " +
           "in more detail, select ‘View and print your full calculation’.",
-        "You can then see exactly how your tax bill has been worked out. It shows your income, personal allowance, " +
-          "tax due, class 4 National Insurance, class 2 National Insurance, and payments due on 31 January 2019. "+
-          "These estimated payments don’t include any payments you may have already made. You " +
+        "You can then see exactly how your tax bill has been worked out. It shows your:",
+        "These estimated payments don’t include any payments you may have already made. You " +
           "can print a copy of this for your own records.",
         "You’ll find more help and support on GOV.UK.",
         "Webinars and other videos about Self Assessment are available from HMRC.",
@@ -58,6 +67,10 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
 
       contentList.zipAll(elements, "", "").foreach {
         case (content, element) => element mustBe content
+      }
+
+      bulletsList.zipAll(bullets, "", "").foreach {
+        case (expected, actual) => actual mustBe expected
       }
     }
   }
