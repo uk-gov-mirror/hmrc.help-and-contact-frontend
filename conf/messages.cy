@@ -120,6 +120,7 @@ vat.questions_about_vat.online_enquiries = Cewch ateb cyflymach o anfon ymholiad
 howToPaySelfAssessment.title = Sut i dalu’ch Hunanasesiad
 howToPaySelfAssessment.heading = Sut i dalu’ch Hunanasesiad
 howToPaySelfAssessment.viewing.your.calculation = Bwrw golwg ar eich cyfrifiad
+howToPaySelfAssessment.viewing.your.calculations = Bwrw golwg ar eich cyfrifiadau
 howToPaySelfAssessment.paying.your.sa.bill = Talu’ch bil treth Hunanasesiad
 howToPaySelfAssessment.penalties.appeals = Cosbau ac apeliadau
 howToPaySelfAssessment.appeal.against.penalty = Apelio yn erbyn cosb
@@ -240,12 +241,14 @@ sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau
 sa.expenses.title = Treuliau
 sa.expenses.heading = Treuliau
 sa.expenses.expenses_if_you_are_self_employed = Treuliau os ydych yn hunangyflogedig
+sa.expenses.expenses_if_you_apostrophe_re_self_employed = Treuliau os ydych yn hunangyflogedig
 sa.expenses.you_put_all_of_your_allowable_expenses_ = Rydych yn rhoi’ch treuliau caniataol i gyd ar gyfer y flwyddyn dreth ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau gyda’ch Ffurflen Dreth. Cadwch hwy fel eich bod yn gallu’u dangos i CThEM, os bydd gofyn i chi wneud hynny.
 sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddio ’Treuliau syml’ i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle eich busnes. Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle eich busnes dros y flwyddyn.
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
 sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £83,000 neu fwy, mae angen i chi nodi bob traul.
 sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £83,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
 sa.expenses.calculating_motoring_expenses = Cyfrifo treuliau moduro
+sa.expenses.calculating_motor_expenses = Cyfrifo treuliau moduro
 sa.expenses.you_can_claim_business_expenses_for_ = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
@@ -449,8 +452,8 @@ ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Viewing your calculation - video transcript
-viewingYourCalculationTranscript.heading = Viewing your calculation - video transcript
+viewingYourCalculationTranscript.title = Viewing your calculations - video transcript
+viewingYourCalculationTranscript.heading = Viewing your calculations - video transcript
 viewingYourCalculationTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
 viewingYourCalculationTranscript.paragraph2 = When you use HMRC’s online tax return, it automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, view your calculation.
 viewingYourCalculationTranscript.paragraph3 = You will then see this screen. This shows the amount you’re due to pay for 2017-18. This includes Class 4 and Class 2 National Insurance, if any are due.
@@ -679,8 +682,8 @@ sa.expenses.expenses_for_self_employed_transcript.paragraph12 = You’ll find mo
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.calculating_motoring_expenses.title = Calculating motoring expenses - video transcript
-sa.expenses.calculating_motoring_expenses.heading = Calculating motoring expenses - video transcript
+sa.expenses.calculating_motoring_expenses.title = Calculating motor expenses - video transcript
+sa.expenses.calculating_motoring_expenses.heading = Calculating motor expenses - video transcript
 sa.expenses.calculating_motoring_expenses.paragraph1 = If you work for yourself you may have a car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things including fuel and vehicle insurance. But you can’t claim for non-business driving, fines or travel between home and work.
 sa.expenses.calculating_motoring_expenses.paragraph2 = There are two ways of working out your motoring expenses: using the actual costs, or a flat rate for business mileage. Once you’ve chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
 sa.expenses.calculating_motoring_expenses.paragraph3 = If you decide to use the actual costs, you’ll need to know how many miles the vehicle has done over the year. Then work out what percentage was for business.

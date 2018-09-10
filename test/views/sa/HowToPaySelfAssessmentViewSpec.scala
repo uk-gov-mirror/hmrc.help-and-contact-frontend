@@ -94,7 +94,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "viewing-self-assessment-calculation-transcript",
-        "Viewing your calculation - video transcript",
+        "Viewing your calculations - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
         "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript")
       assertLinkById(

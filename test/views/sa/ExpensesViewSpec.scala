@@ -39,7 +39,7 @@ class ExpensesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "expenses-if-you-are-self-employed-transcript",
-        "Expenses if you are self employed - video transcript",
+        "Expenses if you’re self-employed - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
     }
@@ -48,7 +48,7 @@ class ExpensesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "calculating-motoring-expenses-transcript",
-        "Calculating motoring expenses - video transcript",
+        "Calculating motor expenses - video transcript",
         "/business-account/help/transcript/calculating-motoring-expenses",
         expectedGAEvent = "link - click:Expenses:Calculating motoring expenses - video transcript")
     }
