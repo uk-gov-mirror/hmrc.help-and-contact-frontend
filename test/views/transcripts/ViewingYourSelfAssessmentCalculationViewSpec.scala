@@ -47,19 +47,23 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "This is one of a series of videos about online Self Assessment.",
-        "When you use HMRC’s online tax return, it automatically works out how much you need to pay. " +
-          "You fill in your figures and once you have checked that everything is correct, view your calculation.",
-        "You will then see this screen. This shows the amount you’re due to pay for 2017-18. " +
+        "When you use HMRC’s online tax return, it automatically works out how much you need to pay.",
+        "You fill in your figures and once you have checked that everything is correct, view your calculation.",
+        "You will then see this screen.",
+        "This shows the amount you’re due to pay for 2017-18. " +
           "This includes Class 4 and Class 2 National Insurance, if any are due.",
-        "If you’re due to pay £1,000 or more, you also make a ‘payment on account’. A ‘payment on account’ " +
-          "is half of your previous year’s tax and class 4 National Insurance bill.",
-        "For 2017-18, your payment is due by 31 January 2019. You’ll make a second ‘payment on account’ in July 2019. " +
-          "But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2018-19 tax year on your " +
-          "Self Assessment statement when you complete the tax return next year. If you’d like to see how the figures have been worked out " +
+        "If you’re due to pay £1,000 or more, you also make a ‘payment on account’.",
+        "A ‘payment on account’ is half of your previous year’s tax and class 4 National Insurance bill.",
+        "For 2017-18, your payment is due by 31 January 2019.",
+        "You’ll make a second ‘payment on account’ in July 2019.",
+        "But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2018-19 tax year on your " +
+          "Self Assessment statement when you complete the tax return next year.",
+        "If you’d like to see how the figures have been worked out " +
           "in more detail, select ‘View and print your full calculation’.",
-        "You can then see exactly how your tax bill has been worked out. It shows your:",
-        "These estimated payments don’t include any payments you may have already made. You " +
-          "can print a copy of this for your own records.",
+        "You can then see exactly how your tax bill has been worked out.",
+        "It shows your:",
+        "These estimated payments don’t include any payments you may have already made.",
+        "You can print a copy of this for your own records.",
         "You’ll find more help and support on GOV.UK.",
         "Webinars and other videos about Self Assessment are available from HMRC.",
         "Thanks for watching."

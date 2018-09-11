@@ -48,7 +48,7 @@ class ExpensesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "calculating-motoring-expenses-transcript",
-        "Calculating motor expenses - video transcript",
+        "Calculating motoring expenses - video transcript",
         "/business-account/help/transcript/calculating-motoring-expenses",
         expectedGAEvent = "link - click:Expenses:Calculating motoring expenses - video transcript")
     }
