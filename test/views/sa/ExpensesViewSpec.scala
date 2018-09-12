@@ -39,7 +39,7 @@ class ExpensesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "expenses-if-you-are-self-employed-transcript",
-        "Expenses if you are self employed - video transcript",
+        "Expenses if you’re self-employed - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
     }
@@ -55,7 +55,7 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
-      val listOfVideoId: List[String] = List("vv4J5LLjkik", "uZTkxa593qA")
+      val listOfVideoId: List[String] = List("ABA3Xv2V2MQ", "Y_lpys4Kksk")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 
