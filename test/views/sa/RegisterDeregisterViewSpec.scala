@@ -34,14 +34,6 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
       doc.getElementsByTag("h1").first().text() mustBe "Register or deregister for Self Assessment"
     }
 
-    "have tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns anymore" in {
-      val doc = asDocument(createView())
-      assertLinkById(doc, "stop-self-assessment",
-        "tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.",
-        "http://localhost:9020/business-account/self-assessment/stop",
-        "link - click:Register or deregister for Self Assessment:tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.")
-    }
-
     "have a h2 heading of 'Registering for Self Assessment'" in {
       val doc = asDocument(createView())
       doc.text() must include("Registering for Self Assessment")
@@ -103,6 +95,27 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
       doc.text() must include("You will then need to create a Government Gateway account. " +
         "Enter your personal details and create a password. A User ID is given on-screen. " +
         "Keep this safe along with your password as you will need them whenever you sign in online.")
+    }
+
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "stop-self-assessment",
+        "tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.",
+        "http://localhost:9020/business-account/self-assessment/stop",
+        "link - click:Register or deregister for Self Assessment:tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.")
+      assertLinkById(
+        doc,
+        "registering-for-self-assessment-transcript",
+        "Registering for Self Assessment - video transcript",
+        "/business-account/help/transcript/registering-for-self-assessment",
+        "link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video transcript")
+    }
+
+    "have youtube url in html for embedded video" in {
+      val doc = asDocument(createView())
+      doc.toString must include(s"https://www.youtube.com/embed/9dWawO6gdT8?autoplay=0")
     }
   }
 }

@@ -1,0 +1,55 @@
+@*
+ * Copyright 2018 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(
+    title = messages("registering.for.self.assessment.transcript.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
+
+    @components.heading("registering.for.self.assessment.transcript.heading", "heading-xlarge")
+
+    <p>@messages("registering.for.self.assessment.transcript.paragraph0")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph1")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph2")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph3")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph4")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph5")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph6")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph7")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph8")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph9")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph10")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph11")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph12")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph13")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph14")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph15")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph16")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph17")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph18")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph19")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph20")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph21")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph22")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph23")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph24")</p>
+    <p>@messages("registering.for.self.assessment.transcript.paragraph25")</p>
+}
