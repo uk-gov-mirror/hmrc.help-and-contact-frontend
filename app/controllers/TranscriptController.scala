@@ -46,7 +46,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
         "class-2-national-insurance-changes" -> class_2_national_insurance_changes(appConfig)(request.serviceInfoContent),
         "your-income-from-property-tax-return" -> your_income_from_property_tax_return(appConfig)(request.serviceInfoContent),
         "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent),
-        "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(request.serviceInfoContent)
+        "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(request.serviceInfoContent),
+        "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(request.serviceInfoContent)
       )
 
       mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) {

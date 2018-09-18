@@ -104,6 +104,11 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "calculating-motoring-expenses",
     () => calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "registering-for-self-assessment",
+    () => registering_for_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
 }
 
 
