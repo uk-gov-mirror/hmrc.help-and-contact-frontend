@@ -12,7 +12,7 @@ import com.typesafe.sbt.digest.Import._
 trait MicroService {
 
   import uk.gov.hmrc._
-  import DefaultBuildSettings._
+  import DefaultBuildSettings.{scalaSettings, defaultSettings, addTestReportOption}
   import uk.gov.hmrc.{SbtArtifactory, SbtAutoBuildPlugin}
   import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
   import uk.gov.hmrc.versioning.SbtGitVersioning
