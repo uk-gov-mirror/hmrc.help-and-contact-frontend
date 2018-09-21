@@ -482,6 +482,7 @@ viewingYourCalculationTranscript.paragraph18 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//TODO FIX WELSH FOR THIS TRANSCRIPT
 payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
 payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
 payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
@@ -499,6 +500,13 @@ payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Gallwch fwrw golwg ar ei
 payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Gall gwasanaethau talu ar-lein fod yn araf yn ystod adegau prysur. Gwiriwch a oes unrhyw oedi drwy gyfeirio at argaeledd y gwasanaeth a phroblemau ar wefan GOV.UK. Ond peidiwch ag aros tan 31 Ionawr i wneud hynny!
 payingYourSelfAssessmentTaxBillTranscript.paragraph14 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph16 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph17 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph18 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph21 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript
