@@ -588,6 +588,12 @@ yourFirstTaxReturnTranscript.paragraph20 = Gallwch yna gadw copi o’ch Ffurflen
 yourFirstTaxReturnTranscript.paragraph21 = Cewch neges ar-lein i gadarnhau bod CThEM wedi cael eich Ffurflen Dreth, ar ôl i chi ei chyflwyno.
 yourFirstTaxReturnTranscript.paragraph22 = Cewch ragor o help a chefnogaeth ar GOV.UK. Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 yourFirstTaxReturnTranscript.paragraph23 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph24 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph25 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph26 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph27 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph28 = Diolch am wylio.
+yourFirstTaxReturnTranscript.paragraph29 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tailor your tax return transcript
