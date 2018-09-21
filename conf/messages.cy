@@ -482,7 +482,7 @@ viewingYourCalculationTranscript.paragraph18 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//TODO FIX WELSH FOR THIS TRANSCRIPT
+
 payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
 payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
 payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
@@ -539,6 +539,14 @@ selfAssessmentPenaltiesTranscript.paragraph8 = Wrth gwrs, gallwch osgoi unrhyw g
 selfAssessmentPenaltiesTranscript.paragraph9 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y bydd gwneud camgymeriad ar y Ffurflen Dreth yn arwain at gosb. Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir yn eich helpu i lenwi’ch Ffurflen Dreth ac i osgoi hyn. Cewch ragor o gymorth a chefnogaeth ar GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph10 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 selfAssessmentPenaltiesTranscript.paragraph11 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph12 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph13 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph14 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph15 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph16 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph17 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph18 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph19 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
