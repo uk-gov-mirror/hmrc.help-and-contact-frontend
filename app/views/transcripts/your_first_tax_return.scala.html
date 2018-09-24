@@ -26,28 +26,7 @@
 
     @components.heading("yourFirstTaxReturnTranscript.heading", "heading-xlarge")
 
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph1")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph2")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph3")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph4")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph5")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph6")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph7")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph8")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph9")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph10")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph11")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph12")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph13")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph14")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph15")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph16")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph17")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph18")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph19")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph20")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph21")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph22")</p>
-    <p>@messages("yourFirstTaxReturnTranscript.paragraph23")</p>
-
+    @for(i <- 1 to 29) {
+        <p>@messages(s"yourFirstTaxReturnTranscript.paragraph$i")</p>
+    }
 }

@@ -26,30 +26,7 @@
 
     @components.heading("registering.for.self.assessment.transcript.heading", "heading-xlarge")
 
-    <p>@messages("registering.for.self.assessment.transcript.paragraph0")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph1")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph2")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph3")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph4")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph5")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph6")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph7")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph8")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph9")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph10")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph11")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph12")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph13")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph14")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph15")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph16")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph17")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph18")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph19")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph20")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph21")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph22")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph23")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph24")</p>
-    <p>@messages("registering.for.self.assessment.transcript.paragraph25")</p>
+    @for(i <- 1 to 26) {
+        <p>@messages(s"registering.for.self.assessment.transcript.paragraph$i")</p>
+    }
 }

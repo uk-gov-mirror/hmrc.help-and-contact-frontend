@@ -26,14 +26,7 @@
 
     @components.heading("budgetingYourSelfAssessmentTaxBillTranscript.heading", "heading-xlarge")
 
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph1")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph2")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph3")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph4")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph5")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph6")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph7")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph8")</p>
-    <p>@messages("budgetingYourSelfAssessmentTaxBillTranscript.paragraph9")</p>
-
+    @for(i <- 1 to 9) {
+        <p>@messages(s"budgetingYourSelfAssessmentTaxBillTranscript.paragraph$i")</p>
+    }
 }

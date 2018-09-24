@@ -27,30 +27,20 @@
 
   <h1 class="heading-xlarge">@Messages("sa.expenses.expenses_for_self_employed_transcript.heading")</h1>
 
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph1")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph2")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph3")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph4")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph5")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph6")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph7")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph8")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph9")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph10")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph11")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph12")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph13")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph14")</p>
+    @for(i <- 1 to 14) {
+        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
+    }
+
   <ul class="list list-bullet">
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet1")</li>
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet2")</li>
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet3")</li>
   </ul>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph15")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph16")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph17")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph18")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph19")</p>
+
+    @for(i <- 15 to 19) {
+        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
+    }
+
   <ul class="list list-bullet">
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet1")</li>
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet2")</li>
@@ -58,12 +48,8 @@
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet4")</li>
     <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet5")</li>
   </ul>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph20")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph21")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph22")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph23")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph24")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph25")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph26")</p>
-  <p>@Messages("sa.expenses.expenses_for_self_employed_transcript.paragraph27")</p>
+
+    @for(i <- 20 to 27) {
+        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
+    }
 }
