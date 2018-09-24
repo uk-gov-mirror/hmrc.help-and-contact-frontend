@@ -27,23 +27,7 @@
 
   <h1 class="heading-xlarge">@Messages("sa.expenses.calculating_motoring_expenses.heading")</h1>
 
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph1")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph2")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph3")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph4")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph5")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph6")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph7")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph8")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph9")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph10")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph11")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph12")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph13")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph14")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph15")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph16")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph17")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph18")</p>
-  <p>@messages("sa.expenses.calculating_motoring_expenses.paragraph19")</p>
+    @for(i <- 1 to 19) {
+        <p>@messages(s"sa.expenses.calculating_motoring_expenses.paragraph$i")</p>
+    }
 }

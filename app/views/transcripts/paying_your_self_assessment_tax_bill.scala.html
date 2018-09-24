@@ -26,29 +26,16 @@
 
     @components.heading("payingYourSelfAssessmentTaxBillTranscript.heading", "heading-xlarge")
 
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph1")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph2")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph3")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph4")</p>
+    @for(i <- 1 to 4) {
+        <p>@messages(s"payingYourSelfAssessmentTaxBillTranscript.paragraph$i")</p>
+    }
+
     <ul class="list list-bullet">
         <li><p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph5")</p></li>
         <li><p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph6")</p></li>
     </ul>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph7")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph8")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph9")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph10")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph11")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph12")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph13")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph14")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph15")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph16")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph17")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph18")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph19")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph20")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph21")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph22")</p>
-    <p>@messages("payingYourSelfAssessmentTaxBillTranscript.paragraph23")</p>
+
+    @for(i <- 7 to 23) {
+        <p>@messages(s"payingYourSelfAssessmentTaxBillTranscript.paragraph$i")</p>
+    }
 }
