@@ -47,8 +47,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView())
-      doc.text() must include(
-        "You will usually be sent a tax return if you are registered as self-employed.")
+      doc.text() must include("You will usually be sent a tax return if you are registered as self-employed.")
 
       doc.text() must include("You can anonymously")
 
@@ -76,7 +75,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       doc.text() must include("If you started or ceased self-employment during the year, it is important to enter the dates so HMRC " +
         "can update your records.")
 
-      doc.text() must include("If you did not trade for a full year, but if you had and your income would have been over £83,000, " +
+      doc.text() must include("If you did not trade for a full year, but if you had and your income would have been over £85,000, " +
         "you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been " +
         "£100,000.")
 
