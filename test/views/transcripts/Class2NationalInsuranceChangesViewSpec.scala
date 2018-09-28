@@ -24,7 +24,7 @@ import scala.collection.JavaConverters._
 
 class Class2NationalInsuranceChangesViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "class2NationalInsuranceChangesTranscript"
+  val messageKeyPrefix = "class2NationalInsuranceTranscript"
 
   def createView = () => class_2_national_insurance_changes(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 

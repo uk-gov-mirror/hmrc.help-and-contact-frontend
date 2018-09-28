@@ -19,14 +19,14 @@
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(
-    title = messages("class2NationalInsuranceChangesTranscript.title"),
+    title = messages("class2NationalInsuranceTranscript.title"),
     appConfig = appConfig,
     bodyClasses = None,
     serviceInfoContent = serviceInfoContent) {
 
-    @components.heading("class2NationalInsuranceChangesTranscript.heading", "heading-xlarge")
+    @components.heading("class2NationalInsuranceTranscript.heading", "heading-xlarge")
 
     @for(i <- 1 to 20) {
-        <p>@messages(s"class2NationalInsuranceChangesTranscript.paragraph$i")</p>
+        <p>@messages(s"class2NationalInsuranceTranscript.paragraph$i")</p>
     }
 }
