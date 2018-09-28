@@ -124,10 +124,10 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,
-        "class2-national-insurance-changes-transcript",
+        "class2-national-insurance-transcript",
         "Class 2 National Insurance - Self Assessment - video transcript",
-        "/business-account/help/transcript/class-2-national-insurance-changes",
-        "link - click:Help With Your Self Assessment return:Class 2 National Insurance changes: Self Assessment - video transcript")
+        "/business-account/help/transcript/class-2-national-insurance",
+        "link - click:Help With Your Self Assessment return:Class 2 National Insurance: Self Assessment - video transcript")
       assertLinkById(
         doc,
         "your-income-from-property-tax-return-transcript",

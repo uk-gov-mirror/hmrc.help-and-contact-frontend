@@ -18,7 +18,7 @@ package views.transcripts
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.transcripts._
+import views.html.transcripts.registering_for_self_assessment
 
 import scala.collection.JavaConverters._
 

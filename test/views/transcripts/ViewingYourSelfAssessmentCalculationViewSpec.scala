@@ -18,7 +18,7 @@ package views.transcripts
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.transcripts._
+import views.html.transcripts.viewing_your_self_assessment_calculation
 import collection.JavaConverters._
 
 class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {

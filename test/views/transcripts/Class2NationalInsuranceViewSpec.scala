@@ -18,17 +18,17 @@ package views.transcripts
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.transcripts._
+import views.html.transcripts.class_2_national_insurance
 
 import scala.collection.JavaConverters._
 
-class Class2NationalInsuranceChangesViewSpec extends ViewBehaviours {
+class Class2NationalInsuranceViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "class2NationalInsuranceTranscript"
 
-  def createView = () => class_2_national_insurance_changes(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => class_2_national_insurance(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
-  "Class2NationalInsuranceChanges view" must {
+  "Class2NationalInsurance view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "have correct content" in {
