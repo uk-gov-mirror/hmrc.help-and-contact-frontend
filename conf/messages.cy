@@ -480,33 +480,33 @@ viewingYourCalculationTranscript.paragraph17 = Mae gweminarau a fideos eraill am
 viewingYourCalculationTranscript.paragraph18 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Paying your self assessment tax bill transcript //TODO WELSH
+#~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.heading = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = The term ‘tax bill’ refers to your bill for Income Tax and any Class 2 and class 4 National Insurance you may be due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = It may also include student loan repayments and capital gains tax.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = The deadlines for paying are:
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 January for a tax bill for the previous year and your first payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 July for your second payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Make sure you pay HMRC on time. You’ll be charged interest and may have to pay a penalty if your payment is late.
-payingYourSelfAssessmentTaxBillTranscript.paragraph8 = You don’t have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph9 = As soon as you have filled in your tax return online, you can see your tax calculation and how much you are due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph10 = This won’t include any payments you might have already made.
-payingYourSelfAssessmentTaxBillTranscript.paragraph11 = For payments to reach HMRC on the same or next day, you should use any of these methods:
-payingYourSelfAssessmentTaxBillTranscript.paragraph12 = You need a paying-in slip from HMRC to pay at a bank or building society.
-payingYourSelfAssessmentTaxBillTranscript.paragraph13 = If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods.
-payingYourSelfAssessmentTaxBillTranscript.paragraph14 = If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph15 = The first time you set up a direct debit, you need to allow 5 working days for payments to reach HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph16 = If you prefer to pay regularly throughout the year, you can use a budget payment plan.
-payingYourSelfAssessmentTaxBillTranscript.paragraph17 = It’s easy to use and really flexible. Find out more in our video, ‘Budgeting for your Self Assessment tax bill’.
-payingYourSelfAssessmentTaxBillTranscript.paragraph18 = You can view your HMRC online account to check if your payment’s been received – it should show as paid 4 – 7 working days later.
-payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Online payment services may be slow at busy times. Check if there are any delays by referring to ‘service availability and issues’ on the GOV.UK website.
-payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Don’t wait until 31 January to do this!
-payingYourSelfAssessmentTaxBillTranscript.paragraph21 = You’ll find more help and support on GOV.UK.
-payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Webinars and other videos about Self Assessment are available from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Thanks for watching.
+payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae’r term ‘bil treth’ yn cyfeirio at eich bil ar gyfer Treth Incwm ac unrhyw Yswiriant Gwladol Dosbarth 2 a Dosbarth 4 efallai y bydd yn rhaid i chi ei dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Gall hefyd gynnwys ad-daliadau benthyciad myfyriwr a threth enillion cyfalaf.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Y dyddiadau cau ar gyfer talu yw:
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 Ionawr ar gyfer bil treth am y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gwnewch yn siŵr eich bod yn talu CThEM mewn pryd. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb.
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Nid oes yn rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i dalu. Os gwnewch hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Cyn gynted ag y byddwch wedi llenwi’ch Ffurflen Dreth ar-lein, gallwch weld eich cyfrifiad treth a faint sydd arnoch i’w dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Ni fydd hyn yn cynnwys unrhyw daliadau y gallech fod wedi’u gwneud eisoes.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = Er mwyn i daliadau gyrraedd CThEM ar yr un diwrnod neu’r diwrnod canlynol, dylech ddefnyddio un o’r dulliau hyn:
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Mae’n rhaid i chi gael slip talu oddi wrth CThEM er mwyn talu mewn banc neu gymdeithas adeiladu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Os oes gennych amser i ganiatáu 3 diwrnod gwaith i’ch taliad gyrraedd CThEM, gallwch ddefnyddio un o’r dulliau hyn:
+payingYourSelfAssessmentTaxBillTranscript.paragraph14 = Os ydych yn talu drwy’r post, gallwch gynnwys llythyr gyda’ch taliad er mwyn gofyn am dderbynneb oddi wrth CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Pan fyddwch yn sefydlu debyd uniongyrchol y tro cyntaf, mae’n rhaid i chi ganiatáu 5 diwrnod gwaith i’r taliadau gyrraedd CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph16 = Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol.
+payingYourSelfAssessmentTaxBillTranscript.paragraph17 = Mae’n hawdd ei ddefnyddio ac yn hyblyg iawn. Gallwch ddysgu rhagor am sut i gyllidebu ar gyfer eich bil treth Hunanasesiad yn ein fideo, ‘Cyllido ar gyfer eich bil treth Hunanasesiad’.
+payingYourSelfAssessmentTaxBillTranscript.paragraph18 = Gallwch fwrw golwg dros eich cyfrif CThEM ar-lein i wirio a yw’ch taliad wedi dod i law – dylai ddangos ei fod wedi ei dalu 4 i 7 diwrnod gwaith yn ddiweddarach.
+payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Gall gwasanaethau talu ar-lein fod yn araf yn ystod adegau prysur. Gwiriwch a oes unrhyw oedi drwy gyfeirio at dudalennau argaeledd y gwasanaeth a phroblemau ar wefan GOV.UK.
+payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Peidiwch ag aros tan 31 Ionawr i wneud hynny!
+payingYourSelfAssessmentTaxBillTranscript.paragraph21 = Cewch ragor o help a chymorth ar GOV.UK.
+payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript
