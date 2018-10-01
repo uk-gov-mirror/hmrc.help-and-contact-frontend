@@ -524,29 +524,29 @@ budgetingYourSelfAssessmentTaxBillTranscript.paragraph8 = Mae gweminarau a fideo
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Self Assessment penalties transcript //TODO WELSH
+#~~ Self Assessment penalties transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-selfAssessmentPenaltiesTranscript.title = Self Assessment penalties - video transcript
-selfAssessmentPenaltiesTranscript.heading = Self Assessment penalties - video transcript
-selfAssessmentPenaltiesTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-selfAssessmentPenaltiesTranscript.paragraph2 = You may have heard there are penalties if your tax return is sent to HMRC late.
-selfAssessmentPenaltiesTranscript.paragraph3 = You need to be aware that you should submit and pay your online tax return by 31 January.
-selfAssessmentPenaltiesTranscript.paragraph4 = You’ll usually be charged a penalty if you’re late.
-selfAssessmentPenaltiesTranscript.paragraph5 = Here’s how to find out more.
-selfAssessmentPenaltiesTranscript.paragraph6 = Search GOV.UK for ‘Self Assessment tax returns’.
-selfAssessmentPenaltiesTranscript.paragraph7 = And then select ‘penalties’.
-selfAssessmentPenaltiesTranscript.paragraph8 = You’ll see that you’ll be charged a £100 penalty if you your tax return is up to 3 months late, there’s also penalties if you pay your tax bill late.
-selfAssessmentPenaltiesTranscript.paragraph9 = Further penalties are added if you are more three months late with the return, or if you still haven’t paid.
-selfAssessmentPenaltiesTranscript.paragraph10 = These can soon add up. There’s a calculator to help you work out what the penalties might be.
-selfAssessmentPenaltiesTranscript.paragraph11 = Select ‘Start now’.
-selfAssessmentPenaltiesTranscript.paragraph12 = Then choose the year and follow the steps through to get an estimate of what you could be charged in penalties.
-selfAssessmentPenaltiesTranscript.paragraph13 = This is an estimate if your 2016-17 tax return is submitted online 31 July after the deadline (that’s 6 months late) and the tax paid the same day.
-selfAssessmentPenaltiesTranscript.paragraph14 = Of course, you can avoid any penalties by doing your tax return and paying anything you owe well before 31 January.
-selfAssessmentPenaltiesTranscript.paragraph15 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return.
-selfAssessmentPenaltiesTranscript.paragraph16 = This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this.
-selfAssessmentPenaltiesTranscript.paragraph17 = You’ll find more help and support on GOV.UK.
-selfAssessmentPenaltiesTranscript.paragraph18 = Webinars and other videos about Self Assessment are available from HMRC.
-selfAssessmentPenaltiesTranscript.paragraph19 = Thanks for watching.
+selfAssessmentPenaltiesTranscript.title = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.heading = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+selfAssessmentPenaltiesTranscript.paragraph2 = Efallai eich bod ar ddeall y codir cosbau os bydd eich Ffurflen Dreth yn cyrraedd CThEM yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph3 = Cofiwch y dylech gyflwyno a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph4 = Fel arfer, codir cosb arnoch os ydych yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph5 = Dyma sut i gael gwybod rhagor.
+selfAssessmentPenaltiesTranscript.paragraph6 = Chwiliwch ar GOV.UK am ‘Ffurflenni Treth Hunanasesiad’.
+selfAssessmentPenaltiesTranscript.paragraph7 = Yna dewiswch ‘cosbau’.
+selfAssessmentPenaltiesTranscript.paragraph8 = Fe welwch y codir cosb o £100 arnoch os yw’ch Ffurflen Dreth hyd at 3 mis yn hwyr. Mae cosbau hefyd os ydych yn talu’ch bil treth yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph9 = Codir cosbau pellach os anfonwch y Ffurflen Dreth fwy na 3 mis yn hwyr, neu os ydych yn dal i fod heb dalu.
+selfAssessmentPenaltiesTranscript.paragraph10 = Gall y rhain bentyrru’n sydyn. Mae cyfrifiannell ar gael i’ch helpu i gyfrifo’r cosbau posibl.
+selfAssessmentPenaltiesTranscript.paragraph11 = Dewiswch ‘Dechrau nawr’.
+selfAssessmentPenaltiesTranscript.paragraph12 = Yna dewiswch y flwyddyn a dilynwch y camau i gael amcangyfrif o’r cosbau posibl a allai gael eu codi arnoch.
+selfAssessmentPenaltiesTranscript.paragraph13 = Amcangyfrif yw hwn os cyflwynwch eich Ffurflen Dreth ar gyfer 2016-17 ar-lein ar 31 Gorffennaf ar ôl y dyddiad cau (hynny yw, 6 mis yn hwyr) ac os talwch y dreth ar yr un diwrnod.
+selfAssessmentPenaltiesTranscript.paragraph14 = Wrth gwrs, gallwch osgoi unrhyw gosbau drwy lenwi’ch Ffurflen Dreth a thalu unrhyw beth sydd arnoch ymhell cyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph15 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y byddant yn cael cosb am wneud camgymeriad ar y Ffurflen Dreth.
+selfAssessmentPenaltiesTranscript.paragraph16 = Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir er mwyn llenwi’ch Ffurflen Dreth yn helpu i osgoi hyn.
+selfAssessmentPenaltiesTranscript.paragraph17 = Cewch ragor o help a chymorth ar GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph18 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+selfAssessmentPenaltiesTranscript.paragraph19 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
