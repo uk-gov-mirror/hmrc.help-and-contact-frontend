@@ -246,8 +246,8 @@ sa.expenses.expenses_if_you_apostrophe_re_self_employed = Treuliau os ydych yn h
 sa.expenses.you_put_all_of_your_allowable_expenses_ = Rydych yn rhoi’ch treuliau caniataol i gyd ar gyfer y flwyddyn dreth ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau gyda’ch Ffurflen Dreth. Cadwch hwy fel eich bod yn gallu’u dangos i CThEM, os bydd gofyn i chi wneud hynny.
 sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddio ’Treuliau syml’ i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle eich busnes. Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle eich busnes dros y flwyddyn.
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
-sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £83,000 neu fwy, mae angen i chi nodi bob traul.
-sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £83,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
+sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £85,000 neu fwy, mae angen i chi nodi bob traul.
+sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £85,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
 sa.expenses.calculating_motoring_expenses = Cyfrifo treuliau moduro
 sa.expenses.you_can_claim_business_expenses_for_ = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
@@ -480,33 +480,33 @@ viewingYourCalculationTranscript.paragraph17 = Mae gweminarau a fideos eraill am
 viewingYourCalculationTranscript.paragraph18 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Paying your self assessment tax bill transcript //TODO WELSH
+#~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.heading = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = The term ‘tax bill’ refers to your bill for Income Tax and any Class 2 and class 4 National Insurance you may be due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = It may also include student loan repayments and capital gains tax.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = The deadlines for paying are:
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 January for a tax bill for the previous year and your first payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 July for your second payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Make sure you pay HMRC on time. You’ll be charged interest and may have to pay a penalty if your payment is late.
-payingYourSelfAssessmentTaxBillTranscript.paragraph8 = You don’t have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph9 = As soon as you have filled in your tax return online, you can see your tax calculation and how much you are due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph10 = This won’t include any payments you might have already made.
-payingYourSelfAssessmentTaxBillTranscript.paragraph11 = For payments to reach HMRC on the same or next day, you should use any of these methods:
-payingYourSelfAssessmentTaxBillTranscript.paragraph12 = You need a paying-in slip from HMRC to pay at a bank or building society.
-payingYourSelfAssessmentTaxBillTranscript.paragraph13 = If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods.
-payingYourSelfAssessmentTaxBillTranscript.paragraph14 = If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph15 = The first time you set up a direct debit, you need to allow 5 working days for payments to reach HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph16 = If you prefer to pay regularly throughout the year, you can use a budget payment plan.
-payingYourSelfAssessmentTaxBillTranscript.paragraph17 = It’s easy to use and really flexible. Find out more in our video, ‘Budgeting for your Self Assessment tax bill’.
-payingYourSelfAssessmentTaxBillTranscript.paragraph18 = You can view your HMRC online account to check if your payment’s been received – it should show as paid 4 – 7 working days later.
-payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Online payment services may be slow at busy times. Check if there are any delays by referring to ‘service availability and issues’ on the GOV.UK website.
-payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Don’t wait until 31 January to do this!
-payingYourSelfAssessmentTaxBillTranscript.paragraph21 = You’ll find more help and support on GOV.UK.
-payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Webinars and other videos about Self Assessment are available from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Thanks for watching.
+payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae’r term ‘bil treth’ yn cyfeirio at eich bil ar gyfer Treth Incwm ac unrhyw Yswiriant Gwladol Dosbarth 2 a Dosbarth 4 efallai y bydd yn rhaid i chi ei dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Gall hefyd gynnwys ad-daliadau benthyciad myfyriwr a threth enillion cyfalaf.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Y dyddiadau cau ar gyfer talu yw:
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 Ionawr ar gyfer bil treth am y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gwnewch yn siŵr eich bod yn talu CThEM mewn pryd. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb.
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Nid oes yn rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i dalu. Os gwnewch hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Cyn gynted ag y byddwch wedi llenwi’ch Ffurflen Dreth ar-lein, gallwch weld eich cyfrifiad treth a faint sydd arnoch i’w dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Ni fydd hyn yn cynnwys unrhyw daliadau y gallech fod wedi’u gwneud eisoes.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = Er mwyn i daliadau gyrraedd CThEM ar yr un diwrnod neu’r diwrnod canlynol, dylech ddefnyddio un o’r dulliau hyn:
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Mae’n rhaid i chi gael slip talu oddi wrth CThEM er mwyn talu mewn banc neu gymdeithas adeiladu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Os oes gennych amser i ganiatáu 3 diwrnod gwaith i’ch taliad gyrraedd CThEM, gallwch ddefnyddio un o’r dulliau hyn:
+payingYourSelfAssessmentTaxBillTranscript.paragraph14 = Os ydych yn talu drwy’r post, gallwch gynnwys llythyr gyda’ch taliad er mwyn gofyn am dderbynneb oddi wrth CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Pan fyddwch yn sefydlu debyd uniongyrchol y tro cyntaf, mae’n rhaid i chi ganiatáu 5 diwrnod gwaith i’r taliadau gyrraedd CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph16 = Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol.
+payingYourSelfAssessmentTaxBillTranscript.paragraph17 = Mae’n hawdd ei ddefnyddio ac yn hyblyg iawn. Gallwch ddysgu rhagor am sut i gyllidebu ar gyfer eich bil treth Hunanasesiad yn ein fideo, ‘Cyllido ar gyfer eich bil treth Hunanasesiad’.
+payingYourSelfAssessmentTaxBillTranscript.paragraph18 = Gallwch fwrw golwg dros eich cyfrif CThEM ar-lein i wirio a yw’ch taliad wedi dod i law – dylai ddangos ei fod wedi ei dalu 4 i 7 diwrnod gwaith yn ddiweddarach.
+payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Gall gwasanaethau talu ar-lein fod yn araf yn ystod adegau prysur. Gwiriwch a oes unrhyw oedi drwy gyfeirio at dudalennau argaeledd y gwasanaeth a phroblemau ar wefan GOV.UK.
+payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Peidiwch ag aros tan 31 Ionawr i wneud hynny!
+payingYourSelfAssessmentTaxBillTranscript.paragraph21 = Cewch ragor o help a chymorth ar GOV.UK.
+payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript
@@ -524,29 +524,29 @@ budgetingYourSelfAssessmentTaxBillTranscript.paragraph8 = Mae gweminarau a fideo
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Self Assessment penalties transcript //TODO WELSH
+#~~ Self Assessment penalties transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-selfAssessmentPenaltiesTranscript.title = Self Assessment penalties - video transcript
-selfAssessmentPenaltiesTranscript.heading = Self Assessment penalties - video transcript
-selfAssessmentPenaltiesTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-selfAssessmentPenaltiesTranscript.paragraph2 = You may have heard there are penalties if your tax return is sent to HMRC late.
-selfAssessmentPenaltiesTranscript.paragraph3 = You need to be aware that you should submit and pay your online tax return by 31 January.
-selfAssessmentPenaltiesTranscript.paragraph4 = You’ll usually be charged a penalty if you’re late.
-selfAssessmentPenaltiesTranscript.paragraph5 = Here’s how to find out more.
-selfAssessmentPenaltiesTranscript.paragraph6 = Search GOV.UK for ‘Self Assessment tax returns’.
-selfAssessmentPenaltiesTranscript.paragraph7 = And then select ‘penalties’.
-selfAssessmentPenaltiesTranscript.paragraph8 = You’ll see that you’ll be charged a £100 penalty if you your tax return is up to 3 months late, there’s also penalties if you pay your tax bill late.
-selfAssessmentPenaltiesTranscript.paragraph9 = Further penalties are added if you are more three months late with the return, or if you still haven’t paid.
-selfAssessmentPenaltiesTranscript.paragraph10 = These can soon add up. There’s a calculator to help you work out what the penalties might be.
-selfAssessmentPenaltiesTranscript.paragraph11 = Select ‘Start now’.
-selfAssessmentPenaltiesTranscript.paragraph12 = Then choose the year and follow the steps through to get an estimate of what you could be charged in penalties.
-selfAssessmentPenaltiesTranscript.paragraph13 = This is an estimate if your 2016-17 tax return is submitted online 31 July after the deadline (that’s 6 months late) and the tax paid the same day.
-selfAssessmentPenaltiesTranscript.paragraph14 = Of course, you can avoid any penalties by doing your tax return and paying anything you owe well before 31 January.
-selfAssessmentPenaltiesTranscript.paragraph15 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return.
-selfAssessmentPenaltiesTranscript.paragraph16 = This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this.
-selfAssessmentPenaltiesTranscript.paragraph17 = You’ll find more help and support on GOV.UK.
-selfAssessmentPenaltiesTranscript.paragraph18 = Webinars and other videos about Self Assessment are available from HMRC.
-selfAssessmentPenaltiesTranscript.paragraph19 = Thanks for watching.
+selfAssessmentPenaltiesTranscript.title = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.heading = Cosbau Hunanasesiad - trawsgrifiad fideo
+selfAssessmentPenaltiesTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+selfAssessmentPenaltiesTranscript.paragraph2 = Efallai eich bod ar ddeall y codir cosbau os bydd eich Ffurflen Dreth yn cyrraedd CThEM yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph3 = Cofiwch y dylech gyflwyno a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph4 = Fel arfer, codir cosb arnoch os ydych yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph5 = Dyma sut i gael gwybod rhagor.
+selfAssessmentPenaltiesTranscript.paragraph6 = Chwiliwch ar GOV.UK am ‘Ffurflenni Treth Hunanasesiad’.
+selfAssessmentPenaltiesTranscript.paragraph7 = Yna dewiswch ‘cosbau’.
+selfAssessmentPenaltiesTranscript.paragraph8 = Fe welwch y codir cosb o £100 arnoch os yw’ch Ffurflen Dreth hyd at 3 mis yn hwyr. Mae cosbau hefyd os ydych yn talu’ch bil treth yn hwyr.
+selfAssessmentPenaltiesTranscript.paragraph9 = Codir cosbau pellach os anfonwch y Ffurflen Dreth fwy na 3 mis yn hwyr, neu os ydych yn dal i fod heb dalu.
+selfAssessmentPenaltiesTranscript.paragraph10 = Gall y rhain bentyrru’n sydyn. Mae cyfrifiannell ar gael i’ch helpu i gyfrifo’r cosbau posibl.
+selfAssessmentPenaltiesTranscript.paragraph11 = Dewiswch ‘Dechrau nawr’.
+selfAssessmentPenaltiesTranscript.paragraph12 = Yna dewiswch y flwyddyn a dilynwch y camau i gael amcangyfrif o’r cosbau posibl a allai gael eu codi arnoch.
+selfAssessmentPenaltiesTranscript.paragraph13 = Amcangyfrif yw hwn os cyflwynwch eich Ffurflen Dreth ar gyfer 2016-17 ar-lein ar 31 Gorffennaf ar ôl y dyddiad cau (hynny yw, 6 mis yn hwyr) ac os talwch y dreth ar yr un diwrnod.
+selfAssessmentPenaltiesTranscript.paragraph14 = Wrth gwrs, gallwch osgoi unrhyw gosbau drwy lenwi’ch Ffurflen Dreth a thalu unrhyw beth sydd arnoch ymhell cyn 31 Ionawr.
+selfAssessmentPenaltiesTranscript.paragraph15 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y byddant yn cael cosb am wneud camgymeriad ar y Ffurflen Dreth.
+selfAssessmentPenaltiesTranscript.paragraph16 = Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir er mwyn llenwi’ch Ffurflen Dreth yn helpu i osgoi hyn.
+selfAssessmentPenaltiesTranscript.paragraph17 = Cewch ragor o help a chymorth ar GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph18 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+selfAssessmentPenaltiesTranscript.paragraph19 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
@@ -561,39 +561,39 @@ whySentTaxReturnTranscript.paragraph5 = Mae’n rhaid i chi roi gwybod i CThEM h
 whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Your first Self Assessment tax return //TODO WELSH
+#~~ Your first Self Assessment tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-yourFirstTaxReturnTranscript.title = Your first Self Assessment tax return - video transcript
-yourFirstTaxReturnTranscript.heading = Your first Self Assessment tax return - video transcript
-yourFirstTaxReturnTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-yourFirstTaxReturnTranscript.paragraph2 = The tax return due by 31 January 2019 is for the tax year 6 April 2017 to 5 April 2018.
-yourFirstTaxReturnTranscript.paragraph3 = Self Assessment isn’t just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you don’t.
-yourFirstTaxReturnTranscript.paragraph4 = There’s a useful tool on GOV.UK to help you decide if you need to complete a tax return, and you don’t need to be registered to use it.
-yourFirstTaxReturnTranscript.paragraph5 = You’ll need to register for Self Assessment by 5 October following the end of the tax year or you may be charged a penalty.
-yourFirstTaxReturnTranscript.paragraph6 = There’s a short video in this series on how to register.
-yourFirstTaxReturnTranscript.paragraph7 = Once you’ve registered and activated the online service you’re ready to complete your first Self Assessment tax return.
-yourFirstTaxReturnTranscript.paragraph8 = All income has to be included when you complete your tax return, so you’ll need your records. These are some of the things you might need.
-yourFirstTaxReturnTranscript.paragraph9 = There’s more about record keeping on the GOV.UK website.
-yourFirstTaxReturnTranscript.paragraph10 = Once you have all your information, go to GOV.UK and sign in with the user ID and password you got when you signed up to Self Assessment online.
-yourFirstTaxReturnTranscript.paragraph11 = There are links to help if you have any problems.
-yourFirstTaxReturnTranscript.paragraph12 = This first page of the tax return gives information about who can and who can’t use the online service. Most people can.
-yourFirstTaxReturnTranscript.paragraph13 = Before you fill in your tax return, you’ll be asked to ‘Tell us about you’. You must make an entry at every box unless it shows as being optional.
-yourFirstTaxReturnTranscript.paragraph14 = Many people are surprised to find the Self Assessment online screens are very user friendly and help you through the process.
-yourFirstTaxReturnTranscript.paragraph15 = This screen is letting you know the date of birth has been entered incorrectly.
-yourFirstTaxReturnTranscript.paragraph16 = It is now correct 30/01/1960. You must show four digits for the year, just ‘60’ is not accepted.
-yourFirstTaxReturnTranscript.paragraph17 = In the next section, you can ‘Tailor your return’. You answer a series of Yes/No questions to ensure that you only fill in what you need.
-yourFirstTaxReturnTranscript.paragraph18 = If you are unsure about a question, select the ‘?’ at the side. You’ll then find some guidance notes about the question.
-yourFirstTaxReturnTranscript.paragraph19 = Every time you use the ‘Save and continue’ button, what you have entered has been saved.
-yourFirstTaxReturnTranscript.paragraph20 = So, you can leave the tax return and come back to it later. This is helpful if you don’t have everything to hand. If you’ve made a mistake, you can also go back and correct it.
-yourFirstTaxReturnTranscript.paragraph21 = When you have filled in your return, you’ll be asked to check that everything is correct. This confirms what you’ve said you don’t need to fill in and shows a summary of what you have filled in. At this stage you can go back and make changes.
-yourFirstTaxReturnTranscript.paragraph22 = When you’re sure everything is correct, you can ‘view your calculation’.
-yourFirstTaxReturnTranscript.paragraph23 = The online tax return works out how much you are due to pay.
-yourFirstTaxReturnTranscript.paragraph24 = You can then save a copy of your return for your own records.
-yourFirstTaxReturnTranscript.paragraph25 = Remember to send the return to HMRC. Do this in the ‘submit return’ section. You’ll need your user ID and password to do this.
-yourFirstTaxReturnTranscript.paragraph26 = You’ll receive a message online, to confirm that HMRC has received your return, when you submit it.
-yourFirstTaxReturnTranscript.paragraph27 = You’ll find more help and support on GOV.UK.
-yourFirstTaxReturnTranscript.paragraph28 = Webinars and other videos about Self Assessment are available from HMRC.
-yourFirstTaxReturnTranscript.paragraph29 = Thanks for watching.
+yourFirstTaxReturnTranscript.title = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
+yourFirstTaxReturnTranscript.paragraph2 = Mae’r Ffurflen Dreth, sydd i fod i gyrraedd erbyn 31 Ionawr 2019, ar gyfer y flwyddyn dreth 6 Ebrill 2017 i 5 Ebrill 2018.
+yourFirstTaxReturnTranscript.paragraph3 = Nid yw Hunanasesiad ar gyfer pobl hunangyflogedig yn unig. Rhaid i bawb sy’n gorfod llenwi Ffurflen Dreth wneud hynny, hyd yn oed os nad oes dim i’w dalu. Efallai y codir cosb arnoch os na wnewch hynny.
+yourFirstTaxReturnTranscript.paragraph4 = Mae twlsyn defnyddiol ar GOV.UK i’ch helpu i benderfynu a oes rhaid i chi lenwi Ffurflen Dreth, ac nid oes angen i chi fod wedi’ch cofrestru i’w ddefnyddio.
+yourFirstTaxReturnTranscript.paragraph5 = Bydd yn rhaid i chi gofrestru ar gyfer Hunanasesiad erbyn 5 Hydref yn dilyn diwedd y flwyddyn dreth neu efallai y codir cosb arnoch.
+yourFirstTaxReturnTranscript.paragraph6 = Mae fideo byr yn y gyfres hon ar sut i gofrestru.
+yourFirstTaxReturnTranscript.paragraph7 = Unwaith y byddwch wedi’ch cofrestru ac wedi cychwyn y gwasanaeth ar-lein, byddwch yn barod i lenwi’ch Ffurflen Dreth Hunanasesiad gyntaf.
+yourFirstTaxReturnTranscript.paragraph8 = Rhaid cynnwys eich holl incwm wrth lenwi’ch Ffurflen Dreth, felly bydd angen eich cofnodion arnoch. Dyma rai o’r pethau y bydd eu hangen arnoch o bosibl.
+yourFirstTaxReturnTranscript.paragraph9 = Cewch ragor o wybodaeth am gadw cofnodion ar wefan GOV.UK.
+yourFirstTaxReturnTranscript.paragraph10 = Unwaith y bydd gennych eich holl wybodaeth, ewch i GOV.UK a mewngofnodwch gyda’r Dynodydd Defnyddiwr (ID) a’r cyfrinair a gawsoch pan wnaethoch gofrestru ar gyfer Hunanasesiad ar-lein.
+yourFirstTaxReturnTranscript.paragraph11 = Mae cysylltiadau i’ch helpu os cewch broblemau.
+yourFirstTaxReturnTranscript.paragraph12 = Mae tudalen gyntaf y Ffurflen Dreth yn rhoi gwybodaeth am bwy all a phwy na all ddefnyddio’r gwasanaeth ar-lein. Gall y rhan fwyaf o bobl ei ddefnyddio.
+yourFirstTaxReturnTranscript.paragraph13 = Cyn i chi lenwi’ch Ffurflen Dreth, gofynnir i chi roi rhywfaint o wybodaeth amdanoch chi’ch hun i ni. Rhaid i chi lenwi pob blwch oni nodir ei fod yn ddewisol.
+yourFirstTaxReturnTranscript.paragraph14 = Mae llawer o bobl yn synnu bod y sgriniau Hunanasesiad ar-lein yn hawdd eu defnyddio ac yn eich helpu drwy’r broses.
+yourFirstTaxReturnTranscript.paragraph15 = Mae’r sgrin hon yn rhoi gwybod i chi fod y dyddiad geni wedi’i nodi’n anghywir.
+yourFirstTaxReturnTranscript.paragraph16 = Mae’n gywir erbyn hyn 30/01/1960. Rhaid i chi ddangos pedwar digid am y flwyddyn, nid yw ‘60’ yn ddigon.
+yourFirstTaxReturnTranscript.paragraph17 = Yn yr adran nesaf, gallwch deilwra’ch Ffurflen Dreth. Rydych yn ateb cyfres o gwestiynau Iawn / Na i sicrhau eich bod ond yn llenwi’r hyn sydd ei angen.
+yourFirstTaxReturnTranscript.paragraph18 = Os ydych yn ansicr ynghylch cwestiwn, dewiswch y ‘?’ ar yr ochr. Yna, cewch nodiadau arweiniad ynghylch y cwestiwn.
+yourFirstTaxReturnTranscript.paragraph19 = Bob tro y defnyddiwch y botwm ‘Cadw a mynd yn eich blaen’, bydd yr hyn a nodwyd gennych yn cael ei gadw.
+yourFirstTaxReturnTranscript.paragraph20 = Gallwch adael y Ffurflen Dreth, felly, a dod yn ôl iddi yn nes ymlaen. Mae hyn o gymorth os nad oes gennych bopeth wrth law. Os ydych wedi gwneud camgymeriad, gallwch hefyd fynd yn ôl a’i gywiro.
+yourFirstTaxReturnTranscript.paragraph21 = Pan fyddwch wedi llenwi’ch Ffurflen Dreth, gofynnir i chi wirio bod popeth yn gywir. Mae hyn yn cadarnhau’r hyn rydych wedi nodi nad oes angen i chi ei lenwi ac yn dangos crynodeb o’r hyn rydych wedi’i lenwi. Ar y cam hwn, gallwch fynd yn ôl a gwneud newidiadau.
+yourFirstTaxReturnTranscript.paragraph22 = Pan fyddwch yn siŵr bod popeth yn gywir, gallwch weld eich cyfrifiad.
+yourFirstTaxReturnTranscript.paragraph23 = Mae’r Ffurflen Dreth ar-lein yn cyfrifo faint sydd arnoch i’w dalu.
+yourFirstTaxReturnTranscript.paragraph24 = Yna, gallwch gadw copi o’ch Ffurflen Dreth ar gyfer eich cofnodion eich hun.
+yourFirstTaxReturnTranscript.paragraph25 = Cofiwch anfon y Ffurflen Dreth i CThEM. Gwnewch hyn yn yr adran ‘Cyflwyno Ffurflen Dreth’. Bydd angen eich Dynodydd Defnyddiwr (ID) a’ch cyfrinair arnoch i wneud hyn.
+yourFirstTaxReturnTranscript.paragraph26 = Cewch neges ar-lein i gadarnhau bod CThEM wedi cael eich Ffurflen Dreth, ar ôl i chi ei chyflwyno.
+yourFirstTaxReturnTranscript.paragraph27 = Cewch ragor o help a chymorth ar GOV.UK.
+yourFirstTaxReturnTranscript.paragraph28 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
+yourFirstTaxReturnTranscript.paragraph29 = Diolch am wylio.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tailor your tax return transcript

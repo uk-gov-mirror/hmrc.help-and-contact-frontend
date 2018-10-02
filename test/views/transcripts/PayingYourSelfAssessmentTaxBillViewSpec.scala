@@ -49,7 +49,7 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
         "This won’t include any payments you might have already made.",
         "For payments to reach HMRC on the same or next day, you should use any of these methods:",
         "You need a paying-in slip from HMRC to pay at a bank or building society.",
-        "If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods.",
+        "If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods:",
         "If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.",
         "The first time you set up a direct debit, you need to allow 5 working days for payments to reach HMRC.",
         "If you prefer to pay regularly throughout the year, you can use a budget payment plan.",
