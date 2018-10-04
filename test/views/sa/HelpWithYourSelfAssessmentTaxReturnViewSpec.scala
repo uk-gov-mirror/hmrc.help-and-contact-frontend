@@ -36,7 +36,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return",
         "Tailor your tax return",
         "Your self-employed tax return",
-        "Class 2 National Insurance changes",
+        "Class 2 National Insurance",
         "Your income from property tax return"
       )
       val doc = asDocument(createView())
@@ -79,8 +79,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been " +
         "£100,000.")
 
-      doc.text() must include("The way you pay Class 2 National Insurance contributions changed from 6 April 2015. Instead of paying " +
-        "by Direct Debit you pay the full amount for the year through your Self Assessment tax bill.")
+      doc.text() must include("Class 2 National Insurance is paid through your Self Assessment tax return.")
 
       doc.text() must include("Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as " +
         "self-employment and you should fill in that section.")
@@ -124,10 +123,10 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,
-        "class2-national-insurance-changes-transcript",
+        "class2-national-insurance-transcript",
         "Class 2 National Insurance - Self Assessment - video transcript",
-        "/business-account/help/transcript/class-2-national-insurance-changes",
-        "link - click:Help With Your Self Assessment return:Class 2 National Insurance changes: Self Assessment - video transcript")
+        "/business-account/help/transcript/class-2-national-insurance",
+        "link - click:Help With Your Self Assessment return:Class 2 National Insurance: Self Assessment - video transcript")
       assertLinkById(
         doc,
         "your-income-from-property-tax-return-transcript",
