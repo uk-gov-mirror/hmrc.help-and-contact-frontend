@@ -28,7 +28,7 @@ private object AppDependencies {
   private val scalacheckVersion = "1.13.4"
   private val playPartialsVersion = "6.1.0"
   private val domainVersion = "5.1.0"
-  private val cspClientVersion = "2.3.0"
+  private val cspClientVersion = "3.1.0"
 
   val compile = Seq(
     ws,
