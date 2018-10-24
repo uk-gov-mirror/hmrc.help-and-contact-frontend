@@ -34,6 +34,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
         "How to register",
+        "Make your company active",
         "What happens next",
         "Tell HMRC you are no longer trading"
       )
@@ -60,6 +61,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("your company’s registration number")
       doc.text() must include("the date you started to do business (your company’s first accounting period will start from this date)")
       doc.text() must include("the date your annual accounts are made up to")
+      doc.text() must include("If your company is registered as dormant and then starts trading, you need to register for Corporation Tax to tell HMRC your company is active.")
       doc.text() must include("HMRC will tell you the deadline for paying Corporation Tax. You will need to file a Company Tax Return, " +
         "even if you make a loss or have no Corporation Tax to pay.")
       doc.text() must include("To stop paying Corporation Tax, you will need to close the limited company.")
@@ -111,6 +113,14 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:accounting period",
         expectedIsExternal = true,
         expectedOpensInNewTab = true)
+
+      assertLinkById(
+        doc,
+        "register_to_tell_company_active",
+        "register for Corporation Tax",
+        "http://localhost:8080/portal/business-registration/select-taxes?lang=eng",
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax"
+      )
 
       assertLinkById(
         doc,

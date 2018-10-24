@@ -412,9 +412,10 @@ ct.how_to_pay.direct_debit_timescale = (3 diwrnod gwaith os oes gennych un eisoe
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Register for Corporation Tax or tell HMRC you are no longer trading
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ct.register_deregister.title = Cofrestru ar gyfer Treth Gorfforaeth neu roi gwybod i CThEM nad ydych yn masnachu mwyach
-ct.register_deregister.heading = Cofrestru ar gyfer Treth Gorfforaeth neu roi gwybod i CThEM nad ydych yn masnachu mwyach
+ct.register_deregister.title = Cofrestru ar gyfer Treth Gorfforaeth, gwneud eich cwmni’n weithredol neu roi gwybod i CThEM nad ydych yn masnachu erbyn hyn
+ct.register_deregister.heading = Cofrestru ar gyfer Treth Gorfforaeth, gwneud eich cwmni’n weithredol neu roi gwybod i CThEM nad ydych yn masnachu erbyn hyn
 ct.register_deregister.how_to_register.heading = Sut i gofrestru
+ct.register_deregister.make_your_company_active.heading = Gwneud eich cwmni’n weithredol
 ct.register_deregister.what_happens_next.heading = Yr hyn sy’n digwydd nesaf
 ct.register_deregister.no_longer_trading.heading = Dweud wrth CThEM nad ydych yn masnachu mwyach
 
@@ -437,6 +438,10 @@ ct.register_deregister.item_2_start = y dyddiad y gwnaethoch ddechrau masnachu (
 ct.register_deregister.item_2_link = cyfnod cyfrifyddu
 ct.register_deregister.item_2_end = cyntaf eich cwmni’n dechrau o’r dyddiad hwn)
 ct.register_deregister.item_3 = dyddiad cau eich cyfrifon blynyddol
+
+ct.register_deregister.if_your_company_is_registered_as_dormant_ = Os yw’ch cwmni wedi’i gofrestru’n segur, ac yna’n dechrau masnachu, mae angen i chi
+ct.register_deregister.register_for_Corporation_Tax = gofrestru ar gyfer Treth Gorfforaeth
+ct.register_deregister.to_tell_HMRC_your_company_is_active = er mwyn rhoi gwybod i CThEM bod eich cwmni’n gweithredu.
 
 ct.register_deregister.deadline_start = Bydd CThEM yn rhoi gwybod i chi beth yw’r dyddiad cau ar gyfer talu Treth Gorfforaeth. Bydd angen i chi gyflwyno
 ct.register_deregister.deadline_link = Ffurflen Dreth y Cwmni

@@ -69,6 +69,15 @@
         <li>@messages("ct.register_deregister.item_3")</li>
     </ul>
 
+    <h2>@messages("ct.register_deregister.make_your_company_active.heading")</h2>
+
+    <p>
+      @messages("ct.register_deregister.if_your_company_is_registered_as_dormant_")
+      <a id="register_to_tell_company_active" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
+        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax">@messages("ct.register_deregister.register_for_Corporation_Tax")</a>
+      @messages("ct.register_deregister.to_tell_HMRC_your_company_is_active")
+    </p>
+
 
     <h2>@messages("ct.register_deregister.what_happens_next.heading")</h2>
 

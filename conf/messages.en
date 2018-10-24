@@ -412,9 +412,10 @@ ct.how_to_pay.direct_debit_timescale = (3 working days if you already have one s
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Register for Corporation Tax or tell HMRC you are no longer trading
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ct.register_deregister.title = Register for Corporation Tax or tell HMRC you are no longer trading
-ct.register_deregister.heading = Register for Corporation Tax or tell HMRC you are no longer trading
+ct.register_deregister.title = Register for Corporation Tax, make your company active or tell HMRC you are no longer trading
+ct.register_deregister.heading = Register for Corporation Tax, make your company active or tell HMRC you are no longer trading
 ct.register_deregister.how_to_register.heading = How to register
+ct.register_deregister.make_your_company_active.heading = Make your company active
 ct.register_deregister.what_happens_next.heading = What happens next
 ct.register_deregister.no_longer_trading.heading = Tell HMRC you are no longer trading
 
@@ -437,6 +438,10 @@ ct.register_deregister.item_2_start = the date you started to do business (your 
 ct.register_deregister.item_2_link = accounting period
 ct.register_deregister.item_2_end = will start from this date)
 ct.register_deregister.item_3 = the date your annual accounts are made up to
+
+ct.register_deregister.if_your_company_is_registered_as_dormant_ = If your company is registered as dormant and then starts trading, you need to
+ct.register_deregister.register_for_Corporation_Tax = register for Corporation Tax
+ct.register_deregister.to_tell_HMRC_your_company_is_active = to tell HMRC your company is active.
 
 ct.register_deregister.deadline_start = HMRC will tell you the deadline for paying Corporation Tax. You will need to file a 
 ct.register_deregister.deadline_link = Company Tax Return
