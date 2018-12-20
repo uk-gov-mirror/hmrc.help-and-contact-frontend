@@ -143,9 +143,20 @@
     <div class="column-one-third">
       <p>
         <a id="contact-about-corporation-tax"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "contact-hmrc")"
-           data-journey-click="link - click:Help and contact:Contact HMRC about Corporation Tax">
-            @messages("ct.contact_hmrc.heading")
+          href="@controllers.routes.HelpAndContactController.onPageLoad(CorporationTax, "contact-hmrc")"
+          data-journey-click="link - click:Help and contact:Contact HMRC about Corporation Tax">
+          @messages("ct.contact_hmrc.heading")
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="grid-row">
+    <div class="column-one-third">
+      <p>
+        <a id="ask-for-ct-utr"
+          href="@appConfig.getUrl("requestCorporationTaxUTR")"
+          data-journey-click="link - click:Help and contact:Ask for a copy of your Corporation Tax UTR">
+          @messages("ct.ask_for_a_copy_")
         </a>
       </p>
     </div>

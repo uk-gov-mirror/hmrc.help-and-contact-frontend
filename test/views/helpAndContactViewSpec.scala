@@ -121,7 +121,13 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "Contact HMRC about Corporation Tax",
         "/business-account/help/corporation-tax/contact-hmrc",
         "link - click:Help and contact:Contact HMRC about Corporation Tax")
-
+      assertLinkById(
+        doc,
+        "ask-for-ct-utr",
+        "Ask for a copy of your Corporation Tax UTR",
+        "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
+        "link - click:Help and contact:Ask for a copy of your Corporation Tax UTR"
+      )
       assertLinkById(
         doc,
         "view-check-or-correct-epaye",

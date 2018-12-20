@@ -101,7 +101,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "ask-for-utr",
         "Request your company’s UTR online",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Ask for a copy of your Corporation Tax UTR",
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Request your company UTR online",
         expectedIsExternal = false,
         expectedOpensInNewTab = false)
 
