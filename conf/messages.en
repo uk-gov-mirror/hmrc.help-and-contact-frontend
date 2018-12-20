@@ -429,8 +429,8 @@ ct.register_deregister.penalty_notice_ = You may get a penalty if you register l
 ct.register_deregister.utr_ = You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR) before you
 ct.register_deregister.register_link_ = register for Corporation Tax online
 ct.register_deregister.this_is_posted_ = This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days of the company being registered with Companies House (incorporated).
-ct.register_deregister.call_helpline = Call the helpline
-ct.register_deregister.no_utr_ = if you did not get a UTR after registering your company.
+ct.register_deregister.request_utr_= Request your company’s UTR online
+ct.register_deregister.no_utr_ = if you did not get one after registering your company.
 
 ct.register_deregister.what_you_need_ = You will need to tell HMRC:
 ct.register_deregister.item_1 = your company’s registration number

@@ -49,8 +49,8 @@
     <p>@messages("ct.register_deregister.this_is_posted_")</p>
 
     <p>
-        <a id="call-helpline" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("callHelpline")"
-        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Call the helpline">@messages("ct.register_deregister.call_helpline")</a>
+        <a id="ask-for-utr" href="@appConfig.getUrl("requestCorporationTaxUTR")"
+        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Ask for a copy of your Corporation Tax UTR">@messages("ct.register_deregister.request_utr_")</a>
         @messages("ct.register_deregister.no_utr_")
     </p>
 

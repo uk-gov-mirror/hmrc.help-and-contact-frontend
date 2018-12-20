@@ -56,7 +56,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "Corporation Tax online.")
       doc.text() must include("This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days " +
         "of the company being registered with Companies House (incorporated).")
-      doc.text() must include("Call the helpline if you did not get a UTR after registering your company.")
+      doc.text() must include("Request your company’s UTR online if you did not get one after registering your company.")
       doc.text() must include("You will need to tell HMRC:")
       doc.text() must include("your company’s registration number")
       doc.text() must include("the date you started to do business (your company’s first accounting period will start from this date)")
@@ -98,12 +98,12 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
 
       assertLinkById(
         doc,
-        "call-helpline",
-        "Call the helpline",
-        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/corporation-tax-enquiries",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Call the helpline",
-        expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        "ask-for-utr",
+        "Request your company’s UTR online",
+        "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
+        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Ask for a copy of your Corporation Tax UTR",
+        expectedIsExternal = false,
+        expectedOpensInNewTab = false)
 
       assertLinkById(
         doc,
