@@ -44,8 +44,6 @@ class FrontendAppConfig @Inject() (override val runModeConfiguration: Configurat
   lazy val webchatTemplate = runModeConfiguration.getString(s"govuk-tax.$env.webchat-frontend.template").getOrElse("hmrc7")
   lazy val googleTagManagerId = loadConfig(s"google-tag-manager.id")
 
-  def getUrl(key: String): String = loadConfig(s"urls.$key")
-
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
   def getYoutubeVideoId(key: String) = loadConfig(s"urls.external.youtube.$key")
