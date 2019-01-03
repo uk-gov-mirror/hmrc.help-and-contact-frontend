@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 HM Revenue & Customs
+ * Copyright 2019 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -124,9 +124,12 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "ask-for-ct-utr",
-        "Ask for a copy of your Corporation Tax UTR",
+        "Ask for a copy of your Corporation Tax UTR (opens in a new window or tab)",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
-        "link - click:Help and contact:Ask for a copy of your Corporation Tax UTR"
+        "link - click:Help and contact:Ask for a copy of your Corporation Tax UTR",
+        true,
+        true
+
       )
       assertLinkById(
         doc,
