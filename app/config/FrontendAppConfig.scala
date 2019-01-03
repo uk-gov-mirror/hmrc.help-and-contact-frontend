@@ -39,6 +39,7 @@ class FrontendAppConfig @Inject() (override val runModeConfiguration: Configurat
   lazy val btaUrl = baseUrl("business-tax-account")
   lazy val loginUrl = loadConfig("urls.login")
   lazy val loginContinueUrl = loadConfig("urls.loginContinue")
+  lazy val requestCorporationTaxUTR = loadConfig("urls.requestCorporationTaxUTR")
   lazy val webchatEntryPointForSa = runModeConfiguration.getString(s"govuk-tax.$env.webchat-frontend.entry-point-for-sa").getOrElse("1004")
   lazy val webchatTemplate = runModeConfiguration.getString(s"govuk-tax.$env.webchat-frontend.template").getOrElse("hmrc7")
   lazy val googleTagManagerId = loadConfig(s"google-tag-manager.id")
