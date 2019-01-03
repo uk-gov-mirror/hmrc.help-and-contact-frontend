@@ -343,7 +343,7 @@ epaye.submissions.install_bpt_ = gosod Offer TWE Sylfaenol er mwyn cyflwyno Diwe
 ##  Corporation Tax
 #######################################################
 
-ct.ask_for_a_copy_ = NEEDS TRANSLATION - Ask for a copy of your Corporation Tax UTR
+ct.ask_for_a_copy_ = Gofynnwch am gopi o’ch UTR Treth Gorfforaeth (yn agor mewn ffenestr neu dab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
