@@ -343,6 +343,8 @@ epaye.submissions.install_bpt_ = gosod Offer TWE Sylfaenol er mwyn cyflwyno Diwe
 ##  Corporation Tax
 #######################################################
 
+ct.ask_for_a_copy_ = Gofynnwch am gopi o’ch UTR Treth Gorfforaeth (yn agor mewn ffenestr neu dab newydd)
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -429,8 +431,8 @@ ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os b
 ct.register_deregister.utr_ = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch cyn i chi
 ct.register_deregister.register_link_ = gofrestru ar gyfer Treth Gorfforaeth ar-lein
 ct.register_deregister.this_is_posted_ = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o'r cwmni'n cofrestru gyda Thŷ'r Cwmnïau (cael ei gorffori).
-ct.register_deregister.call_helpline = Ffoniwch y llinell gymorth
-ct.register_deregister.no_utr_ = os na chawsoch Gyfeirnod Unigryw y Trethdalwr ar ôl cofrestru eich cwmni.
+ct.register_deregister.request_utr_= Gwnewch gais ar-lein am Gyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer eich cwmni
+ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’r cwmni.
 
 ct.register_deregister.what_you_need_ = Bydd yn rhaid i chi roi gwybod y canlynol i CThEM:
 ct.register_deregister.item_1 = rhif cofrestru eich cwmni
