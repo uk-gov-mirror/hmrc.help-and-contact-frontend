@@ -125,6 +125,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    HelpCategory.SelfAssessment,
+    "contact-hmrc",
+    () => contact_hmrc_about_sa(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
   
   behave like pageRouter(
     HelpCategory.CorporationTax,
