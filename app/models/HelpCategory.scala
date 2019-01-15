@@ -26,7 +26,7 @@ object HelpCategory {
   case object SelfAssessment extends WithName("self-assessment") with HelpCategory
   case object VAT extends WithName("vat") with HelpCategory
 
-  val values = Seq(VAT, SelfAssessment, CorporationTax)
+  val values = Seq(VAT, SelfAssessment, CorporationTax, Epaye)
 
   implicit val jsLiteral: JavascriptLiteral[HelpCategory] = new JavascriptLiteral[HelpCategory] {
     override def to(value: HelpCategory): String = value match {
