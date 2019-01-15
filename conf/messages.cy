@@ -430,7 +430,7 @@ ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os b
 
 ct.register_deregister.utr_ = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch cyn i chi
 ct.register_deregister.register_link_ = gofrestru ar gyfer Treth Gorfforaeth ar-lein
-ct.register_deregister.this_is_posted_ = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o'r cwmni'n cofrestru gyda Thŷ'r Cwmnïau (cael ei gorffori).
+ct.register_deregister.this_is_posted_ = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o’r cwmni’n cofrestru gyda Thŷ’r Cwmnïau (cael ei gorffori).
 ct.register_deregister.request_utr_= Gwnewch gais ar-lein am Gyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer eich cwmni
 ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’r cwmni.
 
