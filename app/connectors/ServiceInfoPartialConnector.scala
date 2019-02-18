@@ -22,7 +22,6 @@ import config.FrontendAppConfig
 import play.api.Logger
 import play.twirl.api.Html
 import uk.gov.hmrc.play.bootstrap.http.HttpClient
-import uk.gov.hmrc.play.http.logging.MdcLoggingExecutionContext._
 import uk.gov.hmrc.play.partials.HtmlPartial._
 import uk.gov.hmrc.play.partials.{HeaderCarrierForPartials, HtmlPartial}
 
@@ -31,13 +30,16 @@ import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton
 class ServiceInfoPartialConnector @Inject()(val http: HttpClient,
-                                            val config: FrontendAppConfig) {
+                                            val config: FrontendAppConfig
+                                           )(
+                                            implicit val ec:ExecutionContext
+                                            )
+{
 
   lazy val btaUrl: String = config.btaUrl + "/business-account/partial/service-info"
 
   def getServiceInfoPartial()(implicit hcwc: HeaderCarrierForPartials): Future[Html] = {
-    implicit val executionContext: ExecutionContext = fromLoggingDetails(hcwc.hc)
-    http.GET[HtmlPartial](s"$btaUrl")(hc = hcwc.toHeaderCarrier, rds = readsPartial, ec = executionContext) recover connectionExceptionsAsHtmlPartialFailure map { p =>
+    http.GET[HtmlPartial](s"$btaUrl")(hc = hcwc.toHeaderCarrier, rds = readsPartial, ec = ec) recover connectionExceptionsAsHtmlPartialFailure map { p =>
       p.successfulContentOrEmpty
     } recover {
       case _ =>
