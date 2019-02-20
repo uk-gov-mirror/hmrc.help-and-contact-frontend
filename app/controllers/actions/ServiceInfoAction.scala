@@ -24,15 +24,17 @@ import config.HelpAndContactHeaderCarrierForPartialsConverter
 import connectors.ServiceInfoPartialConnector
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.api.mvc._
-import uk.gov.hmrc.play.http.logging.MdcLoggingExecutionContext.fromLoggingDetails
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 
 
 class ServiceInfoActionImpl @Inject()(
                                        serviceInfoPartialConnector: ServiceInfoPartialConnector,
                                        helpAndContactHeaderCarrierForPartialsConverter: HelpAndContactHeaderCarrierForPartialsConverter
-                                     ) extends ServiceInfoAction {
+                                     )(
+                                      implicit val ec: ExecutionContext
+                                    )
+extends ServiceInfoAction {
 
   import helpAndContactHeaderCarrierForPartialsConverter._
 

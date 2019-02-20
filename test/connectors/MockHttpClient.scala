@@ -16,6 +16,7 @@
 
 package connectors
 
+import akka.actor.ActorSystem
 import com.typesafe.config.Config
 import org.scalatest.mockito.MockitoSugar
 import play.api.libs.json.Writes
@@ -55,6 +56,7 @@ trait MockHttpClient extends MockitoSugar {
     override val hooks: Seq[HttpHook] = NoneRequired
 
     override def configuration: Option[Config] = None
+    override def actorSystem: ActorSystem = ActorSystem("test")
   }
 
   class HttpWrapper {
