@@ -64,4 +64,7 @@ class FrontendAppConfig @Inject() (override val runModeConfiguration: Configurat
 
   def getPortalUrl(key: String, saUtr: Option[SaUtr] = None)(implicit request: Request[_]): String =
     buildPortalUrl(portalHost + loadConfig(s"urls.portal.$key"))(saUtr)
+  
+  def sessionTimeoutInSeconds: Long = 900
+  def sessionCountdownInSeconds: Int = 60
 }
