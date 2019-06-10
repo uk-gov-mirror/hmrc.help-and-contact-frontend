@@ -33,7 +33,8 @@
     }
 }
 
-@scriptElem = {
+@scriptElement = {
+@scriptElem
   <script>
     window.GOVUK.timeoutDialog({
       timeout: @appConfig.sessionTimeoutInSeconds,
@@ -44,7 +45,6 @@
     var dialogOpen;
   </script>
 }
-
 @govuk_wrapper(appConfig = appConfig,
                title = title,
                mainClass = mainClass,
@@ -53,6 +53,6 @@
                contentHeader = contentHeader,
                mainContent = layouts.article(mainContent),
                serviceInfoContent = serviceInfoContent,
-               scriptElem = Some(scriptElem)
+               scriptElem = Some(scriptElement)
 
 )
