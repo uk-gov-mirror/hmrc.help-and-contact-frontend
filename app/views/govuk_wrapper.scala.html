@@ -86,14 +86,12 @@
       includeHMRCBranding = false)
 }
 
-
 @headerAndMainContent = {
   @if(contentHeader.isDefined) {
   @uiLayouts.main_content_header(contentHeader = contentHeader.get)
   }
   @mainContent
 }
-
 
 @content = {
 <div class="centered-content soft--ends">
@@ -115,7 +113,6 @@
     @uiLayouts.article(headerAndMainContent)
 
     @sidebar
-
 
   </div>
 </main>
