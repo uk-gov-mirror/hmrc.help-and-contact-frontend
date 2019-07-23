@@ -146,9 +146,15 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "contact-about-epaye",
-        "Contact HMRC about PAYE",
+        "Contact HMRC about PAYE for employers",
         "/business-account/help/epaye/contact-hmrc",
         "link - click:Help and contact:Contact HMRC about PAYE")
+      assertLinkById(
+        doc,
+        "contact-about-employee-change",
+        "Change employee circumstances",
+        "/business-account/help/epaye/change-employee-circumstances",
+        "link - click:Help and contact:Change employee circumstances")
     }
   }
 }

@@ -32,7 +32,7 @@ class ContactHmrcAboutEpayeViewSpec extends ViewBehaviours {
 
     "contain correct content" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").first().text() mustBe "Contact HMRC about PAYE"
+      doc.getElementsByTag("h1").first().text() mustBe "Contact HMRC about PAYE for employers"
     }
 
     "contain the 'contact us' link" in {
