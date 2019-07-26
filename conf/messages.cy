@@ -284,11 +284,16 @@ epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-dali
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.contact_hmrc.title = Cysylltu â CThEM ynghylch TWE
-epaye.contact_hmrc.heading = Cysylltu â CThEM ynghylch TWE
+epaye.contact_hmrc.title = Cysylltu â CThEM ynglŷn â TWE i Gyflogwyr
+epaye.contact_hmrc.heading = Cysylltu â CThEM ynglŷn â TWE i Gyflogwyr
 epaye.contact_hmrc.you_can = Gallwch
 epaye.contact_hmrc.contact_us =  gysylltu â ni
 epaye.contact_hmrc.with_questions_about_paye = gyda chwestiynau ynglŷn â TWE.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Change employee circumstances
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.change.emplyee_circumstances = Newid amgylchiadau cyflogeion
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ View, Check or Correct Submissions

@@ -191,6 +191,11 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "",
     "/business-account/help"
   )
+  behave like pageRedirect(
+    HelpCategory.Epaye,
+    "change-employee-circumstances",
+    "/business-account/epaye/change-employee-circumstances"
+  )
 
   "behave appropriately for enrolments" when {
     "the user has no enrolments" must {

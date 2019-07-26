@@ -285,11 +285,16 @@ epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a CIS refund
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.contact_hmrc.title = Contact HMRC about PAYE
-epaye.contact_hmrc.heading = Contact HMRC about PAYE
+epaye.contact_hmrc.title = Contact HMRC about PAYE for employers
+epaye.contact_hmrc.heading = Contact HMRC about PAYE for employers
 epaye.contact_hmrc.you_can = You can
 epaye.contact_hmrc.contact_us = contact us
 epaye.contact_hmrc.with_questions_about_paye = with questions about PAYE.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Change employee circumstances
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.change.emplyee_circumstances = Change employee circumstances
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ View, Check or Correct Submissions
