@@ -818,5 +818,5 @@ sa.contact_hmrc.different_address = cyfeiriad gwahanol
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help_and_contact.making_tax_digital = Troi Treth yn Ddigidol
 help_and_contact.sign_up.making_tax_digital = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer TAW
-help_and_contact.making_tax_digital_webinar = Gweminarau Troi Treth yn Ddigidol
-help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol
+help_and_contact.making_tax_digital_webinar = Gwneud Treth yn Ddigidol ar gyfer Gweminarau TAW
+help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol ar gyfer TAW
