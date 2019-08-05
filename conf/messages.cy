@@ -296,6 +296,16 @@ epaye.contact_hmrc.with_questions_about_paye = gyda chwestiynau ynglŷn â TWE.
 epaye.change.emplyee_circumstances = Newid amgylchiadau cyflogeion
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Get started
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.get_started = Sut i ddechrau arni gyda TWE i gyflogwyr
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Remove
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.remove = Dileu TWE i gyflogwyr
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ View, Check or Correct Submissions
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 epaye.submissions.title = Gweld, gwirio neu gywiro eich cyflwyniadau

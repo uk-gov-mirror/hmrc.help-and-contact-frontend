@@ -199,33 +199,42 @@
   <div class="grid-row">
     <div class="column-one-third">
       <p>
-        <a id="view-check-or-correct-epaye"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "view-check-correct-submissions")"
-           data-journey-click="link - click:Help and contact:View, check or correct your submissions">
-            @messages("epaye.submissions.heading")
+        <a id="get-started"
+           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "get-started")"
+           data-journey-click="link - click:Help and contact:Get started with EPAYE">
+            @messages("epaye.get_started")
         </a>
       </p>
     </div>
-    <div class="column-one-third">
-      <p>
-        <a id="paye-and-cis-refunds"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "refunds")"
-           data-journey-click="link - click:Help and contact:PAYE refunds and Construction Industry Scheme (CIS) refunds">
-            @messages("epaye.paye_and_cis_refunds.heading")
-        </a>
-      </p>
-    </div>
-    <div class="column-one-third">
-      <p>
-        <a id="contact-about-epaye"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "contact-hmrc")"
-           data-journey-click="link - click:Help and contact:Contact HMRC about PAYE">
-            @messages("epaye.contact_hmrc.heading")
-        </a>
-      </p>
-    </div>
+      <div class="column-one-third">
+          <p>
+              <a id="paye-and-cis-refunds"
+                 href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "refunds")"
+              data-journey-click="link - click:Help and contact:PAYE refunds and Construction Industry Scheme (CIS) refunds">
+              @messages("epaye.paye_and_cis_refunds.heading")
+              </a>
+          </p>
+      </div>
+      <div class="column-one-third">
+          <p>
+              <a id="contact-about-epaye"
+                 href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "contact-hmrc")"
+              data-journey-click="link - click:Help and contact:Contact HMRC about PAYE">
+              @messages("epaye.contact_hmrc.heading")
+              </a>
+          </p>
+      </div>
   </div>
   <div class="grid-row">
+      <div class="column-one-third">
+          <p>
+              <a id="view-check-or-correct-epaye"
+                 href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "view-check-correct-submissions")"
+              data-journey-click="link - click:Help and contact:View, check or correct your submissions">
+              @messages("epaye.submissions.heading")
+              </a>
+          </p>
+      </div>
     <div class="column-one-third">
         <p>
           <a id="contact-about-employee-change"
@@ -235,6 +244,15 @@
           </a>
         </p>
     </div>
+      <div class="column-one-third">
+          <p>
+              <a id="remove-epaye"
+                 href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "remove")"
+              data-journey-click="link - click:Help and contact:Remove EPAYE">
+              @messages("epaye.remove")
+              </a>
+          </p>
+      </div>
   </div>
 
 }

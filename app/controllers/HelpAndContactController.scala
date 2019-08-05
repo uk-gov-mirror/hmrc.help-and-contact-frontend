@@ -65,10 +65,12 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
+      case "get-started"                      => MovedPermanently("/business-account/epaye/get-started")
+      case "remove"                           => MovedPermanently("/business-account/epaye/remove")
       case "contact-hmrc"                     => Ok(contact_hmrc_about_epaye(appConfig)(request.serviceInfoContent))
       case "refunds"                          => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
       case "view-check-correct-submissions"   => Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
-      case "change-employee-circumstances"   =>  MovedPermanently("/business-account/epaye/change-employee-circumstances")
+      case "change-employee-circumstances"    => MovedPermanently("/business-account/epaye/change-employee-circumstances")
       case "check-submissions"                => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
       case "latency"                          => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
       case "paye-refund"                      => MovedPermanently("/business-account/help/epaye/refunds")
