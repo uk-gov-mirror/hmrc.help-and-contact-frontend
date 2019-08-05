@@ -36,6 +36,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       val listOfHeadings: List[String] = List(
         "Self Assessment",
         "VAT",
+        "Making Tax Digital",
         "Corporation Tax",
         "PAYE for employers"
       )
@@ -102,6 +103,25 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "Contact HMRC about VAT",
         "/business-account/help/vat/questions",
         "link - click:Help and contact:Contact HMRC about VAT")
+
+      assertLinkById(
+        doc,
+        "sing-up-for-mtd",
+        "Sign up for Making Tax Digital for VAT",
+        "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-vat",
+        "link - click:Help and contact:Sign up for Making Tax Digital for VAT")
+      assertLinkById(
+        doc,
+        "mtd-tax-webniar",
+        "Making Tax Digital for VAT webinars",
+        "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
+        "link - click:Help and contact:Making Tax Digital for VAT Webinars")
+      assertLinkById(
+        doc,
+        "contact-about-mtd",
+        "Contact HMRC about Making Tax Digital for VAT",
+        "https://online.hmrc.gov.uk/webchatprod/community/forums/show/131.page",
+        "link - click:Help and contact:Contact HMRC about Making Tax Digital for VAT")
 
       assertLinkById(
         doc,
