@@ -154,7 +154,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "get-started",
-        "How to get started with PAYE for employer",
+        "How to get started with PAYE for employers",
         "/business-account/help/epaye/get-started",
         "link - click:Help and contact:Get started with EPAYE")
       assertLinkById(
