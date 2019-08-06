@@ -297,6 +297,16 @@ epaye.contact_hmrc.with_questions_about_paye = with questions about PAYE.
 epaye.change.emplyee_circumstances = Change employee circumstances
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Get started
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.get_started = How to get started with PAYE for employers
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Remove
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+epaye.remove = Remove PAYE for employers
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ View, Check or Correct Submissions
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 epaye.submissions.title = View, check or correct your submissions

@@ -153,6 +153,18 @@ class helpAndContactViewSpec extends ViewBehaviours {
       )
       assertLinkById(
         doc,
+        "get-started",
+        "How to get started with PAYE for employers",
+        "/business-account/help/epaye/get-started",
+        "link - click:Help and contact:Get started with EPAYE")
+      assertLinkById(
+        doc,
+        "remove-epaye",
+        "Remove PAYE for employers",
+        "/business-account/help/epaye/remove",
+        "link - click:Help and contact:Remove EPAYE")
+      assertLinkById(
+        doc,
         "view-check-or-correct-epaye",
         "View, check or correct your submissions",
         "/business-account/help/epaye/view-check-correct-submissions",
