@@ -79,7 +79,7 @@
     <div class="column-one-third">
       <p>
         <a id="contact-about-self-assessment"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "contact-hmrc")"
+           href="@appConfig.getGovUrl("addressForSaEnquiries")"
            data-journey-click="link - click:Help and contact:Contact HMRC about Self Assessment">
             @messages("sa.contact_hmrc.heading")
         </a>
@@ -111,7 +111,7 @@
     <div class="column-one-third">
       <p>
         <a id="contact-about-vat"
-           href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "questions")"
+           href=@appConfig.getGovUrl("callUs")
            data-journey-click="link - click:Help and contact:Contact HMRC about VAT">
             @messages("vat.questions_about_vat.heading")
         </a>
@@ -218,7 +218,7 @@
       <div class="column-one-third">
           <p>
               <a id="contact-about-epaye"
-                 href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "contact-hmrc")"
+                 href=@appConfig.getGovUrl("payeEmployerEnquiries")
               data-journey-click="link - click:Help and contact:Contact HMRC about PAYE">
               @messages("epaye.contact_hmrc.heading")
               </a>

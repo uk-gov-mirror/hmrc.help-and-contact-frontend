@@ -82,7 +82,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
         doc,
         "contact-about-self-assessment",
         "Contact HMRC about Self Assessment",
-        "/business-account/help/self-assessment/contact-hmrc",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
         "link - click:Help and contact:Contact HMRC about Self Assessment")
 
       assertLinkById(
@@ -101,7 +101,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
         doc,
         "contact-about-vat",
         "Contact HMRC about VAT",
-        "/business-account/help/vat/questions",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/vat-enquiries",
         "link - click:Help and contact:Contact HMRC about VAT")
 
       assertLinkById(
@@ -179,7 +179,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
         doc,
         "contact-about-epaye",
         "Contact HMRC about PAYE for employers",
-        "/business-account/help/epaye/contact-hmrc",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/employer-enquiries",
         "link - click:Help and contact:Contact HMRC about PAYE")
       assertLinkById(
         doc,
