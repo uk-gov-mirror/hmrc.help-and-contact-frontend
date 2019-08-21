@@ -28,7 +28,6 @@ private object AppDependencies {
   private val scalacheckVersion = "1.13.4"
   private val playPartialsVersion = "6.5.0"
   private val domainVersion = "5.3.0"
-  private val cspClientVersion = "3.4.0"
 
   val compile = Seq(
     ws,
@@ -42,8 +41,7 @@ private object AppDependencies {
     "uk.gov.hmrc" %% "bootstrap-play-25" % bootstrapVersion,
     "uk.gov.hmrc" %% "play-language" % playLanguageVersion,
     "uk.gov.hmrc" %% "play-partials" % playPartialsVersion,
-    "uk.gov.hmrc" %% "domain" % domainVersion,
-    "uk.gov.hmrc" %% "csp-client" % cspClientVersion
+    "uk.gov.hmrc" %% "domain" % domainVersion
   )
 
   trait TestDependencies {
