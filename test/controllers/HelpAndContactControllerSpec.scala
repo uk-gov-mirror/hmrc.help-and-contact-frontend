@@ -92,12 +92,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     HelpCategory.VAT,
-    "questions",
-    () => questions_about_vat(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
-  )
-
-  behave like pageRouter(
-    HelpCategory.VAT,
     "register-or-deregister",
     () => register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
@@ -125,12 +119,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
-
-  behave like pageRouter(
-    HelpCategory.SelfAssessment,
-    "contact-hmrc",
-    () => contact_hmrc_about_sa(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
-  )
   
   behave like pageRouter(
     HelpCategory.CorporationTax,
@@ -154,12 +142,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     HelpCategory.Epaye,
     "refunds",
     () => paye_and_cis_refunds(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
-  )
-
-  behave like pageRouter(
-    HelpCategory.Epaye,
-    "contact-hmrc",
-    () => contact_hmrc_about_epaye(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   behave like pageRouter(

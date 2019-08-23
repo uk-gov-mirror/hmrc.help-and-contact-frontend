@@ -94,20 +94,7 @@ vat.register_or_deregister.you_must_cancel_within_30_days_ = Mae’n rhaid i chi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-vat.questions_about_vat.title = Cysylltu â CThEM ynghylch TAW
 vat.questions_about_vat.heading = Cysylltu â CThEM ynghylch TAW
-vat.questions_about_vat.you_can = Gallwch
-vat.questions_about_vat.make_enquiry = wneud ymholiad ynghylch TAW ar-lein
-vat.questions_about_vat.or =  neu
-vat.questions_about_vat.call_us = drwy ein ffonio
-vat.questions_about_vat.send_long_questions = Anfonwch gwestiynau hir, neu gwestiynau gyda gwaith papur wedi’i atodi, drwy’r post i:
-vat.questions_about_vat.vat_enquiries_team = Cyllid a Thollau EM - Tîm Ymholiadau Ysgrifenedig TAW
-vat.questions_about_vat.address_line_1 = Alexander House
-vat.questions_about_vat.address_line_2 = 21 Victoria Avenue
-vat.questions_about_vat.address_line_3 = Southend-On-Sea
-vat.questions_about_vat.address_line_4 = SS99 1BD
-vat.questions_about_vat.address_line_5 = Y Deyrnas Unedig
-vat.questions_about_vat.online_enquiries = Cewch ateb cyflymach o anfon ymholiadau ar-lein.
 
 #######################################################
 ##  SELF ASSESSMENT
@@ -284,11 +271,7 @@ epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-dali
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.contact_hmrc.title = Cysylltu â CThEM ynglŷn â TWE i Gyflogwyr
 epaye.contact_hmrc.heading = Cysylltu â CThEM ynglŷn â TWE i Gyflogwyr
-epaye.contact_hmrc.you_can = Gallwch
-epaye.contact_hmrc.contact_us =  gysylltu â ni
-epaye.contact_hmrc.with_questions_about_paye = gyda chwestiynau ynglŷn â TWE.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Change employee circumstances
@@ -807,21 +790,7 @@ registering.for.self.assessment.transcript.paragraph26 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.contact_hmrc.title = Cysylltu â CThEM ynghylch Hunanasesiad
 sa.contact_hmrc.heading = Cysylltu â CThEM ynghylch Hunanasesiad
-sa.contact_hmrc.questions_about_self_assessment = Cwestiynau ynghylch Hunanasesiad
-sa.contact_hmrc.if_you_have_a_tax_query_ = Os oes gennych ymholiad treth ac na allwch gael hyd i ateb ar-lein,
-sa.contact_hmrc.call_us = ffoniwch ni
-sa.contact_hmrc.webchat = Sgwrs dros y we
-sa.contact_hmrc.talk_to_an_adviser_online = Siarad ag ymgynghorydd ar-lein
-sa.contact_hmrc.postal_address_for_hmrc = Cyfeiriad post ar gyfer CThEM
-sa.contact_hmrc.for_enquiries_and_penalty_appeals_ = Defnyddiwch y cyfeiriad hwn er mwyn gofyn cwestiynau ac apelio yn erbyn cosb:
-sa.contact_hmrc.self_assessment = Hunanasesiad
-sa.contact_hmrc.hm_revenue_and_customs = Cyllid a Thollau EM</span><span class="address-line">Canolfan Cyswllt Cymraeg</span><span class="address-line">Tŷ Moelwyn</span><span class="address-line">Porthmadog</span><span class="address-line">Gwynedd
-sa.contact_hmrc.bx9_1as = LL49 9AB
-sa.contact_hmrc.united_kingdom = Y Deyrnas Unedig
-sa.contact_hmrc.you_do_not_need_to_include_a_street_name_ = Dylai negeswyr ddefnyddio
-sa.contact_hmrc.different_address = cyfeiriad gwahanol
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help and contact - Making Tax Digital

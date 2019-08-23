@@ -67,7 +67,6 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     page match {
       case "get-started" => MovedPermanently("/business-account/epaye/get-started")
       case "remove" => MovedPermanently("/business-account/epaye/remove")
-      case "contact-hmrc" => Ok(contact_hmrc_about_epaye(appConfig)(request.serviceInfoContent))
       case "refunds" => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
       case "view-check-correct-submissions" => Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
       case "change-employee-circumstances" => MovedPermanently("/business-account/epaye/change-employee-circumstances")
@@ -81,7 +80,6 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
 
   private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
-      case "contact-hmrc" => Ok(contact_hmrc_about_sa(appConfig)(request.serviceInfoContent))
       case "evidence-of-income" => {
         Ok(sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))
         (request.serviceInfoContent))
@@ -97,7 +95,6 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
   private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
     page match {
       case "how-to-pay" => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
-      case "questions" => Ok(questions_about_vat(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
