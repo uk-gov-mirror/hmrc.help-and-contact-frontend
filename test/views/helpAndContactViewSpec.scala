@@ -63,7 +63,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "expenses",
-        "Expenses",
+        "Expenses if you are self employed",
         "/business-account/help/self-assessment/expenses",
         "link - click:Help and contact:Expenses")
       assertLinkById(
