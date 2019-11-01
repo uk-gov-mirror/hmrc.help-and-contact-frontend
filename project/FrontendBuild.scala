@@ -19,7 +19,7 @@ private object AppDependencies {
   private val scalaTestPlusPlayVersion = "2.0.1"
   private val pegdownVersion = "1.6.0"
   private val mockitoAllVersion = "1.10.19"
-  private val httpCachingClientVersion = "8.1.0"
+  private val httpCachingClientVersion = "9.0.0-play-25"
   private val playReactivemongoVersion = "6.7.0"
   private val playConditionalFormMappingVersion = "0.2.0"
   private val playLanguageVersion = "3.4.0"
