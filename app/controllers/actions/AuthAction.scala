@@ -20,14 +20,13 @@ import com.google.inject.{ImplementedBy, Inject}
 import config.FrontendAppConfig
 import controllers.routes
 import models.requests.AuthenticatedRequest
-import play.api.libs.json.Reads
 import play.api.mvc.Results._
 import play.api.mvc.{ActionBuilder, ActionFunction, Request, Result}
 import uk.gov.hmrc.auth.core._
-import uk.gov.hmrc.auth.core.authorise.AlternatePredicate
-import uk.gov.hmrc.auth.core.retrieve.{OptionalRetrieval, Retrieval, Retrievals, ~}
-import uk.gov.hmrc.domain.{CtUtr, SaUtr, Vrn}
-import uk.gov.hmrc.http.{HeaderCarrier, UnauthorizedException}
+import uk.gov.hmrc.auth.core.retrieve.v2.Retrievals
+import uk.gov.hmrc.auth.core.retrieve.~
+import uk.gov.hmrc.domain.SaUtr
+import uk.gov.hmrc.http.HeaderCarrier
 import uk.gov.hmrc.play.HeaderCarrierConverter
 
 import scala.concurrent.{ExecutionContext, Future}
