@@ -37,28 +37,15 @@ class SelfAssessmentPenaltiesViewSpec extends ViewBehaviours {
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "You may have heard there are penalties if your tax return is sent to HMRC late.",
-        "You need to be aware that you should submit and pay your online tax return by 31 January.",
-        "You’ll usually be charged a penalty if you’re late.",
-        "Here’s how to find out more.",
-        "Search GOV.UK for ‘Self Assessment tax returns’.",
-        "And then select ‘penalties’.",
-        "You’ll see that you’ll be charged a £100 penalty if you your tax return is up to 3 months late, there’s also penalties " +
-          "if you pay your tax bill late.",
-        "Further penalties are added if you are more three months late with the return, or if you still haven’t paid.",
-        "These can soon add up. There’s a calculator to help you work out what the penalties might be.",
-        "Select ‘Start now’.",
-        "Then choose the year and follow the steps through to get an estimate of what you could be charged in penalties.",
-        "This is an estimate if your 2016-17 tax return is submitted online 31 July after the deadline (that’s 6 months late) " +
-          "and the tax paid the same day.",
-        "Of course, you can avoid any penalties by doing your tax return and paying anything you owe well before 31 January.",
-        "Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return.",
-        "This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in " +
-          "your tax return will help to avoid this.",
-        "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "You may have heard there are penalties if you’re late sending and paying your online tax return to HMRC.",
+        "Remember you should send and pay your online tax return by 31st January, if you don’t you’ll usually be charged a penalty.",
+        "You can check if you need to send a tax return by using our Self Assessment checker on GOV.UK.",
+        "If you do need to send one and we receive your return late you’ll get a penalty of one hundred pounds [£100] if your tax return is up to three months late. These penalties won’t be reduced, even if you have nothing to pay on your return.",
+        "If it’s more than three months late you’ll be charged an additional ten pounds a day for up to ninety days.",
+        "After this you’ll be charged further penalties until we receive your tax return and you’ve paid your tax bill.",
+        "You’ll also be charged interest on late payments.",
+        "If you don’t have to send a tax return you can ask to be removed from Self Assessment through your personal tax account. If you don’t tell us you’ve stopped being self-employed, or are no longer part of Self Assessment, you may also be charged a penalty.",
+        "The easiest way to avoid penalties is to send your return and pay any tax due by 31st January. You’ll find more help and information about Self assessment penalties, how to appeal them and the personal tax account on GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {

@@ -522,25 +522,15 @@ budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 selfAssessmentPenaltiesTranscript.title = Cosbau Hunanasesiad - trawsgrifiad fideo
 selfAssessmentPenaltiesTranscript.heading = Cosbau Hunanasesiad - trawsgrifiad fideo
-selfAssessmentPenaltiesTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-selfAssessmentPenaltiesTranscript.paragraph2 = Efallai eich bod ar ddeall y codir cosbau os bydd eich Ffurflen Dreth yn cyrraedd CThEM yn hwyr.
-selfAssessmentPenaltiesTranscript.paragraph3 = Cofiwch y dylech gyflwyno a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr.
-selfAssessmentPenaltiesTranscript.paragraph4 = Fel arfer, codir cosb arnoch os ydych yn hwyr.
-selfAssessmentPenaltiesTranscript.paragraph5 = Dyma sut i gael gwybod rhagor.
-selfAssessmentPenaltiesTranscript.paragraph6 = Chwiliwch ar GOV.UK am ‘Ffurflenni Treth Hunanasesiad’.
-selfAssessmentPenaltiesTranscript.paragraph7 = Yna dewiswch ‘cosbau’.
-selfAssessmentPenaltiesTranscript.paragraph8 = Fe welwch y codir cosb o £100 arnoch os yw’ch Ffurflen Dreth hyd at 3 mis yn hwyr. Mae cosbau hefyd os ydych yn talu’ch bil treth yn hwyr.
-selfAssessmentPenaltiesTranscript.paragraph9 = Codir cosbau pellach os anfonwch y Ffurflen Dreth fwy na 3 mis yn hwyr, neu os ydych yn dal i fod heb dalu.
-selfAssessmentPenaltiesTranscript.paragraph10 = Gall y rhain bentyrru’n sydyn. Mae cyfrifiannell ar gael i’ch helpu i gyfrifo’r cosbau posibl.
-selfAssessmentPenaltiesTranscript.paragraph11 = Dewiswch ‘Dechrau nawr’.
-selfAssessmentPenaltiesTranscript.paragraph12 = Yna dewiswch y flwyddyn a dilynwch y camau i gael amcangyfrif o’r cosbau posibl a allai gael eu codi arnoch.
-selfAssessmentPenaltiesTranscript.paragraph13 = Amcangyfrif yw hwn os cyflwynwch eich Ffurflen Dreth ar gyfer 2016-17 ar-lein ar 31 Gorffennaf ar ôl y dyddiad cau (hynny yw, 6 mis yn hwyr) ac os talwch y dreth ar yr un diwrnod.
-selfAssessmentPenaltiesTranscript.paragraph14 = Wrth gwrs, gallwch osgoi unrhyw gosbau drwy lenwi’ch Ffurflen Dreth a thalu unrhyw beth sydd arnoch ymhell cyn 31 Ionawr.
-selfAssessmentPenaltiesTranscript.paragraph15 = Mae cwsmeriaid hefyd yn dweud wrthym eu bod yn poeni y byddant yn cael cosb am wneud camgymeriad ar y Ffurflen Dreth.
-selfAssessmentPenaltiesTranscript.paragraph16 = Mae hyn yn dibynnu a ydych wedi cymryd gofal rhesymol wrth ei llenwi. Bydd cadw cofnodion cywir er mwyn llenwi’ch Ffurflen Dreth yn helpu i osgoi hyn.
-selfAssessmentPenaltiesTranscript.paragraph17 = Cewch ragor o help a chymorth ar GOV.UK.
-selfAssessmentPenaltiesTranscript.paragraph18 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-selfAssessmentPenaltiesTranscript.paragraph19 = Diolch am wylio.
+selfAssessmentPenaltiesTranscript.paragraph1 = Efallai eich bod ar ddeall bod modd wynebu cosbau os ydych yn hwyr yn anfon ac yn talu’ch Ffurflen Dreth ar-lein i CThEM.
+selfAssessmentPenaltiesTranscript.paragraph2 = Cofiwch y dylech anfon a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr, os na, byddwch fel arfer yn cael cosb am hynny.
+selfAssessmentPenaltiesTranscript.paragraph3 = Gallwch wirio a oes angen i chi anfon Ffurflen Dreth drwy ddefnyddio ein gwiriwr Hunanasesiad ar GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph4 = Os oes angen i chi anfon un ac rydym yn cael eich Ffurflen Dreth yn hwyr, cewch gosb o gan bunt [£100] os yw’ch Ffurflen Dreth hyd at dri mis yn hwyr. Ni fydd y cosbau hyn yn cael eu gostwng, hyd yn oed os nad oes gennych unrhyw beth i’w dalu ar eich Ffurflen Dreth.
+selfAssessmentPenaltiesTranscript.paragraph5 = Os yw’n fwy na thri mis yn hwyr, codir deg punt ychwanegol y dydd arnoch am hyd at 90 diwrnod.
+selfAssessmentPenaltiesTranscript.paragraph6 = Ar ôl hyn, cewch gosbau ychwanegol hyd nes i ni gael eich Ffurflen Dreth a’ch bod wedi talu’ch bil treth. Hefyd codir llog arnoch ar daliadau hwyr.
+selfAssessmentPenaltiesTranscript.paragraph7 = Hefyd codir llog arnoch ar daliadau hwyr.
+selfAssessmentPenaltiesTranscript.paragraph8 = Os na fydd yn rhaid i chi anfon Ffurflen Dreth, gallwch ofyn am gael eich tynnu o Hunanasesiad drwy’ch cyfrif treth personol. Os nad ydych yn dweud wrthym eich bod wedi rhoi’r gorau i fod yn hunangyflogedig, neu os nad ydych bellach yn rhan o Hunanasesiad, efallai y codir cosb arnoch hefyd.
+selfAssessmentPenaltiesTranscript.paragraph9 = Y ffordd hawsaf o osgoi cosbau yw anfon eich Ffurflen Dreth a thalu unrhyw dreth sy’n ddyledus erbyn 31 Ionawr. Cewch fwy o help a gwybodaeth ynghylch gosbau Hunanasesiad, sut i’w hapelio a’r cyfrif treth personol ar GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return

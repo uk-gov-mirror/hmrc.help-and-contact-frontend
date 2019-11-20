@@ -522,25 +522,15 @@ budgetingYourSelfAssessmentTaxBillTranscript.paragraph9 = Thanks for watching.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 selfAssessmentPenaltiesTranscript.title = Self Assessment penalties - video transcript
 selfAssessmentPenaltiesTranscript.heading = Self Assessment penalties - video transcript
-selfAssessmentPenaltiesTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-selfAssessmentPenaltiesTranscript.paragraph2 = You may have heard there are penalties if your tax return is sent to HMRC late.
-selfAssessmentPenaltiesTranscript.paragraph3 = You need to be aware that you should submit and pay your online tax return by 31 January.
-selfAssessmentPenaltiesTranscript.paragraph4 = You’ll usually be charged a penalty if you’re late.
-selfAssessmentPenaltiesTranscript.paragraph5 = Here’s how to find out more.
-selfAssessmentPenaltiesTranscript.paragraph6 = Search GOV.UK for ‘Self Assessment tax returns’.
-selfAssessmentPenaltiesTranscript.paragraph7 = And then select ‘penalties’.
-selfAssessmentPenaltiesTranscript.paragraph8 = You’ll see that you’ll be charged a £100 penalty if you your tax return is up to 3 months late, there’s also penalties if you pay your tax bill late.
-selfAssessmentPenaltiesTranscript.paragraph9 = Further penalties are added if you are more three months late with the return, or if you still haven’t paid.
-selfAssessmentPenaltiesTranscript.paragraph10 = These can soon add up. There’s a calculator to help you work out what the penalties might be.
-selfAssessmentPenaltiesTranscript.paragraph11 = Select ‘Start now’.
-selfAssessmentPenaltiesTranscript.paragraph12 = Then choose the year and follow the steps through to get an estimate of what you could be charged in penalties.
-selfAssessmentPenaltiesTranscript.paragraph13 = This is an estimate if your 2016-17 tax return is submitted online 31 July after the deadline (that’s 6 months late) and the tax paid the same day.
-selfAssessmentPenaltiesTranscript.paragraph14 = Of course, you can avoid any penalties by doing your tax return and paying anything you owe well before 31 January.
-selfAssessmentPenaltiesTranscript.paragraph15 = Customers also tell us they are worried that a penalty will be charged if they make a mistake on the return.
-selfAssessmentPenaltiesTranscript.paragraph16 = This depends on whether you have taken reasonable care when you have completed it. Keeping accurate records to fill in your tax return will help to avoid this.
-selfAssessmentPenaltiesTranscript.paragraph17 = You’ll find more help and support on GOV.UK.
-selfAssessmentPenaltiesTranscript.paragraph18 = Webinars and other videos about Self Assessment are available from HMRC.
-selfAssessmentPenaltiesTranscript.paragraph19 = Thanks for watching.
+selfAssessmentPenaltiesTranscript.paragraph1 = You may have heard there are penalties if you’re late sending and paying your online tax return to HMRC.
+selfAssessmentPenaltiesTranscript.paragraph2 = Remember you should send and pay your online tax return by 31st January, if you don’t you’ll usually be charged a penalty.
+selfAssessmentPenaltiesTranscript.paragraph3 = You can check if you need to send a tax return by using our Self Assessment checker on GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph4 = If you do need to send one and we receive your return late you’ll get a penalty of one hundred pounds [£100] if your tax return is up to three months late. These penalties won’t be reduced, even if you have nothing to pay on your return.
+selfAssessmentPenaltiesTranscript.paragraph5 = If it’s more than three months late you’ll be charged an additional ten pounds a day for up to ninety days.
+selfAssessmentPenaltiesTranscript.paragraph6 = After this you’ll be charged further penalties until we receive your tax return and you’ve paid your tax bill.
+selfAssessmentPenaltiesTranscript.paragraph7 = You’ll also be charged interest on late payments.
+selfAssessmentPenaltiesTranscript.paragraph8 = If you don’t have to send a tax return you can ask to be removed from Self Assessment through your personal tax account. If you don’t tell us you’ve stopped being self-employed, or are no longer part of Self Assessment, you may also be charged a penalty.
+selfAssessmentPenaltiesTranscript.paragraph9 = The easiest way to avoid penalties is to send your return and pay any tax due by 31st January. You’ll find more help and information about Self assessment penalties, how to appeal them and the personal tax account on GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return transcript
