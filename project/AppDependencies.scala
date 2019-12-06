@@ -1,15 +1,11 @@
+import sbt.Tests.{Group, SubProcess}
 import sbt._
 
-object FrontendBuild extends Build with MicroService {
-
-  val appName = "help-and-contact-frontend"
-
-  override lazy val appDependencies: Seq[ModuleID] = AppDependencies()
-}
 
 private object AppDependencies {
-  import play.sbt.PlayImport._
+
   import play.core.PlayVersion
+  import play.sbt.PlayImport._
 
   private val playHealthVersion = "3.14.0-play-25"
   private val logbackJsonLoggerVersion = "4.4.0"
@@ -28,7 +24,7 @@ private object AppDependencies {
   private val playPartialsVersion = "6.9.0-play-25"
   private val domainVersion = "5.6.0-play-25"
 
-  val compile = Seq(
+  val compile: Seq[ModuleID] = Seq(
     ws,
     "uk.gov.hmrc" %% "play-reactivemongo" % playReactivemongoVersion,
     "uk.gov.hmrc" %% "logback-json-logger" % logbackJsonLoggerVersion,
@@ -45,12 +41,12 @@ private object AppDependencies {
 
   trait TestDependencies {
     lazy val scope: String = "test"
-    lazy val test : Seq[ModuleID] = ???
+    lazy val test: Seq[ModuleID] = ???
   }
 
   object Test {
-    def apply() = new TestDependencies {
-      override lazy val test = Seq(
+    def apply(): Seq[ModuleID] = new TestDependencies {
+      override lazy val test: Seq[ModuleID] = Seq(
         "org.scalatest" %% "scalatest" % scalaTestVersion % scope,
         "org.scalatestplus.play" %% "scalatestplus-play" % scalaTestPlusPlayVersion % scope,
         "org.pegdown" % "pegdown" % pegdownVersion % scope,
@@ -62,5 +58,13 @@ private object AppDependencies {
     }.test
   }
 
-  def apply() = compile ++ Test()
+  def apply(): Seq[ModuleID] = compile ++ Test()
+}
+
+
+object TestPhases {
+  def oneForkedJvmPerTest(tests: Seq[TestDefinition]): Seq[Group] =
+    tests map {
+      test => new Group(test.name, Seq(test), SubProcess(ForkOptions(runJVMOptions = Seq("-Dtest.name=" + test.name))))
+    }
 }
