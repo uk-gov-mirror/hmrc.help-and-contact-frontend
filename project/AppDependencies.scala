@@ -23,6 +23,7 @@ private object AppDependencies {
   private val scalacheckVersion = "1.13.4"
   private val playPartialsVersion = "6.9.0-play-25"
   private val domainVersion = "5.6.0-play-25"
+  private val wiremockVersion = "2.25.1"
 
   val compile: Seq[ModuleID] = Seq(
     ws,
@@ -39,26 +40,32 @@ private object AppDependencies {
     "uk.gov.hmrc" %% "domain" % domainVersion
   )
 
-  trait TestDependencies {
-    lazy val scope: String = "test"
-    lazy val test: Seq[ModuleID] = ???
+  def testCommon(): Seq[ModuleID] = {
+    val scope: String = "test,it"
+    Seq(
+      "org.scalatest" %% "scalatest" % scalaTestVersion % scope,
+      "org.scalatestplus.play" %% "scalatestplus-play" % scalaTestPlusPlayVersion % scope,
+      "org.pegdown" % "pegdown" % pegdownVersion % scope,
+      "org.jsoup" % "jsoup" % "1.10.3" % scope,
+      "com.typesafe.play" %% "play-test" % PlayVersion.current % scope,
+      "org.scalacheck" %% "scalacheck" % scalacheckVersion % scope
+    )
   }
 
-  object Test {
-    def apply(): Seq[ModuleID] = new TestDependencies {
-      override lazy val test: Seq[ModuleID] = Seq(
-        "org.scalatest" %% "scalatest" % scalaTestVersion % scope,
-        "org.scalatestplus.play" %% "scalatestplus-play" % scalaTestPlusPlayVersion % scope,
-        "org.pegdown" % "pegdown" % pegdownVersion % scope,
-        "org.jsoup" % "jsoup" % "1.10.3" % scope,
-        "com.typesafe.play" %% "play-test" % PlayVersion.current % scope,
-        "org.mockito" % "mockito-all" % mockitoAllVersion % scope,
-        "org.scalacheck" %% "scalacheck" % scalacheckVersion % scope
-      )
-    }.test
+  def test(): Seq[ModuleID] = {
+    val scope: String = "test"
+    Seq(
+      "org.mockito" % "mockito-all" % mockitoAllVersion % scope
+    )
   }
 
-  def apply(): Seq[ModuleID] = compile ++ Test()
+  def integrationTest(): Seq[ModuleID] = {
+    val scope: String = "it"
+    Seq("com.github.tomakehurst" % "wiremock-jre8" % wiremockVersion % scope)
+  }
+
+  def apply(): Seq[ModuleID] = compile ++ testCommon() ++ test() ++ integrationTest()
+
 }
 
 
