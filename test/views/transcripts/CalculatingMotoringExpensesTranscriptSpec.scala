@@ -16,7 +16,8 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
+import org.jsoup.nodes.Document
+import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.calculating_motoring_expenses
 
@@ -26,13 +27,18 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.expenses.calculating_motoring_expenses"
 
-  def createView = () => calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView(): Html = calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "CalculatingMotoringExpensesTranscript view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "have correct content" in {
-      val doc = asDocument(createView())
+      val doc: Document = asDocument(createView())
+
+      val h1s = doc.getElementsByTag("h1")
+      h1s.size() mustBe 1
+      h1s.first().text() mustBe "Calculating motoring expenses - video transcript"
+
       val elements: List[String] = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
       val contentList: List[String] = List(
         "If you work for yourself you may have a car, van or motorcycle for both business and personal use.",
@@ -61,4 +67,5 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
       }
     }
   }
+
 }
