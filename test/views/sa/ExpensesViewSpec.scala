@@ -32,7 +32,10 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     "contain correct heading" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").first().text() mustBe "Expenses"
+
+      val h1s = doc.getElementsByTag("h1")
+      h1s.size() mustBe 1
+      h1s.first().text() mustBe "Expenses"
     }
 
     "contain correct content" in {

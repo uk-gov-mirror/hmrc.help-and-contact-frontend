@@ -16,7 +16,7 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
+import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.expenses_if_you_are_self_employed
 
@@ -26,13 +26,18 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.expenses.expenses_for_self_employed_transcript"
 
-  def createView = () => expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView(): Html = expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "ExpensesIfYouAreSelfEmployedTranscript view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "have correct content" in {
       val doc = asDocument(createView())
+
+      val h1s = doc.getElementsByTag("h1")
+      h1s.size() mustBe 1
+      h1s.first().text() mustBe "Expenses if you’re self-employed - video transcript"
+
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
 
@@ -81,7 +86,7 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
         case (content, element) => element mustBe content
       }
 
-      bulletList.zipAll(bullets,"","").foreach {
+      bulletList.zipAll(bullets, "", "").foreach {
         case (expected, actual) => actual mustBe expected
       }
     }
