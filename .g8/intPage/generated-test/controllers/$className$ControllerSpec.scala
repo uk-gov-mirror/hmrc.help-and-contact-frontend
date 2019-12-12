@@ -10,11 +10,12 @@ import play.api.test.Helpers._
 import forms.$className$FormProvider
 import identifiers.$className$Id
 import models.NormalMode
+import play.api.mvc.Call
 import views.html.$className;format="decap"$
 
 class $className$ControllerSpec extends ControllerSpecBase {
 
-  def onwardRoute = routes.IndexController.onPageLoad()
+  def onwardRoute: Call = routes.HelpAndContactController.mainPage()
 
   val formProvider = new $className$FormProvider()
   val form = formProvider()
