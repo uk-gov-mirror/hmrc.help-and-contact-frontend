@@ -27,6 +27,11 @@ trait IntegrationTest extends GuiceOneServerPerSuite
   final implicit def wsClient: WSClient = inject[WSClient]
 
   final private def essentialConfigs: Map[String, Any] =
+    Map(
+      "auditing.enabled" -> "false"
+    ) ++ externalMicroservices
+
+  final private def externalMicroservices: Map[String, Any] =
     Set[String](
       "auth",
       "business-tax-account"

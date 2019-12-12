@@ -1,5 +1,8 @@
 package routes
 
+import java.net.URLEncoder
+
+import config.FrontendAppConfig
 import org.jsoup.nodes.Document
 import org.scalatest._
 import play.api.libs.ws.WSResponse
@@ -31,6 +34,25 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       // todo add an id to the page for test purposes instead of using content
       doc.getElementsByTag("h1").text() mustBe "Help and contact"
       doc.select(".service-info").first().children().size() must not be 0
+    }
+
+    scenario("Unauthorised user") {
+      Given("User is unauthorised")
+      mockUnauthorised()
+
+      And("Service info is available")
+      mockGetServiceInfo()
+
+      When("the Main page is accessed")
+      val result: WSResponse = HttpRequest.get("/")
+
+      Then("we get an SEE_OTHER response")
+      result.status mustBe SEE_OTHER
+
+      And("redirects to the correct location determined by the settings in application.conf")
+      val config = inject[FrontendAppConfig]
+      val expected = s"${config.loginUrl}?continue=${URLEncoder.encode(config.loginContinueUrl, "UTF-8")}"
+      result.header(LOCATION).get mustBe expected
     }
 
     scenario("Navigation bar ist kaput") {
