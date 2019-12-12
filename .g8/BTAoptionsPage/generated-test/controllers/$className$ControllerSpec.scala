@@ -5,17 +5,18 @@ import play.api.libs.json.JsString
 import uk.gov.hmrc.http.cache.client.CacheMap
 import utils.FakeNavigator
 import connectors.FakeDataCacheConnector
-import controllers.actions.{FakeServiceInfoAction, _}
+import controllers.actions._
 import play.api.test.Helpers._
 import forms.$className$FormProvider
 import identifiers.$className$Id
 import models.$className$
+import play.api.mvc.Call
 import play.twirl.api.HtmlFormat
 import views.html.$className;format="decap"$
 
 class $className$ControllerSpec extends ControllerSpecBase {
 
-  def onwardRoute = routes.IndexController.onPageLoad()
+  def onwardRoute: Call = routes.HelpAndContactController.mainPage()
 
   val formProvider = new $className$FormProvider()
   val form = formProvider()

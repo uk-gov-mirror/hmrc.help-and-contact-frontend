@@ -41,8 +41,8 @@ awk '/object/ {\
      print "    new NextPage[$className$Id.type, $className$] {";\
      print "      override def get(b: $className$)(implicit urlHelper: UrlHelper): Call =";\
      print "        b match {";\
-     print "          case models.$className$.Option1 => routes.IndexController.onPageLoad()";\
-     print "          case models.$className$.Option2 => routes.IndexController.onPageLoad()";\
+     print "          case models.$className$.Option1 => routes.HelpAndContactController.mainPage()";\
+     print "          case models.$className$.Option2 => routes.HelpAndContactController.mainPage()";\
      print "        }";\
      print "     }";\
      print "  }";\
