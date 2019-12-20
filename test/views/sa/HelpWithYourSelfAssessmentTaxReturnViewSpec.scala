@@ -128,7 +128,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
-      val listOfVideoId: List[String] = List("9CHjVpoTpgQ", "_QzNuPkf9Iw", "pXeShjxZZGs", "htUNA2b7Gbk", "ZKKVd1XQQJA")
+      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "_QzNuPkf9Iw", "pXeShjxZZGs", "htUNA2b7Gbk", "ZKKVd1XQQJA")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
   }
