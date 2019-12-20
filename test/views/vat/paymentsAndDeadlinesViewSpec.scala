@@ -27,17 +27,23 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
 
   def createView = () => payments_and_deadlines(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
+  def doc = asDocument(createView())
+
   "VAT Payments and Deadlines view" must {
 
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      doc.getElementsByTag("h1").attr("id") mustBe "payments-and-dealdines"
+    }
+
     "contain correct content" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       doc.getElementsByTag("h1").first().text() mustBe "How to pay VAT and deadlines"
     }
 
     "contain the 'online or telephone banking' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(
         doc,
         "online-or-telephone-banking",
@@ -47,7 +53,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'CHAPS' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "chaps",
         "CHAPS",
@@ -56,7 +62,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'online by debit or credit card' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "debit-or-credit-card",
         "online by debit or credit card",
@@ -65,7 +71,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'bank or building society' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "bank-or-building-society",
         "bank or building society",
@@ -74,7 +80,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'direct debit' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "direct-debit",
         "Direct Debit",
@@ -83,7 +89,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'Bacs' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "bacs",
         "Bacs",
@@ -92,7 +98,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'standing order' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "standing-order",
         "standing order",
@@ -101,7 +107,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'get a refund of VAT paid in another EU country' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "get-eu-vat-refund",
         "get a refund of VAT paid in another EU country",
@@ -110,7 +116,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
     }
 
     "contain the 'input tax' link" in {
-      val doc = asDocument(createView())
+      //val doc = asDocument(createView())
       assertLinkById(doc,
         "input-tax",
         "input tax",
