@@ -43,6 +43,11 @@ class SaEvidenceViewSpec extends ViewBehaviours {
       def createView = () => sa_evidence(frontendAppConfig, false, "bta-base/more-details")(HtmlFormat.empty)(fakeRequest, messages)
       behave like normalPage(createView, messageKeyPrefix)
 
+      "contain heading ID" in {
+        val doc = asDocument(createView())
+        doc.getElementsByTag("h1").attr("id") mustBe "sa-evidence"
+      }
+
       "show the static text" in {
         val doc = asDocument(createView())
         doc.text() must include("You can get evidence of your earnings for the last 4 years with an SA302.")

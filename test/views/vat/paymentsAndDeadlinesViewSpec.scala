@@ -31,6 +31,11 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
 
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "payments-and-dealdines"
+    }
+
     "contain correct content" in {
       val doc = asDocument(createView())
       doc.getElementsByTag("h1").first().text() mustBe "How to pay VAT and deadlines"

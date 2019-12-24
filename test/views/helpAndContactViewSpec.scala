@@ -32,6 +32,11 @@ class helpAndContactViewSpec extends ViewBehaviours {
 
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "help-and-contact"
+    }
+
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
         "Self Assessment",
