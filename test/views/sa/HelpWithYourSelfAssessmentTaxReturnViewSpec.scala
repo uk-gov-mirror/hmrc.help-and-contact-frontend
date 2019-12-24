@@ -30,6 +30,11 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
   "SelfAssessmentTaxReturnCheck view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "help-with-your-sa-tax-return"
+    }
+
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
         "Who must send a tax return?",

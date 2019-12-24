@@ -31,6 +31,11 @@ class YourSelfEmployedTaxReturnViewSpec extends ViewBehaviours {
   "YourSelfEmployedTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "your-self-employed-tax-return-transcript"
+    }
+
     "have correct content" in {
       val doc = asDocument(createView())
 

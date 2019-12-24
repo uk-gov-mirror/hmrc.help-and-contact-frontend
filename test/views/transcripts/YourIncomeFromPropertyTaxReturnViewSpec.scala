@@ -31,6 +31,11 @@ class YourIncomeFromPropertyTaxReturnViewSpec extends ViewBehaviours {
   "YourSelfEmployedTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "income-from-property-transcript"
+    }
+
     "have correct content" in {
       val doc = asDocument(createView())
 
@@ -39,7 +44,8 @@ class YourIncomeFromPropertyTaxReturnViewSpec extends ViewBehaviours {
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
 
       val bulletList = List(
-        "you receive income from letting furnished accommodation in your home that amounts to a trade - for example, you run a guest house or offer bed and breakfast. " +
+        "you receive income from letting furnished accommodation in your home that amounts to a trade - for example, " +
+          "you run a guest house or offer bed and breakfast. " +
           "Fill in the ‘self-employment’ section instead.",
         "your property is outside the European Economic Area - fill in the ‘Foreign’ section.",
         "your property income was from a partnership - fill in the Partnership section."

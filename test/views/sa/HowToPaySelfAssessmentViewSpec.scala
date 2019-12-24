@@ -37,6 +37,11 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
   "HowToPaySelfAssessment view" must {
     behave like normalPage(createView(), messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView()())
+      doc.getElementsByTag("h1").attr("id") mustBe "how-to-pay-sa"
+    }
+
     "have correct h2 headings" in {
       val doc = asDocument(createView()())
       val headings = doc.getElementsByTag("h2").toString

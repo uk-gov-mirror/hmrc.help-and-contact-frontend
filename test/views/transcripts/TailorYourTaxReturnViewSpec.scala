@@ -28,8 +28,13 @@ class TailorYourTaxReturnViewSpec extends ViewBehaviours {
 
   def createView = () => tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
-  "TailerYourTaxReturn view" must {
+  "TailorYourTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
+
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "tailor-your-tax-return-transcript"
+    }
 
     "have correct content" in {
       val doc = asDocument(createView())

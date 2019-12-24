@@ -31,6 +31,11 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
 
     behave like normalPage(createView, messageKeyPrefix)
 
+    "contain heading ID" in {
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "register-deregister-ct"
+    }
+
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
         "How to register",
