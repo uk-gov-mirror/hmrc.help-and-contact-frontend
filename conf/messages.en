@@ -1,6 +1,6 @@
 error.boolean = Please give an answer
 error.required = Please enter a value
-error.summary.title = There’s a problem
+error.summary.title = There is a problem
 error.summary.text = Check the following
 
 session_expired.title = For your security, this service has been reset
