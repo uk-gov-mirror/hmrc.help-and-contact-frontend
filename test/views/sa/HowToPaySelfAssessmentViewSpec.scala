@@ -99,7 +99,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "viewing-self-assessment-calculation-transcript",
-        "Viewing your calculations - video transcript",
+        "Viewing your Self Assessment tax return calculations - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
         "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript")
       assertLinkById(
@@ -190,7 +190,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView()())
-      val listOfVideoId: List[String] = List("L5i8x_eu-U4", "NQMLcf-hF7c", "s24M389lWJg", "tIqsbnmNqzA")
+      val listOfVideoId: List[String] = List("wq35KqfGCjo", "NQMLcf-hF7c", "s24M389lWJg", "tIqsbnmNqzA")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 
