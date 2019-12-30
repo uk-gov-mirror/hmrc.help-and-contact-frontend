@@ -102,7 +102,7 @@ vat.questions_about_vat.heading = Contact HMRC about VAT
 howToPaySelfAssessment.title = How to pay your Self Assessment
 howToPaySelfAssessment.heading = How to pay your Self Assessment
 howToPaySelfAssessment.viewing.your.calculation = Viewing your calculation
-howToPaySelfAssessment.viewing.your.calculations = Viewing your calculations
+howToPaySelfAssessment.viewing.your.calculations = Viewing your Self Assessment tax return calculations
 howToPaySelfAssessment.paying.your.sa.bill = Paying your Self Assessment tax bill
 howToPaySelfAssessment.penalties.appeals = Penalties and appeals
 howToPaySelfAssessment.appeal.against.penalty = Appeal against a penalty
@@ -442,32 +442,27 @@ ct.register_deregister_close_company_ = close the limited company
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Viewing your calculations - video transcript
-viewingYourCalculationTranscript.heading = Viewing your calculations - video transcript
-viewingYourCalculationTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-viewingYourCalculationTranscript.paragraph2 = When you use HMRC’s online tax return, it automatically works out how much you need to pay.
-viewingYourCalculationTranscript.paragraph3 = You fill in your figures and once you have checked that everything is correct, view your calculation.
-viewingYourCalculationTranscript.paragraph4 = You will then see this screen.
-viewingYourCalculationTranscript.paragraph5 = This shows the amount you’re due to pay for 2017-18. This includes Class 4 and Class 2 National Insurance, if any are due.
-viewingYourCalculationTranscript.paragraph6 = If you’re due to pay £1,000 or more, you also make a ‘payment on account’.
-viewingYourCalculationTranscript.paragraph7 = A ‘payment on account’ is half of your previous year’s tax and class 4 National Insurance bill.
-viewingYourCalculationTranscript.paragraph8 = For 2017-18, your payment is due by 31 January 2019.
-viewingYourCalculationTranscript.paragraph9 = You’ll make a second ‘payment on account’ in July 2019.
-viewingYourCalculationTranscript.paragraph10 = But don’t worry, these payments on account will be deducted from the amount you’re due to pay for the 2018-19 tax year on your Self Assessment statement when you complete the tax return next year.
-viewingYourCalculationTranscript.paragraph11 = If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
-viewingYourCalculationTranscript.paragraph12 = You can then see exactly how your tax bill has been worked out.
-viewingYourCalculationTranscript.paragraph13 = It shows your:
-viewingYourCalculationTranscript.para13bullet1 = income
-viewingYourCalculationTranscript.para13bullet2 = Personal Allowance
-viewingYourCalculationTranscript.para13bullet3 = tax due
-viewingYourCalculationTranscript.para13bullet4 = Class 4 National Insurance
-viewingYourCalculationTranscript.para13bullet5 = Class 2 National Insurance
-viewingYourCalculationTranscript.para13bullet6 = payments due on 31 January 2019
-viewingYourCalculationTranscript.paragraph14 = These estimated payments don’t include any payments you may have already made.
-viewingYourCalculationTranscript.paragraph15 = You can print a copy of this for your own records.
-viewingYourCalculationTranscript.paragraph16 = You’ll find more help and support on GOV.UK.
-viewingYourCalculationTranscript.paragraph17 = Webinars and other videos about Self Assessment are available from HMRC.
-viewingYourCalculationTranscript.paragraph18 = Thanks for watching.
+viewingYourCalculationTranscript.title = Viewing your Self Assessment tax return calculations - video transcript
+viewingYourCalculationTranscript.heading = Viewing your Self Assessment tax return calculations - video transcript
+viewingYourCalculationTranscript.paragraph1 = When you use our Self Assessment online tax return, it automatically works out how much you’ll need to pay us.
+viewingYourCalculationTranscript.paragraph2 = After adding your figures and checking everything is correct, you can view your calculation. This shows the amount you’re due to pay for this tax return. It will include:
+viewingYourCalculationTranscript.para2bullet1 = Income Tax
+viewingYourCalculationTranscript.para2bullet2 = Class 4 National Insurance
+viewingYourCalculationTranscript.para2bullet3 = and Class 2 National Insurance contributions
+viewingYourCalculationTranscript.paragraph3 = if they’re due.
+viewingYourCalculationTranscript.paragraph4 = If the amount is £1,000 or more, you have to make a ‘payment on account’.
+viewingYourCalculationTranscript.paragraph5 = A payment on account is made twice a year on 31 January and 31 July to help you spread the cost of each year’s tax.
+viewingYourCalculationTranscript.paragraph6 = Each payment is usually half of your previous tax bill and as you pay in advance they are taken off the amount you’re due to pay the following year.
+viewingYourCalculationTranscript.paragraph7 = If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
+viewingYourCalculationTranscript.paragraph8 = This shows your:
+viewingYourCalculationTranscript.para8bullet1 = income
+viewingYourCalculationTranscript.para8bullet2 = personal allowance
+viewingYourCalculationTranscript.para8bullet3 = tax due
+viewingYourCalculationTranscript.para8bullet4 = Class 4 National Insurance
+viewingYourCalculationTranscript.para8bullet5 = Class 2 National Insurance
+viewingYourCalculationTranscript.para8bullet6 = and any payments due
+viewingYourCalculationTranscript.paragraph9 = You can print a copy of this for your own records. And remember, these estimated payments don’t include any payments you’ve already made.
+viewingYourCalculationTranscript.paragraph10 = You can find more information about Self Assessment on GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
