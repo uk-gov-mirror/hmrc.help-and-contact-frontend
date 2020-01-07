@@ -103,7 +103,7 @@ howToPaySelfAssessment.title = How to pay your Self Assessment
 howToPaySelfAssessment.heading = How to pay your Self Assessment
 howToPaySelfAssessment.viewing.your.calculation = Viewing your calculation
 howToPaySelfAssessment.viewing.your.calculations = Viewing your Self Assessment tax return calculations
-howToPaySelfAssessment.paying.your.sa.bill = Paying your Self Assessment tax bill
+howToPaySelfAssessment.paying.your.sa.bill = How do I pay my Self Assessment tax bill?
 howToPaySelfAssessment.penalties.appeals = Penalties and appeals
 howToPaySelfAssessment.appeal.against.penalty = Appeal against a penalty
 howToPaySelfAssessment.check.status.of.appeal = Check the status of an appeal
@@ -467,31 +467,24 @@ viewingYourCalculationTranscript.paragraph10 = You can find more information abo
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.heading = Paying your Self Assessment tax bill - video transcript
-payingYourSelfAssessmentTaxBillTranscript.paragraph1 = This is one of a series of videos about online Self Assessment.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = The term ‘tax bill’ refers to your bill for Income Tax and any Class 2 and class 4 National Insurance you may be due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = It may also include student loan repayments and capital gains tax.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = The deadlines for paying are:
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 January for a tax bill for the previous year and your first payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 July for your second payment on account
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Make sure you pay HMRC on time. You’ll be charged interest and may have to pay a penalty if your payment is late.
-payingYourSelfAssessmentTaxBillTranscript.paragraph8 = You don’t have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph9 = As soon as you have filled in your tax return online, you can see your tax calculation and how much you are due to pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph10 = This won’t include any payments you might have already made.
-payingYourSelfAssessmentTaxBillTranscript.paragraph11 = For payments to reach HMRC on the same or next day, you should use any of these methods:
-payingYourSelfAssessmentTaxBillTranscript.paragraph12 = You need a paying-in slip from HMRC to pay at a bank or building society.
-payingYourSelfAssessmentTaxBillTranscript.paragraph13 = If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods:
-payingYourSelfAssessmentTaxBillTranscript.paragraph14 = If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph15 = The first time you set up a direct debit, you need to allow 5 working days for payments to reach HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph16 = If you prefer to pay regularly throughout the year, you can use a budget payment plan.
-payingYourSelfAssessmentTaxBillTranscript.paragraph17 = It’s easy to use and really flexible. Find out more in our video, ‘Budgeting for your Self Assessment tax bill’.
-payingYourSelfAssessmentTaxBillTranscript.paragraph18 = You can view your HMRC online account to check if your payment’s been received – it should show as paid 4 – 7 working days later.
-payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Online payment services may be slow at busy times. Check if there are any delays by referring to ‘service availability and issues’ on the GOV.UK website.
-payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Don’t wait until 31 January to do this!
-payingYourSelfAssessmentTaxBillTranscript.paragraph21 = You’ll find more help and support on GOV.UK.
-payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Webinars and other videos about Self Assessment are available from HMRC.
-payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Thanks for watching.
+payingYourSelfAssessmentTaxBillTranscript.title = How do I pay my Self Assessment tax bill? - video transcript
+payingYourSelfAssessmentTaxBillTranscript.heading = How do I pay my Self Assessment tax bill? - video transcript
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = There are lots of ways to pay this bill, and two deadlines for paying it by. Paying on time means you’ll avoid being charged interest and a late penalty. The deadlines are:
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 January for your tax bill from the previous year and first payment on account
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = and 31 July for your second payment on account.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay regularly throughout the year, use a budget payment plan.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = For your payment to reach us the same or next day, pay by:
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Online or telephone banking, using faster payments
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = CHAPS
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = or your debit or corporate credit card online
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = alternatively you can use a paying-in slip from HMRC at your bank or building society
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = For payment to reach us within three days, pay by:
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Direct Debit
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = or Bacs
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet3 = alternatively you can send a cheque through the post.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = After paying, you can view your HMRC online account to check payment has been received. It should show as paid within seven working days.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = You can find more information about Self Assessment on GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript

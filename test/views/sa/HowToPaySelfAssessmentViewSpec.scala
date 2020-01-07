@@ -46,7 +46,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       val doc = asDocument(createView()())
       val headings = doc.getElementsByTag("h2").toString
       headings must include("Viewing your calculation")
-      headings must include("Paying your Self Assessment tax bill")
+      headings must include("How do I pay my Self Assessment tax bill?")
       headings must include("Penalties and appeals")
       headings must include("Appeal against a penalty")
       headings must include("Check the status of an appeal")
@@ -105,7 +105,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "paying-your-self-assessment-bill-transcript",
-        "Paying your Self Assessment tax bill - video transcript",
+        "How do I pay my Self Assessment tax bill? - video transcript",
         "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
         "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video transcript")
       assertLinkById(
@@ -190,7 +190,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView()())
-      val listOfVideoId: List[String] = List("wq35KqfGCjo", "NQMLcf-hF7c", "s24M389lWJg", "tIqsbnmNqzA")
+      val listOfVideoId: List[String] = List("wq35KqfGCjo", "Fq3AojrrjTw", "s24M389lWJg", "tIqsbnmNqzA")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 

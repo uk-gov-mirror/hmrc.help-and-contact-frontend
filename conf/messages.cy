@@ -103,7 +103,7 @@ howToPaySelfAssessment.title = Sut i dalu’ch Hunanasesiad
 howToPaySelfAssessment.heading = Sut i dalu’ch Hunanasesiad
 howToPaySelfAssessment.viewing.your.calculation = Bwrw golwg ar eich cyfrifiad
 howToPaySelfAssessment.viewing.your.calculations = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad
-howToPaySelfAssessment.paying.your.sa.bill = Talu’ch bil treth Hunanasesiad
+howToPaySelfAssessment.paying.your.sa.bill = Sut ydw i’n talu fy mil treth Hunanasesiad?
 howToPaySelfAssessment.penalties.appeals = Cosbau ac apeliadau
 howToPaySelfAssessment.appeal.against.penalty = Apelio yn erbyn cosb
 howToPaySelfAssessment.check.status.of.appeal = Gwirio statws apêl
@@ -467,31 +467,24 @@ viewingYourCalculationTranscript.paragraph10 = Gallwch ddod o hyd i ragor o wybo
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
-payingYourSelfAssessmentTaxBillTranscript.heading = Talu’ch bil treth Hunanasesiad - trawsgrifiad fideo
-payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae’r term ‘bil treth’ yn cyfeirio at eich bil ar gyfer Treth Incwm ac unrhyw Yswiriant Gwladol Dosbarth 2 a Dosbarth 4 efallai y bydd yn rhaid i chi ei dalu.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Gall hefyd gynnwys ad-daliadau benthyciad myfyriwr a threth enillion cyfalaf.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Y dyddiadau cau ar gyfer talu yw:
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = 31 Ionawr ar gyfer bil treth am y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gwnewch yn siŵr eich bod yn talu CThEM mewn pryd. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb.
-payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Nid oes yn rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i dalu. Os gwnewch hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
-payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Cyn gynted ag y byddwch wedi llenwi’ch Ffurflen Dreth ar-lein, gallwch weld eich cyfrifiad treth a faint sydd arnoch i’w dalu.
-payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Ni fydd hyn yn cynnwys unrhyw daliadau y gallech fod wedi’u gwneud eisoes.
-payingYourSelfAssessmentTaxBillTranscript.paragraph11 = Er mwyn i daliadau gyrraedd CThEM ar yr un diwrnod neu’r diwrnod canlynol, dylech ddefnyddio un o’r dulliau hyn:
-payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Mae’n rhaid i chi gael slip talu oddi wrth CThEM er mwyn talu mewn banc neu gymdeithas adeiladu.
-payingYourSelfAssessmentTaxBillTranscript.paragraph13 = Os oes gennych amser i ganiatáu 3 diwrnod gwaith i’ch taliad gyrraedd CThEM, gallwch ddefnyddio un o’r dulliau hyn:
-payingYourSelfAssessmentTaxBillTranscript.paragraph14 = Os ydych yn talu drwy’r post, gallwch gynnwys llythyr gyda’ch taliad er mwyn gofyn am dderbynneb oddi wrth CThEM.
-payingYourSelfAssessmentTaxBillTranscript.paragraph15 = Pan fyddwch yn sefydlu debyd uniongyrchol y tro cyntaf, mae’n rhaid i chi ganiatáu 5 diwrnod gwaith i’r taliadau gyrraedd CThEM.
-payingYourSelfAssessmentTaxBillTranscript.paragraph16 = Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol.
-payingYourSelfAssessmentTaxBillTranscript.paragraph17 = Mae’n hawdd ei ddefnyddio ac yn hyblyg iawn. Gallwch ddysgu rhagor am sut i gyllidebu ar gyfer eich bil treth Hunanasesiad yn ein fideo, ‘Cyllido ar gyfer eich bil treth Hunanasesiad’.
-payingYourSelfAssessmentTaxBillTranscript.paragraph18 = Gallwch fwrw golwg dros eich cyfrif CThEM ar-lein i wirio a yw’ch taliad wedi dod i law – dylai ddangos ei fod wedi ei dalu 4 i 7 diwrnod gwaith yn ddiweddarach.
-payingYourSelfAssessmentTaxBillTranscript.paragraph19 = Gall gwasanaethau talu ar-lein fod yn araf yn ystod adegau prysur. Gwiriwch a oes unrhyw oedi drwy gyfeirio at dudalennau argaeledd y gwasanaeth a phroblemau ar wefan GOV.UK.
-payingYourSelfAssessmentTaxBillTranscript.paragraph20 = Peidiwch ag aros tan 31 Ionawr i wneud hynny!
-payingYourSelfAssessmentTaxBillTranscript.paragraph21 = Cewch ragor o help a chymorth ar GOV.UK.
-payingYourSelfAssessmentTaxBillTranscript.paragraph22 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-payingYourSelfAssessmentTaxBillTranscript.paragraph23 = Diolch am wylio.
+payingYourSelfAssessmentTaxBillTranscript.title = Sut ydw i’n talu fy mil treth Hunanasesiad? - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.heading = Sut ydw i’n talu fy mil treth Hunanasesiad? - trawsgrifiad fideo
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Ar ôl cyflwyno’ch Ffurflen Dreth Hunanasesiad ar-lein, byddwch yn gweld eich cyfrifiad treth a faint y byddwch yn ei dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae lawer o ffyrdd o dalu’r bil hwn, a dau ddyddiad cau ar gyfer ei dalu. Mae talu mewn pryd yn golygu na fydd llog na chosb hwyr yn cael eu codi arnoch. Y dyddiadau cau yw:
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 Ionawr ar gyfer eich bil treth am y flwyddyn flaenorol a’r taliad cyntaf ar gyfrif
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = a 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Er mwyn eich helpu i osgoi colli’r dyddiad cau, gallwch ddewis gwneud eich taliadau yn gynharach. Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Er mwyn i’ch taliad ein cyrraedd ar yr un diwrnod neu’r diwrnod nesaf, talwch drwy’r canlynol:
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Bancio ar-lein neu dros y ffôn, gan ddefnyddio’r gwasanaeth Taliadau Cyflymach
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = CHAPS
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = neu eich cerdyn debyd neu gerdyn credyd corfforaethol ar-lein
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = fel arall, gallwch ddefnyddio slip talu i mewn gan CThEM yn eich banc neu gymdeithas adeiladu
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = Er mwyn i daliad ein cyrraedd o fewn tridiau, talwch drwy’r canlynol:
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Debyd Uniongyrchol
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = neu Bacs
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet3 = fel arall, gallwch anfon siec drwy’r post.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = Ar ôl talu, gallwch weld eich cyfrif CThEM ar-lein i wirio bod y taliad wedi dod i law. Dylai ddangos ei fod wedi’i dalu o fewn saith diwrnod gwaith.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript
