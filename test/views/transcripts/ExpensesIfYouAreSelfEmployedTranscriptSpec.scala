@@ -24,7 +24,7 @@ import scala.collection.JavaConverters._
 
 class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "sa.expenses.expenses_for_self_employed_transcript"
+  val messageKeyPrefix = "sa.expenses.what_expenses_can_i_include_in_my_sa_transcript"
 
   def createView(): Html = expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
@@ -41,50 +41,41 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
       val h1s = doc.getElementsByTag("h1")
       h1s.size() mustBe 1
-      h1s.first().text() mustBe "Expenses if you’re self-employed - video transcript"
+      h1s.first().text() mustBe "What expenses can I include in my Self Assessment return - video transcript"
 
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
 
       val bulletList = List(
-        "business costs for vehicles",
-        "working from home",
-        "living in your business premises",
         "office property and equipment",
-        "car, van and travel",
+        "travel, including cars and vans",
         "staff",
-        "legal and financial costs",
-        "marketing and subscriptions"
+        "any legal and financial costs",
+        "and also marketing and subscriptions.",
+        "your home and accommodation",
+        "food",
+        "clothing",
+        "holidays",
+        "and anything you buy for you and your family."
       )
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "If you’re self-employed your business will have various running costs.",
-        "You can take away some of these costs to work out your taxable profit as long as they’re allowable expenses.",
-        "You can’t claim any expenses if you use the £1,000 tax-free trading allowance. There’s more about this on GOV.UK.",
-        "Allowable expenses don’t include money you take from your business to pay for private purchases.",
-        "In other words, allowable business expenses don’t include things like accommodation, food, clothing, holidays and any other things you buy for you and your family.",
-        "You need to keep records of all your business expenses as proof of your costs.",
-        "You add up all of your allowable expenses for the tax year and put them on your Self-Assessment tax return.",
-        "Don’t send in proof of your expenses when you send your tax return to HMRC. Keep them so that you can show them to HMRC, if asked.",
-        "You can choose to use ‘Simplified expenses’.",
-        "This is a way of working out some of your expenses using flat rates instead of working out your actual business costs.",
-        "You don’t have to do this. You can decide if it suits your business.",
-        "Simplified expenses can’t be used by limited companies or business partnerships involving a limited company.",
-        "You can use flat rates for:",
-        "Keep records of your business miles for vehicles, hours you work at home and how many people live at your business premises over the year.",
-        "Then, at the end of the year, use the flat rate to work out your expenses and include the amounts in your Self Assessment tax return.",
-        "Find out more about this on the GOV.UK website.",
-        "For other expenses, and if you decide not to use simplified expenses, keep accurate records of what you buy and their costs.",
-        "Here’s some commonly used business expenses:",
-        "For the tax year 2017-18, if your business income is £85,000 or more, you need to enter each expense under the appropriate heading.",
-        "If you didn’t trade for a full year, but if you had, and your income would have been more than £85,000 you need to enter each expense in the same way.",
-        "For example:",
-        "If you traded from October to April, (that’s six months), and your business income was £50,000, then your business income for a full 12 months would have been £100,000.",
-        "If your business income is below £85,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.",
-        "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "You’re self-employed which means you have essential costs to keep your business running. You can deduct these " +
+          "costs which are called allowable expenses to work out your taxable profit.",
+        "But remember – if you’re using the one thousand pound tax-free trading allowance, you can’t claim any expenses.",
+        "Allowable expenses include:",
+        "You can’t claim for anything you spend on personal things, such as:",
+        "You may want to use simplified expenses – this means you claim a flat rate instead of working out the actual " +
+          "costs. For example, for car travel you can claim 45 pence a mile up to 10,000 miles and then 25 pence a mile over this amount.",
+        "If your income is eighty five thousand pounds or more, you’ll need to list each expense individually under the " +
+          "appropriate heading. This also applies if you didn’t trade a full year but would have earned this amount or " +
+          "more if you had – for example, your income for six months was fifty thousand pounds – so in 12 months it " +
+          "would have been a hundred thousand pounds.",
+        "If your income is less than eighty five thousand pounds, it’s up to you whether you give us your total amount " +
+          "of expenses or list them individually.",
+        "It’s important you keep records and proof of your business costs – you’ll need them to complete your Self " +
+          "Assessment tax return. Sometimes we ask to see them, but please don’t send them with your return.",
+        "For more information about allowable expenses, including simplified expenses, please visit GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {
