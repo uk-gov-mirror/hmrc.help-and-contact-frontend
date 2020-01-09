@@ -19,37 +19,42 @@
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(
-  Messages("sa.expenses.expenses_for_self_employed_transcript.title"),
-  appConfig = appConfig,
-  bodyClasses = None,
-  serviceInfoContent = serviceInfoContent
+Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.title"),
+appConfig = appConfig,
+bodyClasses = None,
+serviceInfoContent = serviceInfoContent
 ) {
 
-  <h1 id="expenses-if-youre-self-employed-video-transcript" class="heading-xlarge">@Messages("sa.expenses.expenses_for_self_employed_transcript.heading")</h1>
+    <h1 id="expenses-if-youre-self-employed-video-transcript" class="heading-xlarge">
+        @Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.heading")</h1>
 
-    @for(i <- 1 to 14) {
-        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
-    }
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph1")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph2")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph3")</p>
 
-  <ul class="list list-bullet">
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet1")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet2")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para14bullet3")</li>
-  </ul>
 
-    @for(i <- 15 to 19) {
-        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
-    }
+    <ul class="list list-bullet">
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet1")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet2")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet3")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet4")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet5")</li>
+    </ul>
 
-  <ul class="list list-bullet">
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet1")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet2")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet3")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet4")</li>
-    <li>@Messages("sa.expenses.expenses_for_self_employed_transcript.para19bullet5")</li>
-  </ul>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph4")</p>
 
-    @for(i <- 20 to 27) {
-        <p>@messages(s"sa.expenses.expenses_for_self_employed_transcript.paragraph$i")</p>
-    }
+    <ul class="list list-bullet">
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet1")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet2")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet3")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet4")</li>
+        <li>@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet5")</li>
+    </ul>
+
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph5")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph6")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph7")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph8")</p>
+    <p>@messages(s"sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph9")</p>
+
 }

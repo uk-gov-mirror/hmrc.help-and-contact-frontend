@@ -80,7 +80,7 @@ class ExpensesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "expenses-if-you-are-self-employed-transcript",
-        "Expenses if you’re self-employed - video transcript",
+        "What expenses can I include in my Self Assessment return - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
     }
