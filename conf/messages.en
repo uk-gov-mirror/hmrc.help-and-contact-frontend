@@ -12,6 +12,8 @@ site.yes = Yes
 site.continue = Continue
 site.service_name = Business tax account
 site.signout = Sign out
+site.service_title = {0} - Business tax account - GOV.UK
+
 
 unauthorised.title = You can’t see this page
 unauthorised.heading = You can’t see this page
@@ -22,7 +24,7 @@ unauthorised.correctid = Make sure you’re signed in with the correct user ID.
 ### Help and Contact main
 ########################################################################################################################
 
-help_and_contact.title = Help and contact - Business tax account
+help_and_contact.title = Help and contact
 help_and_contact.heading = Help and contact
 help_and_contact.self_assessment = Self Assessment
 help_and_contact.vat = VAT
