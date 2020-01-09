@@ -41,31 +41,25 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "The term ‘tax bill’ refers to your bill for Income Tax and any Class 2 and class 4 National Insurance you may " +
-          "be due to pay.",
-        "It may also include student loan repayments and capital gains tax.",
-        "The deadlines for paying are:",
-        "31 January for a tax bill for the previous year and your first payment on account",
-        "31 July for your second payment on account",
-        "Make sure you pay HMRC on time. You’ll be charged interest and may have to pay a penalty if your payment is late.",
-        "You don’t have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.",
-        "As soon as you have filled in your tax return online, you can see your tax calculation and how much you are due to pay.",
-        "This won’t include any payments you might have already made.",
-        "For payments to reach HMRC on the same or next day, you should use any of these methods:",
-        "You need a paying-in slip from HMRC to pay at a bank or building society.",
-        "If you have time to allow 3 working days for your payment to reach HMRC, you can use one of these methods:",
-        "If paying by post, you can include a letter with your payment to ask for a receipt from HMRC.",
-        "The first time you set up a direct debit, you need to allow 5 working days for payments to reach HMRC.",
-        "If you prefer to pay regularly throughout the year, you can use a budget payment plan.",
-        "It’s easy to use and really flexible. Find out more in our video, ‘Budgeting for your Self Assessment tax bill’.",
-        "You can view your HMRC online account to check if your payment’s been received – it should show as paid 4 – 7 working days later.",
-        "Online payment services may be slow at busy times. Check if there are any delays by referring to ‘service availability and " +
-          "issues’ on the GOV.UK website.",
-        "Don’t wait until 31 January to do this!",
-        "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.",
+        "There are lots of ways to pay this bill, and two deadlines for paying it by. Paying on time means you’ll avoid " +
+          "being charged interest and a late penalty. The deadlines are:",
+        "31 January for your tax bill from the previous year and first payment on account",
+        "and 31 July for your second payment on account.",
+        "To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay " +
+          "regularly throughout the year, use a budget payment plan.",
+        "For your payment to reach us the same or next day, pay by:",
+        "Online or telephone banking, using faster payments",
+        "CHAPS",
+        "or your debit or corporate credit card online",
+        "alternatively you can use a paying-in slip from HMRC at your bank or building society",
+        "For payment to reach us within three days, pay by:",
+        "Direct Debit",
+        "or Bacs",
+        "alternatively you can send a cheque through the post.",
+        "After paying, you can view your HMRC online account to check payment has been received. It should show as paid" +
+          " within seven working days.",
+        "You can find more information about Self Assessment on GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {
