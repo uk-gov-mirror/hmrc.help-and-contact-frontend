@@ -96,7 +96,7 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
-      val listOfVideoId: List[String] = List("ABA3Xv2V2MQ", "Y_lpys4Kksk")
+      val listOfVideoId: List[String] = List("ABA3Xv2V2MQ", "cXdJSwunYt0")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 

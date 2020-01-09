@@ -33,7 +33,7 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "expenses-if-youre-self-employed-video-transcript"
+      doc.getElementsByTag("h1").attr("id") mustBe "what-expenses-can-i-include-in-my-sa-video-transcript"
     }
 
     "have correct content" in {
