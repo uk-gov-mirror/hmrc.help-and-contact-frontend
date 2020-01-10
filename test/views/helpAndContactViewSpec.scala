@@ -68,7 +68,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "expenses",
-        "What expenses can I include in my Self Assessment return",
+        "What expenses can I include in my Self Assessment tax return",
         "/business-account/help/self-assessment/expenses",
         "link - click:Help and contact:Expenses")
       assertLinkById(

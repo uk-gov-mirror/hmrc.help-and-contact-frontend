@@ -76,11 +76,11 @@ class ExpensesViewSpec extends ViewBehaviours {
         "claim a capital allowance for its purchase.")
     }
 
-    "contain the 'Expenses if you’re self-employed - video transcript' link" in {
+    "contain the 'What expenses can I include in my Self Assessment tax return - video transcript' link" in {
       val doc = asDocument(createView())
       assertLinkById(doc,
-        "expenses-if-you-are-self-employed-transcript",
-        "What expenses can I include in my Self Assessment return - video transcript",
+        "what-expenses-can-i-include-in-my-sa-tax-return-transcript",
+        "What expenses can I include in my Self Assessment tax return - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
     }
