@@ -24,7 +24,7 @@ import scala.collection.JavaConverters._
 
 class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "sa.expenses.what_expenses_can_i_include_in_my_sa_transcript"
+  val messageKeyPrefix = "sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript"
 
   def createView(): Html = expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
@@ -33,7 +33,7 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "what-expenses-can-i-include-in-my-sa-video-transcript"
+      doc.getElementsByTag("h1").attr("id") mustBe "what-expenses-can-i-include-in-my-sa-tax-return-video-transcript"
     }
 
     "have correct content" in {
@@ -41,7 +41,7 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
       val h1s = doc.getElementsByTag("h1")
       h1s.size() mustBe 1
-      h1s.first().text() mustBe "What expenses can I include in my Self Assessment return - video transcript"
+      h1s.first().text() mustBe "What expenses can I include in my Self Assessment tax return - video transcript"
 
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())

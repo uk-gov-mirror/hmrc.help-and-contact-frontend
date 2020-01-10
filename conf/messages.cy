@@ -220,7 +220,7 @@ sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.expenses.title = Treuliau
 sa.expenses.heading = Treuliau
-sa.expenses.what_expenses_can_i_include_in_my_sa_return = Treuliau os ydych yn hunangyflogedig
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad?
 sa.expenses.you_put_all_of_your_allowable_expenses_ = Rydych yn rhoi’ch treuliau caniataol i gyd ar gyfer y flwyddyn dreth ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau gyda’ch Ffurflen Dreth. Cadwch hwy fel eich bod yn gallu’u dangos i CThEM, os bydd gofyn i chi wneud hynny.
 sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddio ’Treuliau syml’ i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle eich busnes. Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle eich busnes dros y flwyddyn.
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
@@ -673,27 +673,27 @@ yourIncomeFromPropertyTaxReturnTranscript.paragraph30 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses if you are self employed transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.title = What expenses can I include in my Self Assessment return - video transcript
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.heading = What expenses can I include in my Self Assessment return - video transcript
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph1 = You’re self-employed which means you have essential costs to keep your business running. You can deduct these costs which are called allowable expenses to work out your taxable profit.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph2 = But remember – if you’re using the one thousand pound tax-free trading allowance, you can’t claim any expenses.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph3 = Allowable expenses include:
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet1 = office property and equipment
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet2 = travel, including cars and vans
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet3 = staff
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet4 = any legal and financial costs
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para3bullet5 = and also marketing and subscriptions.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph4 = You can’t claim for anything you spend on personal things, such as:
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet1 = your home and accommodation
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet2 = food
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet3 = clothing
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet4 = holidays
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.para4bullet5 = and anything you buy for you and your family.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph5 = You may want to use simplified expenses – this means you claim a flat rate instead of working out the actual costs. For example, for car travel you can claim 45 pence a mile up to 10,000 miles and then 25 pence a mile over this amount.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph6 = If your income is eighty five thousand pounds or more, you’ll need to list each expense individually under the appropriate heading. This also applies if you didn’t trade a full year but would have earned this amount or more if you had – for example, your income for six months was fifty thousand pounds – so in 12 months it would have been a hundred thousand pounds.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph7 = If your income is less than eighty five thousand pounds, it’s up to you whether you give us your total amount of expenses or list them individually.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph8 = It’s important you keep records and proof of your business costs – you’ll need them to complete your Self Assessment tax return. Sometimes we ask to see them, but please don’t send them with your return.
-sa.expenses.what_expenses_can_i_include_in_my_sa_transcript.paragraph9 = For more information about allowable expenses, including simplified expenses, please visit GOV.UK.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.title = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.heading = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph1 = Rydych yn hunangyflogedig sy’n golygu bod gennych gostau hanfodol er mwyn cadw’ch busnes i redeg. Gallwch ddidynnu’r costau hyn, a elwir yn dreuliau caniataol, er mwyn cyfrifo’ch elw trethadwy.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph2 = Ond cofiwch os ydych yn defnyddio’r lwfans masnachu rhydd o dreth gwerth mil o bunnoedd, ni allwch hawlio unrhyw dreuliau.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph3 = Gallai treuliau a ganiateir cynnwys:
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet1 = eiddo ac offer ar gyfer y swyddfa
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet2 = teithio, gan gynnwys ceir a faniau
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet3 = staff
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet4 = unrhyw gostau cyfreithiol ac ariannol
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet5 = a hefyd marchnata a thanysgrifiadau.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph4 = Ni allwch hawlio ar gyfer unrhyw beth rydych yn ei wario ar bethau personol fel:
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet1 = eich cartref a’ch llety
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet2 = bwyd
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet3 = dillad
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet4 = gwyliau
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet5 = ac unrhyw beth rydych yn ei brynu ar eich cyfer chi a’ch teulu.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph5 = Efallai y byddwch eisiau defnyddio treuliau symlach - mae hyn yn golygu eich bod yn hawlio ar gyfradd unffurf yn lle cyfrifo’r costau gwirioneddol. Er enghraifft, ar gyfer teithio gyda char gallwch hawlio 45 ceiniog y filltir am hyd at 10,000 o filltiroedd ac wedyn 25 ceiniog y filltir dros y swm hwn.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph6 = Os yw’ch incwm yn wyth deg pum mil o bunnoedd neu’n fwy, bydd angen i chi restru pob traul yn unigol o dan y pennawd priodol. Mae hyn hefyd yn gymwys os na wnaethoch fasnachu am flwyddyn lawn, ond byddech wedi ennill y swm hwn neu fwy petaech wedi gwneud hynny - er enghraifft, pum deg mil o bunnoedd oedd eich incwm am chwe mis - felly mewn 12 mis byddai wedi bod yn gan mil o bunnoedd.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph7 = Os yw’ch incwm yn llai nag wyth deg pum mil o bunnoedd, eich penderfyniad chi yw p’un a ydych yn rhoi gwybod i ni ai peidio am gyfanswm eich treuliau neu’n eu rhestru’n unigol.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = Mae’n bwysig eich bod yn cadw cofnodion a thystiolaeth o’r costau busnes y bydd angen i chi eu cyflwyno er mwyn llenwi’ch Ffurflen Dreth Hunanasesiad. Weithiau byddwn yn gofyn am gael eu gweld ond peidiwch â’u hanfon gyda’ch Ffurflen Dreth.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = I gael rhagor o wybodaeth am dreuliau a ganiateir, gan gynnwys treuliau symlach, ewch i GOV.UK.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
