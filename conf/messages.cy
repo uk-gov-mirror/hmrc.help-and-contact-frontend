@@ -538,22 +538,22 @@ whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your first Self Assessment tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-yourFirstTaxReturnTranscript.title = - trawsgrifiad fideo
-yourFirstTaxReturnTranscript.heading = - trawsgrifiad fideo
-yourFirstTaxReturnTranscript.paragraph1 =
-yourFirstTaxReturnTranscript.paragraph2 =
-yourFirstTaxReturnTranscript.paragraph3 =
-yourFirstTaxReturnTranscript.paragraph4 =
-yourFirstTaxReturnTranscript.paragraph5 =
-yourFirstTaxReturnTranscript.paragraph6 =
-yourFirstTaxReturnTranscript.paragraph7 =
-yourFirstTaxReturnTranscript.paragraph8 =
-yourFirstTaxReturnTranscript.paragraph9 =
-yourFirstTaxReturnTranscript.paragraph10 =
-yourFirstTaxReturnTranscript.paragraph11 =
-yourFirstTaxReturnTranscript.paragraph12 =
-yourFirstTaxReturnTranscript.paragraph13 =
-yourFirstTaxReturnTranscript.paragraph14 =
+yourFirstTaxReturnTranscript.title = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
+yourFirstTaxReturnTranscript.paragraph1 = A oes angen i chi lenwi Ffurflen Dreth Hunanasesiad ar-lein?
+yourFirstTaxReturnTranscript.paragraph2 = Gallwch wirio hyn ar GOV.UK drwy ateb ychydig o gwestiynau.
+yourFirstTaxReturnTranscript.paragraph3 = Os oes angen i chi lenwi Ffurflen Dreth, mae’n rhaid i chi wneud hynny nawr neu fe allech wynebu dirwy, hyd yn oed os nad oes arnoch unrhyw dreth.
+yourFirstTaxReturnTranscript.paragraph4 = Mae’r flwyddyn dreth yn dod i ben ar y pumed o Ebrill a bydd angen i chi gofrestru ar gyfer Hunanasesiad erbyn y pumed o Hydref, neu fel arall gallech wynebu dirwy. Gallwch gofrestru ar GOV.UK – mae yna fideo byr arall sy’n egluro sut i wneud hynny.
+yourFirstTaxReturnTranscript.paragraph5 = Y dyddiad cau ar gyfer eich Ffurflen Dreth, sy’n cwmpasu’r flwyddyn dreth a ddaeth i ben ym mis Ebrill, yw’r unfed ar ddeg ar hugain o Ionawr y flwyddyn ddilynol. Ar ôl i chi gofrestru ac actifadu eich cyfrif ar-lein, rydych yn barod i ddechrau.
+yourFirstTaxReturnTranscript.paragraph6 = Gwnewch yn siŵr fod eich gwybodaeth a’ch cofnodion wrth law gan y bydd angen i chi lenwi holl fanylion eich incwm.
+yourFirstTaxReturnTranscript.paragraph7 = Ewch i GOV.UK a mewngofnodwch gan ddefnyddio’r Dynodydd Defnyddiwr (ID) a’r cyfrinair a gawsoch pan wnaethoch gofrestru ar-lein.
+yourFirstTaxReturnTranscript.paragraph8 = Yn gyntaf, bydd arnom angen ychydig o wybodaeth amdanoch. Bydd y sgriniau ar-lein yn eich arwain o gwmpas - os cewch anawsterau, mae yna negeseuon ar y sgrin a chysylltiadau sy’n egluro mwy. Er enghraifft, os nodwch eich dyddiad geni’r ffordd anghywir o gwmpas, bydd y blwch yn troi’n goch.
+yourFirstTaxReturnTranscript.paragraph9 = Yn yr adran ‘Addasu eich Ffurflen Dreth’ rydych yn ateb ‘Iawn’ neu ‘Na’ i gyfres o gwestiynau mae hyn yn golygu y byddwch ond yn llenwi’r adrannau sy’n berthnasol i chi. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
+yourFirstTaxReturnTranscript.paragraph10 = Bydd y botwm ‘Cadw ac yn eich blaen’ yn cadw’r hyn rydych wedi’i nodi hyd yma; mae’n ddefnyddiol os ydych eisiau stopio a dychwelyd iddo’n hwyrach.
+yourFirstTaxReturnTranscript.paragraph11 = Pan fyddwch wedi llenwi’ch Ffurflen Dreth, ewch drwyddi a’i gwirio. Gallwch fynd yn ôl os bydd angen i chi gywiro unrhyw beth.
+yourFirstTaxReturnTranscript.paragraph12 = Defnyddiwch ‘Bwrw golwg ar eich cyfrifiad’ i weld a oes arnoch dreth ac os felly, faint.
+yourFirstTaxReturnTranscript.paragraph13 = Nawr gallwch gadw copi ar gyfer eich cofnodion. Yn yr adran ‘Cyflwyno Ffurflen Dreth’ bydd angen eich Dynodydd Defnyddiwr (ID) a’ch cyfrinair arnoch i’w hanfon at CThEM. Yn olaf, cewch neges ar-lein i gadarnhau ei bod wedi ein cyrraedd.
+yourFirstTaxReturnTranscript.paragraph14 = I gael rhagor o wybodaeth am Hunanasesiad, gwyliwch ein fideos a’n gweminarau eraill ac ewch i GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Tailor your tax return transcript
