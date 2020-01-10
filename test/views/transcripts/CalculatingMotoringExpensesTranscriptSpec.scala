@@ -25,7 +25,7 @@ import scala.collection.JavaConverters._
 
 class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "sa.expenses.calculating_motoring_expenses"
+  val messageKeyPrefix = "sa.expenses.claiming_motoring_expenses"
 
   def createView(): Html = calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
@@ -50,8 +50,8 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
           "You can claim business expenses for a number of things, including fuel, vehicle insurance and parking. " +
           "You cannot claim for non-business driving costs, fines or travel between home and work.",
         "There are two ways of working out your motor expenses. " +
-          "Either by using the actual costs method, or a flat rate for business mileage. " +
-          "Whichever way you choose, you must continue to use it for that vehicle.",
+          "Either by using the actual costs method, or a flat rate for business mileage.",
+        "Whichever way you choose, you must continue to use it for that vehicle.",
         "If you use the actual costs method, you’ll need to know how many miles the vehicle has done during the relevant tax year " +
           "– then work out what percentage of those were for business use only.",
         "For example, if the total running costs were six thousand pounds [£6,000], and seventy-five per cent [75%] of the miles " +

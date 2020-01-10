@@ -228,7 +228,7 @@ sa.expenses.you_can_choose_to_use_simplified_expenses_ = You can choose to use �
 sa.expenses.simplified_expenses_cannot_be_used_ = Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.
 sa.expenses.if_you_do_not_use_simplified_expenses_ = If you do not use simplified expenses and if your business income is £85,000 or more, you need to enter each expense.
 sa.expenses.if_your_business_income_is_below_ = If your business income is below £85,000 for the full year, you can still list your expenses, but you can also choose to add them all together and show them as a total figure on your Self-Assessment tax return.
-sa.expenses.calculating_motoring_expenses = Claiming motoring expenses if you’re self-employed
+sa.expenses.claiming_motoring_expenses = Claiming motoring expenses if you’re self-employed
 sa.expenses.you_can_claim_business_expenses_for_ = You can claim business expenses for a number of things including fuel and vehicle insurance. You cannot claim for non-business driving, or for fines or travel between home and work.
 sa.expenses.you_can_claim_either_the_actual_costs_ = You can claim either the actual costs, or a flat rate for business mileage. Once you have chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
@@ -715,18 +715,19 @@ sa.expenses.expenses_for_self_employed_transcript.paragraph27 = Thanks for watch
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.calculating_motoring_expenses.title = Claiming motoring expenses if you’re self-employed - video transcript
-sa.expenses.calculating_motoring_expenses.heading = Claiming motoring expenses if you’re self-employed - video transcript
-sa.expenses.calculating_motoring_expenses.paragraph1 = If you work for yourself, you might use your car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things, including fuel, vehicle insurance and parking. You cannot claim for non-business driving costs, fines or travel between home and work.
-sa.expenses.calculating_motoring_expenses.paragraph2 = There are two ways of working out your motor expenses. Either by using the actual costs method, or a flat rate for business mileage. Whichever way you choose, you must continue to use it for that vehicle.
-sa.expenses.calculating_motoring_expenses.paragraph3 = If you use the actual costs method, you’ll need to know how many miles the vehicle has done during the relevant tax year – then work out what percentage of those were for business use only.
-sa.expenses.calculating_motoring_expenses.paragraph4 = For example, if the total running costs were six thousand pounds [£6,000], and seventy-five per cent [75%] of the miles were for business use, you would include four thousand five hundred pounds [£4,500] on your Self Assessment tax return.
-sa.expenses.calculating_motoring_expenses.paragraph5 = If you’re using traditional accounting and the actual costs method, you can also claim a Capital Allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph6 = If you claim expenses using the flat rate for business mileage method, you’ll find the current rates on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph7 = You must keep a record of how many business miles you travel.
-sa.expenses.calculating_motoring_expenses.paragraph8 = The flat rate covers the whole cost of buying, running and maintaining the vehicle –so you can’t claim a capital allowance for its purchase or any other motoring expense.
-sa.expenses.calculating_motoring_expenses.paragraph9 = You can find more information about ‘expenses if you’re self employed’ on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph10 = www.gov.uk/expenses-if-youre-self-employed
+sa.expenses.claiming_motoring_expenses.title = Claiming motoring expenses if you’re self-employed - video transcript
+sa.expenses.claiming_motoring_expenses.heading = Claiming motoring expenses if you’re self-employed - video transcript
+sa.expenses.claiming_motoring_expenses.paragraph1 = If you work for yourself, you might use your car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things, including fuel, vehicle insurance and parking. You cannot claim for non-business driving costs, fines or travel between home and work.
+sa.expenses.claiming_motoring_expenses.paragraph2 = There are two ways of working out your motor expenses. Either by using the actual costs method, or a flat rate for business mileage.
+sa.expenses.claiming_motoring_expenses.paragraph3 = Whichever way you choose, you must continue to use it for that vehicle.
+sa.expenses.claiming_motoring_expenses.paragraph4 = If you use the actual costs method, you’ll need to know how many miles the vehicle has done during the relevant tax year – then work out what percentage of those were for business use only.
+sa.expenses.claiming_motoring_expenses.paragraph5 = For example, if the total running costs were six thousand pounds [£6,000], and seventy-five per cent [75%] of the miles were for business use, you would include four thousand five hundred pounds [£4,500] on your Self Assessment tax return.
+sa.expenses.claiming_motoring_expenses.paragraph6 = If you’re using traditional accounting and the actual costs method, you can also claim a Capital Allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph7 = If you claim expenses using the flat rate for business mileage method, you’ll find the current rates on GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph8 = You must keep a record of how many business miles you travel.
+sa.expenses.claiming_motoring_expenses.paragraph9 = The flat rate covers the whole cost of buying, running and maintaining the vehicle –so you can’t claim a capital allowance for its purchase or any other motoring expense.
+sa.expenses.claiming_motoring_expenses.paragraph10 = You can find more information about ‘expenses if you’re self employed’ on GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-youre-self-employed
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Registering for Self Assessment transcript

@@ -227,7 +227,7 @@ sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddi
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
 sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £85,000 neu fwy, mae angen i chi nodi bob traul.
 sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £85,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.calculating_motoring_expenses = #TODO# Claiming motoring expenses if you’re self-employed
+sa.expenses.claiming_motoring_expenses = Hawlio treuliau moduro os ydych yn hunangyflogedig
 sa.expenses.you_can_claim_business_expenses_for_ = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
@@ -712,20 +712,21 @@ sa.expenses.expenses_for_self_employed_transcript.paragraph25 = Cewch ragor o he
 sa.expenses.expenses_for_self_employed_transcript.paragraph26 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 sa.expenses.expenses_for_self_employed_transcript.paragraph27 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Calculating motoring expenses transcript
+#~~ Claiming motoring expenses if you're self-employed transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.calculating_motoring_expenses.title = #TODO Claiming motoring expenses if you’re self-employed - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.heading = #TODO Claiming motoring expenses if you’re self-employed - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.paragraph1 = #TODO If you work for yourself, you might use your car, van or motorcycle for both business and personal use. You can claim business expenses for a number of things, including fuel, vehicle insurance and parking. You cannot claim for non-business driving costs, fines or travel between home and work.
-sa.expenses.calculating_motoring_expenses.paragraph2 = #TODO There are two ways of working out your motor expenses. Either by using the actual costs method, or a flat rate for business mileage. Whichever way you choose, you must continue to use it for that vehicle.
-sa.expenses.calculating_motoring_expenses.paragraph3 = #TODO If you use the actual costs method, you’ll need to know how many miles the vehicle has done during the relevant tax year – then work out what percentage of those were for business use only.
-sa.expenses.calculating_motoring_expenses.paragraph4 = #TODO For example, if the total running costs were six thousand pounds [£6,000], and seventy-five per cent [75%] of the miles were for business use, you would include four thousand five hundred pounds [£4,500] on your Self Assessment tax return.
-sa.expenses.calculating_motoring_expenses.paragraph5 = #TODO If you’re using traditional accounting and the actual costs method, you can also claim a Capital Allowance for the purchase of the vehicle itself. You can find out more about Capital Allowances on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph6 = #TODO If you claim expenses using the flat rate for business mileage method, you’ll find the current rates on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph7 = #TODO You must keep a record of how many business miles you travel.
-sa.expenses.calculating_motoring_expenses.paragraph8 = #TODO The flat rate covers the whole cost of buying, running and maintaining the vehicle –so you can’t claim a capital allowance for its purchase or any other motoring expense.
-sa.expenses.calculating_motoring_expenses.paragraph9 = #TODO You can find more information about ‘expenses if you’re self employed’ on GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph10 = #TODO www.gov.uk/expenses-if-youre-self-employed
+sa.expenses.claiming_motoring_expenses.title = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.claiming_motoring_expenses.heading = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.claiming_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes ac at ddefnydd personol.  Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd, yswiriant cerbyd a pharcio. Ni allwch hawlio am gostau gyrru nad yw at ddefnydd busnes, dirwyon na theithio rhwng y cartref a’r gwaith.
+sa.expenses.claiming_motoring_expenses.paragraph2 = Mae yna ddwy ffordd o gyfrifo’ch treuliau moduro. Naill ai drwy’r dull costau gwirioneddol, neu drwy’r gyfradd unffurf ar gyfer milltiroedd busnes.
+sa.expenses.claiming_motoring_expenses.paragraph3 = P’un bynnag ddull a ddewiswch, mae’n rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
+sa.expenses.claiming_motoring_expenses.paragraph4 = Os byddwch yn defnyddio’r dull costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’u gwneud yn ystod y flwyddyn dreth berthnasol ac yna cyfrifo pa ganran o’r rheiny oedd ar gyfer defnydd busnes yn unig.
+sa.expenses.claiming_motoring_expenses.paragraph5 = Er enghraifft, os mai chwe mil o bunnoedd (£6,000) oedd cyfanswm y costau rhedeg, ac roedd saith deg pump y cant (75%) o’r milltiroedd ar gyfer defnydd busnes, byddech yn cynnwys pedair mil pum cant o bunnoedd (£4,500) ar eich Ffurflen Dreth Hunanasesiad.
+sa.expenses.claiming_motoring_expenses.paragraph6 = Os ydych yn defnyddio cyfrifyddu traddodiadol a’r dull costau gwirioneddol, gallwch hefyd hawlio Lwfans Cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph7 = Os ydych yn hawlio treuliau gan ddefnyddio’r dull cyfradd unffurf ar gyfer milltiroedd busnes, mae gwybodaeth am y cyfraddau presennol ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph8 = Mae’n rhaid i chi gadw cofnod o sawl milltir busnes rydych yn teithio.
+sa.expenses.claiming_motoring_expenses.paragraph9 = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu nac am unrhyw draul moduro arall.
+sa.expenses.claiming_motoring_expenses.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am dreuliau os ydych yn hunangyflogedig ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-youre-self-employed
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Registering for Self Assessment transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
