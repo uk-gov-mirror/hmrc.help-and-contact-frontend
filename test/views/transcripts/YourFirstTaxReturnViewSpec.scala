@@ -42,43 +42,26 @@ class YourFirstTaxReturnViewSpec extends ViewBehaviours {
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "The tax return due by 31 January 2019 is for the tax year 6 April 2017 to 5 April 2018.",
-        "Self Assessment isn’t just for self-employed people. Everyone who has to complete a tax return must do so, even if " +
-          "there is nothing to pay. You may be charged a penalty if you don’t.",
-        "There’s a useful tool on GOV.UK to help you decide if you need to complete a tax return, and you don’t need to be " +
-          "registered to use it.",
-        "You’ll need to register for Self Assessment by 5 October following the end of the tax year or you may be charged a penalty.",
-        "There’s a short video in this series on how to register.",
-        "Once you’ve registered and activated the online service you’re ready to complete your first Self Assessment tax return.",
-        "All income has to be included when you complete your tax return, so you’ll need your records. These are some of the things " +
-          "you might need.",
-        "There’s more about record keeping on the GOV.UK website.",
-        "Once you have all your information, go to GOV.UK and sign in with the user ID and password you got when you signed up " +
-          "to Self Assessment online.",
-        "There are links to help if you have any problems.",
-        "This first page of the tax return gives information about who can and who can’t use the online service. Most people can.",
-        "Before you fill in your tax return, you’ll be asked to ‘Tell us about you’. You must make an entry at every box unless it " +
-          "shows as being optional.",
-        "Many people are surprised to find the Self Assessment online screens are very user friendly and help you through the process.",
-        "This screen is letting you know the date of birth has been entered incorrectly.",
-        "It is now correct 30/01/1960. You must show four digits for the year, just ‘60’ is not accepted.",
-        "In the next section, you can ‘Tailor your return’. You answer a series of Yes/No questions to ensure that you only fill " +
-          "in what you need.",
-        "If you are unsure about a question, select the ‘?’ at the side. You’ll then find some guidance notes about the question.",
-        "Every time you use the ‘Save and continue’ button, what you have entered has been saved.",
-        "So, you can leave the tax return and come back to it later. This is helpful if you don’t have everything to hand. " +
-          "If you’ve made a mistake, you can also go back and correct it.",
-        "When you have filled in your return, you’ll be asked to check that everything is correct. This confirms what you’ve said " +
-          "you don’t need to fill in and shows a summary of what you have filled in. At this stage you can go back and make changes.",
-        "When you’re sure everything is correct, you can ‘view your calculation’.",
-        "The online tax return works out how much you are due to pay.",
-        "You can then save a copy of your return for your own records.",
-        "Remember to send the return to HMRC. Do this in the ‘submit return’ section. You’ll need your user ID and password to do this.",
-        "You’ll receive a message online, to confirm that HMRC has received your return, when you submit it.",
-        "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "Do you need to complete a Self Assessment tax return?",
+        "To help you find out, you can check on GOV.UK by answering some questions.",
+        "If you do need to complete a tax return, you must do it or you could be fined, even if you don’t owe any tax.",
+        "The tax year ends on the fifth of April and you need to register for Self Assessment by the fifth of October," +
+          " or you could be fined. You can register on GOV.UK – there’s another short video that explains how.",
+        "Your tax return, which covers the tax year that ended in April, is due by the thirty first of January the following year." +
+          " Once you’ve registered and activated your online account, you’re ready to start.",
+        "Make sure you’ve got your information and records to hand, as you’ll need to fill in details of all your income.",
+        "Go to GOV.UK and login with the user ID and password you received when you registered online.",
+        "First, we’ll need some details about you. The online screens will guide you –" +
+          " if you get stuck, there are prompts on screen and links that explain more. " +
+          "For example, if you enter your date of birth the wrong way, the box will light up red.",
+        "In the section called Tailor your return you answer yes or no to a series of questions –" +
+          " this means you only fill in the sections that apply to you. If you’re not sure about a question, click on the question mark for guidance.",
+        "The Save and continue button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.",
+        "When you’ve completed your return, check it through. You can go back if you need to correct anything.",
+        "Use View your calculation to find out if you owe tax and how much.",
+        "Now you can save a copy for your records. In the Submit return section, you’ll need your user ID" +
+          " and password to send it to HMRC. Finally, you’ll get an online message to confirm that we’ve received it.",
+        "To find out more about Self Assessment, watch our other videos and webinars, and visit GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {
