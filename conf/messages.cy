@@ -221,8 +221,7 @@ sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.expenses.title = Treuliau
 sa.expenses.heading = Treuliau
-sa.expenses.expenses_if_you_are_self_employed = Treuliau os ydych yn hunangyflogedig
-sa.expenses.expenses_if_you_apostrophe_re_self_employed = Treuliau os ydych yn hunangyflogedig
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad?
 sa.expenses.you_put_all_of_your_allowable_expenses_ = Rydych yn rhoi’ch treuliau caniataol i gyd ar gyfer y flwyddyn dreth ar eich Ffurflen Dreth Hunanasesiad. Peidiwch ag anfon tystiolaeth o’ch treuliau gyda’ch Ffurflen Dreth. Cadwch hwy fel eich bod yn gallu’u dangos i CThEM, os bydd gofyn i chi wneud hynny.
 sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddio ’Treuliau syml’ i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol. Gallwch ddefnyddio cyfraddau unffurf ar gyfer costau busnes yn achos cerbydau, gweithio o’ch cartref, byw yn safle eich busnes. Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle eich busnes dros y flwyddyn.
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
@@ -653,43 +652,27 @@ yourIncomeFromPropertyTaxReturnTranscript.paragraph30 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses if you are self employed transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.expenses_for_self_employed_transcript.title = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
-sa.expenses.expenses_for_self_employed_transcript.heading = Treuliau os ydych yn hunangyflogedig - trawsgrifiad fideo
-sa.expenses.expenses_for_self_employed_transcript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-sa.expenses.expenses_for_self_employed_transcript.paragraph2 = Os ydych yn hunangyflogedig, bydd gan eich busnes amryw o gostau rhedeg.
-sa.expenses.expenses_for_self_employed_transcript.paragraph3 = Gallwch dynnu rhai o’r costau hyn i gyfrifo’ch elw trethadwy, cyn belled â’u bod yn dreuliau caniataol.
-sa.expenses.expenses_for_self_employed_transcript.paragraph4 = Ni allwch hawlio unrhyw dreuliau os ydych yn defnyddio’r lwfans masnachu rhydd o dreth gwerth £1000. Mae rhagor am hyn yn GOV.UK.
-sa.expenses.expenses_for_self_employed_transcript.paragraph5 = Nid yw treuliau caniataol yn cynnwys arian a ddidynnwch o’ch busnes i dalu am bryniadau preifat.
-sa.expenses.expenses_for_self_employed_transcript.paragraph6 = Hynny yw, nid yw treuliau busnes caniataol yn cynnwys pethau fel llety, bwyd, dillad, gwyliau nac unrhyw bethau eraill rydych yn eu prynu ar eich cyfer chi a’ch teulu.
-sa.expenses.expenses_for_self_employed_transcript.paragraph7 = Mae angen i chi gadw cofnod o’ch holl dreuliau busnes fel tystiolaeth o’ch costau.
-sa.expenses.expenses_for_self_employed_transcript.paragraph8 = Rydych yn ychwanegu’ch holl dreuliau caniataol ar gyfer y flwyddyn dreth a’u rhoi ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.expenses_for_self_employed_transcript.paragraph9 = Peidiwch ag anfon tystiolaeth o’ch treuliau wrth gyflwyno’ch Ffurflen Dreth i CThEM. Cadwch nhw fel y gallwch eu dangos i CThEM, os gofynnir i chi wneud hynny.
-sa.expenses.expenses_for_self_employed_transcript.paragraph10 = Gallwch ddewis defnyddio ‘Treuliau symlach’.
-sa.expenses.expenses_for_self_employed_transcript.paragraph11 = Mae hon yn ffordd o gyfrifo rhai o’r treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol.
-sa.expenses.expenses_for_self_employed_transcript.paragraph12 = Nid oes rhaid i chi wneud hyn. Gallwch benderfynu a yw hyn yn gweddu i’ch busnes.
-sa.expenses.expenses_for_self_employed_transcript.paragraph13 = Ni all treuliau symlach gael eu defnyddio gan gwmnïau cyfyngedig na phartneriaethau busnes sy’n cynnwys cwmni cyfyngedig.
-sa.expenses.expenses_for_self_employed_transcript.paragraph14 = Gallwch ddefnyddio cyfraddau unffurf ar gyfer y canlynol:
-sa.expenses.expenses_for_self_employed_transcript.para14bullet1 = costau busnes ar gyfer cerbydau
-sa.expenses.expenses_for_self_employed_transcript.para14bullet2 = gweithio o’ch cartref
-sa.expenses.expenses_for_self_employed_transcript.para14bullet3 = byw yn eich safle busnes
-sa.expenses.expenses_for_self_employed_transcript.paragraph15 = Cadwch gofnod o’ch milltiroedd busnes ar gyfer cerbydau, yr oriau rydych yn gweithio gartref a faint o bobl sy’n byw yn safle’ch busnes dros y flwyddyn.
-sa.expenses.expenses_for_self_employed_transcript.paragraph16 = Yna, ar ddiwedd y flwyddyn, defnyddiwch y gyfradd unffurf i gyfrifo’ch treuliau a chynhwyswch y symiau yn eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.expenses_for_self_employed_transcript.paragraph17 = Cewch ragor o wybodaeth am hyn ar wefan GOV.UK.
-sa.expenses.expenses_for_self_employed_transcript.paragraph18 = Am dreuliau eraill, ac os penderfynwch beidio â defnyddio treuliau symlach, cadwch gofnodion cywir o’r hyn rydych yn ei brynu a’r costau.
-sa.expenses.expenses_for_self_employed_transcript.paragraph19 = Dyma rai treuliau busnes cyffredin:
-sa.expenses.expenses_for_self_employed_transcript.para19bullet1 = eiddo ac offer ar gyfer y swyddfa
-sa.expenses.expenses_for_self_employed_transcript.para19bullet2 = ceir, faniau a theithio
-sa.expenses.expenses_for_self_employed_transcript.para19bullet3 = staff
-sa.expenses.expenses_for_self_employed_transcript.para19bullet4 = costau cyfreithiol ac ariannol
-sa.expenses.expenses_for_self_employed_transcript.para19bullet5 = marchnata a thanysgrifiadau
-sa.expenses.expenses_for_self_employed_transcript.paragraph20 = Ar gyfer blwyddyn dreth 2017-18, os yw’ch incwm busnes yn £85,000 neu fwy, mae angen i chi nodi bob traul o dan y pennawd priodol.
-sa.expenses.expenses_for_self_employed_transcript.paragraph21 = Os na wnaethoch fasnachu am flwyddyn lawn, ond y byddai’ch incwm wedi bod dros £85,000 pe baech wedi gwneud hynny, mae angen i chi nodi bob traul yn yr un ffordd.
-sa.expenses.expenses_for_self_employed_transcript.paragraph22 = Er enghraifft:
-sa.expenses.expenses_for_self_employed_transcript.paragraph23 = Os gwnaethoch fasnachu o fis Hydref i fis Ebrill, (hynny yw chwe mis), a’ch incwm busnes oedd £50,000, yna byddai’ch incwm busnes am 12 mis llawn wedi bod yn £100,000.
-sa.expenses.expenses_for_self_employed_transcript.paragraph24 = Os yw’ch incwm busnes yn is na £85,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.expenses_for_self_employed_transcript.paragraph25 = Cewch ragor o help a chymorth ar GOV.UK.
-sa.expenses.expenses_for_self_employed_transcript.paragraph26 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-sa.expenses.expenses_for_self_employed_transcript.paragraph27 = Diolch am wylio.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.title = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.heading = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph1 = Rydych yn hunangyflogedig sy’n golygu bod gennych gostau hanfodol er mwyn cadw’ch busnes i redeg. Gallwch ddidynnu’r costau hyn, a elwir yn dreuliau caniataol, er mwyn cyfrifo’ch elw trethadwy.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph2 = Ond cofiwch os ydych yn defnyddio’r lwfans masnachu rhydd o dreth gwerth mil o bunnoedd, ni allwch hawlio unrhyw dreuliau.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph3 = Gallai treuliau a ganiateir cynnwys:
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet1 = eiddo ac offer ar gyfer y swyddfa
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet2 = teithio, gan gynnwys ceir a faniau
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet3 = staff
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet4 = unrhyw gostau cyfreithiol ac ariannol
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet5 = a hefyd marchnata a thanysgrifiadau.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph4 = Ni allwch hawlio ar gyfer unrhyw beth rydych yn ei wario ar bethau personol fel:
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet1 = eich cartref a’ch llety
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet2 = bwyd
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet3 = dillad
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet4 = gwyliau
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bullet5 = ac unrhyw beth rydych yn ei brynu ar eich cyfer chi a’ch teulu.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph5 = Efallai y byddwch eisiau defnyddio treuliau symlach - mae hyn yn golygu eich bod yn hawlio ar gyfradd unffurf yn lle cyfrifo’r costau gwirioneddol. Er enghraifft, ar gyfer teithio gyda char gallwch hawlio 45 ceiniog y filltir am hyd at 10,000 o filltiroedd ac wedyn 25 ceiniog y filltir dros y swm hwn.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph6 = Os yw’ch incwm yn wyth deg pum mil o bunnoedd neu’n fwy, bydd angen i chi restru pob traul yn unigol o dan y pennawd priodol. Mae hyn hefyd yn gymwys os na wnaethoch fasnachu am flwyddyn lawn, ond byddech wedi ennill y swm hwn neu fwy petaech wedi gwneud hynny - er enghraifft, pum deg mil o bunnoedd oedd eich incwm am chwe mis - felly mewn 12 mis byddai wedi bod yn gan mil o bunnoedd.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph7 = Os yw’ch incwm yn llai nag wyth deg pum mil o bunnoedd, eich penderfyniad chi yw p’un a ydych yn rhoi gwybod i ni ai peidio am gyfanswm eich treuliau neu’n eu rhestru’n unigol.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = Mae’n bwysig eich bod yn cadw cofnodion a thystiolaeth o’r costau busnes y bydd angen i chi eu cyflwyno er mwyn llenwi’ch Ffurflen Dreth Hunanasesiad. Weithiau byddwn yn gofyn am gael eu gweld ond peidiwch â’u hanfon gyda’ch Ffurflen Dreth.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = I gael rhagor o wybodaeth am dreuliau a ganiateir, gan gynnwys treuliau symlach, ewch i GOV.UK.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
