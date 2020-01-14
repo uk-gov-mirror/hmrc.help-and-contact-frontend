@@ -12,6 +12,7 @@ site.yes = Yes
 site.continue = Parhau
 site.service_name = Cyfrif treth busnes
 site.signout = Allgofnodi
+site.service_title = {0} - Cyfrif treth busnes - GOV.UK
 
 unauthorised.title = Ni allwch weld y dudalen hon
 unauthorised.heading = Ni allwch weld y dudalen hon
@@ -22,7 +23,7 @@ unauthorised.correctid = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda’r Dyn
 ### Help and Contact main
 ########################################################################################################################
 
-help_and_contact.title = Cymorth a chysylltu - Cyfrif treth busnes
+help_and_contact.title = Cymorth a chysylltu
 help_and_contact.heading = Cymorth a chysylltu
 help_and_contact.self_assessment = Hunanasesiad
 help_and_contact.vat = TAW
