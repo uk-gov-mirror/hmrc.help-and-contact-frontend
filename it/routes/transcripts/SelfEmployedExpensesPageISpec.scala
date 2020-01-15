@@ -9,7 +9,11 @@ import support.stubs.StubAuth.mockAuthorised
 import support.stubs.StubBta.mockGetServiceInfo
 import support.{HttpRequest, IntegrationTest}
 
-class SelfEmployedExpensesPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen with IntegrationTest {
+class SelfEmployedExpensesPageISpec
+    extends FeatureSpec
+    with MustMatchers
+    with GivenWhenThen
+    with IntegrationTest {
 
   feature("Expenses if you're self employed  page") {
     scenario("loads correctly") {
@@ -20,7 +24,8 @@ class SelfEmployedExpensesPageISpec extends FeatureSpec with MustMatchers with G
       mockGetServiceInfo()
 
       When("Expenses if you're self employed  page is called")
-      val result: WSResponse = HttpRequest.get("/transcript/expenses-if-you-are-self-employed")
+      val result: WSResponse =
+        HttpRequest.get("/transcript/expenses-if-you-are-self-employed")
 
       Then("we get an OK response")
       result.status mustBe OK
@@ -29,7 +34,9 @@ class SelfEmployedExpensesPageISpec extends FeatureSpec with MustMatchers with G
       val doc: Document = result.bodyAsDom
 
       // todo add an id to the page for test purposes instead of using content
-      doc.getElementsByTag("h1").text() mustBe "Expenses if you’re self-employed - video transcript"
+      doc
+        .getElementsByTag("h1")
+        .text() mustBe "What expenses can I include in my Self Assessment tax return - video transcript"
     }
   }
 
