@@ -9,7 +9,11 @@ import support.stubs.StubAuth.mockAuthorised
 import support.stubs.StubBta.mockGetServiceInfo
 import support.{HttpRequest, IntegrationTest}
 
-class CalculatingMotoringExpensesPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen with IntegrationTest {
+class CalculatingMotoringExpensesPageISpec
+    extends FeatureSpec
+    with MustMatchers
+    with GivenWhenThen
+    with IntegrationTest {
 
   feature("Calculating motoring expenses page") {
     scenario("loads correctly") {
@@ -20,7 +24,8 @@ class CalculatingMotoringExpensesPageISpec extends FeatureSpec with MustMatchers
       mockGetServiceInfo()
 
       When("Calculating motoring expenses page is called")
-      val result: WSResponse = HttpRequest.get("/transcript/calculating-motoring-expenses")
+      val result: WSResponse =
+        HttpRequest.get("/transcript/calculating-motoring-expenses")
 
       Then("we get an OK response")
       result.status mustBe OK
@@ -29,7 +34,9 @@ class CalculatingMotoringExpensesPageISpec extends FeatureSpec with MustMatchers
       val doc: Document = result.bodyAsDom
 
       // todo add an id to the page for test purposes instead of using content
-      doc.getElementsByTag("h1").text() mustBe "Calculating motoring expenses - video transcript"
+      doc
+        .getElementsByTag("h1")
+        .text() mustBe "Claiming motoring expenses if you’re self-employed - video transcript"
     }
   }
 
