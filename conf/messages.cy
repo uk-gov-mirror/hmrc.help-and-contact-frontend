@@ -227,7 +227,7 @@ sa.expenses.you_can_choose_to_use_simplified_expenses_ = Gallwch ddewis defnyddi
 sa.expenses.simplified_expenses_cannot_be_used_ = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
 sa.expenses.if_you_do_not_use_simplified_expenses_ = Os na fyddwch yn defnyddio treuliau symlach ac os yw’ch incwm busnes yn £85,000 neu fwy, mae angen i chi nodi bob traul.
 sa.expenses.if_your_business_income_is_below_ = Os yw eich incwm busnes yn is na £85,000 am y flwyddyn lawn, gallwch barhau i restru’ch treuliau, ond gallwch hefyd ddewis eu hychwanegu at ei gilydd a’u dangos fel cyfanswm ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.calculating_motoring_expenses = Cyfrifo treuliau moduro
+sa.expenses.claiming_motoring_expenses = Hawlio treuliau moduro os ydych yn hunangyflogedig
 sa.expenses.you_can_claim_business_expenses_for_ = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd. Ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
@@ -674,30 +674,21 @@ sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = Mae’n bwysig eich bod yn cadw cofnodion a thystiolaeth o’r costau busnes y bydd angen i chi eu cyflwyno er mwyn llenwi’ch Ffurflen Dreth Hunanasesiad. Weithiau byddwn yn gofyn am gael eu gweld ond peidiwch â’u hanfon gyda’ch Ffurflen Dreth.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = I gael rhagor o wybodaeth am dreuliau a ganiateir, gan gynnwys treuliau symlach, ewch i GOV.UK.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Calculating motoring expenses transcript
+#~~ Claiming motoring expenses if you're self-employed transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.expenses.calculating_motoring_expenses.title = Cyfrifo treuliau moduro - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.heading = Cyfrifo treuliau moduro - trawsgrifiad fideo
-sa.expenses.calculating_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes a phersonol.
-sa.expenses.calculating_motoring_expenses.paragraph2 = Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd ac yswiriant cerbyd.
-sa.expenses.calculating_motoring_expenses.paragraph3 = Ond ni allwch hawlio am yrru nad yw at ddefnydd busnes, nac am ddirwyon na theithio rhwng y cartref a’r gwaith.
-sa.expenses.calculating_motoring_expenses.paragraph4 = Mae dwy ffordd o gyfrifo’ch treuliau moduro: defnyddio’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes.
-sa.expenses.calculating_motoring_expenses.paragraph5 = Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
-sa.expenses.calculating_motoring_expenses.paragraph6 = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn.
-sa.expenses.calculating_motoring_expenses.paragraph7 = Yna, cyfrifwch pa ganran oedd at ddiben busnes.
-sa.expenses.calculating_motoring_expenses.paragraph8 = Er enghraifft, os oedd defnydd busnes yn gyfrifol am 75% o’ch defnydd o’r cerbyd, a chyfanswm eich costau rhedeg yw £6,000, yna’r defnydd busnes fyddai £4,500 - a dyma’r ffigur i’w gynnwys ar eich Ffurflen Dreth Hunanasesiad.
-sa.expenses.calculating_motoring_expenses.paragraph9 = Os ydych yn defnyddio’r dull costau gwirioneddol, gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd ei hun.
-sa.expenses.calculating_motoring_expenses.paragraph10 = Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar wefan GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph11 = Fel arall, gallwch hawlio treuliau gan ddefnyddio cyfradd unffurf ar gyfer milltiroedd busnes.
-sa.expenses.calculating_motoring_expenses.paragraph12 = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu.
-sa.expenses.calculating_motoring_expenses.paragraph13 = Gallwch ddod o hyd i’r cyfraddau unffurf presennol ar GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph14 = Bydd yn rhaid i chi gadw cofnod o sawl milltir busnes rydych yn teithio.
-sa.expenses.calculating_motoring_expenses.paragraph15 = Cofiwch, unwaith y byddwch yn dechrau defnyddio’r dull cyfradd unffurf ar gyfer cerbyd, ni allwch newid i’r dull costau gwirioneddol. Serch hynny, gallwch ddefnyddio’r dull costau gwirioneddol ar gyfer cerbyd gwahanol.
-sa.expenses.calculating_motoring_expenses.paragraph16 = Mae yna wiriwr ar GOV.UK i weld pa ddull sydd orau i chi. Defnyddiwch y cysylltiad ar ddiwedd y fideo hwn i fynd ato.
-sa.expenses.calculating_motoring_expenses.paragraph17 = Cewch ragor o help a chefnogaeth ar GOV.UK.
-sa.expenses.calculating_motoring_expenses.paragraph18 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-sa.expenses.calculating_motoring_expenses.paragraph19 = Diolch am wylio.
-
+sa.expenses.claiming_motoring_expenses.title = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.claiming_motoring_expenses.heading = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
+sa.expenses.claiming_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes ac at ddefnydd personol.  Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd, yswiriant cerbyd a pharcio. Ni allwch hawlio am gostau gyrru nad yw at ddefnydd busnes, dirwyon na theithio rhwng y cartref a’r gwaith.
+sa.expenses.claiming_motoring_expenses.paragraph2 = Mae yna ddwy ffordd o gyfrifo’ch treuliau moduro. Naill ai drwy’r dull costau gwirioneddol, neu drwy’r gyfradd unffurf ar gyfer milltiroedd busnes.
+sa.expenses.claiming_motoring_expenses.paragraph3 = P’un bynnag ddull a ddewiswch, mae’n rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
+sa.expenses.claiming_motoring_expenses.paragraph4 = Os byddwch yn defnyddio’r dull costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’u gwneud yn ystod y flwyddyn dreth berthnasol ac yna cyfrifo pa ganran o’r rheiny oedd ar gyfer defnydd busnes yn unig.
+sa.expenses.claiming_motoring_expenses.paragraph5 = Er enghraifft, os mai chwe mil o bunnoedd (£6,000) oedd cyfanswm y costau rhedeg, ac roedd saith deg pump y cant (75%) o’r milltiroedd ar gyfer defnydd busnes, byddech yn cynnwys pedair mil pum cant o bunnoedd (£4,500) ar eich Ffurflen Dreth Hunanasesiad.
+sa.expenses.claiming_motoring_expenses.paragraph6 = Os ydych yn defnyddio cyfrifyddu traddodiadol a’r dull costau gwirioneddol, gallwch hefyd hawlio Lwfans Cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph7 = Os ydych yn hawlio treuliau gan ddefnyddio’r dull cyfradd unffurf ar gyfer milltiroedd busnes, mae gwybodaeth am y cyfraddau presennol ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph8 = Mae’n rhaid i chi gadw cofnod o sawl milltir busnes rydych yn teithio.
+sa.expenses.claiming_motoring_expenses.paragraph9 = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu nac am unrhyw draul moduro arall.
+sa.expenses.claiming_motoring_expenses.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am dreuliau os ydych yn hunangyflogedig ar GOV.UK.
+sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-youre-self-employed
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Registering for Self Assessment transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

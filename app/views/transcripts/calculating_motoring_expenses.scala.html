@@ -19,15 +19,24 @@
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
 @main_template(
-  Messages("sa.expenses.calculating_motoring_expenses.title"),
+  Messages("sa.expenses.claiming_motoring_expenses.title"),
   appConfig = appConfig,
   bodyClasses = None,
   serviceInfoContent = serviceInfoContent
 ) {
 
-  <h1 id="calculating-motoring-expenses-video-transcript" class="heading-xlarge">@Messages("sa.expenses.calculating_motoring_expenses.heading")</h1>
+  <h1 id="calculating-motoring-expenses-video-transcript" class="heading-xlarge">@Messages("sa.expenses.claiming_motoring_expenses.heading")</h1>
 
-    @for(i <- 1 to 19) {
-        <p>@messages(s"sa.expenses.calculating_motoring_expenses.paragraph$i")</p>
-    }
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph1")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph2")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph3")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph4")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph5")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph6")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph7")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph8")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph9")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph10")</p>
+  <p>@messages("sa.expenses.claiming_motoring_expenses.paragraph11")</p>
+
 }
