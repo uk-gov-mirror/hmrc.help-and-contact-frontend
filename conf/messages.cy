@@ -13,7 +13,7 @@ site.continue = Parhau
 site.service_name = Cyfrif treth busnes
 site.signout = Allgofnodi
 site.service_title = {0} - Cyfrif treth busnes - GOV.UK
-site.language_switcher = language-switcher
+site.language_switcher = switcher iaith
 
 unauthorised.title = Ni allwch weld y dudalen hon
 unauthorised.heading = Ni allwch weld y dudalen hon
