@@ -13,7 +13,7 @@ site.continue = Continue
 site.service_name = Business tax account
 site.signout = Sign out
 site.service_title = {0} - Business tax account - GOV.UK
-
+site.language_switcher = language-switcher
 
 unauthorised.title = You can’t see this page
 unauthorised.heading = You can’t see this page
