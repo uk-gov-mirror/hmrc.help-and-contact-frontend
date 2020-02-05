@@ -25,7 +25,10 @@ import play.api.i18n.{Messages, MessagesApi}
 import play.twirl.api.Html
 import views.html.components.error_summary
 
-class ErrorSummarySpec extends WordSpec with MustMatchers with GuiceOneAppPerSuite {
+class ErrorSummarySpec
+    extends WordSpec
+    with MustMatchers
+    with GuiceOneAppPerSuite {
 
   implicit lazy val messages: Messages =
     app.injector.instanceOf[MessagesApi].preferred(Seq.empty)
@@ -40,7 +43,6 @@ class ErrorSummarySpec extends WordSpec with MustMatchers with GuiceOneAppPerSui
       val summaryDiv = doc.select("div.error-summary")
 
       summaryDiv.attr("role") mustBe "alert"
-      summaryDiv.attr("aria-labelledby") mustBe "error-summary-heading"
     }
 
     "include heading with heading text and error messages" in {
