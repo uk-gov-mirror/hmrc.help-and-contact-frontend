@@ -24,7 +24,12 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "vat.register_or_deregister"
 
-  def createView = () => register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages
+    )
 
   "Register or Deregister for VAT view" must {
 
@@ -32,27 +37,35 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
     "contain correct content" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").first().text() mustBe "Register or deregister for VAT"
+      doc
+        .getElementsByTag("h1")
+        .first()
+        .text() mustBe "Register or deregister for VAT"
     }
 
     "contain the 'register online' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc,
+      assertLinkById(
+        doc,
         "register-for-vat",
         "register online",
         "https://online.hmrc.gov.uk/registration/newbusiness/business-allowed",
-        expectedGAEvent = "link - click:Register or deregister for VAT:register online")
+        expectedGAEvent =
+          "link - click:Register or deregister for VAT:register online"
+      )
     }
 
     "contain the 'cancel your registration' link" in {
       val doc = asDocument(createView())
-      assertLinkById(doc,
+      assertLinkById(
+        doc,
         "cancel-vat-registration",
         "cancel your registration",
         "https://www.gov.uk/vat-registration/cancel-registration",
-        expectedGAEvent = "link - click:Register or deregister for VAT:cancel your registration")
+        expectedGAEvent =
+          "link - click:Register or deregister for VAT:cancel your registration"
+      )
     }
-
   }
 
 }
