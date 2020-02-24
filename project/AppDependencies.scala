@@ -1,7 +1,6 @@
 import sbt.Tests.{Group, SubProcess}
 import sbt._
 
-
 private object AppDependencies {
 
   import play.core.PlayVersion
@@ -54,9 +53,7 @@ private object AppDependencies {
 
   def test(): Seq[ModuleID] = {
     val scope: String = "test"
-    Seq(
-      "org.mockito" % "mockito-all" % mockitoAllVersion % scope
-    )
+    Seq("org.mockito" % "mockito-all" % mockitoAllVersion % scope)
   }
 
   def integrationTest(): Seq[ModuleID] = {
@@ -64,14 +61,18 @@ private object AppDependencies {
     Seq("com.github.tomakehurst" % "wiremock-jre8" % wiremockVersion % scope)
   }
 
-  def apply(): Seq[ModuleID] = compile ++ testCommon() ++ test() ++ integrationTest()
+  def apply(): Seq[ModuleID] =
+    compile ++ testCommon() ++ test() ++ integrationTest()
 
 }
 
-
 object TestPhases {
   def oneForkedJvmPerTest(tests: Seq[TestDefinition]): Seq[Group] =
-    tests map {
-      test => new Group(test.name, Seq(test), SubProcess(ForkOptions(runJVMOptions = Seq("-Dtest.name=" + test.name))))
+    tests map { test =>
+      new Group(
+        test.name,
+        Seq(test),
+        SubProcess(ForkOptions(runJVMOptions = Seq("-Dtest.name=" + test.name)))
+      )
     }
 }

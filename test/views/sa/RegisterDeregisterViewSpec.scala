@@ -24,7 +24,12 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "self_assessment.register_deregister"
 
-  def createView = () => register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      register_deregister(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages
+    )
 
   "RegisterDeregisterSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)
@@ -36,7 +41,10 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
 
     "contain correct content" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").first().text() mustBe "Register or deregister for Self Assessment"
+      doc
+        .getElementsByTag("h1")
+        .first()
+        .text() mustBe "Register or deregister for Self Assessment"
     }
 
     "have a h2 heading of 'Registering for Self Assessment'" in {
@@ -46,9 +54,11 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
 
     "contain You must register to file " in {
       val doc = asDocument(createView())
-      doc.text() must include("You must register to file a Self Assessment tax return within 6 months of the end of the tax year when" +
-        " you became self-employed or received income that you need to pay tax on. A tax year ends on 5 April. " +
-        "If you do not register, you could be fined.")
+      doc.text() must include(
+        "You must register to file a Self Assessment tax return within 6 months of the end of the tax year when" +
+          " you became self-employed or received income that you need to pay tax on. A tax year ends on 5 April. " +
+          "If you do not register, you could be fined."
+      )
     }
 
     "have a h2 heading of 'If you have sent tax returns before'" in {
@@ -58,29 +68,39 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
 
     "contain 'If you have sent tax returns before'" in {
       val doc = asDocument(createView())
-      doc.text() must include("If you have sent tax returns before you will need your 10-digit Unique Taxpayer Reference or UTR. " +
-        "You will also be able to use an online account you previously set up to file your tax return but you still need to register.")
+      doc.text() must include(
+        "If you have sent tax returns before you will need your 10-digit Unique Taxpayer Reference or UTR. " +
+          "You will also be able to use an online account you previously set up to file your tax return but you still need to register."
+      )
     }
 
     "have a h2 heading of 'Register if you are self-employed and you have sent a tax return before'" in {
       val doc = asDocument(createView())
-      doc.text() must include("Register if you are self-employed and you have sent a tax return before")
+      doc.text() must include(
+        "Register if you are self-employed and you have sent a tax return before"
+      )
     }
 
     "contain 'You will need to find your 10-digit Unique Taxpayer Reference" in {
       val doc = asDocument(createView())
-      doc.text() must include("You will need to find your 10-digit Unique Taxpayer Reference (UTR) from when you registered for Self Assessment previously.")
+      doc.text() must include(
+        "You will need to find your 10-digit Unique Taxpayer Reference (UTR) from when you registered for Self Assessment previously."
+      )
     }
 
     "have a h2 heading of 'Register if you are self-employed and you have not sent a tax return before'" in {
       val doc = asDocument(createView())
-      doc.text() must include("Register if you are self-employed and you have not sent a tax return before")
+      doc.text() must include(
+        "Register if you are self-employed and you have not sent a tax return before"
+      )
     }
 
     "contain 'You will get a letter within 10 working days'" in {
       val doc = asDocument(createView())
-      doc.text() must include("You will get a letter within 10 working days (21 if you are abroad) with your Unique Taxpayer Reference (UTR). " +
-        "You will need this to enrol for Self Assessment online services so you can file your return online.")
+      doc.text() must include(
+        "You will get a letter within 10 working days (21 if you are abroad) with your Unique Taxpayer Reference (UTR). " +
+          "You will need this to enrol for Self Assessment online services so you can file your return online."
+      )
     }
 
     "have a h2 heading of 'Activate your online account'" in {
@@ -90,16 +110,20 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
 
     "contain 'You will get an activation code in the post within 10 working days'" in {
       val doc = asDocument(createView())
-      doc.text() must include("You will get an activation code in the post within 10 working days of enrolling (21 if you are abroad). " +
-        "You will need this when you first log in to your online account. " +
-        "You can replace an activation code if you do not receive it or you lose it.")
+      doc.text() must include(
+        "You will get an activation code in the post within 10 working days of enrolling (21 if you are abroad). " +
+          "You will need this when you first log in to your online account. " +
+          "You can replace an activation code if you do not receive it or you lose it."
+      )
     }
 
     "contain 'You will then need to create a Government'" in {
       val doc = asDocument(createView())
-      doc.text() must include("You will then need to create a Government Gateway account. " +
-        "Enter your personal details and create a password. A User ID is given on-screen. " +
-        "Keep this safe along with your password as you will need them whenever you sign in online.")
+      doc.text() must include(
+        "You will then need to create a Government Gateway account. " +
+          "Enter your personal details and create a password. A User ID is given on-screen. " +
+          "Keep this safe along with your password as you will need them whenever you sign in online."
+      )
     }
 
     "have correct links" in {
@@ -109,18 +133,22 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
         "stop-self-assessment",
         "tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.",
         "http://localhost:9020/business-account/self-assessment/stop",
-        "link - click:Register or deregister for Self Assessment:tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more.")
+        "link - click:Register or deregister for Self Assessment:tell HM Revenue and Customs (HMRC) if you do not think you need to file tax returns any more."
+      )
       assertLinkById(
         doc,
         "registering-for-self-assessment-transcript",
         "Registering for Self Assessment - video transcript",
         "/business-account/help/transcript/registering-for-self-assessment",
-        "link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video transcript")
+        "link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video transcript"
+      )
     }
 
     "have youtube url in html for embedded video" in {
       val doc = asDocument(createView())
-      doc.toString must include(s"https://www.youtube.com/embed/9dWawO6gdT8?autoplay=0")
+      doc.toString must include(
+        s"https://www.youtube.com/embed/vZmQ9Nyle5U?autoplay=0"
+      )
     }
   }
 }

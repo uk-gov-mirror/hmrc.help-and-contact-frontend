@@ -1,4 +1,3 @@
-import TestPhases._
 import com.typesafe.sbt.digest.Import._
 import com.typesafe.sbt.uglify.Import._
 import com.typesafe.sbt.web.Import._
@@ -7,7 +6,7 @@ import play.sbt.routes.RoutesKeys
 import sbt.Keys._
 import sbt._
 import scoverage.ScoverageKeys
-import uk.gov.hmrc.DefaultBuildSettings.{addTestReportOption, defaultSettings, scalaSettings}
+import uk.gov.hmrc.DefaultBuildSettings._
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin._
 import uk.gov.hmrc.versioning.SbtGitVersioning
@@ -21,7 +20,15 @@ lazy val plugins: Seq[Plugins] = Seq.empty
 lazy val playSettings: Seq[Setting[_]] = Seq.empty
 
 lazy val microservice = Project(appName, file("."))
-  .enablePlugins(Seq(play.sbt.PlayScala, SbtAutoBuildPlugin, SbtGitVersioning, SbtDistributablesPlugin, SbtArtifactory) ++ plugins: _*)
+  .enablePlugins(
+    Seq(
+      play.sbt.PlayScala,
+      SbtAutoBuildPlugin,
+      SbtGitVersioning,
+      SbtDistributablesPlugin,
+      SbtArtifactory
+    ) ++ plugins: _*
+  )
   .settings(playSettings: _*)
   .settings(RoutesKeys.routesImport ++= Seq("models._"))
   .settings(
@@ -39,27 +46,41 @@ lazy val microservice = Project(appName, file("."))
   .settings(
     scalacOptions ++= Seq("-Xfatal-warnings", "-feature"),
     libraryDependencies ++= appDependencies,
+    PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    evictionWarningOptions in update := EvictionWarningOptions.default.withWarnScalaVersionEviction(false),
+    evictionWarningOptions in update := EvictionWarningOptions.default
+      .withWarnScalaVersionEviction(false),
     scalaVersion := "2.11.12"
   )
   .configs(IntegrationTest)
   .settings(inConfig(IntegrationTest)(Defaults.itSettings): _*)
   .settings(
     fork in IntegrationTest := true,
-    unmanagedSourceDirectories in IntegrationTest := ((baseDirectory in IntegrationTest) (base => Seq(base / "it"))).value,
+    unmanagedSourceDirectories in IntegrationTest := ((baseDirectory in IntegrationTest)(
+      base => Seq(base / "it")
+    )).value,
     addTestReportOption(IntegrationTest, "int-test-reports"),
-    testGrouping in IntegrationTest := oneForkedJvmPerTest((definedTests in IntegrationTest).value),
-    parallelExecution in IntegrationTest := false)
-  .settings(resolvers ++= Seq(
-    Resolver.bintrayRepo("hmrc", "releases"),
-    Resolver.jcenterRepo,
-    Resolver.bintrayRepo("emueller", "maven")
-  ))
+    testGrouping in IntegrationTest := TestPhases.oneForkedJvmPerTest(
+      (definedTests in IntegrationTest).value
+    ),
+    parallelExecution in IntegrationTest := false
+  )
+  .settings(
+    resolvers ++= Seq(
+      Resolver.bintrayRepo("hmrc", "releases"),
+      Resolver.jcenterRepo,
+      Resolver.bintrayRepo("emueller", "maven")
+    )
+  )
   .settings(
     // concatenate js
     Concat.groups := Seq(
-      "javascripts/helpandcontactfrontend-app.js" -> group(Seq("javascripts/show-hide-content.js", "javascripts/helpandcontactfrontend.js"))
+      "javascripts/helpandcontactfrontend-app.js" -> group(
+        Seq(
+          "javascripts/show-hide-content.js",
+          "javascripts/helpandcontactfrontend.js"
+        )
+      )
     ),
     // prevent removal of unused code which generates warning errors due to use of third-party libs
     UglifyKeys.compressOptions := Seq("unused=false", "dead_code=false"),

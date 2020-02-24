@@ -698,32 +698,17 @@ sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-your
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 registering.for.self.assessment.transcript.title = Registering for Self Assessment - video transcript
 registering.for.self.assessment.transcript.heading = Registering for Self Assessment - video transcript
-registering.for.self.assessment.transcript.paragraph1 = One of a series of videos about online Self Assessment tax returns.
-registering.for.self.assessment.transcript.paragraph2 = If you need to complete a tax return, you’ll need to register with HMRC.
-registering.for.self.assessment.transcript.paragraph3 = If you’re self-employed you need to register for Self Assessment and Class 2 National Insurance if any of these apply.
-registering.for.self.assessment.transcript.paragraph4 = You need to do this as soon as possible once you know you need to fill in a tax return, even if you’ve completed tax returns before, but no later than 5 October after the end of the tax year.
-registering.for.self.assessment.transcript.paragraph5 = If you need to complete a tax return for another reason, you must register by 5 October following the end of the tax year.
-registering.for.self.assessment.transcript.paragraph6 = If you don’t register on time, you could be fined.
-registering.for.self.assessment.transcript.paragraph7 = How you register depends on why you need to complete a tax return.
-registering.for.self.assessment.transcript.paragraph8 = If you’ve sent tax returns before, but didn’t have to send one last year, you still need to register.
-registering.for.self.assessment.transcript.paragraph9 = You’ll need your 10-digit Unique Taxpayer Reference or UTR from before and once you’re registered, you’ll also be able to use an online account you previously set up to file your tax return.
-registering.for.self.assessment.transcript.paragraph10 = To register if you’re not self-employed select register now.
-registering.for.self.assessment.transcript.paragraph11 = You use form SA1. There are two versions available.
-registering.for.self.assessment.transcript.paragraph12 = The first and quickest is designed to be filled in and sent online, and the second which is designed to be completed online, printed and posted to HMRC.
-registering.for.self.assessment.transcript.paragraph13 = If you’ve not sent a return before, you’ll receive a letter within 14 days with your Unique Taxpayer reference (UTR).
-registering.for.self.assessment.transcript.paragraph14 = You’ll then need to create a new account. Follow the guidance and enrol for Self Assessment online services using your UTR.
-registering.for.self.assessment.transcript.paragraph15 = During the process you’ll create a password and a User ID is given on-screen. Keep these safe as you’ll need them whenever you sign in online.
-registering.for.self.assessment.transcript.paragraph16 = Lastly you’ll need to activate the service using the code sent in the post within a further 2 weeks. You won’t need to do this again.
-registering.for.self.assessment.transcript.paragraph17 = When you’re self-employed the process is slightly different. If you’ve sent a return before you register online using form CWF1.
-registering.for.self.assessment.transcript.paragraph18 = You need your UTR from before, complete your personal details and details of the business. Once you’ve checked the details on the next page you can submit online.
-registering.for.self.assessment.transcript.paragraph19 = If you haven’t sent a return before, you still register online but you’ll create your government gateway account and be enrolled for the online service at the same time.
-registering.for.self.assessment.transcript.paragraph20 = You’ll receive a letter with your UTR and your activation code within 2 weeks so you can activate your online service when you first log in.
-registering.for.self.assessment.transcript.paragraph21 = To register as a partner in a partnership you use form SA401. There are two versions one to submit online and the other to fill in, print and post.
-registering.for.self.assessment.transcript.paragraph22 = You’ll need the UTR for the Partnership as well as your own UTR if you already have one.
-registering.for.self.assessment.transcript.paragraph23 = If it’s a new partnership the ‘nominated partner’ will also have to register the partnership. Just follow the online guidance.
-registering.for.self.assessment.transcript.paragraph24 = You’ll find more help and support on GOV.UK.
-registering.for.self.assessment.transcript.paragraph25 = Webinars and other videos about Self Assessment are available from HMRC.
-registering.for.self.assessment.transcript.paragraph26 = Thanks for watching.
+registering.for.self.assessment.transcript.paragraph1 = You’ll need to register for Self Assessment if you’re self- employed, and in some cases when you’re not self-employed. For example, because you’re a partner in a partnership – or another reason such as lump sum. Here we’ll explain the different ways to register.
+registering.for.self.assessment.transcript.paragraph2 = If you’re self-employed or a sole trader, you’ll need to register:
+registering.for.self.assessment.transcript.paragraph3 = if your turnover is more than a thousand pounds in a tax year
+registering.for.self.assessment.transcript.paragraph4 = to prove you’re self-employed,
+registering.for.self.assessment.transcript.paragraph5 = or to pay voluntary Class 2 National Insurance contributions.
+registering.for.self.assessment.transcript.paragraph6 = If you’ve sent a tax return to us before, you can use your existing Unique Taxpayer Reference, or UTR, and register using form CWF1.
+registering.for.self.assessment.transcript.paragraph7 = If not, you’ll need to create a Government Gateway account on GOV.UK so that you can automatically register for Self Assessment. You’ll receive a letter with your UTR within 10 days, and another letter a few days later with a code to activate your online service.
+registering.for.self.assessment.transcript.paragraph8 = Partnerships must be registered by a nominated partner – but each partner needs to register individually as well, using the partnership’s UTR.
+registering.for.self.assessment.transcript.paragraph9 = If you’re not self-employed but need to send us a tax return, you can use your existing UTR and online account to submit it.
+registering.for.self.assessment.transcript.paragraph10 = If you haven’t got an existing UTR, you’ll need to register online by the 5th of October following the end of the tax year.
+registering.for.self.assessment.transcript.paragraph11 = For more information about registering for Self Assessment go to GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
