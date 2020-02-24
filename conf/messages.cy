@@ -695,32 +695,18 @@ sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-your
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 registering.for.self.assessment.transcript.title = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
 registering.for.self.assessment.transcript.heading = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
-registering.for.self.assessment.transcript.paragraph1 = Dyma un o gyfres o fideos am Ffurflenni Treth Hunanasesiad ar-lein.
-registering.for.self.assessment.transcript.paragraph2 = Os oes angen i chi lenwi Ffurflen Dreth, bydd yn rhaid i chi gofrestru gyda CThEM.
-registering.for.self.assessment.transcript.paragraph3 = Os ydych yn hunangyflogedig, mae angen i chi gofrestru ar gyfer Hunanasesiad ac Yswiriant Gwladol Dosbarth 2 os yw unrhyw rai o’r canlynol yn berthnasol.
-registering.for.self.assessment.transcript.paragraph4 = Mae angen i chi wneud hyn cyn gynted ag y bo modd unwaith yr ydych yn gwybod bod angen i chi lenwi Ffurflen Dreth, hyd yn oed os ydych wedi llenwi Ffurflenni Treth o’r blaen. Rhaid gwneud hyn heb fod yn hwyrach na 5 Hydref ar ôl diwedd y flwyddyn dreth.
-registering.for.self.assessment.transcript.paragraph5 = Os oes angen i chi lenwi Ffurflen Dreth am unrhyw reswm arall, mae’n rhaid i chi gofrestru erbyn 5 Hydref yn dilyn diwedd y flwyddyn dreth.
-registering.for.self.assessment.transcript.paragraph6 = Os na fyddwch yn cofrestru mewn pryd, gallech wynebu dirwy.
-registering.for.self.assessment.transcript.paragraph7 = Gallwch gofrestru mewn sawl ffordd a hynny yn dibynnu ar eich rheswm dros lenwi Ffurflen Dreth.
-registering.for.self.assessment.transcript.paragraph8 = Os ydych wedi cyflwyno Ffurflen Dreth yn y gorffennol ond nad oedd yn rhaid i chi wneud hynny’r flwyddyn ddiwethaf, bydd yn rhaid i chi gofrestru o hyd.
-registering.for.self.assessment.transcript.paragraph9 = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr (neu UTR) 10 digid blaenorol arnoch. Ar ôl i chi gofrestru, byddwch hefyd yn gallu defnyddio’r cyfrif ar-lein, y gwnaethoch ei greu o’r blaen, i gyflwyno’ch Ffurflen Dreth.
-registering.for.self.assessment.transcript.paragraph10 = I gofrestru os nad ydych yn hunangyflogedig, dewiswch ‘cofrestru nawr’.
-registering.for.self.assessment.transcript.paragraph11 = Defnyddiwch ffurflen SA1. Mae dwy fersiwn ar gael.
-registering.for.self.assessment.transcript.paragraph12 = Mae’r fersiwn gyntaf a chyflymaf i’w llenwi a’i hanfon ar-lein. Mae’r ail fersiwn i’w llenwi ar lein, ei hargraffu ac yna ei phostio i CThEM.
-registering.for.self.assessment.transcript.paragraph13 = Os nad ydych wedi anfon Ffurflen Dreth o’r blaen, cewch lythyr cyn pen 14 diwrnod yn cynnwys eich Cyfeirnod Unigryw y Trethdalwr (UTR).
-registering.for.self.assessment.transcript.paragraph14 = Yna, bydd angen i chi greu cyfrif newydd. Dilynwch yr arweiniad ac ymrestrwch ar gyfer y gwasanaeth Hunanasesiad ar-lein gan ddefnyddio’ch UTR.
-registering.for.self.assessment.transcript.paragraph15 = Yn ystod y broses, byddwch y creu cyfrinair ac yn gweld eich Dynodydd Defnyddiwr (ID) ar y sgrin. Cadwch y rhain yn ddiogel gan y bydd eu hangen arnoch pryd bynnag y byddwch yn mewngofnodi ar-lein.
-registering.for.self.assessment.transcript.paragraph16 = Yn olaf, bydd angen i chi gychwyn y gwasanaeth gan ddefnyddio’r cod a gewch drwy’r post cyn pen pythefnos arall. Ni fydd yn rhaid i chi wneud hyn eto.
-registering.for.self.assessment.transcript.paragraph17 = Os ydych yn hunangyflogedig, mae’r broses ychydig yn wahanol. Os ydych wedi cyflwyno Ffurflen Dreth o’r blaen, cofrestrwch ar-lein gan ddefnyddio ffurflen CWF1.
-registering.for.self.assessment.transcript.paragraph18 = Mae angen eich UTR arnoch o’r adeg flaenorol. Llenwch eich manylion personol a manylion y busnes. Unwaith y byddwch wedi gwirio’r manylion ar y dudalen nesaf, gallwch gyflwyno ar-lein.
-registering.for.self.assessment.transcript.paragraph19 = Os nad ydych wedi cyflwyno Ffurflen Dreth o’r blaen, byddwch yn dal i gofrestru ar-lein ond yn creu cyfrif Porth y Llywodraeth ac yn ymrestru ar gyfer y gwasanaeth ar-lein ar yr un pryd.
-registering.for.self.assessment.transcript.paragraph20 = Cewch lythyr gyda’ch UTR a’ch cod cychwyn cyn pen pythefnos er mwyn i chi allu actifadu’ch gwasanaeth ar-lein pan fyddwch yn mewngofnodi gyntaf.
-registering.for.self.assessment.transcript.paragraph21 = Defnyddiwch ffurflen SA401 er mwyn cofrestru fel partner mewn partneriaeth. Mae dwy fersiwn ar gael. Mae un fersiwn i’w chyflwyno ar-lein ac mae’r llall i’w llenwi, ei hargraffu ac yna ei phostio.
-registering.for.self.assessment.transcript.paragraph22 = Bydd angen UTR y Bartneriaeth arnoch yn ogystal â’ch UTR eich hun os oes gennych un eisoes.
-registering.for.self.assessment.transcript.paragraph23 = Os yw’n bartneriaeth newydd, bydd yn rhaid i’r ‘partner enwebedig’ hefyd gofrestru’r bartneriaeth. Dilynwch yr arweiniad ar-lein.
-registering.for.self.assessment.transcript.paragraph24 = Cewch ragor o help a chymorth ar GOV.UK.
-registering.for.self.assessment.transcript.paragraph25 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-registering.for.self.assessment.transcript.paragraph26 = Diolch am wylio.
+registering.for.self.assessment.transcript.paragraph1 = Bydd yn rhaid i chi gofrestru ar gyfer Hunanasesiad os ydych yn hunangyflogedig, ac mewn rhai achosion, pan nad ydych yn hunangyflogedig. Er enghraifft, oherwydd eich bod yn bartner mewn partneriaeth – neu reswm arall megis cyfandaliad. Yma, byddwn yn esbonio’r gwahanol ffyrdd i gofrestru.
+registering.for.self.assessment.transcript.paragraph2 = Os ydych yn hunangyflogedig neu’n unig fasnachwr, bydd yn rhaid i chi gofrestru:
+registering.for.self.assessment.transcript.paragraph3 = os yw’ch trosiant yn fwy na mil o bunnoedd yn ystod blwyddyn dreth
+registering.for.self.assessment.transcript.paragraph4 = er mwyn profi eich bod yn hunangyflogedig,
+registering.for.self.assessment.transcript.paragraph5 = neu er mwyn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 gwirfoddol.
+registering.for.self.assessment.transcript.paragraph6 = Os ydych wedi anfon Ffurflen Dreth atom o’r blaen, gallwch ddefnyddio’ch Cyfeirnod Unigryw y Trethdalwr presennol, neu UTR, a chofrestru gan ddefnyddio ffurflen CWF1.
+registering.for.self.assessment.transcript.paragraph7 = Os nad ydych wedi gwneud hynny, bydd angen i chi greu cyfrif Porth y Llywodraeth ar GOV.UK, a hynny fel y gallwch gofrestru ar gyfer Hunanasesiad yn awtomatig. Cewch lythyr gyda’ch UTR cyn pen 10 diwrnod. Cewch lythyr arall ychydig o ddyddiau ar ôl hynny gyda chod i gychwyn eich gwasanaeth ar-lein.
+registering.for.self.assessment.transcript.paragraph8 = Mae’n rhaid i bartneriaethau gael eu cofrestru gan bartner enwebedig – ond mae’n rhaid i bob partner gofrestru’n unigol hefyd, a hynny gan ddefnyddio UTR y bartneriaeth.
+registering.for.self.assessment.transcript.paragraph9 = Os nad ydych yn hunangyflogedig, ond mae angen i chi anfon Ffurflen Dreth atom, gallwch ddefnyddio’ch UTR presennol a’ch cyfrif ar-lein i’w chyflwyno.
+registering.for.self.assessment.transcript.paragraph10 = Os nad oes UTR presennol gennych, bydd angen i chi gofrestru ar-lein erbyn y 5ed o fis Hydref yn dilyn diwedd y flwyddyn dreth.
+registering.for.self.assessment.transcript.paragraph11 = Am ragor o wybodaeth ynghylch cofrestru ar gyfer Hunanasesiad, ewch i GOV.UK
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
