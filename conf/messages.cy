@@ -14,6 +14,7 @@ site.service_name = Cyfrif treth busnes
 site.signout = Allgofnodi
 site.service_title = {0} - Cyfrif treth busnes - GOV.UK
 site.language_switcher = switcher iaith
+site.youtube_frame = fideo
 
 unauthorised.title = Ni allwch weld y dudalen hon
 unauthorised.heading = Ni allwch weld y dudalen hon
