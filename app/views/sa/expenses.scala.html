@@ -29,7 +29,7 @@
   <p>@Messages("sa.expenses.if_you_do_not_use_simplified_expenses_")</p>
   <p>@Messages("sa.expenses.if_your_business_income_is_below_")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("expensesForSelfEmployed"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("expensesForSelfEmployed"), Some(messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return")))
 
   <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-can-i-include-in-my-sa-tax-return-transcript" data-journey-click="link - click:Expenses:Expenses if you are self employed - video transcript">@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return") - @Messages("sa.expenses.video_transcript")</a></p>
 
@@ -39,7 +39,7 @@
   <p>@Messages("sa.expenses.if_you_decide_to_use_the_actual_costs_")</p>
   <p>@Messages("sa.expenses.the_flat_rate_covers_the_whole_cost_")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("calculatingMotoringExpenses"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("calculatingMotoringExpenses"), Some(messages("sa.expenses.claiming_motoring_expenses")))
 
   <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.claiming_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
 }

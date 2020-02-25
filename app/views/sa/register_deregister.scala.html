@@ -30,7 +30,7 @@
 
     <p>@Messages("self_assessment.register_deregister.you_must_register_to_file")</p>
 
-    @components.embed_youtube_video(appConfig.getYoutubeVideoId("registeringForSelfAssessment"))
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("registeringForSelfAssessment"), Some(messages("self_assessment.register_deregister.registering_for_self_assessment")))
 
     <p>
         <a id="registering-for-self-assessment-transcript" href="@controllers.routes.TranscriptController.onPageLoad("registering-for-self-assessment")"

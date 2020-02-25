@@ -31,7 +31,7 @@
 
     <p>@messages("howToPaySelfAssessment.paragraph1")</p>
 
-    @components.embed_youtube_video(appConfig.getYoutubeVideoId("viewingYourCalculation"))
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("viewingYourCalculation"), Some(messages("howToPaySelfAssessment.viewing.your.calculation")))
 
     <p>
         <a id="viewing-self-assessment-calculation-transcript"
@@ -47,7 +47,7 @@
 
     <p>@messages("howToPaySelfAssessment.paragraph3")</p>
 
-    @components.embed_youtube_video(appConfig.getYoutubeVideoId("payingYourSelfAssessmentTaxBill"))
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("payingYourSelfAssessmentTaxBill"), Some(messages("howToPaySelfAssessment.paying.your.sa.bill")))
 
     <p>
         <a id="paying-your-self-assessment-bill-transcript"
@@ -176,7 +176,7 @@
 
     <h2>@messages("howToPaySelfAssessment.further.help.with.penalties")</h2>
 
-    @components.embed_youtube_video(appConfig.getYoutubeVideoId("selfAssessmentPenalties"))
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("selfAssessmentPenalties"), Some(messages("howToPaySelfAssessment.further.help.with.penalties")))
 
     <p>
         <a id="self-assessment-penalties-transcript"
