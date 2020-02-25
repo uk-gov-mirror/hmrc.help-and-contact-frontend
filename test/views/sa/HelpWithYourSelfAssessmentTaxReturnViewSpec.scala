@@ -40,7 +40,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Who must send a tax return?",
         "Your first Self Assessment tax return",
         "Tailor your tax return",
-        "Your self-employed tax return",
+        "I’m self-employed – how do I complete my Self Assessment tax return?",
         "Your income from property tax return"
       )
       val doc = asDocument(createView())
@@ -120,7 +120,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "your-self-employed-tax-return-transcript",
-        "Your self-employed tax return - video transcript",
+        "I’m self-employed – how do I complete my Self Assessment tax return? - video transcript",
         "/business-account/help/transcript/your-self-employed-tax-return",
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
@@ -133,7 +133,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
-      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "D-WSq_vSTU8", "pXeShjxZZGs", "htUNA2b7Gbk", "ZKKVd1XQQJA")
+      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "D-WSq_vSTU8", "pXeShjxZZGs", "htUNA2b7Gbk", "KxbLZaROzXY")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
   }

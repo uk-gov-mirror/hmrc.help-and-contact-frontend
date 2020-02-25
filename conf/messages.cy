@@ -158,7 +158,7 @@ helpWithYourSelfAssessmentTaxReturn.who_must_send = Pwy sydd rhaid anfon Ffurfle
 helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Eich Ffurflen Dreth Hunanasesiad gyntaf
 helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Pam yr ydwyf wedi cael Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Teilwra’ch Ffurflen Dreth
-helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Eich Ffurflen Dreth Hunangyflogaeth
+helpWithYourSelfAssessmentTaxReturn.im_self_employed_how_do_i_ = Rwy’n hunangyflogedig – sut ydw i’n llenwi fy Ffurflen Dreth Hunanasesiad?
 helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return = Eich Ffurflen Dreth Incwm o Eiddo
 helpWithYourSelfAssessmentTaxReturn.video_transcript = - trawsgrifiad fideo
 helpWithYourSelfAssessmentTaxReturn.you_will_usually = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig.
@@ -578,38 +578,23 @@ tailorYourTaxReturnTranscript.paragraph20 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your self employed tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-yourSelfEmployedTaxReturnTranscript.title = Eich Ffurflen Dreth Hunangyflogaeth - trawsgrifiad fideo
-yourSelfEmployedTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunangyflogaeth - trawsgrifiad fideo
-yourSelfEmployedTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Ffurflenni Treth Hunanasesiad ar-lein.
-yourSelfEmployedTaxReturnTranscript.paragraph2 = Rydych wedi teilwra’ch Ffurflen Dreth. Nawr dywedwch wrth CThEM am eich incwm hunangyflogedig.
-yourSelfEmployedTaxReturnTranscript.paragraph3 = Mae’r cwestiwn cyntaf yn ymwneud â’ch trosiant blynyddol.
-yourSelfEmployedTaxReturnTranscript.paragraph4 = Os na wnaethoch fasnachu am flwyddyn lawn, ond y byddai’ch incwm wedi bod dros £85,000 pe baech wedi gwneud hynny, eich ateb yw “Iawn”.
-yourSelfEmployedTaxReturnTranscript.paragraph5 = Er enghraifft:
-yourSelfEmployedTaxReturnTranscript.paragraph6 = Pe bae incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
-yourSelfEmployedTaxReturnTranscript.paragraph7 = Os yw’ch incwm masnachu dros £85,000, efallai y bydd angen i chi gofrestru ar gyfer TAW.
-yourSelfEmployedTaxReturnTranscript.paragraph8 = Bydd angen i chi hefyd roi gwybodaeth fanwl, megis rhestru treuliau.
-yourSelfEmployedTaxReturnTranscript.paragraph9 = Rydym yn dewis ‘Na’.
-yourSelfEmployedTaxReturnTranscript.paragraph10 = Mae datganiadau’n ymddangos am eich hunangyflogaeth. Dewiswch y rhai sy’n berthnasol. Bydd llawer o bobl yn dewis ‘Dim o’r rhain yn berthnasol’.
-yourSelfEmployedTaxReturnTranscript.paragraph11 = Mae’ch disgrifiad busnes yn mynd ar dudalen 2.
-yourSelfEmployedTaxReturnTranscript.paragraph12 = Os dechreuoch eich hunangyflogaeth neu y gwnaethoch roi’r gorau iddi yn ystod y flwyddyn, mae’n bwysig nodi’r dyddiadau fel y gall CThEM ddiweddaru’ch cofnodion.
-yourSelfEmployedTaxReturnTranscript.paragraph13 = Mae’r dudalen nesaf ar gyfer eich manylion cyfrifyddu. Rhowch eich dyddiad diwedd y flwyddyn. Pan fyddwch yn dechrau hunangyflogaeth, rydym yn argymell eich bod yn defnyddio 5 Ebrill gan mai dyma ddiwedd y flwyddyn dreth.
-yourSelfEmployedTaxReturnTranscript.paragraph14 = Ystyriwch y sail arian parod. Os byddwch yn ateb ‘Iawn’, efallai na fyddwch yn gallu gwneud cais am rai treuliau, lwfansau cyfalaf na rhyddhad colledion.
-yourSelfEmployedTaxReturnTranscript.paragraph15 = Defnyddiwch y marc cwestiwn am arweiniad neu chwiliwch am y sail arian parod ar GOV.UK.
-yourSelfEmployedTaxReturnTranscript.paragraph16 = Ar y dudalen hon, nodwch eich trosiant a’ch treuliau caniataol.
-yourSelfEmployedTaxReturnTranscript.paragraph17 = Dyma le y gallwch hawlio’r lwfans masnachu newydd gwerth £1,000. Os ydych yn defnyddio’r lwfans hwn, ni allwch ddidynnu unrhyw dreuliau na threuliau cyfalaf eraill.
-yourSelfEmployedTaxReturnTranscript.paragraph18 = Os nad ydych yn defnyddio’r lwfans masnachu ac mae’ch incwm yn is na’r trothwy TAW, ychwanegwch yr holl dreuliau caniataol at ei gilydd i roi un ffigur, neu gallwch eu rhoi ar wahân.
-yourSelfEmployedTaxReturnTranscript.paragraph19 = Mae’r cyfrifiadau’n cael eu gwneud yn awtomatig.
-yourSelfEmployedTaxReturnTranscript.paragraph20 = Yna, cewch eich tywys i’r dudalen Lwfansau Cyfalaf.
-yourSelfEmployedTaxReturnTranscript.paragraph21 = Gyda’r sail arian parod, dim ond lwfansau cyfalaf ar geir busnes y gallwch eu hawlio.
-yourSelfEmployedTaxReturnTranscript.paragraph22 = Mae addasiadau treth eraill ar y dudalen nesaf. Dylech gynnwys gwerth unrhyw nwyddau neu wasanaethau rydych wedi’u cael at eich defnydd eich hun, unrhyw golledion a ddygwyd ymlaen o flwyddyn gynharach ac unrhyw incwm busnes arall.
-yourSelfEmployedTaxReturnTranscript.paragraph23 = Mae’r dudalen nesaf ar gyfer colledion. Mae cysylltiad i daflen waith a Thaflen Gymorth 227 sy’n rhoi rhagor o arweiniad. Ni chaiff y rhain eu hanfon i CThEM.
-yourSelfEmployedTaxReturnTranscript.paragraph24 = Dim ond os ydych yn rhan o gynllun y diwydiant adeiladu y bydd angen i chi lenwi’r dudalen ar gyfer treth a ddidynnwyd, a hynny er mwyn dangos didyniadau contractwyr.
-yourSelfEmployedTaxReturnTranscript.paragraph25 = Dylech ond ateb ‘Iawn’ os ydych wedi’ch eithrio rhag cyfraniadau Yswiriant Gwladol Dosbarth 4. Mae’r ychydig eithriadau wedi’u rhestru.
-yourSelfEmployedTaxReturnTranscript.paragraph26 = Mae sgrin ar gyfer gwybodaeth arall. Yna, edrychwch dros eich manylion ar y dudalen grynodeb hon.
-yourSelfEmployedTaxReturnTranscript.paragraph27 = Os ydych wedi rhoi’r gorau i hunangyflogaeth, rhowch wybod i CThEM.
-yourSelfEmployedTaxReturnTranscript.paragraph28 = Cewch ragor o help a chymorth ar GOV.UK.
-yourSelfEmployedTaxReturnTranscript.paragraph29 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-yourSelfEmployedTaxReturnTranscript.paragraph30 = Diolch am wylio.
+yourSelfEmployedTaxReturnTranscript.title = Rwy’n hunangyflogedig – sut ydw i’n llenwi fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+yourSelfEmployedTaxReturnTranscript.heading = Rwy’n hunangyflogedig – sut ydw i’n llenwi fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+yourSelfEmployedTaxReturnTranscript.paragraph1 = Os gwnaethoch ateb yn gadarnhaol i’r cwestiwn hwn yn adran 3 – Addasu eich Ffurflen Dreth, mae angen i chi roi gwybod i ni am eich incwm o hunangyflogaeth.
+yourSelfEmployedTaxReturnTranscript.paragraph2 = Dechreuwch arni drwy ddewis ‘Llenwi’ch Ffurflen Dreth’ – yna, ‘Nodi manylion hunangyflogaeth’.
+yourSelfEmployedTaxReturnTranscript.paragraph3 = Mae tudalen un yn ymwneud â’ch trosiant blynyddol. Os yw’ch incwm masnachu yn fwy nag £85,000, mae’n bosibl y bydd angen i chi gofrestru ar gyfer TAW. Os yw’n llai nag £85,000, dewiswch ‘Na’ a thiciwch unrhyw beth ar y rhestr hon sy’n berthnasol i chi.
+yourSelfEmployedTaxReturnTranscript.paragraph4 = Ar dudalen dau, rhowch wybod i ni beth yw enw’ch busnes a’r hyn rydych yn ei wneud. Mae’n bwysig eich bod yn rhoi gwybod i ni a wnaethoch ddechrau neu roi’r gorau i fod yn hunangyflogedig yn ystod y flwyddyn – nodwch y dyddiadau yma.
+yourSelfEmployedTaxReturnTranscript.paragraph5 = Nodwch eich manylion cyfrifyddu ar dudalen tri, gan gynnwys y dyddiad y daw eich blwyddyn gyfrifyddu i ben. Rydym yn argymell eich bod yn defnyddio’r pumed o Ebrill, gan mai dyma ddiwedd y flwyddyn dreth.
+yourSelfEmployedTaxReturnTranscript.paragraph6 = Hefyd, rhowch wybod i ni os ydych yn defnyddio’r sail arian parod – os nad ydych yn siŵr beth yw ystyr sail arian parod, defnyddiwch y marc cwestiwn i gael rhagor o wybodaeth. Neu, gwyliwch ein fideo YouTube ar y sail arian parod a threuliau symlach.
+yourSelfEmployedTaxReturnTranscript.paragraph7 = Ar dudalen pedwar, nodwch y ffigurau ar gyfer eich trosiant a’ch treuliau caniataol. Gallwch hawlio’r lwfans masnachu sy’n werth mil o bunnoedd yma – ond mae hyn yn golygu na allwch ddidynnu unrhyw dreuliau eraill.
+yourSelfEmployedTaxReturnTranscript.paragraph8 = Pan fyddwch wedi nodi’ch ffigurau, bydd eich cyfrifiadau’n ymddangos ar waelod y sgrin.
+yourSelfEmployedTaxReturnTranscript.paragraph9 = Mae tudalen pump yn ymwneud â Lwfansau Cyfalaf. Os ydych yn defnyddio’r sail arian parod, gallwch hawlio am geir busnes yn unig.
+yourSelfEmployedTaxReturnTranscript.paragraph10 = Mae tudalen chwech yn ymwneud â’r hyn rydym yn ei alw’n addasiadau. Mae’r rhain yn cynnwys gwerth unrhyw nwyddau neu wasanaethau at ddefnydd personol, incwm busnes arall, ac unrhyw golledion a ddygwyd ymlaen o flwyddyn gynharach.
+yourSelfEmployedTaxReturnTranscript.paragraph11 = Mae tudalen saith yn holi ynglŷn ag unrhyw golledion o’r flwyddyn dreth bresennol.
+yourSelfEmployedTaxReturnTranscript.paragraph12 = Mae tudalen wyth yn ymwneud â threth a ddidynnwyd – llenwch y blwch hwn dim ond os ydych yn rhan o Gynllun y Diwydiant Adeiladu, a hynny er mwyn dangos eich didyniadau contractwr.
+yourSelfEmployedTaxReturnTranscript.paragraph13 = Nodwch eich cyfraniadau Yswiriant Gwladol Dosbarth 4 ar dudalen naw.
+yourSelfEmployedTaxReturnTranscript.paragraph14 = Ar y diwedd, byddwch yn gweld tudalen grynodeb fel y gallwch chi wirio bod popeth yn iawn.
+yourSelfEmployedTaxReturnTranscript.paragraph15 = Gallwch ddod o hyd i ragor o wybodaeth am lenwi Ffurflen Dreth Hunanasesiad ar GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your income from property tax return transcript
