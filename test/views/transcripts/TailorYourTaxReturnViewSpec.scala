@@ -42,35 +42,28 @@ class TailorYourTaxReturnViewSpec extends ViewBehaviours {
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "Once you’re in the online tax return you need to ‘Tailor your return’.",
-        "Three pages, of Yes/No questions ensuring that you’re only given the sections you need.",
-        "Page 1 is about the sources of income you had, for example employment, self-employment or partnership income.",
-        "If you’re unsure about a question, select the ‘question mark’.",
-        "You’ll then be given guidance.",
-        "You must select ‘Yes’ or ‘No’ to all questions on these pages.",
-        "When you choose ‘Yes’, you may be asked for further information.",
-        "For example, if you choose ‘Yes’ for the employment section, you’re asked how many employments or directorships " +
-          "you had, and you have to give the employer’s name.",
-        "You don’t have to complete your return all in one go. " +
-          "Once you have answered the questions on a page and selected ‘Save and continue’, you can leave and come back later "+
-          "which can be helpful if you don’t have everything to hand.",
-        "‘Save and continue’ takes you to page 2. This asks about other types of income like bank interest, dividends and pensions.",
-        "This question can cause confusion – it’s for losses on other taxable income such as casual earnings or commission. " +
-          "It’s not for losses you would enter in another section of the return, for example, self-employed losses " +
-          "in the self-employed section. If in doubt use the question mark.",
-        "Page 3 is mainly about tax reliefs, including pension contributions, charitable gifts, " +
-          "Married Couple’s Allowance and Marriage Allowance.",
-        "This is not refunds you’ve received during the tax year for an earlier year, or refunds through an employer. " +
-          "It’s the 2017-18 tax you’ve paid, which has already been refunded by HMRC or Jobcentre Plus.",
-        "‘Save and continue’ takes you to ‘Fill in your return’. " +
-          "From here you’ll be taken to the sections you need, to give the details of the income you had and any tax you paid.",
-        "Remember the tax return due on 31 January 2019 is for the tax year 6 April 2017 to 5 April 2018. " +
-          "Any tax you owe must be paid by 31 January 2019.",
-        "You can file your Self Assessment anytime, don’t leave it until the last minute.",
-        "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "When you’re filling in your online tax return, you’ll find a section called Tailor your return.It’s three pages of questions where you answer yes or no, which means you only get the sections you need to complete. If you’re not sure about a question, click on the question mark for guidance.",
+        "Page one asks if you’ve had income as",
+        "– an employee",
+        "– from self-employment",
+        "– or from a partnership.",
+        "You must answer yes or no to all the questions. If you choose yes, you may be asked for more information. For example, if you say yes to being employed, it asks how many employers you had, and their names.",
+        "Using save and continue takes you to the next page. This saves your answers so far. You can also use it if you want to stop at any point and come back later.",
+        "Page two asks about other kinds of income, such as",
+        "– interest from bank and savings accounts",
+        "– dividends from shares",
+        "– and pensions.",
+        "Please note the question about losses on other taxable income refers to income such as casual earnings or commission. It’s not for losses that belong elsewhere in your return. For example, losses from self-employment go in the self-employment section. If in doubt, use the question mark for further guidance.",
+        "The third page is mainly about tax reliefs, including",
+        "– pension contributions",
+        "– charitable gifts",
+        "– Married Couple’s Allowance",
+        "– and Marriage Allowance.",
+        "This is for tax you’ve paid in the tax year covered by this online return – and which has already been refunded by us or Jobcentre Plus. It’s not for refunds that came from an earlier year, or from an employer.",
+        "The next section is fill in your return. Based on your answers in Tailor your return, it shows you the sections you need to complete next.",
+        "Remember, your Self Assessment tax return covers the tax year that ended on the fifth of April, and is due by the thirty first of January the following year. Any tax you owe must be paid by the thirty first of January.",
+        "You can file anytime, just don’t leave it until the last minute.",
+        "You can find out more about Self Assessment on GOV.UK – and watch our other helpful videos and webinars on YouTube."
       )
 
       contentList.zipAll(elements, "", "").foreach {

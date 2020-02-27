@@ -555,27 +555,28 @@ yourFirstTaxReturnTranscript.paragraph14 = I gael rhagor o wybodaeth am Hunanase
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 tailorYourTaxReturnTranscript.title = Addasu eich Ffurflen Dreth - trawsgrifiad fideo
 tailorYourTaxReturnTranscript.heading = Addasu eich Ffurflen Dreth - trawsgrifiad fideo
-tailorYourTaxReturnTranscript.paragraph1 = Dyma un o gyfres o fideos am Hunanasesiad ar-lein.
-tailorYourTaxReturnTranscript.paragraph2 = Unwaith y byddwch ar y Ffurflen Dreth ar-lein, mae angen i chi ‘Addasu eich Ffurflen Dreth’.
-tailorYourTaxReturnTranscript.paragraph3 = Mae tair tudalen o gwestiynau Iawn / Na, gan sicrhau mai dim ond yr adrannau sydd eu hangen arnoch sy’n cael eu rhoi i chi.
-tailorYourTaxReturnTranscript.paragraph4 = Mae tudalen 1 yn ymwneud â’r ffynonellau incwm a gawsoch, er enghraifft incwm cyflogaeth, hunangyflogaeth neu bartneriaeth.
-tailorYourTaxReturnTranscript.paragraph5 = Os nad ydych yn siŵr am gwestiwn, dewiswch y ‘marc cwestiwn’.
-tailorYourTaxReturnTranscript.paragraph6 = Byddwch wedyn yn cael arweiniad.
-tailorYourTaxReturnTranscript.paragraph7 = Rhaid i chi ddewis ‘Iawn’ neu ‘Na’ i bob cwestiwn ar y tudalennau hyn.
-tailorYourTaxReturnTranscript.paragraph8 = O ddewis ‘Iawn’, efallai y cewch eich gofyn am ragor o wybodaeth.
-tailorYourTaxReturnTranscript.paragraph9 = Er enghraifft, os dewiswch ‘Iawn’ ar gyfer yr adran gyflogaeth, cewch eich gofyn sawl cyflogaeth neu swyddi cyfarwyddwr a gawsoch, a rhaid i chi roi enw’r cyflogwr.
-tailorYourTaxReturnTranscript.paragraph10 = Nid oes rhaid i chi lenwi’ch Ffurflen Dreth yn gyfan gwbl ar unwaith. Gallwch adael a dod yn ôl yn ddiweddarach ar ôl i chi ateb y cwestiynau ar dudalen a dewis ‘Cadw a mynd yn eich blaen’. Gall hyn fod o gymorth os nad oes gennych bopeth wrth law.
-tailorYourTaxReturnTranscript.paragraph11 = Mae ‘Cadw a mynd yn eich blaen’ yn mynd â chi i dudalen 2. Mae hyn yn gofyn am fathau eraill o incwm fel llog banc, difidendau a phensiynau.
-tailorYourTaxReturnTranscript.paragraph12 = Gall y cwestiwn hwn achosi dryswch - ond mae ar gyfer colledion ar incwm trethadwy arall, fel enillion achlysurol neu gomisiwn. Nid yw ar gyfer colledion y byddech yn eu rhoi mewn rhan arall o’r ffurflen, er enghraifft, colledion hunangyflogedig yn yr adran hunangyflogedig. Os oes gennych unrhyw amheuaeth, defnyddiwch y marc cwestiwn.
-tailorYourTaxReturnTranscript.paragraph13 = Mae tudalen 3 yn ymwneud yn bennaf â rhyddhad treth, gan gynnwys cyfraniadau pensiwn neu anrhegion elusennol, Lwfans Pâr Priod a Lwfans Priodas.
-tailorYourTaxReturnTranscript.paragraph14 = Nid ad-daliadau a gawsoch yn ystod y flwyddyn dreth am flwyddyn gynharach yw hyn, nac ad-daliadau drwy gyflogwr. Dyma dreth 2017-18 rydych wedi ei thalu, sydd eisoes wedi ei had-dalu gan CThEM neu’r Ganolfan Byd Gwaith.
-tailorYourTaxReturnTranscript.paragraph15 = Bydd ‘Cadw a mynd yn eich blaen’ yn mynd â chi i ‘Cwblhewch eich Ffurflen Dreth’. O fan hyn, cewch eich tywys i’r adrannau sydd eu hangen arnoch, er mwyn rhoi manylion yr incwm a gawsoch ac unrhyw dreth a dalwyd gennych.
-tailorYourTaxReturnTranscript.paragraph16 = Cofiwch fod y Ffurflen Dreth, sydd fod cyrraedd erbyn 31 Ionawr 2019, ar gyfer y flwyddyn dreth 6 Ebrill 2017 i 5 Ebrill 2018. Rhaid talu unrhyw dreth sydd arnoch erbyn 31 Ionawr 2019.
-tailorYourTaxReturnTranscript.paragraph17 = Gallwch gyflwyno’ch Hunanasesiad ar unrhyw adeg, felly peidiwch â’i adael tan y funud olaf.
-tailorYourTaxReturnTranscript.paragraph18 = Cewch ragor o help a chymorth ar GOV.UK
-tailorYourTaxReturnTranscript.paragraph19 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
-tailorYourTaxReturnTranscript.paragraph20 = Diolch am wylio.
-
+tailorYourTaxReturnTranscript.paragraph1 = Pan fyddwch yn llenwi’ch Ffurflen Dreth ar-lein, fe welwch adran o’r enw ‘Addasu eich Ffurflen Dreth’, sef tair tudalen o gwestiynau lle rydych yn ateb ‘iawn’ neu ‘na’. Mae hyn yn golygu y byddwch dim ond yn llenwi’r adrannau sydd eu hangen arnoch. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
+tailorYourTaxReturnTranscript.paragraph2 = Mae tudalen un yn gofyn a ydych wedi cael incwm
+tailorYourTaxReturnTranscript.paragraph3 = – fel cyflogai
+tailorYourTaxReturnTranscript.paragraph4 = – o hunangyflogaeth
+tailorYourTaxReturnTranscript.paragraph5 = – neu o bartneriaeth.
+tailorYourTaxReturnTranscript.paragraph6 = Mae’n rhaid i chi ateb ‘iawn’ neu ‘na’ i bob un o’r cwestiynau. Os ydych yn dewis ‘iawn’, efallai y byddwn yn gofyn i chi am ragor o wybodaeth. Er enghraifft, os ydych yn ateb ‘iawn’ i’r cwestiwn ‘a ydych yn cael eich cyflogi’, mae’n gofyn faint o gyflogwyr oedd gennych, a’u henwau.
+tailorYourTaxReturnTranscript.paragraph7 = Mae defnyddio ‘cadw ac yn eich blaen’ yn mynd â chi i’r dudalen nesaf. Mae hyn yn cadw’ch atebion hyd yn hyn. Gallwch hefyd ei ddefnyddio os ydych am stopio ar unrhyw adeg, a dod yn ôl yn nes ymlaen.
+tailorYourTaxReturnTranscript.paragraph8 = Mae tudalen dau yn gofyn am fathau eraill o incwm, megis
+tailorYourTaxReturnTranscript.paragraph9 = – llog o gyfrifon banc a chynilion
+tailorYourTaxReturnTranscript.paragraph10 = – difidendau o gyfranddaliadau
+tailorYourTaxReturnTranscript.paragraph11 = – a phensiynau.
+tailorYourTaxReturnTranscript.paragraph12 = Sylwer – mae’r cwestiwn am golledion ar incwm trethadwy arall yn cyfeirio at incwm megis enillion achlysurol neu gomisiwn. Nid yw’n cyfeirio at golledion sydd i’w nodi rhywle arall yn eich Ffurflen Dreth. Er enghraifft, dylid nodi colledion o hunangyflogaeth yn yr adran hunangyflogaeth. Os ydych yn ansicr, defnyddiwch y marc cwestiwn i gael arweiniad pellach.
+tailorYourTaxReturnTranscript.paragraph13 = Mae’r drydedd dudalen yn ymwneud yn bennaf â rhyddhad treth, gan gynnwys
+tailorYourTaxReturnTranscript.paragraph14 = – cyfraniadau pensiwn
+tailorYourTaxReturnTranscript.paragraph15 = – anrhegion elusennol
+tailorYourTaxReturnTranscript.paragraph16 = – Lwfans Pâr Priod
+tailorYourTaxReturnTranscript.paragraph17 = – a Lwfans Priodasol.
+tailorYourTaxReturnTranscript.paragraph18 = Mae hyn ar gyfer y dreth rydych wedi’i thalu yn ystod y flwyddyn dreth sydd dan sylw yn y Ffurflen Dreth ar-lein hon – ac sydd eisoes wedi cael ei had-dalu gennym ni neu gan y Ganolfan Byd Gwaith. Nid yw’n ymwneud ag ad-daliadau o flwyddyn flaenorol, neu gan gyflogwr.
+tailorYourTaxReturnTranscript.paragraph19 = Yn yr adran nesaf, gallwch lenwi’ch Ffurflen Dreth. Ar sail eich atebion yn yr adran ‘Addasu eich Ffurflen Dreth’, mae’n dangos yr adrannau y mae angen i chi eu llenwi nesaf.
+tailorYourTaxReturnTranscript.paragraph20 = Cofiwch, y dyddiad cau ar gyfer eich Ffurflen Dreth sy’n cwmpasu’r flwyddyn dreth a ddaeth i ben ar y pumed o fis Ebrill, yw’r unfed ar ddeg ar hugain o Ionawr y flwyddyn ddilynol. Mae’n rhaid i chi dalu unrhyw dreth sydd arnoch erbyn yr unfed ar ddeg ar hugain o Ionawr.
+tailorYourTaxReturnTranscript.paragraph21 = Gallwch gyflwyno’ch Hunanasesiad ar unrhyw adeg, felly peidiwch â’i adael tan y funud olaf.
+tailorYourTaxReturnTranscript.paragraph22 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK – a gwyliwch ein fideos a gweminarau defnyddiol eraill ar YouTube.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your self employed tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -680,7 +681,7 @@ sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.expenses.claiming_motoring_expenses.title = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
 sa.expenses.claiming_motoring_expenses.heading = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
-sa.expenses.claiming_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes ac at ddefnydd personol.  Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd, yswiriant cerbyd a pharcio. Ni allwch hawlio am gostau gyrru nad yw at ddefnydd busnes, dirwyon na theithio rhwng y cartref a’r gwaith.
+sa.expenses.claiming_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes ac at ddefnydd personol. Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd, yswiriant cerbyd a pharcio. Ni allwch hawlio am gostau gyrru nad yw at ddefnydd busnes, dirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.claiming_motoring_expenses.paragraph2 = Mae yna ddwy ffordd o gyfrifo’ch treuliau moduro. Naill ai drwy’r dull costau gwirioneddol, neu drwy’r gyfradd unffurf ar gyfer milltiroedd busnes.
 sa.expenses.claiming_motoring_expenses.paragraph3 = P’un bynnag ddull a ddewiswch, mae’n rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
 sa.expenses.claiming_motoring_expenses.paragraph4 = Os byddwch yn defnyddio’r dull costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’u gwneud yn ystod y flwyddyn dreth berthnasol ac yna cyfrifo pa ganran o’r rheiny oedd ar gyfer defnydd busnes yn unig.
