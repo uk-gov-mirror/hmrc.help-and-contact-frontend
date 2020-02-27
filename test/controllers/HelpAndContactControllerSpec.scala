@@ -32,30 +32,43 @@ import views.html.vat._
 
 class HelpAndContactControllerSpec extends ControllerSpecBase {
 
-  def fakeServiceInfoRequest(utr: Option[SaUtr] = None) = ServiceInfoRequest(AuthenticatedRequest(fakeRequest, utr, Some("user@example.com")), HtmlFormat.empty)
+  def fakeServiceInfoRequest(utr: Option[SaUtr] = None) =
+    ServiceInfoRequest(
+      AuthenticatedRequest(fakeRequest, utr, Some("user@example.com")),
+      HtmlFormat.empty)
 
-  def pageRedirect(helpCategory: HelpCategory, page: String, destinationUrl: String) = {
+  def pageRedirect(helpCategory: HelpCategory,
+                   page: String,
+                   destinationUrl: String) = {
     "HelpAndContactController onPageLoad" must {
       s"redirect /business-account/help/$helpCategory/$page to $destinationUrl" in {
-        val result = controller().onPageLoad(helpCategory, page).apply(fakeRequest)
+        val result =
+          controller().onPageLoad(helpCategory, page).apply(fakeRequest)
         status(result) mustBe MOVED_PERMANENTLY
         redirectLocation(result).get mustBe destinationUrl
       }
     }
   }
 
-  def pageRouter(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable) = {
+  def pageRouter(helpCategory: HelpCategory,
+                 page: String,
+                 view: () => HtmlFormat.Appendable) = {
     "HelpAndContactController onPageLoad" must {
       s"display the correct $helpCategory view for /$page" in {
-        val result = controller().onPageLoad(helpCategory, page).apply(fakeRequest)
+        val result =
+          controller().onPageLoad(helpCategory, page).apply(fakeRequest)
         status(result) mustBe OK
         contentAsString(result) mustBe view().toString
       }
     }
   }
 
-  def pageRouterWithEnrolments(helpCategory: HelpCategory, page: String, view: () => HtmlFormat.Appendable,
-                 requestToApply: ServiceInfoRequest[AnyContentAsEmpty.type], controller: HelpAndContactController) = {
+  def pageRouterWithEnrolments(
+      helpCategory: HelpCategory,
+      page: String,
+      view: () => HtmlFormat.Appendable,
+      requestToApply: ServiceInfoRequest[AnyContentAsEmpty.type],
+      controller: HelpAndContactController) = {
     "HelpAndContactController onPageLoad" must {
       s"display the correct $helpCategory view for /$page" in {
         val result = controller.onPageLoad(helpCategory, page)(requestToApply)
@@ -66,13 +79,18 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
   }
 
   def controller() =
-    new HelpAndContactController(frontendAppConfig, messagesApi, FakeAuthAction, FakeServiceInfoAction, injector.instanceOf[ErrorHandler])
+    new HelpAndContactController(frontendAppConfig,
+                                 messagesApi,
+                                 FakeAuthAction,
+                                 FakeServiceInfoAction,
+                                 injector.instanceOf[ErrorHandler])
 
   "HelpAndContact Controller" must {
 
     "return 404 for a page that does not exist" in {
       HelpCategory.values.foreach { category =>
-        val result = controller().onPageLoad(category, "abcdefgh").apply(fakeRequest)
+        val result =
+          controller().onPageLoad(category, "abcdefgh").apply(fakeRequest)
         status(result) mustBe NOT_FOUND
       }
     }
@@ -80,38 +98,50 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "serve the main page" in {
       val result = controller().mainPage().apply(fakeRequest)
       status(result) mustBe OK
-      contentAsString(result) mustBe help_and_contact(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages).toString()
+      contentAsString(result) mustBe help_and_contact(frontendAppConfig)(
+        HtmlFormat.empty)(fakeRequest, messages).toString()
     }
   }
 
   behave like pageRouter(
     HelpCategory.VAT,
     "how-to-pay",
-    () => payments_and_deadlines(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      payments_and_deadlines(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                                  messages)
   )
 
   behave like pageRouter(
     HelpCategory.VAT,
     "register-or-deregister",
-    () => register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                                  messages)
   )
 
   behave like pageRouter(
     HelpCategory.SelfAssessment,
     "register-or-deregister",
-    () => register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      register_deregister(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                               messages)
   )
 
   behave like pageRouter(
     HelpCategory.SelfAssessment,
     "how-to-pay",
-    () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(),
+        messages)
   )
 
   behave like pageRouter(
     HelpCategory.SelfAssessment,
     "help-with-return",
-    () => help_with_your_self_assessment_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      help_with_your_self_assessment_tax_return(frontendAppConfig)(
+        HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
@@ -119,35 +149,49 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "expenses",
     () => expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
-  
+
   behave like pageRouter(
     HelpCategory.CorporationTax,
     "contact-hmrc",
-    () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(),
+        messages)
   )
 
   behave like pageRouter(
     HelpCategory.CorporationTax,
     "how-to-pay",
-    () => how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(),
+        messages)
   )
 
   behave like pageRouter(
     HelpCategory.CorporationTax,
     "register-or-tell-hmrc-you-are-no-longer-trading",
-    () => register_or_deregister_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      register_or_deregister_corporation_tax(frontendAppConfig)(
+        HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   behave like pageRouter(
     HelpCategory.Epaye,
     "refunds",
-    () => paye_and_cis_refunds(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      paye_and_cis_refunds(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(),
+        messages)
   )
 
   behave like pageRouter(
     HelpCategory.Epaye,
     "view-check-correct-submissions",
-    () => view_check_correct_submissions(frontendAppConfig, Some("user@example.com"))(HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
+    () =>
+      view_check_correct_submissions(frontendAppConfig,
+                                     Some("user@example.com"))(
+        HtmlFormat.empty)(fakeServiceInfoRequest(), messages)
   )
 
   behave like pageRedirect(
@@ -184,9 +228,11 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
       behave like pageRouterWithEnrolments(
         HelpCategory.SelfAssessment,
         "evidence-of-income",
-        () => sa_evidence(frontendAppConfig, false, "http://localhost:9020/business-account/self-assessment")
-          (HtmlFormat.empty)
-          (fakeServiceInfoRequest(), messages),
+        () =>
+          sa_evidence(frontendAppConfig,
+                      false,
+                      "http://localhost:9020/business-account/self-assessment")(
+            HtmlFormat.empty)(fakeServiceInfoRequest(), messages),
         fakeServiceInfoRequest(),
         controller()
       )
@@ -195,15 +241,20 @@ class HelpAndContactControllerSpec extends ControllerSpecBase {
     "the user has an SA enrolment" must {
       val testUtr = Some(SaUtr("testUtr"))
       def controllerWithEnrolment() =
-        new HelpAndContactController(frontendAppConfig, messagesApi, FakeAuthActionWithSaEnrolment(testUtr),
-          FakeServiceInfoAction, injector.instanceOf[ErrorHandler])
+        new HelpAndContactController(frontendAppConfig,
+                                     messagesApi,
+                                     FakeAuthActionWithSaEnrolment(testUtr),
+                                     FakeServiceInfoAction,
+                                     injector.instanceOf[ErrorHandler])
 
       behave like pageRouterWithEnrolments(
         HelpCategory.SelfAssessment,
         "evidence-of-income",
-        () => sa_evidence(frontendAppConfig, true, "http://localhost:9020/business-account/self-assessment")
-          (HtmlFormat.empty)
-          (fakeServiceInfoRequest(testUtr), messages),
+        () =>
+          sa_evidence(frontendAppConfig,
+                      true,
+                      "http://localhost:9020/business-account/self-assessment")(
+            HtmlFormat.empty)(fakeServiceInfoRequest(testUtr), messages),
         fakeServiceInfoRequest(testUtr),
         controllerWithEnrolment()
       )

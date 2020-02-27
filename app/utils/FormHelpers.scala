@@ -22,7 +22,7 @@ object FormHelpers {
 
   def getErrorByKey[A](form: Form[_], errorKey: String) = {
     form.error(errorKey) match {
-      case None => ""
+      case None        => ""
       case Some(error) => error.message
     }
   }

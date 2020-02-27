@@ -26,24 +26,48 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "viewingYourCalculationTranscript"
 
-  def createView = () => viewing_your_self_assessment_calculation(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      viewing_your_self_assessment_calculation(frontendAppConfig)(
+        HtmlFormat.empty)(fakeRequest, messages)
 
   "ViewingYourCalculation view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "viewing-your-sa-calculation-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "viewing-your-sa-calculation-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
-      val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
+      val bullets = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("li")
+        .asScala
+        .toList
+        .map(_.text())
 
-      val bulletListPara2 = List("Income Tax", "Class 4 National Insurance", "and Class 2 National Insurance contributions")
-      val bulletListPara8 = List("income", "personal allowance", "tax due", "Class 4 National Insurance", "Class 2 National Insurance", "and any payments due")
+      val bulletListPara2 = List("Income Tax",
+                                 "Class 4 National Insurance",
+                                 "and Class 2 National Insurance contributions")
+      val bulletListPara8 = List("income",
+                                 "personal allowance",
+                                 "tax due",
+                                 "Class 4 National Insurance",
+                                 "Class 2 National Insurance",
+                                 "and any payments due")
       val bulletsList = bulletListPara2 ++ bulletListPara8
 
       val contentList = List(
@@ -71,5 +95,3 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
     }
   }
 }
-
-

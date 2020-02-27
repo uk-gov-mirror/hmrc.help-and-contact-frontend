@@ -27,10 +27,15 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "ct.contact_hmrc"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
-    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
+    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None),
+                       HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) =
+    () =>
+      contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(saUtr),
+        messages)
 
   "Contact HMRC about corporation tax view" must {
     behave like normalPage(createView(), messageKeyPrefix)
@@ -49,9 +54,11 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView()())
-      doc.text() must include("Call HMRC for help with general Corporation Tax enquiries.")
-      doc.text() must include("You’ll need your 10-digit Unique Tax Reference when you call." +
-        " You can find this on letters from HMRC and in")
+      doc.text() must include(
+        "Call HMRC for help with general Corporation Tax enquiries.")
+      doc.text() must include(
+        "You’ll need your 10-digit Unique Tax Reference when you call." +
+          " You can find this on letters from HMRC and in")
       doc.text() must include("Telephone:")
       doc.text() must include("0300 200 3410")
       doc.text() must include("Outside UK: ")
@@ -62,16 +69,20 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("Monday to Friday: 8am to 6pm")
       doc.text() must include("Closed weekends.")
       doc.text() must include("Best time to call:")
-      doc.text() must include("Phone lines may be less busy between 8am to 9am and 5pm to 6pm.")
-      doc.text() must include("Write to HMRC for help with general Corporation Tax enquiries.")
-      doc.text() must include("You don’t need to include a street name, city name or PO box when writing to this address.")
+      doc.text() must include(
+        "Phone lines may be less busy between 8am to 9am and 5pm to 6pm.")
+      doc.text() must include(
+        "Write to HMRC for help with general Corporation Tax enquiries.")
+      doc.text() must include(
+        "You don’t need to include a street name, city name or PO box when writing to this address.")
       doc.text() must include("Couriers should use a")
       doc.text() must include("Corporation Tax Services")
       doc.text() must include("HM Revenue and Customs")
       doc.text() must include("BX9 1AX")
       doc.text() must include("United Kingdom")
-      doc.text() must include("If you’re replying to a letter you’ve received about your Corporation Tax," +
-        " you should use the address on that letter.")
+      doc.text() must include(
+        "If you’re replying to a letter you’ve received about your Corporation Tax," +
+          " you should use the address on that letter.")
     }
 
     "have correct links" in {
@@ -81,7 +92,8 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "your-online-services-account",
         "your online services account",
         "http://localhost:9020/business-account",
-        "link - click:Contact HMRC about Corporation Tax:your online services account")
+        "link - click:Contact HMRC about Corporation Tax:your online services account"
+      )
       assertLinkById(
         doc,
         "call-charges",
@@ -89,7 +101,8 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/call-charges",
         "link - click:Contact HMRC about Corporation Tax:Find out about call charges",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "courier-address",
@@ -97,7 +110,8 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
         "link - click:Contact HMRC about Corporation Tax:different address",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
     }
   }
 }

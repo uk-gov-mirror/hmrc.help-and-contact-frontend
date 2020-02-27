@@ -26,7 +26,11 @@ class SelfAssessmentPenaltiesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "selfAssessmentPenaltiesTranscript"
 
-  def createView = () => self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages)
 
   "BudgetingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)
@@ -39,7 +43,13 @@ class SelfAssessmentPenaltiesViewSpec extends ViewBehaviours {
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "You may have heard there are penalties if you’re late sending and paying your online tax return to HMRC.",

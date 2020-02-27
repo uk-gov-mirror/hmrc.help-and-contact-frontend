@@ -29,10 +29,15 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "howToPaySelfAssessment"
 
   def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
-    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
+    ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None),
+                       HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) =
+    () =>
+      how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(
+        fakeServiceInfoRequest(saUtr),
+        messages)
 
   "HowToPaySelfAssessment view" must {
     behave like normalPage(createView(), messageKeyPrefix)
@@ -55,43 +60,56 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView()())
-      doc.text() must include("HMRC’s online tax return automatically works out how much you need to pay. " +
-        "You fill in your figures and once you have checked that everything is correct, you can view your calculation.")
+      doc.text() must include(
+        "HMRC’s online tax return automatically works out how much you need to pay. " +
+          "You fill in your figures and once you have checked that everything is correct, you can view your calculation.")
 
-      doc.text() must include("This shows how your tax bill has been worked out. It shows your income, " +
-        "your personal allowance, the tax due, any class 4 and class 2 National Insurance contributions, " +
-        "and the payments that are due on 31 January 2018. You can print a copy of this for your own records.")
+      doc.text() must include(
+        "This shows how your tax bill has been worked out. It shows your income, " +
+          "your personal allowance, the tax due, any class 4 and class 2 National Insurance contributions, " +
+          "and the payments that are due on 31 January 2018. You can print a copy of this for your own records.")
 
-      doc.text() must include("The deadlines for paying are 31 January for a tax bill for the previous year and your first payment on account, " +
-        "and 31 July for your second payment on account. Make sure you pay HMRC on time. You will be charged interest and may have to " +
-        "pay a penalty if your payment is late. You do not have to wait until 31 January or 31 July to pay. If you do, " +
-        "you might miss the deadline, depending on how you pay.")
+      doc.text() must include(
+        "The deadlines for paying are 31 January for a tax bill for the previous year and your first payment on account, " +
+          "and 31 July for your second payment on account. Make sure you pay HMRC on time. You will be charged interest and may have to " +
+          "pay a penalty if your payment is late. You do not have to wait until 31 January or 31 July to pay. If you do, " +
+          "you might miss the deadline, depending on how you pay.")
 
-      doc.text() must include("If you are paying your bill the same or the next day you can use:")
+      doc.text() must include(
+        "If you are paying your bill the same or the next day you can use:")
       doc.text() must include(" (Faster Payments)")
-      doc.text() must include("You need a paying-in slip from HMRC to pay at a bank or building society.")
-      doc.text() must include("If you have longer to pay your bill you can use:")
+      doc.text() must include(
+        "You need a paying-in slip from HMRC to pay at a bank or building society.")
+      doc.text() must include(
+        "If you have longer to pay your bill you can use:")
       doc.text() must include(" (3 working days)")
-      doc.text() must include(" (3 working days if you already have one set up, 5 working days if you need to set one up)")
-      doc.text() must include("You’ll have a penalty showing on your account if you:")
+      doc.text() must include(
+        " (3 working days if you already have one set up, 5 working days if you need to set one up)")
+      doc.text() must include(
+        "You’ll have a penalty showing on your account if you:")
       doc.text() must include("sent in your tax return late")
       doc.text() must include("paid tax late")
       doc.text() must include("didn’t pay enough tax")
 
-      doc.text() must include("You can appeal if you have a ‘reasonable excuse’, for example you had an unexpected stay in hospital. " +
-        "You must appeal within 30 days of the date the penalty was sent to you.")
+      doc.text() must include(
+        "You can appeal if you have a ‘reasonable excuse’, for example you had an unexpected stay in hospital. " +
+          "You must appeal within 30 days of the date the penalty was sent to you.")
 
-      doc.text() must include("You can’t appeal a penalty online or by phone. Find out more about reasonable excuses and how to appeal " +
-        "by post.")
+      doc.text() must include(
+        "You can’t appeal a penalty online or by phone. Find out more about reasonable excuses and how to appeal " +
+          "by post.")
 
-      doc.text() must include("If you get your penalty notice by email from HMRC, you can either fill in form SA370 or write to HMRC, " +
-        "giving your reasons for appealing.")
+      doc.text() must include(
+        "If you get your penalty notice by email from HMRC, you can either fill in form SA370 or write to HMRC, " +
+          "giving your reasons for appealing.")
 
       doc.text() must include("Send your form or letter to HMRC’s ")
-      doc.text() must include("You’ll need a breakdown of your penalties and interest.")
+      doc.text() must include(
+        "You’ll need a breakdown of your penalties and interest.")
 
-      doc.text() must include("HMRC will send you contact details for the office dealing with your case within 15 days of receiving your " +
-        "appeal.")
+      doc.text() must include(
+        "HMRC will send you contact details for the office dealing with your case within 15 days of receiving your " +
+          "appeal.")
     }
 
     "have correct links" in {
@@ -101,37 +119,43 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "viewing-self-assessment-calculation-transcript",
         "Viewing your Self Assessment tax return calculations - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
-        "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript")
+        "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript"
+      )
       assertLinkById(
         doc,
         "paying-your-self-assessment-bill-transcript",
         "How do I pay my Self Assessment tax bill? - video transcript",
         "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
-        "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video transcript")
+        "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video transcript"
+      )
       assertLinkById(
         doc,
         "online-or-telephone-banking",
         "online or telephone banking",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=online-or-telephone-banking",
-        "link - click:How to pay your Self Assessment:online or telephone banking")
+        "link - click:How to pay your Self Assessment:online or telephone banking"
+      )
       assertLinkById(
         doc,
         "chaps",
         "CHAPS",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=chaps",
-        "link - click:How to pay your Self Assessment:CHAPS")
+        "link - click:How to pay your Self Assessment:CHAPS"
+      )
       assertLinkById(
         doc,
         "debit-or-credit-card",
         "a debit or credit card online",
         "https://www.gov.uk/pay-self-assessment-tax-bill/by-debit-or-credit-card-online?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=debit-or-credit-card-online",
-        "link - click:How to pay your Self Assessment:a debit or credit card online")
+        "link - click:How to pay your Self Assessment:a debit or credit card online"
+      )
       assertLinkById(
         doc,
         "bank-or-building-society",
         "a bank or building society",
         "https://www.gov.uk/pay-self-assessment-tax-bill/bank-or-building-society?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=bank-or-building-society",
-        "link - click:How to pay your Self Assessment:a bank or building society")
+        "link - click:How to pay your Self Assessment:a bank or building society"
+      )
       assertLinkById(
         doc,
         "bacs",
@@ -143,25 +167,29 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "direct-debit",
         "Direct Debit",
         "https://www.gov.uk/pay-self-assessment-tax-bill/direct-debit",
-        "link - click:How to pay your Self Assessment:Direct Debit")
+        "link - click:How to pay your Self Assessment:Direct Debit"
+      )
       assertLinkById(
         doc,
         "cheque-by-post",
         "Cheque by post",
         "https://www.gov.uk/pay-self-assessment-tax-bill/by-post",
-        "link - click:How to pay your Self Assessment:Cheque by post")
+        "link - click:How to pay your Self Assessment:Cheque by post"
+      )
       assertLinkById(
         doc,
         "budgeting-for-sa-bill-transcript",
         "Budgeting for your Self Assessment tax bill - video transcript",
         "/business-account/help/transcript/budgeting-your-self-assessment-tax-bill",
-        "link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill - video transcript")
+        "link - click:How to pay your Self Assessment:Budgeting for your Self Assessment tax bill - video transcript"
+      )
       assertLinkById(
         doc,
         "reasonable-excuses",
         "reasonable excuses",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
-        "link - click:How to pay your Self Assessment:reasonable excuses")
+        "link - click:How to pay your Self Assessment:reasonable excuses"
+      )
       assertLinkById(
         doc,
         "how-to-appeal",
@@ -173,25 +201,32 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "form-SA370",
         "form SA370",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
-        "link - click:How to pay your Self Assessment:form SA370")
+        "link - click:How to pay your Self Assessment:form SA370"
+      )
       assertLinkById(
         doc,
         "address-for-sa-enquiries",
         "address for Self Assessment enquiries",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
-        "link - click:How to pay your Self Assessment:address for Self Assessment enquiries")
+        "link - click:How to pay your Self Assessment:address for Self Assessment enquiries"
+      )
       assertLinkById(
         doc,
         "self-assessment-penalties-transcript",
         "Self Assessment penalties - video transcript",
         "/business-account/help/transcript/self-assessment-penalties",
-        "link - click:How to pay your Self Assessment:Self Assessment penalties - video transcript")
+        "link - click:How to pay your Self Assessment:Self Assessment penalties - video transcript"
+      )
     }
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView()())
-      val listOfVideoId: List[String] = List("wq35KqfGCjo", "Fq3AojrrjTw", "s24M389lWJg", "tIqsbnmNqzA")
-      listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
+      val listOfVideoId: List[String] =
+        List("wq35KqfGCjo", "Fq3AojrrjTw", "s24M389lWJg", "tIqsbnmNqzA")
+      listOfVideoId.foreach(
+        id =>
+          doc.toString must include(
+            s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 
   }
@@ -219,7 +254,8 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "penalties",
         "penalties",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/penalties?lang=eng",
-        "link - click:How to pay your Self Assessment:penalties")
+        "link - click:How to pay your Self Assessment:penalties"
+      )
     }
 
     "have an interest link" in {
@@ -230,7 +266,8 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "interest",
         "interest",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/interests?lang=eng",
-        "link - click:How to pay your Self Assessment:interest")
+        "link - click:How to pay your Self Assessment:interest"
+      )
     }
   }
 }

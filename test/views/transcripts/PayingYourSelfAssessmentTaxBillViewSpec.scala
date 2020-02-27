@@ -25,20 +25,32 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "payingYourSelfAssessmentTaxBillTranscript"
 
-  def createView = () => paying_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      paying_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages)
 
   "PayingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "paying-sa-tax-bill-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "paying-sa-tax-bill-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.",

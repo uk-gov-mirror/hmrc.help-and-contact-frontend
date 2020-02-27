@@ -26,22 +26,40 @@ class YourIncomeFromPropertyTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "yourIncomeFromPropertyTaxReturnTranscript"
 
-  def createView = () => your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages)
 
   "YourSelfEmployedTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "income-from-property-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "income-from-property-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
-      val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
+      val bullets = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("li")
+        .asScala
+        .toList
+        .map(_.text())
 
       val bulletList = List(
         "you receive income from letting furnished accommodation in your home that amounts to a trade - for example, " +
@@ -93,7 +111,7 @@ class YourIncomeFromPropertyTaxReturnViewSpec extends ViewBehaviours {
       contentList.zipAll(elements, "", "").foreach {
         case (content, element) => element mustBe content
       }
-      bulletList.zipAll(bullets,"","").foreach{
+      bulletList.zipAll(bullets, "", "").foreach {
         case (expected, actual) => actual mustBe expected
       }
     }

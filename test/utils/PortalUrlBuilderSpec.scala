@@ -26,7 +26,6 @@ class PortalUrlBuilderSpec extends SpecBase {
 
   object PortalUrlBuilder extends PortalUrlBuilder
 
-
   val fakeRequestWithWelsh = fakeRequest.withCookies(Cookie("PLAY_LANG", "cy"))
 
   "build portal url" when {
@@ -34,7 +33,8 @@ class PortalUrlBuilderSpec extends SpecBase {
     "there is <utr>" should {
       val utr = new SaUtrGenerator(new Random).nextSaUtr
       "return the provided url with the current users UTR" in {
-        PortalUrlBuilder.buildPortalUrl("http://testurl/<utr>/")(Some(utr))(fakeRequest) mustBe s"http://testurl/$utr/?lang=eng"
+        PortalUrlBuilder.buildPortalUrl("http://testurl/<utr>/")(Some(utr))(
+          fakeRequest) mustBe s"http://testurl/$utr/?lang=eng"
       }
     }
 
@@ -46,7 +46,8 @@ class PortalUrlBuilderSpec extends SpecBase {
 
     "the user is in welsh" should {
       "append ?lang=cym to given url" in {
-        PortalUrlBuilder.buildPortalUrl("http://testurl")(None)(fakeRequestWithWelsh) mustBe "http://testurl?lang=cym"
+        PortalUrlBuilder.buildPortalUrl("http://testurl")(None)(
+          fakeRequestWithWelsh) mustBe "http://testurl?lang=cym"
       }
     }
   }

@@ -30,21 +30,27 @@ import uk.gov.hmrc.play.partials.HtmlPartial.{Failure, Success}
 import uk.gov.hmrc.play.partials.{HeaderCarrierForPartials, HtmlPartial}
 import scala.concurrent.ExecutionContext.Implicits.global
 
-
 import scala.concurrent.Future
 
-
-class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach with ScalaFutures {
+class ServiceInfoPartialConnectorSpec
+    extends SpecBase
+    with MockitoSugar
+    with BeforeAndAfterEach
+    with ScalaFutures {
 
   "The ServiceInfoPartialConnector.getServiceInfoPartial() method" when {
     lazy val btaUrl: String = TestServiceInfoPartialConnector.btaUrl
 
-    def result: Future[Html] = TestServiceInfoPartialConnector.getServiceInfoPartial()
+    def result: Future[Html] =
+      TestServiceInfoPartialConnector.getServiceInfoPartial()
 
     "a valid HtmlPartial is received" should {
       "retrieve the correct HTML" in {
 
-        when(mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(), Matchers.any(), Matchers.any()))
+        when(
+          mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(),
+                                                            Matchers.any(),
+                                                            Matchers.any()))
           .thenReturn(Future.successful(successResponse))
 
         whenReady(result) { response =>
@@ -55,7 +61,10 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
     "a BadRequest(400) exception occurs" should {
       "fail and return empty content" in {
-        when(mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(), Matchers.any(), Matchers.any()))
+        when(
+          mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(),
+                                                            Matchers.any(),
+                                                            Matchers.any()))
           .thenReturn(Future.successful(badRequestResponse))
 
         whenReady(result) { response =>
@@ -66,7 +75,10 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
     "a GatewayTimeout(504) exception occurs" should {
       "fail and return empty content" in {
-        when(mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(), Matchers.any(), Matchers.any()))
+        when(
+          mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(),
+                                                            Matchers.any(),
+                                                            Matchers.any()))
           .thenReturn(Future.successful(gatewayTimeoutResponse))
 
         whenReady(result) { response =>
@@ -77,11 +89,14 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
     "an unexpected future failed occurs" should {
       "return empty" in {
-        val badResponse = HttpResponse(Status.BAD_REQUEST, responseString = Some("Error Message"))
+        val badResponse = HttpResponse(Status.BAD_REQUEST,
+                                       responseString = Some("Error Message"))
 
-        when(mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(), Matchers.any(), Matchers.any()))
+        when(
+          mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(),
+                                                            Matchers.any(),
+                                                            Matchers.any()))
           .thenReturn(Future.failed(new Exception))
-
 
         whenReady(result) { response =>
           response mustBe Html("")
@@ -92,7 +107,8 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
   val mockHttpGet: HttpClient = mock[HttpClient]
 
-  object TestServiceInfoPartialConnector extends ServiceInfoPartialConnector(mockHttpGet, frontendAppConfig)
+  object TestServiceInfoPartialConnector
+      extends ServiceInfoPartialConnector(mockHttpGet, frontendAppConfig)
 
   val serviceInfoPartialSuccess =
     Html(
@@ -129,7 +145,9 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
   val successResponse = Success(None, serviceInfoPartialSuccess)
   val badRequestResponse = Failure(Some(Status.BAD_REQUEST))
   val gatewayTimeoutResponse = Failure(Some(Status.GATEWAY_TIMEOUT))
-  val badResponse = HttpResponse(Status.BAD_REQUEST, responseString = Some("Error Message"))
-  implicit val hcwc: HeaderCarrierForPartials = HeaderCarrierForPartials(HeaderCarrier(), "")
+  val badResponse =
+    HttpResponse(Status.BAD_REQUEST, responseString = Some("Error Message"))
+  implicit val hcwc: HeaderCarrierForPartials =
+    HeaderCarrierForPartials(HeaderCarrier(), "")
 
 }

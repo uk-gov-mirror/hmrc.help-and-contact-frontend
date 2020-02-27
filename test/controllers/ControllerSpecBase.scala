@@ -19,6 +19,4 @@ package controllers
 import uk.gov.hmrc.http.cache.client.CacheMap
 import base.SpecBase
 
-trait ControllerSpecBase extends SpecBase {
-
-}
+trait ControllerSpecBase extends SpecBase {}

@@ -25,20 +25,31 @@ class BudgetingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "budgetingYourSelfAssessmentTaxBillTranscript"
 
-  def createView = () => budgeting_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      budgeting_your_self_assessment_tax_bill(frontendAppConfig)(
+        HtmlFormat.empty)(fakeRequest, messages)
 
   "BudgetingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "budgeting-your-sa-tax-bill-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "budgeting-your-sa-tax-bill-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "This is one of a series of videos about online Self Assessment.",

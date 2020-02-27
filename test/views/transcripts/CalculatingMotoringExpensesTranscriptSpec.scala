@@ -27,14 +27,19 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.expenses.claiming_motoring_expenses"
 
-  def createView(): Html = calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView(): Html =
+    calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(
+      fakeRequest,
+      messages)
 
   "CalculatingMotoringExpensesTranscript view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "calculating-motoring-expenses-video-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "calculating-motoring-expenses-video-transcript"
     }
 
     "have correct content" in {
@@ -44,7 +49,13 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
       h1s.size() mustBe 1
       h1s.first().text() mustBe "Claiming motoring expenses if you’re self-employed - video transcript"
 
-      val elements: List[String] = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements: List[String] = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
       val contentList: List[String] = List(
         "If you work for yourself, you might use your car, van or motorcycle for both business and personal use. " +
           "You can claim business expenses for a number of things, including fuel, vehicle insurance and parking. " +

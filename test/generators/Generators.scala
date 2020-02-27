@@ -29,7 +29,8 @@ trait Generators {
                            frequencyV: Int = 1,
                            frequencyN: Int = 10): Gen[String] = {
 
-    val genValue: Gen[Option[String]] = Gen.frequency(frequencyN -> None, frequencyV -> Gen.const(Some(value)))
+    val genValue: Gen[Option[String]] =
+      Gen.frequency(frequencyN -> None, frequencyV -> Gen.const(Some(value)))
 
     for {
       seq1 <- gen
@@ -50,13 +51,13 @@ trait Generators {
   }
 
   def intsLargerThanMaxValue: Gen[BigInt] =
-    arbitrary[BigInt] suchThat(x => x > Int.MaxValue)
+    arbitrary[BigInt] suchThat (x => x > Int.MaxValue)
 
   def intsSmallerThanMinValue: Gen[BigInt] =
-    arbitrary[BigInt] suchThat(x => x < Int.MinValue)
+    arbitrary[BigInt] suchThat (x => x < Int.MinValue)
 
   def nonNumerics: Gen[String] =
-    alphaStr suchThat(_.size > 0)
+    alphaStr suchThat (_.size > 0)
 
   def decimals: Gen[String] =
     arbitrary[BigDecimal]
@@ -65,19 +66,19 @@ trait Generators {
       .map(_.formatted("%f"))
 
   def intsBelowValue(value: Int): Gen[Int] =
-    arbitrary[Int] suchThat(_ < value)
+    arbitrary[Int] suchThat (_ < value)
 
   def intsAboveValue(value: Int): Gen[Int] =
-    arbitrary[Int] suchThat(_ > value)
+    arbitrary[Int] suchThat (_ > value)
 
   def intsOutsideRange(min: Int, max: Int): Gen[Int] =
-    arbitrary[Int] suchThat(x => x < min || x > max)
+    arbitrary[Int] suchThat (x => x < min || x > max)
 
   def nonBooleans: Gen[String] =
     arbitrary[String]
-      .suchThat (_.nonEmpty)
-      .suchThat (_ != "true")
-      .suchThat (_ != "false")
+      .suchThat(_.nonEmpty)
+      .suchThat(_ != "true")
+      .suchThat(_ != "false")
 
   def nonEmptyString: Gen[String] =
     arbitrary[String] suchThat (_.nonEmpty)

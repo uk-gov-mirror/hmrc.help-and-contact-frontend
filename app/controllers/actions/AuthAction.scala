@@ -31,8 +31,11 @@ import uk.gov.hmrc.play.HeaderCarrierConverter
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config: FrontendAppConfig)
-                              (implicit ec: ExecutionContext) extends AuthAction with AuthorisedFunctions {
+class AuthActionImpl @Inject()(
+    override val authConnector: AuthConnector,
+    config: FrontendAppConfig)(implicit ec: ExecutionContext)
+    extends AuthAction
+    with AuthorisedFunctions {
 
   final val saEnrolmentKey: String = "IR-SA"
   final val saEnrolmentIdentifier: String = "UTR"
@@ -45,14 +48,19 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config
       )
   }
 
-  override def invokeBlock[A](request: Request[A], block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
-    implicit val hc: HeaderCarrier = HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
+  override def invokeBlock[A](
+      request: Request[A],
+      block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
+    implicit val hc: HeaderCarrier = HeaderCarrierConverter
+      .fromHeadersAndSession(request.headers, Some(request.session))
 
     authorised().retrieve(Retrievals.allEnrolments and Retrievals.email) {
-      case enrolments ~ email => block(AuthenticatedRequest(request, getSaUtr(enrolments), email))
+      case enrolments ~ email =>
+        block(AuthenticatedRequest(request, getSaUtr(enrolments), email))
     } recover {
       case ex: NoActiveSession =>
-        Redirect(config.loginUrl, Map("continue" -> Seq(config.loginContinueUrl)))
+        Redirect(config.loginUrl,
+                 Map("continue" -> Seq(config.loginContinueUrl)))
       case ex: InsufficientEnrolments =>
         Redirect(routes.UnauthorisedController.onPageLoad)
       case ex: InsufficientConfidenceLevel =>
@@ -69,4 +77,6 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config
 }
 
 @ImplementedBy(classOf[AuthActionImpl])
-trait AuthAction extends ActionBuilder[AuthenticatedRequest] with ActionFunction[Request, AuthenticatedRequest]
+trait AuthAction
+    extends ActionBuilder[AuthenticatedRequest]
+    with ActionFunction[Request, AuthenticatedRequest]

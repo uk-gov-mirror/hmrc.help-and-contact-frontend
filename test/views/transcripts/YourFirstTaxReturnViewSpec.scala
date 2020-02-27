@@ -26,20 +26,31 @@ class YourFirstTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "yourFirstTaxReturnTranscript"
 
-  def createView = () => your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                                 messages)
 
   "YourFirstTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "your-first-tax-return-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "your-first-tax-return-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "Do you need to complete a Self Assessment tax return?",

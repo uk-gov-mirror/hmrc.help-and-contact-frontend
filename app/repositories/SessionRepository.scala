@@ -41,28 +41,38 @@ object DatedCacheMap {
   implicit val dateFormat = ReactiveMongoFormats.dateTimeFormats
   implicit val formats = Json.format[DatedCacheMap]
 
-  def apply(cacheMap: CacheMap): DatedCacheMap = DatedCacheMap(cacheMap.id, cacheMap.data)
+  def apply(cacheMap: CacheMap): DatedCacheMap =
+    DatedCacheMap(cacheMap.id, cacheMap.data)
 }
 
 class ReactiveMongoRepository(config: Configuration, mongo: () => DefaultDB)
-  extends ReactiveRepository[DatedCacheMap, BSONObjectID](config.getString("appName").get, mongo, DatedCacheMap.formats) {
+    extends ReactiveRepository[DatedCacheMap, BSONObjectID](
+      config.getString("appName").get,
+      mongo,
+      DatedCacheMap.formats) {
 
   val fieldName = "lastUpdated"
   val createdIndexName = "userAnswersExpiry"
   val expireAfterSeconds = "expireAfterSeconds"
-  val timeToLiveInSeconds: Int = config.getInt("mongodb.timeToLiveInSeconds").get
+  val timeToLiveInSeconds: Int =
+    config.getInt("mongodb.timeToLiveInSeconds").get
 
   createIndex(fieldName, createdIndexName, timeToLiveInSeconds)
 
-  private def createIndex(field: String, indexName: String, ttl: Int): Future[Boolean] = {
-    collection.indexesManager.ensure(Index(Seq((field, IndexType.Ascending)), Some(indexName),
-      options = BSONDocument(expireAfterSeconds -> ttl))) map {
-      result => {
+  private def createIndex(field: String,
+                          indexName: String,
+                          ttl: Int): Future[Boolean] = {
+    collection.indexesManager.ensure(
+      Index(Seq((field, IndexType.Ascending)),
+            Some(indexName),
+            options = BSONDocument(expireAfterSeconds -> ttl))) map { result =>
+      {
         Logger.debug(s"set [$indexName] with value $ttl -> result : $result")
         result
       }
     } recover {
-      case e => Logger.error("Failed to set TTL index", e)
+      case e =>
+        Logger.error("Failed to set TTL index", e)
         false
     }
   }
@@ -86,7 +96,8 @@ class SessionRepository @Inject()(config: Configuration) {
 
   class DbConnection extends MongoDbConnection
 
-  private lazy val sessionRepository = new ReactiveMongoRepository(config, new DbConnection().db)
+  private lazy val sessionRepository =
+    new ReactiveMongoRepository(config, new DbConnection().db)
 
   def apply(): ReactiveMongoRepository = sessionRepository
 }

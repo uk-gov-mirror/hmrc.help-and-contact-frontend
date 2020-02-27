@@ -26,20 +26,31 @@ class WhySentTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "whySentTaxReturnTranscript"
 
-  def createView = () => why_sent_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      why_sent_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                               messages)
 
   "WhySentTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "why-sent-tax-return-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "why-sent-tax-return-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "You’ll usually be sent a tax return if you’re registered as self-employed. But you can check if you need to fill in a " +

@@ -18,4 +18,5 @@ package connectors.models
 
 import uk.gov.hmrc.http.HttpResponse
 
-case class MicroServiceException(message: String, response: HttpResponse) extends Exception(message)
+case class MicroServiceException(message: String, response: HttpResponse)
+    extends Exception(message)

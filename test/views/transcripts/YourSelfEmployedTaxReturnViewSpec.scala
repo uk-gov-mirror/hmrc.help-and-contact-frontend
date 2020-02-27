@@ -26,20 +26,32 @@ class YourSelfEmployedTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "yourSelfEmployedTaxReturnTranscript"
 
-  def createView = () => your_self_employed_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      your_self_employed_tax_return(frontendAppConfig)(HtmlFormat.empty)(
+        fakeRequest,
+        messages)
 
   "YourSelfEmployedTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "your-self-employed-tax-return-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "your-self-employed-tax-return-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "This is one of a series of videos about online Self Assessment tax returns.",

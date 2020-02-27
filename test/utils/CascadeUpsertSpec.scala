@@ -36,7 +36,8 @@ class CascadeUpsertSpec extends SpecBase {
 
     "data already exists for that key" must {
       "replace the value held against the key" in {
-        val originalCacheMap = new CacheMap("id", Map("key" -> JsString("original value")))
+        val originalCacheMap =
+          new CacheMap("id", Map("key" -> JsString("original value")))
         val cascadeUpsert = new CascadeUpsert
         val result = cascadeUpsert("key", "new value", originalCacheMap)
         result.data mustBe Map("key" -> JsString("new value"))
@@ -49,16 +50,19 @@ class CascadeUpsertSpec extends SpecBase {
       "add the key to the cache map and save the value in a sequence" in {
         val originalCacheMap = new CacheMap("id", Map())
         val cascadeUpsert = new CascadeUpsert
-        val result = cascadeUpsert.addRepeatedValue("key", "value", originalCacheMap)
+        val result =
+          cascadeUpsert.addRepeatedValue("key", "value", originalCacheMap)
         result.data mustBe Map("key" -> Json.toJson(Seq("value")))
       }
     }
 
     "the key already exists" must {
       "add the new value to the existing sequence" in {
-        val originalCacheMap = new CacheMap("id", Map("key" -> Json.toJson(Seq("value"))))
+        val originalCacheMap =
+          new CacheMap("id", Map("key" -> Json.toJson(Seq("value"))))
         val cascadeUpsert = new CascadeUpsert
-        val result = cascadeUpsert.addRepeatedValue("key", "new value", originalCacheMap)
+        val result =
+          cascadeUpsert.addRepeatedValue("key", "new value", originalCacheMap)
         result.data mustBe Map("key" -> Json.toJson(Seq("value", "new value")))
       }
     }

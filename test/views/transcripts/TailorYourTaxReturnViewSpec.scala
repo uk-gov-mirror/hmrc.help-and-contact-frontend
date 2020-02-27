@@ -26,20 +26,31 @@ class TailorYourTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "tailorYourTaxReturnTranscript"
 
-  def createView = () => tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest,
+                                                                  messages)
 
   "TailorYourTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "tailor-your-tax-return-transcript"
+      doc
+        .getElementsByTag("h1")
+        .attr("id") mustBe "tailor-your-tax-return-transcript"
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
 
-      val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
+      val elements = doc
+        .getElementsByTag("article")
+        .first()
+        .getElementsByTag("p")
+        .asScala
+        .toList
+        .map(_.text())
 
       val contentList = List(
         "When you’re filling in your online tax return, you’ll find a section called Tailor your return.It’s three pages of questions where you answer yes or no, which means you only get the sections you need to complete. If you’re not sure about a question, click on the question mark for guidance.",

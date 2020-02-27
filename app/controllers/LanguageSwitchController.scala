@@ -24,13 +24,15 @@ import play.api.mvc.{Action, AnyContent, Controller}
 import uk.gov.hmrc.play.language.LanguageUtils
 
 // TODO, upstream this into play-language
-class LanguageSwitchController @Inject() (
-                                           configuration: Configuration,
-                                           appConfig: FrontendAppConfig,
-                                           implicit val messagesApi: MessagesApi
-                                         ) extends Controller with I18nSupport {
+class LanguageSwitchController @Inject()(
+    configuration: Configuration,
+    appConfig: FrontendAppConfig,
+    implicit val messagesApi: MessagesApi
+) extends Controller
+    with I18nSupport {
 
-  private def fallbackURL: String = routes.HelpAndContactController.mainPage().url
+  private def fallbackURL: String =
+    routes.HelpAndContactController.mainPage().url
 
   private def languageMap: Map[String, Lang] = appConfig.languageMap
 
@@ -43,10 +45,14 @@ class LanguageSwitchController @Inject() (
         Lang("en")
       }
       val redirectURL = request.headers.get(REFERER).getOrElse(fallbackURL)
-      Redirect(redirectURL).withLang(Lang.apply(lang.code)).flashing(LanguageUtils.FlashWithSwitchIndicator)
+      Redirect(redirectURL)
+        .withLang(Lang.apply(lang.code))
+        .flashing(LanguageUtils.FlashWithSwitchIndicator)
   }
 
   private def isWelshEnabled: Boolean =
-    configuration.getBoolean("microservice.services.features.welsh-translation").getOrElse(true)
+    configuration
+      .getBoolean("microservice.services.features.welsh-translation")
+      .getOrElse(true)
 
 }

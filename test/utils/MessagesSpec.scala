@@ -25,11 +25,16 @@ class MessagesSpec extends SpecBase {
   private lazy val displayLine = "\n" + ("@" * 42) + "\n"
 
   private lazy val englishMesssages = messagesApi.messages("en")
-  private lazy val welshMessages = messagesApi.messages("cy") -- messagesApi.messages("default").keys
+  private lazy val welshMessages = messagesApi.messages("cy") -- messagesApi
+    .messages("default")
+    .keys
 
-  private def describeMismatch(defaultKeySet: Set[String], welshKeySet: Set[String]): String =
+  private def describeMismatch(defaultKeySet: Set[String],
+                               welshKeySet: Set[String]): String =
     if (defaultKeySet.size > welshKeySet.size)
-      listMissingMessageKeys("The following message keys are missing from the Welsh Set:", defaultKeySet -- welshKeySet)
+      listMissingMessageKeys(
+        "The following message keys are missing from the Welsh Set:",
+        defaultKeySet -- welshKeySet)
     else
       listMissingMessageKeys(
         "The following message keys are missing from the Default Set:",
@@ -38,7 +43,9 @@ class MessagesSpec extends SpecBase {
   private def listMissingMessageKeys(header: String, missingKeys: Set[String]) =
     missingKeys.toList.sorted.mkString(header + displayLine, "\n", displayLine)
 
-  private def assertNonEmptyNonTemporaryValues(label: String, messages: Map[String, String]): Unit = messages.foreach {
+  private def assertNonEmptyNonTemporaryValues(
+      label: String,
+      messages: Map[String, String]): Unit = messages.foreach {
     case (key: String, value: String) =>
       withClue(s"In $label, there is an empty value for the key:[$key][$value]") {
         value.trim.isEmpty mustBe false
@@ -48,18 +55,25 @@ class MessagesSpec extends SpecBase {
   val MatchSingleQuoteOnly: Regex = """\w+'{1}\w+""".r
   val MatchBacktickQuoteOnly: Regex = """`+""".r
 
-  private def assertCorrectUseOfQuotes(label: String, messages: Map[String, String]): Unit = messages.foreach {
-    case (key: String, value: String) =>
-      withClue(s"In $label, there is an unescaped or invalid quote:[$key][$value]") {
-        MatchSingleQuoteOnly.findFirstIn(value).isDefined mustBe false
-        MatchBacktickQuoteOnly.findFirstIn(value).isDefined mustBe false
-      }
-  }
+  private def assertCorrectUseOfQuotes(label: String,
+                                       messages: Map[String, String]): Unit =
+    messages.foreach {
+      case (key: String, value: String) =>
+        withClue(
+          s"In $label, there is an unescaped or invalid quote:[$key][$value]") {
+          MatchSingleQuoteOnly.findFirstIn(value).isDefined mustBe false
+          MatchBacktickQuoteOnly.findFirstIn(value).isDefined mustBe false
+        }
+    }
 
   "The application" should {
     "have the correct message configs" in {
       messagesApi.messages.size mustBe 4
-      messagesApi.messages.keys must contain theSameElementsAs Vector("en", "cy", "default", "default.play")
+      messagesApi.messages.keys must contain theSameElementsAs Vector(
+        "en",
+        "cy",
+        "default",
+        "default.play")
     }
 
     "have 46 default play messages" in {
@@ -104,21 +118,29 @@ class MessagesSpec extends SpecBase {
 
     def isInteger(s: String): Boolean = s forall Character.isDigit
 
-    def toArgArray(msg: String): Array[String] = msg.split("\\{|\\}").map(_.trim()).filter(isInteger)
+    def toArgArray(msg: String): Array[String] =
+      msg.split("\\{|\\}").map(_.trim()).filter(isInteger)
 
     def countArgs(msg: String): Int = toArgArray(msg).length
     def listArgs(msg: String) = toArgArray(msg).mkString
 
     "have a resolvable message for keys which take arguments" in {
-      val englishWithArgsMsgKeys = englishMesssages collect { case (key, value) if countArgs(value) > 0 => key }
-      val welshWithArgsMsgKeys = welshMessages collect { case (key, value) if countArgs(value) > 0      => key }
+      val englishWithArgsMsgKeys = englishMesssages collect {
+        case (key, value) if countArgs(value) > 0 => key
+      }
+      val welshWithArgsMsgKeys = welshMessages collect {
+        case (key, value) if countArgs(value) > 0 => key
+      }
       val missingFromEnglish = englishWithArgsMsgKeys.toList diff welshWithArgsMsgKeys.toList
       val missingFromWelsh = welshWithArgsMsgKeys.toList diff englishWithArgsMsgKeys.toList
 
-      val clueTextForWelsh = missingFromWelsh.foldLeft("")((soFar, key) => s"$soFar$key has arguments in English but not in Welsh\n")
-      val clueText = missingFromEnglish.foldLeft(clueTextForWelsh)((soFar, key) => s"$soFar$key has arguments in Welsh but not in English\n")
+      val clueTextForWelsh = missingFromWelsh.foldLeft("")((soFar, key) =>
+        s"$soFar$key has arguments in English but not in Welsh\n")
+      val clueText =
+        missingFromEnglish.foldLeft(clueTextForWelsh)((soFar, key) =>
+          s"$soFar$key has arguments in Welsh but not in English\n")
 
-      withClue(clueText){
+      withClue(clueText) {
         englishWithArgsMsgKeys.size mustBe welshWithArgsMsgKeys.size
       }
 
@@ -132,13 +154,15 @@ class MessagesSpec extends SpecBase {
         case (key, value) if countArgs(value) > 0 => (key, listArgs(value))
       }
       val mismatchedArgSequences = englishWithArgsMsgKeysAndArgList collect {
-        case (key, engArgSeq) if engArgSeq != welshWithArgsMsgKeysAndArgList(key) =>
+        case (key, engArgSeq)
+            if engArgSeq != welshWithArgsMsgKeysAndArgList(key) =>
           (key, engArgSeq, welshWithArgsMsgKeysAndArgList(key))
       }
 
       val mismatchedKeys = mismatchedArgSequences map (sequence => sequence._1)
-      val clueText = mismatchedKeys.foldLeft("")((soFar, key) => s"$soFar$key does not have the same number of arguments in English and Welsh\n")
-      withClue(clueText){
+      val clueText = mismatchedKeys.foldLeft("")((soFar, key) =>
+        s"$soFar$key does not have the same number of arguments in English and Welsh\n")
+      withClue(clueText) {
         mismatchedArgSequences.size mustBe 0
       }
     }

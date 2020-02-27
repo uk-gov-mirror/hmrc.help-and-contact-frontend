@@ -25,7 +25,10 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "ct.register_deregister"
 
-  def createView = () => register_or_deregister_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView =
+    () =>
+      register_or_deregister_corporation_tax(frontendAppConfig)(
+        HtmlFormat.empty)(fakeRequest, messages)
 
   "/help/corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading" must {
 
@@ -45,27 +48,40 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       )
 
       val doc = asDocument(createView())
-      val headings = doc.getElementsByTag("article").first.getElementsByTag("h2").asScala.toList.map(_.text())
+      val headings = doc
+        .getElementsByTag("article")
+        .first
+        .getElementsByTag("h2")
+        .asScala
+        .toList
+        .map(_.text())
 
       headings mustBe listOfHeadings
     }
 
     "have correct content" in {
       val doc = asDocument(createView())
-      doc.text() must include("After you have registered your company with Companies House, you will need to register it for " +
-        "Corporation Tax within 3 months of starting to do business.")
-      doc.text() must include("This includes buying, selling, advertising, renting a property and employing someone. You can check " +
-        "if you’re unsure what counts as starting to do business.")
+      doc.text() must include(
+        "After you have registered your company with Companies House, you will need to register it for " +
+          "Corporation Tax within 3 months of starting to do business.")
+      doc.text() must include(
+        "This includes buying, selling, advertising, renting a property and employing someone. You can check " +
+          "if you’re unsure what counts as starting to do business.")
       doc.text() must include("You may get a penalty if you register late.")
-      doc.text() must include("You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR) before you register for " +
-        "Corporation Tax online.")
+      doc.text() must include(
+        "You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR) before you register for " +
+          "Corporation Tax online.")
       doc.text() must include("This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days " +
         "of the company being registered with Companies House (incorporated).")
-      doc.text() must include("Request your company’s UTR online if you did not get one after registering your company.")
-      doc.text() must include("If your company is registered as dormant and then starts trading, you need to register for Corporation Tax to tell HMRC your company is active.")
-      doc.text() must include("HMRC will tell you the deadline for paying Corporation Tax. You will need to file a Company Tax Return, " +
-        "even if you make a loss or have no Corporation Tax to pay.")
-      doc.text() must include("To stop paying Corporation Tax, you will need to close the limited company.")
+      doc.text() must include(
+        "Request your company’s UTR online if you did not get one after registering your company.")
+      doc.text() must include(
+        "If your company is registered as dormant and then starts trading, you need to register for Corporation Tax to tell HMRC your company is active.")
+      doc.text() must include(
+        "HMRC will tell you the deadline for paying Corporation Tax. You will need to file a Company Tax Return, " +
+          "even if you make a loss or have no Corporation Tax to pay.")
+      doc.text() must include(
+        "To stop paying Corporation Tax, you will need to close the limited company.")
     }
 
     "have correct links" in {
@@ -77,7 +93,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/limited-company-formation/register-your-company",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
 
       assertLinkById(
         doc,
@@ -86,7 +103,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if you’re unsure what counts as starting to do business",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
 
       assertLinkById(
         doc,
@@ -95,7 +113,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "http://localhost:8080/portal/business-registration/select-taxes?lang=eng",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax online",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
 
       assertLinkById(
         doc,
@@ -104,7 +123,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Request your company UTR online",
         expectedIsExternal = false,
-        expectedOpensInNewTab = false)
+        expectedOpensInNewTab = false
+      )
 
       assertLinkById(
         doc,
@@ -121,7 +141,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/company-tax-returns",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Return",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
 
       assertLinkById(
         doc,
@@ -130,7 +151,8 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/closing-a-limited-company",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:close the limited company",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
     }
   }
 }

@@ -29,28 +29,42 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      override val messagesApi: MessagesApi,
                                      authenticate: AuthAction,
                                      serviceInfo: ServiceInfoAction,
-                                     errorHandler: ErrorHandler) extends FrontendController with I18nSupport {
+                                     errorHandler: ErrorHandler)
+    extends FrontendController
+    with I18nSupport {
 
   def onPageLoad(videoTitle: String) = (authenticate andThen serviceInfo) {
     implicit request =>
-
       val mapOfViews = Map(
-        "viewing-your-self-assessment-calculation" -> viewing_your_self_assessment_calculation(appConfig)(request.serviceInfoContent),
-        "paying-your-self-assessment-tax-bill" -> paying_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent),
-        "budgeting-your-self-assessment-tax-bill" -> budgeting_your_self_assessment_tax_bill(appConfig)(request.serviceInfoContent),
-        "self-assessment-penalties" -> self_assessment_penalties(appConfig)(request.serviceInfoContent),
-        "why-sent-tax-return" -> why_sent_tax_return(appConfig)(request.serviceInfoContent),
-        "your-first-tax-return" -> your_first_tax_return(appConfig)(request.serviceInfoContent),
-        "tailor-your-tax-return" -> tailor_your_tax_return(appConfig)(request.serviceInfoContent),
-        "your-self-employed-tax-return" -> your_self_employed_tax_return(appConfig)(request.serviceInfoContent),
-        "your-income-from-property-tax-return" -> your_income_from_property_tax_return(appConfig)(request.serviceInfoContent),
-        "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent),
-        "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(request.serviceInfoContent),
-        "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(request.serviceInfoContent)
+        "viewing-your-self-assessment-calculation" -> viewing_your_self_assessment_calculation(
+          appConfig)(request.serviceInfoContent),
+        "paying-your-self-assessment-tax-bill" -> paying_your_self_assessment_tax_bill(
+          appConfig)(request.serviceInfoContent),
+        "budgeting-your-self-assessment-tax-bill" -> budgeting_your_self_assessment_tax_bill(
+          appConfig)(request.serviceInfoContent),
+        "self-assessment-penalties" -> self_assessment_penalties(appConfig)(
+          request.serviceInfoContent),
+        "why-sent-tax-return" -> why_sent_tax_return(appConfig)(
+          request.serviceInfoContent),
+        "your-first-tax-return" -> your_first_tax_return(appConfig)(
+          request.serviceInfoContent),
+        "tailor-your-tax-return" -> tailor_your_tax_return(appConfig)(
+          request.serviceInfoContent),
+        "your-self-employed-tax-return" -> your_self_employed_tax_return(
+          appConfig)(request.serviceInfoContent),
+        "your-income-from-property-tax-return" -> your_income_from_property_tax_return(
+          appConfig)(request.serviceInfoContent),
+        "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(
+          appConfig)(request.serviceInfoContent),
+        "calculating-motoring-expenses" -> calculating_motoring_expenses(
+          appConfig)(request.serviceInfoContent),
+        "registering-for-self-assessment" -> registering_for_self_assessment(
+          appConfig)(request.serviceInfoContent)
       )
 
       mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) {
-        view => Ok(view)
+        view =>
+          Ok(view)
       }
   }
 }

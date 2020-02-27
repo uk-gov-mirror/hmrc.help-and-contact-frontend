@@ -25,8 +25,11 @@ class SaEvidenceViewSpec extends ViewBehaviours {
   val messageKeyPrefix = "sa.evidence"
 
   "SaEvidence view" when {
-    "the user has an SA enrolment" must{
-      def createView = () => sa_evidence(frontendAppConfig, true, "bta-base/more-details")(HtmlFormat.empty)(fakeRequest, messages)
+    "the user has an SA enrolment" must {
+      def createView =
+        () =>
+          sa_evidence(frontendAppConfig, true, "bta-base/more-details")(
+            HtmlFormat.empty)(fakeRequest, messages)
       behave like normalPage(createView, messageKeyPrefix)
 
       "have a link to the simple assessment subpage" in {
@@ -36,11 +39,15 @@ class SaEvidenceViewSpec extends ViewBehaviours {
           "more_details",
           "more Self Assessment details",
           "bta-base/more-details",
-          "link - click:Get evidence of your income (SA302):more Self Assessment details" )
+          "link - click:Get evidence of your income (SA302):more Self Assessment details"
+        )
       }
     }
-    "the user has no SA enrolment" must{
-      def createView = () => sa_evidence(frontendAppConfig, false, "bta-base/more-details")(HtmlFormat.empty)(fakeRequest, messages)
+    "the user has no SA enrolment" must {
+      def createView =
+        () =>
+          sa_evidence(frontendAppConfig, false, "bta-base/more-details")(
+            HtmlFormat.empty)(fakeRequest, messages)
       behave like normalPage(createView, messageKeyPrefix)
 
       "contain heading ID" in {
@@ -50,9 +57,12 @@ class SaEvidenceViewSpec extends ViewBehaviours {
 
       "show the static text" in {
         val doc = asDocument(createView())
-        doc.text() must include("You can get evidence of your earnings for the last 4 years with an SA302.")
-        doc.text() must include("You can also get a tax year overview for any year. You can get your SA302 in the more Self Assessment details section of your account.")
-        doc.text() must include("You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.")
+        doc.text() must include(
+          "You can get evidence of your earnings for the last 4 years with an SA302.")
+        doc.text() must include(
+          "You can also get a tax year overview for any year. You can get your SA302 in the more Self Assessment details section of your account.")
+        doc.text() must include(
+          "You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.")
       }
     }
   }
