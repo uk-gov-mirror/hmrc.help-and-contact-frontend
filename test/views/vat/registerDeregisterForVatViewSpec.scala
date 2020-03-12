@@ -48,7 +48,7 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "register-for-vat",
-        "register online",
+        "register for VAT online",
         "https://online.hmrc.gov.uk/registration/newbusiness/business-allowed",
         expectedGAEvent =
           "link - click:Register or deregister for VAT:register online"
@@ -60,7 +60,7 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "cancel-vat-registration",
-        "cancel your registration",
+        "cancel your VAT registration",
         "https://www.gov.uk/vat-registration/cancel-registration",
         expectedGAEvent =
           "link - click:Register or deregister for VAT:cancel your registration"
