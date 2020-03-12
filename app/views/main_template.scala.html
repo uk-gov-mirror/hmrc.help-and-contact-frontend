@@ -37,8 +37,9 @@
 @scriptElem
   <script>
 
-     <!--initializes gov uk polyfill js for detials- summary on ie -->
-    window.GOVUK.details.init();
+    <!--initializes gov uk js for  detail-summary and link withn role button-->
+    window.GOVUK.details.init()
+    window.GOVUK.shimLinksWithButtonRole.init()
 
     window.GOVUK.timeoutDialog({
       timeout: @appConfig.sessionTimeoutInSeconds,
