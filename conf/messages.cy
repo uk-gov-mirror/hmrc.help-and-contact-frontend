@@ -136,6 +136,7 @@ howtoPaySelfAssessment.direct.debit = Debyd Uniongyrchol
 howtoPaySelfAssessment.cheque = Siec drwy’r post
 howtoPaySelfAssessment.3.working.days = (3 diwrnod gwaith)
 howtoPaySelfAssessment.3.working.days.already.setup = (3 diwrnod gwaith os oes gennych un eisoes wedi’i drefnu, 5 diwrnod gwaith os oes angen i chi drefnu un newydd)
+howtoPaySelfAssessment.more.information = Rhagor o wybodaeth am dalu’ch bil treth Hunanasesiad
 howtoPaySelfAssessment.budgeting.for.sa.bill = Cyllido ar gyfer eich bil treth Hunanasesiad
 howtoPaySelfAssessment.sent.tax.return.late = ydych wedi cyflwyno’ch Ffurflen Dreth yn hwyr
 howtoPaySelfAssessment.paid.tax.late = ydych wedi talu’ch treth yn hwyr

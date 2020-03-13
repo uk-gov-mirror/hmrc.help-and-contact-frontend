@@ -137,6 +137,7 @@ howtoPaySelfAssessment.direct.debit = Direct Debit
 howtoPaySelfAssessment.cheque = Cheque by post
 howtoPaySelfAssessment.3.working.days = (3 working days)
 howtoPaySelfAssessment.3.working.days.already.setup = (3 working days if you already have one set up, 5 working days if you need to set one up)
+howtoPaySelfAssessment.more.information = More information about paying your Self Assessment tax bill
 howtoPaySelfAssessment.budgeting.for.sa.bill = Budgeting for your Self Assessment tax bill
 howtoPaySelfAssessment.sent.tax.return.late = sent in your tax return late
 howtoPaySelfAssessment.paid.tax.late = paid tax late

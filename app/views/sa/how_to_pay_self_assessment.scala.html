@@ -61,23 +61,16 @@
 
     <ul class="list list-bullet">
         <li>
-            <a id="online-or-telephone-banking" href="@appConfig.getGovUrl("onlineOrTelephoneBanking")"
-            data-journey-click="link - click:How to pay your Self Assessment:online or telephone banking">@messages("howtoPaySelfAssessment.online.telephone.banking")</a>
+            @messages("howtoPaySelfAssessment.online.telephone.banking")
             @messages("howtoPaySelfAssessment.faster.payments")
         </li>
         <li>
-            <a id="chaps" href="@appConfig.getGovUrl("chaps")"
-            data-journey-click="link - click:How to pay your Self Assessment:CHAPS">
-            @messages("howtoPaySelfAssessment.chaps")</a>
+            @messages("howtoPaySelfAssessment.chaps")
         </li>
         <li>
-            <a id="debit-or-credit-card" href="@appConfig.getGovUrl("saDebitOrCreditCard")"
-            data-journey-click="link - click:How to pay your Self Assessment:a debit or credit card online">
             @messages("howtoPaySelfAssessment.debit.credit.card.online")</a>
         </li>
         <li>
-            <a id="bank-or-building-society" href="@appConfig.getGovUrl("saBankOrBuildingSociety")"
-            data-journey-click="link - click:How to pay your Self Assessment:a bank or building society">
             @messages("howtoPaySelfAssessment.bank.building.society")</a>
         </li>
     </ul>
@@ -88,24 +81,24 @@
 
     <ul class="list list-bullet">
         <li>
-            <a id="bacs" href="@appConfig.getGovUrl("bacs")"
-            data-journey-click="link - click:How to pay your Self Assessment:Bacs">
             @messages("howtoPaySelfAssessment.bacs")</a>
             @messages("howtoPaySelfAssessment.3.working.days")
         </li>
         <li>
-            <a id="direct-debit" href="@appConfig.getGovUrl("saDirectDebit")"
-            data-journey-click="link - click:How to pay your Self Assessment:Direct Debit">
             @messages("howtoPaySelfAssessment.direct.debit")</a>
             @messages("howtoPaySelfAssessment.3.working.days.already.setup")
         </li>
         <li>
-            <a id="cheque-by-post" href="@appConfig.getGovUrl("chequeByPost")"
-            data-journey-click="link - click:How to pay your Self Assessment:Cheque by post">
             @messages("howtoPaySelfAssessment.cheque")</a>
             @messages("howtoPaySelfAssessment.3.working.days")
         </li>
     </ul>
+
+    <p>
+        <a id="more-information" href="@appConfig.getGovUrl("saMoreInformation")"
+        data-journey-click="link - click:More information about paying your Self Assessment tax bill">
+        @messages("howtoPaySelfAssessment.more.information")</a>
+    </p>
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("budgetingForYourSelfAssessmentTaxBill"))
 
