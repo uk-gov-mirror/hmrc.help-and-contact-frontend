@@ -72,7 +72,6 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       doc.text() must include("CHAPS")
       doc.text() must include("a debit or credit card online")
       doc.text() must include("a bank or building society")
-      doc.text() must include("You need a paying-in slip from HMRC to pay at a bank or building society.")
       doc.text() must include("If you have longer to pay your bill you can use:")
       doc.text() must include("Bacs (3 working days)")
       doc.text() must include("Direct Debit (3 working days if you already have one set up, 5 working days if you need to set one up)")

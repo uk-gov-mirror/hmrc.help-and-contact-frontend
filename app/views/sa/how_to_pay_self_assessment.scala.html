@@ -29,7 +29,7 @@
 
     <h2>@messages("howToPaySelfAssessment.viewing.your.calculation")</h2>
 
-    <p>@messages("howToPaySelfAssessment.paragraph1")</p>
+    <p>@messages("howToPaySelfAssessment.hmrcs.online.tax.return.automatically_")</p>
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("viewingYourCalculation"), Some(messages("howToPaySelfAssessment.viewing.your.calculation")))
 
@@ -41,11 +41,11 @@
         </a>
     </p>
 
-    <p>@messages("howToPaySelfAssessment.paragraph2")</p>
+    <p>@messages("howToPaySelfAssessment.this.shows.how.your.tax.bill.has.been_")</p>
 
     <h2>@messages("howToPaySelfAssessment.paying.your.sa.bill")</h2>
 
-    <p>@messages("howToPaySelfAssessment.paragraph3")</p>
+    <p>@messages("howToPaySelfAssessment.the.deadlines.for.paying.are.31.january_")</p>
 
     @components.embed_youtube_video(appConfig.getYoutubeVideoId("payingYourSelfAssessmentTaxBill"), Some(messages("howToPaySelfAssessment.paying.your.sa.bill")))
 
@@ -57,7 +57,7 @@
         </a>
     </p>
 
-    <p>@messages("howToPaySelfAssessment.paragraph4")</p>
+    <p>@messages("howToPaySelfAssessment.if.you.are.paying.your.bill.the_")</p>
 
     <ul class="list list-bullet">
         <li>
@@ -75,9 +75,7 @@
         </li>
     </ul>
 
-    <p>@messages("howToPaySelfAssessment.paragraph5")</p>
-
-    <p>@messages("howToPaySelfAssessment.paragraph6")</p>
+    <p>@messages("howToPaySelfAssessment.if.you.have.longer.to.pay.your.bill_")</p>
 
     <ul class="list list-bullet">
         <li>
@@ -111,7 +109,7 @@
 
     <h2>@messages("howToPaySelfAssessment.penalties.appeals")</h2>
 
-    <p>@messages("howToPaySelfAssessment.paragraph7")</p>
+    <p>@messages("howToPaySelfAssessment.youll.have.a.penalty.showing_")</p>
 
     <ul id ="penalty-list" class="list list-bullet">
         <li>@messages("howtoPaySelfAssessment.sent.tax.return.late")</li>
@@ -119,9 +117,9 @@
         <li>@messages("howtoPaySelfAssessment.did.not.pay.enough.tax")</li>
     </ul>
 
-    <p>@messages("howToPaySelfAssessment.paragraph8")</p>
+    <p>@messages("howToPaySelfAssessment.you.can.appeal.if.you.have.a.reasonable.excuse_")</p>
 
-    <p>@messages("howToPaySelfAssessment.paragraph9")
+    <p>@messages("howToPaySelfAssessment.you.cant.appeal.a.penalty.online.or.by.phone_")
         <a id="reasonable-excuses" href="@appConfig.getGovUrl("reasonableExcuses")"
         data-journey-click="link - click:How to pay your Self Assessment:reasonable excuses">
         @messages("howtoPaySelfAssessment.reasonable.excuses")</a>
@@ -133,21 +131,21 @@
 
     <h2>@messages("howToPaySelfAssessment.appeal.against.penalty")</h2>
 
-    <p>@messages("howToPaySelfAssessment.paragraph10")
+    <p>@messages("howToPaySelfAssessment.if.you.get.your.penalty.notice.by.email.from.hmrc_")
         <a id="form-SA370" href="@appConfig.getGovUrl("formSa370")"
         data-journey-click="link - click:How to pay your Self Assessment:form SA370">
         @messages("howtoPaySelfAssessment.form.sa370")</a>
-        @messages("howToPaySelfAssessment.paragraph11")
+        @messages("howToPaySelfAssessment.or.write.to.hmrc.giving.your.reasons.for.appealing")
     </p>
 
-    <p>@messages("howToPaySelfAssessment.paragraph12")
+    <p>@messages("howToPaySelfAssessment.send.your.form.or.letter.to.hmrcs")
         <a id="address-for-sa-enquiries" href="@appConfig.getGovUrl("addressForSaEnquiries")"
         data-journey-click="link - click:How to pay your Self Assessment:address for Self Assessment enquiries">
         @messages("howtoPaySelfAssessment.address.for.sa.enquiries")</a>.
     </p>
 
     <p>
-        @messages("howToPaySelfAssessment.paragraph13")
+        @messages("howToPaySelfAssessment.youll.need.a.breakdown.of.your")
         @if(request.request.saUtr.isDefined) {
             <a id="penalties" href="@appConfig.getPortalUrl("selfAssessmentPenalties", request.request.saUtr)"
             data-journey-click="link - click:How to pay your Self Assessment:penalties">@messages("howtoPaySelfAssessment.penalties")</a>
@@ -165,7 +163,7 @@
 
     <h2>@messages("howToPaySelfAssessment.check.status.of.appeal")</h2>
 
-    <p>@messages("howToPaySelfAssessment.paragraph14")</p>
+    <p>@messages("howToPaySelfAssessment.hmrc_will_send_you_contact_details_")</p>
 
     <h2>@messages("howToPaySelfAssessment.further.help.with.penalties")</h2>
 
