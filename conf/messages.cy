@@ -705,3 +705,15 @@ help_and_contact.making_tax_digital = Troi Treth yn Ddigidol
 help_and_contact.sign_up.making_tax_digital = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.making_tax_digital_webinar = Gwneud Treth yn Ddigidol ar gyfer Gweminarau TAW
 help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol ar gyfer TAW
+
+
+###########################################
+##     COVID-19
+###########################################
+covid.coronavirus_measures.heading = Cymorth Coronafeirws (COVID-19)
+covid.deferring_income_tax_payments = Gohirio taliadau Treth Incwm
+covid.deferring_vat_payments = Gohirio taliadau TAW
+covid.sick_pay_support_for_small_and_medium_sized_businesses = Cymorth tâl salwch i fusnesau bach a chanolig
+covid.self-employed_worker_support = Cymorth i weithwyr hunangyflogedig
+covid.support_for_all_businesses_paying_tax = Cymorth i bob busnes sy’n talu treth
+covid.support_for_uk_employers_operating_paye_under_the_coronavirus_job_retention_scheme = Cymorth i gyflogwyr yn y DU sy’n gweithredu TWE o dan y Cynllun Cadw Swyddi yn sgil Coronafeirws

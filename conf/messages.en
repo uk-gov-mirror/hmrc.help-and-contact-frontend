@@ -707,3 +707,15 @@ help_and_contact.making_tax_digital = Making Tax Digital
 help_and_contact.sign_up.making_tax_digital = Sign up for Making Tax Digital for VAT
 help_and_contact.making_tax_digital_webinar = Making Tax Digital for VAT webinars
 help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital for VAT
+
+
+###########################################
+##     COVID-19
+###########################################
+covid.coronavirus_measures.heading = Coronavirus (COVID-19) support
+covid.deferring_income_tax_payments = Deferring Income Tax payments
+covid.deferring_vat_payments = Deferring VAT payments
+covid.sick_pay_support_for_small_and_medium_sized_businesses = Sick pay support for small and medium sized businesses
+covid.self-employed_worker_support = Self-employed worker support
+covid.support_for_all_businesses_paying_tax = Support for all businesses paying tax
+covid.support_for_uk_employers_operating_paye_under_the_coronavirus_job_retention_scheme = Support for UK employers operating PAYE under the Coronavirus Job Retention Scheme
