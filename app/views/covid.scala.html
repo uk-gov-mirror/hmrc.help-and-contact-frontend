@@ -1,0 +1,83 @@
+@*
+ * Copyright 2020 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+@import models.HelpCategory._
+
+
+@(appConfig: FrontendAppConfig)(implicit request: Request[_], messages: Messages)
+
+<div class="divider--top margin-top-large "><h2 id="covid-help" class="padding-top-medium">@messages("covid.coronavirus_measures.heading")</h2></div>
+
+<div class="grid-row">
+    <div class="column-one-third">
+        <p>
+            <a id="covid-deferring-income-tax-payments"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-deferring-income-tax-payments"
+            data-journey-click="link - click:Help and contact:Deferring Income Tax payments">
+            @messages("covid.deferring_income_tax_payments")
+            </a>
+        </p>
+    </div>
+
+    <div class="column-one-third">
+        <p>
+            <a id="covid-deferring-vat-payments"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-deferring-income-tax-payments"
+            data-journey-click="link - click:Help and contact:Deferring VAT payments">
+            @messages("covid.deferring_vat_payments")
+            </a>
+        </p>
+    </div>
+    <div class="column-one-third">
+        <p>
+            <a id="covid-sick-pay-support-for-small-and-medium-sized-businesses"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-who-are-paying-sick-pay-to-employees"
+            data-journey-click="link - click:Help and contact:Sick pay support for small and medium sized businesses">
+            @messages("covid.sick_pay_support_for_small_and_medium_sized_businesses")
+            </a>
+        </p>
+    </div>
+</div>
+<div class="grid-row">
+    <div class="column-one-third">
+        <p>
+            <a id="covid-self-employed-worker-support"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-self-employed-through-the-self-employment-income-support-scheme"
+               data-journey-click="link - click:Help and contact:Self-employed worker support">
+                @messages("covid.self-employed_worker_support")
+            </a>
+        </p>
+    </div>
+    <div class="column-one-third">
+        <p>
+            <a id="covid-support-for-all-businesses-paying-tax"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-paying-tax-time-to-pay-service"
+            data-journey-click="link - click:Help and contact:Support for all businesses paying tax">
+            @messages("covid.support_for_all_businesses_paying_tax")
+            </a>
+        </p>
+    </div>
+    <div class="column-one-third">
+        <p>
+            <a id="covid-support-for-uk-employers-operating-paye-under-the-coronavirus-job-retention-scheme"
+               href="https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-the-coronavirus-job-retention-scheme"
+            data-journey-click="link - click:Help and contact:Support for UK employers operating PAYE under the Coronavirus Job Retention Scheme">
+            @messages("covid.support_for_uk_employers_operating_paye_under_the_coronavirus_job_retention_scheme")
+            </a>
+        </p>
+    </div>
+</div>

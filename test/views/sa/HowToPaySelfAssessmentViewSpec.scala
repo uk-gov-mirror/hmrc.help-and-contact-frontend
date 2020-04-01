@@ -68,11 +68,14 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "you might miss the deadline, depending on how you pay.")
 
       doc.text() must include("If you are paying your bill the same or the next day you can use:")
-      doc.text() must include(" (Faster Payments)")
-      doc.text() must include("You need a paying-in slip from HMRC to pay at a bank or building society.")
+      doc.text() must include("online or telephone banking (Faster Payments)")
+      doc.text() must include("CHAPS")
+      doc.text() must include("a debit or credit card online")
+      doc.text() must include("a bank or building society")
       doc.text() must include("If you have longer to pay your bill you can use:")
-      doc.text() must include(" (3 working days)")
-      doc.text() must include(" (3 working days if you already have one set up, 5 working days if you need to set one up)")
+      doc.text() must include("Bacs (3 working days)")
+      doc.text() must include("Direct Debit (3 working days if you already have one set up, 5 working days if you need to set one up)")
+      doc.text() must include("Cheque by post (3 working days)")
       doc.text() must include("You’ll have a penalty showing on your account if you:")
       doc.text() must include("sent in your tax return late")
       doc.text() must include("paid tax late")
@@ -110,46 +113,10 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video transcript")
       assertLinkById(
         doc,
-        "online-or-telephone-banking",
-        "online or telephone banking",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=online-or-telephone-banking",
-        "link - click:How to pay your Self Assessment:online or telephone banking")
-      assertLinkById(
-        doc,
-        "chaps",
-        "CHAPS",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=chaps",
-        "link - click:How to pay your Self Assessment:CHAPS")
-      assertLinkById(
-        doc,
-        "debit-or-credit-card",
-        "a debit or credit card online",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/by-debit-or-credit-card-online?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=debit-or-credit-card-online",
-        "link - click:How to pay your Self Assessment:a debit or credit card online")
-      assertLinkById(
-        doc,
-        "bank-or-building-society",
-        "a bank or building society",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/bank-or-building-society?utm_source=sa-overview&utm_medium=internal-link&utm_campaign=bank-or-building-society",
-        "link - click:How to pay your Self Assessment:a bank or building society")
-      assertLinkById(
-        doc,
-        "bacs",
-        "Bacs",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/bank-details",
-        "link - click:How to pay your Self Assessment:Bacs")
-      assertLinkById(
-        doc,
-        "direct-debit",
-        "Direct Debit",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/direct-debit",
-        "link - click:How to pay your Self Assessment:Direct Debit")
-      assertLinkById(
-        doc,
-        "cheque-by-post",
-        "Cheque by post",
-        "https://www.gov.uk/pay-self-assessment-tax-bill/by-post",
-        "link - click:How to pay your Self Assessment:Cheque by post")
+        "more-information",
+        "More information about paying your Self Assessment tax bill",
+        "https://www.gov.uk/pay-self-assessment-tax-bill",
+        "link - click:More information about paying your Self Assessment tax bill")
       assertLinkById(
         doc,
         "budgeting-for-sa-bill-transcript",
