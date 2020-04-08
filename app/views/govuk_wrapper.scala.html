@@ -74,6 +74,7 @@
       scriptElem = scriptElem,
       gaCalls = None)
       <script src='@routes.Assets.versioned("javascripts/helpandcontactfrontend-app.min.js")'> </script>
+      <script src='@routes.Assets.versioned("javascripts/error_summary_focus.js")'> </script>
 }
 
 @footerTop = {}
@@ -97,7 +98,7 @@
 <div class="centered-content soft--ends">
   @serviceInfo
 </div>
-<div class="centered-content">
+<div class="centered-content" role="region" aria-label="@messages("site.language_switcher")">
   @if(appConfig.languageTranslationEnabled) {
   @views.html.language_selection(
   appConfig.languageMap,

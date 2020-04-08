@@ -14,9 +14,9 @@
  * limitations under the License.
  *@
 
-@(videoId: String)
+@(videoId: String, title: Option[String] = None)(implicit messages: Messages)
 
 <div class="video-container">
-    <iframe src='@{s"https://www.youtube.com/embed/$videoId?autoplay=0&rel=0"}' allowfullscreen="">
+    <iframe src='@{s"https://www.youtube.com/embed/$videoId?autoplay=0&rel=0"}' allowfullscreen="" title='@title @messages("site.youtube_frame")'>
     </iframe>
 </div>

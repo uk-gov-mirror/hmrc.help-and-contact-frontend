@@ -28,7 +28,7 @@
 
   <h2>@Messages("helpWithYourSelfAssessmentTaxReturn.who_must_send")</h2>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.who_must_send")))
 
   <p>
     <a id="why-have-been-sent-transcript" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
@@ -51,7 +51,7 @@
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_need_to")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_did_not")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")))
 
   <p>
     <a id="your-first-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")"
@@ -64,7 +64,7 @@
   <h2>@messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")</h2>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.you_will_tailor")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")))
 
   <p>
     <a id="tailor-your-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"
@@ -78,7 +78,7 @@
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_started")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.did_not_trade")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")))
 
   <p>
     <a id="your-self-employed-tax-return-transcript"
@@ -89,19 +89,19 @@
     </a>
   </p>
 
-  <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")</h2>
+  <h2>@messages("helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_")</h2>
 
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.do_not_fill")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_your_property")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_from_partnership")</p>
 
-  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"))
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")))
 
   <p>
     <a id="your-income-from-property-tax-return-transcript"
       href="@controllers.routes.TranscriptController.onPageLoad("your-income-from-property-tax-return")"
       data-journey-click="link - click:Help with your Self Assessment return:Your income from property tax return - video transcript">
-        @messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")
+        @messages("helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_")
         @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
   </p>
