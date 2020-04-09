@@ -41,26 +41,13 @@ class BudgetingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
 
       val contentList = List(
-        "This is one of a series of videos about online Self Assessment.",
-        "Why is it so important to budget for payments to HMRC early on? Well, HMRC wants you to pay the right tax, at the right time.",
-        "Depending on when you first start self-employment, it can be some time before you get your first tax bill. " +
-          "Added to that, if your bill for tax and class 4 National Insurance is over £1000, your first bill will be one " +
-          "and a half times what you owe as you also need to make a payment on account.",
-        "Don’t worry though as this is going towards next year’s tax bill. It’s really easy to budget for these payments " +
-          "as HMRC offers a ‘Ready Reckoner’ tool. Just search GOV.UK. When you get to this page click ‘start now’. " +
-          "Using the ‘Ready Reckoner’ tool is easy. Just enter an estimate of your self-employed profit for the month " +
-          "and it will give you an idea of what to put aside towards your tax and National Insurance bill. However, it’s " +
-          "important to be aware, that although it’ll give you an idea of what to pay, it only covers income from self-employment.",
-        "For example, some people stay in employment while they start their business just to see how things go. " +
-          "Once you know what you want to pay, go online and you can set up a budget payment plan via direct debit.",
-        "As long as you are up to date with previous Self Assessment payments, you can make regular payments in advance. " +
-          "It’s really flexible. You can stop paying if you want to. You need to remember though, that if you’ve not paid " +
-          "enough to cover your bill in full you’ll still need to pay the difference by the deadline. " +
-          "Budgeting helps with cash flow because you can see exactly how much is going out of the business at any time.",
-        "Because you have an idea of how your business is doing, you can also decide whether to reduce the payment on account. " +
-          "You’ll find more help and support on GOV.UK.",
-        "Webinars and other videos about Self Assessment are available from HMRC.",
-        "Thanks for watching."
+        "Budgeting for your SA tax bill can help you pay what you owe on time. You don’t have to wait until 31 January or 31 July to pay. If you do, you could miss the deadline.",
+        "You can set up a budget plan to make regular payments by direct debit. If you’re up-to-date with previous Self Assessment payments, you can set up a budget payment plan using your online account on GOV.UK.",
+        "It’s flexible so you can decide how much you pay each month. You can reduce or stop payments at any time.",
+        "If you’re self-employed, our ready reckoner on GOV.UK can help you budget for tax and National Insurance. Put in your estimated weekly or monthly profit, and we’ll give you an idea of how much you have to pay.",
+        "A budget payment plan can help you meet the payment deadlines, and avoid any fines.",
+        "Remember, if there’s anything left to pay by 31 January, you’ll need to pay it off by that date.",
+        "To find out more about Self Assessment, go to GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {
