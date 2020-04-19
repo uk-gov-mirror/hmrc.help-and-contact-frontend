@@ -16,55 +16,55 @@
 
 package config
 
-import com.google.inject.{Inject, Singleton}
+import javax.inject.{Inject, Singleton}
 import controllers.routes
 import play.api.i18n.Lang
-import play.api.mvc.Request
+import play.api.mvc.{Call, Request}
 import play.api.{Configuration, Environment}
+import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
+import uk.gov.hmrc.play.language.LanguageUtils
 import uk.gov.hmrc.domain.SaUtr
-import uk.gov.hmrc.play.config.ServicesConfig
 import utils.PortalUrlBuilder
 
 @Singleton
-class FrontendAppConfig @Inject() (override val runModeConfiguration: Configuration, environment: Environment) extends ServicesConfig with PortalUrlBuilder {
+class FrontendAppConfig @Inject()(override val runModeConfiguration: Configuration, environment: Environment, servicesConfig: ServicesConfig, override val languageUtils: LanguageUtils)
+    extends PortalUrlBuilder {
 
-  override protected def mode = environment.mode
+  import servicesConfig._
 
-  private def loadConfig(key: String) = runModeConfiguration.getString(key).getOrElse(throw new Exception(s"Missing configuration key: $key"))
+  private def loadConfig(key: String): String =
+    runModeConfiguration.getOptional[String](key).getOrElse(throw new Exception(s"Missing configuration key: $key"))
 
-  private lazy val contactHost = runModeConfiguration.getString("contact-frontend.host").getOrElse("")
+  private lazy val contactHost: String = runModeConfiguration.getOptional[String]("contact-frontend.host").getOrElse("")
 
-  lazy val analyticsToken = loadConfig(s"google-analytics.token")
-  lazy val analyticsHost = loadConfig(s"google-analytics.host")
-  lazy val btaUrl = baseUrl("business-tax-account")
-  lazy val loginUrl = loadConfig("urls.login")
-  lazy val loginContinueUrl = loadConfig("urls.loginContinue")
-  lazy val requestCorporationTaxUTR = loadConfig("urls.requestCorporationTaxUTR")
-  lazy val webchatEntryPointForSa = runModeConfiguration.getString(s"govuk-tax.$env.webchat-frontend.entry-point-for-sa").getOrElse("1004")
-  lazy val webchatTemplate = runModeConfiguration.getString(s"govuk-tax.$env.webchat-frontend.template").getOrElse("hmrc7")
-  lazy val googleTagManagerId = loadConfig(s"google-tag-manager.id")
+  lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
+  lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
+  lazy val btaUrl: String                   = baseUrl("business-tax-account")
+  lazy val loginUrl: String                 = loadConfig("urls.login")
+  lazy val loginContinueUrl: String         = loadConfig("urls.loginContinue")
+  lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
+  lazy val googleTagManagerId: String = loadConfig(s"google-tag-manager.id")
 
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
-  def getYoutubeVideoId(key: String) = loadConfig(s"urls.external.youtube.$key")
+  def getYoutubeVideoId(key: String): String = loadConfig(s"urls.external.youtube.$key")
 
-  private lazy val businessAccountHost = runModeConfiguration.getString("urls.business-account.host").getOrElse("")
+  private lazy val businessAccountHost: String = runModeConfiguration.getOptional[String]("urls.business-account.host").getOrElse("")
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
-  lazy val languageTranslationEnabled = runModeConfiguration.getBoolean("microservice.services.features.welsh-translation").getOrElse(true)
+  lazy val languageTranslationEnabled: Boolean =
+    runModeConfiguration.getOptional[Boolean]("microservice.services.features.welsh-translation").getOrElse(true)
 
-  def languageMap: Map[String, Lang] = Map(
-    "english" -> Lang("en"),
-    "cymraeg" -> Lang("cy"))
+  def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))
 
-  def routeToSwitchLanguage = (lang: String) => routes.LanguageSwitchController.switchToLanguage(lang)
+  def routeToSwitchLanguage(lang: String): Call = routes.LanguageSwitchController.switchToLanguage(lang)
 
-  private lazy val portalHost = loadConfig("portal.host")
+  private lazy val portalHost: String = loadConfig("portal.host")
 
   def getPortalUrl(key: String, saUtr: Option[SaUtr] = None)(implicit request: Request[_]): String =
     buildPortalUrl(portalHost + loadConfig(s"urls.portal.$key"))(saUtr)
-  
-  def sessionTimeoutInSeconds: Long = 900
+
+  def sessionTimeoutInSeconds: Long  = 900
   def sessionCountdownInSeconds: Int = 60
 }

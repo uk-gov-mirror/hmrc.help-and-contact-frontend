@@ -16,12 +16,12 @@
 
 package controllers.actions
 
-import com.google.inject.{ImplementedBy, Inject}
+import javax.inject.{Inject, Singleton}
 import config.FrontendAppConfig
 import controllers.routes
 import models.requests.AuthenticatedRequest
 import play.api.mvc.Results._
-import play.api.mvc.{ActionBuilder, ActionFunction, Request, Result}
+import play.api.mvc._
 import uk.gov.hmrc.auth.core._
 import uk.gov.hmrc.auth.core.retrieve.v2.Retrievals
 import uk.gov.hmrc.auth.core.retrieve.~
@@ -31,8 +31,12 @@ import uk.gov.hmrc.play.HeaderCarrierConverter
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config: FrontendAppConfig)
-                              (implicit ec: ExecutionContext) extends AuthAction with AuthorisedFunctions {
+@Singleton
+class AuthAction @Inject()(override val authConnector: AuthConnector, config: FrontendAppConfig)
+                              (implicit ec: ExecutionContext) 
+                              extends ActionBuilder[AuthenticatedRequest, AnyContent] 
+                              with ActionFunction[Request, AuthenticatedRequest]
+                              with AuthorisedFunctions {
 
   final val saEnrolmentKey: String = "IR-SA"
   final val saEnrolmentIdentifier: String = "UTR"
@@ -67,6 +71,3 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector, config
 
   }
 }
-
-@ImplementedBy(classOf[AuthActionImpl])
-trait AuthAction extends ActionBuilder[AuthenticatedRequest] with ActionFunction[Request, AuthenticatedRequest]
