@@ -16,7 +16,7 @@
 
 package controllers.actions
 
-
+import com.google.inject.ImplementedBy
 import javax.inject.{Inject, Singleton}
 import config.HelpAndContactHeaderCarrierForPartialsConverter
 import connectors.ServiceInfoPartialConnector
@@ -25,15 +25,13 @@ import play.api.mvc._
 
 import scala.concurrent.{ExecutionContext, Future}
 
-
 @Singleton
-class ServiceInfoAction @Inject()(
-                                       serviceInfoPartialConnector: ServiceInfoPartialConnector,
-                                       helpAndContactHeaderCarrierForPartialsConverter: HelpAndContactHeaderCarrierForPartialsConverter
-                                     )(
-                                      implicit val ec: ExecutionContext
-                                    )
-extends ActionTransformer[AuthenticatedRequest, ServiceInfoRequest] {
+class ServiceInfoActionImpl @Inject()(
+    serviceInfoPartialConnector: ServiceInfoPartialConnector,
+    helpAndContactHeaderCarrierForPartialsConverter: HelpAndContactHeaderCarrierForPartialsConverter
+)(
+    implicit protected val executionContext: ExecutionContext
+) extends ServiceInfoAction {
 
   import helpAndContactHeaderCarrierForPartialsConverter._
 
@@ -46,3 +44,5 @@ extends ActionTransformer[AuthenticatedRequest, ServiceInfoRequest] {
 
 }
 
+@ImplementedBy(classOf[ServiceInfoActionImpl])
+trait ServiceInfoAction extends ActionTransformer[AuthenticatedRequest, ServiceInfoRequest]

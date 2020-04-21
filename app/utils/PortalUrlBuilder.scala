@@ -17,20 +17,29 @@
 package utils
 
 import play.api.mvc.Request
+import play.api.i18n.Lang
 import uk.gov.hmrc.domain.SaUtr
 import uk.gov.hmrc.play.language.LanguageUtils
 import uk.gov.hmrc.urls.UrlBuilder
+import utils.PortalUrlBuilder._
 
 trait PortalUrlBuilder {
+
+  def languageUtils: LanguageUtils
+
   def buildPortalUrl(url: String)(saUtr: Option[SaUtr] = None)(implicit request: Request[_]): String = {
     val replacedUrl = UrlBuilder.buildUrl(url, Seq(("<utr>", saUtr)))
     appendLanguage(replacedUrl)
   }
 
   private def appendLanguage(url: String)(implicit request: Request[_]) = {
-    val lang = if (LanguageUtils.getCurrentLang == LanguageUtils.Welsh) "lang=cym" else "lang=eng"
+    val lang  = if (languageUtils.getCurrentLang == WELSH) "lang=cym" else "lang=eng"
     val token = if (url.contains("?")) "&" else "?"
     s"$url$token$lang"
 
   }
+}
+
+object PortalUrlBuilder {
+  val WELSH: Lang = Lang("cy")
 }

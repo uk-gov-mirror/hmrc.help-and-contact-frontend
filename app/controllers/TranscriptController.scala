@@ -23,6 +23,7 @@ import controllers.actions._
 import handlers.ErrorHandler
 import play.api.i18n.{I18nSupport, MessagesApi}
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import play.api.mvc.MessagesControllerComponents
 import views.html.transcripts._
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,
@@ -38,11 +39,11 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      expenses_if_you_are_self_employed: expenses_if_you_are_self_employed,
                                      calculating_motoring_expenses: calculating_motoring_expenses,
                                      registering_for_self_assessment: registering_for_self_assessment,
-                                     override val messagesApi: MessagesApi,
                                      authenticate: AuthAction,
                                      serviceInfo: ServiceInfoAction,
-                                     errorHandler: ErrorHandler)
-    extends FrontendController
+                                     errorHandler: ErrorHandler,
+                                     override val controllerComponents: MessagesControllerComponents)
+    extends FrontendController(controllerComponents)
     with I18nSupport {
 
   def onPageLoad(videoTitle: String) = (authenticate andThen serviceInfo) { implicit request =>

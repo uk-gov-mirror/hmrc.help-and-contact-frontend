@@ -16,7 +16,7 @@
 
 package controllers.actions
 
-import javax.inject.{Inject, Singleton}
+import com.google.inject.{ImplementedBy, Inject}
 import config.FrontendAppConfig
 import controllers.routes
 import models.requests.AuthenticatedRequest
@@ -28,29 +28,28 @@ import uk.gov.hmrc.auth.core.retrieve.~
 import uk.gov.hmrc.domain.SaUtr
 import uk.gov.hmrc.http.HeaderCarrier
 import uk.gov.hmrc.play.HeaderCarrierConverter
+import controllers.actions.AuthAction._
 
 import scala.concurrent.{ExecutionContext, Future}
 
-@Singleton
-class AuthAction @Inject()(override val authConnector: AuthConnector, config: FrontendAppConfig)
-                              (implicit ec: ExecutionContext) 
-                              extends ActionBuilder[AuthenticatedRequest, AnyContent] 
-                              with ActionFunction[Request, AuthenticatedRequest]
-                              with AuthorisedFunctions {
+class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
+                               config: FrontendAppConfig,
+                               defaultParser: PlayBodyParsers)(
+    override implicit val executionContext: ExecutionContext
+) extends AuthAction
+    with AuthorisedFunctions {
 
-  final val saEnrolmentKey: String = "IR-SA"
-  final val saEnrolmentIdentifier: String = "UTR"
-
-  private def getSaUtr(enrolments: Enrolments): Option[SaUtr] = {
+  private def getSaUtr(enrolments: Enrolments): Option[SaUtr] =
     enrolments
       .getEnrolment(saEnrolmentKey)
       .flatMap(
         _.getIdentifier(saEnrolmentIdentifier).map(utr => SaUtr(utr.value))
       )
-  }
 
-  override def invokeBlock[A](request: Request[A], block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
-    implicit val hc: HeaderCarrier = HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
+  override def invokeBlock[A](request: Request[A],
+                              block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
+    implicit val hc: HeaderCarrier =
+      HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
 
     authorised().retrieve(Retrievals.allEnrolments and Retrievals.email) {
       case enrolments ~ email => block(AuthenticatedRequest(request, getSaUtr(enrolments), email))
@@ -70,4 +69,16 @@ class AuthAction @Inject()(override val authConnector: AuthConnector, config: Fr
     }
 
   }
+
+  override def parser: BodyParser[AnyContent] = defaultParser.defaultBodyParser
 }
+
+object AuthAction {
+  val saEnrolmentKey        = "IR-SA"
+  val saEnrolmentIdentifier = "UTR"
+}
+
+@ImplementedBy(classOf[AuthActionImpl])
+trait AuthAction
+    extends ActionBuilder[AuthenticatedRequest, AnyContent]
+    with ActionFunction[Request, AuthenticatedRequest]

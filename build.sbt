@@ -14,10 +14,10 @@ import uk.gov.hmrc.versioning.SbtGitVersioning.autoImport.majorVersion
 
 val appName = "help-and-contact-frontend"
 
-lazy val appDependencies: Seq[ModuleID] = AppDependencies()
-
-lazy val plugins: Seq[Plugins] = Seq.empty
-lazy val playSettings: Seq[Setting[_]] = Seq.empty
+val appDependencies: Seq[ModuleID] = AppDependencies()
+val appOverrides: Set[ModuleID] = Set.empty
+val plugins: Seq[Plugins] = Seq.empty
+val playSettings: Seq[Setting[_]] = Seq.empty
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -83,7 +83,7 @@ lazy val microservice = Project(appName, file("."))
       )
     ),
     // prevent removal of unused code which generates warning errors due to use of third-party libs
-    UglifyKeys.compressOptions := Seq("unused=false", "dead_code=false"),
+    uglifyCompressOptions := Seq("unused=false", "dead_code=false"),
     pipelineStages := Seq(digest),
     // below line required to force asset pipeline to operate in dev rather than only prod
     pipelineStages in Assets := Seq(concat, uglify),

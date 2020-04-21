@@ -27,7 +27,10 @@ import uk.gov.hmrc.domain.SaUtr
 import utils.PortalUrlBuilder
 
 @Singleton
-class FrontendAppConfig @Inject()(override val runModeConfiguration: Configuration, environment: Environment, servicesConfig: ServicesConfig, override val languageUtils: LanguageUtils)
+class FrontendAppConfig @Inject()(val runModeConfiguration: Configuration,
+                                  environment: Environment,
+                                  servicesConfig: ServicesConfig,
+                                  override val languageUtils: LanguageUtils)
     extends PortalUrlBuilder {
 
   import servicesConfig._
@@ -43,13 +46,14 @@ class FrontendAppConfig @Inject()(override val runModeConfiguration: Configurati
   lazy val loginUrl: String                 = loadConfig("urls.login")
   lazy val loginContinueUrl: String         = loadConfig("urls.loginContinue")
   lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
-  lazy val googleTagManagerId: String = loadConfig(s"google-tag-manager.id")
+  lazy val googleTagManagerId: String       = loadConfig(s"google-tag-manager.id")
 
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
   def getYoutubeVideoId(key: String): String = loadConfig(s"urls.external.youtube.$key")
 
-  private lazy val businessAccountHost: String = runModeConfiguration.getOptional[String]("urls.business-account.host").getOrElse("")
+  private lazy val businessAccountHost: String =
+    runModeConfiguration.getOptional[String]("urls.business-account.host").getOrElse("")
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
