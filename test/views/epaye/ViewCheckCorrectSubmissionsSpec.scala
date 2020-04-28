@@ -23,8 +23,8 @@ import views.html.epaye.view_check_correct_submissions
 class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
   val messageKeyPrefix = "epaye.submissions"
 
-  def createView = () => view_check_correct_submissions(frontendAppConfig, Some("user@example.com"))(HtmlFormat.empty)(fakeRequest, messages)
-  def createViewWithoutEmail = () => view_check_correct_submissions(frontendAppConfig, None)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[view_check_correct_submissions].apply(frontendAppConfig, Some("user@example.com"))(HtmlFormat.empty)(fakeRequest, messages)
+  def createViewWithoutEmail = () => inject[view_check_correct_submissions].apply(frontendAppConfig, None)(HtmlFormat.empty)(fakeRequest, messages)
 
   def doc = asDocument(createView())
   def docWithoutEmail = asDocument(createViewWithoutEmail())

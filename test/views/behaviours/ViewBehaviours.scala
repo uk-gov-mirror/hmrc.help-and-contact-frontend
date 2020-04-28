@@ -16,10 +16,15 @@
 
 package views.behaviours
 
+import play.api.mvc.{AnyContent, Request}
 import play.twirl.api.HtmlFormat
 import views.ViewSpecBase
+import play.api.i18n.{I18nSupport, MessagesApi}
 
 trait ViewBehaviours extends ViewSpecBase {
+
+  implicit val request: Request[AnyContent] = fakeRequest
+
 
   def normalPage(view: () => HtmlFormat.Appendable,
                  messageKeyPrefix: String,
@@ -31,7 +36,7 @@ trait ViewBehaviours extends ViewSpecBase {
           val doc = asDocument(view())
           val nav = doc.getElementById("proposition-menu")
           val span = nav.children.first
-          span.text mustBe messagesApi("site.service_name")
+          span.text mustBe messages("site.service_name")
         }
 
         "display the correct browser title" in {

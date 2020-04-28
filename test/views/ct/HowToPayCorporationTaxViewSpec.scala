@@ -30,7 +30,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => how_to_pay_corporation_tax(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) = () => inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
 
   "HowToPayCorporationTax view" must {
     behave like normalPage(createView(), messageKeyPrefix)

@@ -30,7 +30,7 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => contact_hmrc_about_ct(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) = () => inject[contact_hmrc_about_ct].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
 
   "Contact HMRC about corporation tax view" must {
     behave like normalPage(createView(), messageKeyPrefix)

@@ -28,7 +28,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
 
   def createView =
     () =>
-      help_and_contact(frontendAppConfig)(HtmlFormat.empty)(
+      inject[help_and_contact].apply(frontendAppConfig)(HtmlFormat.empty)(
         fakeRequest,
         messages
     )

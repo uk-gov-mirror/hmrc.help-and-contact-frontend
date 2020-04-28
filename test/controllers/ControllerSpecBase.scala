@@ -16,9 +16,32 @@
 
 package controllers
 
-import uk.gov.hmrc.http.cache.client.CacheMap
 import base.SpecBase
+import controllers.actions.{AuthAction, FakeServiceInfoAction, ServiceInfoAction}
+import controllers.actions.mocks.MockAuth
+import play.api.Application
+import play.api.inject.guice.GuiceApplicationBuilder
+import play.api.inject.guice.GuiceableModule.fromPlayBinding
+import play.api.inject.{Binding, bind}
 
-trait ControllerSpecBase extends SpecBase {
+trait ControllerSpecBase extends SpecBase with MockAuth {
+  def moduleOverrides: Seq[Binding[_]] = Seq.empty
+
+  private def commonOverrides: Seq[Binding[_]] = Seq[Binding[_]](
+    bind[AuthAction].toInstance(mockAuthAction),
+    bind[ServiceInfoAction].toInstance(FakeServiceInfoAction)
+  )
+
+  private def allOverrides: Seq[Binding[_]] = commonOverrides ++ moduleOverrides
+
+  override implicit final lazy val app: Application =
+    GuiceApplicationBuilder()
+      .overrides(allOverrides.map(fromPlayBinding): _*)
+      .build()
+
+  override def beforeEach(): Unit = {
+    super.beforeEach()
+    mockAuth()
+  }
 
 }

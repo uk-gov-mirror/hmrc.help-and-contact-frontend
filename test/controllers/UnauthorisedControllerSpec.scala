@@ -17,19 +17,26 @@
 package controllers
 
 import play.api.test.Helpers._
+import play.api.mvc.{AnyContent, Request, Result}
 import views.html.unauthorised
+
+import scala.concurrent.Future
 
 class UnauthorisedControllerSpec extends ControllerSpecBase {
 
+  implicit val request: Request[AnyContent] = fakeRequest
+
+  lazy val SUT: UnauthorisedController = inject[UnauthorisedController]
+
   "Unauthorised Controller" must {
     "return 401 for a GET" in {
-      val result = new UnauthorisedController(frontendAppConfig, messagesApi).onPageLoad()(fakeRequest)
+      val result: Future[Result] = SUT.onPageLoad()(fakeRequest)
       status(result) mustBe UNAUTHORIZED
     }
 
     "return the correct view for a GET" in {
-      val result = new UnauthorisedController(frontendAppConfig, messagesApi).onPageLoad()(fakeRequest)
-      contentAsString(result) mustBe unauthorised(frontendAppConfig)(fakeRequest, messages).toString
+      val result: Future[Result] = SUT.onPageLoad()(fakeRequest)
+      contentAsString(result) mustBe inject[unauthorised].apply(frontendAppConfig)(fakeRequest, messages).toString
     }
   }
 }

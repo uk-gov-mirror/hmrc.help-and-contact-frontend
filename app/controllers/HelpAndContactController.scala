@@ -33,26 +33,27 @@ import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
 
-class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
-                                         contact_hmrc_about_ct: contact_hmrc_about_ct,
-                                         how_to_pay_corporation_tax: how_to_pay_corporation_tax, 
-                                         register_or_deregister_corporation_tax: register_or_deregister_corporation_tax,
-                                         paye_and_cis_refunds: paye_and_cis_refunds,
-                                         view_check_correct_submissions: view_check_correct_submissions,
-                                         help_and_contact: help_and_contact,
-                                         sa_evidence: sa_evidence,
-                                         expenses: expenses,
-                                         help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
-                                         how_to_pay_self_assessment: how_to_pay_self_assessment,
-                                         register_deregister: register_deregister,
-                                         payments_and_deadlines: payments_and_deadlines,
-                                         register_or_deregister: register_or_deregister,
-                                         override val messagesApi: MessagesApi,
-                                         authenticate: AuthAction,
-                                         serviceInfo: ServiceInfoAction,
-                                         override val controllerComponents: MessagesControllerComponents,
-                                         errorHandler: ErrorHandler)
-    extends FrontendController(controllerComponents)
+class HelpAndContactController @Inject()(
+    appConfig: FrontendAppConfig,
+    contact_hmrc_about_ct: contact_hmrc_about_ct,
+    how_to_pay_corporation_tax: how_to_pay_corporation_tax,
+    register_or_deregister_corporation_tax: register_or_deregister_corporation_tax,
+    paye_and_cis_refunds: paye_and_cis_refunds,
+    view_check_correct_submissions: view_check_correct_submissions,
+    help_and_contact: help_and_contact,
+    sa_evidence: sa_evidence,
+    expenses: expenses,
+    help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
+    how_to_pay_self_assessment: how_to_pay_self_assessment,
+    register_deregister: register_deregister,
+    payments_and_deadlines: payments_and_deadlines,
+    register_or_deregister: register_or_deregister,
+    override val messagesApi: MessagesApi,
+    authenticate: AuthAction,
+    serviceInfo: ServiceInfoAction,
+    override val controllerComponents: MessagesControllerComponents,
+    errorHandler: ErrorHandler
+) extends FrontendController(controllerComponents)
     with I18nSupport {
 
   def mainPage = (authenticate andThen serviceInfo) { implicit request =>
@@ -96,7 +97,9 @@ class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
     page match {
       case "evidence-of-income" => {
         Ok(
-          sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))(
+          sa_evidence(appConfig,
+                      request.request.saUtr.isDefined,
+                      appConfig.getBusinessAccountUrl("selfAssessmentBase"))(
             request.serviceInfoContent
           )
         )

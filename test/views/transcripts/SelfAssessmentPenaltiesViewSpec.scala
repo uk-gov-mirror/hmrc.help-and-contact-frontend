@@ -26,7 +26,7 @@ class SelfAssessmentPenaltiesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "selfAssessmentPenaltiesTranscript"
 
-  def createView = () => self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[self_assessment_penalties].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "BudgetingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)

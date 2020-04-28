@@ -26,7 +26,7 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "viewingYourCalculationTranscript"
 
-  def createView = () => viewing_your_self_assessment_calculation(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "ViewingYourCalculation view" must {
     behave like normalPage(createView, messageKeyPrefix)
