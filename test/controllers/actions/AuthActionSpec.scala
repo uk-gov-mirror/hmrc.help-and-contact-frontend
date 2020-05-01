@@ -127,4 +127,3 @@ class AuthActionSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach 
     }
   }
 }
-

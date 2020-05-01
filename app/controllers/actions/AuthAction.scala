@@ -28,7 +28,6 @@ import uk.gov.hmrc.auth.core.retrieve.~
 import uk.gov.hmrc.domain.SaUtr
 import uk.gov.hmrc.http.HeaderCarrier
 import uk.gov.hmrc.play.HeaderCarrierConverter
-import controllers.actions.AuthAction._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -39,6 +38,9 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
 ) extends AuthAction
     with AuthorisedFunctions {
 
+  final val saEnrolmentKey: String = "IR-SA"
+  final val saEnrolmentIdentifier: String = "UTR"
+
   private def getSaUtr(enrolments: Enrolments): Option[SaUtr] =
     enrolments
       .getEnrolment(saEnrolmentKey)
@@ -46,7 +48,7 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
         _.getIdentifier(saEnrolmentIdentifier).map(utr => SaUtr(utr.value))
       )
 
-  override def invokeBlock[A](request: Request[A],
+  def invokeBlock[A](request: Request[A],
                               block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
     implicit val hc: HeaderCarrier =
       HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
@@ -54,28 +56,23 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
     authorised().retrieve(Retrievals.allEnrolments and Retrievals.email) {
       case enrolments ~ email => block(AuthenticatedRequest(request, getSaUtr(enrolments), email))
     } recover {
-      case ex: NoActiveSession =>
+      case _: NoActiveSession =>
         Redirect(config.loginUrl, Map("continue" -> Seq(config.loginContinueUrl)))
-      case ex: InsufficientEnrolments =>
-        Redirect(routes.UnauthorisedController.onPageLoad)
-      case ex: InsufficientConfidenceLevel =>
-        Redirect(routes.UnauthorisedController.onPageLoad)
-      case ex: UnsupportedAuthProvider =>
-        Redirect(routes.UnauthorisedController.onPageLoad)
-      case ex: UnsupportedAffinityGroup =>
-        Redirect(routes.UnauthorisedController.onPageLoad)
-      case ex: UnsupportedCredentialRole =>
-        Redirect(routes.UnauthorisedController.onPageLoad)
+      case _: InsufficientEnrolments =>
+        Redirect(routes.UnauthorisedController.onPageLoad())
+      case _: InsufficientConfidenceLevel =>
+        Redirect(routes.UnauthorisedController.onPageLoad())
+      case _: UnsupportedAuthProvider =>
+        Redirect(routes.UnauthorisedController.onPageLoad())
+      case _: UnsupportedAffinityGroup =>
+        Redirect(routes.UnauthorisedController.onPageLoad())
+      case _: UnsupportedCredentialRole =>
+        Redirect(routes.UnauthorisedController.onPageLoad())
     }
 
   }
 
   override def parser: BodyParser[AnyContent] = defaultParser.defaultBodyParser
-}
-
-object AuthAction {
-  val saEnrolmentKey        = "IR-SA"
-  val saEnrolmentIdentifier = "UTR"
 }
 
 @ImplementedBy(classOf[AuthActionImpl])

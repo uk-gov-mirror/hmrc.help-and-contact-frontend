@@ -42,7 +42,7 @@ class FrontendAppConfig @Inject()(val runModeConfiguration: Configuration,
 
   lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
   lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
-  lazy val btaUrl: String                   = baseUrl("business-tax-account")
+  lazy val btaUrl: String                   = servicesConfig.baseUrl("business-tax-account")
   lazy val loginUrl: String                 = loadConfig("urls.login")
   lazy val loginContinueUrl: String         = loadConfig("urls.loginContinue")
   lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
@@ -52,8 +52,7 @@ class FrontendAppConfig @Inject()(val runModeConfiguration: Configuration,
 
   def getYoutubeVideoId(key: String): String = loadConfig(s"urls.external.youtube.$key")
 
-  private lazy val businessAccountHost: String =
-    runModeConfiguration.getOptional[String]("urls.business-account.host").getOrElse("")
+  private lazy val businessAccountHost: String = servicesConfig.getString("urls.business-account.host")
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 

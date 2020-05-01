@@ -30,9 +30,7 @@ import uk.gov.hmrc.play.partials.HtmlPartial.{Failure, Success}
 import uk.gov.hmrc.play.partials.{HeaderCarrierForPartials, HtmlPartial}
 import scala.concurrent.ExecutionContext.Implicits.global
 
-
 import scala.concurrent.Future
-
 
 class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach with ScalaFutures {
 
@@ -82,7 +80,6 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
         when(mockHttpGet.GET[HtmlPartial](Matchers.eq(btaUrl))(Matchers.any(), Matchers.any(), Matchers.any()))
           .thenReturn(Future.failed(new Exception))
 
-
         whenReady(result) { response =>
           response mustBe Html("")
         }
@@ -124,12 +121,13 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
         </a>
       </li>
     </ul>
-  """.stripMargin.trim)
+  """.stripMargin.trim
+    )
 
-  val successResponse = Success(None, serviceInfoPartialSuccess)
-  val badRequestResponse = Failure(Some(Status.BAD_REQUEST))
-  val gatewayTimeoutResponse = Failure(Some(Status.GATEWAY_TIMEOUT))
-  val badResponse = HttpResponse(Status.BAD_REQUEST, responseString = Some("Error Message"))
+  val successResponse                         = Success(None, serviceInfoPartialSuccess)
+  val badRequestResponse                      = Failure(Some(Status.BAD_REQUEST))
+  val gatewayTimeoutResponse                  = Failure(Some(Status.GATEWAY_TIMEOUT))
+  val badResponse                             = HttpResponse(Status.BAD_REQUEST, responseString = Some("Error Message"))
   implicit val hcwc: HeaderCarrierForPartials = HeaderCarrierForPartials(HeaderCarrier(), "")
 
 }

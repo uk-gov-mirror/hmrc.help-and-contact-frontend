@@ -30,12 +30,12 @@ class ServiceInfoActionImpl @Inject()(
     serviceInfoPartialConnector: ServiceInfoPartialConnector,
     helpAndContactHeaderCarrierForPartialsConverter: HelpAndContactHeaderCarrierForPartialsConverter
 )(
-    implicit protected val executionContext: ExecutionContext
+    implicit val executionContext: ExecutionContext
 ) extends ServiceInfoAction {
 
   import helpAndContactHeaderCarrierForPartialsConverter._
 
-  override protected def transform[A](request: AuthenticatedRequest[A]): Future[ServiceInfoRequest[A]] = {
+  override def transform[A](request: AuthenticatedRequest[A]): Future[ServiceInfoRequest[A]] = {
     implicit val r: Request[A] = request
     serviceInfoPartialConnector.getServiceInfoPartial().map { serviceInfoContent =>
       ServiceInfoRequest(request, serviceInfoContent)

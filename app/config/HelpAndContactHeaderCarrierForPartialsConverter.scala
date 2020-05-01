@@ -16,13 +16,10 @@
 
 package config
 
-import javax.inject.{Inject, Singleton}
-
-import uk.gov.hmrc.crypto.PlainText
-import uk.gov.hmrc.play.bootstrap.filters.frontend.crypto.SessionCookieCrypto
+import javax.inject.Singleton
 import uk.gov.hmrc.play.partials.HeaderCarrierForPartialsConverter
 
 @Singleton
-class HelpAndContactHeaderCarrierForPartialsConverter @Inject()(val sessionCookieCrypto: SessionCookieCrypto) extends HeaderCarrierForPartialsConverter {
-  override def crypto: String => String = cookie => cookie
+class HelpAndContactHeaderCarrierForPartialsConverter extends HeaderCarrierForPartialsConverter {
+  override def crypto: String => String = identity
 }

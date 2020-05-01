@@ -6,12 +6,12 @@ private object AppDependencies {
   import play.core.PlayVersion
   import play.sbt.PlayImport._
 
-  private val playHealthVersion = "3.14.0-play-26"
+ private val playHealthVersion = "3.14.0-play-26"
   private val logbackJsonLoggerVersion = "4.6.0"
   private val govukTemplateVersion = "5.26.0-play-26"
   private val playUiVersion = "8.7.0-play-26"
   private val scalaTestVersion = "3.0.5"
-  private val scalaTestPlusPlayVersion = "2.0.1"
+  private val scalaTestPlusPlayVersion = "3.1.2"
   private val pegdownVersion = "1.6.0"
   private val mockitoAllVersion = "1.10.19"
   private val httpCachingClientVersion = "9.0.0-play-26"
@@ -42,7 +42,6 @@ private object AppDependencies {
   def testCommon(): Seq[ModuleID] = {
     val scope: String = "test,it"
     Seq(
-      "org.scalatest" %% "scalatest" % scalaTestVersion % scope,
       "org.scalatestplus.play" %% "scalatestplus-play" % scalaTestPlusPlayVersion % scope,
       "org.pegdown" % "pegdown" % pegdownVersion % scope,
       "org.jsoup" % "jsoup" % "1.10.3" % scope,
