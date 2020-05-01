@@ -20,25 +20,21 @@ import javax.inject.{Inject, Singleton}
 import controllers.routes
 import play.api.i18n.Lang
 import play.api.mvc.{Call, Request}
-import play.api.{Configuration, Environment}
 import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
 import uk.gov.hmrc.play.language.LanguageUtils
 import uk.gov.hmrc.domain.SaUtr
 import utils.PortalUrlBuilder
 
 @Singleton
-class FrontendAppConfig @Inject()(val runModeConfiguration: Configuration,
-                                  environment: Environment,
-                                  servicesConfig: ServicesConfig,
+class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
                                   override val languageUtils: LanguageUtils)
     extends PortalUrlBuilder {
 
   import servicesConfig._
 
-  private def loadConfig(key: String): String =
-    runModeConfiguration.getOptional[String](key).getOrElse(throw new Exception(s"Missing configuration key: $key"))
+  private def loadConfig(key: String): String = servicesConfig.getString(key)
 
-  private lazy val contactHost: String = runModeConfiguration.getOptional[String]("contact-frontend.host").getOrElse("")
+  private lazy val contactHost: String = servicesConfig.getString("contact-frontend.host")
 
   lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
   lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
@@ -56,8 +52,7 @@ class FrontendAppConfig @Inject()(val runModeConfiguration: Configuration,
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
-  lazy val languageTranslationEnabled: Boolean =
-    runModeConfiguration.getOptional[Boolean]("microservice.services.features.welsh-translation").getOrElse(true)
+  lazy val languageTranslationEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.welsh-translation")
 
   def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))
 

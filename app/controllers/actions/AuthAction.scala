@@ -38,7 +38,9 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
 ) extends AuthAction
     with AuthorisedFunctions {
 
-  final val saEnrolmentKey: String = "IR-SA"
+  override def parser: BodyParser[AnyContent] = defaultParser.defaultBodyParser
+
+  final val saEnrolmentKey: String        = "IR-SA"
   final val saEnrolmentIdentifier: String = "UTR"
 
   private def getSaUtr(enrolments: Enrolments): Option[SaUtr] =
@@ -48,8 +50,7 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
         _.getIdentifier(saEnrolmentIdentifier).map(utr => SaUtr(utr.value))
       )
 
-  def invokeBlock[A](request: Request[A],
-                              block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
+  def invokeBlock[A](request: Request[A], block: (AuthenticatedRequest[A]) => Future[Result]): Future[Result] = {
     implicit val hc: HeaderCarrier =
       HeaderCarrierConverter.fromHeadersAndSession(request.headers, Some(request.session))
 
@@ -72,7 +73,6 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
 
   }
 
-  override def parser: BodyParser[AnyContent] = defaultParser.defaultBodyParser
 }
 
 @ImplementedBy(classOf[AuthActionImpl])
