@@ -24,87 +24,84 @@ import views.html.transcripts._
 
 class TranscriptControllerSpec extends ControllerSpecBase {
 
-  def pageRouter(videoTitle: String, view: () => HtmlFormat.Appendable) = {
+  lazy val SUT: TranscriptController = inject[TranscriptController]
+
+  def pageRouter(videoTitle: String, view: () => HtmlFormat.Appendable) =
     "TranscriptController onPageLoad" must {
       s"display the correct view for /$videoTitle" in {
-        val result = controller().onPageLoad(videoTitle).apply(fakeRequest)
+        val result = SUT.onPageLoad(videoTitle).apply(fakeRequest)
         status(result) mustBe OK
         contentAsString(result) mustBe view().toString
       }
     }
-  }
-
-  def controller() =
-    new TranscriptController(frontendAppConfig, messagesApi, FakeAuthAction, FakeServiceInfoAction, injector.instanceOf[ErrorHandler])
 
   "TranscriptController Controller" must {
 
     "return 404 for a page that does not exist" in {
-        val result = controller().onPageLoad("abcdefgh").apply(fakeRequest)
-        status(result) mustBe NOT_FOUND
+      val result = SUT.onPageLoad("abcdefgh").apply(fakeRequest)
+      status(result) mustBe NOT_FOUND
     }
   }
 
   behave like pageRouter(
     "viewing-your-self-assessment-calculation",
-    () => viewing_your_self_assessment_calculation(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "paying-your-self-assessment-tax-bill",
-    () => paying_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[paying_your_self_assessment_tax_bill].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "budgeting-your-self-assessment-tax-bill",
-    () => budgeting_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () =>
+      inject[budgeting_your_self_assessment_tax_bill].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "self-assessment-penalties",
-    () => self_assessment_penalties(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[self_assessment_penalties].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "why-sent-tax-return",
-    () => why_sent_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[why_sent_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "your-first-tax-return",
-    () => your_first_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[your_first_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "tailor-your-tax-return",
-    () => tailor_your_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[tailor_your_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "your-self-employed-tax-return",
-    () => your_self_employed_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[your_self_employed_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "your-income-from-property-tax-return",
-    () => your_income_from_property_tax_return(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[your_income_from_property_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "expenses-if-you-are-self-employed",
-    () => expenses_if_you_are_self_employed(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[expenses_if_you_are_self_employed].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "calculating-motoring-expenses",
-    () => calculating_motoring_expenses(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[calculating_motoring_expenses].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
   behave like pageRouter(
     "registering-for-self-assessment",
-    () => registering_for_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+    () => inject[registering_for_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 }
-
-
-

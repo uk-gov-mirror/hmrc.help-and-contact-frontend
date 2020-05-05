@@ -25,7 +25,7 @@ import models.HelpCategory
 import models.HelpCategory._
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
-import play.api.mvc.AnyContent
+import play.api.mvc.{AnyContent, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
 import views.html.ct._
 import views.html.epaye._
@@ -33,71 +33,89 @@ import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
 
-class HelpAndContactController @Inject()(appConfig: FrontendAppConfig,
-                                         override val messagesApi: MessagesApi,
-                                         authenticate: AuthAction,
-                                         serviceInfo: ServiceInfoAction,
-                                         errorHandler: ErrorHandler) extends FrontendController with I18nSupport {
+class HelpAndContactController @Inject()(
+    appConfig: FrontendAppConfig,
+    contact_hmrc_about_ct: contact_hmrc_about_ct,
+    how_to_pay_corporation_tax: how_to_pay_corporation_tax,
+    register_or_deregister_corporation_tax: register_or_deregister_corporation_tax,
+    paye_and_cis_refunds: paye_and_cis_refunds,
+    view_check_correct_submissions: view_check_correct_submissions,
+    help_and_contact: help_and_contact,
+    sa_evidence: sa_evidence,
+    expenses: expenses,
+    help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
+    how_to_pay_self_assessment: how_to_pay_self_assessment,
+    register_deregister: register_deregister,
+    payments_and_deadlines: payments_and_deadlines,
+    register_or_deregister: register_or_deregister,
+    override val messagesApi: MessagesApi,
+    authenticate: AuthAction,
+    serviceInfo: ServiceInfoAction,
+    override val controllerComponents: MessagesControllerComponents,
+    errorHandler: ErrorHandler
+) extends FrontendController(controllerComponents)
+    with I18nSupport {
 
-  def mainPage = (authenticate andThen serviceInfo) {
-    implicit request =>
-      Ok(help_and_contact(appConfig)(request.serviceInfoContent))
+  def mainPage = (authenticate andThen serviceInfo) { implicit request =>
+    Ok(help_and_contact(appConfig)(request.serviceInfoContent))
   }
 
-  def onPageLoad(category: HelpCategory, page: String) = (authenticate andThen serviceInfo) {
-    implicit request =>
-      category match {
-        case CorporationTax => corporationTax(page)
-        case Epaye => ePaye(page)
-        case SelfAssessment => selfAssessment(page)
-        case VAT => vat(page)
-      }
+  def onPageLoad(category: HelpCategory, page: String) = (authenticate andThen serviceInfo) { implicit request =>
+    category match {
+      case CorporationTax => corporationTax(page)
+      case Epaye          => ePaye(page)
+      case SelfAssessment => selfAssessment(page)
+      case VAT            => vat(page)
+    }
   }
 
-  private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "contact-hmrc" => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
-      case "how-to-pay" => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
-      case "register-or-tell-hmrc-you-are-no-longer-trading" => Ok(register_or_deregister_corporation_tax(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"   => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
+      case "register-or-tell-hmrc-you-are-no-longer-trading" =>
+        Ok(register_or_deregister_corporation_tax(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
-  }
 
-  private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "get-started" => MovedPermanently("/business-account/epaye/get-started")
-      case "remove" => MovedPermanently("/business-account/epaye/remove")
-      case "refunds" => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
-      case "view-check-correct-submissions" => Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
+      case "remove"      => MovedPermanently("/business-account/epaye/remove")
+      case "refunds"     => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
+      case "view-check-correct-submissions" =>
+        Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
       case "change-employee-circumstances" => MovedPermanently("/business-account/epaye/change-employee-circumstances")
-      case "check-submissions" => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
-      case "latency" => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
-      case "paye-refund" => MovedPermanently("/business-account/help/epaye/refunds")
-      case "" => MovedPermanently("/business-account/help")
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case "check-submissions"             => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
+      case "latency"                       => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
+      case "paye-refund"                   => MovedPermanently("/business-account/help/epaye/refunds")
+      case ""                              => MovedPermanently("/business-account/help")
+      case _                               => NotFound(errorHandler.notFoundTemplate)
     }
-  }
 
-  private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "evidence-of-income" => {
-        Ok(sa_evidence(appConfig, request.request.saUtr.isDefined, appConfig.getBusinessAccountUrl("selfAssessmentBase"))
-        (request.serviceInfoContent))
+        Ok(
+          sa_evidence(appConfig,
+                      request.request.saUtr.isDefined,
+                      appConfig.getBusinessAccountUrl("selfAssessmentBase"))(
+            request.serviceInfoContent
+          )
+        )
       }
-      case "expenses" => Ok(expenses(appConfig)(request.serviceInfoContent))
-      case "help-with-return" => Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
-      case "how-to-pay" => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
+      case "expenses"               => Ok(expenses(appConfig)(request.serviceInfoContent))
+      case "help-with-return"       => Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_deregister(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _                        => NotFound(errorHandler.notFoundTemplate)
     }
-  }
 
-  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) = {
+  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
-      case "how-to-pay" => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
+      case "how-to-pay"             => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _                        => NotFound(errorHandler.notFoundTemplate)
     }
-  }
 
 }

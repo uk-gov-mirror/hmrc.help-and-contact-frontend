@@ -25,7 +25,7 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "payingYourSelfAssessmentTaxBillTranscript"
 
-  def createView = () => paying_your_self_assessment_tax_bill(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[paying_your_self_assessment_tax_bill].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "PayingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)

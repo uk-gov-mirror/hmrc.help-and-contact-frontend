@@ -19,12 +19,15 @@ package utils
 import base.SpecBase
 import play.api.mvc.Cookie
 import uk.gov.hmrc.domain.{CtUtr, SaUtrGenerator}
+import uk.gov.hmrc.play.language.LanguageUtils
 
 import scala.util.Random
 
 class PortalUrlBuilderSpec extends SpecBase {
 
-  object PortalUrlBuilder extends PortalUrlBuilder
+   val PortalUrlBuilder :PortalUrlBuilder = new PortalUrlBuilder {
+    def languageUtils: LanguageUtils = inject[LanguageUtils]
+  }
 
 
   val fakeRequestWithWelsh = fakeRequest.withCookies(Cookie("PLAY_LANG", "cy"))

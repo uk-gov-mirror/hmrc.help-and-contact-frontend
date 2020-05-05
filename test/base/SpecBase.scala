@@ -21,17 +21,16 @@ import org.scalatestplus.play.PlaySpec
 import org.scalatestplus.play.guice._
 import play.api.i18n.{Messages, MessagesApi}
 import play.api.inject.Injector
-import play.api.test.FakeRequest
+import play.api.test.{FakeRequest, Injecting}
+import play.api.mvc.{AnyContent, Request}
 
-trait SpecBase extends PlaySpec with GuiceOneAppPerSuite {
+trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
-  def injector: Injector = app.injector
+  def frontendAppConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
-  def frontendAppConfig: FrontendAppConfig = injector.instanceOf[FrontendAppConfig]
+  def messagesApi: MessagesApi = inject[MessagesApi]
 
-  def messagesApi: MessagesApi = injector.instanceOf[MessagesApi]
+  def fakeRequest: FakeRequest[AnyContent] = FakeRequest("", "")
 
-  def fakeRequest = FakeRequest("", "")
-
-  def messages: Messages = messagesApi.preferred(fakeRequest)
+ def messages: Messages = messagesApi.preferred(fakeRequest)
 }

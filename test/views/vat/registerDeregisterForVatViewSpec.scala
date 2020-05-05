@@ -26,7 +26,7 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
   def createView =
     () =>
-      register_or_deregister(frontendAppConfig)(HtmlFormat.empty)(
+      inject[register_or_deregister].apply(frontendAppConfig)(HtmlFormat.empty)(
         fakeRequest,
         messages
     )

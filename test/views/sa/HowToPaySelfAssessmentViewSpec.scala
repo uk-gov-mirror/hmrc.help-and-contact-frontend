@@ -32,7 +32,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => how_to_pay_self_assessment(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) = () => inject[how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
 
   "HowToPaySelfAssessment view" must {
     behave like normalPage(createView(), messageKeyPrefix)

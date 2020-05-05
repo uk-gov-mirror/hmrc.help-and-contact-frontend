@@ -15,8 +15,12 @@
  *@
 
 @import config.FrontendAppConfig
-
 @import models.requests.ServiceInfoRequest
+
+@this(
+  main_template: main_template
+)
+
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: ServiceInfoRequest[_], messages: Messages)
 
 @main_template(
