@@ -52,6 +52,12 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
+  private lazy val dfsHost: String = servicesConfig.getString("urls.digital-forms-service.host")
+  private lazy val dfsBase: String = servicesConfig.getString("urls.digital-forms-service.base")
+  private lazy val dfsSuffix: String = servicesConfig.getString("urls.digital-forms-service.suffix")
+
+  def getDfsFormUrl(formId: String): String = s"$dfsHost$dfsBase${servicesConfig.getString(s"urls.digital-forms-service.formTypeRef.$formId")}$dfsSuffix"
+
   lazy val languageTranslationEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.welsh-translation")
 
   def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))

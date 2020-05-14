@@ -17,6 +17,7 @@
 package views.sa
 
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
+import play.api.i18n.{Lang, Messages}
 import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.{SaUtr, SaUtrGenerator}
 import views.behaviours.ViewBehaviours
@@ -81,17 +82,14 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       doc.text() must include("paid tax late")
       doc.text() must include("didn’t pay enough tax")
 
-      doc.text() must include("You can appeal if you have a ‘reasonable excuse’, for example you had an unexpected stay in hospital. " +
-        "You must appeal within 30 days of the date the penalty was sent to you.")
+      doc.text() must include("You can appeal if you have a reasonable excuse, for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.")
 
-      doc.text() must include("You can’t appeal a penalty online or by phone. Find out more about reasonable excuses and how to appeal " +
-        "by post.")
-
-      doc.text() must include("If you get your penalty notice by email from HMRC, you can either fill in form SA370 or write to HMRC, " +
-        "giving your reasons for appealing.")
-
-      doc.text() must include("Send your form or letter to HMRC’s ")
-      doc.text() must include("You’ll need a breakdown of your penalties and interest.")
+      doc.text() must include("You can:")
+      doc.text() must include("appeal a £100 Self Assessment late filing penalty online (opens in a new tab or window)")
+      doc.text() must include("appeal any late filing or late payment penalty using form SA370 (opens in a new tab or window)")
+      doc.text() must include("If you get your penalty notice by email, you can fill in form SA370 to appeal against Self Assessment penalties for late filing and late payment, or you can write to HMRC with your reasons for appealing.")
+      doc.text() must include("Send your form or letter to HMRC's address for Self Assessment enquiries.")
+      doc.text() must include("You'll need a breakdown of your penalties and interest.")
 
       doc.text() must include("HMRC will send you contact details for the office dealing with your case within 15 days of receiving your " +
         "appeal.")
@@ -126,25 +124,30 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "reasonable-excuses",
-        "reasonable excuses",
+        "reasonable excuse",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
         "link - click:How to pay your Self Assessment:reasonable excuses")
       assertLinkById(
         doc,
-        "how-to-appeal",
-        "how to appeal",
-        "https://www.gov.uk/tax-appeals/penalty",
-        "link - click:How to pay your Self Assessment:how to appeal")
+        "form-SAASUB",
+        "appeal a £100 Self Assessment late filing penalty online (opens in a new tab or window)",
+        "/digital-forms/form/self-assessment-appeal-late-filing-penalty/draft/guide",
+        "link - click:Appeal a £100 Self Assessment late filing penalty online:form SAASUB",
+        false,
+        true,
+        false)
       assertLinkById(
         doc,
         "form-SA370",
-        "form SA370",
+        "appeal any late filing or late payment penalty using form SA370 (opens in a new tab or window)",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
-        "link - click:How to pay your Self Assessment:form SA370")
+        "link - click:How to pay your Self Assessment:form SA370",
+        false,
+        true)
       assertLinkById(
         doc,
         "address-for-sa-enquiries",
-        "address for Self Assessment enquiries",
+        "address for Self Assessment enquiries.",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
         "link - click:How to pay your Self Assessment:address for Self Assessment enquiries")
       assertLinkById(
@@ -184,7 +187,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "penalties",
-        "penalties",
+        "View your Self Assessment penalties",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/penalties?lang=eng",
         "link - click:How to pay your Self Assessment:penalties")
     }
@@ -195,9 +198,22 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "interest",
-        "interest",
+        "View your Self Assessment interest",
         s"http://localhost:8080/portal/self-assessment/ind/$utr/account/interests?lang=eng",
         "link - click:How to pay your Self Assessment:interest")
+    }
+  }
+
+  "when viewed in Welsh" should {
+    "have a link to welsh helpline" in {
+      val doc = asDocument(inject[how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(None), messagesApi.preferred(Seq(Lang("cy")))))
+
+      assertLinkById(
+        doc,
+        "address-for-sa-enquiries",
+        "Wasanaeth Cwsmeriaid Cymraeg CThEM.",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/welsh-language-helplines",
+        "link - click:How to pay your Self Assessment:address for Self Assessment enquiries")
     }
   }
 }
