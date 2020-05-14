@@ -121,49 +121,48 @@
         <li>@messages("howtoPaySelfAssessment.did.not.pay.enough.tax")</li>
     </ul>
 
-    <p>@messages("howToPaySelfAssessment.you.can.appeal.if.you.have.a.reasonable.excuse_")</p>
-
-    <p>@messages("howToPaySelfAssessment.you.cant.appeal.a.penalty.online.or.by.phone_")
-        <a id="reasonable-excuses" href="@appConfig.getGovUrl("reasonableExcuses")"
-        data-journey-click="link - click:How to pay your Self Assessment:reasonable excuses">
-        @messages("howtoPaySelfAssessment.reasonable.excuses")</a>
-        @messages("howtoPaySelfAssessment.and") <a id="how-to-appeal" href="@appConfig.getGovUrl("howToAppeal")"
-        data-journey-click="link - click:How to pay your Self Assessment:how to appeal">
-        @messages("howtoPaySelfAssessment.how.to.appeal")</a>
-        @messages("howtoPaySelfAssessment.by.post")
-    </p>
+    <p>@messages("howToPaySelfAssessment.you.can.appeal.if") <a id="reasonable-excuses" href="@appConfig.getGovUrl("reasonableExcuses")"
+    data-journey-click="link - click:How to pay your Self Assessment:reasonable excuses">@messages("howToPaySelfAssessment.reasonable.excuse")</a>, @messages("howToPaySelfAssessment.for.example.stay.in.hospital")</p>
 
     <h2>@messages("howToPaySelfAssessment.appeal.against.penalty")</h2>
 
-    <p>@messages("howToPaySelfAssessment.if.you.get.your.penalty.notice.by.email.from.hmrc_")
-        <a id="form-SA370" href="@appConfig.getGovUrl("formSa370")"
-        data-journey-click="link - click:How to pay your Self Assessment:form SA370">
-        @messages("howtoPaySelfAssessment.form.sa370")</a>
-        @messages("howToPaySelfAssessment.or.write.to.hmrc.giving.your.reasons.for.appealing")
-    </p>
+    <p>@messages("howToPaySelfAssessment.you.can")</p>
 
-    <p>@messages("howToPaySelfAssessment.send.your.form.or.letter.to.hmrcs")
+    <ul class="list list-bullet">
+        <li><a id="form-SAASUB" href="@appConfig.getDfsFormUrl("SAASUB")" data-journey-click="link - click:Appeal a £100 Self Assessment late filing penalty online:form SAASUB" target="_blank">@messages("howToPaySelfAssessment.appeal.online")</a></li>
+        <li><a id="form-SA370" href="@appConfig.getGovUrl("formSa370")"
+        data-journey-click="link - click:How to pay your Self Assessment:form SA370" target="_blank">@messages("howToPaySelfAssessment.appeal.form")</a></li>
+    </ul>
+
+    <p>@messages("howToPaySelfAssessment.notice.by.email")</p>
+
+    <p>@messages("howToPaySelfAssessment.send.to.hmrc")
+        @if(messages.lang == Lang("cy")) {
+        <a id="address-for-sa-enquiries" href="@appConfig.getGovUrl("addressForSaEnquiriesWelsh")"
+        data-journey-click="link - click:How to pay your Self Assessment:address for Self Assessment enquiries">@messages("howToPaySelfAssessment.sa.hmrc.address")</a>
+    } else {
         <a id="address-for-sa-enquiries" href="@appConfig.getGovUrl("addressForSaEnquiries")"
-        data-journey-click="link - click:How to pay your Self Assessment:address for Self Assessment enquiries">
-        @messages("howtoPaySelfAssessment.address.for.sa.enquiries")</a>.
+        data-journey-click="link - click:How to pay your Self Assessment:address for Self Assessment enquiries">@messages("howToPaySelfAssessment.sa.hmrc.address")</a>
+    }
     </p>
 
-    <p>
-        @messages("howToPaySelfAssessment.youll.need.a.breakdown.of.your")
-        @if(request.request.saUtr.isDefined) {
-            <a id="penalties" href="@appConfig.getPortalUrl("selfAssessmentPenalties", request.request.saUtr)"
-            data-journey-click="link - click:How to pay your Self Assessment:penalties">@messages("howtoPaySelfAssessment.penalties")</a>
-        } else {
-            @messages("howtoPaySelfAssessment.penalties")
-        }
-        @messages("howtoPaySelfAssessment.and")
-        @if(request.request.saUtr.isDefined) {
-            <a id="interest" href="@appConfig.getPortalUrl("selfAssessmentInterest", request.request.saUtr)"
-            data-journey-click="link - click:How to pay your Self Assessment:interest">@messages("howtoPaySelfAssessment.interest")</a>.
-        } else {
-            @messages("howtoPaySelfAssessment.interest").
-        }
-    </p>
+    <p>@messages("howToPaySelfAssessment.youll.need")</p>
+
+    @if(request.request.saUtr.isDefined) {
+        <ul>
+            <li>
+                <a id="penalties" href="@appConfig.getPortalUrl("selfAssessmentPenalties", request.request.saUtr)" data-journey-click="link - click:How to pay your Self Assessment:penalties">
+                @messages("howToPaySelfAssessment.view.penalties")
+                </a>
+            </li>
+            <li>
+                <a id="interest" href="@appConfig.getPortalUrl("selfAssessmentInterest", request.request.saUtr)"
+                data-journey-click="link - click:How to pay your Self Assessment:interest">
+                @messages("howToPaySelfAssessment.view.interest")
+                </a>
+            </li>
+        </ul>
+    }
 
     <h2>@messages("howToPaySelfAssessment.check.status.of.appeal")</h2>
 
@@ -180,5 +179,3 @@
             @messages("howtoPaySelfAssessment.self.assessment.penalties") @messages("howtoPaySelfAssessment.video.transcript")</a>
     </p>
 }
-
-
