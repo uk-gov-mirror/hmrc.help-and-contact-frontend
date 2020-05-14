@@ -6,30 +6,25 @@ private object AppDependencies {
   import play.core.PlayVersion
   import play.sbt.PlayImport._
 
- private val playHealthVersion = "3.14.0-play-26"
-  private val logbackJsonLoggerVersion = "4.6.0"
-  private val govukTemplateVersion = "5.26.0-play-26"
-  private val playUiVersion = "8.7.0-play-26"
-  private val scalaTestVersion = "3.0.5"
-  private val scalaTestPlusPlayVersion = "3.1.2"
+  private val govukTemplateVersion = "5.54.0-play-26"
+  private val playUiVersion = "8.9.0-play-26"
+  private val scalaTestPlusPlayVersion = "3.1.3"
   private val pegdownVersion = "1.6.0"
   private val mockitoAllVersion = "1.10.19"
   private val httpCachingClientVersion = "9.0.0-play-26"
-  private val playReactivemongoVersion = "6.7.0"
+  private val playReactivemongoVersion = "6.8.0"
   private val playConditionalFormMappingVersion = "1.2.0-play-26"
   private val playLanguageVersion = "4.2.0-play-26"
-  private val bootstrapVersion = "1.5.0"
-  private val scalacheckVersion = "1.13.4"
-  private val playPartialsVersion = "6.9.0-play-26"
-  private val domainVersion = "5.6.0-play-26"
-  private val wiremockVersion = "2.25.1"
+  private val bootstrapVersion = "1.7.0"
+  private val scalacheckVersion = "1.14.3"
+  private val playPartialsVersion = "6.11.0-play-26"
+  private val domainVersion = "5.9.0-play-26"
+  private val wiremockVersion = "2.26.3"
 
   val compile: Seq[ModuleID] = Seq(
     ws,
     "uk.gov.hmrc" %% "play-reactivemongo" % playReactivemongoVersion,
-    "uk.gov.hmrc" %% "logback-json-logger" % logbackJsonLoggerVersion,
     "uk.gov.hmrc" %% "govuk-template" % govukTemplateVersion,
-    "uk.gov.hmrc" %% "play-health" % playHealthVersion,
     "uk.gov.hmrc" %% "play-ui" % playUiVersion,
     "uk.gov.hmrc" %% "http-caching-client" % httpCachingClientVersion,
     "uk.gov.hmrc" %% "play-conditional-form-mapping" % playConditionalFormMappingVersion,
@@ -44,7 +39,7 @@ private object AppDependencies {
     Seq(
       "org.scalatestplus.play" %% "scalatestplus-play" % scalaTestPlusPlayVersion % scope,
       "org.pegdown" % "pegdown" % pegdownVersion % scope,
-      "org.jsoup" % "jsoup" % "1.10.3" % scope,
+      "org.jsoup" % "jsoup" % "1.13.1" % scope,
       "com.typesafe.play" %% "play-test" % PlayVersion.current % scope,
       "org.scalacheck" %% "scalacheck" % scalacheckVersion % scope
     )

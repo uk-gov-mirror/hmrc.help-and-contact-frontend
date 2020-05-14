@@ -23,7 +23,7 @@ import base.SpecBase
 import controllers.routes
 import org.mockito.Matchers._
 import org.mockito.Mockito._
-import org.scalatest.mockito.MockitoSugar
+import org.scalatestplus.mockito.MockitoSugar
 import org.scalatest.BeforeAndAfterEach
 
 import play.api.Application
