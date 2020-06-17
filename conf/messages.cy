@@ -709,9 +709,9 @@ help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Tr
 ##     COVID-19
 ###########################################
 covid.coronavirus_measures.heading = Cymorth Coronafeirws (COVID-19)
-covid.deferring_income_tax_payments = Gohirio taliadau Treth Incwm
-covid.deferring_vat_payments = Gohirio taliadau TAW
-covid.sick_pay_support_for_small_and_medium_sized_businesses = Cymorth tâl salwch i fusnesau bach a chanolig
-covid.self-employed_worker_support = Cymorth i weithwyr hunangyflogedig
-covid.support_for_all_businesses_paying_tax = Cymorth i bob busnes sy’n talu treth
-covid.support_for_uk_employers_operating_paye_under_the_coronavirus_job_retention_scheme = Cymorth i gyflogwyr yn y DU sy’n gweithredu TWE o dan y Cynllun Cadw Swyddi yn sgil Coronafeirws
+covid.digital_assistant_for_help_and_support = Cynorthwyydd digidol ar gyfer help a chymorth (yn agor tab newydd)
+covid.videos_hmrc_youtube_channel = Fideos a gweminarau (sianel YouTube CThEM) (yn agor tab newydd) 
+covid.financial_support_for_businesses = Cymorth ariannol i fusnesau (yn agor tab newydd)
+covid.debt_management_for_tax_bills = Rheolaeth dyledion ar gyfer biliau treth: cysylltwch â CThEM (yn agor tab newydd)
+covid.coronavirus_job_retention_scheme = Cynllun Cadw Swyddi yn sgil Coronafeirws (CJRS): cysylltwch â CThEM (yn agor tab newydd)
+covid.self_employment_income_support_scheme = Cynllun Cymhorthdal Incwm Hunangyflogaeth (SEISS): cysylltwch â CThEM (yn agor tab newydd)
