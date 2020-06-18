@@ -711,9 +711,9 @@ help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital 
 ##     COVID-19
 ###########################################
 covid.coronavirus_measures.heading = Coronavirus (COVID-19) support
-covid.deferring_income_tax_payments = Deferring Income Tax payments
-covid.deferring_vat_payments = Deferring VAT payments
-covid.sick_pay_support_for_small_and_medium_sized_businesses = Sick pay support for small and medium sized businesses
-covid.self-employed_worker_support = Self-employed worker support
-covid.support_for_all_businesses_paying_tax = Support for all businesses paying tax
-covid.support_for_uk_employers_operating_paye_under_the_coronavirus_job_retention_scheme = Support for UK employers operating PAYE under the Coronavirus Job Retention Scheme
+covid.digital_assistant_for_help_and_support = Digital assistant for help and support (opens in new tab)
+covid.videos_hmrc_youtube_channel = Videos and webinars (HMRC You Tube channel) (opens in new tab)
+covid.financial_support_for_businesses = Financial support for businesses (opens in new tab)
+covid.debt_management_for_tax_bills = Debt management for tax bills: contact HMRC (opens in new tab)
+covid.coronavirus_job_retention_scheme = Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)
+covid.self_employment_income_support_scheme = Self-Employment Income Support Scheme (SEISS): contact HMRC (opens in new tab)

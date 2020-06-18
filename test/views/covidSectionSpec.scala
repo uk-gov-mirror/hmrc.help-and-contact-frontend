@@ -41,24 +41,27 @@ class covidSectionSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "covid-deferring-income-tax-payments",
-        "Deferring Income Tax payments",
-        "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-deferring-income-tax-payments",
-        "link - click:Help and contact:Deferring Income Tax payments"
+        "covid-digital-assistant-for-help-and-support",
+        "Digital assistant for help and support (opens in new tab)",
+        "https://www.tax.service.gov.uk/ask-hmrc/virtual-assistant/support-for-coronavirus",
+        "link - click:Help and contact:covid help digital assistant",
+          expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
-        "covid-deferring-vat-payments",
-        "Deferring VAT payments",
-        "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-deferring-income-tax-payments",
-        "link - click:Help and contact:Deferring VAT payments"
+        "covid-videos-hmrc-youtube-channel",
+        "Videos and webinars (HMRC You Tube channel) (opens in new tab)",
+        "https://www.youtube.com/playlist?list=PL8EcnheDt1zhTsyhT9ak3xiXnmlvbHJJV",
+        "link - click:Help and contact:covid help videos and webinars(opens in new tab)",
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
-        "covid-sick-pay-support-for-small-and-medium-sized-businesses",
-        "Sick pay support for small and medium sized businesses",
-        "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-who-are-paying-sick-pay-to-employees",
-        "link - click:Help and contact:Sick pay support for small and medium sized businesses"
+        "covid-financial-support-for-businesses",
+        "Financial support for businesses (opens in new tab)",
+        "https://www.gov.uk/government/collections/financial-support-for-businesses-during-coronavirus-covid-19#business-support-grant-funds",
+        "link - click:Help and contact:covid help support businesses",
+        expectedOpensInNewTab = true
       )
     }
 
@@ -66,24 +69,28 @@ class covidSectionSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "covid-self-employed-worker-support",
-        "Self-employed worker support",
-         "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-self-employed-through-the-self-employment-income-support-scheme",
-        "link - click:Help and contact:Self-employed worker support"
+        "covid-debt-management-for-tax-bills",
+        "Debt management for tax bills: contact HMRC (opens in new tab)",
+         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/coronavirus-covid-19-helpline",
+        "link - click:Help and contact:covid help webchat tax bills",
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
-        "covid-support-for-all-businesses-paying-tax",
-        "Support for all businesses paying tax",
-        "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-paying-tax-time-to-pay-service",
-        "link - click:Help and contact:Support for all businesses paying tax"
+        "covid-coronavirus-job-retention_scheme",
+        "Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/get-help-with-the-coronavirus-job-retention-scheme",
+        "link - click:Help and contact:covid help webchat cjrs",
+        expectedOpensInNewTab = true
+
       )
       assertLinkById(
         doc,
-        "covid-support-for-uk-employers-operating-paye-under-the-coronavirus-job-retention-scheme",
-        "Support for UK employers operating PAYE under the Coronavirus Job Retention Scheme",
-        "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses#support-for-businesses-through-the-coronavirus-job-retention-scheme",
-        "link - click:Help and contact:Support for UK employers operating PAYE under the Coronavirus Job Retention Scheme"
+        "covid-self-employment-income-support-scheme",
+        "Self-Employment Income Support Scheme (SEISS): contact HMRC (opens in new tab)",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/get-help-with-the-self-employment-income-support-scheme",
+        "link - click:Help and contact:covid help webchat seiss",
+          expectedOpensInNewTab = true
       )
     }
   }
