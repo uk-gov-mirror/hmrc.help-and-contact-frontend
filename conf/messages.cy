@@ -138,6 +138,7 @@ howtoPaySelfAssessment.self.assessment.penalties = Cosbau Hunanasesiad
 howToPaySelfAssessment.you.can.appeal.if = Gallwch apelio os oes gennych
 howToPaySelfAssessment.reasonable.excuse = esgus rhesymol
 howToPaySelfAssessment.for.example.stay.in.hospital = er enghraifft os bu raid i chi aros yn yr ysbyty, a hynny’n annisgwyl. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
+howToPaySelfAssessment.affected.by.covid = Os yw coronafeirws (COVID-19) wedi effeithio ar eich busnes, mae gennych 3 mis ychwanegol i apelio yn erbyn unrhyw gosb ddyddiedig Chwefror 2020 neu’n hwyrach.
 howToPaySelfAssessment.you.can = Gallwch:
 howToPaySelfAssessment.appeal.online = apelio yn erbyn cosb o £100 am gyflwyno Hunanasesiad yn hwyr ar-lein (yn agor tab neu ffenestr newydd)
 howToPaySelfAssessment.appeal.form = apelio yn erbyn unrhyw gosb am dalu neu gyflwyno’n hwyr gan ddefnyddio ffurflen SA370 (yn agor tab neu ffenestr newydd) 
