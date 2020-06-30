@@ -16,8 +16,6 @@
 
 package controllers
 
-import controllers.actions._
-import handlers.ErrorHandler
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import views.html.transcripts._

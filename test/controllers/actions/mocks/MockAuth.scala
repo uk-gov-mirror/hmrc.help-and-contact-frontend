@@ -16,23 +16,20 @@
 
 package controllers.actions.mocks
 
-import java.util.UUID
-
 import config.FrontendAppConfig
 import controllers.actions.mocks.MockAuth._
 import controllers.actions.{AuthAction, AuthActionImpl, mocks}
 import models.requests.AuthenticatedRequest
-import uk.gov.hmrc.domain.SaUtr
 import org.mockito.Matchers._
 import org.mockito.Mockito._
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
-import org.scalatestplus.mockito.MockitoSugar
 import org.scalatest.{BeforeAndAfterEach, Suite}
+import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.{Request, Result}
 import play.api.test.{NoMaterializer, StubPlayBodyParsersFactory}
 import uk.gov.hmrc.auth.core.AuthConnector
-import uk.gov.hmrc.domain.Vrn
+import uk.gov.hmrc.domain.SaUtr
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

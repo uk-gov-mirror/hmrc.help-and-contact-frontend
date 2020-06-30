@@ -16,30 +16,22 @@
 
 package controllers
 
-import handlers.ErrorHandler
 import models.HelpCategory
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
+import org.scalatest.concurrent.ScalaFutures
+import org.scalatestplus.mockito.MockitoSugar
+import play.api.mvc.AnyContentAsEmpty
+import play.api.test.FakeRequest
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import uk.gov.hmrc.domain.SaUtr
+import uk.gov.hmrc.http.HeaderCarrier
+import views.ViewSpecBase
 import views.html.ct._
 import views.html.epaye._
 import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
-import views.ViewSpecBase
-import uk.gov.hmrc.http.HeaderCarrier
-import play.api.inject._
-import play.api.test.FakeRequest
-import play.api.mvc.AnyContent
-import play.api.mvc.AnyContentAsEmpty
-
-import org.mockito.Matchers
-import org.mockito.Mockito.when
-import org.scalatest.concurrent.ScalaFutures
-import org.scalatestplus.mockito.MockitoSugar
-
-import scala.concurrent.Future
 
 class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar with ScalaFutures with ViewSpecBase {
 

@@ -16,24 +16,22 @@
 
 package controllers.actions
 
-import play.api.test.Helpers._
-import uk.gov.hmrc.auth.core._
-import uk.gov.hmrc.auth.core.retrieve.{Credentials, ~}
 import base.SpecBase
 import controllers.routes
 import org.mockito.Matchers._
 import org.mockito.Mockito._
-import org.scalatestplus.mockito.MockitoSugar
 import org.scalatest.BeforeAndAfterEach
-
+import org.scalatestplus.mockito.MockitoSugar
 import play.api.Application
 import play.api.inject.bind
 import play.api.inject.guice.GuiceApplicationBuilder
 import play.api.mvc.{Action, AnyContent, MessagesControllerComponents}
-
-import scala.concurrent.{ExecutionContext, Future}
-import scala.concurrent.ExecutionContext.Implicits.global
+import play.api.test.Helpers._
+import uk.gov.hmrc.auth.core._
+import uk.gov.hmrc.auth.core.retrieve.{Credentials, ~}
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+
+import scala.concurrent.Future
 
 class AuthActionSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach {
 
