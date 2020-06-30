@@ -6,16 +6,16 @@ private object AppDependencies {
   import play.core.PlayVersion
   import play.sbt.PlayImport._
 
-  private val govukTemplateVersion = "5.54.0-play-26"
-  private val playUiVersion = "8.9.0-play-26"
+  private val govukTemplateVersion = "5.55.0-play-26"
+  private val playUiVersion = "8.11.0-play-26"
   private val scalaTestPlusPlayVersion = "3.1.3"
   private val pegdownVersion = "1.6.0"
   private val mockitoAllVersion = "1.10.19"
-  private val httpCachingClientVersion = "9.0.0-play-26"
-  private val playReactivemongoVersion = "6.8.0"
+  private val httpCachingClientVersion = "9.1.0-play-26"
+  private val playReactivemongoVersion = "7.29.0-play-26"
   private val playConditionalFormMappingVersion = "1.2.0-play-26"
-  private val playLanguageVersion = "4.2.0-play-26"
-  private val bootstrapVersion = "1.7.0"
+  private val playLanguageVersion = "4.3.0-play-26"
+  private val bootstrapVersion = "1.10.0"
   private val scalacheckVersion = "1.14.3"
   private val playPartialsVersion = "6.11.0-play-26"
   private val domainVersion = "5.9.0-play-26"
@@ -23,7 +23,7 @@ private object AppDependencies {
 
   val compile: Seq[ModuleID] = Seq(
     ws,
-    "uk.gov.hmrc" %% "play-reactivemongo" % playReactivemongoVersion,
+    "uk.gov.hmrc" %% "simple-reactivemongo" % playReactivemongoVersion,
     "uk.gov.hmrc" %% "govuk-template" % govukTemplateVersion,
     "uk.gov.hmrc" %% "play-ui" % playUiVersion,
     "uk.gov.hmrc" %% "http-caching-client" % httpCachingClientVersion,
@@ -61,12 +61,12 @@ private object AppDependencies {
 }
 
 object TestPhases {
-  def oneForkedJvmPerTest(tests: Seq[TestDefinition]): Seq[Group] =
+  def oneForkedJvmPerTest(tests: Seq[TestDefinition]) =
     tests map { test =>
       new Group(
         test.name,
         Seq(test),
-        SubProcess(ForkOptions(runJVMOptions = Seq("-Dtest.name=" + test.name)))
+        SubProcess(ForkOptions().withRunJVMOptions(Vector("-Dtest.name=" + test.name)))
       )
     }
 }

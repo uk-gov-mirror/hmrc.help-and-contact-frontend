@@ -21,7 +21,7 @@ import javax.inject.Inject
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
-import play.api.i18n.{I18nSupport, MessagesApi}
+import play.api.i18n.I18nSupport
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
 import play.api.mvc.MessagesControllerComponents
 import views.html.transcripts._

@@ -18,7 +18,7 @@ package utils
 
 import base.SpecBase
 import play.api.mvc.Cookie
-import uk.gov.hmrc.domain.{CtUtr, SaUtrGenerator}
+import uk.gov.hmrc.domain.SaUtrGenerator
 import uk.gov.hmrc.play.language.LanguageUtils
 
 import scala.util.Random

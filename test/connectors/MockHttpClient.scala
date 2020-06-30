@@ -66,19 +66,6 @@ trait MockHttpClient extends MockitoSugar with BeforeAndAfterEach {
   def verifyGet(url: String)(wanted: Int): Unit =
     verify(mockHttpClient, times(wanted)).GET(meq(url))(any(), any(), any())
 
-
-  class HttpWrapper {
-    def getF[T](uri: String): HttpResponse = HttpResponse(200, None)
-
-    def postF[T](uri: String): HttpResponse = HttpResponse(200, None)
-
-    def putF[T](uri: String): HttpResponse = ???
-
-    def deleteF[T](uri: String): HttpResponse = ???
-
-    def patchF[T](uri: String): HttpResponse = ???
-  }
-
 }
 
 private class TestHttpClient extends HttpClient {

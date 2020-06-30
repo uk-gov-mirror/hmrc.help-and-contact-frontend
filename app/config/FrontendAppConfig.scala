@@ -30,11 +30,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
                                   override val languageUtils: LanguageUtils)
     extends PortalUrlBuilder {
 
-  import servicesConfig._
-
   private def loadConfig(key: String): String = servicesConfig.getString(key)
-
-  private lazy val contactHost: String = servicesConfig.getString("contact-frontend.host")
 
   lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
   lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
