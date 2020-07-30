@@ -48,7 +48,7 @@ class TailorYourTaxReturnViewSpec extends ViewBehaviours {
         .map(_.text())
 
       val pContentList = List(
-        "When you’re filling in your online tax return, you’ll find a section called Tailor your return.It’s three pages of questions where you answer yes or no, which means you only get the sections you need to complete. If you’re not sure about a question, click on the question mark for guidance.",
+        "When you’re filling in your online tax return, you’ll find a section called Tailor your return. It’s three pages of questions where you answer yes or no, which means you only get the sections you need to complete. If you’re not sure about a question, click on the question mark for guidance.",
         "Page one asks if you’ve had income as",
         "You must answer yes or no to all the questions. If you choose yes, you may be asked for more information. For example, if you say yes to being employed, it asks how many employers you had, and their names.",
         "Using save and continue takes you to the next page. This saves your answers so far. You can also use it if you want to stop at any point and come back later.",
