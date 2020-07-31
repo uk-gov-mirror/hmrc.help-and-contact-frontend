@@ -41,7 +41,8 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return",
         "Tailor your tax return",
         "Your self-employed tax return",
-        "If I have income from property, how do I fill in my tax return?"
+        "If I have income from property, how do I fill in my tax return?",
+        "Basic record keeping when you’re self-employed"
       )
       val doc = asDocument(createView())
       val headings = doc.getElementsByTag("article").first.getElementsByTag("h2").asScala.toList.map(_.text())
@@ -89,6 +90,27 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       doc.text() must include("If your property is outside the European Economic Area, fill in the Foreign section.")
 
       doc.text() must include("If your property income was from a partnership, fill in the Partnership section.")
+
+      doc.text() must include("You must record any money going in and out of your business, whether the transaction is made in person" +
+        " - by phone - or online.")
+
+      doc.text() must include("You can keep your records on paper or digitally using a computer. These include items such as invoices," +
+        " sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.")
+
+      doc.text() must include("Some software suppliers offer free record keeping apps for small businesses. How you keep your records will" +
+        " depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses.")
+
+      doc.text() must include("You’ll find it easier if you organise your income and expenses into categories and update these regularly." +
+        " And, if you’re keeping your records digitally, remember to back up your files.")
+
+      doc.text() must include("It’s important to keep your business and private transactions separate. Drawing or using money from your" +
+        " business for personal use isn’t an allowable business expense.")
+
+      doc.text() must include("If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers" +
+        " and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.")
+
+      doc.text() must include("Make sure you store your records for at least 6 years, as we may need to see them to check you’re paying" +
+        " the right amount of tax.")
     }
 
     "have correct links" in {
@@ -129,11 +151,18 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "If I have income from property, how do I fill in my tax return? - video transcript",
         "/business-account/help/transcript/your-income-from-property-tax-return",
         "link - click:Help with your Self Assessment return:Your income from property tax return - video transcript")
+        assertLinkById(
+          doc,
+          "record-keeping-transcript",
+          "Basic record keeping when you’re self-employed - video transcript",
+          "/business-account/help/transcript/record-keeping-for-self-employed",
+          expectedGAEvent = "link - click:Help with your Self Assessment return:Record keeping - video transcript")
+
     }
 
     "have youtube url in html for each embedded video" in {
       val doc = asDocument(createView())
-      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "D-WSq_vSTU8", "8I9A4ZefLPU", "kqeoa1VNt9w", "ZKKVd1XQQJA")
+      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "D-WSq_vSTU8", "8I9A4ZefLPU", "kqeoa1VNt9w", "ZKKVd1XQQJA", "4OlkduJ5MTU")
       listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
   }

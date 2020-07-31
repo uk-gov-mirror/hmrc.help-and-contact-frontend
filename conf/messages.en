@@ -237,6 +237,20 @@ sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the ac
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
 sa.expenses.video_transcript = video transcript
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Record Keeping
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+sa.record_keeping.heading = Basic record keeping when you’re self-employed
+sa.record_keeping.record_any_money = You must record any money going in and out of your business, whether the transaction is made in person - by phone - or online.
+sa.record_keeping.record_paper_or_digitally = You can keep your records on paper or digitally using a computer. These include items such as invoices, sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.
+sa.record_keeping.some_software_suppliers = Some software suppliers offer free record keeping apps for small businesses. How you keep your records will depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses.
+sa.record_keeping.organise_into_categories = You’ll find it easier if you organise your income and expenses into categories and update these regularly. And, if you’re keeping your records digitally, remember to back up your files.
+sa.record_keeping.keep_transactions_seperate = It’s important to keep your business and private transactions separate. Drawing or using money from your business for personal use isn’t an allowable business expense.
+sa.record_keeping.vat_registered = If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.
+sa.record_keeping.store_your_records = Make sure you store your records for at least 6 years, as we may need to see them to check you’re paying the right amount of tax.
+sa.record_keeping.video_transcript = video transcript
+sa.record_keeping.video_title = Basic record keeping for the self-employed
 
 #######################################################
 ##  EPAYE
@@ -693,6 +707,21 @@ registering.for.self.assessment.transcript.paragraph8 = Partnerships must be reg
 registering.for.self.assessment.transcript.paragraph9 = If you’re not self-employed but need to send us a tax return, you can use your existing UTR and online account to submit it.
 registering.for.self.assessment.transcript.paragraph10 = If you haven’t got an existing UTR, you’ll need to register online by the 5th of October following the end of the tax year.
 registering.for.self.assessment.transcript.paragraph11 = For more information about registering for Self Assessment go to GOV.UK
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Basic record keeping transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+basic.record.keeping.transcript.title = Basic record keeping for the self-employed - video transcript
+basic.record.keeping.transcript.heading = Basic record keeping for the self-employed - video transcript
+basic.record.keeping.transcript.paragraph1 = Basic record keeping is an important activity for any business. You must record any money going in and out of your business, whether the transaction is made in person - by phone - or online.
+basic.record.keeping.transcript.paragraph2 = You can keep your records on paper or digitally using a computer. These include items such as invoices, sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.
+basic.record.keeping.transcript.paragraph3 = Some software suppliers offer free record keeping apps for small businesses. How you keep your records will depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses. There’s more information about cash basis and simplified expenses in our YouTube video and on GOV.UK.
+basic.record.keeping.transcript.paragraph4 = You’ll find it easier if you organise your income and expenses into categories and update these regularly. And, if you’re keeping your records digitally, remember to back up your files.
+basic.record.keeping.transcript.paragraph5 = It’s important to keep your business and private transactions separate. Drawing or using money from your business for personal use isn’t an allowable business expense.
+basic.record.keeping.transcript.paragraph6 = If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.
+basic.record.keeping.transcript.paragraph7 = Make sure you store your records for at least 6 years, as we may need to see them to check you’re paying the right amount of tax.
+basic.record.keeping.transcript.paragraph8 = You can find more information about record keeping on GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment

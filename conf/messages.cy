@@ -674,6 +674,22 @@ sa.expenses.claiming_motoring_expenses.paragraph8 = Mae’n rhaid i chi gadw cof
 sa.expenses.claiming_motoring_expenses.paragraph9 = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu nac am unrhyw draul moduro arall.
 sa.expenses.claiming_motoring_expenses.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am dreuliau os ydych yn hunangyflogedig ar GOV.UK.
 sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-youre-self-employed
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Record Keeping
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+sa.record_keeping.heading = Cadw cofnodion sylfaenol os ydych yn hunangyflogedig
+sa.record_keeping.record_any_money = Mae’n rhaid i chi gofnodi unrhyw arian sy’n mynd i mewn ac allan o’ch busnes, p’un a yw’r trafodyn yn cael ei wneud yn bersonol – dros y ffôn – neu ar-lein.
+sa.record_keeping.record_paper_or_digitally = Gallwch gadw’ch cofnodion ar bapur neu’n ddigidol gan ddefnyddio cyfrifiadur. Mae’r rhain yn cynnwys eitemau megis anfonebau, derbyniadau o werthiannau, tystiolaeth o bryniannau a chyfriflenni banc. Cofiwch fod yn rhaid i’ch cofnodion fod yn gywir, yn glir ac yn gyflawn.
+sa.record_keeping.some_software_suppliers = Mae rhai cyflenwyr meddalwedd yn cynnig apiau rhad ac am ddim i fusnesau bach ar gyfer cadw cofnodion. Bydd y ffordd rydych yn cadw’ch cofnodion yn dibynnu a ydych yn defnyddio’r dull cyfrifo traddodiadol neu’n defnyddio sail arian parod, a sut rydych yn cyfrifo’ch treuliau.
+sa.record_keeping.organise_into_categories = Byddwch yn ei chael hi’n haws os byddwch yn trefnu’ch incwm a’ch treuliau yn gategorïau ac yn diweddaru’r rhain yn rheolaidd. Ac, os ydych yn cadw’ch cofnodion yn ddigidol, cofiwch gadw ffeiliau wrth gefn.
+sa.record_keeping.keep_transactions_seperate = Mae’n bwysig eich bod yn cadw’ch trafodion busnes a’ch trafodion preifat ar wahân. Nid yw codi neu ddefnyddio arian o’ch busnes at ddefnydd personol yn draul busnes caniataol.
+sa.record_keeping.vat_registered = Os ydych wedi cofrestru ar gyfer TAW, bydd angen i chi hefyd gadw cofnodion o faint o TAW rydych wedi’i thalu i’ch cyflenwyr a faint rydych wedi codi ar eich cwsmeriaid. Os yw’ch incwm yn uwch na’r trothwy TAW, bydd angen i chi gyflwyno’ch cofnodion i ni gan ddefnyddio meddalwedd Troi Treth yn Ddigidol.
+sa.record_keeping.store_your_records = Gwnewch yn siŵr eich bod yn cadw’ch cofnodion am o leiaf 6 blynedd. Mae hyn oherwydd efallai y bydd angen i ni eu gweld er mwyn gwirio eich bod yn talu’r swm cywir o dreth.
+sa.record_keeping.video_transcript = trawsgrifiad fideo
+sa.record_keeping.video_title = Cadw cofnodion ar gyfer y rhai sy’n hunangyflogedig      
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Registering for Self Assessment transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -691,6 +707,20 @@ registering.for.self.assessment.transcript.paragraph9 = Os nad ydych yn hunangyf
 registering.for.self.assessment.transcript.paragraph10 = Os nad oes UTR presennol gennych, bydd angen i chi gofrestru ar-lein erbyn y 5ed o fis Hydref yn dilyn diwedd y flwyddyn dreth.
 registering.for.self.assessment.transcript.paragraph11 = Am ragor o wybodaeth ynghylch cofrestru ar gyfer Hunanasesiad, ewch i GOV.UK
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Basic record keeping transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+basic.record.keeping.transcript.title = Cadw cofnodion sylfaenol ar gyfer y rhai sy’n hunangyflogedig
+basic.record.keeping.transcript.heading = Cadw cofnodion sylfaenol ar gyfer y rhai sy’n hunangyflogedig
+basic.record.keeping.transcript.paragraph1 = Mae cadw cofnodion sylfaenol yn weithgaredd pwysig i unrhyw fusnes. Mae’n rhaid i chi gofnodi unrhyw arian sy’n mynd i mewn ac allan o’ch busnes, p’un a yw’r trafodyn yn cael ei wneud yn bersonol – dros y ffôn – neu ar-lein.
+basic.record.keeping.transcript.paragraph2 = Gallwch gadw’ch cofnodion ar bapur neu’n ddigidol gan ddefnyddio cyfrifiadur. Mae’r rhain yn cynnwys eitemau megis anfonebau, derbyniadau o werthiannau, tystiolaeth o bryniannau a chyfriflenni banc. Cofiwch fod yn rhaid i’ch cofnodion fod yn gywir, yn glir ac yn gyflawn.
+basic.record.keeping.transcript.paragraph3 = Mae rhai cyflenwyr meddalwedd yn cynnig apiau rhad ac am ddim i fusnesau bach ar gyfer cadw cofnodion. Bydd y ffordd rydych yn cadw’ch cofnodion yn dibynnu a ydych yn defnyddio’r dull cyfrifo traddodiadol neu’n defnyddio sail arian parod, a sut rydych yn cyfrifo’ch treuliau. Mae rhagor o wybodaeth am sail arian parod a threuliau symlach yn ein fideo YouTube ac ar GOV.UK.
+basic.record.keeping.transcript.paragraph4 = Byddwch yn ei chael hi’n haws os byddwch yn trefnu’ch incwm a’ch treuliau yn gategorïau ac yn diweddaru’r rhain yn rheolaidd. Os ydych yn cadw’ch cofnodion yn ddigidol, cofiwch gadw ffeiliau wrth gefn.
+basic.record.keeping.transcript.paragraph5 = Mae’n bwysig eich bod yn cadw’ch trafodion busnes a’ch trafodion preifat ar wahân. Nid yw codi neu ddefnyddio arian o’ch busnes at ddefnydd personol yn draul busnes caniataol.
+basic.record.keeping.transcript.paragraph6 = Os ydych wedi cofrestru ar gyfer TAW, bydd angen i chi hefyd gadw cofnodion o faint o TAW rydych wedi’i thalu i’ch cyflenwyr a faint rydych wedi codi ar eich cwsmeriaid. Os yw’ch incwm yn uwch na’r trothwy TAW, bydd angen i chi gyflwyno’ch cofnodion i ni gan ddefnyddio meddalwedd Troi Treth yn Ddigidol.
+basic.record.keeping.transcript.paragraph7 = Gwnewch yn siŵr eich bod yn cadw’ch cofnodion am o leiaf 6 blynedd. Mae hyn oherwydd efallai y bydd angen i ni eu gweld er mwyn gwirio eich bod yn talu’r swm cywir o dreth.
+basic.record.keeping.transcript.paragraph8 = Gallwch ddod o hyd i ragor o wybodaeth am gadw cofnodion ar GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
