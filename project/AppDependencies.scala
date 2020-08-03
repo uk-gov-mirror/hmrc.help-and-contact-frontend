@@ -13,13 +13,13 @@ private object AppDependencies {
   private val mockitoAllVersion = "1.10.19"
   private val httpCachingClientVersion = "9.1.0-play-26"
   private val playReactivemongoVersion = "7.30.0-play-26"
-  private val playConditionalFormMappingVersion = "1.2.0-play-26"
+  private val playConditionalFormMappingVersion = "1.3.0-play-26"
   private val playLanguageVersion = "4.3.0-play-26"
-  private val bootstrapVersion = "1.10.0"
+  private val bootstrapVersion = "1.14.0"
   private val scalacheckVersion = "1.14.3"
   private val playPartialsVersion = "6.11.0-play-26"
   private val domainVersion = "5.9.0-play-26"
-  private val wiremockVersion = "2.26.3"
+  private val wiremockVersion = "2.27.1"
 
   val compile: Seq[ModuleID] = Seq(
     ws,
