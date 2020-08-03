@@ -39,6 +39,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      expenses_if_you_are_self_employed: expenses_if_you_are_self_employed,
                                      calculating_motoring_expenses: calculating_motoring_expenses,
                                      registering_for_self_assessment: registering_for_self_assessment,
+                                     basic_record_keeping: basic_record_keeping,
                                      authenticate: AuthAction,
                                      serviceInfo: ServiceInfoAction,
                                      errorHandler: ErrorHandler,
@@ -67,7 +68,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       ),
       "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent),
       "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(request.serviceInfoContent),
-      "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(request.serviceInfoContent)
+      "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(request.serviceInfoContent),
+      "record-keeping-for-self-employed" -> basic_record_keeping(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>

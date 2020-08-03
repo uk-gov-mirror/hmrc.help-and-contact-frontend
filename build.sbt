@@ -18,7 +18,7 @@ val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
 val playSettings: Seq[Setting[_]] = Seq.empty
-val silencerVersion = "1.7.0"
+val silencerVersion = "1.7.1"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -52,7 +52,7 @@ lazy val microservice = Project(appName, file("."))
     retrieveManaged := true,
     evictionWarningOptions in update := EvictionWarningOptions.default
       .withWarnScalaVersionEviction(false),
-    scalaVersion := "2.12.11"
+    scalaVersion := "2.12.12"
   )
   .configs(IntegrationTest)
   .settings(inConfig(IntegrationTest)(Defaults.itSettings): _*)

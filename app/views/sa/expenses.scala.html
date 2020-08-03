@@ -46,4 +46,18 @@
   @components.embed_youtube_video(appConfig.getYoutubeVideoId("calculatingMotoringExpenses"), Some(messages("sa.expenses.claiming_motoring_expenses")))
 
   <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.claiming_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
+
+  <h2 class="margin-top-xlarge">@Messages("sa.record_keeping.heading")</h2>
+  <p>@Messages("sa.record_keeping.record_any_money")</p>
+  <p>@Messages("sa.record_keeping.record_paper_or_digitally")</p>
+  <p>@Messages("sa.record_keeping.some_software_suppliers")</p>
+  <p>@Messages("sa.record_keeping.organise_into_categories")</p>
+  <p>@Messages("sa.record_keeping.keep_transactions_seperate")</p>
+  <p>@Messages("sa.record_keeping.vat_registered")</p>
+  <p><strong class="bold-small">@Messages("sa.record_keeping.store_your_records")</strong></p>
+
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("basicRecordKeeping"), Some(messages("sa.record_keeping.heading")))
+
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id="record-keeping-transcript" data-journey-click="link - click:Expenses:Record keeping - video transcript">@Messages("sa.record_keeping.heading") - @Messages("sa.record_keeping.video_transcript")</a></p>
+
 }
