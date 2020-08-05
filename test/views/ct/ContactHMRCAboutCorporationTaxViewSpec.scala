@@ -18,7 +18,7 @@ package views.ct
 
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.twirl.api.HtmlFormat
-import uk.gov.hmrc.domain.{SaUtr}
+import models.SaUtr
 import views.behaviours.ViewBehaviours
 import views.html.ct.contact_hmrc_about_ct
 

@@ -19,7 +19,7 @@ package views.sa
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.api.i18n.{Lang, Messages}
 import play.twirl.api.HtmlFormat
-import uk.gov.hmrc.domain.{SaUtr, SaUtrGenerator}
+import models.{SaUtr, SaUtrGenerator}
 import views.behaviours.ViewBehaviours
 import views.html.sa.how_to_pay_self_assessment
 

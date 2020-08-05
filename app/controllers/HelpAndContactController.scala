@@ -26,7 +26,7 @@ import models.HelpCategory._
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.{AnyContent, MessagesControllerComponents}
-import uk.gov.hmrc.play.bootstrap.controller.FrontendController
+import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.ct._
 import views.html.epaye._
 import views.html.help_and_contact
