@@ -18,7 +18,7 @@ package utils
 
 import play.api.mvc.Request
 import play.api.i18n.Lang
-import uk.gov.hmrc.domain.SaUtr
+import models.SaUtr
 import uk.gov.hmrc.play.language.LanguageUtils
 import uk.gov.hmrc.urls.UrlBuilder
 import utils.PortalUrlBuilder._

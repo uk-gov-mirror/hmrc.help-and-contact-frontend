@@ -14,10 +14,17 @@
  * limitations under the License.
  */
 
-package models.requests
+package models
 
-import play.api.mvc.{Request, WrappedRequest}
-import models.SaUtr
+import play.api.libs.json.{Reads, Writes}
 
-case class AuthenticatedRequest[A](request: Request[A], saUtr: Option[SaUtr], email: Option[String]) extends WrappedRequest[A](request)
+case class Vrn(vrn: String) extends TaxIdentifier with SimpleName {
+  override def toString = vrn
+  val name = "vrn"
+  def value = vrn
+}
 
+object Vrn extends (String => Vrn) {
+  implicit val vrnWrite: Writes[Vrn] = new SimpleObjectWrites[Vrn](_.value)
+  implicit val vrnRead: Reads[Vrn] = new SimpleObjectReads[Vrn]("vrn", Vrn.apply)
+}

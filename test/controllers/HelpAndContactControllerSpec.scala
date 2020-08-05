@@ -24,7 +24,7 @@ import play.api.mvc.AnyContentAsEmpty
 import play.api.test.FakeRequest
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
-import uk.gov.hmrc.domain.SaUtr
+import models.SaUtr
 import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase
 import views.html.ct._

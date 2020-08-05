@@ -29,7 +29,7 @@ import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.{Request, Result}
 import play.api.test.{NoMaterializer, StubPlayBodyParsersFactory}
 import uk.gov.hmrc.auth.core.AuthConnector
-import uk.gov.hmrc.domain.SaUtr
+import models.SaUtr
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

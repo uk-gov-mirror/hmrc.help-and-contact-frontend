@@ -17,7 +17,7 @@
 package views.vat
 
 import play.twirl.api.{Html, HtmlFormat}
-import uk.gov.hmrc.domain.Vrn
+import models.Vrn
 import views.behaviours.ViewBehaviours
 import views.html.vat.payments_and_deadlines
 

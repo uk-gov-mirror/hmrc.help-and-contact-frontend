@@ -22,7 +22,7 @@ import play.api.i18n.Lang
 import play.api.mvc.{Call, Request}
 import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
 import uk.gov.hmrc.play.language.LanguageUtils
-import uk.gov.hmrc.domain.SaUtr
+import models.SaUtr
 import utils.PortalUrlBuilder
 
 @Singleton
