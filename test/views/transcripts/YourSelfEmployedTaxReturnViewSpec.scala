@@ -57,7 +57,7 @@ class YourSelfEmployedTaxReturnViewSpec extends ViewBehaviours {
         "If you started or ceased self-employment during the year, " +
           "it’s important to enter the dates so HMRC can update your records.",
         "This next page is for your accounting details. Enter your end of year date. " +
-          "When you start self-employment we recommend you use 5th April as this is the end of the tax year.",
+          "When you start self-employment we recommend you use fifth April as this is the end of the tax year.",
         "Consider cash basis. If you answer ‘Yes’, you may not be able to make claims for some expenses, " +
           "capital allowances and loss relief.",
         "Use the question mark for guidance or search for cash basis on GOV.UK.",

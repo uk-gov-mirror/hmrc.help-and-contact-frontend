@@ -45,15 +45,15 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.",
-        "There are lots of ways to pay this bill, and two deadlines for paying it by. Paying on time means you’ll avoid " +
+        "There are lots of ways to pay this bill, and 2 deadlines for paying it by. Paying on time means you’ll avoid " +
           "being charged interest and a late penalty. The deadlines are:",
         "To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay " +
           "regularly throughout the year, use a budget payment plan.",
         "For your payment to reach us the same or next day, pay by:",
 
-        "For payment to reach us within three days, pay by:",
+        "For payment to reach us within 3 days, pay by:",
         "After paying, you can view your HMRC online account to check payment has been received. It should show as paid" +
-          " within seven working days.",
+          " within 7 working days.",
         "You can find more information about Self Assessment on GOV.UK."
       )
       val contentLIList = List(

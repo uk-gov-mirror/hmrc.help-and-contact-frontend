@@ -45,19 +45,20 @@ class RegisteringForSelfAssessmentViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val bulletPointList = List(
-        "if your turnover is more than a thousand pounds in a tax year",
-        "to prove you’re self-employed,",
-        "or to pay voluntary Class 2 National Insurance contributions."
+        "if your turnover is more than £1000 in a tax year",
+        "to prove you’re self-employed",
+        "or to pay voluntary Class 2 National Insurance contributions"
       )
       val contentList: List[String] = List(
-        "You’ll need to register for Self Assessment if you’re self- employed, and in some cases when you’re not self-employed. For example, because you’re a partner in a partnership – or another reason such as lump sum. Here we’ll explain the different ways to register.",
+        "You’ll need to register for Self Assessment if you’re self-employed, and in some cases when you’re not self-employed.",
+        "For example, because you’re a partner in a partnership – or another reason such as lump sum. Here we’ll explain the different ways to register.",
         "If you’re self-employed or a sole trader, you’ll need to register:",
         bulletPointList.mkString(" "),
         "If you’ve sent a tax return to us before, you can use your existing Unique Taxpayer Reference, or UTR, and register using form CWF1.",
         "If not, you’ll need to create a Government Gateway account on GOV.UK so that you can automatically register for Self Assessment. You’ll receive a letter with your UTR within 10 days, and another letter a few days later with a code to activate your online service.",
         "Partnerships must be registered by a nominated partner – but each partner needs to register individually as well, using the partnership’s UTR.",
         "If you’re not self-employed but need to send us a tax return, you can use your existing UTR and online account to submit it.",
-        "If you haven’t got an existing UTR, you’ll need to register online by the 5th of October following the end of the tax year.",
+        "If you haven’t got an existing UTR, you’ll need to register online by the fifth of October following the end of the tax year.",
         "For more information about registering for Self Assessment go to GOV.UK"
       )
 

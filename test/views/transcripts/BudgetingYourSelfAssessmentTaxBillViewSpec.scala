@@ -42,7 +42,7 @@ class BudgetingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "Budgeting for your SA tax bill can help you pay what you owe on time. You don’t have to wait until 31 January or 31 July to pay. If you do, you could miss the deadline.",
-        "You can set up a budget plan to make regular payments by direct debit. If you’re up-to-date with previous Self Assessment payments, you can set up a budget payment plan using your online account on GOV.UK.",
+        "You can set up a budget plan to make regular payments by direct debit. If you’re up to date with previous Self Assessment payments, you can set up a budget payment plan using your online account on GOV.UK.",
         "It’s flexible so you can decide how much you pay each month. You can reduce or stop payments at any time.",
         "If you’re self-employed, our ready reckoner on GOV.UK can help you budget for tax and National Insurance. Put in your estimated weekly or monthly profit, and we’ll give you an idea of how much you have to pay.",
         "A budget payment plan can help you meet the payment deadlines, and avoid any fines.",
