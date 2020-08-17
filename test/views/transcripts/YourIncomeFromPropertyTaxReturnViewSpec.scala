@@ -56,13 +56,13 @@ class YourIncomeFromPropertyTaxReturnViewSpec extends ViewBehaviours {
         "If you’re claiming the property income allowance – if so, you can’t claim expenses.",
         "If you’re using traditional accounting – that means you record income and expenses when you invoice customers, or receive a bill.",
         "If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, but not improvements or upgrades.",
-        "If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.",
-        "Now enter 50 percent of your residential finance costs – you can enter the other 50 percent further on.",
-        "On page four enter what we call adjustments – claims that could reduce your tax bill. For example, if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, if you’re a joint owner, this amount is £3,750.",
-        "On page five you’ll see your adjusted profit or loss for the year.",
+        "If your total annual income is below £85,000, add your total running costs here but don’t include residential finance costs.",
+        "Now enter 50% of your residential finance costs – you can enter the other 50% further on.",
+        "On page 4 enter what we call adjustments – claims that could reduce your tax bill. For example, if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, if you’re a joint owner, this amount is £3,750.",
+        "On page 5 you’ll see your adjusted profit or loss for the year.",
         "If you’re in profit, you must enter losses from an earlier year. We’ll then calculate your taxable profit. This cannot be more than your adjusted profit for the current year.",
-        "Enter the remaining 50 per cent of your residential finance costs here. You can also enter any residential finance costs you couldn’t use in the previous tax year. This will help reduce your total tax bill.",
-        "On page six, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.",
+        "Enter the remaining 50% of your residential finance costs here. You can also enter any residential finance costs you couldn’t use in the previous tax year. This will help reduce your total tax bill.",
+        "On page 6, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.",
         "You can find more information about Self Assessment on GOV.UK."
       )
 
