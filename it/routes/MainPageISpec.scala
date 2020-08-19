@@ -31,8 +31,7 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       Then("we get the main page with the service info bar")
       val doc: Document = result.bodyAsDom
 
-      // todo add an id to the page for test purposes instead of using content
-      doc.getElementsByTag("h1").text() mustBe "Help and contact"
+      doc.getElementById("help-and-contact").text() mustBe "Help and contact"
       doc.select(".service-info").first().children().size() must not be 0
     }
 
@@ -71,8 +70,7 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       Then("we get the main page without the service info bar")
       val doc: Document = result.bodyAsDom
 
-      // todo add an id to the page for test purposes instead of using content
-      doc.getElementsByTag("h1").text() mustBe "Help and contact"
+      doc.getElementById("help-and-contact").text() mustBe "Help and contact"
       doc.select(".service-info").first().children().size() mustBe 0
     }
   }

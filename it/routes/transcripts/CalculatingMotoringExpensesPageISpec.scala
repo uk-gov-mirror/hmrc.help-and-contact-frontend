@@ -35,7 +35,7 @@ class CalculatingMotoringExpensesPageISpec
 
       // todo add an id to the page for test purposes instead of using content
       doc
-        .getElementsByTag("h1")
+        .getElementById("calculating-motoring-expenses-video-transcript")
         .text() mustBe "Claiming motoring expenses if you’re self-employed - video transcript"
     }
   }
