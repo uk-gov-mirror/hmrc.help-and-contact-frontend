@@ -28,8 +28,7 @@ class ExpensesPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen
       Then("we get the expenses page")
       val doc: Document = result.bodyAsDom
 
-      // todo add an id to the page for test purposes instead of using content
-      doc.getElementsByTag("h1").text() mustBe "Expenses"
+      doc.getElementById("expenses").text() mustBe "Expenses"
     }
   }
 

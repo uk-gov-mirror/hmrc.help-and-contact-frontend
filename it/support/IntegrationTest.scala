@@ -9,8 +9,9 @@ import play.api.inject.guice.GuiceApplicationBuilder
 import play.api.libs.ws.WSClient
 import IntegrationTest._
 
+import scala.reflect.ClassTag
+
 trait IntegrationTest extends GuiceOneServerPerSuite
-  with Injecting
   with BeforeAndAfterAll
   with BeforeAndAfterEach
   with Eventually
@@ -23,6 +24,8 @@ trait IntegrationTest extends GuiceOneServerPerSuite
     new GuiceApplicationBuilder()
       .configure(essentialConfigs ++ configOverrides)
       .build()
+
+  def inject[T: ClassTag]: T = app.injector.instanceOf[T]
 
   final implicit def wsClient: WSClient = inject[WSClient]
 
