@@ -510,10 +510,10 @@ selfAssessmentPenaltiesTranscript.paragraph2 = Cofiwch y dylech anfon a thalu’
 selfAssessmentPenaltiesTranscript.paragraph3 = Gallwch wirio a oes angen i chi anfon Ffurflen Dreth drwy ddefnyddio ein gwiriwr Hunanasesiad ar GOV.UK.
 selfAssessmentPenaltiesTranscript.paragraph4 = Os oes angen i chi anfon Ffurflen Dreth a’n bod yn ei chael yn hwyr, cewch gosb o £100 os yw’ch Ffurflen Dreth hyd at 3 mis yn hwyr. Ni fydd y cosbau hyn yn cael eu gostwng, hyd yn oed os nad oes gennych unrhyw beth i’w dalu ar eich Ffurflen Dreth.
 selfAssessmentPenaltiesTranscript.paragraph5 = Os yw’n fwy na 3 mis yn hwyr, codir £10 ychwanegol y dydd arnoch am hyd at 90 diwrnod.
-selfAssessmentPenaltiesTranscript.paragraph6 = Ar ôl hyn, cewch gosbau ychwanegol hyd nes i ni gael eich Ffurflen Dreth a’ch bod wedi talu’ch bil treth. Hefyd codir llog arnoch ar daliadau hwyr.
+selfAssessmentPenaltiesTranscript.paragraph6 = Ar ôl hyn, cewch gosbau ychwanegol hyd nes i ni gael eich Ffurflen Dreth a’ch bod wedi talu’ch bil treth.
 selfAssessmentPenaltiesTranscript.paragraph7 = Hefyd codir llog arnoch ar daliadau hwyr.
-selfAssessmentPenaltiesTranscript.paragraph8 = Os na fydd yn rhaid i chi anfon Ffurflen Dreth, gallwch ofyn am gael eich tynnu o Hunanasesiad drwy’ch cyfrif treth personol. Os nad ydych yn dweud wrthym eich bod wedi rhoi’r gorau i fod yn hunangyflogedig, neu os nad ydych bellach yn rhan o Hunanasesiad, efallai y codir cosb arnoch hefyd.
-selfAssessmentPenaltiesTranscript.paragraph9 = Y ffordd hawsaf o osgoi cosbau yw anfon eich Ffurflen Dreth a thalu unrhyw dreth sy’n ddyledus erbyn 31 Ionawr. Cewch fwy o help a gwybodaeth ynghylch gosbau Hunanasesiad, sut i’w hapelio a’r cyfrif treth personol ar GOV.UK.
+selfAssessmentPenaltiesTranscript.paragraph8 = Os nad oes yn rhaid i chi anfon Ffurflen Dreth, gallwch ofyn am gael eich tynnu o Hunanasesiad drwy’ch cyfrif treth personol. Os nad ydych yn dweud wrthym eich bod wedi rhoi’r gorau i fod yn hunangyflogedig, neu os nad ydych bellach yn rhan o Hunanasesiad, efallai y codir cosb arnoch hefyd.
+selfAssessmentPenaltiesTranscript.paragraph9 = Y ffordd hawsaf o osgoi cosbau yw anfon eich Ffurflen Dreth a thalu unrhyw dreth sy’n ddyledus erbyn 31 Ionawr. Cewch fwy o help a gwybodaeth ynghylch cosbau Hunanasesiad, sut i apelio yn eu herbyn a’r cyfrif treth personol ar GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
@@ -532,15 +532,15 @@ whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 yourFirstTaxReturnTranscript.title = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
 yourFirstTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunanasesiad ar-lein gyntaf - trawsgrifiad fideo
-yourFirstTaxReturnTranscript.paragraph1 = A oes angen i chi lenwi Ffurflen Dreth Hunanasesiad ar-lein?
+yourFirstTaxReturnTranscript.paragraph1 = A oes angen i chi lenwi Ffurflen Dreth Hunanasesiad?
 yourFirstTaxReturnTranscript.paragraph2 = Gallwch wirio hyn ar GOV.UK drwy ateb ychydig o gwestiynau.
-yourFirstTaxReturnTranscript.paragraph3 = Os oes angen i chi lenwi Ffurflen Dreth, mae’n rhaid i chi wneud hynny nawr neu fe allech wynebu dirwy, hyd yn oed os nad oes arnoch unrhyw dreth.
+yourFirstTaxReturnTranscript.paragraph3 = Os oes angen i chi lenwi Ffurflen Dreth, mae’n rhaid i chi wneud hynny neu fe allech wynebu dirwy, hyd yn oed os nad oes arnoch unrhyw dreth.
 yourFirstTaxReturnTranscript.paragraph4 = Mae’r flwyddyn dreth yn dod i ben ar y pumed o Ebrill a bydd angen i chi gofrestru ar gyfer Hunanasesiad erbyn y pumed o Hydref, neu fel arall gallech wynebu dirwy. Gallwch gofrestru ar GOV.UK – mae yna fideo byr arall sy’n egluro sut i wneud hynny.
 yourFirstTaxReturnTranscript.paragraph5 = Y dyddiad cau ar gyfer eich Ffurflen Dreth, sy’n cwmpasu’r flwyddyn dreth a ddaeth i ben ym mis Ebrill, yw 31 Ionawr y flwyddyn ddilynol. Ar ôl i chi gofrestru ac actifadu eich cyfrif ar-lein, rydych yn barod i ddechrau.
 yourFirstTaxReturnTranscript.paragraph6 = Gwnewch yn siŵr fod eich gwybodaeth a’ch cofnodion wrth law gan y bydd angen i chi lenwi holl fanylion eich incwm.
 yourFirstTaxReturnTranscript.paragraph7 = Ewch i GOV.UK a mewngofnodwch gan ddefnyddio’r Dynodydd Defnyddiwr (ID) a’r cyfrinair a gawsoch pan wnaethoch gofrestru ar-lein.
 yourFirstTaxReturnTranscript.paragraph8 = Yn gyntaf, bydd arnom angen ychydig o wybodaeth amdanoch. Bydd y sgriniau ar-lein yn eich arwain o gwmpas - os cewch anawsterau, mae yna negeseuon ar y sgrin a chysylltiadau sy’n egluro mwy. Er enghraifft, os nodwch eich dyddiad geni’r ffordd anghywir o gwmpas, bydd y blwch yn troi’n goch.
-yourFirstTaxReturnTranscript.paragraph9 = Yn yr adran ‘Addasu eich Ffurflen Dreth’ rydych yn ateb ‘Iawn’ neu ‘Na’ i gyfres o gwestiynau mae hyn yn golygu y byddwch ond yn llenwi’r adrannau sy’n berthnasol i chi. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
+yourFirstTaxReturnTranscript.paragraph9 = Yn yr adran ‘Addasu eich Ffurflen Dreth’ rydych yn ateb ‘Iawn’ neu ‘Na’ i gyfres o gwestiynau – mae hyn yn golygu y byddwch ond yn llenwi’r adrannau sy’n berthnasol i chi. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
 yourFirstTaxReturnTranscript.paragraph10 = Bydd y botwm ‘Cadw ac yn eich blaen’ yn cadw’r hyn rydych wedi’i nodi hyd yma; mae’n ddefnyddiol os ydych eisiau stopio a dychwelyd iddo’n hwyrach.
 yourFirstTaxReturnTranscript.paragraph11 = Pan fyddwch wedi llenwi’ch Ffurflen Dreth, ewch drwyddi a’i gwirio. Gallwch fynd yn ôl os bydd angen i chi gywiro unrhyw beth.
 yourFirstTaxReturnTranscript.paragraph12 = Defnyddiwch ‘Bwrw golwg ar eich cyfrifiad’ i weld a oes arnoch dreth ac os felly, faint.
@@ -552,12 +552,12 @@ yourFirstTaxReturnTranscript.paragraph14 = I gael rhagor o wybodaeth am Hunanase
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 tailorYourTaxReturnTranscript.title = Addasu eich Ffurflen Dreth - trawsgrifiad fideo
 tailorYourTaxReturnTranscript.heading = Addasu eich Ffurflen Dreth - trawsgrifiad fideo
-tailorYourTaxReturnTranscript.paragraph1 = Pan fyddwch yn llenwi’ch Ffurflen Dreth ar-lein, fe welwch adran o’r enw ‘Addasu eich Ffurflen Dreth’, sef tair tudalen o gwestiynau lle rydych yn ateb ‘iawn’ neu ‘na’. Mae hyn yn golygu y byddwch dim ond yn llenwi’r adrannau sydd eu hangen arnoch. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
+tailorYourTaxReturnTranscript.paragraph1 = Pan fyddwch yn llenwi’ch Ffurflen Dreth ar-lein, fe welwch adran o’r enw ‘Addasu eich Ffurflen Dreth’. Mae’n cynnwys 3 tudalen o gwestiynau sy’n gofyn i chi ateb ‘Iawn’ neu ‘Na’. Mae hyn yn golygu mai dim ond yr adrannau y mae angen i chi eu llenwi y byddwch yn eu cael. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y marc cwestiwn i gael arweiniad.
 tailorYourTaxReturnTranscript.paragraph2 = Mae tudalen 1 yn gofyn a ydych wedi cael incwm fel:
 tailorYourTaxReturnTranscript.paragraph3 = fel cyflogai
 tailorYourTaxReturnTranscript.paragraph4 = o hunangyflogaeth
 tailorYourTaxReturnTranscript.paragraph5 = neu o bartneriaeth
-tailorYourTaxReturnTranscript.paragraph6 = Mae’n rhaid i chi ateb ‘iawn’ neu ‘na’ i bob un o’r cwestiynau. Os ydych yn dewis ‘iawn’, efallai y byddwn yn gofyn i chi am ragor o wybodaeth. Er enghraifft, os ydych yn ateb ‘iawn’ i’r cwestiwn ‘a ydych yn cael eich cyflogi’, mae’n gofyn faint o gyflogwyr oedd gennych, a’u henwau.
+tailorYourTaxReturnTranscript.paragraph6 = Mae’n rhaid i chi ateb ‘iawn’ neu ‘na’ i bob un o’r cwestiynau. Os ydych yn dewis ‘iawn’, efallai y byddwn yn gofyn i chi am ragor o wybodaeth. Er enghraifft, os atebwch eich bod yn gyflogedig, mae’n gofyn faint o gyflogwyr oedd gennych, a’u henwau.
 tailorYourTaxReturnTranscript.paragraph7 = Mae defnyddio ‘cadw ac yn eich blaen’ yn mynd â chi i’r dudalen nesaf. Mae hyn yn cadw’ch atebion hyd yn hyn. Gallwch hefyd ei ddefnyddio os ydych am stopio ar unrhyw adeg, a dod yn ôl yn nes ymlaen.
 tailorYourTaxReturnTranscript.paragraph8 = Mae tudalen 2 yn holi ynghylch mathau eraill o incwm, megis:
 tailorYourTaxReturnTranscript.paragraph9 = llog o gyfrifon banc a chynilion
@@ -573,7 +573,7 @@ tailorYourTaxReturnTranscript.paragraph18 = Mae hyn ar gyfer y dreth rydych wedi
 tailorYourTaxReturnTranscript.paragraph19 = Yn yr adran nesaf, gallwch lenwi’ch Ffurflen Dreth. Ar sail eich atebion yn yr adran ‘Addasu eich Ffurflen Dreth’, mae’n dangos yr adrannau y mae angen i chi eu llenwi nesaf.
 tailorYourTaxReturnTranscript.paragraph20 = Cofiwch – mae’ch Ffurflen Dreth Hunanasesiad yn cwmpasu’r flwyddyn dreth a ddaeth i ben ar 5 Ebrill, a’r dyddiad cau ar gyfer ei chyflwyno yw 31 Ionawr y flwyddyn ddilynol. Mae’n rhaid talu unrhyw dreth sydd arnoch erbyn 31 Ionawr.
 tailorYourTaxReturnTranscript.paragraph21 = Gallwch gyflwyno’ch Hunanasesiad ar unrhyw adeg, felly peidiwch â’i adael tan y funud olaf.
-tailorYourTaxReturnTranscript.paragraph22 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK – a gwyliwch ein fideos a gweminarau defnyddiol eraill ar YouTube.
+tailorYourTaxReturnTranscript.paragraph22 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK – a gwylio ein fideos a gweminarau defnyddiol eraill ar YouTube.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your self employed tax return transcript
@@ -585,7 +585,7 @@ yourSelfEmployedTaxReturnTranscript.paragraph2 = Rydych wedi teilwra’ch Ffurfl
 yourSelfEmployedTaxReturnTranscript.paragraph3 = Mae’r cwestiwn cyntaf yn ymwneud â’ch trosiant blynyddol.
 yourSelfEmployedTaxReturnTranscript.paragraph4 = Os na wnaethoch fasnachu am flwyddyn lawn, ond y byddai’ch incwm wedi bod dros £85,000 pe baech wedi gwneud hynny, eich ateb yw “Iawn”.
 yourSelfEmployedTaxReturnTranscript.paragraph5 = Er enghraifft:
-yourSelfEmployedTaxReturnTranscript.paragraph6 = Pe bae incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
+yourSelfEmployedTaxReturnTranscript.paragraph6 = Pe bai incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
 yourSelfEmployedTaxReturnTranscript.paragraph7 = Os yw’ch incwm masnachu dros £85,000, efallai y bydd angen i chi gofrestru ar gyfer TAW.
 yourSelfEmployedTaxReturnTranscript.paragraph8 = Bydd angen i chi hefyd roi gwybodaeth fanwl, megis rhestru treuliau.
 yourSelfEmployedTaxReturnTranscript.paragraph9 = Rydym yn dewis ‘Na’.
@@ -621,7 +621,7 @@ yourIncomeFromPropertyTaxReturnTranscript.paragraph2 = Ar gyfer incwm o eiddo y 
 yourIncomeFromPropertyTaxReturnTranscript.paragraph3 = Yn yr adran hon, peidiwch â chynnwys incwm o ystafelloedd ar osod, megis gwely a brecwast, oni bai eich bod yn hawlio rhyddhad Rhentu Ystafell. Mae hyn yn cyfrif fel masnach, a dylai gael ei nodi mewn adran arall ar eich Ffurflen Dreth.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph4 = I ddechrau, rhowch wybod i ni pa fath o incwm o eiddo y cawsoch yn ystod y flwyddyn, gan gynnwys llety gwyliau wedi’i ddodrefnu.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph5 = Ar y dudalen hon, mae angen yr wybodaeth ganlynol arnom:
-yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = Faint o incwm o eiddo y cawsoch.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph6 = Faint o incwm o eiddo a gawsoch.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph7 = A ydych yn hawlio’r lwfans incwm o eiddo – os ydych yn gwneud hynny, ni allwch hawlio treuliau.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph8 = A ydych yn defnyddio cyfrifyddu traddodiadol – mae hyn yn golygu eich bod yn cofnodi incwm a threuliau pan fyddwch yn cyflwyno anfoneb i gwsmeriaid, neu’n cael bil.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph9 = Os nad ydych yn hawlio’r lwfans incwm o eiddo, nodwch gostau cynnal eich busnes fan hyn. Gallwch gynnwys costau atgyweirio, ond peidiwch â chynnwys costau gwella na chostau uwchraddio.
@@ -630,7 +630,7 @@ yourIncomeFromPropertyTaxReturnTranscript.paragraph11 = Nawr, nodwch 50 y cant o
 yourIncomeFromPropertyTaxReturnTranscript.paragraph12 = Ar dudalen 4, nodwch yr hyn a alwn yn ‘addasiadau’ – sef hawliadau a allai ostwng eich bil treth. Er enghraifft, os ydych yn hawlio rhyddhad rhentu ystafell a bod eich incwm yn uwch na’r trothwy, ychwanegwch y swm a eithrir sef £7,500 – neu, os ydych yn berchennog ar y cyd, y swm hwn yw £3,750.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph13 = Ar dudalen 5, byddwch yn gweld eich elw neu golled addasedig ar gyfer y flwyddyn.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph14 = Os ydych yn gwneud elw, mae’n rhaid i chi nodi’ch colledion o flwyddyn gynharach. Yna, byddwn yn cyfrifo’ch elw trethadwy. Ni all hyn fod yn fwy na’ch elw wedi’i addasu ar gyfer y flwyddyn bresennol.
-yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Nodwch y 50 y cant sy’n weddill o’ch costau ariannol preswyl yma. Gallwch hefyd nodi unrhyw gostau ariannol preswyl nad oedd modd eu defnyddio eu defnyddio yn y flwyddyn dreth flaenorol. Bydd hyn yn helpu i ostwng cyfanswm eich bil treth.
+yourIncomeFromPropertyTaxReturnTranscript.paragraph15 = Nodwch y 50 y cant sy’n weddill o’ch costau ariannol preswyl yma. Gallwch hefyd nodi unrhyw gostau ariannol preswyl nad oedd modd eu defnyddio yn y flwyddyn dreth flaenorol. Bydd hyn yn helpu i ostwng cyfanswm eich bil treth.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph16 = Ar dudalen 6, rhowch unrhyw wybodaeth ychwanegol. Wedyn, gwiriwch eich ffigurau ar y dudalen grynhoi – gallwch fynd yn ôl er mwyn gwneud cywiriadau.
 yourIncomeFromPropertyTaxReturnTranscript.paragraph17 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK.
 
@@ -641,7 +641,7 @@ sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.title = P
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.heading = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph1 = Rydych yn hunangyflogedig sy’n golygu bod gennych gostau hanfodol er mwyn cadw’ch busnes i redeg. Gallwch ddidynnu’r costau hyn, a elwir yn dreuliau caniataol, er mwyn cyfrifo’ch elw trethadwy.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph2 = Ond cofiwch – os ydych yn defnyddio’r lwfans masnachu rhydd o dreth gwerth £1,000, ni allwch hawlio unrhyw dreuliau.
-sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph3 = Gallai treuliau a ganiateir cynnwys:
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph3 = Mae treuliau a ganiateir yn cynnwys:
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet1 = eiddo ac offer ar gyfer y swyddfa
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet2 = teithio, gan gynnwys ceir a faniau
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para3bullet3 = staff
@@ -656,7 +656,7 @@ sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bull
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph5 = Efallai y byddwch eisiau defnyddio treuliau symlach - mae hyn yn golygu eich bod yn hawlio ar gyfradd unffurf yn lle cyfrifo’r costau gwirioneddol. Er enghraifft, ar gyfer teithio gyda char gallwch hawlio 45 ceiniog y filltir am hyd at 10,000 o filltiroedd ac wedyn 25 ceiniog y filltir dros y swm hwn.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph6 = Os yw’ch incwm yn £85,000 neu’n fwy, bydd angen i chi restru pob traul yn unigol o dan y pennawd priodol. Mae hyn hefyd yn gymwys os na wnaethoch fasnachu am flwyddyn lawn, ond byddech wedi ennill y swm hwn neu fwy pe baech wedi gwneud hynny – er enghraifft, £50,000 oedd eich incwm am 6 mis – felly mewn 12 mis byddai wedi bod yn £100,000.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph7 = Os yw’ch incwm yn llai nag £85,000, eich penderfyniad chi yw a ydych am roi gwybod i ni am gyfanswm eich treuliau neu eu rhestru’n unigol.
-sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = Mae’n bwysig eich bod yn cadw cofnodion a thystiolaeth o’r costau busnes y bydd angen i chi eu cyflwyno er mwyn llenwi’ch Ffurflen Dreth Hunanasesiad. Weithiau byddwn yn gofyn am gael eu gweld ond peidiwch â’u hanfon gyda’ch Ffurflen Dreth.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = Mae’n bwysig eich bod yn cadw cofnodion a thystiolaeth o’r costau busnes – bydd angen y rhain arnoch er mwyn llenwi’ch Ffurflen Dreth Hunanasesiad. Weithiau byddwn yn gofyn am gael eu gweld ond peidiwch â’u hanfon gyda’ch Ffurflen Dreth.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = I gael rhagor o wybodaeth am dreuliau a ganiateir, gan gynnwys treuliau symlach, ewch i GOV.UK.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Claiming motoring expenses if you're self-employed transcript
@@ -665,7 +665,7 @@ sa.expenses.claiming_motoring_expenses.title = Hawlio treuliau moduro os ydych y
 sa.expenses.claiming_motoring_expenses.heading = Hawlio treuliau moduro os ydych yn hunangyflogedig - trawsgrifiad fideo
 sa.expenses.claiming_motoring_expenses.paragraph1 = Os ydych yn gweithio i chi’ch hun, efallai y bydd gennych gar, fan neu feic modur at ddefnydd busnes ac at ddefnydd personol.  Gallwch hawlio treuliau busnes am nifer o bethau, gan gynnwys tanwydd, yswiriant cerbyd a pharcio. Ni allwch hawlio am gostau gyrru nad yw at ddefnydd busnes, dirwyon na theithio rhwng y cartref a’r gwaith.
 sa.expenses.claiming_motoring_expenses.paragraph2 = Mae 2 ffordd o gyfrifo’ch treuliau moduro: naill ai drwy ddefnyddio’r dull costau gwirioneddol, neu drwy ddefnyddio’r gyfradd unffurf ar gyfer milltiroedd busnes.
-sa.expenses.claiming_motoring_expenses.paragraph3 = P’un bynnag ddull a ddewiswch, mae’n rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
+sa.expenses.claiming_motoring_expenses.paragraph3 = Pa bynnag ddull a ddewiswch, mae’n rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
 sa.expenses.claiming_motoring_expenses.paragraph4 = Os byddwch yn defnyddio’r dull costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’u gwneud yn ystod y flwyddyn dreth berthnasol ac yna cyfrifo pa ganran o’r rheiny oedd ar gyfer defnydd busnes yn unig.
 sa.expenses.claiming_motoring_expenses.paragraph5 = Er enghraifft, os mai £6,000 oedd cyfanswm y costau rhedeg, a bod 75% o’r milltiroedd ar gyfer defnydd busnes, byddech yn cynnwys £4,500 ar eich Ffurflen Dreth Hunanasesiad.
 sa.expenses.claiming_motoring_expenses.paragraph6 = Os ydych yn defnyddio cyfrifyddu traddodiadol a’r dull costau gwirioneddol, gallwch hefyd hawlio Lwfans Cyfalaf am brynu’r cerbyd ei hun. Cewch ragor o wybodaeth am Lwfansau Cyfalaf ar GOV.UK.
@@ -699,8 +699,8 @@ registering.for.self.assessment.transcript.paragraph1 = Bydd yn rhaid i chi gofr
 registering.for.self.assessment.transcript.paragraph2 = Er enghraifft, oherwydd eich bod yn bartner mewn partneriaeth – neu reswm arall megis cyfandaliad. Yma, byddwn yn esbonio’r gwahanol ffyrdd i gofrestru.
 registering.for.self.assessment.transcript.paragraph3 = Os ydych yn hunangyflogedig neu’n unig fasnachwr, bydd yn rhaid i chi gofrestru:
 registering.for.self.assessment.transcript.paragraph4 = os yw’ch trosiant yn fwy na £1,000 mewn blwyddyn dreth
-registering.for.self.assessment.transcript.paragraph5 = er mwyn profi eich bod yn hunangyflogedig,
-registering.for.self.assessment.transcript.paragraph6 = neu er mwyn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 gwirfoddol.
+registering.for.self.assessment.transcript.paragraph5 = er mwyn profi eich bod yn hunangyflogedig
+registering.for.self.assessment.transcript.paragraph6 = neu er mwyn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 gwirfoddol
 registering.for.self.assessment.transcript.paragraph7 = Os ydych wedi anfon Ffurflen Dreth atom o’r blaen, gallwch ddefnyddio’ch Cyfeirnod Unigryw y Trethdalwr presennol, neu UTR, a chofrestru gan ddefnyddio ffurflen CWF1.
 registering.for.self.assessment.transcript.paragraph8 = Os nad ydych wedi gwneud hynny, bydd angen i chi greu cyfrif Porth y Llywodraeth ar GOV.UK, a hynny fel y gallwch gofrestru ar gyfer Hunanasesiad yn awtomatig. Cewch lythyr gyda’ch UTR cyn pen 10 diwrnod. Cewch lythyr arall ychydig o ddyddiau ar ôl hynny gyda chod i gychwyn eich gwasanaeth ar-lein.
 registering.for.self.assessment.transcript.paragraph9 = Mae’n rhaid i bartneriaethau gael eu cofrestru gan bartner enwebedig – ond mae’n rhaid i bob partner gofrestru’n unigol hefyd, a hynny gan ddefnyddio UTR y bartneriaeth.
