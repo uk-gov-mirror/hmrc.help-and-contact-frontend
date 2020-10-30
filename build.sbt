@@ -50,8 +50,6 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    evictionWarningOptions in update := EvictionWarningOptions.default
-      .withWarnScalaVersionEviction(false),
     scalaVersion := "2.12.12"
   )
   .configs(IntegrationTest)
