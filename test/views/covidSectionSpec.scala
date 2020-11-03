@@ -87,8 +87,8 @@ class covidSectionSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "covid-self-employment-income-support-scheme",
-        "Self-Employment Income Support Scheme (SEISS): contact HMRC (opens in new tab)",
-        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/get-help-with-the-self-employment-income-support-scheme",
+        "Self-Employment Income Support Scheme (SEISS): Grant Extension (opens in new tab)",
+        "https://www.gov.uk/government/publications/self-employment-income-support-scheme-grant-extension/self-employment-income-support-scheme-grant-extension",
         "link - click:Help and contact:covid help webchat seiss",
           expectedOpensInNewTab = true
       )
