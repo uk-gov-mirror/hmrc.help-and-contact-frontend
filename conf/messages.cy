@@ -746,4 +746,4 @@ covid.videos_hmrc_youtube_channel = Fideos a gweminarau (sianel YouTube CThEM) (
 covid.financial_support_for_businesses = Cymorth ariannol i fusnesau (yn agor tab newydd)
 covid.debt_management_for_tax_bills = Rheolaeth dyledion ar gyfer biliau treth: cysylltwch â CThEM (yn agor tab newydd)
 covid.coronavirus_job_retention_scheme = Cynllun Cadw Swyddi yn sgil Coronafeirws (CJRS): cysylltwch â CThEM (yn agor tab newydd)
-covid.self_employment_income_support_scheme = Cynllun Cymhorthdal Incwm Hunangyflogaeth (SEISS): cysylltwch â CThEM (yn agor tab newydd)
+covid.self_employment_income_support_scheme = Cynllun Cymhorthdal Incwm Hunangyflogaeth (SEISS): Estyniad i’r Grant (yn agor tab newydd)
