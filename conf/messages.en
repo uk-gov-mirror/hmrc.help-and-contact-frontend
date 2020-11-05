@@ -349,7 +349,7 @@ epaye.submissions.install_bpt_ = install BPT to submit an Earlier Year Update
 #######################################################
 ##  Corporation Tax
 #######################################################
-ct.ask_for_a_copy_ = Ask for a copy of your Corporation Tax UTR (opens in a new window or tab)
+ct.ask_for_a_copy_ = Ask for a copy of your Corporation Tax UTR (opens in a new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
