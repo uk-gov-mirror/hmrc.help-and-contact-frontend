@@ -148,6 +148,11 @@ howToPaySelfAssessment.sa.hmrc.address =  Wasanaeth Cwsmeriaid Cymraeg CThEM.
 howToPaySelfAssessment.youll.need = Bydd angen dadansoddiad arnoch o’ch cosbau a llog.
 howToPaySelfAssessment.view.penalties = Bwrw golwg dros eich cosbau Hunanasesiad
 howToPaySelfAssessment.view.interest = Bwrw golwg dros eich llog Hunanasesiad
+howToPaySelfAssessment.view.tax_return_calculations = Fideo - Bwrw golwg dros eich cyfrifiad Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
+howToPaySelfAssessment.taxbill = Fideo - Sut ydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
+howToPaySelfAssessment.view.budget_for_my_self_assessment_tax = Fideo - Sut ydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
+howToPaySelfAssessment.view.self_assessment_penalties = Fideo - Cosbau Hunanasesiad (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.income_from_property = Fideo - Incwm o eiddo - beth ydw i’n ei gynnwys ar fy Ffurflen Dreth? (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help with your self assessment tax return
@@ -176,6 +181,12 @@ helpWithYourSelfAssessmentTaxReturn.did_not_trade = Os na wnaethoch fasnachu am 
 helpWithYourSelfAssessmentTaxReturn.do_not_fill = Peidiwch â llenwi’r adran hon os ydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Mae hynny’n cael ei ystyried yn hunangyflogaeth a dylech lenwi’r adran honno.
 helpWithYourSelfAssessmentTaxReturn.if_your_property = Os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd, llenwch yr adran Dramor.
 helpWithYourSelfAssessmentTaxReturn.if_from_partnership = Os oedd eich incwm o eiddo yn dod o bartneriaeth, llenwch adran y Bartneriaeth.
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Fideo - Pam yr wyf wedi cael Ffurflen Dreth? (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment_tax_ = Video - My first Self Assessment tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript = Byddwn yn cyhoeddi trawsgrifiad ar gyfer y fideo hwn ym mis Rhagfyr 2020.
+helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Fideo - Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Fideo - Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping = Fideo - Cadw cofnodion sylfaenol ar gyfer yr hunangyflogedig (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -234,6 +245,9 @@ sa.expenses.you_can_claim_either_the_actual_costs_ = Gallwch hawlio naill ai’r
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = Mae’r gyfradd unffurf wastad yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd - felly ni allwch hawlio lwfans cyfalaf am ei brynu.
 sa.expenses.video_transcript = trawsgrifiad fideo
+sa.expenses.what_expenses_can_i_include = Fideo - Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
+sa.expenses.view.claiming_motoring_expenses = Fideo - Hawlio treuliau moduro os ydych yn hunangyflogedig (yn agor tab newydd)
+sa.expenses.view.basic_record_for_self_employed = Fideo - Cadw cofnodion sylfaenol ar gyfer yr hunangyflogedig (yn agor tab newydd)
 
 
 #######################################################

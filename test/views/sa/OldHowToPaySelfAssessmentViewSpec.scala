@@ -21,11 +21,11 @@ import play.api.i18n.{Lang, Messages}
 import play.twirl.api.HtmlFormat
 import models.{SaUtr, SaUtrGenerator}
 import views.behaviours.ViewBehaviours
-import views.html.sa.how_to_pay_self_assessment
+import views.html.sa.old_how_to_pay_self_assessment
 
 import scala.util.Random
 
-class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
+class OldHowToPaySelfAssessmentViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "howToPaySelfAssessment"
 
@@ -33,7 +33,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), HtmlFormat.empty)
   }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => inject[how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) = () => inject[old_how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(saUtr), messages)
 
   "HowToPaySelfAssessment view" must {
     behave like normalPage(createView(), messageKeyPrefix)
@@ -99,24 +99,10 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       val doc = asDocument(createView()())
       assertLinkById(
         doc,
-        "viewing-self-assessment-calculation-video",
-        "Video - Viewing your Self Assessment tax return calculation (opens in new tab)",
-        "https://youtu.be/wq35KqfGCjo",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:How to pay your Self Assessment:Viewing your calculation - video link")
-      assertLinkById(
-        doc,
         "viewing-self-assessment-calculation-transcript",
         "Viewing your Self Assessment tax return calculations - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
         "link - click:How to pay your Self Assessment:Viewing your calculation - video transcript")
-      assertLinkById(
-        doc,
-        "paying-your-self-assessment-bill-video",
-        "Video - How do I pay my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/vRxLHyNmWp4",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video link")
       assertLinkById(
         doc,
         "paying-your-self-assessment-bill-transcript",
@@ -129,13 +115,6 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "More information about paying your Self Assessment tax bill",
         "https://www.gov.uk/pay-self-assessment-tax-bill",
         "link - click:More information about paying your Self Assessment tax bill")
-      assertLinkById(
-        doc,
-        "budgeting-for-sa-bill-video",
-        "Video - How do I budget for my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/XaqY3qhDXGo",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:How to pay your Self Assessment:How do I budget for my Self Assessment tax bill - video link")
       assertLinkById(
         doc,
         "budgeting-for-sa-bill-transcript",
@@ -173,17 +152,16 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
         "link - click:How to pay your Self Assessment:address for Self Assessment enquiries")
       assertLinkById(
         doc,
-        "self-assessment-penalties-video",
-        "Video - Self Assessment penalties (opens in new tab)",
-        "https://youtu.be/tIqsbnmNqzA",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:How to pay your Self Assessment:Self Assessment penalties - video link")
-      assertLinkById(
-        doc,
         "self-assessment-penalties-transcript",
         "Self Assessment penalties - video transcript",
         "/business-account/help/transcript/self-assessment-penalties",
         "link - click:How to pay your Self Assessment:Self Assessment penalties - video transcript")
+    }
+
+    "have youtube url in html for each embedded video" in {
+      val doc = asDocument(createView()())
+      val listOfVideoId: List[String] = List("wq35KqfGCjo", "Fq3AojrrjTw", "XaqY3qhDXGo", "tIqsbnmNqzA")
+      listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 
   }
@@ -228,7 +206,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
 
   "when viewed in Welsh" should {
     "have a link to welsh helpline" in {
-      val doc = asDocument(inject[how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(None), messagesApi.preferred(Seq(Lang("cy")))))
+      val doc = asDocument(inject[old_how_to_pay_self_assessment].apply(frontendAppConfig)(HtmlFormat.empty)(fakeServiceInfoRequest(None), messagesApi.preferred(Seq(Lang("cy")))))
 
       assertLinkById(
         doc,

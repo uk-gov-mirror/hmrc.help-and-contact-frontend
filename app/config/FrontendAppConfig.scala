@@ -56,6 +56,8 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   lazy val languageTranslationEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.welsh-translation")
 
+  lazy val youtubeLinksEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.youtube-links")
+
   def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))
 
   def routeToSwitchLanguage(lang: String): Call = routes.LanguageSwitchController.switchToLanguage(lang)
