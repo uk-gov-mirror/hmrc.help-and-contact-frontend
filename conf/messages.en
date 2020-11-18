@@ -149,6 +149,10 @@ howToPaySelfAssessment.sa.hmrc.address =  address for Self Assessment enquiries.
 howToPaySelfAssessment.youll.need = You''ll need a breakdown of your penalties and interest.
 howToPaySelfAssessment.view.penalties = View your Self Assessment penalties
 howToPaySelfAssessment.view.interest = View your Self Assessment interest
+howToPaySelfAssessment.view.tax_return_calculations = Video - Viewing your Self Assessment tax return calculation (opens in new tab)
+howToPaySelfAssessment.taxbill = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
+howToPaySelfAssessment.view.budget_for_my_self_assessment_tax = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
+howToPaySelfAssessment.view.self_assessment_penalties = Video - Self Assessment penalties (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help with your self assessment tax return
@@ -177,6 +181,13 @@ helpWithYourSelfAssessmentTaxReturn.did_not_trade = If you did not trade for a f
 helpWithYourSelfAssessmentTaxReturn.do_not_fill = Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as self-employment and you should fill in that section.
 helpWithYourSelfAssessmentTaxReturn.if_your_property = If your property is outside the European Economic Area, fill in the Foreign section.
 helpWithYourSelfAssessmentTaxReturn.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Video - Why have I been sent a tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment_tax_ = Video - My first Self Assessment tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript = We will publish a transcript for this video in December 2020.
+helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Video - Your self-employed tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping = Video - Basic record keeping for the self-employed (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -236,6 +247,9 @@ sa.expenses.you_can_claim_either_the_actual_costs_ = You can claim either the ac
 sa.expenses.if_you_decide_to_use_the_actual_costs_ = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
 sa.expenses.the_flat_rate_covers_the_whole_cost_ = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
 sa.expenses.video_transcript = video transcript
+sa.expenses.what_expenses_can_i_include = Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)
+sa.expenses.view.claiming_motoring_expenses = Video - Claiming motoring expenses if you’re self-employed (opens in new tab)
+sa.expenses.view.basic_record_for_self_employed = Video - Basic record keeping for the self-employed (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Record Keeping

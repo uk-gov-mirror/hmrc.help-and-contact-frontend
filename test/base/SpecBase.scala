@@ -17,11 +17,18 @@
 package base
 
 import config.FrontendAppConfig
+import controllers.actions.AuthAction
+import handlers.ErrorHandler
 import org.scalatestplus.play.PlaySpec
 import org.scalatestplus.play.guice._
 import play.api.i18n.{Messages, MessagesApi}
-import play.api.test.{FakeRequest, Injecting}
 import play.api.mvc.AnyContent
+import play.api.test.{FakeRequest, Injecting}
+import views.html.ct.{contact_hmrc_about_ct, how_to_pay_corporation_tax, register_or_deregister_corporation_tax}
+import views.html.epaye.{paye_and_cis_refunds, view_check_correct_submissions}
+import views.html.help_and_contact
+import views.html.sa._
+import views.html.vat.{payments_and_deadlines, register_or_deregister}
 
 trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
@@ -31,5 +38,43 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
   def fakeRequest: FakeRequest[AnyContent] = FakeRequest("", "")
 
- def messages: Messages = messagesApi.preferred(fakeRequest)
+  def messages: Messages = messagesApi.preferred(fakeRequest)
+
+  def contactHMRCAboutCt: contact_hmrc_about_ct = inject[contact_hmrc_about_ct]
+
+  def howToPayCorporationTax: how_to_pay_corporation_tax = inject[how_to_pay_corporation_tax]
+
+  def registerOrDeregisterCorporationTax: register_or_deregister_corporation_tax = inject[register_or_deregister_corporation_tax]
+
+  def payeAndCisRefunds: paye_and_cis_refunds = inject[paye_and_cis_refunds]
+
+  def viewCheckCorrectSubmissions: view_check_correct_submissions = inject[view_check_correct_submissions]
+
+  def helpAndContact: help_and_contact = inject[help_and_contact]
+
+  def saEvidence: sa_evidence = inject[sa_evidence]
+
+  def expenses: expenses = inject[expenses]
+
+  def helpWithYourSelfAssessmentTaxReturn: help_with_your_self_assessment_tax_return = inject[help_with_your_self_assessment_tax_return]
+
+  def howToPaySelfAssessment: how_to_pay_self_assessment = inject[how_to_pay_self_assessment]
+
+  def oldExpenses: old_expenses = inject[old_expenses]
+
+  def oldHelpWithYourSelfAssessmentTaxReturn: old_help_with_your_self_assessment_tax_return = inject[old_help_with_your_self_assessment_tax_return]
+
+  def OldHowToPaySelfAssessment: old_how_to_pay_self_assessment = inject[old_how_to_pay_self_assessment]
+
+  def registerDeregister: register_deregister = inject[register_deregister]
+
+  def paymentsAndDeadlines: payments_and_deadlines = inject[payments_and_deadlines]
+
+  def registerOrDeregister: register_or_deregister = inject[register_or_deregister]
+
+  def errorHandler: ErrorHandler = inject[ErrorHandler]
+
+  def authenticate: AuthAction = inject[AuthAction]
+
+
 }

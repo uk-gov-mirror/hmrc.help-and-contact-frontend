@@ -35,13 +35,7 @@
 
     <p>@messages("howToPaySelfAssessment.hmrcs.online.tax.return.automatically_")</p>
 
-
-<div class="panel panel-border-wide">
-
-    <p><a href = "https://youtu.be/wq35KqfGCjo" id="viewing-self-assessment-calculation-video" target="_blank" data-journey-click="link - click:How to pay your Self Assessment:Viewing your calculation - video link">
-        @messages("howToPaySelfAssessment.view.tax_return_calculations")
-    </a>
-    </p>
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("viewingYourCalculation"), Some(messages("howToPaySelfAssessment.viewing.your.calculation")))
 
     <p>
         <a id="viewing-self-assessment-calculation-transcript"
@@ -50,7 +44,6 @@
             @messages("howToPaySelfAssessment.viewing.your.calculations") @messages("howtoPaySelfAssessment.video.transcript")
         </a>
     </p>
-</div>
 
     <p>@messages("howToPaySelfAssessment.this.shows.how.your.tax.bill.has.been_")</p>
 
@@ -58,12 +51,7 @@
 
     <p>@messages("howToPaySelfAssessment.the.deadlines.for.paying.are.31.january_")</p>
 
-<div class="panel panel-border-wide">
-    <p>
-        <a href = "https://youtu.be/vRxLHyNmWp4" id="paying-your-self-assessment-bill-video" target="_blank" data-journey-click="link - click:How to pay your Self Assessment:Paying your Self Assessment tax bill - video link">
-        @messages("howToPaySelfAssessment.taxbill")
-        </a>
-    </p>
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("payingYourSelfAssessmentTaxBill"), Some(messages("howToPaySelfAssessment.paying.your.sa.bill")))
 
     <p>
         <a id="paying-your-self-assessment-bill-transcript"
@@ -72,7 +60,6 @@
             @messages("howToPaySelfAssessment.paying.your.sa.bill") @messages("howtoPaySelfAssessment.video.transcript")
         </a>
     </p>
-</div>
 
     <p>@messages("howToPaySelfAssessment.if.you.are.paying.your.bill.the_")</p>
 
@@ -109,25 +96,20 @@
         </li>
     </ul>
 
-
     <p>
         <a id="more-information" href="@appConfig.getGovUrl("saMoreInformation")"
         data-journey-click="link - click:More information about paying your Self Assessment tax bill">
         @messages("howtoPaySelfAssessment.more.information")</a>
     </p>
 
-<div class ="panel panel-border-wide">
-    <p><a href = "https://youtu.be/XaqY3qhDXGo" id="budgeting-for-sa-bill-video" target="_blank" data-journey-click="link - click:How to pay your Self Assessment:How do I budget for my Self Assessment tax bill - video link">
-        @messages("howToPaySelfAssessment.view.budget_for_my_self_assessment_tax")
-        </a>
-    </p>
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("budgetingForYourSelfAssessmentTaxBill"))
+
     <p>
         <a id="budgeting-for-sa-bill-transcript"
         href="@controllers.routes.TranscriptController.onPageLoad("budgeting-your-self-assessment-tax-bill")"
         data-journey-click="link - click:How to pay your Self Assessment:How do I budget for my Self Assessment tax bill - video transcript">
             @messages("howtoPaySelfAssessment.budgeting.for.sa.bill") @messages("howtoPaySelfAssessment.video.transcript")</a>
     </p>
-</div>
 
     <h2>@messages("howToPaySelfAssessment.penalties.appeals")</h2>
 
@@ -190,11 +172,7 @@
 
     <h2>@messages("howToPaySelfAssessment.further.help.with.penalties")</h2>
 
-<div class = "panel panel-border-wide">
-<p><a href = "https://youtu.be/tIqsbnmNqzA" id="self-assessment-penalties-video" target="_blank" data-journey-click="link - click:How to pay your Self Assessment:Self Assessment penalties - video link">
-    @messages("howToPaySelfAssessment.view.self_assessment_penalties")
-    </a>
-</p>
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("selfAssessmentPenalties"), Some(messages("howToPaySelfAssessment.further.help.with.penalties")))
 
     <p>
         <a id="self-assessment-penalties-transcript"
@@ -202,5 +180,4 @@
         data-journey-click="link - click:How to pay your Self Assessment:Self Assessment penalties - video transcript">
             @messages("howtoPaySelfAssessment.self.assessment.penalties") @messages("howtoPaySelfAssessment.video.transcript")</a>
     </p>
-</div>
 }
