@@ -85,8 +85,8 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       doc.text() must include("You can appeal if you have a reasonable excuse, for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.")
 
       doc.text() must include("You can:")
-      doc.text() must include("appeal a £100 Self Assessment late filing penalty online (opens in a new tab)")
-      doc.text() must include("appeal any late filing or late payment penalty using form SA370 (opens in a new tab)")
+      doc.text() must include("appeal a £100 Self Assessment late filing penalty online (opens in new tab)")
+      doc.text() must include("appeal any late filing or late payment penalty using form SA370 (opens in new tab)")
       doc.text() must include("If you get your penalty notice by email, you can fill in form SA370 to appeal against Self Assessment penalties for late filing and late payment, or you can write to HMRC with your reasons for appealing.")
       doc.text() must include("Send your form or letter to HMRC's address for Self Assessment enquiries.")
       doc.text() must include("You'll need a breakdown of your penalties and interest.")
@@ -151,7 +151,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "form-SAASUB",
-        "appeal a £100 Self Assessment late filing penalty online (opens in a new tab)",
+        "appeal a £100 Self Assessment late filing penalty online (opens in new tab)",
         "/digital-forms/form/self-assessment-appeal-late-filing-penalty/draft/guide",
         "link - click:Appeal a £100 Self Assessment late filing penalty online:form SAASUB",
         false,
@@ -160,7 +160,7 @@ class HowToPaySelfAssessmentViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "form-SA370",
-        "appeal any late filing or late payment penalty using form SA370 (opens in a new tab)",
+        "appeal any late filing or late payment penalty using form SA370 (opens in new tab)",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
         "link - click:How to pay your Self Assessment:form SA370",
         false,
