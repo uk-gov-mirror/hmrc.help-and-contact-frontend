@@ -66,7 +66,10 @@
     </p>
 
   <p>
-      @messages("helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript")
+      <a href="@controllers.routes.TranscriptController.onPageLoad("new-your-first-tax-return")" id="new-first-sa-tax-return"
+      data-journey-click="link - click:Help with your Self Assessment return:Your first self assessment tax return - video transcript">
+      @messages("helpWithYourSelfAssessmentTaxReturn.first_sa_return_transcript")
+      </a>
   </p>
 </div>
 
@@ -80,7 +83,10 @@
     </p>
 
   <p>
-      @messages("helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript")
+      <a href="@controllers.routes.TranscriptController.onPageLoad("new-how-do-i-tailor-sa-tax")" id="tailor-tax-return-transcript"
+         data-journey-click="link - click:Help with your Self Assessment return:Tailor your tax return - video transcript">
+          @messages("helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript")
+      </a>
   </p>
 </div>
 
@@ -115,7 +121,10 @@
     </p>
 
   <p>
-        @messages("helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript")
+      <a href="@controllers.routes.TranscriptController.onPageLoad("new-income-from-property")" id="income-from-property-transcript"
+         data-journey-click="link - click:Help with your Self Assessment return:Income from property - video transcript">
+        @messages("helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript")
+      </a>
   </p>
 </div>
 

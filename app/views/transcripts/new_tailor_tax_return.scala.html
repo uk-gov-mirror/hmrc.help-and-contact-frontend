@@ -1,0 +1,37 @@
+@*
+ * Copyright 2020 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@this(
+main_template: main_template
+)
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+
+@main_template(
+Messages("sa.new_tailor_tax_return_transcript.title"),
+appConfig = appConfig,
+bodyClasses = None,
+serviceInfoContent = serviceInfoContent
+) {
+@components.heading("new-tailor-your-tax-transcript-heading", "sa.new_tailor_tax_return_transcript.heading", "heading-xlarge")
+
+@for(i <- 1 to 13){
+<p>@messages(s"sa.new_tailor_tax_return_transcript.paragraph$i")</p>
+}
+
+}
