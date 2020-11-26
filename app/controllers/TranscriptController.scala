@@ -75,7 +75,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "record-keeping-for-self-employed" -> basic_record_keeping(appConfig)(request.serviceInfoContent),
       "new-how-do-i-tailor-sa-tax" -> new_tailor_tax_return(appConfig)(request.serviceInfoContent),
       "new-your-first-tax-return" -> new_your_first_tax_return(appConfig)(request.serviceInfoContent),
-      "new-income-from-property" -> new_income_from_property(appConfig)(request.serviceInfoContent),
+      "new-income-from-property" -> new_income_from_property(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>
