@@ -188,6 +188,9 @@ helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Video - How do I ta
 helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Video - Your self-employed tax return (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping = Video - Basic record keeping for the self-employed (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.first_sa_return_transcript = My first Self Assessment tax return - video transcript
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = How do I tailor my Self Assessment tax return? - video transcript
+helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript = Income from property - what do I include on my tax return? - video transcript
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -762,3 +765,68 @@ covid.financial_support_for_businesses = Financial support for businesses (opens
 covid.debt_management_for_tax_bills = Debt management for tax bills: contact HMRC (opens in new tab)
 covid.coronavirus_job_retention_scheme = Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)
 covid.self_employment_income_support_scheme = Self-Employment Income Support Scheme (SEISS): Grant Extension (opens in new tab)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ New tailor your SA tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa.new_tailor_tax_return_transcript.heading = How do I tailor my Self Assessment tax return?
+sa.new_tailor_tax_return_transcript.title = How do I tailor my Self Assessment tax return?
+sa.new_tailor_tax_return_transcript.paragraph1 = When you’re filling in your online tax return, you’ll find a section called ‘Tailor your return’.
+sa.new_tailor_tax_return_transcript.paragraph2 = It’s three pages of questions where you answer ‘Yes’ or ‘No’, which means you only get the sections you need to complete. If you’re not sure about a question, click on the ‘Help about’ link for guidance.
+sa.new_tailor_tax_return_transcript.paragraph3 = Page one asks if you’ve had income as an employee, from self-employment or from a partnership.
+sa.new_tailor_tax_return_transcript.paragraph4 = You must answer ‘Yes’ or ‘No’ to all the questions. If you choose ‘Yes’, you may be asked for more information; for example, if you say yes to being employed, it asks how many employers you had, and their names.
+sa.new_tailor_tax_return_transcript.paragraph5 = Using ‘Save and continue’ takes you to the next page. This saves your answers so far, you can then stop and come back later.
+sa.new_tailor_tax_return_transcript.paragraph6 = Page two asks about other kinds of income, such as interest from bank and savings accounts, dividends from shares, and pensions.
+sa.new_tailor_tax_return_transcript.paragraph7 = Please note the question about losses on other taxable income refers to income such as casual earnings or commission. It’s not for losses that belong elsewhere in your return – for example, losses from self-employment go in the self-employment section. If in doubt, use the ‘Help about’ link for further guidance.
+sa.new_tailor_tax_return_transcript.paragraph8 = The third page is mainly about tax reliefs, including pension contributions, charitable gifts, Married Couple’s Allowance and Marriage Allowance.
+sa.new_tailor_tax_return_transcript.paragraph9 = This is for tax you’ve paid in the tax year covered by this online return, and which has already been refunded by us or Jobcentre Plus. It’s not for refunds that came from an earlier year, or from an employer.
+sa.new_tailor_tax_return_transcript.paragraph10 = The next section is Fill in your return. Based on your answers in Tailor your return, it shows you the sections you need to complete next.
+sa.new_tailor_tax_return_transcript.paragraph11 = Remember, your Self Assessment tax return covers the tax year that ended on the fifth of April and is due by the thirty first of January the following year. Any tax you owe must be paid by the thirty first of January.
+sa.new_tailor_tax_return_transcript.paragraph12 = You can file anytime, just don’t leave it until the last minute.
+sa.new_tailor_tax_return_transcript.paragraph13 = You can find out more about Self Assessment on GOV.UK and watch our other helpful videos and webinars on YouTube.
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ New your first SA tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+new.yourSelfEmployedTaxReturnTranscript.heading = My first Self Assessment tax return
+new.yourSelfEmployedTaxReturnTranscript.title = My first Self Assessment tax return
+new.yourSelfEmployedTaxReturnTranscript.paragraph1 = Do you need to complete a Self Assessment tax return?
+new.yourSelfEmployedTaxReturnTranscript.paragraph2 = To help you find out, you can check on GOV.UK by answering some questions.
+new.yourSelfEmployedTaxReturnTranscript.paragraph3 = If you do need to complete a tax return, you must do it or you could be fined, even if you don’t owe any tax.
+new.yourSelfEmployedTaxReturnTranscript.paragraph4 = The tax year ends on the fifth of April and you need to register for Self Assessment by the fifth of October, or you may be charged a penalty. You can register on GOV.UK – there’s another short You Tube video that explains how to do this.
+new.yourSelfEmployedTaxReturnTranscript.paragraph5 = Your tax return, which covers the tax year that ended in April, is due by the thirty first of January the following year. Once you’ve registered and activated your online account, you’re ready to start.
+new.yourSelfEmployedTaxReturnTranscript.paragraph6 = Make sure you’ve got your information and records to hand, as you’ll need to fill in details of all your income.
+new.yourSelfEmployedTaxReturnTranscript.paragraph7 = Go to GOV.UK and login with the user ID and password you received when you registered online.
+new.yourSelfEmployedTaxReturnTranscript.paragraph8 = First, we’ll need some details about you. The online screens will guide you – if you get stuck, there are prompts on screen and links that explain more. For example, if you enter your date of birth the wrong way, the box will light up red.
+new.yourSelfEmployedTaxReturnTranscript.paragraph9 = In the section called Tailor your return you answer yes or no to a series of questions – this means you only fill in the sections that apply to you. If you’re not sure about a question, click on the ‘Help about’ link for guidance.
+new.yourSelfEmployedTaxReturnTranscript.paragraph10 = The Save and continue button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.
+new.yourSelfEmployedTaxReturnTranscript.paragraph11 = When you’ve completed your return, check it through. You can go back if you need to correct anything.
+new.yourSelfEmployedTaxReturnTranscript.paragraph12 = Use View your calculation to find out if you owe tax and how much.
+new.yourSelfEmployedTaxReturnTranscript.paragraph13 = Now you can save a copy for your records. In the Submit return section, you’ll need your user ID and password to send it to HMRC. Finally, you’ll get an online message to confirm that we’ve received it.
+new.yourSelfEmployedTaxReturnTranscript.paragraph14 = You can find out more about Self Assessment on GOV.UK and watch our other helpful videos and webinars on YouTube.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ New income from property transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+new.incomeFromPropertyTaxReturnTranscript.heading = If I have income from property, how do I fill in my tax return?
+new.incomeFromPropertyTaxReturnTranscript.title = If I have income from property, how do I fill in my tax return?
+new.incomeFromPropertyTaxReturnTranscript.paragraph1 = Your tax return must include any income from property in the UK or European Economic Area.
+new.incomeFromPropertyTaxReturnTranscript.paragraph2 = For property income outside of these areas, fill in the foreign income tax return pages instead.
+new.incomeFromPropertyTaxReturnTranscript.paragraph3 = In this section, don’t include income from letting rooms, such as bed and breakfast unless you’re claiming rent a room relief. This counts as trade and goes elsewhere in your tax return.
+new.incomeFromPropertyTaxReturnTranscript.paragraph4 = To begin, tell us what type of property income you had during the year including furnished holiday lettings.
+new.incomeFromPropertyTaxReturnTranscript.paragraph5 = On this page we need to know:
+new.incomeFromPropertyTaxReturnTranscript.list1 = How much property income you received.
+new.incomeFromPropertyTaxReturnTranscript.list2 = If you’re claiming the property income allowance – if you are, then you can’t claim expenses.
+new.incomeFromPropertyTaxReturnTranscript.list3 = If you’re using traditional accounting – that means you record income and expenses when you invoice customers or receive a bill.
+new.incomeFromPropertyTaxReturnTranscript.paragraph6 = If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, but not improvements or upgrades.
+new.incomeFromPropertyTaxReturnTranscript.paragraph7 = If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.
+new.incomeFromPropertyTaxReturnTranscript.paragraph8 = Next, enter 25 percent of your residential finance costs – you can enter the other 75 percent further on.
+new.incomeFromPropertyTaxReturnTranscript.paragraph9 = On page four enter what we call adjustments – claims that could reduce your tax bill. For example, if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, £3,750, if you’re a joint owner.
+new.incomeFromPropertyTaxReturnTranscript.paragraph10 = On page five you’ll see your adjusted profit or loss for the year.
+new.incomeFromPropertyTaxReturnTranscript.paragraph11 = If you’re in profit, you must enter losses from an earlier year. This amount cannot be more than your adjusted profit for the current year. We’ll then calculate your taxable profit.
+new.incomeFromPropertyTaxReturnTranscript.paragraph12 = Enter the remaining 75 per cent of your residential finance costs here. You can also enter any residential finance costs you couldn’t use in the previous tax year. This will help reduce your total tax bill.
+new.incomeFromPropertyTaxReturnTranscript.paragraph13 = Finally, on page six, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.
+new.incomeFromPropertyTaxReturnTranscript.paragraph14 = You can find more information about Self Assessment on GOV.UK.

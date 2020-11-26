@@ -181,7 +181,24 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
           "Basic record keeping when you’re self-employed - video transcript",
           "/business-account/help/transcript/record-keeping-for-self-employed",
           expectedGAEvent = "link - click:Help with your Self Assessment return:Record keeping - video transcript")
-
+      assertLinkById(
+        doc,
+        "new-first-sa-tax-return",
+        "My first Self Assessment tax return - video transcript",
+        "/business-account/help/transcript/new-your-first-tax-return",
+        expectedGAEvent = "link - click:Help with your Self Assessment return:Your first self assessment tax return - video transcript")
+      assertLinkById(
+        doc,
+        "tailor-tax-return-transcript",
+        "How do I tailor my Self Assessment tax return? - video transcript",
+        "/business-account/help/transcript/new-how-do-i-tailor-sa-tax",
+        expectedGAEvent = "link - click:Help with your Self Assessment return:Tailor your tax return - video transcript")
+      assertLinkById(
+        doc,
+        "income-from-property-transcript",
+        "Income from property - what do I include on my tax return? - video transcript",
+        "/business-account/help/transcript/new-income-from-property",
+        expectedGAEvent = "link - click:Help with your Self Assessment return:Income from property - video transcript")
     }
   }
 }
