@@ -1,5 +1,5 @@
 @*
- * Copyright 2020 HM Revenue & Customs
+ * Copyright 2021 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,14 +34,20 @@
 
     <p>@Messages("self_assessment.register_deregister.you_must_register_to_file")</p>
 
-    @components.embed_youtube_video(appConfig.getYoutubeVideoId("registeringForSelfAssessment"), Some(messages("self_assessment.register_deregister.registering_for_self_assessment")))
+<div class="panel panel-border-wide">
+    <p><a href="https://youtu.be/L8F6micVczE" id="registering-for-self-assessment-video" target="_blank"
+          data-journey-click="link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video link">
+        @messages("newRegistering.for.self.assessment.video_link")
+    </a>
+    </p>
 
     <p>
-        <a id="registering-for-self-assessment-transcript" href="@controllers.routes.TranscriptController.onPageLoad("registering-for-self-assessment")"
+        <a id="registering-for-self-assessment-transcript" href="@controllers.routes.TranscriptController.onPageLoad("new-registering-for-self-assessment")"
         data-journey-click="link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video transcript">
         @Messages("self_assessment.register_deregister.registering_for_self_assessment_video_transcript")
         </a>
     </p>
+</div>
 
     <h2 class="heading-medium">@Messages("self_assessment.register_deregister.if_you_have_sent_tax_returns_before")</h2>
 

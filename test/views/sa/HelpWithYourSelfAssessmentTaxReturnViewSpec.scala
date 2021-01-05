@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 HM Revenue & Customs
+ * Copyright 2021 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -152,14 +152,14 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "your-self-employed-tax-return-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/ZKKVd1XQQJA",
+        "https://youtu.be/revvcPm40IE",
         expectedOpensInNewTab = true,
         expectedGAEvent = "link - click:Help with your Self Assessment return:Your self-employed tax return - video link")
       assertLinkById(
         doc,
         "your-self-employed-tax-return-transcript",
         "Your self-employed tax return - video transcript",
-        "/business-account/help/transcript/your-self-employed-tax-return",
+        "/business-account/help/transcript/new-your-self-employed-tax-return",
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,

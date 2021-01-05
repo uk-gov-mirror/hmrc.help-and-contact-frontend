@@ -628,6 +628,31 @@ yourSelfEmployedTaxReturnTranscript.paragraph28 = Cewch ragor o help a chymorth 
 yourSelfEmployedTaxReturnTranscript.paragraph29 = Mae gweminarau a fideos eraill am Hunanasesiad ar gael gan CThEM.
 yourSelfEmployedTaxReturnTranscript.paragraph30 = Diolch am wylio.
 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ New Your self employed tax return transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+newYourSelfEmployedTaxReturnTranscript.title = Eich Ffurflen Dreth Hunangyflogaeth
+newYourSelfEmployedTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunangyflogaeth
+newYourSelfEmployedTaxReturnTranscript.paragraph1 = Ar ôl i chi gofrestru ar gyfer Hunanasesiad, yna gallwch lenwi’ch Ffurflen Dreth.
+newYourSelfEmployedTaxReturnTranscript.paragraph2 = Yn adran tri y Ffurflen Dreth, ‘Addasu’ch Ffurflen Dreth’, byddwn yn gofyn a yw’ch incwm o hunangyflogaeth yn fwy na £1,000. Os ydych yn ateb yn gadarnhaol, bydd angen i chi roi gwybod i ni am yr incwm hwn.
+newYourSelfEmployedTaxReturnTranscript.paragraph3 = Dechreuwch drwy ddewis ‘Llenwi’ch Ffurflen Dreth’. Yna, ‘Nodwch fanylion hunangyflogaeth’.
+newYourSelfEmployedTaxReturnTranscript.paragraph4 = Mae tudalen un yn ymwneud â’ch trosiant blynyddol. Os yw’ch incwm masnachu dros 85 mil o bunnau efallai y bydd angen i chi gofrestru ar gyfer TAW. Os yw’n llai, dewiswch ‘Na’ a rhowch dic wrth unrhyw beth ar y rhestr hon sy’n berthnasol i chi.
+newYourSelfEmployedTaxReturnTranscript.paragraph5 = Ar dudalen dau, rhowch enw eich busnes a nodwch yr hyn rydych yn ei wneud. Mae’n bwysig rhoi gwybod i ni os gwnaethoch ddechrau neu stopio bod yn hunangyflogedig yn ystod y flwyddyn – nodwch y dyddiadau yma.
+newYourSelfEmployedTaxReturnTranscript.paragraph6 = Ychwanegwch eich manylion cyfrifyddu ar dudalen tri, gan gynnwys y dyddiad y mae’ch blwyddyn cyfrifyddu’n dod i ben. Rydym yn argymell defnyddio’r pumed o Ebrill, gan mai dyma ddiwedd y flwyddyn dreth.
+newYourSelfEmployedTaxReturnTranscript.paragraph7 = Hefyd, rhowch wybod i ni os ydych yn defnyddio sail arian parod – os nad ydych yn siwr beth mae hyn yn ei olygu, defnyddiwch y cysylltiad ‘help’ i gael rhagor o wybodaeth. Neu gwyliwch ein fideo YouTube byr ar y sail arian parod a threuliau symledig.
+newYourSelfEmployedTaxReturnTranscript.paragraph8 = Ar dudalen pedwar, nodwch y ffigurau ar gyfer eich trosiant a’ch treuliau caniataol. Gallwch hawlio’r lwfans masnachu o fil o bunnoedd yma – ond mae hyn yn golygu na allwch ddidynnu unrhyw dreuliau eraill.
+newYourSelfEmployedTaxReturnTranscript.paragraph9 = Pan fydd eich ffigurau wedi’u nodi bydd eich cyfrifiadau’n ymddangos ar waelod y sgrin.
+newYourSelfEmployedTaxReturnTranscript.paragraph10 = Mae tudalen pump ar gyfer Lwfansau Cyfalaf. Os ydych yn defnyddio’r sail arian parod, gallwch ond hawlio ar gyfer ceir busnes.
+newYourSelfEmployedTaxReturnTranscript.paragraph11 = Mae tudalen chwech ar gyfer yr hyn rydym yn ei alw’n addasiadau. Mae’r rhain yn cynnwys gwerth unrhyw nwyddau neu wasanaethau at ddefnydd personol, incwm busnes arall, ac unrhyw golled a ddygwyd ymlaen o flwyddyn gynharach.
+newYourSelfEmployedTaxReturnTranscript.paragraph12 = Mae tudalen saith y gofyn ynghylch unrhyw golled o’r flwyddyn dreth bresennol.
+newYourSelfEmployedTaxReturnTranscript.paragraph13 = Mae tudalen wyth ar gyfer treth a ddidynnwyd – dylech ond llenwi’r blwch hwn os ydych yn rhan o Gynllun y Diwydiant Adeiladu ac yn dangos eich didyniadau contractwr.
+newYourSelfEmployedTaxReturnTranscript.paragraph14 = Ar dudalen naw nodwch eich cyfraniadau Yswiriant Gwladol Dosbarth 4.
+newYourSelfEmployedTaxReturnTranscript.paragraph15 = Defnyddiwch y blwch gwybodaeth arall i roi gwybod i ni am unrhyw beth arall.
+newYourSelfEmployedTaxReturnTranscript.paragraph16 = Ar y diwedd, byddwch yn gweld tudalen crynodeb er mwyn i chi allu gwirio popeth.
+newYourSelfEmployedTaxReturnTranscript.paragraph17 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK a gallwch wylio ein fideos defnyddiol eraill ar YouTube.
+
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your income from property tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -724,6 +749,34 @@ registering.for.self.assessment.transcript.paragraph9 = Mae’n rhaid i bartneri
 registering.for.self.assessment.transcript.paragraph10 = Os nad ydych yn hunangyflogedig, ond mae angen i chi anfon Ffurflen Dreth atom, gallwch ddefnyddio’ch UTR presennol a’ch cyfrif ar-lein i’w chyflwyno.
 registering.for.self.assessment.transcript.paragraph11 = Os nad oes UTR presennol gennych, bydd angen i chi gofrestru ar-lein erbyn y 5ed o fis Hydref yn dilyn diwedd y flwyddyn dreth.
 registering.for.self.assessment.transcript.paragraph12 = Am ragor o wybodaeth ynghylch cofrestru ar gyfer Hunanasesiad, ewch i GOV.UK
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ New Registering for Self Assessment transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+newRegistering.for.self.assessment.transcript.title = Cofrestru ar gyfer Hunanasesiad
+newRegistering.for.self.assessment.transcript.heading = Cofrestru ar gyfer Hunanasesiad
+newRegistering.for.self.assessment.transcript.paragraph1 = Mae’n bosibl y bydd yn rhaid i chi gofrestru ar gyfer Hunanasesiad os yw’r canlynol yn wir:
+newRegistering.for.self.assessment.transcript.list1 = rydych yn hunangyflogedig
+newRegistering.for.self.assessment.transcript.list2 = rydych yn bartner mewn partneriaeth
+newRegistering.for.self.assessment.transcript.list3 = neu oherwydd rheswm arall megis incwm heb ei drethu.
+newRegistering.for.self.assessment.transcript.paragraph2 = Os na wnaethoch anfon Ffurflen Dreth y llynedd, mae’n rhaid i chi gofrestru erbyn 5 Hydref yn dilyn diwedd y flwyddyn dreth.
+newRegistering.for.self.assessment.transcript.paragraph3 = Yma, byddwn yn esbonio’r gwahanol ffyrdd o gofrestru.
+newRegistering.for.self.assessment.transcript.paragraph4 = Os ydych yn hunangyflogedig, bydd yn rhaid i chi gofrestru:
+newRegistering.for.self.assessment.transcript.list4 = os yw’ch trosiant yn fwy na mil o bunnoedd mewn blwyddyn dreth
+newRegistering.for.self.assessment.transcript.list5 = er mwyn profi eich bod yn hunangyflogedig
+newRegistering.for.self.assessment.transcript.list6 = neu er mwyn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 gwirfoddol.
+newRegistering.for.self.assessment.transcript.paragraph5 = Os ydych wedi anfon Ffurflen Dreth o’r blaen, ond ni wnaethoch anfon un y llynedd, defnyddiwch eich Cyfeirnod Unigryw y Trethdalwr, neu UTR, presennol ar gyfer Hunanasesiad – a chofrestrwch ar-lein eto gan ddefnyddio ffurflen CWF1.
+newRegistering.for.self.assessment.transcript.paragraph6 = Fel arall, cofrestrwch ar-lein.
+newRegistering.for.self.assessment.transcript.paragraph7 = Byddwn yn anfon llythyr atoch gyda’ch UTR ac yn sefydlu’ch cyfrif ar gyfer y gwasanaeth Hunanasesiad ar-lein. Cewch lythyr arall ychydig o ddiwrnodau’n hwyrach gyda chod i actifadu’ch gwasanaeth ar-lein. Defnyddiwch hwn y tro cyntaf i chi fewngofnodi.
+newRegistering.for.self.assessment.transcript.paragraph8 = Mae’n rhaid i bartneriaethau gael eu cofrestru gan bartner enwebedig, ond mae angen i bob partner gofrestru’n unigol hefyd – gan ddefnyddio ffurflen SA401 a’r UTR ar gyfer y bartneriaeth.
+newRegistering.for.self.assessment.transcript.paragraph9 = Os oes angen i chi gofrestru am reswm arall, defnyddiwch ffurflen SA1.
+newRegistering.for.self.assessment.transcript.paragraph10 = Ar ôl i chi gofrestru, os oes eisoes gennych UTR a chyfrif ar-lein, gallwch eu defnyddio er mwyn anfon eich Ffurflen Dreth ar-lein.
+newRegistering.for.self.assessment.transcript.paragraph11 = Os nad oes gennych y rhain, byddwn yn anfon eich UTR atoch drwy’r post cyn pen deg diwrnod gwaith.
+newRegistering.for.self.assessment.transcript.paragraph12 = Defnyddiwch eich UTR i greu cyfrif ar-lein newydd a chofrestru ar gyfer y gwasanaeth Hunanasesiad ar-lein. Yna, byddwn yn anfon cod atoch i actifadu’ch cyfrif cyn pen saith diwrnod gwaith ar ôl cofrestru.
+newRegistering.for.self.assessment.transcript.paragraph13 =Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK  a gallwch wylio ein fideos defnyddiol eraill ar YouTube.
+newRegistering.for.self.assessment.video_link = Fideo - Cofrestru ar gyfer Hunanasesiad (yn agor tab newydd)
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Basic record keeping transcript
