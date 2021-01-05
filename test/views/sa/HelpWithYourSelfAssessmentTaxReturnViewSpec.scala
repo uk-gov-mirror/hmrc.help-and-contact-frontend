@@ -152,14 +152,14 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "your-self-employed-tax-return-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/ZKKVd1XQQJA",
+        "https://youtu.be/revvcPm40IE",
         expectedOpensInNewTab = true,
         expectedGAEvent = "link - click:Help with your Self Assessment return:Your self-employed tax return - video link")
       assertLinkById(
         doc,
         "your-self-employed-tax-return-transcript",
         "Your self-employed tax return - video transcript",
-        "/business-account/help/transcript/your-self-employed-tax-return",
+        "/business-account/help/transcript/new-your-self-employed-tax-return",
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,

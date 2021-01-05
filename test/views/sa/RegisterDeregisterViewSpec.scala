@@ -139,16 +139,20 @@ class RegisterDeregisterViewSpec extends ViewBehaviours {
         doc,
         "registering-for-self-assessment-transcript",
         "Registering for Self Assessment - video transcript",
-        "/business-account/help/transcript/registering-for-self-assessment",
+        "/business-account/help/transcript/new-registering-for-self-assessment",
         "link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video transcript"
       )
+      assertLinkById(
+        doc,
+        "registering-for-self-assessment-video",
+        "Video - Registering for Self Assessment (opens in new tab)",
+        "https://youtu.be/L8F6micVczE",
+        "link - click:Register or deregister for Self Assessment:Registering for Self Assessment - video link",
+        expectedOpensInNewTab = true
+      )
+
+
     }
 
-    "have youtube url in html for embedded video" in {
-      val doc = asDocument(createView())
-      doc.toString must include(
-        s"https://www.youtube.com/embed/vZmQ9Nyle5U?autoplay=0"
-      )
-    }
   }
 }
