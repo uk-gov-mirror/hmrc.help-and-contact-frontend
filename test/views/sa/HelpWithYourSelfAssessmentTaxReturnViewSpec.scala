@@ -37,12 +37,19 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
-        "Who must send a tax return?",
+        "Self Assessment tax returns",
+        "Registering for Self Assessment",
+        "Why you must complete and file a Self Assessment tax return",
+        "If you do not need to complete and file a Self Assessment tax return",
         "Your first Self Assessment tax return",
-        "Tailor your tax return",
-        "Your self-employed tax return",
-        "If I have income from property, how do I fill in my tax return?",
-        "Basic record keeping when you’re self-employed"
+        "Help with completing and filing your tax return",
+        "How to tailor your return",
+        "If you are self-employed",
+        "If you have income from property",
+        "Viewing your Self Assessment calculation",
+        "More help with Self Assessment",
+        "Basic record keeping when you’re self-employed",
+        "More help with record keeping"
       )
       val doc = asDocument(createView())
       val headings = doc.getElementsByTag("article").first.getElementsByTag("h2").asScala.toList.map(_.text())
@@ -52,153 +59,159 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView())
-      doc.text() must include("You will usually be sent a tax return if you are registered as self-employed.")
+      doc.text() must include("You will usually be sent a tax return or a letter about a tax return if you are registered as self-employed.")
 
-      doc.text() must include("You can anonymously")
+      doc.text() must include("You must file your tax return even if you have no tax to pay. " +
+        "If you do not file it by the deadline, you may have to pay a penalty.")
 
-      doc.text() must include("If you are sent a tax return, or if you get an email or letter from HMRC telling you to complete one, " +
-        "you must do it - even if you do not have any tax to pay. If you do not send a tax return back by the deadline you may have to " +
-        "pay a penalty. If you used to send a tax return but do not need to send one for the last tax year, contact HMRC to close your " +
-        "Self Assessment account. You must also tell HMRC if you have stopped being self-employed.")
+      doc.text() must include("You must also tell us as soon as you have stopped being self-employed.")
 
-      doc.text() must include("Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.")
+      doc.text() must include("A tax return is a form on which you:")
 
-      doc.text() must include("Tax is usually deducted automatically from wages, pensions and savings. People and businesses with " +
-        "other income must report it in a tax return.")
+      doc.text() must include("HMRC may issue a tax return to you each tax year." +
+        " The Self Assessment tax year runs from 6 April one year to 5 April the next year.")
 
-      doc.text() must include("Self Assessment is not just for self-employed people. Everyone who has to complete a tax return must " +
-        "do so, even if there is nothing to pay. You may be charged a penalty if you do not.")
+      doc.text() must include("If you receive a tax return, or a notice to file (SA316), the law says you must complete it.")
 
-      doc.text() must include("If you need to send one, you fill it in after the end of the tax year (5 April) it applies to.")
+      doc.text() must include("We use the information on your tax return to work out your tax bill or whether you are due a tax refund.")
 
-      doc.text() must include("If you did not send an online return last year, allow extra time (up to 20 working days) as you will " +
-        "need to register first.")
+      doc.text() must include("If this is your first tax return, you must register for Self Assessment before you can complete and file your return.")
 
-      doc.text() must include("You will tailor your tax return on the first 3 pages. Use this section to tell us about your different " +
-        "types of income, employments and self-employments so that you only see the parts of the tax return that you need to.")
-
-      doc.text() must include("If you started or ceased self-employment during the year, it is important to enter the dates so HMRC " +
-        "can update your records.")
-
-      doc.text() must include("If you did not trade for a full year, but if you had and your income would have been over £85,000, " +
-        "you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been " +
-        "£100,000.")
-
-      doc.text() must include("Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as " +
-        "self-employment and you should fill in that section.")
-
-      doc.text() must include("If your property is outside the European Economic Area, fill in the Foreign section.")
-
-      doc.text() must include("If your property income was from a partnership, fill in the Partnership section.")
-
-      doc.text() must include("You must record any money going in and out of your business, whether the transaction is made in person" +
-        " - by phone - or online.")
-
-      doc.text() must include("You can keep your records on paper or digitally using a computer. These include items such as invoices," +
-        " sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.")
-
-      doc.text() must include("Some software suppliers offer free record keeping apps for small businesses. How you keep your records will" +
-        " depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses.")
-
-      doc.text() must include("You’ll find it easier if you organise your income and expenses into categories and update these regularly." +
-        " And, if you’re keeping your records digitally, remember to back up your files.")
-
-      doc.text() must include("It’s important to keep your business and private transactions separate. Drawing or using money from your" +
-        " business for personal use isn’t an allowable business expense.")
-
-      doc.text() must include("If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers" +
-        " and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.")
-
-      doc.text() must include("Make sure you store your records for at least 6 years, as we may need to see them to check you’re paying" +
-        " the right amount of tax.")
     }
 
     "have correct links" in {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "why-i-have-been-sent-a-tax-return",
+        "find-out-more-link",
+        "Find out more about registering for Self Assessment online",
+        "https://www.tax.service.gov.uk/business-account/help/self-assessment/register-or-deregister",
+        "link - click:Help with your Self Assessment tax return : Find out more about registering for SA online"
+      )
+      assertLinkById(
+        doc,
+        "why-i-have-been-sent-tax-video",
         "Video - Why have I been sent a tax return? (opens in new tab)",
         "https://youtu.be/ZtJTCJc58Gk",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Why have I been sent a tax return - video link")
+        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax - video link",
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
-        "why-have-been-sent-transcript",
-        "Why have I been sent a tax return - video transcript",
-        "/business-account/help/transcript/why-sent-tax-return",
-        "link - click:Help with your Self Assessment return:Why have I been sent a tax return - video transcript")
+        "why-i-have-been-sent-tax-transcript",
+        "Why have I been sent a tax return? - video transcript",
+        "https://www.tax.service.gov.uk/business-account/help/transcript/why-sent-tax-return",
+        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax - transcript"
+      )
       assertLinkById(
         doc,
-        "check-if-you",
-        "check if you need to fill in a Self Assessment tax return",
-        "https://www.gov.uk/check-if-you-need-a-tax-return",
-        "link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return")
+        "used-to-file-link",
+        "tell HMRC to stop Self Assessment.",
+        "https://www.tax.service.gov.uk/business-account/self-assessment/stop",
+        "link - click:Help with your Self Assessment tax return : If you used to file a tax return but do not need to file one for the most recent tax year"
+      )
       assertLinkById(
         doc,
-        "first-sa-tax-return",
+        "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
         "https://youtu.be/W5DEsNulsfo",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your first self assessment tax return - video link")
+        "link - click:Help with your Self Assessment tax return : My first Self Assessment tax return - video",
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
-        "tailor-tax-return",
+        "my-first-sa-transcript",
+        "Your first Self Assessment tax return - video transcript",
+        "https://www.tax.service.gov.uk/business-account/help/transcript/new-your-first-tax-return",
+        "link - click:Help with your Self Assessment tax return : Your first Self Assessment tax return - transcript"
+      )
+      assertLinkById(
+        doc,
+        "learn-more-sa",
+        "learn more about Self Assessment (opens in new tab).",
+        "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
+        "link - click:Help with your Self Assessment tax return : Watch videos, get email alerts, take part in webinars and learn more about Self Assessment",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
         "https://youtu.be/Rr0LUxFQ33g",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Tailor your tax return - video link")
+        "link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - video",
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
-        "your-self-employed-tax-return-video",
+        "tailor-tax-transcript",
+        "Tailor your tax return - video transcript",
+        "https://www.tax.service.gov.uk/business-account/help/transcript/tailor-your-tax-return",
+        "link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - transcript"
+      )
+      assertLinkById(
+        doc,
+        "self-employed-tax-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/revvcPm40IE",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your self-employed tax return - video link")
+        "https://youtu.be/ZKKVd1XQQJA",
+        "link - click:Help with your Self Assessment tax return : Your self-employed tax return - video",
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
-        "your-self-employed-tax-return-transcript",
+        "self-employed-tax-transcript",
         "Your self-employed tax return - video transcript",
-        "/business-account/help/transcript/new-your-self-employed-tax-return",
-        "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
+        "https://www.tax.service.gov.uk/business-account/help/transcript/your-self-employed-tax-return",
+        "link - click:Help with your Self Assessment tax return : Your self-employed tax return - transcript"
+      )
       assertLinkById(
         doc,
-        "income-from-property",
+        "income-from-property-video",
         "Video - Income from property - what do I include on my tax return? (opens in new tab)",
         "https://youtu.be/jUVNt68r2h0",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Income from property - video link")
-      assertLinkById(
-        doc,
-        "record-keeping-video",
-        "Video - Basic record keeping for the self-employed (opens in new tab)",
-        "https://youtu.be/4OlkduJ5MTU",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Basic recording keeping for the self employed - video link")
-        assertLinkById(
-          doc,
-          "record-keeping-transcript",
-          "Basic record keeping when you’re self-employed - video transcript",
-          "/business-account/help/transcript/record-keeping-for-self-employed",
-          expectedGAEvent = "link - click:Help with your Self Assessment return:Record keeping - video transcript")
-      assertLinkById(
-        doc,
-        "new-first-sa-tax-return",
-        "My first Self Assessment tax return - video transcript",
-        "/business-account/help/transcript/new-your-first-tax-return",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your first self assessment tax return - video transcript")
-      assertLinkById(
-        doc,
-        "tailor-tax-return-transcript",
-        "How do I tailor my Self Assessment tax return? - video transcript",
-        "/business-account/help/transcript/new-how-do-i-tailor-sa-tax",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Tailor your tax return - video transcript")
+        "link - click:Help with your Self Assessment tax return : Income from property - video",
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "income-from-property-transcript",
-        "Income from property - what do I include on my tax return? - video transcript",
-        "/business-account/help/transcript/new-income-from-property",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Income from property - video transcript")
+        "If I have income from property, how do I fill in my tax return? - video transcript",
+        "https://www.tax.service.gov.uk/business-account/help/transcript/your-income-from-property-tax-return",
+        "link - click:Help with your Self Assessment tax return : Income from property - transcript"
+      )
+      assertLinkById(
+        doc,
+        "who-must-file",
+        "Who must file a tax return (opens in new tab)",
+        "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
+        "link - click:Help with your Self Assessment tax return : Who must file a tax return",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "need-to-change",
+        "If you need to change your tax return (opens in new tab)",
+        "https://www.gov.uk/self-assessment-tax-returns/corrections",
+        "link - click:Help with your Self Assessment tax return : If you need to change your tax return",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "how-to-pay-sa",
+        "How to pay your Self Assessment",
+        "https://www.tax.service.gov.uk/business-account/help/self-assessment/how-to-pay",
+        "link - click:Help with your Self Assessment tax return : How to pay your Self Assessment"
+      )
+      assertLinkById(
+        doc,
+        "sa-resource-list",
+        "Self Assessment resource list (opens in new tab)",
+        "https://www.gov.uk/topic/personal-tax/self-assessment",
+        "link - click:Help with your Self Assessment tax return : Self Assessment resource list",
+        expectedOpensInNewTab = true
+      )
+
+
+
     }
   }
 }

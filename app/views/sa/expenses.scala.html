@@ -22,43 +22,78 @@
 
 @(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
 
-@main_template(title = messages("sa.expenses.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
+@main_template(title = messages("expenses.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
 
-  <h1 id="expenses" class="heading-xlarge">@Messages("sa.expenses.heading")</h1>
+  <h1 id="expenses" class="heading-xlarge">@Messages("expenses.heading")</h1>
 
-  <h2 class="margin-top-xlarge">@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return")</h2>
-  <p>@Messages("sa.expenses.you_put_all_of_your_allowable_expenses_")</p>
-  <p>@Messages("sa.expenses.you_can_choose_to_use_simplified_expenses_")</p>
-  <p>@Messages("sa.expenses.simplified_expenses_cannot_be_used_")</p>
-  <p>@Messages("sa.expenses.if_you_do_not_use_simplified_expenses_")</p>
-  <p>@Messages("sa.expenses.if_your_business_income_is_below_")</p>
+<h2>@Messages("expenses.can_include")</h2>
+<p>@Messages("expenses.allowable_expenses")</p>
+<p>@Messages("expenses.send_proof")</p>
+<p>@Messages("expenses.keep_proof")</p>
+<p><a href="https://www.gov.uk/expenses-if-youre-self-employed" id="allowable-expenses" target="_blank"
+data-journey-click="link - click:Expenses : Find out more about allowable expenses if you’re self-employed">@Messages("expenses.find_out_more")</a></p>
+<div class="panel panel-border-wide">
+ <p><a href="https://youtu.be/FjXAH3tMg2I" id="what-expenses-video" target="_blank"
+ data-journey-click="link - click:Expenses : What expenses can I include in my Self Assessment tax return? - video">
+  @Messages("expenses.what_expenses_video")</a></p>
+ <p><a href="https://www.tax.service.gov.uk/business-account/help/transcript/expenses-if-you-are-self-employed" id="what-expenses-transcript"
+       data-journey-click="link - click:Expenses : What expenses can I include in my Self Assessment tax return? - transcript">
+  @Messages("expenses.what_expenses_transcript")</a></p>
+</div>
+
+<h2>@Messages("expenses.simplified")</h2>
+<p>@Messages("expenses.cannot_be_used")</p>
+<p>@Messages("expenses.if_self_employed")</p>
+<p>@Messages("expenses.flat_rates")</p>
+<ul class="list list-bullet">
+<li>@Messages("expenses.list_vehicles")</li>
+<li>@Messages("expenses.list_home")</li>
+<li>@Messages("expenses.list_living")</li>
+</ul>
+
+<p>@Messages("expenses.keep_records")</p>
+<ul class="list list-bullet">
+<li>@Messages("expenses.list_mileage")</li>
+<li>@Messages("expenses.list_hours")</li>
+<li>@Messages("expenses.list_how_many")</li>
+</ul>
+
+<p><a href="https://www.gov.uk/simpler-income-tax-simplified-expenses" id="find-out-more-simplified" target="_blank"
+data-journey-click="link - click:Expenses : Find out more about simplified expenses">@Messages("expenses.find_out_more_simplified")</a></p>
 
 <div class="panel panel-border-wide">
- <p><a href ="https://youtu.be/FjXAH3tMg2I" id="what-expenses-can-i-include-in-my-sa-tax-return-video" target="_blank" data-journey-click="link - click:Expenses:Expenses if you are self employed - video link">@messages("sa.expenses.what_expenses_can_i_include")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-can-i-include-in-my-sa-tax-return-transcript" data-journey-click="link - click:Expenses:Expenses if you are self employed - video transcript">@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return") - @Messages("sa.expenses.video_transcript")</a></p>
+ <p><a href="https://youtu.be/T4UDYw9kCjA" id="cash-basis-video" target="_blank"
+       data-journey-click="link - click:Expenses : Cash basis and simplified expenses - video">
+  @Messages("expenses.cash_basis_video")</a></p>
+ <p><a href="@controllers.routes.TranscriptController.onPageLoad("cash-basis")" id="cash-basis-transcript"
+       data-journey-click="link - click:Expenses : Cash basis and simplified expenses - transcript">
+  @Messages("expenses.cash_basis_transcript")</a></p>
 </div>
 
-  <h2 class="margin-top-xlarge">@Messages("sa.expenses.claiming_motoring_expenses")</h2>
-  <p>@Messages("sa.expenses.you_can_claim_business_expenses_for_")</p>
-  <p>@Messages("sa.expenses.you_can_claim_either_the_actual_costs_")</p>
-  <p>@Messages("sa.expenses.if_you_decide_to_use_the_actual_costs_")</p>
-  <p>@Messages("sa.expenses.the_flat_rate_covers_the_whole_cost_")</p>
+<h2>@Messages("expenses.claiming_travel_header")</h2>
+<p>@Messages("expenses.allowable_business_expense")</p>
+<p>@Messages("expenses.cannot_claim")</p>
+<p>@Messages("expenses.actual_costs")</p>
+<p>@Messages("expenses.decide_to_use")</p>
+<p>@Messages("expenses.flat_rate_covers")</p>
 
-<div class ="panel panel-border-wide">
-    <p><a href ="https://youtu.be/r2txvLXi_Fk" id="calculating-motoring-expenses-transcript-video" target="_blank" data-journey-click="link - click:Expenses:Calculating motoring expenses - video link">@messages("sa.expenses.view.claiming_motoring_expenses")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.claiming_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
+<h2>@Messages("expenses.claiming_travel")</h2>
+<p><a href="https://www.gov.uk/expenses-if-youre-self-employed/travel" id="travel-expenses-sa" target="_blank"
+      data-journey-click="link - click:Expenses : Travel expenses if you’re self-employed">
+ @Messages("expenses.travel_if")</a></p>
+<p><a href="https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-" id="simplified-motoring-expenses" target="_blank"
+      data-journey-click="link - click:Expenses : Simplified motoring expenses if you’re self employed">
+ @Messages("expenses.simplified_motoring_expenses")</a></p>
+<div class="panel panel-border-wide">
+ <p><a href="https://youtu.be/r2txvLXi_Fk" id="claiming-motoring-video" target="_blank"
+       data-journey-click="link - click:Expenses : Claiming motoring expenses if you’re self-employed - video">
+  @Messages("expenses.motoring_expenses_video")</a></p>
+ <p><a href="https://www.tax.service.gov.uk/business-account/help/transcript/calculating-motoring-expenses" id="claiming-motoring-transcript"
+       data-journey-click="link - click:Expenses : Claiming motoring expenses if you’re self-employed - transcript">
+  @Messages("expenses.motoring_expenses_transcript")</a></p>
 </div>
-  <h2 class="margin-top-xlarge">@Messages("sa.record_keeping.heading")</h2>
-  <p>@Messages("sa.record_keeping.record_any_money")</p>
-  <p>@Messages("sa.record_keeping.record_paper_or_digitally")</p>
-  <p>@Messages("sa.record_keeping.some_software_suppliers")</p>
-  <p>@Messages("sa.record_keeping.organise_into_categories")</p>
-  <p>@Messages("sa.record_keeping.keep_transactions_seperate")</p>
-  <p>@Messages("sa.record_keeping.vat_registered")</p>
-  <p><strong class="bold-small">@Messages("sa.record_keeping.store_your_records")</strong></p>
 
-<div class = "panel panel-border-wide">
-    <p><a href ="https://youtu.be/4OlkduJ5MTU" target="_blank" id="record-keeping-video" data-journey-click="link - click:Expenses:Record keeping - video link">@messages("sa.expenses.view.basic_record_for_self_employed")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id="record-keeping-transcript" data-journey-click="link - click:Expenses:Record keeping - video transcript">@Messages("sa.record_keeping.heading") - @Messages("sa.record_keeping.video_transcript")</a></p>
-</div>
+@components.basic_record_keeping()
+
+
 }

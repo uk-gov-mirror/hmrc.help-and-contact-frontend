@@ -60,14 +60,6 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
   def howToPaySelfAssessment: how_to_pay_self_assessment = inject[how_to_pay_self_assessment]
 
-  def oldExpenses: old_expenses = inject[old_expenses]
-
-  def oldHelpWithYourSelfAssessmentTaxReturn: old_help_with_your_self_assessment_tax_return = inject[old_help_with_your_self_assessment_tax_return]
-
-  def OldHowToPaySelfAssessment: old_how_to_pay_self_assessment = inject[old_how_to_pay_self_assessment]
-
-  def registerDeregister: register_deregister = inject[register_deregister]
-
   def paymentsAndDeadlines: payments_and_deadlines = inject[payments_and_deadlines]
 
   def registerOrDeregister: register_or_deregister = inject[register_or_deregister]
@@ -75,6 +67,8 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
   def errorHandler: ErrorHandler = inject[ErrorHandler]
 
   def authenticate: AuthAction = inject[AuthAction]
+
+  def registerOrStopping: register_or_stopping = inject[register_or_stopping]
 
 
 }
