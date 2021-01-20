@@ -22,21 +22,23 @@ import views.html.sa.sa_evidence
 
 class SaEvidenceViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "sa.evidence"
+  val messageKeyPrefix = "sa302.evidence"
 
   "SaEvidence view" when {
     "the user has an SA enrolment" must{
       def createView = () => inject[sa_evidence].apply(frontendAppConfig, true, "bta-base/more-details")(HtmlFormat.empty)(fakeRequest, messages)
       behave like normalPage(createView, messageKeyPrefix)
 
-      "have a link to the simple assessment subpage" in {
+      "have a link to find out more page" in {
         val doc = asDocument(createView())
         assertLinkById(
           doc,
-          "more_details",
-          "more Self Assessment details",
-          "bta-base/more-details",
-          "link - click:Get evidence of your income (SA302):more Self Assessment details" )
+          "getting-evidence",
+          "Find out more about getting evidence of your income (opens in new tab)",
+          "https://www.gov.uk/sa302-tax-calculation",
+          "link - click:SA302 Evidence : Find out more about getting evidence of your income",
+          expectedOpensInNewTab = true
+        )
       }
     }
     "the user has no SA enrolment" must{
@@ -50,9 +52,14 @@ class SaEvidenceViewSpec extends ViewBehaviours {
 
       "show the static text" in {
         val doc = asDocument(createView())
-        doc.text() must include("You can get evidence of your earnings for the last 4 years with an SA302.")
-        doc.text() must include("You can also get a tax year overview for any year. You can get your SA302 in the more Self Assessment details section of your account.")
-        doc.text() must include("You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.")
+        doc.text() must include("If you complete your return online you can:")
+        doc.text() must include("get evidence of your earnings (SA302) for the last 4 years that you filed online")
+        doc.text() must include("get a tax year overview for any year")
+        doc.text() must include("print your calculation and tax year overview")
+        doc.text() must include("You might be asked for these documents as evidence of your income, for example " +
+          "if you are applying for a mortgage and you are self-employed.")
+        doc.text() must include("Check that your mortgage provider accepts documents you have printed yourself.")
+        doc.text() must include("You cannot print your documents until up to 72 hours after you have sent your tax return.")
       }
     }
   }
