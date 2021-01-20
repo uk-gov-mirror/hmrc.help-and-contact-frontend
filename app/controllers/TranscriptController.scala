@@ -48,8 +48,6 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      new_income_from_property: new_income_from_property,
                                      new_your_self_employed_tax_return: new_your_self_employed_tax_return,
                                      new_registering_for_self_assessment: new_registering_for_self_assessment,
-                                     class_2_ni: class_2_ni,
-                                     cash_basis: cash_basis,
 
                                      override val controllerComponents: MessagesControllerComponents)
     extends FrontendController(controllerComponents)
@@ -82,9 +80,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "new-your-first-tax-return" -> new_your_first_tax_return(appConfig)(request.serviceInfoContent),
       "new-income-from-property" -> new_income_from_property(appConfig)(request.serviceInfoContent),
       "new-your-self-employed-tax-return" -> new_your_self_employed_tax_return(appConfig)(request.serviceInfoContent),
-      "new-registering-for-self-assessment" -> new_registering_for_self_assessment(appConfig)(request.serviceInfoContent),
-      "class-2-ni" -> class_2_ni(appConfig)(request.serviceInfoContent),
-      "cash-basis" -> cash_basis(appConfig)(request.serviceInfoContent)
+      "new-registering-for-self-assessment" -> new_registering_for_self_assessment(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>

@@ -18,13 +18,13 @@ package views.sa
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.expenses
+import views.html.sa.old_expenses
 
-class ExpensesViewSpec extends ViewBehaviours {
+class OldExpensesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.expenses"
 
-  def createView = () => inject[expenses].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[old_expenses].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "Self Assessment Expenses view" must {
 
@@ -98,16 +98,6 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     }
 
-    "contain the 'What expenses can I include in my Self Assessment tax return - video link' link" in {
-      val doc = asDocument(createView())
-      assertLinkById(doc,
-        "what-expenses-can-i-include-in-my-sa-tax-return-video",
-        "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/FjXAH3tMg2I",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video link")
-    }
-
     "contain the 'What expenses can I include in my Self Assessment tax return - video transcript' link" in {
       val doc = asDocument(createView())
       assertLinkById(doc,
@@ -115,16 +105,6 @@ class ExpensesViewSpec extends ViewBehaviours {
         "What expenses can I include in my Self Assessment tax return - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         expectedGAEvent = "link - click:Expenses:Expenses if you are self employed - video transcript")
-    }
-
-    "contain the 'Claiming motoring expenses if you’re self-employed - video link' link" in {
-      val doc = asDocument(createView())
-      assertLinkById(doc,
-        "calculating-motoring-expenses-transcript-video",
-        "Video - Claiming motoring expenses if you’re self-employed (opens in new tab)",
-        "https://youtu.be/r2txvLXi_Fk",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Expenses:Calculating motoring expenses - video link")
     }
 
     "contain the 'Claiming motoring expenses if you’re self-employed - video transcript' link" in {
@@ -136,16 +116,6 @@ class ExpensesViewSpec extends ViewBehaviours {
         expectedGAEvent = "link - click:Expenses:Calculating motoring expenses - video transcript")
     }
 
-    "contain the 'Record keeping for the self-employed - video link' link" in {
-      val doc = asDocument(createView())
-      assertLinkById(doc,
-        "record-keeping-video",
-        "Video - Basic record keeping for the self-employed (opens in new tab)",
-        "https://youtu.be/4OlkduJ5MTU",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Expenses:Record keeping - video link")
-    }
-
     "contain the 'Record keeping for the self-employed - video transcript' link" in {
       val doc = asDocument(createView())
       assertLinkById(doc,
@@ -153,6 +123,13 @@ class ExpensesViewSpec extends ViewBehaviours {
         "Basic record keeping when you’re self-employed - video transcript",
         "/business-account/help/transcript/record-keeping-for-self-employed",
         expectedGAEvent = "link - click:Expenses:Record keeping - video transcript")
+    }
+
+    "have youtube url in html for each embedded video" in {
+      val doc = asDocument(createView())
+      val listOfVideoId: List[String] = List("r2txvLXi_Fk", "cXdJSwunYt0", "4OlkduJ5MTU")
+
+      listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
 
   }

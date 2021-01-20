@@ -33,10 +33,9 @@
   <p>@Messages("sa.expenses.if_you_do_not_use_simplified_expenses_")</p>
   <p>@Messages("sa.expenses.if_your_business_income_is_below_")</p>
 
-<div class="panel panel-border-wide">
- <p><a href ="https://youtu.be/FjXAH3tMg2I" id="what-expenses-can-i-include-in-my-sa-tax-return-video" target="_blank" data-journey-click="link - click:Expenses:Expenses if you are self employed - video link">@messages("sa.expenses.what_expenses_can_i_include")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-can-i-include-in-my-sa-tax-return-transcript" data-journey-click="link - click:Expenses:Expenses if you are self employed - video transcript">@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return") - @Messages("sa.expenses.video_transcript")</a></p>
-</div>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("expensesForSelfEmployed"), Some(messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return")))
+
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-can-i-include-in-my-sa-tax-return-transcript" data-journey-click="link - click:Expenses:Expenses if you are self employed - video transcript">@Messages("sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return") - @Messages("sa.expenses.video_transcript")</a></p>
 
   <h2 class="margin-top-xlarge">@Messages("sa.expenses.claiming_motoring_expenses")</h2>
   <p>@Messages("sa.expenses.you_can_claim_business_expenses_for_")</p>
@@ -44,10 +43,10 @@
   <p>@Messages("sa.expenses.if_you_decide_to_use_the_actual_costs_")</p>
   <p>@Messages("sa.expenses.the_flat_rate_covers_the_whole_cost_")</p>
 
-<div class ="panel panel-border-wide">
-    <p><a href ="https://youtu.be/r2txvLXi_Fk" id="calculating-motoring-expenses-transcript-video" target="_blank" data-journey-click="link - click:Expenses:Calculating motoring expenses - video link">@messages("sa.expenses.view.claiming_motoring_expenses")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.claiming_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
-</div>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("calculatingMotoringExpenses"), Some(messages("sa.expenses.claiming_motoring_expenses")))
+
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="calculating-motoring-expenses-transcript" data-journey-click="link - click:Expenses:Calculating motoring expenses - video transcript">@Messages("sa.expenses.claiming_motoring_expenses") - @Messages("sa.expenses.video_transcript")</a></p>
+
   <h2 class="margin-top-xlarge">@Messages("sa.record_keeping.heading")</h2>
   <p>@Messages("sa.record_keeping.record_any_money")</p>
   <p>@Messages("sa.record_keeping.record_paper_or_digitally")</p>
@@ -57,8 +56,8 @@
   <p>@Messages("sa.record_keeping.vat_registered")</p>
   <p><strong class="bold-small">@Messages("sa.record_keeping.store_your_records")</strong></p>
 
-<div class = "panel panel-border-wide">
-    <p><a href ="https://youtu.be/4OlkduJ5MTU" target="_blank" id="record-keeping-video" data-journey-click="link - click:Expenses:Record keeping - video link">@messages("sa.expenses.view.basic_record_for_self_employed")</a></p>
-  <p><a href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id="record-keeping-transcript" data-journey-click="link - click:Expenses:Record keeping - video transcript">@Messages("sa.record_keeping.heading") - @Messages("sa.record_keeping.video_transcript")</a></p>
-</div>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("basicRecordKeeping"), Some(messages("sa.record_keeping.heading")))
+
+  <p class="padding-top-medium"><a href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id="record-keeping-transcript" data-journey-click="link - click:Expenses:Record keeping - video transcript">@Messages("sa.record_keeping.heading") - @Messages("sa.record_keeping.video_transcript")</a></p>
+
 }
