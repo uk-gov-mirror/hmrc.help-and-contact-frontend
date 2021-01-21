@@ -27,7 +27,8 @@
    uiArticle: Article,
    uiFooterLinks: FooterLinks,
    uiEuExitLinks: EuExitLinks,
-   hmrcGovUkTemplate: GovUkTemplate
+   hmrcGovUkTemplate: GovUkTemplate,
+   uiReportAProblemLink: ReportAProblemLink
  )
 
 @(appConfig: config.FrontendAppConfig,
@@ -108,6 +109,8 @@
   @mainContent
 }
 
+@getHelpForm = @{uiReportAProblemLink(appConfig.reportAProblemPartialUrl, appConfig.reportAProblemNonJSUrl)}
+
 @content = {
 <div class="centered-content soft--ends">
   @serviceInfo
@@ -128,6 +131,8 @@
     @uiArticle(headerAndMainContent)
 
     @sidebar
+
+      @getHelpForm
 
   </div>
 </main>
