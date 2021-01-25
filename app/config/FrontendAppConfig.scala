@@ -24,7 +24,6 @@ import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
 import uk.gov.hmrc.play.language.LanguageUtils
 import models.SaUtr
 import utils.PortalUrlBuilder
-import uk.gov.hmrc.time.TaxYear
 
 @Singleton
 class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
@@ -40,11 +39,6 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   lazy val loginContinueUrl: String         = loadConfig("urls.loginContinue")
   lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
   lazy val googleTagManagerId: String       = loadConfig(s"google-tag-manager.id")
-
-  private lazy val contactHost: String = servicesConfig.getString("contact-frontend.host")
-  private val contactFormServiceIdentifier: String = "helpandcontactfrontend"
-  lazy val reportAProblemPartialUrl: String = s"$contactHost/contact/problem_reports_ajax?service=$contactFormServiceIdentifier"
-  lazy val reportAProblemNonJSUrl: String = s"$contactHost/contact/problem_reports_nonjs?service=$contactFormServiceIdentifier"
 
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
@@ -75,14 +69,4 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def sessionTimeoutInSeconds: Long  = 900
   def sessionCountdownInSeconds: Int = 60
-
-  lazy val taxYearStart: Int = TaxYear.current.startYear
-  lazy val taxYearEnd: Int = TaxYear.current.finishYear
-
-  lazy val taxYearBegin: String = taxYearStart.toString
-  lazy val taxYearFinish: String = taxYearEnd.toString
-  lazy val taxYearPrevious: String = (taxYearStart - 1).toString
-  lazy val taxYearPrevious2: String = (taxYearStart - 2).toString
-  lazy val taxYearNext: String = (taxYearStart + 1).toString
-
 }

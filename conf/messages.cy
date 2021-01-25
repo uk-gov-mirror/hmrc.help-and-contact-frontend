@@ -99,7 +99,6 @@ vat.questions_about_vat.heading = Cysylltu â CThEM ynghylch TAW
 ##  SELF ASSESSMENT
 #######################################################
 
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ How to pay your Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -160,323 +159,37 @@ helpWithYourSelfAssessmentTaxReturn.income_from_property = Fideo - Incwm o eiddo
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 helpWithYourSelfAssessmentTaxReturn.title = Help gyda Ffurflen Dreth Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.heading = Help gyda Ffurflen Dreth Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.find_out_more = Dysgwch ragor am gofrestru ar gyfer Hunanasesiad ar-lein
-helpWithYourSelfAssessmentTaxReturn.why_you_must_complete = Pam mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = Fel rheol, anfonir Ffurflen Dreth neu lythyr atoch ynglŷn â Ffurflen Dreth os ydych wedi’ch cofrestru fel unigolyn hunangyflogedig.
-helpWithYourSelfAssessmentTaxReturn.file_by_deadline = Mae’n rhaid i chi gyflwyno’ch Ffurflen Dreth, hyd yn oed os nad oes gennych dreth i’w thalu. Os na fyddwch yn ei chyflwyno erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
-helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Fideo – Pam mae ffurflen Dreth wedi’i hanfon ataf? (Yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Pam mae ffurflen Dreth wedi’i hanfon ataf? – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.not_complete = Os nad oes angen i chi lenwi a chyflwyno Ffurflen Dreth Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.used_to_file = Os oeddech yn arfer cyflwyno Ffurflen Dreth ond nad oes angen i chi gyflwyno un ar gyfer y flwyddyn dreth ddiweddaraf,
-helpWithYourSelfAssessmentTaxReturn.used_to_file_link =  rhowch wybod i CThEM i stopio Hunanasesiad.
-helpWithYourSelfAssessmentTaxReturn.must_tell = Mae’n rhaid i chi roi gwybod i ni hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig.
-helpWithYourSelfAssessmentTaxReturn.your_first = Eich Ffurflen Dreth Hunanasesiad gyntaf
-helpWithYourSelfAssessmentTaxReturn.a_tax_return_form = Ar Ffurflen Dreth, byddwch yn:
-helpWithYourSelfAssessmentTaxReturn.list_report_details = rhoi gwybod am fanylion eich incwm trethadwy
-helpWithYourSelfAssessmentTaxReturn.list_clain_tax = hawlio lwfansau treth a rhyddhad treth
-helpWithYourSelfAssessmentTaxReturn.hmrc_may_issue = Gall CThEM anfon Ffurflen Dreth atoch bob blwyddyn dreth. Mae’r flwyddyn dreth ar gyfer Hunanasesiad yn rhedeg o 6 Ebrill mewn  un flwyddyn i 5 Ebrill yn y flwyddyn nesaf.
-helpWithYourSelfAssessmentTaxReturn.sa316 = Os cewch Ffurflen Dreth, neu hysbysiad i gyflwyno un (SA316), mae’n rhaid i chi ei llenwi yn ôl y gyfraith.
-helpWithYourSelfAssessmentTaxReturn.to_work_out = Rydym yn defnyddio’r wybodaeth ar eich Ffurflen Dreth i gyfrifo’ch bil treth neu i bennu a oes ad-daliad treth yn ddyledus i chi.
-helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion = Os mai hon yw’ch Ffurflen Dreth gyntaf, mae’n rhaid i chi gofrestru ar gyfer Hunanasesiad cyn y gallwch lenwi a chyflwyno’ch Ffurflen Dreth.
-helpWithYourSelfAssessmentTaxReturn.more_about_registering = Rhagor o wybodaeth am gofrestru ar gyfer Hunanasesiad ar-lein
-helpWithYourSelfAssessmentTaxReturn.first_sa_video = Fideo – Fy Ffurflen Dreth Hunanasesiad gyntaf (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Eich Ffurflen Dreth Hunanasesiad gyntaf – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.help_completing = Help wrth lenwi a chyflwyno’ch Ffurflen Dreth
-helpWithYourSelfAssessmentTaxReturn.watch_videos = Gallwch wylio fideos, cael e-byst hysbysu, cymryd rhan mewn gweminarau a
-helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma (yn agor tab newydd).
-helpWithYourSelfAssessmentTaxReturn.how_to_tailor = Sut i deilwra’ch Ffurflen Dreth
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Fideo – Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Teilwra’ch Ffurflen Dreth – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.self_employed = Os ydych yn hunangyflogedig
-helpWithYourSelfAssessmentTaxReturn.self_employed_video = Fideo – Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.self_employed_transcript = Eich Ffurflen Dreth Hunangyflogaeth – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.income_from_property_header = Os oes gennych incwm o eiddo
-helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Fideo – Incwm o eiddo – beth ydw i’n ei gynnwys ar fy Ffurflen Dreth? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = Os oes gennyf  incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.more_help_with_sa = Rhagor o help gyda Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.who_must_file = Pwy sy’n gorfod cyflwyno Ffurflen Dreth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.need_to_change = Os oes angen i chi newid eich Ffurflen Dreth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.howtopaysa = Sut i dalu’ch Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.sa_resource = Rhestr o adnoddau ar gyfer Hunanasesiad (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.who_must_send = Pwy sydd rhaid anfon Ffurflen Dreth?
 helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Eich Ffurflen Dreth Hunanasesiad gyntaf
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Pam yr ydwyf wedi cael Ffurflen Dreth
+helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Teilwra’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Eich Ffurflen Dreth Hunangyflogaeth
-helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_ = Os oes gennyf  incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
-helpWithYourSelfAssessmentTaxReturn.video_transcript = – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Fideo – Pam mae ffurflen Dreth wedi’i hanfon ataf? (Yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Fideo – Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Fideo – Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = Teilwra’ch Ffurflen Dreth – trawsgrifiad fideo
-helpWithYourSelfAssessmentTaxReturn.help_with_record = Rhagor o help gyda chadw cofnodion
-helpWithYourSelfAssessmentTaxReturn.business_records_if = Cofnodion busnes os ydych yn hunangyflogedig (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.keeping_pay = Cadw’ch cofnodion cyflog a threth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.get_help = Get help with this page
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Modular - Self Assessment tax returns
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-modular.sa_tax_return.self_assessment_tax_return = Ffurflenni Treth Hunanasesiad
-modular.sa_tax_return.is_a_system = Mae Hunanasesiad yn system y mae Cyllid a Thollau EM (CThEM) yn ei defnyddio i gasglu Treth Incwm.
-modular.sa_tax_return.income_tax_is_usually = Fel arfer, didynnir Treth Incwm yn awtomatig o gyflogau, pensiynau a chynilion.
-modular.sa_tax_return.people_and_business = Mae’n rhaid i bobl a busnesau ag incwm arall roi gwybod amdano drwy gyflwyno Ffurflen Dreth Hunanasesiad.
-modular.sa_tax_return.sa_is_used_by = Defnyddir Hunanasesiad gan:
-modular.sa_tax_return.list_self_employed = yr hunangyflogedig
-modular.sa_tax_return.list_sole_trader = unig fasnachwyr
-modular.sa_tax_return.list_individuals = unigolion megis cyfarwyddwyr cwmni
-modular.sa_tax_return.list_partnerships = partneriaid mewn partneriaethau
-modular.sa_tax_return.list_trustees = ymddiriedolwyr
-modular.sa_tax_return.list_others = pobl debyg eraill
-modular.sa_tax_return.if_you_receive_hmrc = Os cewch Ffurflen Dreth, neu hysbysiad i gyflwyno un, mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth.
-modular.sa_tax_return.who_must_file_link = Pwy sy’n gorfod cyflwyno Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
-modular.sa_tax_return.if_you_receive_return = Os cewch Ffurflen Dreth, neu hysbysiad i gyflwyno un, mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth.
-modular.sa_tax_return.file_tax_return = Os oes rhaid i chi gyflwyno Ffurflen Dreth, byddwch yn gwneud hynny ar ôl diwedd y flwyddyn dreth y mae’n berthnasol iddi.
-modular.sa_tax_return.sa_tax_year = Mae’r flwyddyn dreth Hunanasesiad yn rhedeg rhwng 6 Ebrill a 5 Ebrill. Ar gyfer blwyddyn dreth 6 Ebrill {0} i 5 Ebrill {1}, mae’n rhaid i chi gyflwyno’ch Ffurflen Dreth erbyn 31 Ionawr {2}.
-modular.sa_tax_return.need_to_register_if = Mae’n rhaid i chi gofrestru ar gyfer Hunanasesiad os yw’r canlynol yn berthnasol:
-modular.sa_tax_return.list_must_file = mae’n rhaid i chi gyflwyno Ffurflen Dreth ar gyfer {0} i {1}
-modular.sa_tax_return.and = ac
-modular.sa_tax_return.list_did_not_file = ni wnaethoch gyflwyno un ar gyfer blwyddyn dreth {0} i {1}
-modular.sa_tax_return.allow_up_to = Dylech ganiatáu hyd at 20 diwrnod gwaith os nad ydych wedi cyflwyno Ffurflen Dreth ar-lein erioed o’r blaen.
-modular.sa_tax_return.to_file_online = I gyflwyno’ch Ffurflen Dreth ar-lein, dylech wneud y canlynol:
-modular.sa_tax_return.list_be_registered = bod wedi’ch cofrestru ar gyfer Hunanasesiad
-modular.sa_tax_return.list_add_sa_to = ychwanegu Hunanasesiad at eich cyfrif treth
-modular.sa_tax_return.list_complete_and_file = llenwi a chyflwyno’ch Ffurflen Dreth erbyn 31 Ionawr {0}
-modular.sa_tax_return.list_pay_what_you_owe = talu’r hyn sydd arnoch erbyn 31 Ionawr {0}
-modular.sa_tax_return.if_you_do_not_register = Os na fyddwch yn cyflwyno neu’n talu mewn pryd, efallai y bydd yn rhaid i chi dalu cosb.
-modular.sa_tax_return.have_not_received = Os nad ydych wedi cael hysbysiad i gyflwyno Ffurflen Dreth Hunanasesiad,
-modular.sa_tax_return.have_not_received_link = gallwch wirio’n ddienw a oes angen i chi gyflwyno Ffurflen Dreth (yn agor tab newydd).
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Modular - Viewing your SA calculation
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-modular.viewingSaCalculation.viewing_your_sa_calculation = Bwrw golwg dros eich cyfrifiad Hunanasesiad
-modular.viewingSaCalculation.automatically_works_out = Mae Ffurflen Dreth ar-lein CThEM yn cyfrifo’n awtomatig faint y mae angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac, ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg dros eich cyfrifiad.
-modular.viewingSaCalculation.calc_shows = Mae’r cyfrifiad yn dangos:
-modular.viewingSaCalculation.list_tax_work_out = sut mae’ch bil treth wedi’i gyfrifo
-modular.viewingSaCalculation.list_yourincome = eich incwm
-modular.viewingSaCalculation.list_personal_allowance = eich lwfans personol
-modular.viewingSaCalculation.list_taxdue = y dreth sy’n ddyledus
-modular.viewingSaCalculation.list_ni_contributions = unrhyw gyfraniadau Yswiriant Gwladol dosbarth 2 a dosbarth 4
-modular.viewingSaCalculation.list_opens = (yn agor tab newydd)
-modular.viewingSaCalculation.print_a_copy = Gallwch argraffu copi o’r cyfrifiad ar gyfer eich cofnodion.
-modular.viewingSaCalculation.viewing_return_calculation_video = Fideo – Bwrw golwg dros gyfrifiad ar gyfer eich Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
-modular.viewingSaCalculation.viewing_return_calculation_transcript = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad – trawsgrifiad fideo
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Modular - Basic record keeping
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-modular.basicRecordKeeping.heading = Cadw cofnodion sylfaenol pan fyddwch yn hunangyflogedig
-modular.basicRecordKeeping.must_record = Mae’n rhaid i chi gofnodi unrhyw arian sy’n mynd i mewn ac allan o’ch busnes, p’un a yw’r trafodyn yn cael ei wneud:
-modular.basicRecordKeeping.list_person = yn bersonol
-modular.basicRecordKeeping.list_phone = dros y ffôn
-modular.basicRecordKeeping.list_online = ar-lein
-modular.basicRecordKeeping.keep_records = Cadwch eich cofnodion ar bapur neu’n ddigidol gan ddefnyddio cyfrifiadur. Mae’r rhain yn cynnwys eitemau megis anfonebau, derbyniadau o werthiannau, tystiolaeth o bryniannau a chyfriflenni banc. Cofiwch fod yn rhaid i’ch cofnodion fod yn gywir, yn glir ac yn gyflawn.
-modular.basicRecordKeeping.software_suppliers = Mae rhai cyflenwyr meddalwedd yn cynnig apiau rhad ac am ddim i fusnesau bach ar gyfer cadw cofnodion. Bydd y ffordd yr ydych yn cadw’ch cofnodion yn dibynnu a ydych yn defnyddio’r dull cyfrifyddu traddodiadol neu’r dull cyfrifyddu ar sail arian parod, a sut rydych yn cyfrifo’ch treuliau.
-modular.basicRecordKeeping.organise_income = Byddwch yn ei chael hi’n haws os byddwch yn trefnu’ch incwm a’ch treuliau yn gategorïau ac yn diweddaru’r rhain yn rheolaidd. Os ydych yn cadw’ch cofnodion yn ddigidol, cofiwch gadw ffeiliau wrth gefn.
-modular.basicRecordKeeping.must_keep = Mae’n rhaid i chi gadw’ch trafodion busnes a phersonol ar wahân. Nid yw defnyddio arian o’ch busnes at ddefnydd personol yn draul busnes ganiataol.
-modular.basicRecordKeeping.vat_registered = Os ydych wedi cofrestru ar gyfer TAW, bydd angen i chi hefyd gadw cofnodion o faint o TAW rydych wedi’i thalu i’ch cyflenwyr a faint rydych wedi’i chodi ar eich cwsmeriaid.
-modular.basicRecordKeeping.vat_threshold = Os yw’ch incwm yn uwch na’r trothwy TAW, bydd angen i chi gyflwyno’ch cofnodion i ni gan ddefnyddio meddalwedd Troi Treth yn Ddigidol.
-modular.basicRecordKeeping.years_after = Mae’n rhaid i chi gadw eich cofnodion am o leiaf 5 mlynedd ar ôl y dyddiad cau ar gyfer cyflwyno, sef 31 Ionawr yn y flwyddyn dreth berthnasol. Efallai y bydd CThEM yn gwirio’ch cofnodion i wneud yn siŵr eich bod yn talu’r swm cywir o dreth.
-modular.basicRecordKeeping.example = Enghraifft: Ar gyfer blwyddyn dreth 2019 i 2020, y dyddiad cau ar gyfer cyflwyno yw 31 Ionawr 2021. Cadwch eich cofnodion tan o leiaf 31 Ionawr 2026.
-modular.basicRecordKeeping.record_keeping_video = Fideo – Cadw cofnodion sylfaenol ar gyfer pobl hunangyflogedig (yn agor tab newydd)
-modular.basicRecordKeeping.record_keeping_transcript = Cadw cofnodion sylfaenol pan fyddwch yn hunangyflogedig – trawsgrifiad fideo
-modular.basicRecordKeeping.more_help_record = Rhagor o help gyda chadw cofnodion
-modular.basicRecordKeeping.self_record = Cofnodion busnes os ydych yn hunangyflogedig (yn agor tab newydd)
-modular.basicRecordKeeping.keeping_pay_and_tax = Cadw’ch cofnodion cyflog a threth (yn agor tab newydd)
-
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Register or stopping
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-register_or_stopping.title = Self Assessment: registering or stopping
-register_or_stopping.heading = Registering or stopping
-register_or_stopping.class_2_ni = Cyfraniadau Yswiriant Gwladol Dosbarth 2
-register_or_stopping.when_you_register = Pan fyddwch yn cofrestru ar gyfer Hunanasesiad fel unigolyn hunangyflogedig, rydych hefyd yn cofrestru ar
-register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2 (yn agor tab newydd).
-register_or_stopping.class_2_video = Fideo - Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth (yn agor tab newydd)
-register_or_stopping.class_2_transcript = Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth – trawsgrifiad
-register_or_stopping.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
-register_or_stopping.unique_taxpayer = Rhif 10 digid yw’ch Cyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer Hunanasesiad. Gallwch ddod o hyd iddo ar y canlynol:
-register_or_stopping.list_welcome_letter = eich llythyr Croeso i Hunanasesiad (SA250)
-register_or_stopping.list_previous_tax_returns = Ffurflenni Treth a gafodd eu llenwi gennych mewn blynyddoedd blaenorol
-register_or_stopping.list_other_documents = dogfennau eraill gan CThEM
-register_or_stopping.can_find_utr = Gallwch ddod o hyd i’ch UTR (yn agor tab newydd) os nad ydych yn gwybod beth ydyw.
-register_or_stopping.not_self_employed = Os nad ydych yn hunangyflogedig
-register_or_stopping.did_not_file_return = Os na wnaethoch gyflwyno Ffurflen Dreth y llynedd a bod yn rhaid i chi gyflwyno un eleni,
-register_or_stopping.sa1_link = defnyddiwch ffurflen SA1 i gofrestru ar gyfer Hunanasesiad (yn agor tab newydd).
-register_or_stopping.are_self_employed = Os ydych yn hunangyflogedig
-register_or_stopping.did_not_file_this_year = Os na wnaethoch gyflwyno Ffurflen Dreth y llynedd a bod yn rhaid i chi gyflwyno un eleni,
-register_or_stopping.register_link = cofrestrwch ar gyfer Hunanasesiad (yn agor tab newydd).
-register_or_stopping.partnership = Os ydych yn bartner neu’n bartneriaeth
-register_or_stopping_utr_reference = Bydd angen y Cyfeirnod Unigryw y Trethdalwr (UTR) arnoch ar gyfer y bartneriaeth a’ch UTR personol eich hun os oes gennych un eisoes.
-register_or_stopping.new_partnership = Os yw’n bartneriaeth newydd, bydd yn rhaid i’r partner enwebedig hefyd gofrestru’r bartneriaeth.
-register_or_stopping.more_about_registering = Dysgwch ragor am gofrestru fel partner neu bartneriaeth (yn agor tab newydd).
-register_or_stopping.sa_guidance = Arweiniad Hunanasesiad
-register_or_stopping.learn_sa = Dysgu am Hunanasesiad (yn agor tab newydd)
-register_or_stopping.registering_sa_video = Fideo – Cofrestru ar gyfer Hunanasesiad (yn agor tab newydd)
-register_or_stopping.registering_sa_transcript = Cofrestru ar gyfer Hunanasesiad: trawsgrifiad fideo
-register_or_stopping.stop_sa = Stopio Hunanasesiad
-register_or_stopping.you_must = Mae’n rhaid i chi
-register_or_stopping.tell_hmrc_link = roi gwybod i CThEM os nad oes angen i chi gyflwyno Ffurflenni Treth mwyach.
-register_or_stopping.because_you_are = Gallai hyn fod oherwydd:
-register_or_stopping.list_stopping_sa = eich bod yn rhoi’r gorau i hunangyflogaeth
-register_or_stopping.list_no_longer = nad ydych yn masnachu fel unig fasnachwr mwyach
-register_or_stopping.list_ending = eich bod yn dod â phartneriaeth fusnes i ben neu’n ei gadael
-register_or_stopping.send_final_return = Bydd angen i chi anfon Ffurflenni Treth terfynol a rhoi gwybod i gyflogeion eich bod yn cau’ch busnes.
-register_or_stopping.we_will_stop = Byddwn yn stopio’ch Hunanasesiad ac yn canslo’ch cyfraniadau Yswiriant Gwladol Dosbarth 2.
-register_or_stopping.stopping_class_2 = Gall stopio’ch cyfraniadau Yswiriant Gwladol Dosbarth 2 olygu eich bod yn colli rhai budd-daliadau.
-register_or_stopping.can_choose = Gallwch ddewis parhau i fod wedi’ch cofrestru ar gyfer y cyfraniadau hyn ar ôl stopio Hunanasesiad os ydych am wneud taliadau gwirfoddol. Bydd hyn yn eich galluogi i hawlio budd-daliadau fel Gofal Plant sy’n Rhydd o Dreth neu Lwfans Mamolaeth.
-register_or_stopping.get_help = Get help with this page
-
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Payment and Penalties
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payment_and_penalties.title = Hunanasesiad: taliadau a chosbau
-payment_and_penalties.heading = Taliadau a chosbau
-payment_and_penalties.when_to_pay = Pryd i dalu’ch bil treth Hunanasesiad
-payment_and_penalties.deadlines = Y dyddiadau cau ar gyfer talu yw:
-payment_and_penalties.payment_balancing = 31 Ionawr {0} ar gyfer eich taliad mantoli. Mae hyn ar gyfer blwyddyn dreth {1} i {2}
-payment_and_penalties.first_payment = 31 Ionawr {0} ar gyfer eich taliad ar gyfrif cyntaf. Mae hyn ar gyfer blwyddyn dreth {1} i {2}
-payment_and_penalties.second_payment = 1 Gorffennaf {0} ar gyfer eich ail daliad ar gyfrif. Mae hyn ar gyfer blwyddyn dreth {1} i {2}
-payment_and_penalties.dont_wait = Does dim rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i’w dalu. Os byddwch yn gwneud hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
-payment_and_penalties.understanding_payments = Deall taliadau mantoli a thaliadau ar gyfrif (yn agor tab newydd)
-payment_and_penalties.how_to_pay_bill = Sut i dalu’ch bil treth Hunanasesiad
-payment_and_penalties.make_sure = Gwnewch yn siŵr eich bod yn talu CThEM erbyn y dyddiad cau.
-payment_and_penalties.pay_penalty_link = Os bydd eich taliad yn hwyr,
-payment_and_penalties.late_payment = codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb.
-payment_and_penalties.depends = Mae’r amser y mae angen i chi ei ganiatáu yn dibynnu ar eich dull o dalu.
-payment_and_penalties.no_longer = Ni allwch dalu yn Swyddfa’r Post mwyach.
-payment_and_penalties.read_info = Darllenwch wybodaeth fanwl am ffyrdd o dalu’ch bil treth (yn agor tab newydd)
-payment_and_penalties.how_do_i_pay_video = Fideo – Sut rydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
-payment_and_penalties.how_do_i_pay_transcript = Sut rydw i’n talu fy mil treth Hunanasesiad? – trawsgrifiad
-payment_and_penalties.budgeting_for_sa = Cyllidebu ar gyfer eich bil treth Hunanasesiad
-payment_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig (yn agor tab newydd)
-payment_and_penalties.how_do_i_budget_video = Fideo – Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
-payment_and_penalties.how_do_i_budget_transcript = Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? – trawsgrifiad fideo
-payment_and_penalties.penalties = Cosbau
-payment_and_penalties.penalty_showing = Bydd cosb i’w gweld ar eich cyfrif os:
-payment_and_penalties.list_sent_late = ydych wedi anfon eich Ffurflen Dreth yn hwyr
-payment_and_penalties.list_paid_late = ydych wedi talu treth yn hwyr
-payment_and_penalties.list_not_enough = nad ydych wedi talu digon o dreth
-payment_and_penalties.appeal_penalty = Apelio yn erbyn cosb
-payment_and_penalties.affected_covid = Os yw coronafeirws (COVID-19) wedi effeithio ar eich busnes, mae gennych 3 mis ychwanegol i apelio yn erbyn unrhyw gosb ddyddiedig Chwefror 2020 neu’n hwyrach.
-payment_and_penalties.appeal_if = Gallwch apelio yn erbyn cosb os oes gennych
-payment_and_penalties.excuse_link = esgus rhesymol,
-payment_and_penalties.for_example = er enghraifft, os bu raid i chi aros yn yr ysbyty, a hynny’n annisgwyl. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
-payment_and_penalties.more_help = Rhagor o help gyda chosbau
-payment_and_penalties.find_more = Dysgwch ragor am gosbau Hunanasesiad (yn agor tab newydd)
-payment_and_penalties.interest_rates = Cyfraddau llog ar gyfer taliadau hwyr a thaliadau cynnar (yn agor tab newydd)
-payment_and_penalties.sa_penalties_video = Fideo - Cosbau Hunanasesiad (yn agor tab newydd)
-payment_and_penalties.sa_penalties_transcript = Cosbau Hunanasesiad – trawsgrifiad fideo
-payment_and_penalties.get_help = Get help with this page
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Expenses
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-expenses.title = Treuliau
-expenses.heading = Treuliau
-expenses.can_include = Treuliau y gallwch eu cynnwys yn eich Ffurflen Dreth Hunanasesiad
-expenses.allowable_expenses = Dylech gynnwys eich holl dreuliau caniataol ar gyfer y flwyddyn dreth o 6 Ebrill i 5 Ebrill ar eich Ffurflen Dreth Hunanasesiad.
-expenses.send_proof = Nid oes rhaid i chi anfon tystiolaeth o’ch treuliau pan fyddwch yn cyflwyno’ch Ffurflen Dreth. 
-expenses.keep_proof = Dylech gadw tystiolaeth a chofnodion fel y gallwch eu dangos i CThEM, os gofynnir i chi wneud hynny. Mae’n rhaid i chi wneud yn siŵr bod eich cofnodion yn gywir.
-expenses.find_out_more = Dysgwch ragor am dreuliau caniataol os ydych yn hunangyflogedig (yn agor tab newydd)
-expenses.what_expenses_video = Fideo - Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
-expenses.what_expenses_transcript = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? – trawsgrifiad fideo
-expenses.simplified = Treuliau symlach
-expenses.cannot_be_used = Ni all cwmnïau cyfyngedig na phartneriaethau busnes sy’n ymwneud â chwmni cyfyngedig ddefnyddio treuliau symlach.
-expenses.if_self_employed =  Os ydych yn hunangyflogedig, neu’n bartneriaeth busnes, gallwch ddewis defnyddio treuliau symlach i gyfrifo rhai o’ch treuliau gan ddefnyddio cyfraddau unffurf yn hytrach na chyfrifo’ch costau busnes gwirioneddol.
-expenses.flat_rates = Gallwch ddefnyddio cyfraddau unffurf ar gyfer treuliau busnes ar gyfer y canlynol:
-expenses.list_vehicles = rhai cerbydau
-expenses.list_home = gweithio gartref
-expenses.list_living = byw yn eich safle busnes
-expenses.keep_records = Cadwch gofnodion o’r canlynol yn ystod y flwyddyn dreth:
-expenses.list_mileage = ymilltiroedd busnes eich cerbyd
-expenses.list_hours = hyr oriau yr ydych yn gweithio gartref
-expenses.list_how_many = nifer y bobl sy’n byw yn eich safle busnes
-expenses.find_out_more_simplified = Dysgwch ragor am dreuliau symlach (yn agor tab newydd)
-expenses.cash_basis_video = Fideo – Y sail arian parod a threuliau symlach (yn agor tab newydd)
-expenses.cash_basis_transcript = Y sail arian parod a threuliau symlach – trawsgrifiad fideo
-expenses.claiming_travel_header = Hawlio treuliau teithio os ydych yn hunangyflogedig
-expenses.allowable_business_expense = Gallwch hawlio treuliau busnes caniataol ar gyfer eitemau megis tanwydd ac yswiriant cerbyd.
-expenses.cannot_claim = Ni allwch hawlio am gostau gyrru neu deithio nad ydynt at ddefnydd busnes, nac am ddirwyon neu gostau teithio rhwng y cartref a’r gwaith.
-expenses.actual_costs = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyfradd unffurf ar gyfer milltiroedd busnes. Unwaith y byddwch wedi dewis un o’r dulliau hyn ar gyfer cerbyd penodol, rhaid i chi barhau i’w ddefnyddio ar gyfer y cerbyd hwnnw.
-expenses.decide_to_use = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
-expenses.flat_rate_covers = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd, felly ni allwch hawlio lwfans cyfalaf am ei brynu.
-expenses.claiming_travel = Rhagor o help gyda hawlio treuliau teithio
-expenses.travel_if = Treuliau teithio os ydych yn hunangyflogedig (yn agor tab newydd)
-expenses.simplified_motoring_expenses = Treuliau moduro symlach os ydych yn hunangyflogedig (yn agor tab newydd)
-expenses.motoring_expenses_video = Fideo – Hawlio treuliau moduro os ydych yn hunangyflogedig (yn agor tab newydd)
-expenses.motoring_expenses_transcript = Hawlio treuliau moduro os ydych yn hunangyflogedig – trawsgrifiad fideo
-
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ SA302 Evidence
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa302.evidence.title = Cael tystiolaeth o’ch incwm – SA302
-sa302.evidence.heading = Cael tystiolaeth o’ch incwm – SA302
-sa302.evidence.complete = Os byddwch yn llenwi’ch Ffurflen Dreth ar-lein, gallwch wneud y canlynol:
-sa302.evidence.list_get_evidence = cael tystiolaeth o’ch enillion (SA302) am y 4 blynedd diwethaf y gwnaethoch gyflwyno Ffurflenni Treth ar eu cyfer ar-lein
-sa302.evidence.list_get_tax_year = cael trosolwg o’r flwyddyn dreth ar gyfer unrhyw flwyddyn
-sa302.evidence.list_print_calculation = argraffu’ch cyfrifiad a’ch trosolwg o’r flwyddyn dreth
-sa302.evidence.might_be = Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
-sa302.evidence.check_mortgage = Gwiriwch fod eich darparwr morgais yn derbyn dogfennau rydych wedi’u hargraffu eich hun.
-sa302.evidence.print_documents = Ni allwch argraffu’ch dogfennau tan hyd at 72 awr ar ôl i chi anfon eich Ffurflen Dreth.
-sa302.evidence.evidence_of_income = Dysgwch ragor am gael tystiolaeth o’ch incwm (yn agor tab newydd)
-
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class_2_ni.title = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad
-class_2_ni.heading = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad
-class_2_ni.if_self_employed = Os ydych yn hunangyflogedig neu mewn partneriaeth, rydych yn talu Yswiriant Gwladol Dosbarth 2 er mwyn bod yn gymwys ar gyfer Pensiwn y Wladwriaeth a budd-daliadau eraill. Mae’r rhan fwyaf o bobl yn talu hyn yn eu taliad Hunanasesiad – erbyn 31 Ionawr, yn dilyn diwedd y flwyddyn dreth.
-class_2_ni.you_must_pay = Mae’n rhaid i chi dalu, os yw’ch elw’n cyrraedd y Trothwy Elw Bychan, neu os yw’n fwy na hynny – gallwch ddod o hyd i’r cyfraddau presennol ar wefan GOV.UK.
-class_2_ni.dont_have_to = Nid oes rhaid i chi dalu os yw’ch elw o dan y trothwy – ond gall hyn effeithio ar eich Pensiwn y Wladwriaeth a’ch budd-daliadau eraill. Felly, efallai y byddwch yn penderfynu talu cyfraniadau gwirfoddol.
-class_2_ni.when_se =  Os ydych yn hunangyflogedig, mae angen i chi gofrestru ar gyfer Hunanasesiad er mwyn talu Yswiriant Gwladol Dosbarth 2. Mae hefyd angen i chi wneud hyn pan fo’ch trosiant blynyddol yn llai na mil o bunnoedd a’ch bod am dalu cyfraniadau gwirfoddol.
-class_2_ni.tax_return = Ar eich Ffurflen Dreth, dewiswch ‘hunangyflogedig’ neu ‘mewn partneriaeth’ – dyma’r adran sy’n cynnwys eich cyfraniadau Dosbarth 2.
-class_2_ni.your_return = Mae’ch Ffurflen Dreth yn dangos y swm sy’n ddyledus, ar sail nifer yr wythnosau yn y flwyddyn dreth yr oeddech yn hunangyflogedig, yn ôl eich cofnodion Yswiriant Gwladol.
-class_2_ni.amount_shows = Os yw’r swm yn dangos ‘Ddim ar gael, gwiriwch yr help’:
-class_2_ni.list_be_registered = efallai nad ydych wedi’ch cofrestru’n gywir ar gyfer Hunanasesiad, ac felly bydd angen i chi gofrestru ar wefan GOV.UK, neu
-class_2_ni.list_the_service = efallai nad yw’r gwasanaeth ar gael. Pan fydd ar gael, dewiswch y botwm ‘Ailgyfrifo’ er mwyn dangos y swm sy’n ddyledus.
-class_2_ni.shows_zero = Os yw’r swm yn dangos sero, gallai hyn fod oherwydd:
-class_2_ni.list_not_registered = nad ydych wedi’ch cofrestru’n gywir ar gyfer Hunanasesiad
-class_2_ni.list_already_paid = eich bod eisoes wedi talu uchafswm yr Yswiriant Gwladol
-class_2_ni.list_received_certain = eich bod wedi cael rhai budd-daliadau, sy’n golygu nad oes cyfraniadau Dosbarth 2 yn ddyledus
-class_2_ni.list_abroad = eich bod wedi bod dramor ac felly’n talu cyfraniadau Dosbarth 2 yn wahanol
-class_2_ni.not_sure_contact = Os nad ydych yn siŵr, cysylltwch â Gwasanaeth Cwsmeriaid Cymraeg CThEM.
-class_2_ni.started_or_stopped = Os gwnaethoch ddechrau neu roi’r gorau i hunangyflogaeth yn ystod y flwyddyn a’ch bod o’r farn bod y swm yn anghywir, dewiswch y cysylltiad ‘Diweddaru’ch manylion hunangyflogaeth’ er mwyn diweddaru’ch cofnod, ac yna dewiswch ‘Ailgyfrifo’.
-class_2_ni.make_voluntary = Er mwyn gwneud taliadau Dosbarth 2 gwirfoddol, dewiswch ‘Iawn’. Fel arall, dewiswch ‘Na’.
-class_2_ni.full_calculation = Mae’ch cyfrifiad llawn yn dangos faint o dreth ac Yswiriant Gwladol sydd arnoch.
-class_2_ni.more_information = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK.
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Cash basis and simplified expenses - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-cash_basis.title = Y sail arian parod a threuliau symlach
-cash_basis.heading = Y sail arian parod a threuliau symlach
-cash_basis.simplified_expenses = Mae’r sail arian parod a threuliau symlach yn ddau gynllun treth incwm a all wneud bywyd yn haws i fusnesau hunangyflogedig.
-cash_basis.instead_of = Yn hytrach na defnyddio rheolau cyfrifyddu traddodiadol, gellir defnyddio’r sail arian parod os ydych yn fusnes hunangyflogedig neu’n bartneriaeth, a bod gennych gyfanswm incwm busnes blynyddol o £150,000 neu lai.
-cash_basis.only_be_taxed = Dim ond ar yr arian sy’n dod i mewn ac yn mynd allan o’ch busnes yn ystod y flwyddyn dreth y cewch eich trethu. Bydd hyn yn haws ei gyfrifo ac yn arbed eich amser.
-cash_basis.limit_claims = Nid yw’r sail arian parod yn addas ar gyfer pob busnes. Mae’n gallu cyfyngu ar hawliadau i rai treuliau a cholledion.
-cash_basis.used_by_all = Gellir defnyddio treuliau symlach gan bob busnes a phartneriaeth hunangyflogedig nad oes ganddynt gwmnïau cyfyngedig fel partneriaid.
-cash_basis.way_of_working = Maent yn ffordd o gyfrifo rhai o’ch treuliau busnes caniataol gan ddefnyddio cyfraddau unffurf. Mae’n haws na defnyddio’ch costau busnes gwirioneddol, a all fod yn anodd eu cyfrifo.
-cash_basis.flat_rates = Gellir defnyddio cyfraddau unffurf ar gyfer costau busnes yn achos
-cash_basis.list_some_vehicles = rhai cerbydau
-cash_basis.list_home = gweithio o’ch cartref
-cash_basis.list_living = a byw ar safle’ch busnes.
-cash_basis.need_to_record = Bydd angen i chi gadw cofnod o’r canlynol:
-cash_basis.list_your_miles = milltiroedd busnes eich cerbyd
-cash_basis.list_hours_working = yr oriau rydych yn eu gweithio gartref
-cash_basis.list_how_many = a faint o bobl sy’n byw ar safle’ch busnes yn ystod y flwyddyn
-cash_basis.apply_flat_rate = Yna, gallwch roi’r gyfradd unffurf ar waith i gyfrifo’ch treuliau ar ddiwedd y flwyddyn dreth.
-cash_basis.more_info = Gallwch ddod o hyd i ragor o wybodaeth am y cynlluniau hyn ar GOV.UK.
-
+helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_ = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
+helpWithYourSelfAssessmentTaxReturn.video_transcript = - trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.you_will_usually = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig.
+helpWithYourSelfAssessmentTaxReturn.you_can_anonymously = Gallwch chi ddienw
+helpWithYourSelfAssessmentTaxReturn.check_if_you = wirio a oes rhaid i chi lenwi Ffurflen Dreth Hunanasesiad
+helpWithYourSelfAssessmentTaxReturn.if_you_are_sent = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny - hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os nad ydych yn anfon Ffurflen Dreth yn ôl erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb. Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad. Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_a = Mae Hunanasesiad yn system y mae Cyllid a Thollau EM (CThEM) yn ei defnyddio i gasglu Treth Incwm.
+helpWithYourSelfAssessmentTaxReturn.tax_is_usually = Fel arfer, didynnir treth yn awtomatig o gyflogau, pensiynau a chynilion. Mae’n rhaid i bobl a busnesau ag incwm arall roi gwybod amdano mewn Ffurflen Dreth.
+helpWithYourSelfAssessmentTaxReturn.self_assessment_is_not = Nid yw Hunanasesiad ar gyfer pobl hunangyflogedig yn unig. Rhaid i bawb sy’n gorfod llenwi Ffurflen Dreth wneud hynny, hyd yn oed os nad oes unrhyw beth i’w dalu. Efallai y codir cosb arnoch os na wnewch hyn.
+helpWithYourSelfAssessmentTaxReturn.if_you_need_to = Os oes angen i chi anfon un, rydych yn ei llenwi ar ôl diwedd y flwyddyn dreth (5 Ebrill) y mae’n gymwys ar ei chyfer.
+helpWithYourSelfAssessmentTaxReturn.if_you_did_not = Os na wnaethoch anfon Ffurflen Dreth ar-lein y llynedd, dylech ganiatáu amser ychwanegol (hyd at 20 diwrnod gwaith) gan y bydd angen i chi gofrestru yn gyntaf.
+helpWithYourSelfAssessmentTaxReturn.you_will_tailor = Byddwch yn teilwra’ch Ffurflen Dreth ar y 3 tudalen gyntaf. Defnyddiwch yr adran hon i roi gwybod i ni am eich gwahanol fathau o incwm, cyflogaeth a hunangyflogaeth fel eich bod ond yn gweld y rhannau o’r Ffurflen Dreth sydd eu hangen arnoch.
+helpWithYourSelfAssessmentTaxReturn.if_you_started = Os dechreuoch hunangyflogaeth neu y gwnaethoch roi’r gorau iddi yn ystod y flwyddyn, mae’n bwysig nodi’r dyddiadau fel y gall CThEM ddiweddaru’ch cofnodion.
+helpWithYourSelfAssessmentTaxReturn.did_not_trade = Os na wnaethoch fasnachu am flwyddyn lawn, ond pe baech chi wedi gwneud hynny a byddai’ch incwm wedi bod dros £85,000, eich ateb yw “Iawn”. Er enghraifft: Pe bai incwm eich busnes dros 6 mis yn £50,000, yna am 12 mis byddai wedi bod yn £100,000.
+helpWithYourSelfAssessmentTaxReturn.do_not_fill = Peidiwch â llenwi’r adran hon os ydych yn rhedeg tŷ gwestai neu’n cynnig gwely a brecwast. Mae hynny’n cael ei ystyried yn hunangyflogaeth a dylech lenwi’r adran honno.
+helpWithYourSelfAssessmentTaxReturn.if_your_property = Os yw’ch eiddo y tu allan i’r Ardal Economaidd Ewropeaidd, llenwch yr adran Dramor.
+helpWithYourSelfAssessmentTaxReturn.if_from_partnership = Os oedd eich incwm o eiddo yn dod o bartneriaeth, llenwch adran y Bartneriaeth.
+helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Fideo - Pam yr wyf wedi cael Ffurflen Dreth? (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment_tax_ = Fideo - Fy Ffurflen Dreth Hunanasesiad gyntaf (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript = Byddwn yn cyhoeddi trawsgrifiad ar gyfer y fideo hwn ym mis Rhagfyr 2020.
+helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Fideo - Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Fideo - Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping = Fideo - Cadw cofnodion sylfaenol ar gyfer yr hunangyflogedig (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.first_sa_return_transcript = Fy Ffurflen Dreth Hunanasesiad gyntaf – trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = Sut rydw i’n addasu fy Ffurflen Dreth Hunanasesiad? – trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript = Incwm o eiddo – beth y mae angen i fi ei gynnwys ar fy Ffurflen Dreth? – trawsgrifiad fideo
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister

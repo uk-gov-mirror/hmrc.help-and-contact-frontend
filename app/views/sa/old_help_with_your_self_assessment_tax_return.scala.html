@@ -32,20 +32,16 @@
 
   <h2>@Messages("helpWithYourSelfAssessmentTaxReturn.who_must_send")</h2>
 
-<div class="panel panel-border-wide">
-    <p><a href = "https://youtu.be/ZtJTCJc58Gk" id="why-i-have-been-sent-a-tax-return" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Why have I been sent a tax return - video link">
-    @messages("helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return")
-        </a>
-    </p>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("whyHaveIBeenSentAReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.who_must_send")))
 
   <p>
-    <a id="why-have-been-sent-transcript" id="why-i-have-been-sent-a-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
+    <a id="why-have-been-sent-transcript" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")"
        data-journey-click="link - click:Help with your Self Assessment return:Why have I been sent a tax return - video transcript">
       @Messages("helpWithYourSelfAssessmentTaxReturn.why_have_i_been")
       @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
   </p>
-</div>
+
   <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_will_usually")</p>
   <p>@Messages("helpWithYourSelfAssessmentTaxReturn.you_can_anonymously") <a id="check-if-you" href="@appConfig.getGovUrl("CheckIfYouNeedToSelfAssessment")" data-journey-click="link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return">@messages("helpWithYourSelfAssessmentTaxReturn.check_if_you")</a>.
   </p>
@@ -59,74 +55,60 @@
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_need_to")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_did_not")</p>
 
-<div class="panel panel-border-wide">
-    <p><a href = "https://youtu.be/W5DEsNulsfo" id="first-sa-tax-return" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Your first self assessment tax return - video link">
-    @messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment_tax_")
-        </a>
-    </p>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourFirstSelfAssessmentReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")))
 
   <p>
-      <a href="@controllers.routes.TranscriptController.onPageLoad("new-your-first-tax-return")" id="new-first-sa-tax-return"
-      data-journey-click="link - click:Help with your Self Assessment return:Your first self assessment tax return - video transcript">
-      @messages("helpWithYourSelfAssessmentTaxReturn.first_sa_return_transcript")
-      </a>
+    <a id="your-first-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("your-first-tax-return")"
+       data-journey-click="link - click:Help with your Self Assessment return:Your first Self Assessment tax return - video transcript">
+        @messages("helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment")
+        @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
+    </a>
   </p>
-</div>
 
   <h2>@messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")</h2>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.you_will_tailor")</p>
 
-<div class="panel panel-border-wide">
-    <p><a href = "https://youtu.be/Rr0LUxFQ33g" id="tailor-tax-return" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Tailor your tax return - video link">
-        @messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return")
-        </a>
-    </p>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("tailorYourReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")))
 
   <p>
-      <a href="@controllers.routes.TranscriptController.onPageLoad("new-how-do-i-tailor-sa-tax")" id="tailor-tax-return-transcript"
-         data-journey-click="link - click:Help with your Self Assessment return:Tailor your tax return - video transcript">
-          @messages("helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript")
-      </a>
+    <a id="tailor-your-tax-return-transcript" href="@controllers.routes.TranscriptController.onPageLoad("tailor-your-tax-return")"
+       data-journey-click="link - click:Help with your Self Assessment return:Tailor your tax return - video transcript">
+      @messages("helpWithYourSelfAssessmentTaxReturn.tailor_your_return")
+      @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
+    </a>
   </p>
-</div>
 
   <h2>@messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")</h2>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_you_started")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.did_not_trade")</p>
 
-<div class = "panel panel-border-wide">
-    <p><a href = "https://youtu.be/revvcPm40IE" id="your-self-employed-tax-return-video" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Your self-employed tax return - video link">
-        @messages("helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return")
-    </a>
-    </p>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourSelfEmployedTaxReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")))
+
   <p>
     <a id="your-self-employed-tax-return-transcript"
-    href="@controllers.routes.TranscriptController.onPageLoad("new-your-self-employed-tax-return")"
+    href="@controllers.routes.TranscriptController.onPageLoad("your-self-employed-tax-return")"
     data-journey-click="link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript">
       @messages("helpWithYourSelfAssessmentTaxReturn.your_self_employed_return")
       @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
     </a>
   </p>
-</div>
+
   <h2>@messages("helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_")</h2>
 
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.do_not_fill")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_your_property")</p>
   <p>@messages("helpWithYourSelfAssessmentTaxReturn.if_from_partnership")</p>
 
-<div class="panel panel-border-wide">
-    <p><a href="https://youtu.be/jUVNt68r2h0" id="income-from-property" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Income from property - video link">
-    @messages("helpWithYourSelfAssessmentTaxReturn.income_from_property")
-        </a>
-    </p>
+  @components.embed_youtube_video(appConfig.getYoutubeVideoId("yourIncomeFromPropertyTaxReturn"), Some(messages("helpWithYourSelfAssessmentTaxReturn.your_income_from_property_return")))
 
   <p>
-      <a href="@controllers.routes.TranscriptController.onPageLoad("new-income-from-property")" id="income-from-property-transcript"
-         data-journey-click="link - click:Help with your Self Assessment return:Income from property - video transcript">
-        @messages("helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript")
-      </a>
+    <a id="your-income-from-property-tax-return-transcript"
+      href="@controllers.routes.TranscriptController.onPageLoad("your-income-from-property-tax-return")"
+      data-journey-click="link - click:Help with your Self Assessment return:Your income from property tax return - video transcript">
+        @messages("helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_")
+        @messages("helpWithYourSelfAssessmentTaxReturn.video_transcript")
+    </a>
   </p>
-</div>
 
     <h2>@Messages("sa.record_keeping.heading")</h2>
 
@@ -138,17 +120,12 @@
     <p>@Messages("sa.record_keeping.vat_registered")</p>
     <p><strong class="bold-small">@Messages("sa.record_keeping.store_your_records")</strong></p>
 
-<div class = "panel panel-border-wide">
-    <p><a href = "https://youtu.be/4OlkduJ5MTU" id="record-keeping-video" target="_blank" data-journey-click="link - click:Help with your Self Assessment return:Basic recording keeping for the self employed - video link">
-        @messages("helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping")
-    </a>
-    </p>
+    @components.embed_youtube_video(appConfig.getYoutubeVideoId("basicRecordKeeping"), Some(messages("sa.record_keeping.heading")))
 
     <p>
         <a href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id="record-keeping-transcript" data-journey-click="link - click:Help with your Self Assessment return:Record keeping - video transcript">
             @Messages("sa.record_keeping.heading") - @Messages("sa.record_keeping.video_transcript")
         </a>
     </p>
-</div>
 
 }

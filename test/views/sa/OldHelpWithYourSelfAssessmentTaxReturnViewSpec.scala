@@ -18,14 +18,14 @@ package views.sa
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.help_with_your_self_assessment_tax_return
+import views.html.sa.old_help_with_your_self_assessment_tax_return
 import collection.JavaConverters._
 
-class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
+class OldHelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "helpWithYourSelfAssessmentTaxReturn"
 
-  def createView = () => inject[help_with_your_self_assessment_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[old_help_with_your_self_assessment_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
 
   "SelfAssessmentTaxReturnCheck view" must {
     behave like normalPage(createView, messageKeyPrefix)
@@ -117,11 +117,10 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "why-i-have-been-sent-a-tax-return",
-        "Video - Why have I been sent a tax return? (opens in new tab)",
-        "https://youtu.be/ZtJTCJc58Gk",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Why have I been sent a tax return - video link")
+        "check-if-you",
+        "check if you need to fill in a Self Assessment tax return",
+        "https://www.gov.uk/check-if-you-need-a-tax-return",
+        "link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return")
       assertLinkById(
         doc,
         "why-have-been-sent-transcript",
@@ -130,75 +129,41 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "link - click:Help with your Self Assessment return:Why have I been sent a tax return - video transcript")
       assertLinkById(
         doc,
-        "check-if-you",
-        "check if you need to fill in a Self Assessment tax return",
-        "https://www.gov.uk/check-if-you-need-a-tax-return",
-        "link - click:Help with your Self Assessment return:check if you need to fill in a Self Assessment tax return")
+        "your-first-tax-return-transcript",
+        "Your first Self Assessment tax return - video transcript",
+        "/business-account/help/transcript/your-first-tax-return",
+        "link - click:Help with your Self Assessment return:Your first Self Assessment tax return - video transcript")
       assertLinkById(
         doc,
-        "first-sa-tax-return",
-        "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://youtu.be/W5DEsNulsfo",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your first self assessment tax return - video link")
-      assertLinkById(
-        doc,
-        "tailor-tax-return",
-        "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/Rr0LUxFQ33g",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Tailor your tax return - video link")
-      assertLinkById(
-        doc,
-        "your-self-employed-tax-return-video",
-        "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/revvcPm40IE",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your self-employed tax return - video link")
+        "tailor-your-tax-return-transcript",
+        "Tailor your tax return - video transcript",
+        "/business-account/help/transcript/tailor-your-tax-return",
+        "link - click:Help with your Self Assessment return:Tailor your tax return - video transcript")
       assertLinkById(
         doc,
         "your-self-employed-tax-return-transcript",
         "Your self-employed tax return - video transcript",
-        "/business-account/help/transcript/new-your-self-employed-tax-return",
+        "/business-account/help/transcript/your-self-employed-tax-return",
         "link - click:Help with your Self Assessment return:Your self-employed tax return - video transcript")
       assertLinkById(
         doc,
-        "income-from-property",
-        "Video - Income from property - what do I include on my tax return? (opens in new tab)",
-        "https://youtu.be/jUVNt68r2h0",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Income from property - video link")
+        "your-income-from-property-tax-return-transcript",
+        "If I have income from property, how do I fill in my tax return? - video transcript",
+        "/business-account/help/transcript/your-income-from-property-tax-return",
+        "link - click:Help with your Self Assessment return:Your income from property tax return - video transcript")
       assertLinkById(
         doc,
-        "record-keeping-video",
-        "Video - Basic record keeping for the self-employed (opens in new tab)",
-        "https://youtu.be/4OlkduJ5MTU",
-        expectedOpensInNewTab = true,
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Basic recording keeping for the self employed - video link")
-        assertLinkById(
-          doc,
-          "record-keeping-transcript",
-          "Basic record keeping when you’re self-employed - video transcript",
-          "/business-account/help/transcript/record-keeping-for-self-employed",
-          expectedGAEvent = "link - click:Help with your Self Assessment return:Record keeping - video transcript")
-      assertLinkById(
-        doc,
-        "new-first-sa-tax-return",
-        "My first Self Assessment tax return - video transcript",
-        "/business-account/help/transcript/new-your-first-tax-return",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Your first self assessment tax return - video transcript")
-      assertLinkById(
-        doc,
-        "tailor-tax-return-transcript",
-        "How do I tailor my Self Assessment tax return? - video transcript",
-        "/business-account/help/transcript/new-how-do-i-tailor-sa-tax",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Tailor your tax return - video transcript")
-      assertLinkById(
-        doc,
-        "income-from-property-transcript",
-        "Income from property - what do I include on my tax return? - video transcript",
-        "/business-account/help/transcript/new-income-from-property",
-        expectedGAEvent = "link - click:Help with your Self Assessment return:Income from property - video transcript")
+        "record-keeping-transcript",
+        "Basic record keeping when you’re self-employed - video transcript",
+        "/business-account/help/transcript/record-keeping-for-self-employed",
+        expectedGAEvent = "link - click:Help with your Self Assessment return:Record keeping - video transcript")
+
+    }
+
+    "have youtube url in html for each embedded video" in {
+      val doc = asDocument(createView())
+      val listOfVideoId: List[String] = List("5qOq9nWx-0c", "D-WSq_vSTU8", "8I9A4ZefLPU", "kqeoa1VNt9w", "ZKKVd1XQQJA", "4OlkduJ5MTU")
+      listOfVideoId.foreach(id => doc.toString must include(s"https://www.youtube.com/embed/$id?autoplay=0"))
     }
   }
 }
