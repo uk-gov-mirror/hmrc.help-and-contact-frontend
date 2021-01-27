@@ -153,44 +153,344 @@ howToPaySelfAssessment.view.tax_return_calculations = Video - Viewing your Self 
 howToPaySelfAssessment.taxbill = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
 howToPaySelfAssessment.view.budget_for_my_self_assessment_tax = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
 howToPaySelfAssessment.view.self_assessment_penalties = Video - Self Assessment penalties (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help with your self assessment tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-helpWithYourSelfAssessmentTaxReturn.title = Help with your Self Assessment return
-helpWithYourSelfAssessmentTaxReturn.heading = Help with your Self Assessment return
-helpWithYourSelfAssessmentTaxReturn.who_must_send = Who must send a tax return?
+helpWithYourSelfAssessmentTaxReturn.title = Help with your Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.heading = Help with your Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.registering_for_sa = Registering for Self Assessment
+helpWithYourSelfAssessmentTaxReturn.find_out_more = Find out more about registering for Self Assessment online
+helpWithYourSelfAssessmentTaxReturn.why_you_must_complete = Why you must complete and file a Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = You will usually be sent a tax return or a letter about a tax return if you are registered as self-employed.
+helpWithYourSelfAssessmentTaxReturn.file_by_deadline = You must file your tax return even if you have no tax to pay. If you do not file it by the deadline, you may have to pay a penalty.
+helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Video - Why have I been sent a tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Why have I been sent a tax return? - video transcript
+helpWithYourSelfAssessmentTaxReturn.not_complete = If you do not need to complete and file a Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.used_to_file = If you used to file a tax return but do not need to file one for the most recent tax year,
+helpWithYourSelfAssessmentTaxReturn.used_to_file_link =  tell HMRC to stop Self Assessment.
+helpWithYourSelfAssessmentTaxReturn.must_tell = You must also tell us as soon as you have stopped being self-employed.
+helpWithYourSelfAssessmentTaxReturn.your_first = Your first Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.a_tax_return_form = A tax return is a form on which you:
+helpWithYourSelfAssessmentTaxReturn.list_report_details = report details of your taxable income
+helpWithYourSelfAssessmentTaxReturn.list_clain_tax = claim tax allowances and tax reliefs
+helpWithYourSelfAssessmentTaxReturn.hmrc_may_issue = HMRC may issue a tax return to you each tax year. The Self Assessment tax year runs from 6 April one year to 5 April the next year.
+helpWithYourSelfAssessmentTaxReturn.sa316 = If you receive a tax return, or a notice to file (SA316), the law says you must complete it.
+helpWithYourSelfAssessmentTaxReturn.to_work_out = We use the information on your tax return to work out your tax bill or whether you are due a tax refund.
+helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion = If this is your first tax return, you must register for Self Assessment before you can complete and file your return.
+helpWithYourSelfAssessmentTaxReturn.more_about_registering = Find out more about registering for Self Assessment online
+helpWithYourSelfAssessmentTaxReturn.first_sa_video = Video - My first Self Assessment tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Your first Self Assessment tax return - video transcript
+helpWithYourSelfAssessmentTaxReturn.help_completing = Help with completing and filing your tax return
+helpWithYourSelfAssessmentTaxReturn.watch_videos = Watch videos, get email alerts, take part in webinars and
+helpWithYourSelfAssessmentTaxReturn.learn_more = learn more about Self Assessment (opens in new tab).
+helpWithYourSelfAssessmentTaxReturn.how_to_tailor = How to tailor your return
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Tailor your tax return - video transcript
+helpWithYourSelfAssessmentTaxReturn.self_employed = If you are self-employed
+helpWithYourSelfAssessmentTaxReturn.self_employed_video = Video - Your self-employed tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.self_employed_transcript = Your self-employed tax return - video transcript
+helpWithYourSelfAssessmentTaxReturn.income_from_property_header = If you have income from property
+helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Video - Income from property - what do I include on my tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = If I have income from property, how do I fill in my tax return? - video transcript
+helpWithYourSelfAssessmentTaxReturn.more_help_with_sa = More help with Self Assessment
+helpWithYourSelfAssessmentTaxReturn.who_must_file = Who must file a tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.need_to_change = If you need to change your tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.howtopaysa = How to pay your Self Assessment
+helpWithYourSelfAssessmentTaxReturn.sa_resource = Self Assessment resource list (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Your first Self Assessment tax return
-helpWithYourSelfAssessmentTaxReturn.why_have_i_been = Why have I been sent a tax return
-helpWithYourSelfAssessmentTaxReturn.tailor_your_return = Tailor your tax return
 helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Your self-employed tax return
 helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_ = If I have income from property, how do I fill in my tax return?
 helpWithYourSelfAssessmentTaxReturn.video_transcript = - video transcript
-helpWithYourSelfAssessmentTaxReturn.you_will_usually = You will usually be sent a tax return if you are registered as self-employed.
-helpWithYourSelfAssessmentTaxReturn.you_can_anonymously = You can anonymously
-helpWithYourSelfAssessmentTaxReturn.check_if_you = check if you need to fill in a Self Assessment tax return
-helpWithYourSelfAssessmentTaxReturn.if_you_are_sent = If you are sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you do not have any tax to pay. If you do not send a tax return back by the deadline you may have to pay a penalty. If you used to send a tax return but do not need to send one for the last tax year, contact HMRC to close your Self Assessment account. You must also tell HMRC if you have stopped being self-employed.
-helpWithYourSelfAssessmentTaxReturn.self_assessment_is_a = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
-helpWithYourSelfAssessmentTaxReturn.tax_is_usually = Tax is usually deducted automatically from wages, pensions and savings. People and businesses with other income must report it in a tax return.
-helpWithYourSelfAssessmentTaxReturn.self_assessment_is_not = Self Assessment is not just for self-employed people. Everyone who has to complete a tax return must do so, even if there is nothing to pay. You may be charged a penalty if you do not.
-helpWithYourSelfAssessmentTaxReturn.if_you_need_to = If you need to send one, you fill it in after the end of the tax year (5 April) it applies to.
-helpWithYourSelfAssessmentTaxReturn.if_you_did_not = If you did not send an online return last year, allow extra time (up to 20 working days) as you will need to register first.
-helpWithYourSelfAssessmentTaxReturn.you_will_tailor = You will tailor your tax return on the first 3 pages. Use this section to tell us about your different types of income, employments and self-employments so that you only see the parts of the tax return that you need to.
-helpWithYourSelfAssessmentTaxReturn.if_you_started = If you started or ceased self-employment during the year, it is important to enter the dates so HMRC can update your records.
-helpWithYourSelfAssessmentTaxReturn.did_not_trade = If you did not trade for a full year, but if you had and your income would have been over £85,000, you answer “yes”. For example: If your business income over 6 months was £50,000, then for 12 months it would have been £100,000.
-helpWithYourSelfAssessmentTaxReturn.do_not_fill = Do not fill in this section if you run a guest house or offer bed and breakfast. That is classed as self-employment and you should fill in that section.
-helpWithYourSelfAssessmentTaxReturn.if_your_property = If your property is outside the European Economic Area, fill in the Foreign section.
-helpWithYourSelfAssessmentTaxReturn.if_from_partnership = If your property income was from a partnership, fill in the Partnership section.
 helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Video - Why have I been sent a tax return? (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment_tax_ = Video - My first Self Assessment tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.we_will_publish_transcript = We will publish a transcript for this video in December 2020.
 helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Video - Your self-employed tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.view.basic_recording_keeping = Video - Basic record keeping for the self-employed (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.first_sa_return_transcript = My first Self Assessment tax return - video transcript
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = How do I tailor my Self Assessment tax return? - video transcript
-helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript = Income from property - what do I include on my tax return? - video transcript
+helpWithYourSelfAssessmentTaxReturn.help_with_record = More help with record keeping
+helpWithYourSelfAssessmentTaxReturn.business_records_if = Business records if you’re self-employed (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.keeping_pay = Keeping your pay and tax records (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.complete_and_file = Complete and file your tax return (opens in new tab).
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Modular - Self Assessment tax returns
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+modular.sa_tax_return.self_assessment_tax_return = Self Assessment tax returns
+modular.sa_tax_return.is_a_system = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
+modular.sa_tax_return.income_tax_is_usually = Income Tax is usually deducted automatically from wages, pensions and savings.
+modular.sa_tax_return.people_and_business = People and businesses with other income must report it by filing a Self Assessment tax return.
+modular.sa_tax_return.sa_is_used_by = Self Assessment is used by:
+modular.sa_tax_return.list_self_employed = the self-employed
+modular.sa_tax_return.list_sole_trader = sole traders
+modular.sa_tax_return.list_individuals = individuals such as company directors
+modular.sa_tax_return.list_partnerships = partners in partnerships
+modular.sa_tax_return.list_trustees = trustees
+modular.sa_tax_return.list_others = other similar people
+modular.sa_tax_return.if_you_receive_hmrc = If you receive a tax return, or a notice to file, you must complete a return and submit it to HMRC.
+modular.sa_tax_return.who_must_file_link = Who must file a Self Assessment tax return (opens in new tab)
+modular.sa_tax_return.if_you_receive_return = If you receive a tax return, or a notice to file, you must complete and file a return.
+modular.sa_tax_return.file_tax_return = If you must file a tax return, you do so after the end of the tax year it applies to.
+modular.sa_tax_return.sa_tax_year = The Self Assessment tax year is 6 April to 5 April. For the tax year 6 April {0} to 5 April {1}, you must file your return by 31 January {2}.
+modular.sa_tax_return.need_to_register_if = You need to register for Self Assessment if:
+modular.sa_tax_return.list_must_file = you must file a tax return for {0} to {1}
+modular.sa_tax_return.and = and
+modular.sa_tax_return.list_did_not_file = you did not file one for the tax year {0} to {1}
+modular.sa_tax_return.allow_up_to = You should allow up to 20 working days if you have never filed an online tax return before.
+modular.sa_tax_return.to_file_online = To file your tax return online, you should:
+modular.sa_tax_return.list_be_registered = be registered for Self Assessment
+modular.sa_tax_return.list_add_sa_to = add Self Assessment to your tax account
+modular.sa_tax_return.list_complete_and_file = complete and file your tax return by 31 January {0}
+modular.sa_tax_return.list_pay_what_you_owe = pay what you owe by 31 January {0}
+modular.sa_tax_return.if_you_do_not_register = If you do not register, file or pay on time, you may have to pay a penalty.
+modular.sa_tax_return.have_not_received = If you have not received a notice to file a Self Assessment tax return, you can
+modular.sa_tax_return.have_not_received_link =  check anonymously if you need to file a return (opens in new tab).
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Modular - Viewing your SA calculation
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+modular.viewingSaCalculation.viewing_your_sa_calculation = Viewing your Self Assessment calculation
+modular.viewingSaCalculation.automatically_works_out = HMRC’s online tax return automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, you can view your calculation.
+modular.viewingSaCalculation.calc_shows = The calculation shows:
+modular.viewingSaCalculation.list_tax_work_out = how your tax bill has been worked out
+modular.viewingSaCalculation.list_yourincome = your income
+modular.viewingSaCalculation.list_personal_allowance = your personal allowance
+modular.viewingSaCalculation.list_taxdue = the tax due
+modular.viewingSaCalculation.list_ni_contributions = any class 2 and class 4 National Insurance contributions
+modular.viewingSaCalculation.list_opens = (opens in new tab)
+modular.viewingSaCalculation.print_a_copy = You can print a copy of the calculation for your records.
+modular.viewingSaCalculation.viewing_return_calculation_video = Video - Viewing your Self Assessment tax return calculation (opens in new tab)
+modular.viewingSaCalculation.viewing_return_calculation_transcript = Viewing your Self Assessment tax return calculations - video transcript
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Modular - Basic record keeping
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+modular.basicRecordKeeping.heading = Basic record keeping when you’re self-employed
+modular.basicRecordKeeping.must_record = You must record any money going in and out of your business, whether the transaction is made:
+modular.basicRecordKeeping.list_person = in person
+modular.basicRecordKeeping.list_phone = by phone
+modular.basicRecordKeeping.list_online = online
+modular.basicRecordKeeping.keep_records = Keep your records on paper or digitally using a computer. These include items such as invoices, sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.
+modular.basicRecordKeeping.software_suppliers = Some software suppliers offer free record keeping apps for small businesses. How you keep your records will depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses.
+modular.basicRecordKeeping.organise_income = You’ll find it easier if you organise your income and expenses into categories and update these regularly. Remember to back up your files if you’re keeping your records digitally.
+modular.basicRecordKeeping.must_keep = You must keep your business and personal transactions separate. It is not an allowable business expense to use money from your business for personal purposes.
+modular.basicRecordKeeping.vat_registered = If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers and charged your customers.
+modular.basicRecordKeeping.vat_threshold = If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.
+modular.basicRecordKeeping.years_after = You must keep your records for at least 5 years after the 31 January submission deadline of the relevant tax year. HMRC may check your records to make sure you’re paying the right amount of tax.
+modular.basicRecordKeeping.example = Example: For the tax year 2019 to 2020, the submission deadline is 31 January 2021. Keep your records until at least 31 January 2026.
+modular.basicRecordKeeping.record_keeping_video = Video - Basic record keeping for the self employed (opens in new tab)
+modular.basicRecordKeeping.record_keeping_transcript = Basic record keeping when you’re self-employed - video transcript
+modular.basicRecordKeeping.more_help_record = More help with record keeping
+modular.basicRecordKeeping.self_record = Business records if you’re self-employed (opens in new tab)
+modular.basicRecordKeeping.keeping_pay_and_tax = Keeping your pay and tax records (opens in new tab)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Register or stopping
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+register_or_stopping.title = Self Assessment: registering or stopping
+register_or_stopping.heading = Self Assessment: registering or stopping
+register_or_stopping.help_page = Registering or stopping
+register_or_stopping.class_2_ni = Class 2 National Insurance contributions
+register_or_stopping.when_you_register = When you register for Self Assessment as self employed, you are also registering for
+register_or_stopping.class_2_link = Class 2 National Insurance contributions (opens in new tab).
+register_or_stopping.class_2_video = Video - Class 2 National Insurance contributions and your tax return (opens in new tab)
+register_or_stopping.class_2_transcript = Class 2 National Insurance contributions and your tax return - transcript
+register_or_stopping.registering_for_sa = Registering for Self Assessment
+register_or_stopping.unique_taxpayer = Your Self Assessment Unique Taxpayer Reference (UTR) is a 10 digit number. You can find it on:
+register_or_stopping.list_welcome_letter = your Welcome to Self Assessment letter (SA250)
+register_or_stopping.list_previous_tax_returns = tax returns you completed in previous years
+register_or_stopping.list_other_documents = other documents from HMRC
+register_or_stopping.can_find_utr = You can find your UTR (opens in new tab) if you do not know it.
+register_or_stopping.not_self_employed = If you are not self-employed
+register_or_stopping.did_not_file_return = If you did not file a tax return last year and have to file one this year,
+register_or_stopping.sa1_link = use form SA1 to register for Self Assessment (opens in new tab).
+register_or_stopping.are_self_employed = If you are self-employed
+register_or_stopping.did_not_file_this_year = If you did not file a tax return last year and have to file one this year,
+register_or_stopping.register_link = register for Self Assessment.
+register_or_stopping.partnership = If you are a partner or partnership
+register_or_stopping_utr_reference = You will need the Unique Taxpayer Reference (UTR) for the partnership and your own personal UTR if you already have one.
+register_or_stopping.new_partnership = If it is a new partnership, the nominated partner will also have to register the partnership.
+register_or_stopping.more_about_registering = Find out more about registering as a partner or partnership (opens in new tab).
+register_or_stopping.sa_guidance = Self Assessment guidance
+register_or_stopping.learn_sa = Learn about Self Assessment (opens in new tab)
+register_or_stopping.registering_sa_video = Video - Registering for Self Assessment (opens in new tab)
+register_or_stopping.registering_sa_transcript = Registering for Self Assessment: video transcript
+register_or_stopping.stop_sa = Stopping Self Assessment
+register_or_stopping.you_must = You must
+register_or_stopping.tell_hmrc_link = tell HMRC if you do not need to file tax returns any more.
+register_or_stopping.because_you_are = This could be because you are:
+register_or_stopping.list_stopping_sa = stopping self-employment
+register_or_stopping.list_no_longer = no longer trading as a sole trader
+register_or_stopping.list_ending = ending or leaving a business partnership
+register_or_stopping.send_final_return = You will need to send final tax returns and tell employees that you are closing your business.
+register_or_stopping.we_will_stop = We will stop your Self Assessment and cancel your Class 2 National Insurance contributions.
+register_or_stopping.stopping_class_2 = Stopping your Class 2 National Insurance contributions may mean you lose certain benefits.
+register_or_stopping.can_choose = You can choose to stay registered for these contributions after stopping Self Assessment if you want to make voluntary payments. This will allow you to claim benefits like Tax-Free Childcare or Maternity Allowance.
+register_or_stopping.get_help = Get help with this page
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Payment and Penalties
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+payment_and_penalties.title = Self Assessment: Payment and penalties
+payment_and_penalties.heading = Self Assessment: payment and penalties
+payment_and_penalties.help_page = Payment and penalties
+payment_and_penalties.when_to_pay = When to pay your Self Assessment tax bill
+payment_and_penalties.deadlines = The deadlines for paying are:
+payment_and_penalties.payment_balancing = 31 January {0} for your balancing payment. This is for tax year {1} to {2}
+payment_and_penalties.first_payment = 31 January {0} for your first payment on account. This is for tax year {1} to {2}
+payment_and_penalties.second_payment = 31 July {0} for your second payment on account. This is for tax year {1} to {2}
+payment_and_penalties.dont_wait = You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
+payment_and_penalties.understanding_payments = Understanding balancing payments and payments on account (opens in new tab)
+payment_and_penalties.how_to_pay_bill = How to pay your Self Assessment tax bill
+payment_and_penalties.make_sure = Make sure you pay HMRC by the deadline. You’ll be charged interest and may have to
+payment_and_penalties.pay_penalty_link = pay a penalty
+payment_and_penalties.late_payment = if your payment is late.
+payment_and_penalties.depends = The time you need to allow depends on how you pay.
+payment_and_penalties.no_longer = You can no longer pay at the Post Office.
+payment_and_penalties.read_info = Read detailed information about ways to pay your tax bill (opens in new tab)
+payment_and_penalties.how_do_i_pay_video = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
+payment_and_penalties.how_do_i_pay_transcript = How do I pay my Self Assessment tax bill? - transcript
+payment_and_penalties.budgeting_for_sa = Budgeting for your Self Assessment tax bill
+payment_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed (opens in new tab)
+payment_and_penalties.how_do_i_budget_video = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
+payment_and_penalties.how_do_i_budget_transcript = How do I budget for my Self Assessment tax bill? - video transcript
+payment_and_penalties.penalties = Penalties
+payment_and_penalties.penalty_showing = You’ll have a penalty showing on your account if you:
+payment_and_penalties.list_sent_late = sent in your tax return late
+payment_and_penalties.list_paid_late = paid tax late
+payment_and_penalties.list_not_enough = didn’t pay enough tax
+payment_and_penalties.appeal_penalty = Appealing a penalty
+payment_and_penalties.affected_covid = If your business has been affected by coronavirus (COVID-19), you have an extra 3 months to appeal any penalty dated February 2020 or later.
+payment_and_penalties.appeal_if = You can appeal a penalty if you have a
+payment_and_penalties.excuse_link = reasonable excuse,
+payment_and_penalties.for_example = for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.
+payment_and_penalties.more_help = More help with penalties
+payment_and_penalties.find_more = Find out more about Self Assessment penalties (opens in new tab)
+payment_and_penalties.interest_rates = Interest rates for late and early payments (opens in new tab)
+payment_and_penalties.sa_penalties_video = Video - Self Assessment penalties (opens in new tab)
+payment_and_penalties.sa_penalties_transcript = Self Assessment penalties - video transcript
+payment_and_penalties.penalties_interest = Your penalties and interest
+payment_and_penalties.conditional.you_can = You can:
+payment_and_penalties.conditional.appeal_sa_late = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
+payment_and_penalties.conditional.appeal_filling = appeal any late filing or late payment penalty using form SA370 (opens in new tab)
+payment_and_penalties.conditional.or = or
+payment_and_penalties.conditional.write_hmrc = write to HMRC
+payment_and_penalties.conditional.reasons_for = with your reasons for appealing
+payment_and_penalties.conditional.happens_next = What happens next
+payment_and_penalties.conditional.send_contact = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
+payment_and_penalties.conditional.no_penalties = You have no penalties or interest to display.
+payment_and_penalties.conditional.view_penalties = View your Self Assessment penalties
+payment_and_penalties.conditional.view_interest = View your Self Assessment interest
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Expenses
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+expenses.title = Expenses
+expenses.heading = Expenses
+expenses.can_include = Expenses you can include in your Self Assessment tax return
+expenses.allowable_expenses = Include all of your allowable expenses for the tax year 6 April to 5 April on your Self Assessment tax return.
+expenses.send_proof = You do not need to send proof of your expenses when you file your tax return.
+expenses.keep_proof = You should keep proof and records so that you can show them to HMRC if asked. You need to make sure your records are accurate.
+expenses.find_out_more = Find out more about allowable expenses if you’re self-employed (opens in new tab)
+expenses.what_expenses_video = Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)
+expenses.what_expenses_transcript = What expenses can I include in my Self Assessment tax return? - video transcript
+expenses.simplified = Simplified expenses
+expenses.cannot_be_used = Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.
+expenses.if_self_employed = If you’re self-employed, or a business partnership, you can choose to use simplified expenses to work out some of your expenses using flat rates instead of working out your actual business costs.
+expenses.flat_rates = You can use flat rates for business costs for:
+expenses.list_vehicles = some vehicles
+expenses.list_home = working from home
+expenses.list_living = living in your business premises.
+expenses.keep_records = Keep records during the tax year of:
+expenses.list_mileage = your vehicles’ business mileage
+expenses.list_hours = hours you work at home
+expenses.list_how_many = how many people live at your business premises
+expenses.find_out_more_simplified = Find out more about simplified expenses (opens in new tab)
+expenses.cash_basis_video = Video - Cash basis and simplified expenses (opens in new tab)
+expenses.cash_basis_transcript = Cash basis and simplified expenses - video transcript
+expenses.claiming_travel_header = Claiming travel expenses if you’re self-employed
+expenses.allowable_business_expense = You can claim allowable business expenses for items including fuel and vehicle insurance.
+expenses.cannot_claim = You cannot claim for non-business driving, or travel costs, or for fines or travel between home and work.
+expenses.actual_costs = You can claim either the actual costs, or a flat rate for business mileage. Once you have chosen one of these methods for a particular vehicle, you must continue to use it for that vehicle.
+expenses.decide_to_use = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
+expenses.flat_rate_covers = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
+expenses.claiming_travel = More help with claiming travel expenses
+expenses.travel_if = Travel expenses if you’re self-employed (opens in new tab)
+expenses.simplified_motoring_expenses = Simplified motoring expenses if you’re self employed (opens in new tab)
+expenses.motoring_expenses_video = Video - Claiming motoring expenses if you’re self-employed (opens in new tab)
+expenses.motoring_expenses_transcript = Claiming motoring expenses if you’re self-employed - video transcript
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ SA302 Evidence
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sa302.evidence.title = Getting evidence of your income - SA302
+sa302.evidence.heading = Getting evidence of your income - SA302
+sa302.evidence.complete = If you complete your return online you can:
+sa302.evidence.list_get_evidence = get evidence of your earnings (SA302) for the last 4 years that you filed online
+sa302.evidence.list_get_tax_year = get a tax year overview for any year
+sa302.evidence.list_print_calculation = print your calculation and tax year overview
+sa302.evidence.might_be = You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
+sa302.evidence.check_mortgage = Check that your mortgage provider accepts documents you have printed yourself.
+sa302.evidence.print_documents = You cannot print your documents until up to 72 hours after you have sent your tax return.
+sa302.evidence.evidence_of_income = Find out more about getting evidence of your income (opens in new tab)
+sa302.evidence.find_sa302 = Find your SA302
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class_2_ni.title = Class 2 National Insurance and your Self Assessment tax return
+class_2_ni.heading = Class 2 National Insurance and your Self Assessment tax return
+class_2_ni.if_self_employed = If you’re self-employed or in a partnership, you pay Class 2 National Insurance to qualify for State Pension and other benefits. Most people pay this in their Self Assessment payment – by 31 January, following the end of the tax year.
+class_2_ni.you_must_pay = You must pay if your profits are at, or above, the Small Profits Threshold – you can find the current rates on GOV.UK.
+class_2_ni.dont_have_to = You don’t have to pay if your profits are under the threshold – but this can affect your State Pension and other benefits. So, you may decide to pay voluntary contributions.
+class_2_ni.when_se = When you’re self-employed, to pay Class 2 National Insurance, you need to register for Self Assessment. You also need to do this when your annual turnover is below a thousand pounds and you want to pay voluntary contributions.
+class_2_ni.tax_return = On your tax return, select self-employed or in a partnership – this is the section where your Class 2 contributions are included.
+class_2_ni.your_return = Your return shows the amount due, based on the number of weeks in the tax year you were self-employed on your National Insurance records.
+class_2_ni.amount_shows = If the amount shows ‘Not available, check help’:
+class_2_ni.list_be_registered = you may not be registered correctly for self-employment, so you’ll need to register on GOV.UK or
+class_2_ni.list_the_service = the service may be unavailable. When it’s available select the ‘Recalculate’ button to show the amount due.
+class_2_ni.shows_zero = If the amount shows zero, this may be because:
+class_2_ni.list_not_registered = you’re not registered correctly for self-employment
+class_2_ni.list_already_paid = you’ve already paid the maximum National Insurance
+class_2_ni.list_received_certain = you received certain benefits meaning no Class 2 is due
+class_2_ni.list_abroad = you were abroad and pay Class 2 differently
+class_2_ni.not_sure_contact = If you’re not sure, contact the National Insurance helpline.
+class_2_ni.started_or_stopped = If you started or stopped self-employment during the year and think the amount is incorrect, select the ‘Update your self-employment details’ link to update your record, then select ‘Recalculate’.
+class_2_ni.make_voluntary = To make voluntary Class 2 payments, select ‘Yes’, otherwise select ‘No’.
+class_2_ni.full_calculation = Your full calculation shows how much tax and National Insurance you owe.
+class_2_ni.more_information = You can find more information about Self Assessment on GOV.UK.
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Cash basis and simplified expenses - Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cash_basis.title = Cash basis and simplified expenses
+cash_basis.heading = Cash basis and simplified expenses
+cash_basis.simplified_expenses = Cash basis and simplified expenses are two income tax schemes that can make life easier for self-employed businesses.
+cash_basis.instead_of = Instead of using traditional accounting rules, cash basis can be used if you’re a self-employed business or partnership with a total annual business income of £150,000 or less.
+cash_basis.only_be_taxed = You’ll only be taxed on the money that comes in and goes out of your business during the tax year. This will be easier to calculate and save you time.
+cash_basis.limit_claims = Cash basis doesn’t suit all businesses. It can limit claims to some expenses and losses.
+cash_basis.used_by_all = Simplified expenses can be used by all self-employed businesses and partnerships which don’t have limited companies as partners.
+cash_basis.way_of_working = They’re a way of working out some of your allowable business expenses using flat rates. It’s easier than using your actual business costs, which can be difficult to work out.
+cash_basis.flat_rates = Flat rates can be used for business costs for
+cash_basis.list_some_vehicles = some vehicles
+cash_basis.list_home = working from home
+cash_basis.list_living = and living at your business premises.
+cash_basis.need_to_record = You’ll need to record
+cash_basis.list_your_miles = your vehicle’s business miles
+cash_basis.list_hours_working = the hours you work at home
+cash_basis.list_how_many = and how many people live at your business premises over the year
+cash_basis.apply_flat_rate = You can then apply the flat rate to work out your expenses at the end of the tax year.
+cash_basis.more_info = You can find more information about these schemes on GOV.UK.
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister

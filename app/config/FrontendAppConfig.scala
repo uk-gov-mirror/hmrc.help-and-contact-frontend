@@ -24,6 +24,7 @@ import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
 import uk.gov.hmrc.play.language.LanguageUtils
 import models.SaUtr
 import utils.PortalUrlBuilder
+import uk.gov.hmrc.time.TaxYear
 
 @Singleton
 class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
@@ -40,13 +41,22 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
   lazy val googleTagManagerId: String       = loadConfig(s"google-tag-manager.id")
 
+  private lazy val contactHost: String = servicesConfig.getString("contact-frontend.host")
+  private val contactFormServiceIdentifier: String = "helpandcontactfrontend"
+  lazy val reportAProblemPartialUrl: String = s"$contactHost/contact/problem_reports_ajax?service=$contactFormServiceIdentifier"
+  lazy val reportAProblemNonJSUrl: String = s"$contactHost/contact/problem_reports_nonjs?service=$contactFormServiceIdentifier"
+
   def getGovUrl(key: String): String = loadConfig(s"urls.external.govuk.$key")
 
   def getYoutubeVideoId(key: String): String = loadConfig(s"urls.external.youtube.$key")
 
   private lazy val businessAccountHost: String = servicesConfig.getString("urls.business-account.host")
 
+  private lazy val addTaxHost: String = servicesConfig.getString("urls.add-tax.host")
+
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
+
+  def getAddTaxUrl(key: String): String = addTaxHost + loadConfig(s"urls.add-tax.$key")
 
   private lazy val dfsHost: String = servicesConfig.getString("urls.digital-forms-service.host")
   private lazy val dfsBase: String = servicesConfig.getString("urls.digital-forms-service.base")
@@ -64,9 +74,22 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   private lazy val portalHost: String = loadConfig("portal.host")
 
-  def getPortalUrl(key: String, saUtr: Option[SaUtr] = None)(implicit request: Request[_]): String =
-    buildPortalUrl(portalHost + loadConfig(s"urls.portal.$key"))(saUtr)
+  def getPortalUrl(key: String, saUtr: Option[SaUtr] = None, taxYearCode: Option[String] = None)(implicit request: Request[_]): String =
+    buildPortalUrl(portalHost + loadConfig(s"urls.portal.$key"))(saUtr, taxYearCode)
 
   def sessionTimeoutInSeconds: Long  = 900
   def sessionCountdownInSeconds: Int = 60
+
+  lazy val taxYearStart: Int = TaxYear.current.startYear
+  lazy val taxYearEnd: Int = TaxYear.current.finishYear
+
+  lazy val taxYearBegin: String = taxYearStart.toString
+  lazy val taxYearFinish: String = taxYearEnd.toString
+  lazy val taxYearPrevious: String = (taxYearStart - 1).toString
+  lazy val taxYearPrevious2: String = (taxYearStart - 2).toString
+  lazy val taxYearNext: String = (taxYearStart + 1).toString
+
+  def fileAReturn(key: String, sa: SaUtr)(implicit request: Request[_]): String = {
+    getPortalUrl(key, Some(sa), Some(TaxYearCode(taxYearEnd - 1).toString))
+  }
 }

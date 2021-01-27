@@ -27,8 +27,8 @@ trait PortalUrlBuilder {
 
   def languageUtils: LanguageUtils
 
-  def buildPortalUrl(url: String)(saUtr: Option[SaUtr] = None)(implicit request: Request[_]): String = {
-    val replacedUrl = UrlBuilder.buildUrl(url, Seq(("<utr>", saUtr)))
+  def buildPortalUrl(url: String)(saUtr: Option[SaUtr] = None, taxYearCode: Option[String] = None)(implicit request: Request[_]): String = {
+    val replacedUrl = UrlBuilder.buildUrl(url, Seq(("<utr>", saUtr), ("<taxYearCode>", taxYearCode)))
     appendLanguage(replacedUrl)
   }
 
