@@ -175,21 +175,6 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         "link - click:Payment and penalties : Interest rates for late and early payments",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
-        doc,
-        "sa-penalties-video",
-        "Video - Self Assessment penalties (opens in new tab)",
-        "https://youtu.be/tIqsbnmNqzA",
-        "link - click:Payment and penalties : Self Assessment penalties - video",
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "sa-penalties-transcript",
-        "Self Assessment penalties - video transcript",
-        "/business-account/help/transcript/self-assessment-penalties",
-        "link - click:Payment and penalties : Self Assessment penalties - transcript"
-      )
 
     }
 
