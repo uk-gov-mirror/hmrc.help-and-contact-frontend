@@ -45,12 +45,10 @@ class HelpAndContactController @Inject()(
                                           expenses: expenses,
                                           help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
                                           how_to_pay_self_assessment: how_to_pay_self_assessment,
-                                          old_expenses: old_expenses,
-                                          old_help_with_your_self_assessment_tax_return: old_help_with_your_self_assessment_tax_return,
-                                          old_how_to_pay_self_assessment: old_how_to_pay_self_assessment,
-                                          register_deregister: register_deregister,
+                                          register_or_stopping: register_or_stopping,
                                           payments_and_deadlines: payments_and_deadlines,
                                           register_or_deregister: register_or_deregister,
+                                          payment_and_penalties: payment_and_penalties,
                                           override val messagesApi: MessagesApi,
                                           authenticate: AuthAction,
                                           serviceInfo: ServiceInfoAction,
@@ -60,7 +58,6 @@ class HelpAndContactController @Inject()(
                                         ) extends FrontendController(controllerComponents)
   with I18nSupport {
   val youtubeFeatureSwitch = appConfig.youtubeLinksEnabled
-
   def mainPage = (authenticate andThen serviceInfo) { implicit request =>
     Ok(help_and_contact(appConfig)(request.serviceInfoContent))
   }
@@ -109,22 +106,16 @@ class HelpAndContactController @Inject()(
           )
         )
       }
-      case "expenses" => if(youtubeFeatureSwitch) {
+      case "expenses" =>  {
         Ok(expenses(appConfig)(request.serviceInfoContent))
-      } else {
-        Ok(old_expenses(appConfig)(request.serviceInfoContent))
       }
-      case "help-with-return" => if(youtubeFeatureSwitch){
-        Ok(help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
-      } else {
-        Ok(old_help_with_your_self_assessment_tax_return(appConfig)(request.serviceInfoContent))
+      case "help-with-return" => {
+        Ok(help_with_your_self_assessment_tax_return(appConfig, request.request.saUtr)(request.serviceInfoContent))
       }
-      case "how-to-pay" => if(youtubeFeatureSwitch) {
-        Ok(how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
-      } else {
-        Ok(old_how_to_pay_self_assessment(appConfig)(request.serviceInfoContent))
+      case "payment-and-penalties" => {
+        Ok(payment_and_penalties(appConfig, request.request.saUtr)(request.serviceInfoContent))
       }
-      case "register-or-deregister" => Ok(register_deregister(appConfig)(request.serviceInfoContent))
+      case "register-or-stopping" => Ok(register_or_stopping(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
 

@@ -72,22 +72,22 @@ class helpAndContactViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "register-deregister-self-assessment",
-        "Register or deregister for Self Assessment",
-        "/business-account/help/self-assessment/register-or-deregister",
-        "link - click:Help and contact:Register or deregister for Self Assessment"
+        "register-or-stopping-self-assessment",
+        "Registering or stopping",
+        "/business-account/help/self-assessment/register-or-stopping",
+        "link - click:Help and contact:Register or stopping Self Assessment"
       )
       assertLinkById(
         doc,
-        "how-to-pay-self-assessment",
-        "How to pay your Self Assessment",
-        "/business-account/help/self-assessment/how-to-pay",
-        "link - click:Help and contact:How to pay your Self Assessment"
+        "payment-and-penalties-self-assessment",
+        "Payment and penalties",
+        "/business-account/help/self-assessment/payment-and-penalties",
+        "link - click:Help and contact:Payment and Penalties"
       )
       assertLinkById(
         doc,
         "expenses",
-        "What expenses can I include in my Self Assessment tax return",
+        "Expenses",
         "/business-account/help/self-assessment/expenses",
         "link - click:Help and contact:Expenses"
       )
@@ -101,7 +101,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "help-with-sa-return",
-        "Help with your Self Assessment return",
+        "Help with your Self Assessment tax return",
         "/business-account/help/self-assessment/help-with-return",
         "link - click:Help and contact:Help with your Self Assessment return"
       )
