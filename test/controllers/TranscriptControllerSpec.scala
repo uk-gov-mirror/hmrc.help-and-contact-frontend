@@ -59,11 +59,6 @@ class TranscriptControllerSpec extends ControllerSpecBase {
   )
 
   behave like pageRouter(
-    "self-assessment-penalties",
-    () => inject[self_assessment_penalties].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
-  )
-
-  behave like pageRouter(
     "why-sent-tax-return",
     () => inject[why_sent_tax_return].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
