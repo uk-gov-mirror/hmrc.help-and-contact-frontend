@@ -446,8 +446,8 @@ sa302.evidence.find_sa302 = Dod o hyd i’ch SA302
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class_2_ni.title = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad
-class_2_ni.heading = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad
+class_2_ni.title = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
+class_2_ni.heading = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
 class_2_ni.if_self_employed = Os ydych yn hunangyflogedig neu mewn partneriaeth, rydych yn talu Yswiriant Gwladol Dosbarth 2 er mwyn bod yn gymwys ar gyfer Pensiwn y Wladwriaeth a budd-daliadau eraill. Mae’r rhan fwyaf o bobl yn talu hyn yn eu taliad Hunanasesiad – erbyn 31 Ionawr, yn dilyn diwedd y flwyddyn dreth.
 class_2_ni.you_must_pay = Mae’n rhaid i chi dalu, os yw’ch elw’n cyrraedd y Trothwy Elw Bychan, neu os yw’n fwy na hynny – gallwch ddod o hyd i’r cyfraddau presennol ar wefan GOV.UK.
 class_2_ni.dont_have_to = Nid oes rhaid i chi dalu os yw’ch elw o dan y trothwy – ond gall hyn effeithio ar eich Pensiwn y Wladwriaeth a’ch budd-daliadau eraill. Felly, efallai y byddwch yn penderfynu talu cyfraniadau gwirfoddol.
@@ -472,8 +472,8 @@ class_2_ni.more_information = Gallwch ddod o hyd i ragor o wybodaeth am Hunanase
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Cash basis and simplified expenses - Transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-cash_basis.title = Y sail arian parod a threuliau symlach
-cash_basis.heading = Y sail arian parod a threuliau symlach
+cash_basis.title = Y sail arian parod a threuliau symlach - trawsgrifiad fideo
+cash_basis.heading = Y sail arian parod a threuliau symlach - trawsgrifiad fideo
 cash_basis.simplified_expenses = Mae’r sail arian parod a threuliau symlach yn ddau gynllun treth incwm a all wneud bywyd yn haws i fusnesau hunangyflogedig.
 cash_basis.instead_of = Yn hytrach na defnyddio rheolau cyfrifyddu traddodiadol, gellir defnyddio’r sail arian parod os ydych yn fusnes hunangyflogedig neu’n bartneriaeth, a bod gennych gyfanswm incwm busnes blynyddol o £150,000 neu lai.
 cash_basis.only_be_taxed = Dim ond ar yr arian sy’n dod i mewn ac yn mynd allan o’ch busnes yn ystod y flwyddyn dreth y cewch eich trethu. Bydd hyn yn haws ei gyfrifo ac yn arbed eich amser.

@@ -93,8 +93,8 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "why-i-have-been-sent-tax-video",
         "Video - Why have I been sent a tax return? (opens in new tab)",
-        "https://youtu.be/ZtJTCJc58Gk",
-        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax - video link",
+        "https://youtu.be/ySQiDjQ1b5k",
+        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - video link",
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -102,7 +102,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "why-i-have-been-sent-tax-transcript",
         "Why have I been sent a tax return? - video transcript",
         "/business-account/help/transcript/why-sent-tax-return",
-        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax - transcript"
+        "link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - transcript"
       )
       assertLinkById(
         doc,
@@ -115,7 +115,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://youtu.be/revvcPm40IE",
+        "https://youtu.be/SSZ56xkMs48",
         "link - click:Help with your Self Assessment tax return : My first Self Assessment tax return - video",
         expectedOpensInNewTab = true
       )
@@ -153,7 +153,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "self-employed-tax-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/ZKKVd1XQQJA",
+        "https://youtu.be/revvcPm40IE",
         "link - click:Help with your Self Assessment tax return : Your self-employed tax return - video",
         expectedOpensInNewTab = true
       )
