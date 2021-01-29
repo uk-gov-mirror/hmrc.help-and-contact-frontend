@@ -446,8 +446,8 @@ sa302.evidence.find_sa302 = Find your SA302
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class_2_ni.title = Class 2 National Insurance and your Self Assessment tax return
-class_2_ni.heading = Class 2 National Insurance and your Self Assessment tax return
+class_2_ni.title = Class 2 National Insurance and your Self Assessment tax return - video transcript
+class_2_ni.heading = Class 2 National Insurance and your Self Assessment tax return - video transcript
 class_2_ni.if_self_employed = If you’re self-employed or in a partnership, you pay Class 2 National Insurance to qualify for State Pension and other benefits. Most people pay this in their Self Assessment payment – by 31 January, following the end of the tax year.
 class_2_ni.you_must_pay = You must pay if your profits are at, or above, the Small Profits Threshold – you can find the current rates on GOV.UK.
 class_2_ni.dont_have_to = You don’t have to pay if your profits are under the threshold – but this can affect your State Pension and other benefits. So, you may decide to pay voluntary contributions.
@@ -472,8 +472,8 @@ class_2_ni.more_information = You can find more information about Self Assessmen
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Cash basis and simplified expenses - Transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-cash_basis.title = Cash basis and simplified expenses
-cash_basis.heading = Cash basis and simplified expenses
+cash_basis.title = Cash basis and simplified expenses - video transcript
+cash_basis.heading = Cash basis and simplified expenses - video transcript
 cash_basis.simplified_expenses = Cash basis and simplified expenses are two income tax schemes that can make life easier for self-employed businesses.
 cash_basis.instead_of = Instead of using traditional accounting rules, cash basis can be used if you’re a self-employed business or partnership with a total annual business income of £150,000 or less.
 cash_basis.only_be_taxed = You’ll only be taxed on the money that comes in and goes out of your business during the tax year. This will be easier to calculate and save you time.
