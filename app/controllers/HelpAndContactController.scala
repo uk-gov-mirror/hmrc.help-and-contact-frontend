@@ -44,7 +44,6 @@ class HelpAndContactController @Inject()(
                                           sa_evidence: sa_evidence,
                                           expenses: expenses,
                                           help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
-                                          how_to_pay_self_assessment: how_to_pay_self_assessment,
                                           register_or_stopping: register_or_stopping,
                                           payments_and_deadlines: payments_and_deadlines,
                                           register_or_deregister: register_or_deregister,
@@ -114,6 +113,9 @@ class HelpAndContactController @Inject()(
       }
       case "payment-and-penalties" => {
         Ok(payment_and_penalties(appConfig, request.request.saUtr)(request.serviceInfoContent))
+      }
+      case "how-to-pay" => {
+        Redirect(controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "payment-and-penalties"))
       }
       case "register-or-stopping" => Ok(register_or_stopping(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)

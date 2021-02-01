@@ -76,6 +76,18 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
       }
     }
 
+  def pageRedirectWithEnrolments(helpCategory: HelpCategory,
+                               page: String,
+                               redirect: String,
+                               requestToApply: ServiceInfoRequest[AnyContentAsEmpty.type]) =
+    "HelpAndContactController onPageLoad" must {
+      s"display the correct $helpCategory view for /$page" in {
+        val result = SUT.onPageLoad(helpCategory, page)(requestToApply)
+        status(result) mustBe SEE_OTHER
+        redirectLocation(result).get mustBe redirect
+      }
+    }
+
   "HelpAndContact Controller" must {
 
     "return 404 for a page that does not exist" in {
@@ -125,6 +137,12 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
     "help-with-return",
     () =>
       inject[help_with_your_self_assessment_tax_return].apply(frontendAppConfig, Some(SaUtr("abcdefgh")))(HtmlFormat.empty)(fakeRequest, messages)
+  )
+
+  behave like pageRedirectWithEnrolments(
+    HelpCategory.SelfAssessment,
+    "how-to-pay", "/business-account/help/self-assessment/payment-and-penalties",
+    fakeServiceInfoRequest(None)
   )
 
   behave like pageRouter(
