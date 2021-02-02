@@ -18,15 +18,18 @@
  @import uk.gov.hmrc.play.views.html.layouts._
  @import uk.gov.hmrc.play.views.html.helpers._
  @import views.html.layouts.GovUkTemplate
+@import uk.gov.hmrc.play.views.html.layouts.HeadWithTrackingConsent
+@import uk.gov.hmrc.play.views.html.layouts.TrackingConsentSnippet
 
- @this(
-   uiHead: Head,
+@this(
+   uiHead: HeadWithTrackingConsent,
    uiHeaderNav: HeaderNav,
    uiFooter: Footer,
    uiServiceInfo: ServiceInfo,
    uiArticle: Article,
    uiFooterLinks: FooterLinks,
    uiEuExitLinks: EuExitLinks,
+   trackingConsentSnippet: TrackingConsentSnippet,
    hmrcGovUkTemplate: GovUkTemplate,
    uiReportAProblemLink: ReportAProblemLink
  )
@@ -43,14 +46,7 @@
   scriptElem: Option[Html] = None)(implicit request: Request[_], messages: Messages)
 
 @head = {
-    @if(appConfig.googleTagManagerId != "N/A") {
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','@appConfig.googleTagManagerId');
-        </script>
-    }
+
     @uiHead(
       linkElem = None,
       headScripts = None)
@@ -65,11 +61,6 @@
 }
 
 @insideHeader = {
-    @if(appConfig.googleTagManagerId != "N/A") {
-        <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=@appConfig.googleTagManagerId" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-    }
     @uiHeaderNav(
       navTitle = Some(messages("site.service_name")),
       navTitleLink = None,
@@ -81,8 +72,8 @@
 
 @bodyEnd = {
   @uiFooter(
-      analyticsToken = Some(appConfig.analyticsToken),
-      analyticsHost = appConfig.analyticsHost,
+      None,
+      "",
       ssoUrl = None,
       scriptElem = scriptElem,
       gaCalls = None)

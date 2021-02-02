@@ -33,13 +33,10 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   private def loadConfig(key: String): String = servicesConfig.getString(key)
 
-  lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
-  lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
   lazy val btaUrl: String                   = servicesConfig.baseUrl("business-tax-account")
   lazy val loginUrl: String                 = loadConfig("urls.login")
   lazy val loginContinueUrl: String         = loadConfig("urls.loginContinue")
   lazy val requestCorporationTaxUTR: String = loadConfig("urls.requestCorporationTaxUTR")
-  lazy val googleTagManagerId: String       = loadConfig(s"google-tag-manager.id")
 
   private lazy val contactHost: String = servicesConfig.getString("contact-frontend.host")
   private val contactFormServiceIdentifier: String = "helpandcontactfrontend"
