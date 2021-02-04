@@ -32,7 +32,6 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
     extends PortalUrlBuilder {
 
   private def loadConfig(key: String): String = servicesConfig.getString(key)
-
   lazy val analyticsToken: String           = loadConfig(s"google-analytics.token")
   lazy val analyticsHost: String            = loadConfig(s"google-analytics.host")
   lazy val btaUrl: String                   = servicesConfig.baseUrl("business-tax-account")
