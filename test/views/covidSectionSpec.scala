@@ -37,7 +37,7 @@ class covidSectionSpec extends ViewBehaviours {
       doc.getElementById("covid-help").html() mustBe "Coronavirus (COVID-19) support"
     }
 
-    "have first row links" in {
+    "have correct links" in {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
@@ -49,50 +49,22 @@ class covidSectionSpec extends ViewBehaviours {
       )
       assertLinkById(
         doc,
-        "covid-videos-hmrc-youtube-channel",
-        "Videos and webinars (HMRC You Tube channel) (opens in new tab)",
-        "https://www.youtube.com/playlist?list=PL8EcnheDt1zhTsyhT9ak3xiXnmlvbHJJV",
-        "link - click:Help and contact:covid help videos and webinars(opens in new tab)",
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
         "covid-financial-support-for-businesses",
         "Financial support for businesses (opens in new tab)",
         "https://www.gov.uk/government/collections/financial-support-for-businesses-during-coronavirus-covid-19#business-support-grant-funds",
         "link - click:Help and contact:covid help support businesses",
         expectedOpensInNewTab = true
       )
-    }
-
-    "have second row links" in {
-      val doc = asDocument(createView())
       assertLinkById(
         doc,
         "covid-debt-management-for-tax-bills",
         "Debt management for tax bills: contact HMRC (opens in new tab)",
-         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/coronavirus-covid-19-helpline",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/coronavirus-covid-19-helpline",
         "link - click:Help and contact:covid help webchat tax bills",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
-        doc,
-        "covid-coronavirus-job-retention_scheme",
-        "Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)",
-        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/get-help-with-the-coronavirus-job-retention-scheme",
-        "link - click:Help and contact:covid help webchat cjrs",
-        expectedOpensInNewTab = true
-
-      )
-      assertLinkById(
-        doc,
-        "covid-self-employment-income-support-scheme",
-        "Self-Employment Income Support Scheme (SEISS): Grant Extension (opens in new tab)",
-        "https://www.gov.uk/government/publications/self-employment-income-support-scheme-grant-extension/self-employment-income-support-scheme-grant-extension",
-        "link - click:Help and contact:covid help webchat seiss",
-          expectedOpensInNewTab = true
-      )
     }
+
   }
 
 }
