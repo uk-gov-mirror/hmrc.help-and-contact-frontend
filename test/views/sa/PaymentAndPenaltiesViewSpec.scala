@@ -20,10 +20,12 @@ import models.SaUtr
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.payment_and_penalties
+import config.FrontendAppConfig
 
 class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "payment_and_penalties"
+  lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
   def createView(hasUtr: Option[SaUtr] = None) = () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(HtmlFormat.empty)(fakeRequest, messages)
 
@@ -48,11 +50,14 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView()())
       doc.text() must include("The deadlines for paying are:")
 
-      doc.text() must include("31 January 2021 for your balancing payment. This is for tax year 2019 to 2020")
+      doc.text() must include(s"31 January ${appConfig.taxYearNext} for your balancing payment. " +
+        s"This is for tax year ${appConfig.taxYearPrevious} to ${appConfig.taxYearBegin}")
 
-      doc.text() must include("31 January 2021 for your first payment on account. This is for tax year 2020 to 2021")
+      doc.text() must include(s"31 January ${appConfig.taxYearNext} for your first payment on account." +
+        s" This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}")
 
-      doc.text() must include("31 July 2021 for your second payment on account. This is for tax year 2020 to 2021")
+      doc.text() must include(s"31 July ${appConfig.taxYearNext} for your second payment on account. " +
+        s"This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}")
 
       doc.text() must include("You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.")
 

@@ -8,7 +8,6 @@ private object AppDependencies {
 
   val compile: Seq[ModuleID] = Seq(
     ws,
-    "uk.gov.hmrc" %% "simple-reactivemongo" % "7.30.0-play-27",
     "uk.gov.hmrc" %% "govuk-template" % "5.57.0-play-27",
     "uk.gov.hmrc" %% "play-ui" % "8.21.0-play-27",
     "uk.gov.hmrc" %% "http-caching-client" % "9.1.0-play-27",

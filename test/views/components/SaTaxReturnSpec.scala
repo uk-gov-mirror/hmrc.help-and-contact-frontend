@@ -19,10 +19,12 @@ package views.components
 import org.jsoup.Jsoup
 import views.behaviours.ViewBehaviours
 import views.html.components.sa_tax_return
+import config.FrontendAppConfig
 
 class SaTaxReturnSpec extends ViewBehaviours {
 
   val view = sa_tax_return(frontendAppConfig)(messages)
+  lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
   "Self Assessment Expenses view" must {
 
@@ -52,16 +54,16 @@ class SaTaxReturnSpec extends ViewBehaviours {
 
       doc.text() must include("If you must file a tax return, you do so after the end of the tax year it applies to.")
 
-      doc.text() must include("The Self Assessment tax year is 6 April to 5 April. For the tax yea" +
-        "r 6 April 2019 to 5 April 2020, you must file your return by 31 January 2021.")
+      doc.text() must include(s"The Self Assessment tax year is 6 April to 5 April. For the tax yea" +
+        s"r 6 April ${appConfig.taxYearPrevious} to 5 April ${appConfig.taxYearBegin}, you must file your return by 31 January ${appConfig.taxYearNext}.")
 
       doc.text() must include("You need to register for Self Assessment if:")
 
-      doc.text() must include("you must file a tax return for 2019 to 2020")
+      doc.text() must include(s"you must file a tax return for ${appConfig.taxYearPrevious} to ${appConfig.taxYearBegin}")
 
       doc.text() must include("and")
 
-      doc.text() must include("you did not file one for the tax year 2018 to 2019")
+      doc.text() must include(s"you did not file one for the tax year ${appConfig.taxYearPrevious2} to ${appConfig.taxYearPrevious}")
 
       doc.text() must include("You should allow up to 20 working days if you have never filed an online tax return before.")
 
@@ -71,9 +73,9 @@ class SaTaxReturnSpec extends ViewBehaviours {
 
       doc.text() must include("add Self Assessment to your tax account")
 
-      doc.text() must include("complete and file your tax return by 31 January 2021")
+      doc.text() must include(s"complete and file your tax return by 31 January ${appConfig.taxYearNext}")
 
-      doc.text() must include("pay what you owe by 31 January 2021")
+      doc.text() must include(s"pay what you owe by 31 January ${appConfig.taxYearNext}")
 
       doc.text() must include("If you do not register, file or pay on time, you may have to pay a penalty.")
 
