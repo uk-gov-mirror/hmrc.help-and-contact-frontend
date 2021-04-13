@@ -82,11 +82,13 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   lazy val taxYearStart: Int = TaxYear.current.startYear
   lazy val taxYearEnd: Int = TaxYear.current.finishYear
 
+
   lazy val taxYearBegin: String = taxYearStart.toString
   lazy val taxYearFinish: String = taxYearEnd.toString
   lazy val taxYearPrevious: String = (taxYearStart - 1).toString
   lazy val taxYearPrevious2: String = (taxYearStart - 2).toString
   lazy val taxYearNext: String = (taxYearStart + 1).toString
+  lazy val previousTaxYearCode: String = TaxYearCode(taxYearEnd -1).toString
 
   def fileAReturn(key: String, sa: SaUtr)(implicit request: Request[_]): String = {
     getPortalUrl(key, Some(sa), Some(TaxYearCode(taxYearEnd - 1).toString))

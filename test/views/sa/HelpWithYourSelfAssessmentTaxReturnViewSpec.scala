@@ -21,6 +21,7 @@ import views.behaviours.ViewBehaviours
 import models.{SaUtr, SaUtrGenerator}
 import views.html.sa.help_with_your_self_assessment_tax_return
 import collection.JavaConverters._
+import config.FrontendAppConfig
 
 class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
@@ -219,7 +220,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "complete-and-file",
         "Complete and file your tax return (opens in new tab).",
-        "http://localhost:8080/portal/self-assessment-file/1920/ind/1234567890/return?lang=eng",
+        s"http://localhost:8080/portal/self-assessment-file/${frontendAppConfig.previousTaxYearCode}/ind/1234567890/return?lang=eng",
         "link - click:Help with your Self Assessment tax return : Complete and file your tax return",
         expectedOpensInNewTab = true
       )
