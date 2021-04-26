@@ -32,7 +32,7 @@ class LanguageSwitchController @Inject() (
                                            override val controllerComponents: MessagesControllerComponents
                                          ) extends FrontendController(controllerComponents) with I18nSupport {
 
-  private def fallbackURL: String = routes.HelpAndContactController.mainPage().url
+  private def fallbackURL: String = routes.HelpAndContactController.mainPage.url
 
   private def languageMap: Map[String, Lang] = appConfig.languageMap
 
