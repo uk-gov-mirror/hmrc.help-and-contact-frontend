@@ -27,9 +27,11 @@ import org.mockito.stubbing.Answer
 import org.scalatest.{BeforeAndAfterEach, Suite}
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.{Request, Result}
-import play.api.test.{NoMaterializer, StubPlayBodyParsersFactory}
+import play.api.test.StubPlayBodyParsersFactory
+import akka.stream.testkit.NoMaterializer
 import uk.gov.hmrc.auth.core.AuthConnector
 import models.SaUtr
+import org.mockito.ArgumentMatchers
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -58,8 +60,8 @@ trait MockAuth extends MockitoSugar with BeforeAndAfterEach with StubPlayBodyPar
     doAnswer(
       new Answer[Future[Result]] {
         def answer(invocation: InvocationOnMock): Future[Result] = {
-          val request: Request[_] = invocation.getArgumentAt(0, classOf[Request[_]])
-          val block: Request[_] => Future[Result] = invocation.getArgumentAt(1, classOf[Request[_] => Future[Result]])
+          val request: Request[_] = invocation.getArgument(0, classOf[Request[_]])
+          val block: Request[_] => Future[Result] = invocation.getArgument(1, classOf[Request[_] => Future[Result]])
 
           val authenticated = userType match {
             case UserType.ActiveSa => activeSa(request)
@@ -68,7 +70,7 @@ trait MockAuth extends MockitoSugar with BeforeAndAfterEach with StubPlayBodyPar
           block(authenticated)
         }
       }
-    ).when(mockAuthAction).invokeBlock(any(), any())
+    ).when(mockAuthAction).invokeBlock(ArgumentMatchers.any(), ArgumentMatchers.any())
 
 }
 

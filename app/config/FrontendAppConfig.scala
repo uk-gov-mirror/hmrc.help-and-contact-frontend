@@ -64,6 +64,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   def getDfsFormUrl(formId: String): String = s"$dfsHost$dfsBase${servicesConfig.getString(s"urls.digital-forms-service.formTypeRef.$formId")}$dfsSuffix"
 
   lazy val languageTranslationEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.welsh-translation")
+  lazy val languageTranslationEnabledOption: Boolean = servicesConfig.getConfBool("microservice.services.features.welsh-translation", true)
 
   lazy val youtubeLinksEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.youtube-links")
 

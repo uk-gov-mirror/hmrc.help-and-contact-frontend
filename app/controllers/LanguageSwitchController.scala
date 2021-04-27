@@ -19,14 +19,12 @@ package controllers
 import javax.inject.Inject
 import config.FrontendAppConfig
 import controllers.LanguageSwitchController._
-import play.api.Configuration
 import play.api.i18n.{I18nSupport, Lang}
 import play.api.mvc.{Action, AnyContent, Flash, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import uk.gov.hmrc.play.language.LanguageUtils
 
 class LanguageSwitchController @Inject() (
-                                           configuration: Configuration,
                                            appConfig: FrontendAppConfig,
                                            languageUtils: LanguageUtils,
                                            override val controllerComponents: MessagesControllerComponents
@@ -48,9 +46,7 @@ class LanguageSwitchController @Inject() (
       Redirect(redirectURL).withLang(Lang.apply(lang.code)).flashing(FlashWithSwitchIndicator)
   }
 
-  private def isWelshEnabled: Boolean =
-    configuration.getOptional[Boolean]("microservice.services.features.welsh-translation").getOrElse(true)
-    
+  private def isWelshEnabled: Boolean = appConfig.languageTranslationEnabledOption
 
 }
 

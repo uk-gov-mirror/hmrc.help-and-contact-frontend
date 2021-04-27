@@ -18,6 +18,7 @@ package controllers.actions
 
 import base.SpecBase
 import controllers.routes
+import org.mockito.ArgumentMatchers
 import org.mockito.Matchers._
 import org.mockito.Mockito._
 import org.scalatest.BeforeAndAfterEach
@@ -56,7 +57,7 @@ class AuthActionSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach 
   type RetrievalType = ~[~[Some[String], Enrolments], Option[Credentials]]
 
   def mockAuth(result: Future[RetrievalType]): Unit =
-    when(mockAuthConnector.authorise[RetrievalType](any(), any())(any(), any())).thenReturn(result)
+    when(mockAuthConnector.authorise[RetrievalType](ArgumentMatchers.any(), ArgumentMatchers.any())(ArgumentMatchers.any(), ArgumentMatchers.any())).thenReturn(result)
 
   val SUT = new Harness
 
