@@ -21,5 +21,5 @@ import uk.gov.hmrc.play.partials.HeaderCarrierForPartialsConverter
 
 @Singleton
 class HelpAndContactHeaderCarrierForPartialsConverter extends HeaderCarrierForPartialsConverter {
-  override def crypto: String => String = identity
+   def crypto: String => String = identity
 }
