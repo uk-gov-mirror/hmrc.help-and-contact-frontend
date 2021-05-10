@@ -11,9 +11,9 @@ private object AppDependencies {
     "uk.gov.hmrc" %% "govuk-template" % "5.66.0-play-27",
     "uk.gov.hmrc" %% "play-ui" % "9.2.0-play-27",
     "uk.gov.hmrc" %% "http-caching-client" % "9.2.0-play-27",
-    "uk.gov.hmrc" %% "bootstrap-frontend-play-27" % "2.25.0",
+    "uk.gov.hmrc" %% "bootstrap-frontend-play-27" % "5.1.0",
     "uk.gov.hmrc" %% "play-language" % "4.12.0-play-27",
-    "uk.gov.hmrc" %% "play-partials" % "6.11.0-play-27",
+    "uk.gov.hmrc" %% "play-partials" % "8.1.0-play-27",
     "uk.gov.hmrc" %% "tax-year" % "1.3.0"
   )
 
@@ -30,7 +30,7 @@ private object AppDependencies {
 
   def test(): Seq[ModuleID] = {
     val scope: String = "test"
-    Seq("org.mockito" % "mockito-all" % "1.10.19" % scope)
+    Seq("org.mockito" % "mockito-core" % "3.7.0" % scope)
   }
 
   def integrationTest(): Seq[ModuleID] = {
