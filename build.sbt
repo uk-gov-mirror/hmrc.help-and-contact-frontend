@@ -9,8 +9,8 @@ import scoverage.ScoverageKeys
 import uk.gov.hmrc.DefaultBuildSettings._
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin._
-import uk.gov.hmrc.versioning.SbtGitVersioning
-import uk.gov.hmrc.versioning.SbtGitVersioning.autoImport.majorVersion
+import uk.gov.hmrc.sbtsettingkeys.Keys.isPublicArtefact
+
 
 val appName = "help-and-contact-frontend"
 
@@ -24,10 +24,7 @@ lazy val microservice = Project(appName, file("."))
   .enablePlugins(
     Seq(
       play.sbt.PlayScala,
-      SbtAutoBuildPlugin,
-      SbtGitVersioning,
-      SbtDistributablesPlugin,
-      SbtArtifactory
+      SbtDistributablesPlugin
     ) ++ plugins: _*
   )
   .disablePlugins(JUnitXmlReportPlugin)
@@ -50,7 +47,8 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.12.12"
+    scalaVersion := "2.12.12",
+    isPublicArtefact := true
   )
   .configs(IntegrationTest)
   .settings(inConfig(IntegrationTest)(Defaults.itSettings): _*)
@@ -68,13 +66,6 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= Seq(
       compilerPlugin("com.github.ghik" % "silencer-plugin" % silencerVersion cross CrossVersion.full),
       "com.github.ghik" % "silencer-lib" % silencerVersion % Provided cross CrossVersion.full
-    )
-  )
-  .settings(
-    resolvers ++= Seq(
-      Resolver.bintrayRepo("hmrc", "releases"),
-      Resolver.jcenterRepo,
-      Resolver.bintrayRepo("emueller", "maven")
     )
   )
   .settings(
