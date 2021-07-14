@@ -1078,7 +1078,6 @@ newRegistering.for.self.assessment.transcript.paragraph12 = Defnyddiwch eich UTR
 newRegistering.for.self.assessment.transcript.paragraph13 =Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK  a gallwch wylio ein fideos defnyddiol eraill ar YouTube.
 newRegistering.for.self.assessment.video_link = Fideo - Cofrestru ar gyfer Hunanasesiad (yn agor tab newydd)
 
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Basic record keeping transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1093,6 +1092,50 @@ basic.record.keeping.transcript.paragraph5 = Mae’n bwysig eich bod yn cadw’c
 basic.record.keeping.transcript.paragraph6 = Os ydych wedi cofrestru ar gyfer TAW, bydd angen i chi hefyd gadw cofnodion o faint o TAW rydych wedi’i thalu i’ch cyflenwyr a faint rydych wedi codi ar eich cwsmeriaid. Os yw’ch incwm yn uwch na’r trothwy TAW, bydd angen i chi gyflwyno’ch cofnodion i ni gan ddefnyddio meddalwedd Troi Treth yn Ddigidol.
 basic.record.keeping.transcript.paragraph7 = Gwnewch yn siŵr eich bod yn cadw’ch cofnodion am o leiaf 6 blynedd. Mae hyn oherwydd efallai y bydd angen i ni eu gweld er mwyn gwirio eich bod yn talu’r swm cywir o dreth.
 basic.record.keeping.transcript.paragraph8 = Gallwch ddod o hyd i ragor o wybodaeth am gadw cofnodion ar GOV.UK
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Add a tax transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+add.a.tax.transcript.title = Sut ydw i’n ychwanegu treth i’m Cyfrif Treth Busnes? – trawsgrifiad fideo
+add.a.tax.transcript.heading = Sut ydw i’n ychwanegu treth i’m Cyfrif Treth Busnes? – trawsgrifiad fideo
+add.a.tax.transcript.paragraph1 = Gallwch ychwanegu mwy na 40 gwasanaeth i’ch cyfrif treth busnes. Dyma sut allwch ychwanegu’r 4 prif rai:
+add.a.tax.transcript.list1 = Treth Gorfforaeth
+add.a.tax.transcript.list2 = Hunanasesiad
+add.a.tax.transcript.list3 = TWE i gyflogwyr, a
+add.a.tax.transcript.list4 = TAW
+add.a.tax.transcript.paragraph2 = Dyma hafan y cyfrif treth busnes. Bydd unrhyw wasanaeth yr ydych yn ychwanegu yn ymddangos yn y fan hon.
+add.a.tax.transcript.paragraph3 = Bob tro yr ydych yn ychwanegu gwasanaeth, byddwn yn anfon pin cychwyn atoch cyn pen 10 diwrnod.  Ar ôl i chi nodi’r pin, gallwch ddechrau defnyddio’r gwasanaeth.
+add.a.tax.transcript.paragraph4 = I ddechrau. Dewiswch ‘ychwanegu treth, toll neu gynllun’.
+add.a.tax.transcript.paragraph5 = Dewiswch ‘Treth Gorfforaeth’. Ar y sgrin nesaf, nodwch eich Cyfeirnod Unigryw y Trethdalwr ar gyfer Treth Gorfforaeth, sy’n 10 digid.
+add.a.tax.transcript.paragraph6 = Yna, nodwch un o’r canlynol:
+add.a.tax.transcript.list5 = Rhif Cofrestru Eich Cwmni – a anfonwyd atoch gan Dŷ’r Cwmnïau, neu
+add.a.tax.transcript.list6 = cod post eich swyddfa gofrestredig.
+add.a.tax.transcript.paragraph7 = Os nad yw’ch cwmni wedi’i leoli yn y DU - yna dewiswch yr opsiwn hwn. Dyna’r cwbl.
+add.a.tax.transcript.paragraph8 = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr atoch os ydych am ychwanegu Hunanasesiad.
+add.a.tax.transcript.paragraph9 = Os nad yw hwn gennych, ni allwch ychwanegu’r gwasanaeth hwn ar hyn o bryd.  Yn hytrach, cewch eich cyfeirio at gofrestru ar gyfer Hunanasesiad.
+add.a.tax.transcript.paragraph10 = Ar ôl i chi gael eich llythyr ynghylch eich Cyfeirnod Unigryw y Trethdalwr, mewngofnodwch yn ôl i’ch cyfrif treth busnes a nodwch yma eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid.
+add.a.tax.transcript.paragraph11 = Yna, dewiswch pa un o’r canlynol ydych:
+add.a.tax.transcript.list7 = unigolyn neu unig fasnachwr
+add.a.tax.transcript.list8 = partneriaeth, neu
+add.a.tax.transcript.list9 = ymddiriedolaeth
+add.a.tax.transcript.paragraph12 = Ail-nodwch eich Cyfeirnod Unigryw y Trethdalwr wedi’i ddilyn gan naill ai:
+add.a.tax.transcript.list10 = eich rhif Yswiriant Gwladol, neu’r
+add.a.tax.transcript.list11 = cod post a ddefnyddiwyd gennych wrth gofrestru ar gyfer Hunanasesiad
+add.a.tax.transcript.paragraph13 = Os ydych yn byw dramor, dewiswch yr opsiwn hwn.  Dyna’r cwbl.
+add.a.tax.transcript.paragraph14 = Dewiswch yr opsiwn yma er mwyn ychwanegu TWE i gyflogwyr.
+add.a.tax.transcript.paragraph15 = Os oes gennych gyfeirnod TWE, nodwch ef yn y fan hon ynghyd â’r canlynol:
+add.a.tax.transcript.list12 = rhif y swyddfa CThEM, a’ch
+add.a.tax.transcript.list13 = cyfeirnod Swyddfa Gyfrifon.
+add.a.tax.transcript.paragraph16 = Os nad oes gennych gyfeirnod TWE, cewch eich cyfeirio at gofrestru fel cyflogwr. Ar ôl i chi gael eich cyfeirnodau, mewngofnodwch yn ôl i’ch Cyfrif Treth Busnes ac ychwanegwch y manylion. Dyna’r cwbl.
+add.a.tax.transcript.paragraph17 = I ychwanegu TAW, dewiswch y ‘math’ o wasanaeth TAW sydd ei angen arnoch.
+add.a.tax.transcript.paragraph18 = Nodwch eich rhif TAW sy’n 9 digid, ac yna’r:
+add.a.tax.transcript.list14 = Rhif Cofrestru TAW
+add.a.tax.transcript.list15 = cod post sydd ar eich Tystysgrif Cofrestru
+add.a.tax.transcript.list16 = date of registration
+add.a.tax.transcript.list17 = dyddiad cofrestru
+add.a.tax.transcript.list18 = swm ym Mlwch 5 ar eich Ffurflen TAW ddiwethaf
+add.a.tax.transcript.paragraph19 = Dyna’r cwbl.
+add.a.tax.transcript.paragraph20 = Gallwch ddod o hyd i ragor o wybodaeth am y cyfrif treth busnes ar GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
