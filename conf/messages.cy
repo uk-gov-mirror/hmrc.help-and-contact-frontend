@@ -1228,3 +1228,89 @@ new.incomeFromPropertyTaxReturnTranscript.paragraph11 = Os ydych mewn elw, mae�
 new.incomeFromPropertyTaxReturnTranscript.paragraph12 = Nodwch y 75 y cant sy’n weddill o’ch costau ariannol preswyl yma. Gallwch hefyd nodi unrhyw gostau ariannol preswyl nad oedd modd eu defnyddio yn y flwyddyn dreth flaenorol. Bydd hyn yn helpu i ostwng cyfanswm eich bil treth.
 new.incomeFromPropertyTaxReturnTranscript.paragraph13 = Yn olaf, ar dudalen chwech, ychwanegwch unrhyw wybodaeth ychwanegol. Wedyn, gwiriwch eich ffigurau ar y sgrin grynhoi – gallwch fynd yn ôl i wneud cywiriadau.
 new.incomeFromPropertyTaxReturnTranscript.paragraph14 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar GOV.UK.
+
+
+#######################################################
+##  General
+#######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help with your BTA
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+help.withYourBta.heading = Help gyda’ch cyfrif treth busnes
+help.withYourBta.title   = Eich cyfrif treth busnes
+help.withYourBta.p1   = Dyma’ch cyfrif treth busnes. Mae’n gadael i chi reoli’ch trethi, tollau a chynlluniau busnes CThEM ar-lein.
+help.withYourBta.p2   = Nid oes rhaid i chi fod yn berchen ar fusnes neu’n rhedeg busnes i gael cyfrif treth busnes.
+help.withYourBta.p3   = Er mwyn rheoli treth, toll neu gynllun, mae’n rhaid i chi
+help.withYourBta.p3.link   = ychwanegu treth at eich cyfrif treth busnes
+
+help.withYourBta.addingATax.heading = Ychwanegu treth at eich cyfrif treth busnes
+help.withYourBta.addingATax.link1 = Fideo - Sut ydw i’n ychwanegu treth at fy Nghyfrif Treth Busnes? (yn agor tab newydd)
+help.withYourBta.addingATax.link2 = Sut ydw i’n ychwanegu treth at fy nghyfrif treth busnes? – trawsgrifiad fideo
+help.withYourBta.addingATax.p1 = Ar ôl i chi ychwanegu’r dreth, mae’n ymddangos ar
+help.withYourBta.addingATax.link3 = hafan eich cyfrif treth busnes
+
+help.withYourBta.exampleCard.heading = Enghraifft: Hunanasesiad wedi’i ychwanegu at hafan eich cyfrif treth busnes
+help.withYourBta.exampleCard.header = Hunanasesiad
+help.withYourBta.exampleCard.utr = Cyfeirnod Unigryw Trethdalwr Hunanasesiad 1234567890
+help.withYourBta.exampleCard.returns.heading = Eich Ffurflenni Treth
+help.withYourBta.exampleCard.returns.p1 = You have no returns to complete.
+help.withYourBta.exampleCard.balance.heading = Eich balans
+help.withYourBta.exampleCard.balance.p1 = Nid oes gennych dreth i’w thalu.
+help.withYourBta.exampleCard.balance.link1 = Gwneud taliad Hunanasesiad
+help.withYourBta.exampleCard.balance.link2 = Trefnu cynllun talu os na allwch dalu’n llawn
+help.withYourBta.exampleCard.link1 = Rhagor o fanylion am eich Ffurflenni Treth a’ch taliadau Hunanasesiad
+
+help.withYourBta.why.heading = Os nad ydych yn gwybod pam bod gennych gyfrif treth busnes
+help.withYourBta.why.p1 = Mae’n bosibl nad ydych yn ystyried eich hun yn fusnes. Fodd bynnag, hyd yn oed os nad ydych wedi’ch ymgorffori fel cwmni cyfyngedig, mae’n bosibl bod angen cyfrif treth busnes arnoch.
+help.withYourBta.why.p2 = Er enghraifft, mae
+help.withYourBta.why.link1 = Hunanasesiad
+help.withYourBta.why.p3 = yn dreth busnes os ydych yn hunangyflogedig neu’n unig fasnachwr ac rydych yn ennill incwm trethadwy drwy’r canlynol:
+help.withYourBta.why.bullet1 = rhoi eiddo ar osod
+help.withYourBta.why.bullet2 = gwerthu nwyddau a gwasanaethau
+help.withYourBta.why.bullet3 = gweithgarwch tebyg
+help.withYourBta.why.p4 = Mae hefyd angen cyfrif treth busnes arnoch os ydych yn gwneud y canlynol:
+help.withYourBta.why.bullet4 = sefydlu cwmni cyfyngedig, neu sefydliad arall sy’n talu Treth Gorfforaeth
+help.withYourBta.why.bullet5 = gweithredu TWE oherwydd eich bod yn cyflogi pobl
+help.withYourBta.why.bullet6 = codi TAW
+
+help.withYourBta.manage.heading = Sut i reoli manylion eich cyfrif treth busnes
+help.withYourBta.manage.p1 = Cadwch gofnod o’r Dynodydd Defnyddiwr (ID) a’r cyfrinair ar gyfer Porth y Llywodraeth a ddefnyddiwyd gennych i greu eich cyfrif treth busnes.
+help.withYourBta.manage.p2 = Mae’ch cyfrif treth busnes yn defnyddio dull gwirio 2 gam. Mae hyn yn golygu y bydd yn rhaid i chi brofi pwy ydych bob 7 diwrnod er mwyn gallu mewngofnodi. Byddwn yn gofyn i chi nodi cod cyrchu a anfonir i ap neu ddyfais arall.
+help.withYourBta.manage.p3 = Peidiwch â chreu Dynodydd Defnyddiwr (ID) a chyfrinair arall ar gyfer Porth y Llywodraeth. I weld eich trethi busnes i gyd yn yr un lle, mae’n rhaid i chi ddefnyddio
+help.withYourBta.manage.link1 = un Dynodydd Defnyddiwr (ID) yn unig ar gyfer pob un o’ch gwasanaethau treth busnes ar-lein (yn agor tab newydd)
+help.withYourBta.manage.p4 = a’i ddefnyddio i fewngofnodi i’r cyfrif treth busnes.
+help.withYourBta.manage.link2 = Rheoli’ch manylion ar gyfer Porth y Llywodraeth
+
+help.withYourBta.difference.heading = Y gwahaniaeth rhwng eich cyfrif treth busnes a’ch cyfrif treth personol
+help.withYourBta.difference.p1 = Mae’ch cyfrif treth personol ar gyfer rheoli’r canlynol ar-lein:
+help.withYourBta.difference.bullet1 = Treth Incwm a Hunanasesiad
+help.withYourBta.difference.bullet2 = TWE
+help.withYourBta.difference.bullet3 = budd-daliadau
+help.withYourBta.difference.bullet4 = Yswiriant Gwladol
+help.withYourBta.difference.bullet5 = Pensiwn y Wladwriaeth
+help.withYourBta.difference.bullet6 = manylion a chofnodion personol eraill
+help.withYourBta.difference.link1 = Darllenwch ragor am eich cyfrif treth personol (yn agor tab newydd)
+help.withYourBta.difference.p2 = Mae’ch cyfrif treth busnes ar gyfer rheoli’r canlynol ar-lein:
+help.withYourBta.difference.bullet7 = Hunanasesiad
+help.withYourBta.difference.bullet8 = Troi Treth yn Ddigidol ar gyfer Treth Incwm
+help.withYourBta.difference.bullet9 = TAW
+help.withYourBta.difference.bullet10 = Troi Treth yn Ddigidol ar gyfer TAW
+help.withYourBta.difference.bullet11 = Treth Gorfforaeth
+help.withYourBta.difference.bullet12 = TWE i gyflogwyr
+help.withYourBta.difference.bullet13 = trethi, tollau a chynlluniau busnes eraill
+help.withYourBta.difference.link2 = Darllenwch y rhestr lawn o drethi, tollau a chynlluniau y gallwch eu rheoli (yn agor tab newydd)
+
+help.withYourBta.using.heading = Defnyddio’ch cyfrif treth busnes
+help.withYourBta.using.p1 = Defnyddiwch eich cyfrif i wneud y canlynol:
+help.withYourBta.using.bullet1 = gwirio’ch sefyllfa dreth ar gyfer trethi yr ydych wedi cofrestru ar eu cyfer
+help.withYourBta.using.bullet2 = cyflwyno Ffurflenni Treth a gwneud taliadau
+help.withYourBta.using.bullet3 = ychwanegu neu ddileu treth, toll neu gynllun
+help.withYourBta.using.bullet4 = rhoi’r gallu i rywun arall gael mynediad at dreth, toll neu gynllun
+help.withYourBta.using.bullet5 = gwirio negeseuon diogel oddi wrth CThEM
+help.withYourBta.using.bullet6 = ychwanegu, newid neu fwrw golwg dros asiant treth
+help.withYourBta.using.bullet7 = cael help gyda’ch trethi
+help.withYourBta.using.bullet8 = diweddaru’ch manylion cyswllt
+help.withYourBta.using.bullet9 = cofrestru i gael hysbysiadau di-bapur
+help.withYourBta.using.bullet10 =  newid eich cyfrinair ar gyfer Porth y Llywodraeth
