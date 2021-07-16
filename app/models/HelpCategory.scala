@@ -25,6 +25,8 @@ object HelpCategory {
   case object Epaye extends WithName("epaye") with HelpCategory
   case object SelfAssessment extends WithName("self-assessment") with HelpCategory
   case object VAT extends WithName("vat") with HelpCategory
+  case object GEN extends WithName("general") with HelpCategory
+
 
   val values = Seq(VAT, SelfAssessment, CorporationTax, Epaye)
 
@@ -34,6 +36,7 @@ object HelpCategory {
       case Epaye => "Epaye"
       case SelfAssessment => "SelfAssessment"
       case VAT => "VAT"
+      case GEN => "GEN"
     }
   }
 }

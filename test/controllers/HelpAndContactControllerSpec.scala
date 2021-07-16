@@ -30,6 +30,7 @@ import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase
 import views.html.ct._
 import views.html.epaye._
+import views.html.general.help_with_your_bta
 import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
@@ -173,6 +174,13 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
         .apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
   )
 
+  behave like pageRouter(
+    HelpCategory.GEN,
+    "help-with-your-business-tax-account",
+    () =>
+      inject[help_with_your_bta]
+        .apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  )
   behave like pageRouter(
     HelpCategory.Epaye,
     "refunds",

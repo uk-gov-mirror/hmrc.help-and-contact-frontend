@@ -17,7 +17,6 @@
 package controllers
 
 import javax.inject.Inject
-
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
@@ -29,6 +28,7 @@ import play.api.mvc.{AnyContent, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.ct._
 import views.html.epaye._
+import views.html.general.help_with_your_bta
 import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
@@ -48,6 +48,7 @@ class HelpAndContactController @Inject()(
                                           payments_and_deadlines: payments_and_deadlines,
                                           register_or_deregister: register_or_deregister,
                                           payment_and_penalties: payment_and_penalties,
+                                          help_with_your_bta: help_with_your_bta,
                                           override val messagesApi: MessagesApi,
                                           authenticate: AuthAction,
                                           serviceInfo: ServiceInfoAction,
@@ -67,6 +68,7 @@ class HelpAndContactController @Inject()(
       case Epaye => ePaye(page)
       case SelfAssessment => selfAssessment(page)
       case VAT => vat(page)
+      case GEN => gen(page)
     }
   }
 
@@ -125,6 +127,12 @@ class HelpAndContactController @Inject()(
     page match {
       case "how-to-pay" => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
+      case _ => NotFound(errorHandler.notFoundTemplate)
+    }
+
+  private def gen(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
+    page match {
+      case "help-with-your-business-tax-account" => Ok(help_with_your_bta(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
 

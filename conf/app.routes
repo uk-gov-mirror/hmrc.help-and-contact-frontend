@@ -19,3 +19,5 @@ GET        /self-assessment/:page                       controllers.HelpAndConta
 GET        /vat/:page                                   controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.VAT, page: String)
 
 GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)
+
+GET        /general/:page                               controllers.HelpAndContactController.onPageLoad(helpCategory: HelpCategory = HelpCategory.GEN, page: String)
