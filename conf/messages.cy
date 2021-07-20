@@ -1277,7 +1277,7 @@ help.withYourBta.why.bullet6 = codi TAW
 
 help.withYourBta.manage.heading = Sut i reoli manylion eich cyfrif treth busnes
 help.withYourBta.manage.p1 = Cadwch gofnod o’r Dynodydd Defnyddiwr (ID) a’r cyfrinair ar gyfer Porth y Llywodraeth a ddefnyddiwyd gennych i greu eich cyfrif treth busnes.
-help.withYourBta.manage.p2 = Mae’ch cyfrif treth busnes yn defnyddio dull gwirio 2 gam. Mae hyn yn golygu y bydd yn rhaid i chi brofi pwy ydych bob 7 diwrnod er mwyn gallu mewngofnodi. Byddwn yn gofyn i chi nodi cod cyrchu a anfonir i ap neu ddyfais arall.
+help.withYourBta.manage.p2 = Mae’ch cyfrif treth busnes yn defnyddio dull gwirio 2 gam. Byddwn yn gofyn i chi nodi cod cyrchu a anfonir i ap neu ddyfais arall.
 help.withYourBta.manage.p3 = Peidiwch â chreu Dynodydd Defnyddiwr (ID) a chyfrinair arall ar gyfer Porth y Llywodraeth. I weld eich trethi busnes i gyd yn yr un lle, mae’n rhaid i chi ddefnyddio
 help.withYourBta.manage.link1 = un Dynodydd Defnyddiwr (ID) yn unig ar gyfer pob un o’ch gwasanaethau treth busnes ar-lein (yn agor tab newydd)
 help.withYourBta.manage.p4 = a’i ddefnyddio i fewngofnodi i’r cyfrif treth busnes.
