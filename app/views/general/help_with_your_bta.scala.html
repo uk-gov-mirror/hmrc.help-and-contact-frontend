@@ -40,7 +40,8 @@
     href="@appConfig.getBusinessAccountUrl("taxChoice")">@Messages("help.withYourBta.p3.link")</a>.</p>
 
     <h2 class="margin-top-xlarge">@Messages("help.withYourBta.addingATax.heading")</h2>
-    <ul class="list-bullet">
+        <div class ="panel panel-border-wide">
+        <ul>
         <li>
             <a id="how-do-i-add-a-tax-video"
             data-journey-click="link - click:Help with your BTA: Adding a tax to your business tax account video"
@@ -53,6 +54,7 @@
             href="@controllers.routes.TranscriptController.onPageLoad("add-a-tax")">@Messages("help.withYourBta.addingATax.link2")</a>
         </li>
     </ul>
+        </div>
 
     <p>@Messages("help.withYourBta.addingATax.p1") <a id="how-do-i-add-a-tax-BTA-home"
     data-journey-click="link - click:Help with your BTA: bta home"
@@ -63,7 +65,8 @@
 
     <div class="card-full-container column-full">
         <div class="column-two-thirds">
-            <h2 id="sa-example-card-header" class="heading-medium card-heading">@messages("help.withYourBta.exampleCard.header")</h2>
+            <h2 id="sa-example-card-header" class="heading-medium card-heading" style="margin-bottom: 0">@messages("help.withYourBta.exampleCard.header")</h2>
+            <p>@messages("help.withYourBta.exampleCard.utr")</p>
         </div>
         <div class="column-half card-body">
             <h3 id="sa-your-returns">@messages("help.withYourBta.exampleCard.returns.heading")</h3>
@@ -87,7 +90,7 @@
         data-journey-click="link - click:Help with your BTA: do not know why you have a business tax account self assessment"
         href="@controllers.routes.HelpAndContactController.onPageLoad(HelpCategory.SelfAssessment,"register-or-stopping")">@Messages("help.withYourBta.why.link1")</a> @Messages("help.withYourBta.why.p3")</p>
 
-        <ul class="list list-bullet">
+        <ul class="list-bullet">
             <li>@Messages("help.withYourBta.why.bullet1")</li>
             <li>@Messages("help.withYourBta.why.bullet2")</li>
             <li>@Messages("help.withYourBta.why.bullet3")</li>

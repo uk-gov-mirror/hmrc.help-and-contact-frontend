@@ -1260,7 +1260,7 @@ help.withYourBta.exampleCard.balance.link2 = Set up a payment plan if you cannot
 help.withYourBta.exampleCard.link1 = More details about your Self Assessment returns and payments
 
 help.withYourBta.why.heading = If you do not know why you have a business tax account
-help.withYourBta.why.p1 = You may not think of yourself as a business. However, even if you are not incorporated as a limited company, you may need a business tax account
+help.withYourBta.why.p1 = You may not think of yourself as a business. However, even if you are not incorporated as a limited company, you may need a business tax account.
 help.withYourBta.why.p2 = For example,
 help.withYourBta.why.link1 = Self Assessment
 help.withYourBta.why.p3 = is a business tax if you’re self-employed or a sole trader and you earn taxable income by:
@@ -1274,7 +1274,7 @@ help.withYourBta.why.bullet6 = charge VAT
 
 help.withYourBta.manage.heading = How to manage your business tax account details
 help.withYourBta.manage.p1 = Keep a record of the Government Gateway user ID and password that you used to create your business tax account.
-help.withYourBta.manage.p2 = Your business tax account uses 2-stage verification. This means that every 7 days you''ll need to verify your identity to sign in. We will ask you to enter an access code sent to another device or app.
+help.withYourBta.manage.p2 = Your business tax account uses 2-stage verification. We will ask you to enter an access code sent to another device or app.
 help.withYourBta.manage.p3 = Do not create another Government Gateway user ID and password. To view all your business taxes in one place you must
 help.withYourBta.manage.link1 = use only one ID for all your online business tax services (opens in new tab)
 help.withYourBta.manage.p4 = and sign into the business tax account with it.
