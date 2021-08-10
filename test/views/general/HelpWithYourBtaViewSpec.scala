@@ -22,7 +22,7 @@ import views.html.general.help_with_your_bta
 
 class HelpWithYourBtaViewSpec extends ViewBehaviours {
 
-  def createView = () => inject[help_with_your_bta].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[help_with_your_bta].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
   "Help with you BTA view" must {
 
@@ -30,14 +30,7 @@ class HelpWithYourBtaViewSpec extends ViewBehaviours {
       val doc = asDocument(createView())
       doc.getElementsByTag("h1").attr("id") mustBe "help-with-your-bta"
     }
-
-    "contain correct heading" in {
-      val doc = asDocument(createView())
-
-      val h2s = doc.getElementsByTag("h2")
-      h2s.size() mustBe 10
-    }
-
+    
     "have correct links" in {
       val doc = asDocument(createView())
       assertLinkById(

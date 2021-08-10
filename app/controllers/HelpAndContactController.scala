@@ -33,6 +33,8 @@ import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
 
+import scala.concurrent.ExecutionContext
+
 class HelpAndContactController @Inject()(
                                           appConfig: FrontendAppConfig,
                                           contact_hmrc_about_ct: contact_hmrc_about_ct,
@@ -54,9 +56,10 @@ class HelpAndContactController @Inject()(
                                           serviceInfo: ServiceInfoAction,
                                           override val controllerComponents: MessagesControllerComponents,
                                           errorHandler: ErrorHandler
-
                                         ) extends FrontendController(controllerComponents)
   with I18nSupport {
+  implicit val ec: ExecutionContext                    = controllerComponents.executionContext
+
   val youtubeFeatureSwitch = appConfig.youtubeLinksEnabled
   def mainPage = (authenticate andThen serviceInfo) { implicit request =>
     Ok(help_and_contact(appConfig)(request.serviceInfoContent))

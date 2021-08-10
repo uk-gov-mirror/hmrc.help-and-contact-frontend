@@ -26,7 +26,7 @@ class AddATaxViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "add.a.tax.transcript"
 
-  def createView = () => inject[add_a_tax].apply(frontendAppConfig)(HtmlFormat.empty)(fakeRequest, messages)
+  def createView = () => inject[add_a_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
   "Add a tax view" must {
     behave like normalPage(createView, messageKeyPrefix)
