@@ -20,7 +20,7 @@
   main_template: main_template
 )
 
-@(appConfig: FrontendAppConfig)(serviceInfoContent: Html)(implicit request: Request[_], messages: Messages)
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
 
 @main_template(
     title = messages("add.a.tax.transcript.title"),
@@ -28,62 +28,62 @@
     bodyClasses = None,
     serviceInfoContent = serviceInfoContent) {
 
-    @components.heading("add-a-tax-transcript", "add.a.tax.transcript.heading", "heading-xlarge")
+    @components.heading("add-a-tax-transcript", "add.a.tax.transcript.heading", "govuk-heading-xl")
 
-    <p>@messages(s"add.a.tax.transcript.paragraph1")</p>
+    <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph1")</p>
 
-    <ul class="list list-bullet text">
+    <ul class="govuk-list govuk-list--bullet">
     @for(i <- 1 to 4) {
         <li>@messages(s"add.a.tax.transcript.list$i")</li>
     }
     </ul>
 
     @for(i <- 2 to 6) {
-        <p>@messages(s"add.a.tax.transcript.paragraph$i")</p>
+        <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph$i")</p>
     }
 
-    <ul class="list list-bullet text">
+    <ul class="govuk-list govuk-list--bullet">
     @for(i <- 5 to 6) {
         <li>@messages(s"add.a.tax.transcript.list$i")</li>
     }
     </ul>
 
     @for(i <- 7 to 11) {
-        <p>@messages(s"add.a.tax.transcript.paragraph$i")</p>
+        <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph$i")</p>
     }
 
-    <ul class="list list-bullet text">
+    <ul class="govuk-list govuk-list--bullet">
     @for(i <- 7 to 9) {
         <li>@messages(s"add.a.tax.transcript.list$i")</li>
     }
     </ul>
 
-    <p>@messages(s"add.a.tax.transcript.paragraph12")</p>
+    <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph12")</p>
 
-    <ul class="list list-bullet text">
+    <ul class=HelpAndContactControllerSpec.scalagovuk-list govuk-list--bullet">
         <li>@messages(s"add.a.tax.transcript.list10")</li>
         <li>@messages(s"add.a.tax.transcript.list11")</li>
     </ul>
 
     @for(i <- 13 to 15) {
-        <p>@messages(s"add.a.tax.transcript.paragraph$i")</p>
+        <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph$i")</p>
     }
 
-    <ul class="list list-bullet text">
+    <ul class="govuk-list govuk-list--bullet">
         <li>@messages(s"add.a.tax.transcript.list12")</li>
         <li>@messages(s"add.a.tax.transcript.list13")</li>
     </ul>
 
     @for(i <- 16 to 18) {
-        <p>@messages(s"add.a.tax.transcript.paragraph$i")</p>
+        <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph$i")</p>
     }
 
-    <ul class="list list-bullet text">
+    <ul class="govuk-list govuk-list--bullet">
     @for(i <- 14 to 18) {
         <li>@messages(s"add.a.tax.transcript.list$i")</li>
     }
     </ul>
 
-    <p>@messages(s"add.a.tax.transcript.paragraph19")</p>
-    <p>@messages(s"add.a.tax.transcript.paragraph20")</p>
+    <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph19")</p>
+    <p class="govuk-body">@messages(s"add.a.tax.transcript.paragraph20")</p>
 }
