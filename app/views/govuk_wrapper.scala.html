@@ -94,7 +94,7 @@
 @mainContentDefault = {
 
  <div class="govuk-grid-row">
-  <div class= @{if(fullWidth) "govuk-grid-column-full-width" else "govuk-grid-column-two-thirds"}>
+  <div class= @{if(fullWidth) "govuk-grid-column-full-from-desktop" else "govuk-grid-column-two-thirds"}>
    <main id="wrapper" class="site-wrapper" role="main" @mainClass.map { mainClassVal => class="@mainClass" } @mainDataAttributes >
     <div id="content">
      @components.article(headerAndMainContent)
@@ -110,12 +110,14 @@
       )
       </div>
      } else {
+        <div class="govuk-!-margin-top-6">
       @hmrcReportTechnicalIssue(
        uk.gov.hmrc.hmrcfrontend.views.html.components.ReportTechnicalIssue(
         appConfig.appName,
         language = if(messages.lang.code == "cy") Cy else En
        )
       )
+        </div>
      }
     </div>
    </main>
