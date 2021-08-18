@@ -1311,3 +1311,8 @@ help.withYourBta.using.bullet7 = get help with your taxes
 help.withYourBta.using.bullet8 = update your contact details
 help.withYourBta.using.bullet9 = sign up for paperless notifications
 help.withYourBta.using.bullet10 = change your Government Gateway password
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Misc
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+help.transcripts.missing = We will publish a transcript for this video in August 2021.

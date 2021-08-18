@@ -94,17 +94,17 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "why-i-have-been-sent-tax-video",
         "Video - Why have I been sent a tax return? (opens in new tab)",
-        "https://youtu.be/ySQiDjQ1b5k",
+        "https://youtu.be/UovlY9zQBvM",
         "link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - video link",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+     /* assertLinkById(
         doc,
         "why-i-have-been-sent-tax-transcript",
         "Why have I been sent a tax return? - video transcript",
         "/business-account/help/transcript/why-sent-tax-return",
         "link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "used-to-file-link",
@@ -116,17 +116,17 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://youtu.be/SSZ56xkMs48",
+        "https://youtu.be/EkRFUO9S7Hw",
         "link - click:Help with your Self Assessment tax return : My first Self Assessment tax return - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+   /*   assertLinkById(
         doc,
         "my-first-sa-transcript",
         "Your first Self Assessment tax return - video transcript",
         "/business-account/help/transcript/new-your-first-tax-return",
         "link - click:Help with your Self Assessment tax return : Your first Self Assessment tax return - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "learn-more-sa",
@@ -139,47 +139,47 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/Rr0LUxFQ33g",
+        "https://youtu.be/nOJcs4XJ-tk",
         "link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+      /*assertLinkById(
         doc,
         "tailor-tax-transcript",
         "Tailor your tax return - video transcript",
         "/business-account/help/transcript/new-how-do-i-tailor-sa-tax",
         "link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "self-employed-tax-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/revvcPm40IE",
+        "https://youtu.be/jdHBPiWNnyA",
         "link - click:Help with your Self Assessment tax return : Your self-employed tax return - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+      /*assertLinkById(
         doc,
         "self-employed-tax-transcript",
         "Your self-employed tax return - video transcript",
         "/business-account/help/transcript/new-your-self-employed-tax-return",
         "link - click:Help with your Self Assessment tax return : Your self-employed tax return - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "income-from-property-video",
         "Video - Income from property - what do I include on my tax return? (opens in new tab)",
-        "https://youtu.be/jUVNt68r2h0",
+        "https://youtu.be/DCUZy4ASz1A",
         "link - click:Help with your Self Assessment tax return : Income from property - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+     /* assertLinkById(
         doc,
         "income-from-property-transcript",
         "If I have income from property, how do I fill in my tax return? - video transcript",
         "/business-account/help/transcript/new-income-from-property",
         "link - click:Help with your Self Assessment tax return : Income from property - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "who-must-file",

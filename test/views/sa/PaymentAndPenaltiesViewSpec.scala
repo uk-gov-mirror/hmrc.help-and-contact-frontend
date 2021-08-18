@@ -115,17 +115,17 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-pay-video",
         "Video - How do I pay my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/vRxLHyNmWp4",
+        "https://youtu.be/gfuEtUYOrgA",
         "link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+      /*assertLinkById(
         doc,
         "how-do-i-pay-transcript",
         "How do I pay my Self Assessment tax bill? - transcript",
         "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
         "link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "budget-for-taxbill",
@@ -138,17 +138,17 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-budget-video",
         "Video - How do I budget for my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/XaqY3qhDXGo",
+        "https://youtu.be/T2EBuV7Vy28",
         "link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+      /*assertLinkById(
         doc,
         "how-do-i-budget-transcript",
         "How do I budget for my Self Assessment tax bill? - video transcript",
         "/business-account/help/transcript/budgeting-your-self-assessment-tax-bill",
         "link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "reasonable-excuse",

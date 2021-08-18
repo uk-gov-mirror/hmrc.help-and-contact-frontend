@@ -33,12 +33,13 @@
 <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/expenses-if-youre-self-employed" id="allowable-expenses" target="_blank"
 data-journey-click="link - click:Expenses : Find out more about allowable expenses if you’re self-employed">@Messages("expenses.find_out_more")</a></p>
 <div class="govuk-inset-text">
- <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/FjXAH3tMg2I" id="what-expenses-video" target="_blank"
+ <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/2V5K9gs6ZEs" id="what-expenses-video" target="_blank"
  data-journey-click="link - click:Expenses : What expenses can I include in my Self Assessment tax return? - video">
   @Messages("expenses.what_expenses_video")</a></p>
- <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-transcript"
+    @*<p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="what-expenses-transcript"
        data-journey-click="link - click:Expenses : What expenses can I include in my Self Assessment tax return? - transcript">
-  @Messages("expenses.what_expenses_transcript")</a></p>
+  @Messages("expenses.what_expenses_transcript")</a></p>*@
+    <p>@Messages("help.transcripts.missing")</p>
 </div>
 
 <h2 class="govuk-heading-m">@Messages("expenses.simplified")</h2>

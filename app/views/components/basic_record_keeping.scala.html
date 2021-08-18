@@ -33,14 +33,15 @@
 <p class="govuk-body govuk-!-font-weight-bold">@Messages("modular.basicRecordKeeping.example")</p>
 
 <div class="govuk-inset-text">
- <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/4OlkduJ5MTU" id = "record-keeping-video" target="_blank"
+ <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/FCHvuD8xsw4" id = "record-keeping-video" target="_blank"
        data-journey-click="link - click:Basic record keeping when you’re self-employed : Basic record keeping for the self employed - video">
   @Messages("modular.basicRecordKeeping.record_keeping_video")
  </a></p>
- <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id = "record-keeping-transcript"
+ @*<p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")" id = "record-keeping-transcript"
        data-journey-click="link - click:Basic record keeping when you’re self-employed : Basic record keeping for the self employed - transcript">
   @Messages("modular.basicRecordKeeping.record_keeping_transcript")
- </a></p>
+ </a></p>*@
+ <p>@Messages("help.transcripts.missing")</p>
 </div>
 
 <h2 class="govuk-heading-m">@Messages("modular.basicRecordKeeping.more_help_record")</h2>
