@@ -93,17 +93,17 @@ class ExpensesViewSpec extends ViewBehaviours {
         doc,
         "what-expenses-video",
         "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/FjXAH3tMg2I",
+        "https://youtu.be/2V5K9gs6ZEs",
         "link - click:Expenses : What expenses can I include in my Self Assessment tax return? - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+/*      assertLinkById(
         doc,
         "what-expenses-transcript",
         "What expenses can I include in my Self Assessment tax return? - video transcript",
         "/business-account/help/transcript/expenses-if-you-are-self-employed",
         "link - click:Expenses : What expenses can I include in my Self Assessment tax return? - transcript"
-      )
+      )*/
       assertLinkById(
         doc,
         "find-out-more-simplified",

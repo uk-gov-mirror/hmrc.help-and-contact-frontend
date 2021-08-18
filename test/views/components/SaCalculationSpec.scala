@@ -61,17 +61,17 @@ class SaCalculationSpec extends ViewBehaviours {
         doc,
         "viewing-sa-tax-calculation-video",
         "Video - Viewing your Self Assessment tax return calculation (opens in new tab)",
-        "https://youtu.be/dLVLt_mQyP0",
+        "https://youtu.be/UACv0_mjbms",
         "link - click:Help with your Self Assessment tax return : Viewing your Self Assessment tax return calculations - video",
         expectedOpensInNewTab = true
       )
-      assertLinkById(
+     /* assertLinkById(
         doc,
         "viewing-sa-tax-calculation-transcript",
         "Viewing your Self Assessment tax return calculations - video transcript",
         "/business-account/help/transcript/viewing-your-self-assessment-calculation",
         "link - click:Help with your Self Assessment tax return : Viewing your Self Assessment tax return calculations - transcript"
-      )
+      )*/
 
     }
 
