@@ -29,27 +29,43 @@
 
     @components.heading("register-deregister-ct", "ct.register_deregister.heading", "govuk-heading-xl")
 
+    <h2 class="govuk-heading-m">@messages("ct.register_deregister.register.heading")</h2>
+
     <p class="govuk-body">
         @messages("ct.register_deregister_after_you_have")
         <a class="govuk-link" id="register-company-house" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerYourCompany")"
         data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company">@messages("ct.register_deregister.register_with_companies_house")</a>
         @messages("ct.register_deregister.with_companies_house_")
-        <a class="govuk-link" id="guidance" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxGuidance")"
-        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if you’re unsure what counts as starting to do business">@messages("ct.register_deregister.check_")</a>.
+        <a class="govuk-link" id="register-for-hmrc-taxes" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
+        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax">@messages("ct.register_deregister.register_link")</a>
+        @messages("ct.register_deregister.3months")
     </p>
-
-    <p class="govuk-body govuk-!-font-weight-bold">@messages("ct.register_deregister.penalty_notice_")</p>
-
-
-    <h2 class="govuk-heading-m">@messages("ct.register_deregister.how_to_register.heading")</h2>
+    <p class="govuk-body">
+        @messages("ct.register_deregister.being_active")
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("ct.register_deregister.being_active.1")</li>
+        <li>@messages("ct.register_deregister.being_active.2")</li>
+        <li>@messages("ct.register_deregister.being_active.3")</li>
+        <li>@messages("ct.register_deregister.being_active.4")</li>
+        <li>@messages("ct.register_deregister.being_active.5")</li>
+        <li>@messages("ct.register_deregister.being_active.6")</li>
+    </ul>
 
     <p class="govuk-body">
-        @messages("ct.register_deregister.utr_")
-        <a class="govuk-link" id="register-for-hmrc-taxes" target="_blank" rel="external noopener" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
-        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax online">@messages("ct.register_deregister.register_link_")</a>.
+        <a class="govuk-link" id="check-unsure-active" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxGuidance")"
+    data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if unsure if active">@messages("ct.register_deregister.check_link")</a>.
     </p>
 
-    <p class="govuk-body">@messages("ct.register_deregister.this_is_posted_")</p>
+    <p class="govuk-body">@messages("ct.register_deregister.dormant")</p>
+
+    <p class="govuk-inset-text">@messages("ct.register_deregister.penalty_notice_")</p>
+
+    <h2 class="govuk-heading-m">@messages("ct.register_deregister.what_to_tell.heading")</h2>
+
+    <p class="govuk-body">@messages("ct.register_deregister.utr_")</p>
+
+    <p class="govuk-body">@messages("ct.register_deregister.get_utr")</p>
 
     <p class="govuk-body">
         <a class="govuk-link" id="ask-for-utr" href="@appConfig.requestCorporationTaxUTR"
@@ -57,24 +73,33 @@
         @messages("ct.register_deregister.no_utr_")
     </p>
 
-    <h2 class="govuk-heading-m">@messages("ct.register_deregister.make_your_company_active.heading")</h2>
+    <p class="govuk-body">@messages("ct.register_deregister.also_need")</p>
 
-    <p class="govuk-body">
-      @messages("ct.register_deregister.if_your_company_is_registered_as_dormant_")
-      <a class="govuk-link" id="register_to_tell_company_active" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
-        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax">@messages("ct.register_deregister.register_for_Corporation_Tax")</a>
-      @messages("ct.register_deregister.to_tell_HMRC_your_company_is_active")
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("ct.register_deregister.also_need.1")</li>
+        <li>@messages("ct.register_deregister.also_need.2_a") <a class="govuk-link" id="accounting-period" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("ctAccountingPeriod")"
+        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Accounting period">@messages("ct.register_deregister.also_need.2_link")</a> @messages("ct.register_deregister.also_need.2_b")</li>
+        <li>@messages("ct.register_deregister.also_need.3")</li>
+    </ul>
+
+    <h3 class="govuk-heading-s">@messages("ct.register_deregister.what_happens_next.heading")</h3>
+
+    <p class="govuk-body">@messages("ct.register_deregister.deadline")</p>
+
+    <p class="govuk-body">@messages("ct.register_deregister.must_file") <a class="govuk-link" id="company-tax-returns" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
+    data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Returns">@messages("ct.register_deregister.deadline_link")</a>@messages("ct.register_deregister.deadline_end")
     </p>
 
+    <h2 class="govuk-heading-m">@messages("ct.register_deregister.add_ct.heading")</h2>
 
-    <h2 class="govuk-heading-m">@messages("ct.register_deregister.what_happens_next.heading")</h2>
-
-    <p class="govuk-body">
-        @messages("ct.register_deregister.deadline_start")
-        <a class="govuk-link" id="deadline-link" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("companyTaxReturns")"
-        data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Return">
-        @messages("ct.register_deregister.deadline_link")</a>@messages("ct.register_deregister.deadline_end")
+    <p class="govuk-body"><a class="govuk-link" id="add-ct-bta" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
+    data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Add ct to bta">@messages("ct.register_deregister.add_link")</a> @messages("ct.register_deregister.add_to")
     </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("ct.register_deregister.add.1")</li>
+        <li>@messages("ct.register_deregister.add.2")</li>
+    </ul>
 
     <h2 class="govuk-heading-m">@messages("ct.register_deregister.no_longer_trading.heading")</h2>
 
@@ -82,6 +107,6 @@
         @messages("ct.register_deregister_stop_paying_")
         <a class="govuk-link" id="close-limited-company" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("closeLimitedCompany")"
         data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:close the limited company">
-        @messages("ct.register_deregister_close_company_")</a>.
-<p>
+        @messages("ct.register_deregister_close_company_")</a>.</p>
+
 }
