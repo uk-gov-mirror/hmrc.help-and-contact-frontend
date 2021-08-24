@@ -723,36 +723,53 @@ ct.how_to_pay.direct_debit_timescale = (3 diwrnod gwaith os oes gennych un eisoe
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Register for Corporation Tax or tell HMRC you are no longer trading
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ct.register_deregister.title = Cofrestru ar gyfer Treth Gorfforaeth, gwneud eich cwmni’n weithredol neu roi gwybod i CThEM nad ydych yn masnachu erbyn hyn
-ct.register_deregister.heading = Cofrestru ar gyfer Treth Gorfforaeth, gwneud eich cwmni’n weithredol neu roi gwybod i CThEM nad ydych yn masnachu erbyn hyn
-ct.register_deregister.how_to_register.heading = Sut i gofrestru
-ct.register_deregister.make_your_company_active.heading = Gwneud eich cwmni’n weithredol
+ct.register_deregister.title = Cofrestru ar gyfer Treth Gorfforaeth, ychwanegu Treth Gorfforaeth at eich cyfrif neu roi gwybod i ni nad ydych yn masnachu mwyach
+ct.register_deregister.heading = Cofrestru ar gyfer Treth Gorfforaeth, ychwanegu Treth Gorfforaeth at eich cyfrif neu roi gwybod i ni nad ydych yn masnachu mwyach
+
+ct.register_deregister.register.heading = Cofrestru ar gyfer Treth Gorfforaeth gyda CThEM
+ct.register_deregister.what_to_tell.heading = Yr hyn sydd angen i chi roi gwybod i CThEM amdano pan fyddwch yn cofrestru ar gyfer Treth Gorfforaeth
 ct.register_deregister.what_happens_next.heading = Yr hyn sy’n digwydd nesaf
+ct.register_deregister.add_ct.heading = Ychwanegwch Dreth Gorfforaeth i’ch cyfrif treth busnes
 ct.register_deregister.no_longer_trading.heading = Dweud wrth CThEM nad ydych yn masnachu mwyach
 
-ct.register_deregister_after_you_have = Wedi i chi
-ct.register_deregister.register_with_companies_house = gofrestru eich cwmni
-ct.register_deregister.with_companies_house_ = gyda Thŷ’r Cwmnïau, bydd angen i chi gofrestru’r cwmni ar gyfer Treth Gorfforaeth cyn pen 3 mis o ddechrau gweithredu. Mae hyn yn cynnwys prynu, gwerthu, hysbysebu, rhentu eiddo a chyflogi rhywun. Gallwch
-ct.register_deregister.check_ = wirio os nad ydych yn sicr beth sy’n cyfrif fel dechrau gweithredu
+ct.register_deregister_after_you_have = Pan fyddwch wedi
+ct.register_deregister.register_with_companies_house = cofrestru’ch cwmni (yn agor tab newydd)
+ct.register_deregister.with_companies_house_ = gyda Thŷ’r Cwmnïau, mae’n rhaid i chi
+ct.register_deregister.register_link = gofrestru ar gyfer Treth Gorfforaeth
+ct.register_deregister.3months = gyda Chyllid a Thollau EM (CThEM) cyn pen 3 mis o fod yn weithgar.
+ct.register_deregister.being_active = Mae bod yn weithgar at ddibenion Treth Gorfforaeth yn cynnwys:
+ct.register_deregister.being_active.1 = prynu
+ct.register_deregister.being_active.2 = gwerthu
+ct.register_deregister.being_active.3 = hysbysebu
+ct.register_deregister.being_active.4 = rhoi eiddo ar osod
+ct.register_deregister.being_active.5 = cyflogi rhywun
+ct.register_deregister.being_active.6 = gweithgarwch masnachu tebyg
+ct.register_deregister.check_link = Gwiriwch os ydych yn ansicr ynghylch beth sy’n cyfrif fel bod yn weithgar (yn agor tab newydd)
+ct.register_deregister.dormant = Mae’n rhaid i chi hefyd gofrestru’ch cwmni ar gyfer Treth Gorfforaeth gyda CThEM os yw’ch cwmni wedi’i gofrestru’n segur, ond ei fod yn weithgar erbyn hyn
 
 ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os byddwch yn cofrestru’n hwyr.
 
-ct.register_deregister.utr_ = Bydd angen eich Cyfeirnod Unigryw y Trethdalwr, sy’n 10 digid o hyd, arnoch cyn i chi
-ct.register_deregister.register_link_ = gofrestru ar gyfer Treth Gorfforaeth ar-lein
-ct.register_deregister.this_is_posted_ = Caiff hwn ei bostio i gyfeiriad eich cwmni gan Gyllid a Thollau EM (CThEM), fel arfer o fewn ychydig ddyddiau o’r cwmni’n cofrestru gyda Thŷ’r Cwmnïau (cael ei gorffori).
-ct.register_deregister.request_utr_= Gwnewch gais ar-lein am Gyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer eich cwmni
-ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’r cwmni.
+ct.register_deregister.utr_ = Bydd angen Cyfeirnod Unigryw y Trethdalwr (UTR) eich cwmni arnoch, sy’n 10 digid o hyd.
+ct.register_deregister.get_utr = Fel arfer cewch eich UTR oddi wrth CThEM o fewn ychydig ddiwrnodau o gofrestru’ch cwmni gyda Thŷ’r Cwmnïau.
+ct.register_deregister.request_utr_= Gwnewch gais am UTR ar gyfer eich cwmni ar-lein
+ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’ch cwmni.
+ct.register_deregister.also_need = Hefyd, bydd angen y canlynol arnoch:
+ct.register_deregister.also_need.1 = rhif cofrestru eich cwmni
+ct.register_deregister.also_need.2_a = y dyddiad y gwnaethoch ddechrau bod yn weithgar - byd
+ct.register_deregister.also_need.2_link = cyfnod cyfrifyddu cyntaf eich busnes (yn agor tab newydd)
+ct.register_deregister.also_need.2_b = yn dechrau ar y dyddiad hwn
+ct.register_deregister.also_need.3 = dyddiad cau eich cyfrifon blynyddol (dyddiad paratoi’r cyfrifon)
 
-ct.register_deregister.if_your_company_is_registered_as_dormant_ = Os yw’ch cwmni wedi’i gofrestru’n segur, ac yna’n dechrau masnachu, mae angen i chi
-ct.register_deregister.register_for_Corporation_Tax = gofrestru ar gyfer Treth Gorfforaeth
-ct.register_deregister.to_tell_HMRC_your_company_is_active = er mwyn rhoi gwybod i CThEM bod eich cwmni’n gweithredu.
-
-ct.register_deregister.deadline_start = Bydd CThEM yn rhoi gwybod i chi beth yw’r dyddiad cau ar gyfer talu Treth Gorfforaeth. Bydd angen i chi gyflwyno
-ct.register_deregister.deadline_link = Ffurflen Dreth y Cwmni
+ct.register_deregister.deadline = Bydd CThEM yn rhoi gwybod i chi beth yw’r dyddiad cau ar gyfer talu Treth Gorfforaeth.
+ct.register_deregister.must_file = Mae’n rhaid i chi gyflwyno
+ct.register_deregister.deadline_link =  Ffurflen Dreth y Cwmni (yn agor tab newydd)
 ct.register_deregister.deadline_end = , hyd yn oed os gwnewch golled neu os nad oes gennych Dreth Gorfforaeth i’w thalu.
-
-ct.register_deregister_stop_paying_ = I stopio talu Treth Gorfforaeth, bydd angen i ch
-ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig
+ct.register_deregister.add_link = Ychwanegwch Dreth Gorfforaeth i’ch cyfrif treth busnes
+ct.register_deregister.add_to = er mwyn:
+ct.register_deregister.add.1 = cyflwyno’ch Ffurflen Dreth y Cwmni ar-lein
+ct.register_deregister.add.2 = talu ar-lein
+ct.register_deregister_stop_paying_ = I roi’r gorau i dalu Treth Gorfforaeth, mae’n rhaid i chi
+ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig (yn agor tab newydd)
 
 #######################################################
 ##  Transcripts

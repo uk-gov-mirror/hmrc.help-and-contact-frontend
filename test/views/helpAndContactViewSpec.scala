@@ -167,7 +167,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "register-or-tell-no-longer-trading-corporation-tax",
-        "Register for Corporation Tax, make your company active or tell HMRC you are no longer trading",
+        "Register for Corporation Tax, add Corporation Tax to your account or tell us you are no longer trading",
         "/business-account/help/corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading",
         "link - click:Help and contact:Register for Corporation Tax or tell HMRC you are no longer trading"
       )
