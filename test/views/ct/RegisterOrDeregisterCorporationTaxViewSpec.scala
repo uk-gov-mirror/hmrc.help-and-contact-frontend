@@ -139,7 +139,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         doc,
         "add-ct-bta",
         "Add Corporation Tax to your business tax account",
-        "http://localhost:8080/portal/business-registration/select-taxes?lang=eng",
+        "http://localhost:9020/business-account/add-tax",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Add ct to bta")
 
       assertLinkById(
