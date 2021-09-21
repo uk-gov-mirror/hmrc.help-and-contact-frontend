@@ -60,10 +60,10 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
         "31 January for your tax bill from the previous year and first payment on account",
         "and 31 July for your second payment on account.",
-      "Online or telephone banking, using faster payments",
+        "approving your payment through your online account",
+      "online or telephone banking, using faster payments",
       "CHAPS",
       "or your debit or corporate credit card online",
-      "alternatively you can use a paying-in slip from HMRC at your bank or building society",
         "Direct Debit",
         "or Bacs",
         "alternatively you can send a cheque through the post.",

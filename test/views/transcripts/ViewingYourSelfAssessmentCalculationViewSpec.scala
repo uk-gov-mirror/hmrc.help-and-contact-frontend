@@ -43,7 +43,7 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())
 
       val bulletListPara2 = List("Income Tax", "Class 4 National Insurance", "and Class 2 National Insurance contributions")
-      val bulletListPara8 = List("income", "personal allowance", "tax due", "Class 4 National Insurance", "Class 2 National Insurance", "and any payments due")
+      val bulletListPara8 = List("income", "personal allowance", "tax due", "Class 4 National Insurance", "Class 2 National Insurance", "and the total of any payments due")
       val bulletsList = bulletListPara2 ++ bulletListPara8
 
       val contentList = List(
@@ -51,13 +51,13 @@ class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
         "After adding your figures and checking everything is correct, you can view your calculation." +
           " This shows the amount you’re due to pay for this tax return. It will include:",
         "if they’re due.",
-        "If the amount is £1,000 or more, you have to make a ‘payment on account’.",
+        "If the amount of Income Tax and Class 4 National Insurance is £1,000 or more, you have to make a payment on account.",
         "A payment on account is made twice a year on 31 January and 31 July to help you spread the cost of each year’s tax.",
-        "Each payment is usually half of your previous tax bill and as you pay in advance they " +
-          "are taken off the amount you’re due to pay the following year.",
+        "Each payment is half of your last Income Tax and Class 4 National Insurance bill. " +
+          "These payments are taken off the amount you’re due to pay the following year.",
         "If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.",
         "This shows your:",
-        "You can print a copy of this for your own records. And remember, these estimated payments don’t include any payments you’ve already made.",
+        "Remember, these estimated payments don’t include any payments you’ve already made. You can print a copy of this for your own records.",
         "You can find more information about Self Assessment on GOV.UK."
       )
 
