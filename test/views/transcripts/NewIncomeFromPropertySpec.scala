@@ -44,21 +44,20 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
     }
 
     "have correct content" in {
-      val bulletPointList = List(
-        "How much property income you received.",
-        "If you’re claiming the property income allowance – if you are, then you can’t claim expenses.",
-        "If you’re using traditional accounting – that means you record income and expenses when you invoice customers or receive a bill."
-      )
+
       val contentList: List[String] = List(
-        "Your tax return must include any income from property in the UK or European Economic Area.",
+        "Your tax return must include any income from property that’s in the UK or European Economic Area.",
         "For property income outside of these areas, fill in the foreign income tax return pages instead.",
         "In this section, don’t include income from letting rooms, such as bed and breakfast unless you’re claiming rent a room relief." +
           " This counts as trade and goes elsewhere in your tax return.",
         "To begin, tell us what type of property income you had during the year including furnished holiday lettings.",
-        "On this page we need to know:",
-        bulletPointList.mkString(" "),
-        "If you’re not claiming the property income allowance, enter your running costs here." +
-          " You can include the cost of repairs, but not improvements or upgrades.",
+       "On this page tell us how much property income you received. Include any coronavirus " +
+         "support scheme payments. Use the ‘help about’ link for further guidance.",
+        "We need to know if you’re claiming the property income allowance – if you are, then you can’t claim expenses.",
+        "You also need to tell us if you’re using traditional accounting – " +
+          "that means you record income and expenses when you invoice customers or receive a bill.",
+        "If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, " +
+          "but not improvements or upgrades. Don’t include any residential finance costs on this page.",
         "If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.",
         "Next, enter 25 percent of your residential finance costs – you can enter the other 75 percent further on.",
         "On page four enter what we call adjustments – claims that could reduce your tax bill. For example," +
@@ -66,8 +65,8 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
         "On page five you’ll see your adjusted profit or loss for the year.",
         "If you’re in profit, you must enter losses from an earlier year. This amount cannot be more than your adjusted profit for the current year." +
           " We’ll then calculate your taxable profit.",
-        "Enter the remaining 75 per cent of your residential finance costs here. You can also enter any residential finance costs you " +
-          "couldn’t use in the previous tax year. This will help reduce your total tax bill.",
+        "Enter your total residential finance costs for this year here. This will help reduce your total tax bill. You can also enter any residential " +
+          "finance costs you couldn’t use in the previous tax year. Use the ‘Help about’ link to work out the amount to enter.",
         "Finally, on page six, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.",
         "You can find more information about Self Assessment on GOV.UK."
       )
@@ -85,11 +84,6 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
         case (content, element) => element mustBe content
       }
 
-      val bullets: List[String] =
-        contentDiv.select("ul.list.list-bullet>li").asScala.toList.map(_.text)
-      bulletPointList.zip(bullets).foreach {
-        case (content, element) => element mustBe content
-      }
     }
   }
 

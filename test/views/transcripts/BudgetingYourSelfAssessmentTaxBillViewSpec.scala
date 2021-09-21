@@ -46,7 +46,7 @@ class BudgetingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
         "It’s flexible so you can decide how much you pay each month. You can reduce or stop payments at any time.",
         "If you’re self-employed, our ready reckoner on GOV.UK can help you budget for tax and National Insurance. Put in your estimated weekly or monthly profit, and we’ll give you an idea of how much you have to pay.",
         "A budget payment plan can help you meet the payment deadlines, and avoid any fines.",
-        "Remember, if there’s anything left to pay by 31 January, you’ll need to pay it off by that date.",
+        "Remember, if there’s anything left to pay, you’ll need to do this by the 31st January.",
         "To find out more about Self Assessment, go to GOV.UK."
       )
 

@@ -294,8 +294,8 @@ register_or_stopping.help_page = Registering or stopping
 register_or_stopping.class_2_ni = Class 2 National Insurance contributions
 register_or_stopping.when_you_register = When you register for Self Assessment as self employed, you are also registering for
 register_or_stopping.class_2_link = Class 2 National Insurance contributions (opens in new tab).
-register_or_stopping.class_2_video = Video - Class 2 National Insurance contributions and your tax return (opens in new tab)
-register_or_stopping.class_2_transcript = Class 2 National Insurance contributions and your tax return - transcript
+register_or_stopping.class_2_video = Video - Class 2 National Insurance contributions and your Self Assessment tax return (opens in new tab)
+register_or_stopping.class_2_transcript = Class 2 National Insurance contributions and your Self Assessment tax return - video transcript
 register_or_stopping.registering_for_sa = Registering for Self Assessment
 register_or_stopping.unique_taxpayer = Your Self Assessment Unique Taxpayer Reference (UTR) is a 10 digit number. You can find it on:
 register_or_stopping.list_welcome_letter = your Welcome to Self Assessment letter (SA250)
@@ -800,9 +800,9 @@ viewingYourCalculationTranscript.para2bullet1 = Income Tax
 viewingYourCalculationTranscript.para2bullet2 = Class 4 National Insurance
 viewingYourCalculationTranscript.para2bullet3 = and Class 2 National Insurance contributions
 viewingYourCalculationTranscript.paragraph3 = if they’re due.
-viewingYourCalculationTranscript.paragraph4 = If the amount is £1,000 or more, you have to make a ‘payment on account’.
+viewingYourCalculationTranscript.paragraph4 = If the amount of Income Tax and Class 4 National Insurance is £1,000 or more, you have to make a payment on account.
 viewingYourCalculationTranscript.paragraph5 = A payment on account is made twice a year on 31 January and 31 July to help you spread the cost of each year’s tax.
-viewingYourCalculationTranscript.paragraph6 = Each payment is usually half of your previous tax bill and as you pay in advance they are taken off the amount you’re due to pay the following year.
+viewingYourCalculationTranscript.paragraph6 = Each payment is half of your last Income Tax and Class 4 National Insurance bill.  These payments are taken off the amount you’re due to pay the following year.
 viewingYourCalculationTranscript.paragraph7 = If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
 viewingYourCalculationTranscript.paragraph8 = This shows your:
 viewingYourCalculationTranscript.para8bullet1 = income
@@ -810,8 +810,8 @@ viewingYourCalculationTranscript.para8bullet2 = personal allowance
 viewingYourCalculationTranscript.para8bullet3 = tax due
 viewingYourCalculationTranscript.para8bullet4 = Class 4 National Insurance
 viewingYourCalculationTranscript.para8bullet5 = Class 2 National Insurance
-viewingYourCalculationTranscript.para8bullet6 = and any payments due
-viewingYourCalculationTranscript.paragraph9 = You can print a copy of this for your own records. And remember, these estimated payments don’t include any payments you’ve already made.
+viewingYourCalculationTranscript.para8bullet6 = and the total of any payments due
+viewingYourCalculationTranscript.paragraph9 = Remember, these estimated payments don’t include any payments you’ve already made. You can print a copy of this for your own records.
 viewingYourCalculationTranscript.paragraph10 = You can find more information about Self Assessment on GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -825,10 +825,10 @@ payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 January for your ta
 payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = and 31 July for your second payment on account.
 payingYourSelfAssessmentTaxBillTranscript.paragraph3 = To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay regularly throughout the year, use a budget payment plan.
 payingYourSelfAssessmentTaxBillTranscript.paragraph4 = For your payment to reach us the same or next day, pay by:
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Online or telephone banking, using faster payments
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = online or telephone banking, using faster payments
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = CHAPS
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = or your debit or corporate credit card online
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = alternatively you can use a paying-in slip from HMRC at your bank or building society
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = approving your payment through your online account
 payingYourSelfAssessmentTaxBillTranscript.paragraph5 = For payment to reach us within 3 days, pay by:
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Direct Debit
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = or Bacs
@@ -846,7 +846,7 @@ budgetingYourSelfAssessmentTaxBillTranscript.paragraph2 = You can set up a budge
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph3 = It’s flexible so you can decide how much you pay each month. You can reduce or stop payments at any time.
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph4 = If you’re self-employed, our ready reckoner on GOV.UK can help you budget for tax and National Insurance. Put in your estimated weekly or monthly profit, and we’ll give you an idea of how much you have to pay.
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph5 = A budget payment plan can help you meet the payment deadlines, and avoid any fines.
-budgetingYourSelfAssessmentTaxBillTranscript.paragraph6 = Remember, if there’s anything left to pay by 31 January, you’ll need to pay it off by that date.
+budgetingYourSelfAssessmentTaxBillTranscript.paragraph6 = Remember, if there’s anything left to pay, you’ll need to do this by the 31st January.
 budgetingYourSelfAssessmentTaxBillTranscript.paragraph7 = To find out more about Self Assessment, go to GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -869,12 +869,13 @@ selfAssessmentPenaltiesTranscript.paragraph9 = The easiest way to avoid penaltie
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 whySentTaxReturnTranscript.title = Why have I been sent a tax return - video transcript
 whySentTaxReturnTranscript.heading = Why have I been sent a tax return - video transcript
-whySentTaxReturnTranscript.paragraph1 = You’ll usually be sent a tax return if you’re registered as self-employed. But you can check if you need to fill in a Self Assessment tax return quickly and easily on GOV.UK, using the link at the end of this video.
-whySentTaxReturnTranscript.paragraph2 = It’s not connected to HM Revenue and Customs online services so it’s completely anonymous.
-whySentTaxReturnTranscript.paragraph3 = If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.
-whySentTaxReturnTranscript.paragraph4 = If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.
-whySentTaxReturnTranscript.paragraph5 = You must also tell HMRC if you’ve stopped being self-employed. You can do all this – and find out much more – on GOV.UK.
-whySentTaxReturnTranscript.paragraph6 = GOV.UK/check-if-you-need-a-tax-return
+whySentTaxReturnTranscript.paragraph1 = You’ll usually be sent a tax return if you’re registered as self-employed, but there are plenty of other reasons why you may need to fill one in.
+whySentTaxReturnTranscript.paragraph2 = You can check if you need to fill in a Self Assessment tax return quickly and easily on GOV.UK using the link at the end of this video.
+whySentTaxReturnTranscript.paragraph3 = It’s not connected to HM Revenue and Customs online services so it’s completely anonymous.
+whySentTaxReturnTranscript.paragraph4 = If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.
+whySentTaxReturnTranscript.paragraph5 = If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.
+whySentTaxReturnTranscript.paragraph6 = You must also tell HMRC if you’ve stopped being self-employed. You can do all this – and find out much more – on GOV.UK.
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Your first Self Assessment tax return transcript
@@ -966,16 +967,16 @@ yourSelfEmployedTaxReturnTranscript.paragraph30 = Thanks for watching.
 newYourSelfEmployedTaxReturnTranscript.title = Your self-employed tax return
 newYourSelfEmployedTaxReturnTranscript.heading = Your self-employed tax return
 newYourSelfEmployedTaxReturnTranscript.paragraph1 = Once you’re registered for Self Assessment, you’re then able to complete your tax return.
-newYourSelfEmployedTaxReturnTranscript.paragraph2 = In section three of the return, ‘Tailor your return’, we’ll ask if your self-employed income is more than £1,000. If you answer ‘Yes’, you need to tell us about this income.
+newYourSelfEmployedTaxReturnTranscript.paragraph2 = In section three of the return, ‘Tailor your return’, we’ll ask if your self-employed income is more than £1,000. However, you may need to answer ‘Yes’ when your income is £1,000 or less. For example, to pay voluntary Class 2 National Insurance. Use the ‘Help about’ link for further guidance.
 newYourSelfEmployedTaxReturnTranscript.paragraph3 = Start by selecting ‘Fill in your return’. Then, ‘Enter self-employment details’.
-newYourSelfEmployedTaxReturnTranscript.paragraph4 = Page one is about your annual turnover. If your trading income is more than 85 thousand pounds, you may need to register for VAT. If it’s less, select ‘No’ and tick anything on this list that applies to you.
+newYourSelfEmployedTaxReturnTranscript.paragraph4 = Page one is about your annual turnover including taxable Coronavirus Support payments. If your trading income is more than 85 thousand pounds, you may need to register for VAT. If it’s less, select ‘No’ and tick anything on this list that applies to you.
 newYourSelfEmployedTaxReturnTranscript.paragraph5 = On page two, tell us the name of your business and what you do. It’s important to let us know if you started or stopped being self-employed during the year – enter the dates here.
 newYourSelfEmployedTaxReturnTranscript.paragraph6 = Add your accounting details on page three, including the date your accounting year ends. We recommend using the fifth of April, as it’s the end of the tax year.
 newYourSelfEmployedTaxReturnTranscript.paragraph7 = Also, tell us if you’re using cash basis – if you’re not sure what this means, use the ‘help about’ link to find out more. Or watch our YouTube video ‘Cash basis and simplified expenses’.
-newYourSelfEmployedTaxReturnTranscript.paragraph8 = On page four, enter the figures for your turnover and allowable expenses. You can claim the one-thousand-pound trading allowance here – but this means you can’t deduct any other expenses.
+newYourSelfEmployedTaxReturnTranscript.paragraph8 = On page four, enter the figures for your turnover. Don’t include any Coronavirus Support payments. Show any other business income here. Include Coronavirus support payments but not Self-Employment Income Support Grants. These go later in your return. You can claim the one-thousand-pound trading allowance here – but this means you can’t deduct any other expenses. If you’re not using the trading allowance, show your allowable expenses further down the page.
 newYourSelfEmployedTaxReturnTranscript.paragraph9 = When your figures are in, your calculations will appear at the bottom of the screen.
 newYourSelfEmployedTaxReturnTranscript.paragraph10 = Page five is for Capital Allowances. If you’re using cash basis, you can only claim for business cars.
-newYourSelfEmployedTaxReturnTranscript.paragraph11 = Page six is for what we call adjustments. These include, the value of any goods or services for personal use, other business income, and any losses brought forward from an earlier year.
+newYourSelfEmployedTaxReturnTranscript.paragraph11 = Page six is for what we call adjustments. These include, the value of any goods or services for personal use, other business income, and any losses brought forward from an earlier year. This is where you show Self-Employment Income Support Scheme grants. Use the ‘Help about’ link for further guidance on what to include.
 newYourSelfEmployedTaxReturnTranscript.paragraph12 = Page seven asks about any losses from the current tax year.
 newYourSelfEmployedTaxReturnTranscript.paragraph13 = Page eight is for tax deducted – only complete this box if you’re in the Construction Industry Scheme and show your contractor deductions.
 newYourSelfEmployedTaxReturnTranscript.paragraph14 = On page nine enter your Class 4 National Insurance contributions.
@@ -1030,8 +1031,9 @@ sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.para4bull
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph5 = You may want to use simplified expenses – this means you claim a flat rate instead of working out the actual costs. For example, for car travel you can claim 45 pence a mile up to 10,000 miles and then 25 pence a mile over this amount.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph6 = If your income is £85,000 or more, you’ll need to list each expense individually under the appropriate heading. This also applies if you didn’t trade a full year but would have earned this amount or more if you had – for example, your income for 6 months was £50,000 – so in 12 months it would have been £100,000.
 sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph7 = If your income is less than £85,000, it’s up to you whether you give us your total amount of expenses or list them individually.
-sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = It’s important you keep records and proof of your business costs – you’ll need them to complete your Self Assessment tax return. Sometimes we ask to see them, but please don’t send them with your return.
-sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = For more information about allowable expenses, including simplified expenses, please visit GOV.UK.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph8 = It’s important you keep records and proof of your business costs – you’ll need them to complete your Self Assessment tax return.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph9 = Sometimes we ask to see these, but please don’t send them with your return.
+sa.expenses.what_expenses_can_i_include_in_my_sa_tax_return_transcript.paragraph10 = You can find more information about Self Assessment on GOV.UK.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Calculating motoring expenses transcript
@@ -1103,12 +1105,13 @@ basic.record.keeping.transcript.title = Basic record keeping for the self-employ
 basic.record.keeping.transcript.heading = Basic record keeping for the self-employed - video transcript
 basic.record.keeping.transcript.paragraph1 = Basic record keeping is an important activity for any business. You must record any money going in and out of your business, whether the transaction is made in person - by phone - or online.
 basic.record.keeping.transcript.paragraph2 = You can keep your records on paper or digitally using a computer. These include items such as invoices, sale receipts, proof of purchases and bank statements. Remember your records must be accurate, clear and complete.
-basic.record.keeping.transcript.paragraph3 = Some software suppliers offer free record keeping apps for small businesses. How you keep your records will depend on whether you use the traditional or cash basis method of accounting, and how you work out your expenses. There’s more information about cash basis and simplified expenses in our YouTube video and on GOV.UK.
-basic.record.keeping.transcript.paragraph4 = You’ll find it easier if you organise your income and expenses into categories and update these regularly. And, if you’re keeping your records digitally, remember to back up your files.
+basic.record.keeping.transcript.paragraph3 = Some software suppliers offer free record keeping apps for small businesses. ditional or cash basis method of accounting, and how you work out your expenses. How you keep your records depends on if you use the traditional or cash basis method of accounting, and how you work out your expenses. There’s more information about cash basis and simplified expenses in our YouTube video and on GOV.UK.
+basic.record.keeping.transcript.paragraph4 = It’s easier if you organise your income and expenses into categories and update these regularly. And remember to back up your digital records.
 basic.record.keeping.transcript.paragraph5 = It’s important to keep your business and private transactions separate. Drawing or using money from your business for personal use isn’t an allowable business expense.
-basic.record.keeping.transcript.paragraph6 = If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software.
+basic.record.keeping.transcript.paragraph6 = If you’re VAT registered, you’ll also need to keep records of how much VAT you’ve paid your suppliers and charged your customers. If your income is above the VAT threshold, you’ll need to submit your records to us using Making Tax Digital software. This will apply to all VAT registered businesses from April 2022.
 basic.record.keeping.transcript.paragraph7 = Make sure you store your records for at least 6 years, as we may need to see them to check you’re paying the right amount of tax.
-basic.record.keeping.transcript.paragraph8 = You can find more information about record keeping on GOV.UK
+basic.record.keeping.transcript.paragraph8 = You can find out more on GOV.UK and in our other helpful videos on YouTube.
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Add a tax transcript
@@ -1191,13 +1194,14 @@ sa.new_tailor_tax_return_transcript.paragraph3 = Page one asks if you’ve had i
 sa.new_tailor_tax_return_transcript.paragraph4 = You must answer ‘Yes’ or ‘No’ to all the questions. If you choose ‘Yes’, you may be asked for more information; for example, if you say yes to being employed, it asks how many employers you had, and their names.
 sa.new_tailor_tax_return_transcript.paragraph5 = Using ‘Save and continue’ takes you to the next page. This saves your answers so far, you can then stop and come back later.
 sa.new_tailor_tax_return_transcript.paragraph6 = Page two asks about other kinds of income, such as interest from bank and savings accounts, dividends from shares, and pensions.
-sa.new_tailor_tax_return_transcript.paragraph7 = Please note the question about losses on other taxable income refers to income such as casual earnings or commission. It’s not for losses that belong elsewhere in your return – for example, losses from self-employment go in the self-employment section. If in doubt, use the ‘Help about’ link for further guidance.
-sa.new_tailor_tax_return_transcript.paragraph8 = The third page is mainly about tax reliefs, including pension contributions, charitable gifts, Married Couple’s Allowance and Marriage Allowance.
-sa.new_tailor_tax_return_transcript.paragraph9 = This is for tax you’ve paid in the tax year covered by this online return, and which has already been refunded by us or Jobcentre Plus. It’s not for refunds that came from an earlier year, or from an employer.
-sa.new_tailor_tax_return_transcript.paragraph10 = The next section is Fill in your return. Based on your answers in Tailor your return, it shows you the sections you need to complete next.
-sa.new_tailor_tax_return_transcript.paragraph11 = Remember, your Self Assessment tax return covers the tax year that ended on the fifth of April and is due by the thirty first of January the following year. Any tax you owe must be paid by the thirty first of January.
-sa.new_tailor_tax_return_transcript.paragraph12 = You can file anytime, just don’t leave it until the last minute.
-sa.new_tailor_tax_return_transcript.paragraph13 = You can find out more about Self Assessment on GOV.UK and watch our other helpful videos and webinars on YouTube.
+sa.new_tailor_tax_return_transcript.paragraph7 = Only answer ‘Yes’ to this question if you incorrectly claimed or you were overpaid from an HMRC coronavirus support scheme. Use the ‘Help about’ link for more guidance.
+sa.new_tailor_tax_return_transcript.paragraph8 = Please note the question about losses on other taxable income refers to income such as casual earnings or commission. It’s not for losses that belong elsewhere in your return – for example, losses from self-employment go in the self-employment section. If in doubt, use the ‘Help about’ link for further guidance.
+sa.new_tailor_tax_return_transcript.paragraph9 = The third page is mainly about tax reliefs, including pension contributions, charitable gifts, Married Couple’s Allowance and Marriage Allowance.
+sa.new_tailor_tax_return_transcript.paragraph10 = This is for tax you’ve paid in the tax year covered by this online return, and which has already been refunded by us or Jobcentre Plus. It’s not for refunds that came from an earlier year, or from an employer.
+sa.new_tailor_tax_return_transcript.paragraph11 = The next section is Fill in your return. Based on your answers in Tailor your return, it shows you the sections you need to complete next.
+sa.new_tailor_tax_return_transcript.paragraph12 = Remember, your Self Assessment tax return covers the tax year that ended on the fifth of April and is due by the thirty first of January the following year. Any tax you owe must be paid by the thirty first of January.
+sa.new_tailor_tax_return_transcript.paragraph13 = You can file anytime, just don’t leave it until the last minute.
+sa.new_tailor_tax_return_transcript.paragraph14 = You can find out more about Self Assessment on GOV.UK and watch our other helpful videos and webinars on YouTube.
 
 
 
@@ -1226,23 +1230,22 @@ new.yourSelfEmployedTaxReturnTranscript.paragraph14 = You can find out more abou
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 new.incomeFromPropertyTaxReturnTranscript.heading = If I have income from property, how do I fill in my tax return?
 new.incomeFromPropertyTaxReturnTranscript.title = If I have income from property, how do I fill in my tax return?
-new.incomeFromPropertyTaxReturnTranscript.paragraph1 = Your tax return must include any income from property in the UK or European Economic Area.
+new.incomeFromPropertyTaxReturnTranscript.paragraph1 = Your tax return must include any income from property that’s in the UK or European Economic Area.
 new.incomeFromPropertyTaxReturnTranscript.paragraph2 = For property income outside of these areas, fill in the foreign income tax return pages instead.
 new.incomeFromPropertyTaxReturnTranscript.paragraph3 = In this section, don’t include income from letting rooms, such as bed and breakfast unless you’re claiming rent a room relief. This counts as trade and goes elsewhere in your tax return.
 new.incomeFromPropertyTaxReturnTranscript.paragraph4 = To begin, tell us what type of property income you had during the year including furnished holiday lettings.
-new.incomeFromPropertyTaxReturnTranscript.paragraph5 = On this page we need to know:
-new.incomeFromPropertyTaxReturnTranscript.list1 = How much property income you received.
-new.incomeFromPropertyTaxReturnTranscript.list2 = If you’re claiming the property income allowance – if you are, then you can’t claim expenses.
-new.incomeFromPropertyTaxReturnTranscript.list3 = If you’re using traditional accounting – that means you record income and expenses when you invoice customers or receive a bill.
-new.incomeFromPropertyTaxReturnTranscript.paragraph6 = If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, but not improvements or upgrades.
-new.incomeFromPropertyTaxReturnTranscript.paragraph7 = If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.
-new.incomeFromPropertyTaxReturnTranscript.paragraph8 = Next, enter 25 percent of your residential finance costs – you can enter the other 75 percent further on.
-new.incomeFromPropertyTaxReturnTranscript.paragraph9 = On page four enter what we call adjustments – claims that could reduce your tax bill. For example, if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, £3,750, if you’re a joint owner.
-new.incomeFromPropertyTaxReturnTranscript.paragraph10 = On page five you’ll see your adjusted profit or loss for the year.
-new.incomeFromPropertyTaxReturnTranscript.paragraph11 = If you’re in profit, you must enter losses from an earlier year. This amount cannot be more than your adjusted profit for the current year. We’ll then calculate your taxable profit.
-new.incomeFromPropertyTaxReturnTranscript.paragraph12 = Enter the remaining 75 per cent of your residential finance costs here. You can also enter any residential finance costs you couldn’t use in the previous tax year. This will help reduce your total tax bill.
-new.incomeFromPropertyTaxReturnTranscript.paragraph13 = Finally, on page six, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.
-new.incomeFromPropertyTaxReturnTranscript.paragraph14 = You can find more information about Self Assessment on GOV.UK.
+new.incomeFromPropertyTaxReturnTranscript.paragraph5 = On this page tell us how much property income you received. Include any coronavirus support scheme payments. Use the ‘help about’ link for further guidance.
+new.incomeFromPropertyTaxReturnTranscript.paragraph6 = We need to know if you’re claiming the property income allowance – if you are, then you can’t claim expenses.
+new.incomeFromPropertyTaxReturnTranscript.paragraph7 = You also need to tell us if you’re using traditional accounting – that means you record income and expenses when you invoice customers or receive a bill.
+new.incomeFromPropertyTaxReturnTranscript.paragraph8 = If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, but not improvements or upgrades. Don’t include any residential finance costs on this page.
+new.incomeFromPropertyTaxReturnTranscript.paragraph9 = If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.
+new.incomeFromPropertyTaxReturnTranscript.paragraph10 = Next, enter 25 percent of your residential finance costs – you can enter the other 75 percent further on.
+new.incomeFromPropertyTaxReturnTranscript.paragraph11 = On page four enter what we call adjustments – claims that could reduce your tax bill. For example, if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, £3,750, if you’re a joint owner.
+new.incomeFromPropertyTaxReturnTranscript.paragraph12 = On page five you’ll see your adjusted profit or loss for the year.
+new.incomeFromPropertyTaxReturnTranscript.paragraph13 = If you’re in profit, you must enter losses from an earlier year. This amount cannot be more than your adjusted profit for the current year. We’ll then calculate your taxable profit.
+new.incomeFromPropertyTaxReturnTranscript.paragraph14 = Enter your total residential finance costs for this year here. This will help reduce your total tax bill. You can also enter any residential finance costs you couldn’t use in the previous tax year. Use the ‘Help about’ link to work out the amount to enter.
+new.incomeFromPropertyTaxReturnTranscript.paragraph15 = Finally, on page six, add any extra information. Then check your figures on the summary screen – you can go back to make corrections.
+new.incomeFromPropertyTaxReturnTranscript.paragraph16 = You can find more information about Self Assessment on GOV.UK.
 
 #######################################################
 ##  General

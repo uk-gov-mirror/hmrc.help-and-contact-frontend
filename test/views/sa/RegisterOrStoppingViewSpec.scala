@@ -95,18 +95,18 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "class-2-video",
-        "Video - Class 2 National Insurance contributions and your tax return (opens in new tab)",
+        "Video - Class 2 National Insurance contributions and your Self Assessment tax return (opens in new tab)",
         "https://youtu.be/ueoEgsDysP0",
         "link - click:Registering or stopping : Class 2 National Insurance contributions and your tax return - Video",
         expectedOpensInNewTab = true
       )
-      /*assertLinkById(
+      assertLinkById(
         doc,
         "class-2-transcript",
-        "Class 2 National Insurance contributions and your tax return - transcript",
+        "Class 2 National Insurance contributions and your Self Assessment tax return - video transcript",
         "/business-account/help/transcript/class-2-ni",
         "link - click:Registering or stopping : Class 2 National Insurance contributions and your tax return - Transcript"
-      )*/
+      )
       assertLinkById(
         doc,
         "find-UTR",

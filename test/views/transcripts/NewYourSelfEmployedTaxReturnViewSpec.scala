@@ -43,10 +43,11 @@ class NewYourSelfEmployedTaxReturnViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "Once you’re registered for Self Assessment, you’re then able to complete your tax return.",
-        "In section three of the return, ‘Tailor your return’, we’ll ask if your self-employed income is more than £1,000. If you answer ‘Yes’" +
-          ", you need to tell us about this income.",
+        "In section three of the return, ‘Tailor your return’, we’ll ask if your self-employed income is more than £1,000. However, you may need" +
+          " to answer ‘Yes’ when your income is £1,000 or less. For example, to pay voluntary Class 2 National Insurance. " +
+          "Use the ‘Help about’ link for further guidance.",
         "Start by selecting ‘Fill in your return’. Then, ‘Enter self-employment details’.",
-        "Page one is about your annual turnover. If your trading income is more than 85 thousand pounds, " +
+        "Page one is about your annual turnover including taxable Coronavirus Support payments. If your trading income is more than 85 thousand pounds, " +
           "you may need to register for VAT. If it’s less, select ‘No’ and tick anything on this list that applies to you.",
         "On page two, tell us the name of your business and what you do. It’s important to let us know if you started " +
           "or stopped being self-employed during the year – enter the dates here.",
@@ -54,12 +55,15 @@ class NewYourSelfEmployedTaxReturnViewSpec extends ViewBehaviours {
           "We recommend using the fifth of April, as it’s the end of the tax year.",
         "Also, tell us if you’re using cash basis – if you’re not sure what this means, use the ‘help about’ link to find out more." +
           " Or watch our YouTube video ‘Cash basis and simplified expenses’.",
-        "On page four, enter the figures for your turnover and allowable expenses. You can claim the one-thousand-pound " +
-          "trading allowance here – but this means you can’t deduct any other expenses.",
+        "On page four, enter the figures for your turnover. Don’t include any Coronavirus Support payments. Show any other business income here. " +
+          "Include Coronavirus support payments but not Self-Employment Income Support Grants. These go later in your return." +
+          " You can claim the one-thousand-pound trading allowance here – but this means you can’t deduct any other expenses. If you’re not using the " +
+          "trading allowance, show your allowable expenses further down the page.",
         "When your figures are in, your calculations will appear at the bottom of the screen.",
         "Page five is for Capital Allowances. If you’re using cash basis, you can only claim for business cars.",
-        "Page six is for what we call adjustments. These include, the value of any goods or services for personal use," +
-          " other business income, and any losses brought forward from an earlier year.",
+        "Page six is for what we call adjustments. These include, the value of any goods or services for personal use, other business income, and any losses " +
+          "brought forward from an earlier year. This is where you show Self-Employment Income Support Scheme grants." +
+          " Use the ‘Help about’ link for further guidance on what to include.",
         "Page seven asks about any losses from the current tax year.",
         "Page eight is for tax deducted – only complete this box if you’re in the Construction Industry Scheme and show your contractor deductions.",
         "On page nine enter your Class 4 National Insurance contributions.",

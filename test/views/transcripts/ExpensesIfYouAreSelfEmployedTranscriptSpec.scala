@@ -73,9 +73,9 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
           "would have been £100,000.",
         "If your income is less than £85,000, it’s up to you whether you give us your total amount " +
           "of expenses or list them individually.",
-        "It’s important you keep records and proof of your business costs – you’ll need them to complete your Self " +
-          "Assessment tax return. Sometimes we ask to see them, but please don’t send them with your return.",
-        "For more information about allowable expenses, including simplified expenses, please visit GOV.UK."
+        "It’s important you keep records and proof of your business costs – you’ll need them to complete your Self Assessment tax return.",
+        "Sometimes we ask to see these, but please don’t send them with your return.",
+        "You can find more information about Self Assessment on GOV.UK."
       )
 
       contentList.zipAll(elements, "", "").foreach {

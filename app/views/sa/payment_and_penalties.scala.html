@@ -64,11 +64,9 @@ data-journey-click="link - click:Payment and penalties : Read detailed informati
  <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/gfuEtUYOrgA" id="how-do-i-pay-video" target="_blank"
        data-journey-click="link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - video">
   @Messages("payment_and_penalties.how_do_i_pay_video")</a></p>
-
-    @*<p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("paying-your-self-assessment-tax-bill")" id="how-do-i-pay-transcript"
+    <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("paying-your-self-assessment-tax-bill")" id="how-do-i-pay-transcript"
        data-journey-click="link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - transcript">
-  @Messages("payment_and_penalties.how_do_i_pay_transcript")</a></p>*@
-    <p class="govuk-body">@Messages("help.transcripts.missing")</p>
+  @Messages("payment_and_penalties.how_do_i_pay_transcript")</a></p>
 </div>
 
 @components.sa_calculation()
@@ -81,10 +79,9 @@ data-journey-click="link - click:Payment and penalties : Budget for your tax bil
  <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/T2EBuV7Vy28" id="how-do-i-budget-video" target="_blank"
  data-journey-click="link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - video">
   @Messages("payment_and_penalties.how_do_i_budget_video")</a></p>
-    <p>@Messages("help.transcripts.missing")</p>
-@*<p> <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("budgeting-your-self-assessment-tax-bill")" id="how-do-i-budget-transcript">
+ <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("budgeting-your-self-assessment-tax-bill")" id="how-do-i-budget-transcript"
 data-journey-click="link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - transcript">
-  @Messages("payment_and_penalties.how_do_i_budget_transcript")</a></p>*@
+  @Messages("payment_and_penalties.how_do_i_budget_transcript")</a></p>
 </div>
 
 <h2 class="govuk-heading-m">@Messages("payment_and_penalties.penalties")</h2>
