@@ -163,6 +163,7 @@ helpWithYourSelfAssessmentTaxReturn.heading = Help gyda Ffurflen Dreth Hunanases
 helpWithYourSelfAssessmentTaxReturn.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.find_out_more = Dysgwch ragor am gofrestru ar gyfer Hunanasesiad ar-lein
 helpWithYourSelfAssessmentTaxReturn.why_you_must_complete = Pam mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth Hunanasesiad
+helpWithYourSelfAssessmentTaxReturn.filing_your_sa = Cyflwyno’ch Ffurflen Dreth Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = Fel rheol, anfonir Ffurflen Dreth neu lythyr atoch ynglŷn â Ffurflen Dreth os ydych wedi’ch cofrestru fel unigolyn hunangyflogedig.
 helpWithYourSelfAssessmentTaxReturn.file_by_deadline = Mae’n rhaid i chi gyflwyno’ch Ffurflen Dreth, hyd yn oed os nad oes gennych dreth i’w thalu. Os na fyddwch yn ei chyflwyno erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
 helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Fideo – Pam mae ffurflen Dreth wedi’i hanfon ataf? (Yn agor tab newydd)
