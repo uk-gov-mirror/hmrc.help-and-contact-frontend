@@ -39,7 +39,8 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
-        "Self Assessment tax returns",
+        "Self Assessment",
+        "Filing your Self Assessment tax return",
         "Registering for Self Assessment",
         "Why you must complete and file a Self Assessment tax return",
         "If you do not need to complete and file a Self Assessment tax return",

@@ -163,6 +163,7 @@ helpWithYourSelfAssessmentTaxReturn.heading = Help with your Self Assessment tax
 helpWithYourSelfAssessmentTaxReturn.registering_for_sa = Registering for Self Assessment
 helpWithYourSelfAssessmentTaxReturn.find_out_more = Find out more about registering for Self Assessment online
 helpWithYourSelfAssessmentTaxReturn.why_you_must_complete = Why you must complete and file a Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.filing_your_sa = Filing your Self Assessment tax return
 helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = You will usually be sent a tax return or a letter about a tax return if you are registered as self-employed.
 helpWithYourSelfAssessmentTaxReturn.file_by_deadline = You must file your tax return even if you have no tax to pay. If you do not file it by the deadline, you may have to pay a penalty.
 helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Video - Why have I been sent a tax return? (opens in new tab)
@@ -216,7 +217,7 @@ helpWithYourSelfAssessmentTaxReturn.complete_and_file = Complete and file your t
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Self Assessment tax returns
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-modular.sa_tax_return.self_assessment_tax_return = Self Assessment tax returns
+modular.sa_tax_return.self_assessment_tax_return = Self Assessment
 modular.sa_tax_return.is_a_system = Self Assessment is a system HM Revenue and Customs (HMRC) uses to collect Income Tax.
 modular.sa_tax_return.income_tax_is_usually = Income Tax is usually deducted automatically from wages, pensions and savings.
 modular.sa_tax_return.people_and_business = People and businesses with other income must report it by filing a Self Assessment tax return.
