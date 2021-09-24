@@ -214,6 +214,57 @@ helpWithYourSelfAssessmentTaxReturn.keeping_pay = Cadw’ch cofnodion cyflog a t
 helpWithYourSelfAssessmentTaxReturn.complete_and_file = llenwi a chyflwyno’ch Ffurflen Dreth erbyn (yn agor tab newydd).
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help With Making Tax Digital For Income Tax
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+helpWithMTDITSA.title = Help gyda’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.heading = Help gyda’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.for_income_tax.heading = Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.for_income_tax.p1 = Mae’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm yn system newydd y mae Cyllid a Thollau EM (CThEM) yn ei defnyddio i gasglu Treth Incwm.
+helpWithMTDITSA.for_income_tax.p2 = Fel arfer, didynnir Treth Incwm yn awtomatig oddi wrth gyflogau, pensiynau a chynilion.
+helpWithMTDITSA.for_income_tax.p3 = Fodd bynnag, mae’n rhaid i bobl a busnesau sydd ag incwm arall roi gwybod am Dreth Incwm drwy gyflwyno diweddariadau chwarterol a datganiad terfynol blynyddol.
+helpWithMTDITSA.for_income_tax.p4 = Defnyddir y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm gan:
+helpWithMTDITSA.for_income_tax.list1.p1 = yr hunangyflogedig
+helpWithMTDITSA.for_income_tax.list1.p2 = unig fasnachwyr
+helpWithMTDITSA.for_income_tax.list1.p3 = unigolion megis cyfarwyddwyr cwmni
+helpWithMTDITSA.for_income_tax.list1.p4 = partneriaid mewn partneriaethau
+helpWithMTDITSA.for_income_tax.list1.p5 = ymddiriedolwyr
+helpWithMTDITSA.for_income_tax.list1.p6 = pobl debyg eraill
+helpWithMTDITSA.self_assessment_and_income_tax.heading = Hunanasesiad a’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.self_assessment_and_income_tax.p1 = Hunanasesiad yw’r system y mae CThEM yn ei defnyddio ar hyn o bryd i gasglu Treth Incwm.
+helpWithMTDITSA.self_assessment_and_income_tax.p2 = Ar ôl i chi gofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm, bydd yn dal i fod yn rhaid i chi gyflwyno Ffurflen Dreth Hunanasesiad ar gyfer y flwyddyn dreth cyn yr un bresennol.
+helpWithMTDITSA.self_assessment_and_income_tax.p3 = Ar ôl hynny, bydd yn rhaid i chi
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = anfon diweddariadau chwarterol (yn agor tab newydd)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.1 = a
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = datganiad terfynol ar gyfer Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.2 = ar gyfer y flwyddyn dreth bresennol.
+helpWithMTDITSA.self_assessment_and_income_tax.p4 = Mae hyn yn disodli’ch Ffurflen Dreth Hunanasesiad flynyddol.
+helpWithMTDITSA.self_assessment_and_income_tax.p5 = Does dim angen i chi dalu Treth Incwm yn chwarterol. Mae’ch Treth Incwm yn ddyledus bob 31 Ionawr ar ôl i’r flwyddyn dreth ddod i ben. Dyma’r un drefn ag a ddefnyddir ar gyfer Hunanasesiad.
+helpWithMTDITSA.example_change.heading = Enghraifft: Newid o Hunanasesiad i’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.example_change.p1 = Mae Jay Smith yn ennill arian o hunangyflogaeth ac yn rhoi gwybod am yr enillion i CThEM drwy Hunanasesiad.
+helpWithMTDITSA.example_change.p2 = Ym mis Medi 2021, mae Jay Smith yn penderfynu rhoi’r gorau i ddefnyddio Hunanasesiad a chofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm yn lle hynny.
+helpWithMTDITSA.example_change.p3 = Erbyn 31 Ionawr 2022, bydd yn rhaid i Jay:
+helpWithMTDITSA.example_change.p3.bullet1 = anfon Ffurflen Dreth Hunanasesiad i CThEM ar gyfer blwyddyn dreth 2020 i 2021
+helpWithMTDITSA.example_change.p3.bullet2 = talu’r Dreth Incwm sy’n ddyledus ar gyfer blwyddyn dreth 2020 i 2021 i CThEM
+helpWithMTDITSA.example_change.p4 = Hefyd, bydd yn rhaid i Jay ddechrau anfon diweddariadau chwarterol ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm o fis Medi 2022 ymlaen. Mae’r diweddariadau hyn ar gyfer blwyddyn dreth 2021 i 2022.
+helpWithMTDITSA.example_change.p5 = Erbyn 31 Ionawr 2023, bydd yn rhaid i Jay hefyd:
+helpWithMTDITSA.example_change.p5.bullet1 = anfon datganiad terfynol ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm i CThEM ar gyfer blwyddyn dreth 2021 i 2022
+helpWithMTDITSA.example_change.p5.bullet2 = talu’r Dreth Incwm sy’n ddyledus ar gyfer blwyddyn dreth 2021 i 2022 i CThEM
+helpWithMTDITSA.example_change.linkText = Dysgwch ragor am y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.sign_up.heading = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.sign_up.p1 = Ar ôl i chi
+helpWithMTDITSA.sign_up.p1.linkText = gofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.sign_up.p1.1 = gallwch
+helpWithMTDITSA.sign_up.p1.linkText1 = ychwanegu’r cynllun at eich cyfrif treth busnes
+helpWithMTDITSA.sign_up.p2 = Mae hyn yn ei gwneud yn hawdd i chi reoli Troi Treth yn Ddigidol ar gyfer Treth Incwm ar-lein ynghyd â’ch trethi busnes eraill.
+helpWithMTDITSA.sign_up.p3 = Efallai y bydd angen arnoch eitemau sy’n profi pwy ydych, er mwyn ychwanegu Troi Treth yn Ddigidol ar gyfer Treth Incwm at eich cyfrif.
+helpWithMTDITSA.getting_software.heading = Cael hyd i feddalwedd ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
+helpWithMTDITSA.getting_software.p1 = Mae’n rhaid i chi ddefnyddio meddalwedd er mwyn anfon eich diweddariadau chwarterol a’ch datganiad terfynol ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm.
+helpWithMTDITSA.getting_software.linkText = Dewch o hyd i feddalwedd ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.more_help.heading = Rhagor o help
+helpWithMTDITSA.more_help.linkText = Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Self Assessment tax returns
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 modular.sa_tax_return.self_assessment_tax_return = Ffurflenni Treth Hunanasesiad

@@ -45,6 +45,7 @@ class HelpAndContactController @Inject()(
                                           help_and_contact: help_and_contact,
                                           sa_evidence: sa_evidence,
                                           expenses: expenses,
+                                          helpWithMTDIT: help_with_making_tax_digital_for_income_tax,
                                           help_with_your_self_assessment_tax_return: help_with_your_self_assessment_tax_return,
                                           register_or_stopping: register_or_stopping,
                                           payments_and_deadlines: payments_and_deadlines,
@@ -123,6 +124,7 @@ class HelpAndContactController @Inject()(
         Redirect(controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "payment-and-penalties"))
       }
       case "register-or-stopping" => Ok(register_or_stopping(appConfig)(request.serviceInfoContent))
+      case "help-with-making-tax-digital-for-income-tax" => Ok(helpWithMTDIT(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
 
