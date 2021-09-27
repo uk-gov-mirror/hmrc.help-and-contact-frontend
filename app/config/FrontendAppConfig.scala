@@ -56,9 +56,13 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   private lazy val addTaxHost: String = servicesConfig.getString("urls.add-tax.host")
 
+  private lazy val userProfileRedirectHost: String = servicesConfig.getString("urls.user-profile-redirect.host")
+
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
   def getAddTaxUrl(key: String): String = addTaxHost + loadConfig(s"urls.add-tax.$key")
+
+  def getUserProfileRedirect(key: String): String = userProfileRedirectHost + loadConfig(s"urls.user-profile-redirect.$key")
 
   private lazy val dfsHost: String = servicesConfig.getString("urls.digital-forms-service.host")
   private lazy val dfsBase: String = servicesConfig.getString("urls.digital-forms-service.base")
