@@ -68,6 +68,7 @@ vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are sligh
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
 vat.correct_a_mistake = Correct errors on your VAT returns
+vat.community_forum = VAT community forum (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -584,6 +585,7 @@ sa.evidence.where_to_get.pre_link=You can get your SA302 in the
 sa.evidence.where_to_get.link_text=more Self Assessment details
 sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
+sa.evidence.community_forum = Self Assessment community forum (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -713,6 +715,7 @@ epaye.submissions.if_you_use_bpt_ = if you use BPT to manage your payroll.
 epaye.submissions.if_you_use_commercial_software_ = If you use commercial software to manage your payroll, check with your software provider whether it can process Earlier Year Updates.
 epaye.submissions.if_your_software_does_not_offer_ = If your software doesn’t offer Earlier Year Updates, you will need to
 epaye.submissions.install_bpt_ = install BPT to submit an Earlier Year Update
+epaye.submissions.community_forum = PAYE for employers community forum (opens in new tab)
 
 
 #######################################################
@@ -1221,6 +1224,7 @@ help_and_contact.making_tax_digital = Making Tax Digital
 help_and_contact.sign_up.making_tax_digital = Sign up for Making Tax Digital for VAT
 help_and_contact.making_tax_digital_webinar = Making Tax Digital for VAT webinars
 help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital for VAT
+help_and_contact.community_forum = Making Tax Digital for VAT community forum (opens in new tab)
 
 
 ###########################################
@@ -1234,6 +1238,22 @@ covid.debt_management_for_tax_bills = Debt management for tax bills: contact HMR
 covid.coronavirus_job_retention_scheme = Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)
 covid.self_employment_income_support_scheme = Self-Employment Income Support Scheme (SEISS): Grant Extension (opens in new tab)
 
+
+###########################################
+##     BTA Help
+###########################################
+btaHelp.heading = Business tax account
+btaHelp.help_with_business_tax_account = Help with your business tax account
+btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account? (opens in new tab)
+btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
+btaHelp.changing_your_phone_number = Changing your phone number and other account details
+btaHelp.hrmc_forums = HMRC community forums (opens in new tab)
+
+###########################################
+##     MTD Itsa Help
+###########################################
+mtditsaHelp.heading = Making Tax Digital for Income Tax
+mtditsaHelp.help_with_mtditsa = Help with Making Tax Digital for Income Tax
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New tailor your SA tax return transcript

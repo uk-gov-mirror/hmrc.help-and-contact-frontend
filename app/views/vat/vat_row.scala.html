@@ -1,0 +1,81 @@
+@*
+* Copyright 2021 HM Revenue & Customs
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*@
+
+@import config.FrontendAppConfig
+@import models.HelpCategory._
+
+
+@(appConfig: FrontendAppConfig)(implicit request: Request[_], messages: Messages)
+
+<div>
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+    <h2 class="govuk-heading-m">@Messages("help_and_contact.vat")</h2>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="register-deregister-vat"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "register-or-deregister")"
+            data-journey-click="link - click:Help and contact:Register or deregister for VAT">
+            @messages("vat.register_or_deregister.heading")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="how-to-pay-vat"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(VAT, "how-to-pay")"
+            data-journey-click="link - click:Help and contact:How to pay VAT and deadlines">
+            @messages("vat.payments_and_deadlines.heading")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="contact-about-vat"
+            class="govuk-link"
+            href=@appConfig.getGovUrl("callUs")
+            data-journey-click="link - click:Help and contact:Contact HMRC about VAT">
+            @messages("vat.questions_about_vat.heading")
+            </a>
+        </p>
+    </div>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="correct-a-mistake"
+            class="govuk-link"
+            href="@appConfig.getGovUrl("vatCorrections")"
+            data-journey-click="link - click:Help and contact:Correct errors on your VAT returns">@messages("vat.correct_a_mistake")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="vat-community-forum"
+            class="govuk-link"
+            href="https://community.hmrc.gov.uk/customerforums/vat"
+            data-journey-click="link - click:Help and contact:Vat Community forum" target="_blank">
+            @messages("vat.community_forum")
+            </a>
+        </p>
+    </div>
+</div>
