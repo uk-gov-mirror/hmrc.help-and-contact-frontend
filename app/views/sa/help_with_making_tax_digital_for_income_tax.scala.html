@@ -1,0 +1,99 @@
+@import config.FrontendAppConfig
+
+@this(
+        main_template: main_template
+)
+
+@(appConfig: FrontendAppConfig)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+
+@main_template(
+    title = messages("helpWithMTDITSA.title"),
+    appConfig = appConfig,
+    bodyClasses = None,
+    serviceInfoContent = serviceInfoContent) {
+
+    @components.heading("help-with-making-tax-digital-for-income-tax", "helpWithMTDITSA.heading", "govuk-heading-xl")
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.for_income_tax.heading")</h2>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.for_income_tax.p1")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.for_income_tax.p2")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.for_income_tax.p3")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.for_income_tax.p4")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p1")</li>
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p2")</li>
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p3")</li>
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p4")</li>
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p5")</li>
+        <li>@Messages("helpWithMTDITSA.for_income_tax.list1.p6")</li>
+    </ul>
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.self_assessment_and_income_tax.heading")</h2>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.self_assessment_and_income_tax.p1")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.self_assessment_and_income_tax.p2")</p>
+    <p class="govuk-body"> @Messages("helpWithMTDITSA.self_assessment_and_income_tax.p3")
+        <a class="govuk-link" href="@appConfig.getGovUrl("sendUpdatesUsingSoftware")" target="_blank" id="mtd-itsa-send-quarterly-updates"
+            data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Send Quarterly Updates">
+            @Messages("helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1")
+        </a>
+        @Messages("helpWithMTDITSA.self_assessment_and_income_tax.p3.1")
+        <a class="govuk-link" href="@appConfig.getGovUrl("submitAFinalDeclaration")" target="_blank" id="mtd-itsa-final-declaration"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: final declaration">
+            @Messages("helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2")
+        </a> @Messages("helpWithMTDITSA.self_assessment_and_income_tax.p3.2")
+    </p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.self_assessment_and_income_tax.p4")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.self_assessment_and_income_tax.p5")</p>
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.example_change.heading")</h2>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.example_change.p1")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.example_change.p2")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.example_change.p3")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("helpWithMTDITSA.example_change.p3.bullet1")</li>
+        <li>@Messages("helpWithMTDITSA.example_change.p3.bullet2")</li>
+    </ul>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.example_change.p4")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.example_change.p5")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("helpWithMTDITSA.example_change.p5.bullet1")</li>
+        <li>@Messages("helpWithMTDITSA.example_change.p5.bullet2")</li>
+    </ul>
+    <p class="govuk-body">
+        <a class="govuk-link" href="@appConfig.getGovUrl("rulesForMakingTaxDigital")" target="_blank" id="mtd-itsa-find-out-more"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Find out more">
+        @Messages("helpWithMTDITSA.example_change.linkText")
+        </a>
+    </p>
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.sign_up.heading")</h2>
+    <p class="govuk-body"> @Messages("helpWithMTDITSA.sign_up.p1")
+        <a class="govuk-link" href="@appConfig.getGovUrl("signUpForMTDItsa")" target="_blank" id="mtd-itsa-sign-up"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Sign up for MTD Itsa">
+        @Messages("helpWithMTDITSA.sign_up.p1.linkText")</a>, @Messages("helpWithMTDITSA.sign_up.p1.1")
+        <a class="govuk-link" href="@appConfig.getBusinessAccountUrl("taxChoice")" id="mtd-itsa-add-tax"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Add tax">
+        @Messages("helpWithMTDITSA.sign_up.p1.linkText1")
+        </a>.
+    </p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.sign_up.p2")</p>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.sign_up.p3")</p>
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.getting_software.heading")</h2>
+    <p class="govuk-body">@Messages("helpWithMTDITSA.getting_software.p1")</p>
+    <p class="govuk-body">
+        <a class="govuk-link" href="@appConfig.getGovUrl("compatibleSoftware")" target="_blank" id="mtd-itsa-compatible-software"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Find Compatible Software">
+        @Messages("helpWithMTDITSA.getting_software.linkText")
+        </a>
+    </p>
+
+    <h2 class="govuk-heading-m">@Messages("helpWithMTDITSA.more_help.heading")</h2>
+    <p class="govuk-body">
+        <a class="govuk-link" href="@appConfig.getGovUrl("collectionsMTDIT")" target="_blank" id="mtd-itsa-collections-mtd-itsa"
+        data-journey-click="link - click:Help with your Making Tax Digital Income Tax: Making Tax Digital More Help">
+        @Messages("helpWithMTDITSA.more_help.linkText")
+        </a>
+    </p>
+
+}

@@ -248,6 +248,57 @@ modular.sa_tax_return.have_not_received = If you have not received a notice to f
 modular.sa_tax_return.have_not_received_link =  check anonymously if you need to file a return (opens in new tab).
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help With Making Tax Digital For Income Tax
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+helpWithMTDITSA.title = Help with Making Tax Digital for Income Tax
+helpWithMTDITSA.heading = Help with Making Tax Digital for Income Tax
+helpWithMTDITSA.for_income_tax.heading = Making Tax Digital For Income Tax
+helpWithMTDITSA.for_income_tax.p1 = Making Tax Digital for Income Tax is a new system HM Revenue and Customs (HMRC) uses to collect Income Tax.
+helpWithMTDITSA.for_income_tax.p2 = Income Tax is usually deducted automatically from wages, pensions and savings.
+helpWithMTDITSA.for_income_tax.p3 = However, people and businesses with other income must report Income Tax by submitting quarterly updates and an annual final declaration.
+helpWithMTDITSA.for_income_tax.p4 = Making Tax Digital for Income Tax is used by:
+helpWithMTDITSA.for_income_tax.list1.p1 = the self-employed
+helpWithMTDITSA.for_income_tax.list1.p2 = sole traders
+helpWithMTDITSA.for_income_tax.list1.p3 = individuals such as company directors
+helpWithMTDITSA.for_income_tax.list1.p4 = partners in partnerships
+helpWithMTDITSA.for_income_tax.list1.p5 = trustees
+helpWithMTDITSA.for_income_tax.list1.p6 = other similar people
+helpWithMTDITSA.self_assessment_and_income_tax.heading = Self Assessment and Making Tax Digital for Income Tax
+helpWithMTDITSA.self_assessment_and_income_tax.p1 = Self Assessment is the system HMRC currently uses to collect Income Tax.
+helpWithMTDITSA.self_assessment_and_income_tax.p2 = After you sign up for Making Tax Digital for Income Tax, you must still submit a Self Assessment tax return for the tax year before the current one.
+helpWithMTDITSA.self_assessment_and_income_tax.p3 = You must then
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = send quarterly updates (opens in new tab)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.1 = and a
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = final declaration for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.2 = for the current tax year.
+helpWithMTDITSA.self_assessment_and_income_tax.p4 = This replaces your annual Self Assessment tax return.
+helpWithMTDITSA.self_assessment_and_income_tax.p5 = You do not need to pay Income Tax quarterly. Your Income Tax is due every 31 January after the tax year ends. This is the same as Self Assessment.
+helpWithMTDITSA.example_change.heading = Example: Changing from Self Assessment to Making Tax Digital for Income Tax
+helpWithMTDITSA.example_change.p1 = Jay Smith earns money from self-employment and reports the earnings to HMRC using Self Assessment.
+helpWithMTDITSA.example_change.p2 = In September 2021, Jay Smith decides to stop Self Assessment and sign up for Making Tax Digital for Income Tax.
+helpWithMTDITSA.example_change.p3 = By 31 January 2022, Jay must:
+helpWithMTDITSA.example_change.p3.bullet1 = send HMRC a Self Assessment tax return for tax year 2020 to 2021
+helpWithMTDITSA.example_change.p3.bullet2 = pay HMRC the Income Tax due for tax year 2020 to 2021
+helpWithMTDITSA.example_change.p4 = Jay must also start sending Making Tax Digital for Income Tax quarterly updates from September 2022. These updates are for the tax year 2021 to 2022.
+helpWithMTDITSA.example_change.p5 = By 31 January 2023, Jay must also:
+helpWithMTDITSA.example_change.p5.bullet1 = send HMRC a Making Tax Digital for Income Tax final declaration for tax year 2021 to 2022
+helpWithMTDITSA.example_change.p5.bullet2 = pay HMRC the Income Tax due for tax year 2021 to 2022
+helpWithMTDITSA.example_change.linkText = Find out more about Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.sign_up.heading = Signing up for Making Tax Digital for Income Tax
+helpWithMTDITSA.sign_up.p1 = After you
+helpWithMTDITSA.sign_up.p1.linkText = sign up for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.sign_up.p1.1 = you can
+helpWithMTDITSA.sign_up.p1.linkText1 = add it to your business tax account
+helpWithMTDITSA.sign_up.p2 = This makes it easy for you to manage Making Tax Digital for Income Tax online with your other business taxes.
+helpWithMTDITSA.sign_up.p3 = You may need to have items that prove your identity to add Making Tax Digital for Income Tax to your account.
+helpWithMTDITSA.getting_software.heading = Getting Making Tax Digital for Income Tax software
+helpWithMTDITSA.getting_software.p1 = You must use software to send your Making Tax Digital for Income Tax quarterly updates and final declaration.
+helpWithMTDITSA.getting_software.linkText = Find software for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.more_help.heading = More help
+helpWithMTDITSA.more_help.linkText = Making Tax Digital for Income Tax (opens in new tab)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Viewing your SA calculation
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 modular.viewingSaCalculation.viewing_your_sa_calculation = Viewing your Self Assessment calculation
