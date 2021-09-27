@@ -28,7 +28,7 @@ import play.api.mvc.{AnyContent, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.ct._
 import views.html.epaye._
-import views.html.general.help_with_your_bta
+import views.html.general._
 import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
@@ -52,6 +52,7 @@ class HelpAndContactController @Inject()(
                                           register_or_deregister: register_or_deregister,
                                           payment_and_penalties: payment_and_penalties,
                                           help_with_your_bta: help_with_your_bta,
+                                          change_your_details: change_your_details,
                                           override val messagesApi: MessagesApi,
                                           authenticate: AuthAction,
                                           serviceInfo: ServiceInfoAction,
@@ -138,6 +139,7 @@ class HelpAndContactController @Inject()(
   private def gen(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "help-with-your-business-tax-account" => Ok(help_with_your_bta(appConfig)(request.serviceInfoContent))
+      case "change-your-details" => Ok(change_your_details(appConfig)(request.serviceInfoContent))
       case _ => NotFound(errorHandler.notFoundTemplate)
     }
 

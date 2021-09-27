@@ -1385,6 +1385,43 @@ help.withYourBta.using.bullet9 = sign up for paperless notifications
 help.withYourBta.using.bullet10 = change your Government Gateway password
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help changing your phone number
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+help.changingDetails.heading = Changing your phone number and other account details
+help.changingDetails.title = Changing your phone number and other account details
+help.changingDetails.changingDetailsAndOthers.heading = Changing your phone number and other sign in details
+help.changingDetails.changingDetailsAndOthers.p1 = You can view or change your phone number, name, password and email address by
+help.changingDetails.changingDetailsAndOthers.p1.linkText = managing your Government Gateway details
+help.changingDetails.changingDetailsAndOthers.p2 = You can use your phone number or an authenticator app to get access codes for your business tax account.
+help.changingDetails.changingDetailsAndOthers.p3 = We recommend that you set up at least 1 backup device for your access codes.
+help.changingDetails.changingDetailsAndOthers.p4 = You can view or change your security preferences in your Government Gateway details.
+help.changingDetails.changingDetailsAndOthers.p5 = Changes take up to 2 days to update.
+
+help.changingDetails.changeBusinessDetails.heading = Changing your business details
+help.changingDetails.changeBusinessDetails.p1 = You can view or change:
+help.changingDetails.changeBusinessDetails.p1.bullet1 = your phone number, company name, address and similar details in your
+help.changingDetails.changeBusinessDetails.p1.bullet1.linkText = business tax account details
+help.changingDetails.changeBusinessDetails.p1.bullet2 = your contact preferences between paper letters and online emails
+help.changingDetails.changeBusinessDetails.p2 = You must change your details for each tax separately. These details do not automatically match your Government Gateway details.
+help.changingDetails.changeBusinessDetails.p3 = Changes take up to 2 days to update.
+
+help.changingDetails.changeTeamMember.heading = Changing team member details as an administrator
+help.changingDetails.changeTeamMember.p1 = As an administrator on a business tax account you can
+help.changingDetails.changeTeamMember.p1.linkText = manage Government Gateway details for a standard user
+help.changingDetails.changeTeamMember.p2 = You can:
+help.changingDetails.changeTeamMember.p2.bullet1 = reset their password
+help.changingDetails.changeTeamMember.p2.bullet2 = remove their security preferences
+help.changingDetails.changeTeamMember.p2.bullet3 = resend their Government Gateway user ID
+help.changingDetails.changeTeamMember.p2.bullet4 = delete their Government Gateway user ID
+help.changingDetails.changeTeamMember.p3 = If an administrator removes a standard user’s security preferences, the standard user must add a new phone number or authenticator app to get access codes. If they do not, they will not be able to sign in again.
+help.changingDetails.changeTeamMember.p4 = To change or remove an administrator’s phone number or authenticator app, you must call HMRC.
+
+help.changingDetails.moreHelp.heading = More help
+help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have problems signing in (opens in new tab)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Misc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help.transcripts.missing = We will publish a transcript for this video in August 2021.

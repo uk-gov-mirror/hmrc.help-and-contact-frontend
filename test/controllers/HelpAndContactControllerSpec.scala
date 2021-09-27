@@ -18,8 +18,8 @@ package controllers
 
 import controllers.actions.AuthAction
 import controllers.actions.mocks.MockAuth
-import models.{HelpCategory, SaUtr}
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
+import models.{HelpCategory, SaUtr}
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.AnyContentAsEmpty
@@ -30,7 +30,7 @@ import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase
 import views.html.ct._
 import views.html.epaye._
-import views.html.general.help_with_your_bta
+import views.html.general.{change_your_details, help_with_your_bta}
 import views.html.help_and_contact
 import views.html.sa._
 import views.html.vat._
@@ -186,6 +186,15 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
       inject[help_with_your_bta]
         .apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    HelpCategory.GEN,
+    "change-your-details",
+    () =>
+      inject[change_your_details]
+        .apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  )
+
   behave like pageRouter(
     HelpCategory.Epaye,
     "refunds",

@@ -1389,6 +1389,43 @@ help.withYourBta.using.bullet9 = cofrestru i gael hysbysiadau di-bapur
 help.withYourBta.using.bullet10 =  newid eich cyfrinair ar gyfer Porth y Llywodraeth
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help changing your phone number
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+help.changingDetails.heading = Newid eich rhif ffôn a manylion eraill eich cyfrif
+help.changingDetails.title = Newid eich rhif ffôn a manylion eraill eich cyfrif
+help.changingDetails.changingDetailsAndOthers.heading = Newid eich rhif ffôn a’ch manylion mewngofnodi eraill
+help.changingDetails.changingDetailsAndOthers.p1 = Gallwch fwrw golwg dros, neu newid, eich rhif ffôn, eich enw, eich cyfrinair a’ch cyfeiriad e-bost drwy
+help.changingDetails.changingDetailsAndOthers.p1.linkText = reoli’ch manylion ar gyfer Porth y Llywodraeth
+help.changingDetails.changingDetailsAndOthers.p2 = Gallwch ddefnyddio’ch rhif ffôn neu ap dilysu i gael codau cyrchu ar gyfer cyfrif treth busnes.
+help.changingDetails.changingDetailsAndOthers.p3 = Rydym yn argymell eich bod yn sefydlu o leiaf un ddyfais wrth gefn ar gyfer eich codau cyrchu.
+help.changingDetails.changingDetailsAndOthers.p4 = Gallwch fwrw golwg dros, neu newid, eich dewisiadau diogelwch yn eich manylion ar gyfer Porth y Llywodraeth.
+help.changingDetails.changingDetailsAndOthers.p5 = Mae newidiadau’n cymryd hyd at 2 ddiwrnod i’w diweddaru.
+
+help.changingDetails.changeBusinessDetails.heading = Newid eich manylion busnes
+help.changingDetails.changeBusinessDetails.p1 = Gallwch fwrw golwg dros, neu newid, y canlynol:
+help.changingDetails.changeBusinessDetails.p1.bullet1 = eich rhif ffôn, enw’r cwmni, y cyfeiriad a manylion o’r fath yn eich
+help.changingDetails.changeBusinessDetails.p1.bullet1.linkText = manylion ar gyfer eich cyfrif treth busnes
+help.changingDetails.changeBusinessDetails.p1.bullet2 = eich dull cysylltu dewisol rhwng llythyrau ar bapur ac e-byst ar-lein
+help.changingDetails.changeBusinessDetails.p2 = Mae’n rhaid i chi newid eich manylion ar gyfer pob math o dreth ar wahân. Nid yw’r manylion hyn yn cyd-fynd yn awtomatig â’ch manylion ar gyfer Porth y Llywodraeth.
+help.changingDetails.changeBusinessDetails.p3 = Mae newidiadau’n cymryd hyd at 2 ddiwrnod i’w diweddaru.
+
+help.changingDetails.changeTeamMember.heading = Newid manylion aelodau o’r tîm fel gweinyddwr
+help.changingDetails.changeTeamMember.p1 = Fel gweinyddwr cyfrif treth busnes, gallwch
+help.changingDetails.changeTeamMember.p1.linkText = reoli manylion ar gyfer Porth y Llywodraeth ar gyfer defnyddiwr cyffredin
+help.changingDetails.changeTeamMember.p2 = Gallwch:
+help.changingDetails.changeTeamMember.p2.bullet1 = ailosod ei gyfrinair
+help.changingDetails.changeTeamMember.p2.bullet2 = tynnu ei ddewisiadau diogelwch
+help.changingDetails.changeTeamMember.p2.bullet3 = ailanfon ei Ddynodydd Defnyddiwr (ID) Porth y Llywodraeth
+help.changingDetails.changeTeamMember.p2.bullet4 = dileu ei Ddynodydd Defnyddiwr (ID) Porth y Llywodraeth
+help.changingDetails.changeTeamMember.p3 = Os bydd gweinyddwr yn tynnu dewisiadau diogelwch defnyddiwr cyffredin, bydd yn rhaid i’r defnyddiwr cyffredin ychwanegu rhif ffôn newydd neu ap dilysu er mwyn cael y codau cyrchu. Os na fydd yn gwneud hyn, ni fydd modd iddo fewngofnodi eto.
+help.changingDetails.changeTeamMember.p4 = I newid neu tynnu rhif ffôn neu ap dilysu gweinyddwr, bydd yn rhaid i’r gweinyddwr ffonio CThEM.
+
+help.changingDetails.moreHelp.heading = Rhagor o help
+help.changingDetails.moreHelp.linkText = Help gyda gwasanaethau CThEM os ydych yn cael problemau wrth fewngofnodi (yn agor tab newydd)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Misc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help.transcripts.missing = Byddwn yn cyhoeddi trawsgrifiad ar gyfer y fideo hwn ym mis Awst 2021.
