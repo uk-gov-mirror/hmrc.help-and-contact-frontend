@@ -44,12 +44,14 @@ class helpAndContactViewSpec extends ViewBehaviours {
 
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
+        "Business tax account",
         "Coronavirus (COVID-19) support",
-        "Self Assessment",
-        "VAT",
-        "Making Tax Digital",
         "Corporation Tax",
-        "PAYE for employers"
+        "PAYE for employers",
+        "Making Tax Digital for Income Tax",
+        "Self Assessment",
+        "Making Tax Digital",
+        "VAT"
       )
       val doc = asDocument(createView())
       val headings = doc

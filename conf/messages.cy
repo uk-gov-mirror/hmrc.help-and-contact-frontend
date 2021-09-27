@@ -68,6 +68,8 @@ vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = ychydig y
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob wlad yn yr UE wedi gosod isafswm a all gael ei ad-dalu
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
 vat.correct_a_mistake = Cywiro camgymeriadau ar eich Ffurflenni TAW
+vat.community_forum = Fforwm Cymunedol TAW (yn agor tab newydd)
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -583,6 +585,7 @@ sa.evidence.where_to_get.pre_link=Gallwch gael eich SA302 yn adran
 sa.evidence.where_to_get.link_text=‘Rhagor o fanylion Hunanasesiad’
 sa.evidence.where_to_get.post_link=eich cyfrif.
 sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
+sa.evidence.community_forum = Fforwm Cymunedol Hunanasesiad (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -698,6 +701,7 @@ epaye.submissions.if_you_use_bpt_ = os ydych yn defnyddio BPT i reoli eich cyflo
 epaye.submissions.if_you_use_commercial_software_ = Os ydych yn defnyddio meddalwedd fasnachol er mwyn rheoli eich cyflogres, gwiriwch gyda darparwr eich meddalwedd a yw’n gallu prosesu Diweddariadau Blwyddyn Gynharach.
 epaye.submissions.if_your_software_does_not_offer_ = Os nad yw eich meddalwedd yn cynnig Diweddariadau Blwyddyn Gynharach, bydd angen i chi
 epaye.submissions.install_bpt_ = gosod Offer TWE Sylfaenol er mwyn cyflwyno Diweddariad Blwyddyn Gynharach.
+epaye.submissions.community_forum = Fforwm Cymunedol TWE i gyflogwyr (yn agor tab newydd)
 
 
 #######################################################
@@ -1222,6 +1226,7 @@ help_and_contact.making_tax_digital = Troi Treth yn Ddigidol
 help_and_contact.sign_up.making_tax_digital = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.making_tax_digital_webinar = Gweminarau Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol ar gyfer TAW
+help_and_contact.community_forum = Fforwm Cymunedol Troi Treth yn Ddigidol ar gyfer TAW (yn agor tab newydd)
 
 
 ###########################################
@@ -1234,6 +1239,22 @@ covid.financial_support_for_businesses = Cymorth ariannol i fusnesau (yn agor ta
 covid.debt_management_for_tax_bills = Rheolaeth dyledion ar gyfer biliau treth: cysylltwch â CThEM (yn agor tab newydd)
 covid.coronavirus_job_retention_scheme = Cynllun Cadw Swyddi yn sgil Coronafeirws (CJRS): cysylltwch â CThEM (yn agor tab newydd)
 covid.self_employment_income_support_scheme = Cynllun Cymhorthdal Incwm Hunangyflogaeth (SEISS): Estyniad i’r Grant (yn agor tab newydd)
+
+###########################################
+##     BTA Help
+###########################################
+btaHelp.heading = Cyfrif treth busnes
+btaHelp.help_with_business_tax_account = Help gyda’ch cyfrif treth busnes
+btaHelp.how_i_add_a_tax = Fideo - Sut ydw i’n ychwanegu treth at fy Nghyfrif Treth Busnes? (yn agor tab newydd)
+btaHelp.how_i_add_a_tax_transcript = Sut ydw i’n ychwanegu treth at fy nghyfrif treth busnes? – trawsgrifiad fideo
+btaHelp.changing_your_phone_number = Newid eich rhif ffôn a manylion eraill eich cyfrif
+btaHelp.hrmc_forums = Fforymau cymunedol CThEM (yn agor tab newydd)
+
+###########################################
+##     MTD Itsa Help
+###########################################
+mtditsaHelp.heading = Troi Treth yn Ddigidol ar gyfer Treth Incwm
+mtditsaHelp.help_with_mtditsa = Help gyda’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

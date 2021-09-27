@@ -1,0 +1,106 @@
+@*
+* Copyright 2021 HM Revenue & Customs
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*@
+
+@import config.FrontendAppConfig
+@import models.HelpCategory._
+
+
+@(appConfig: FrontendAppConfig)(implicit request: Request[_], messages: Messages)
+
+<div>
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible govuk-!-width-full">
+    <h2 class="govuk-heading-m">@Messages("help_and_contact.self_assessment")
+    </h2>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="register-or-stopping-self-assessment"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-stopping")"
+            data-journey-click="link - click:Help and contact:Register or stopping Self Assessment">
+            @messages("register_or_stopping.help_page")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="payment-and-penalties-self-assessment"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "payment-and-penalties")"
+            data-journey-click="link - click:Help and contact:Payment and Penalties">
+            @messages("payment_and_penalties.help_page")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="expenses"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "expenses")"
+            data-journey-click="link - click:Help and contact:Expenses">
+            @messages("sa.expenses.title")
+            </a>
+        </p>
+    </div>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="evidence-of-income"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "evidence-of-income")"
+            data-journey-click="link - click:Help and contact:Get evidence of your income (SA302)">
+            @messages("sa.evidence.heading")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="help-with-sa-return"
+            class="govuk-link"
+            href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "help-with-return")"
+            data-journey-click="link - click:Help and contact:Help with your Self Assessment return">
+            @messages("helpWithYourSelfAssessmentTaxReturn.heading")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="contact-about-self-assessment"
+            class="govuk-link"
+            href="@appConfig.getGovUrl("addressForSaEnquiries")"
+            data-journey-click="link - click:Help and contact:Contact HMRC about Self Assessment">
+            @messages("sa.contact_hmrc.heading")
+            </a>
+        </p>
+    </div>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="self-assessment-community-forum"
+            class="govuk-link"
+            href="https://community.hmrc.gov.uk/customerforums/sa"
+            data-journey-click="link - click:Help and contact:Self assessment community forum" target="_blank">
+            @messages("sa.evidence.community_forum")
+            </a>
+        </p>
+    </div>
+</div>
