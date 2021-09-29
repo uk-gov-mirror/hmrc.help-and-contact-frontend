@@ -50,7 +50,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "PAYE for employers",
         "Making Tax Digital for Income Tax",
         "Self Assessment",
-        "Making Tax Digital",
+        "Making Tax Digital for VAT",
         "VAT"
       )
       val doc = asDocument(createView())
@@ -234,7 +234,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "contact-about-employee-change",
-        "Change employee circumstances",
+        "Changes in employee circumstances",
         "/business-account/help/epaye/change-employee-circumstances",
         "link - click:Help and contact:Change employee circumstances"
       )

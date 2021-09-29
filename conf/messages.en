@@ -660,7 +660,7 @@ epaye.contact_hmrc.heading = Contact HMRC about PAYE for employers
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Change employee circumstances
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.change.emplyee_circumstances = Change employee circumstances
+epaye.change.emplyee_circumstances = Changes in employee circumstances
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Get started
@@ -1220,7 +1220,7 @@ sa.contact_hmrc.heading = Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help and contact - Making Tax Digital
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-help_and_contact.making_tax_digital = Making Tax Digital
+help_and_contact.making_tax_digital = Making Tax Digital for VAT
 help_and_contact.sign_up.making_tax_digital = Sign up for Making Tax Digital for VAT
 help_and_contact.making_tax_digital_webinar = Making Tax Digital for VAT webinars
 help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital for VAT
