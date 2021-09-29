@@ -665,7 +665,7 @@ epaye.change.emplyee_circumstances = Change employee circumstances
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Get started
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.get_started = How to get started with PAYE for employers
+epaye.get_started = Get started with PAYE for employers
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove

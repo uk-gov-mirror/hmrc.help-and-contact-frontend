@@ -651,7 +651,7 @@ epaye.change.emplyee_circumstances = Newid amgylchiadau cyflogeion
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Get started
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.get_started = Sut i ddechrau arni gyda TWE i gyflogwyr
+epaye.get_started = Cymraeg Dechrau arni gyda TWE ar gyfer cyflogwyr
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove
