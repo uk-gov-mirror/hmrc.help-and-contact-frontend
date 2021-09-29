@@ -42,22 +42,20 @@
     data-journey-click="link - click: Help with your BTA: add a tax to your business tax account"
     href="@appConfig.getBusinessAccountUrl("taxChoice")">@Messages("help.withYourBta.p3.link")</a>.</p>
 
+   <div class="govuk-inset-text">
     <h2 class="govuk-heading-m">@Messages("help.withYourBta.addingATax.heading")</h2>
-        <div class ="panel panel-border-wide">
-        <ul class="govuk-list govuk-list--bullet">
-        <li>
+        <p class="govuk-body">
             <a id="how-do-i-add-a-tax-video" class="govuk-link"
             data-journey-click="link - click:Help with your BTA: Adding a tax to your business tax account video"
             href="https://www.youtube.com/watch?v=b2wLXZZddGc"
             target="_blank">@Messages("help.withYourBta.addingATax.link1")</a>
-        </li>
-        <li>
+        </p>
+        <p class="govuk-body">
             <a id="how-do-i-add-a-tax-transcript" class="govuk-link"
             data-journey-click="link - click:Help with your BTA: Adding a tax to your business tax account transcript"
             href="@controllers.routes.TranscriptController.onPageLoad("add-a-tax")">@Messages("help.withYourBta.addingATax.link2")</a>
-        </li>
-    </ul>
-        </div>
+        </p>
+     </div>
 
     <p class="govuk-body">@Messages("help.withYourBta.addingATax.p1") <a id="how-do-i-add-a-tax-BTA-home"
     class="govuk-link" data-journey-click="link - click:Help with your BTA: bta home"
