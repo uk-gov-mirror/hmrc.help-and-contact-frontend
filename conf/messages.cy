@@ -646,7 +646,7 @@ epaye.contact_hmrc.heading = Cysylltu â CThEM ynglŷn â TWE i Gyflogwyr
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Change employee circumstances
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.change.emplyee_circumstances = Newid amgylchiadau cyflogeion
+epaye.change.emplyee_circumstances = Cymraeg Newidiadau yn amgylchiadau cyflogai
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Get started
@@ -1222,7 +1222,7 @@ sa.contact_hmrc.heading = Cysylltu â CThEM ynghylch Hunanasesiad
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help and contact - Making Tax Digital
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-help_and_contact.making_tax_digital = Troi Treth yn Ddigidol
+help_and_contact.making_tax_digital = Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.sign_up.making_tax_digital = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.making_tax_digital_webinar = Gweminarau Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol ar gyfer TAW
