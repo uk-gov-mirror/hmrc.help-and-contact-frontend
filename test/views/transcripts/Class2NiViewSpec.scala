@@ -43,6 +43,16 @@ class Class2NiViewSpec extends ViewBehaviours {
         .attr("id") mustBe "class-2-ni-transcript"
     }
 
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "gov-link",
+        "GOV.UK",
+        "https://www.gov.uk/",
+        "link - click:Transcript: GOV.UK home")
+    }
+
     "have correct content" in {
       val bulletPointList = List(
         "you may not be registered correctly for self-employment, so you’ll need to register on GOV.UK or",

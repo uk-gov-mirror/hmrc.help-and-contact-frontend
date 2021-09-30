@@ -35,6 +35,16 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
       doc.getElementsByTag("h1").attr("id") mustBe "paying-sa-tax-bill-transcript"
     }
 
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "gov-link",
+        "GOV.UK",
+        "https://www.gov.uk/",
+        "link - click:Transcript: GOV.UK home")
+    }
+
     "have correct content" in {
       val doc = asDocument(createView())
 

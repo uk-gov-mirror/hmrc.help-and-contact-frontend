@@ -43,6 +43,16 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
         .attr("id") mustBe "income-from-property-transcript"
     }
 
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "gov-link",
+        "GOV.UK",
+        "https://www.gov.uk/",
+        "link - click:Transcript: GOV.UK home")
+    }
+
     "have correct content" in {
 
       val contentList: List[String] = List(

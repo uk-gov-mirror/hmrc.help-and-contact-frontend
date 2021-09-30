@@ -43,7 +43,7 @@ class WhySentTaxReturnViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "You’ll usually be sent a tax return if you’re registered as self-employed, but there are plenty of other reasons why you may need to fill one in.",
-        "You can check if you need to fill in a Self Assessment tax return quickly and easily on GOV.UK using the link at the end of this video.",
+        "You can check if you need to fill in a Self Assessment tax return quickly and easily on GOV.UK, using the link at the end of this video.",
       "It’s not connected to HM Revenue and Customs online services so it’s completely anonymous.",
        "If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.",
       "If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.",
@@ -53,6 +53,16 @@ class WhySentTaxReturnViewSpec extends ViewBehaviours {
       contentList.zipAll(elements, "", "").foreach {
         case (content, element) => element mustBe content
       }
+
+    }
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "gov-link",
+        "GOV.UK",
+        "https://www.gov.uk/",
+        "link - click:Transcript: GOV.UK home")
     }
   }
 }
