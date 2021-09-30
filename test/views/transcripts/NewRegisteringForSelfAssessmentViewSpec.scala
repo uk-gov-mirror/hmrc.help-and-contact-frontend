@@ -43,6 +43,16 @@ class NewRegisteringForSelfAssessmentViewSpec extends ViewBehaviours {
         .attr("id") mustBe "new-registering-for-sa-transcript"
     }
 
+    "have correct links" in {
+      val doc = asDocument(createView())
+      assertLinkById(
+        doc,
+        "gov-link",
+        "GOV.UK",
+        "https://www.gov.uk/",
+        "link - click:Transcript: GOV.UK home")
+    }
+
     "have correct content" in {
       val bulletPointList = List(
         "self-employed",
