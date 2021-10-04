@@ -157,7 +157,7 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "registering-sa-transcript",
-        "Registering for Self Assessment: video transcript",
+        "Registering for Self Assessment - video transcript",
         "/business-account/help/transcript/new-registering-for-self-assessment",
         "link - click:Registering or stopping : Registering for Self Assessment - transcript"
       )

@@ -73,7 +73,7 @@ class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
         "You must keep a record of how many business miles you travel.",
         "The flat rate covers the whole cost of buying, running and maintaining the vehicle – " +
           "so you can’t claim a capital allowance for its purchase or any other motoring expense.",
-        "You can find more information about ‘expenses if you’re self employed’ on GOV.UK.",
+        "You can find more information about Self Assessment on GOV.UK.",
         "www.gov.uk/expenses-if-youre-self-employed"
       )
 
