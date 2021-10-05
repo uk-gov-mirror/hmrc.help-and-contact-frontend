@@ -45,32 +45,19 @@ vat.payments_and_deadlines.title = How to pay VAT and deadlines
 vat.payments_and_deadlines.heading = How to pay VAT and deadlines
 vat.payments_and_deadlines.the_deadline_for_submitting_ = The deadline for submitting the return online and paying HMRC are usually the same - 1 calendar month and 7 days after the end of an accounting period.
 vat.payments_and_deadlines.you_need_to_allow_time_ = You need to allow time for the payment to reach HMRC’s account.
-vat.payments_and_deadlines.if_you_are_paying_your_bill_ = If you are paying your bill the same or the next day you can use:
-vat.payments_and_deadlines.online_or_telephone_banking = online or telephone banking 
-vat.payments_and_deadlines.faster_payments = (Faster Payments) 
-vat.payments_and_deadlines.chaps = CHAPS 
-vat.payments_and_deadlines.online_by_debit_or_credit_card = online by debit or credit card
-vat.payments_and_deadlines.at_your = at your
-vat.payments_and_deadlines.bank_or_building_society = bank or building society
-vat.payments_and_deadlines.if_you_have_longer_to_pay_your_bill_ = If you have longer to pay your bill you can use:
-vat.payments_and_deadlines.direct_debit = Direct Debit
-vat.payments_and_deadlines.direct_debit_timescale = (3 working days if you already have one set up, 5 working days if you need to set one up)
-vat.payments_and_deadlines.bacs = Bacs
-vat.payments_and_deadlines.bacs_timescale = (3 working days)
-vat.payments_and_deadlines.standing_order = standing order
-vat.payments_and_deadlines.standing_order_restriction = (only for businesses using the Annual Accounting Scheme or Payments on Account)
 vat.payments_and_deadlines.vat_refunds_on_goods_imported_from_the_eu = VAT refunds on goods imported from the EU
 vat.payments_and_deadlines.you_can = You can
-vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = get a refund of VAT paid in another EU country
+vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = get a refund of VAT paid in another EU country (opens in new tab)
 vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk = if you are registered for VAT in the UK, but:
 vat.payments_and_deadlines.what_you_can_reclaim_depends = what you can reclaim depends on the other EU country’s rules for claiming VAT
-vat.payments_and_deadlines.the_rules_for_claiming = the rules for claiming
-vat.payments_and_deadlines.input_tax = input tax
+vat.payments_and_deadlines.the_rules_for_claiming = the
+vat.payments_and_deadlines.input_tax = rules for claiming input tax (opens in new tab)
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are slightly different in each EU country
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
 vat.correct_a_mistake = Correct errors on your VAT returns
 vat.community_forum = VAT community forum (opens in new tab)
+vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
