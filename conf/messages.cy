@@ -191,7 +191,7 @@ helpWithYourSelfAssessmentTaxReturn.watch_videos = Gallwch wylio fideos, cael e-
 helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma (yn agor tab newydd).
 helpWithYourSelfAssessmentTaxReturn.how_to_tailor = Sut i deilwra’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Fideo – Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Teilwra’ch Ffurflen Dreth – trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
 helpWithYourSelfAssessmentTaxReturn.self_employed = Os ydych yn hunangyflogedig
 helpWithYourSelfAssessmentTaxReturn.self_employed_video = Fideo – Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.self_employed_transcript = Eich Ffurflen Dreth Hunangyflogaeth – trawsgrifiad fideo
@@ -350,7 +350,7 @@ register_or_stopping.class_2_ni = Cyfraniadau Yswiriant Gwladol Dosbarth 2
 register_or_stopping.when_you_register = Pan fyddwch yn cofrestru ar gyfer Hunanasesiad fel unigolyn hunangyflogedig, rydych hefyd yn cofrestru ar
 register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2 (yn agor tab newydd).
 register_or_stopping.class_2_video = Fideo - Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth (yn agor tab newydd)
-register_or_stopping.class_2_transcript = Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth – trawsgrifiad
+register_or_stopping.class_2_transcript = Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth – trawsgrifiad fideo
 register_or_stopping.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
 register_or_stopping.unique_taxpayer = Rhif 10 digid yw’ch Cyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer Hunanasesiad. Gallwch ddod o hyd iddo ar y canlynol:
 register_or_stopping.list_welcome_letter = eich llythyr Croeso i Hunanasesiad (SA250)
@@ -370,7 +370,7 @@ register_or_stopping.more_about_registering = Dysgwch ragor am gofrestru fel par
 register_or_stopping.sa_guidance = Arweiniad Hunanasesiad
 register_or_stopping.learn_sa = Dysgu am Hunanasesiad (yn agor tab newydd)
 register_or_stopping.registering_sa_video = Fideo – Cofrestru ar gyfer Hunanasesiad (yn agor tab newydd)
-register_or_stopping.registering_sa_transcript = Cofrestru ar gyfer Hunanasesiad: trawsgrifiad fideo
+register_or_stopping.registering_sa_transcript = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
 register_or_stopping.stop_sa = Stopio Hunanasesiad
 register_or_stopping.you_must = Mae’n rhaid i chi
 register_or_stopping.tell_hmrc_link = roi gwybod i CThEM os nad oes angen i chi gyflwyno Ffurflenni Treth mwyach.
@@ -407,7 +407,7 @@ payment_and_penalties.depends = Mae’r amser y mae angen i chi ei ganiatáu yn 
 payment_and_penalties.no_longer = Ni allwch dalu yn Swyddfa’r Post mwyach.
 payment_and_penalties.read_info = Darllenwch wybodaeth fanwl am ffyrdd o dalu’ch bil treth (yn agor tab newydd)
 payment_and_penalties.how_do_i_pay_video = Fideo – Sut rydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
-payment_and_penalties.how_do_i_pay_transcript = Sut rydw i’n talu fy mil treth Hunanasesiad? – trawsgrifiad
+payment_and_penalties.how_do_i_pay_transcript = Sut rydw i’n talu fy mil treth Hunanasesiad? – trawsgrifiad fideo
 payment_and_penalties.budgeting_for_sa = Cyllidebu ar gyfer eich bil treth Hunanasesiad
 payment_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig (yn agor tab newydd)
 payment_and_penalties.how_do_i_budget_video = Fideo – Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
@@ -912,8 +912,8 @@ selfAssessmentPenaltiesTranscript.paragraph9 = Y ffordd hawsaf o osgoi cosbau yw
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-whySentTaxReturnTranscript.title = Pam yr ydwyf wedi cael Ffurflen Dreth - trawsgrifiad fideo
-whySentTaxReturnTranscript.heading = Pam yr ydwyf wedi cael Ffurflen Dreth - trawsgrifiad fideo
+whySentTaxReturnTranscript.title = Pam yr ydwyf wedi cael Ffurflen Dreth? - trawsgrifiad fideo
+whySentTaxReturnTranscript.heading = Pam yr ydwyf wedi cael Ffurflen Dreth? - trawsgrifiad fideo
 whySentTaxReturnTranscript.paragraph1 = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig, ond mae nifer o resymau eraill pam y mae’n bosibl y bydd angen i chi lenwi un.
 whySentTaxReturnTranscript.paragraph2 = Gallwch weld a oes angen i chi lenwi Ffurflen Dreth Hunanasesiad, yn gyflym ac yn hawdd ar
 whySentTaxReturnTranscript.paragraph2_2 =  gan ddefnyddio’r cysylltiad ar ddiwedd y fideo hwn.
@@ -1011,8 +1011,8 @@ yourSelfEmployedTaxReturnTranscript.paragraph30 = Diolch am wylio.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New Your self employed tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-newYourSelfEmployedTaxReturnTranscript.title = Eich Ffurflen Dreth Hunangyflogaeth
-newYourSelfEmployedTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunangyflogaeth
+newYourSelfEmployedTaxReturnTranscript.title = Eich Ffurflen Dreth Hunangyflogaeth - trawsgrifiad fideo
+newYourSelfEmployedTaxReturnTranscript.heading = Eich Ffurflen Dreth Hunangyflogaeth - trawsgrifiad fideo
 newYourSelfEmployedTaxReturnTranscript.paragraph1 = Ar ôl i chi gofrestru ar gyfer Hunanasesiad, yna gallwch lenwi’ch Ffurflen Dreth.
 newYourSelfEmployedTaxReturnTranscript.paragraph2 = Yn adran tri y Ffurflen Dreth, ‘Addasu’ch Ffurflen Dreth’, byddwn yn gofyn a yw’ch incwm o hunangyflogaeth yn fwy na £1,000. Fodd bynnag, mae’n bosibl bydd yn rhaid i chi ateb ‘Iawn’ pan mae’ch incwm yn £1,000 neu lai. Er enghraifft, er mwyn talu cyfraniadau Yswiriant Gwladol Dosbarth 2 gwirfoddol. Defnyddiwch y cysylltiad ‘Help’ i gael rhagor o arweiniad.
 newYourSelfEmployedTaxReturnTranscript.paragraph3 = Dechreuwch drwy ddewis ‘Llenwi’ch Ffurflen Dreth’. Yna, ‘Nodwch fanylion hunangyflogaeth’.
@@ -1097,7 +1097,7 @@ sa.expenses.claiming_motoring_expenses.paragraph6 = Os ydych yn defnyddio cyfrif
 sa.expenses.claiming_motoring_expenses.paragraph7 = Os ydych yn hawlio treuliau gan ddefnyddio’r dull cyfradd unffurf ar gyfer milltiroedd busnes, mae gwybodaeth am y cyfraddau presennol ar
 sa.expenses.claiming_motoring_expenses.paragraph8 = Mae’n rhaid i chi gadw cofnod o sawl milltir busnes rydych yn teithio.
 sa.expenses.claiming_motoring_expenses.paragraph9 = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal a chadw’r cerbyd – felly ni allwch hawlio lwfans cyfalaf am ei brynu nac am unrhyw draul moduro arall.
-sa.expenses.claiming_motoring_expenses.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am dreuliau os ydych yn hunangyflogedig ar
+sa.expenses.claiming_motoring_expenses.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
 sa.expenses.claiming_motoring_expenses.paragraph11 = www.gov.uk/expenses-if-youre-self-employed
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1137,8 +1137,8 @@ registering.for.self.assessment.transcript.paragraph12 = Am ragor o wybodaeth yn
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New Registering for Self Assessment transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-newRegistering.for.self.assessment.transcript.title = Cofrestru ar gyfer Hunanasesiad
-newRegistering.for.self.assessment.transcript.heading = Cofrestru ar gyfer Hunanasesiad
+newRegistering.for.self.assessment.transcript.title = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
+newRegistering.for.self.assessment.transcript.heading = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
 newRegistering.for.self.assessment.transcript.paragraph1 = Mae’n bosibl y bydd yn rhaid i chi gofrestru ar gyfer Hunanasesiad os yw’r canlynol yn wir:
 newRegistering.for.self.assessment.transcript.list1 = rydych yn hunangyflogedig
 newRegistering.for.self.assessment.transcript.list2 = rydych yn bartner mewn partneriaeth
@@ -1267,8 +1267,8 @@ mtditsaHelp.help_with_mtditsa = Help gyda’r cynllun Troi Treth yn Ddigidol ar 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New tailor your SA tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.new_tailor_tax_return_transcript.heading = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad?
-sa.new_tailor_tax_return_transcript.title = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad?
+sa.new_tailor_tax_return_transcript.heading = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.new_tailor_tax_return_transcript.title = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
 sa.new_tailor_tax_return_transcript.paragraph1 = Pan fyddwch yn llenwi’ch Ffurflen Dreth ar-lein, gwelwch adran o’r enw ‘Addasu eich Ffurflen Dreth’.
 sa.new_tailor_tax_return_transcript.paragraph2 = Mae’n cynnwys tair tudalen o gwestiynau sy’n gofyn i chi ateb ‘Iawn’ neu ‘Na’. Mae hyn yn golygu mai dim ond yr adrannau y mae angen i chi eu llenwi y byddwch yn eu cael. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y cysylltiad ‘Help’ i gael arweiniad.
 sa.new_tailor_tax_return_transcript.paragraph3 = Mae tudalen un yn gofyn a ydych wedi cael incwm fel cyflogai, o hunangyflogaeth neu o bartneriaeth.
@@ -1290,8 +1290,8 @@ sa.new_tailor_tax_return_transcript.paragraph14_2 =  a gallwch wylio ein fideos 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New your first SA tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-new.yourSelfEmployedTaxReturnTranscript.heading = Fy Ffurflen Dreth Hunanasesiad gyntaf
-new.yourSelfEmployedTaxReturnTranscript.title = Fy Ffurflen Dreth Hunanasesiad gyntaf
+new.yourSelfEmployedTaxReturnTranscript.heading = Fy Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
+new.yourSelfEmployedTaxReturnTranscript.title = Fy Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
 new.yourSelfEmployedTaxReturnTranscript.paragraph1 = A oes angen i chi lenwi Ffurflen Dreth Hunanasesiad?
 new.yourSelfEmployedTaxReturnTranscript.paragraph2 = Gallwch wirio hyn ar
 new.yourSelfEmployedTaxReturnTranscript.paragraph2_2 =  drwy ateb ychydig o gwestiynau.
@@ -1316,8 +1316,8 @@ new.yourSelfEmployedTaxReturnTranscript.paragraph14_2 = a gallwch gwylio ein fid
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New income from property transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-new.incomeFromPropertyTaxReturnTranscript.heading = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
-new.incomeFromPropertyTaxReturnTranscript.title = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
+new.incomeFromPropertyTaxReturnTranscript.heading = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? - trawsgrifiad fideo
+new.incomeFromPropertyTaxReturnTranscript.title = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? - trawsgrifiad fideo
 new.incomeFromPropertyTaxReturnTranscript.paragraph1 = Mae’n rhaid i’ch Ffurflen Dreth gynnwys unrhyw incwm o eiddo sydd yn y DU neu’r Ardal Economaidd Ewropeaidd.
 new.incomeFromPropertyTaxReturnTranscript.paragraph2 = Ar gyfer incwm o eiddo y tu allan i’r ardaloedd hyn, llenwch y tudalennau ar gyfer incwm tramor ar y Ffurflen Dreth yn lle hynny.
 new.incomeFromPropertyTaxReturnTranscript.paragraph3 = Yn yr adran hon, peidiwch â chynnwys unrhyw incwm o roi ystafelloedd ar osod megis gwely a brecwast, oni bai eich bod yn hawlio rhyddhad rhentu ystafell. Mae hyn yn cyfrif fel masnach ac yn cael ei nodi rywle arall yn eich Ffurflen Dreth.

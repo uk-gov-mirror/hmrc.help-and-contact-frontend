@@ -51,7 +51,7 @@ class ExpensesIfYouAreSelfEmployedTranscriptSpec extends ViewBehaviours {
 
       val h1s = doc.getElementsByTag("h1")
       h1s.size() mustBe 1
-      h1s.first().text() mustBe "What expenses can I include in my Self Assessment tax return - video transcript"
+      h1s.first().text() mustBe "What expenses can I include in my Self Assessment tax return? - video transcript"
 
       val elements = doc.getElementsByTag("article").first().getElementsByTag("p").asScala.toList.map(_.text())
       val bullets = doc.getElementsByTag("article").first().getElementsByTag("li").asScala.toList.map(_.text())

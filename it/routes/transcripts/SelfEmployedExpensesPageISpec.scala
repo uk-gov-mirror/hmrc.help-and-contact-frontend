@@ -37,7 +37,7 @@ class SelfEmployedExpensesPageISpec
       // todo add an id to the page for test purposes instead of using content
       doc
         .getElementById("what-expenses-can-i-include-in-my-sa-tax-return-video-transcript")
-        .text() mustBe "What expenses can I include in my Self Assessment tax return - video transcript"
+        .text() mustBe "What expenses can I include in my Self Assessment tax return? - video transcript"
     }
   }
 
