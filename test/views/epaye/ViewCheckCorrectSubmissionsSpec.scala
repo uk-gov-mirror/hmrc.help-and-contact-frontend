@@ -47,7 +47,7 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       assertLinkById(
         doc,
         "payroll-guide",
-        "GOV.UK guide on payroll",
+        "GOV.UK guide on payroll (opens in new tab)",
         "https://www.gov.uk/running-payroll/fps-after-payday#viewing-late-fps-reports-in-your-hmrc-online-account",
         "link - click:View, check or correct your submissions:GOV.UK guide on payroll",
         expectedIsExternal = true,
@@ -58,26 +58,28 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       assertLinkById(
         doc,
         "change-address",
-        "Change this address.",
+        "Change your Government Gateway email address",
         "http://localhost:9020/business-account/manage-account/government-gateway-warning",
         "link - click:View, check or correct your submissions:Change this address"
       )
     }
 
-    "have the correct 'user guide (view)' link" in {
+    "have the correct 'Basic PAYE Tools user guide (opens in new tab)' link" in {
       assertLinkById(
         doc,
-        "view-user-guide","user guide",
+        "view-user-guide",
+        "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
         "link - click:View check or correct your submissions:view user guide",
         expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
 
-    "have the correct 'user guide (correct)' link" in {
+    "have the correct 'Basic PAYE Tools user guide (opens in new tab) ' link" in {
       assertLinkById(
         doc,
-        "correct-user-guide","user guide",
+        "correct-user-guide",
+        "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
         "link - click:View check or correct your submissions:correct user guide",
         expectedIsExternal = true,
@@ -88,20 +90,9 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       assertLinkById(
         doc,
         "submit-earlier-year-update",
-        "submit an Earlier Year Update using Basic PAYE Tools",
-        "https://www.gov.uk/government/publications/basic-paye-tools-earlier-year-update-payroll-user",
-        "link - click:View check or correct your submissions:submit an Earlier Year Update using Basic PAYE Tools",
-        expectedIsExternal = true,
-        expectedOpensInNewTab = true)
-    }
-
-    "have the correct 'install BPT' link" in {
-      assertLinkById(
-        doc,
-        "install-bpt",
-        "install BPT to submit an Earlier Year Update",
-        "https://www.gov.uk/government/publications/basic-paye-tools-earlier-year-update-alongside-commercial-software",
-        "link - click:View check or correct your submissions:install BPT to submit an Earlier Year Update",
+        "Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens in new tab)",
+        "https://www.gov.uk/payroll-errors/correcting-your-fps-or-eps",
+        "link - click:View check or correct your submissions:Find out more pay roll errors",
         expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
