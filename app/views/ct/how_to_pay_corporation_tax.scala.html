@@ -66,42 +66,7 @@
 
     <p class="govuk-body">@messages("ct.how_to_pay.the_time_you_need_")</p>
 
-    <p class="govuk-body">@messages("ct.how_to_pay.same_or_next_day")</p>
+    <p class="govuk-body"><a class="govuk-link" id="ct-detailed-info" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
+    data-journey-click="link - click:How to pay your Corporation Tax:read detailed information">@messages("ct.how_to_pay.detailed_info")</a></p>
 
-    <ul class="govuk-list govuk-list--bullet">
-      <li>
-        <a class="govuk-link" id="online-or-telephone-banking" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
-          data-journey-click="link - click:How to pay your Corporation Tax:Faster Payments"> @messages("ct.how_to_pay.online_or_telephone_banking")</a>
-        @messages("ct.how_to_pay.faster_payments")
-      </li>
-      <li>
-        <a class="govuk-link" id="chaps" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
-          data-journey-click="link - click:How to pay your Corporation Tax:CHAPS"> @messages("ct.how_to_pay.chaps")</a>
-      </li>
-    </ul>
-
-    <p class="govuk-body">@messages("ct.how_to_pay.longer_to_pay")</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-      <li>
-        <a class="govuk-link" id="bacs" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
-          data-journey-click="link - click:How to pay your Corporation Tax:Bacs"> @messages("ct.how_to_pay.bacs")</a> @messages("ct.how_to_pay.three_working_days")
-      </li>
-      <li>
-        <a class="govuk-link" id="debit-or-credit-card" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxDebitOrCreditCard")"
-          data-journey-click="link - click:How to pay your Corporation Tax:online by debit or credit card"> @messages("ct.how_to_pay.debit_or_credit_card")</a>
-        @messages("ct.how_to_pay.three_working_days")
-      </li>
-      <li>
-        @messages("ct.how_to_pay.your")
-        <a class="govuk-link" id="bank-or-building-society" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankOrBuildingSociety")"
-          data-journey-click="link - click:How to pay your Corporation Tax:bank or building society"> @messages("ct.how_to_pay.bank_or_building_society")</a>
-        @messages("ct.how_to_pay.three_working_days")
-      </li>
-      <li>
-        <a class="govuk-link" id="direct-debit" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxDirectDebit")"
-          data-journey-click="link - click:How to pay your Corporation Tax:Direct Debit"> @messages("ct.how_to_pay.direct_debit")</a>
-        @messages("ct.how_to_pay.direct_debit_timescale")
-      </li>
-    </ul>
   }
