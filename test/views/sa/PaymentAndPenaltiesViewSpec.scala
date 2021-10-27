@@ -24,10 +24,11 @@ import config.FrontendAppConfig
 
 class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "payment_and_penalties"
+  val messageKeyPrefix                  = "payment_and_penalties"
   lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
-  def createView(hasUtr: Option[SaUtr] = None) = () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(hasUtr: Option[SaUtr] = None) =
+    () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
   "Self Assessment Expenses view" must {
 
@@ -50,16 +51,24 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       val doc = asDocument(createView()())
       doc.text() must include("The deadlines for paying are:")
 
-      doc.text() must include(s"31 January ${appConfig.taxYearNext} for your balancing payment. " +
-        s"This is for tax year ${appConfig.taxYearPrevious} to ${appConfig.taxYearBegin}")
+      doc.text() must include(
+        s"31 January ${appConfig.taxYearNext} for your balancing payment. " +
+          s"This is for tax year ${appConfig.taxYearPrevious} to ${appConfig.taxYearBegin}"
+      )
 
-      doc.text() must include(s"31 January ${appConfig.taxYearNext} for your first payment on account." +
-        s" This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}")
+      doc.text() must include(
+        s"31 January ${appConfig.taxYearNext} for your first payment on account." +
+          s" This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}"
+      )
 
-      doc.text() must include(s"31 July ${appConfig.taxYearNext} for your second payment on account. " +
-        s"This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}")
+      doc.text() must include(
+        s"31 July ${appConfig.taxYearNext} for your second payment on account. " +
+          s"This is for tax year ${appConfig.taxYearBegin} to ${appConfig.taxYearNext}"
+      )
 
-      doc.text() must include("You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.")
+      doc.text() must include(
+        "You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay."
+      )
 
       doc.text() must include("Make sure you pay HMRC by the deadline. You’ll be charged interest and may have to")
 
@@ -75,14 +84,13 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
       doc.text() must include("didn’t pay enough tax")
 
-      doc.text() must include("If your business has been affected by coronavirus (COVID-19), you have an extra " +
-        "3 months to appeal any penalty dated February 2020 or later.")
-
       doc.text() must include("You can appeal a penalty if you have a")
 
       doc.text() must include("You have no penalties or interest to display.")
 
-      doc.text() must include("for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.")
+      doc.text() must include(
+        "You must appeal within 30 days of the date the penalty was sent to you."
+      )
 
     }
 
@@ -152,9 +160,10 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "reasonable-excuse",
-        "reasonable excuse,",
+        "reasonable excuse (opens in new tab)",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
-        "link - click:Payment and penalties : reasonable excuses"
+        "link - click:Payment and penalties : reasonable excuses",
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
@@ -182,7 +191,6 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       )
 
     }
-
 
     "have correct links with Sa enrolment" in {
       val doc = asDocument(createView(Some(SaUtr("abcdefgh")))())

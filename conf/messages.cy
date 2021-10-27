@@ -89,62 +89,6 @@ vat.questions_about_vat.heading = Cysylltu â CThEM ynghylch TAW
 ##  SELF ASSESSMENT
 #######################################################
 
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ How to pay your Self Assessment
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-howToPaySelfAssessment.title = Sut i dalu’ch Hunanasesiad
-howToPaySelfAssessment.heading = Sut i dalu’ch Hunanasesiad
-howToPaySelfAssessment.viewing.your.calculation = Bwrw golwg ar eich cyfrifiad
-howToPaySelfAssessment.viewing.your.calculations = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad
-howToPaySelfAssessment.paying.your.sa.bill = Sut ydw i’n talu fy mil treth Hunanasesiad?
-howToPaySelfAssessment.penalties.appeals = Cosbau ac apeliadau
-howToPaySelfAssessment.appeal.against.penalty = Apelio yn erbyn cosb
-howToPaySelfAssessment.check.status.of.appeal = Gwirio statws apêl
-howToPaySelfAssessment.further.help.with.penalties = Help pellach gyda chosbau
-howToPaySelfAssessment.hmrcs.online.tax.return.automatically_ = Mae Ffurflen Dreth ar-lein CThEM yn cyfrifo’n awtomatig yr hyn sydd angen i chi ei dalu. Rydych yn llenwi’ch ffigurau ac ar ôl i chi wirio bod popeth yn gywir, gallwch fwrw golwg ar eich cyfrifiad.
-howToPaySelfAssessment.this.shows.how.your.tax.bill.has.been_ = Mae hyn yn dangos sut mae’ch bil treth wedi’i gyfrifo. Mae’n dangos eich incwm, eich lwfans personol, y dreth sy’n ddyledus, unrhyw gyfraniadau Yswiriant Gwladol Dosbarth 4 a Dosbarth 2, a’r taliadau sy’n ddyledus ar 31 Ionawr 2018. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
-howToPaySelfAssessment.the.deadlines.for.paying.are.31.january_ = Y dyddiad cau i dalu bil treth ar gyfer y flwyddyn flaenorol a’ch taliad cyntaf ar gyfrif yw 31 Ionawr, a’r dyddiad cau i dalu eich ail daliad ar gyfrif yw 31 Gorffennaf. Gwnewch yn siŵr eich bod yn talu CThEM ar amser. Os bydd eich taliad yn hwyr, codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb. Nid oes rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i’w dalu. Os gwnewch hyn, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
-howToPaySelfAssessment.if.you.are.paying.your.bill.the_ = Os ydych yn talu’ch bil yr un diwrnod neu’r diwrnod nesaf, gallwch ddefnyddio:
-howToPaySelfAssessment.if.you.have.longer.to.pay.your.bill_ = Os oes gennych fwy o amser i dalu’ch bil, gallwch ddefnyddio:
-howToPaySelfAssessment.youll.have.a.penalty.showing_ = Bydd cosb i’w gweld ar eich cyfrif os:
-howToPaySelfAssessment.hmrc_will_send_you_contact_details_ = Bydd CThEM yn anfon manylion cyswllt y swyddfa sy’n delio â’ch achos atoch cyn pen 15 diwrnod ar ôl i’ch apêl ddod i law.
-howtoPaySelfAssessment.video.transcript = - trawsgrifiad fideo
-howtoPaySelfAssessment.online.telephone.banking = bancio ar-lein neu dros y ffôn
-howtoPaySelfAssessment.faster.payments = (Taliadau Cyflymach)
-howtoPaySelfAssessment.chaps = CHAPS
-howtoPaySelfAssessment.debit.credit.card.online = cerdyn debyd neu gredyd ar-lein
-howtoPaySelfAssessment.bank.building.society = banc neu gymdeithas adeiladu
-howtoPaySelfAssessment.bacs = Bacs
-howtoPaySelfAssessment.direct.debit = Debyd Uniongyrchol
-howtoPaySelfAssessment.cheque = Siec drwy’r post
-howtoPaySelfAssessment.3.working.days = (3 diwrnod gwaith)
-howtoPaySelfAssessment.3.working.days.already.setup = (3 diwrnod gwaith os oes gennych un eisoes wedi’i drefnu, 5 diwrnod gwaith os oes angen i chi drefnu un newydd)
-howtoPaySelfAssessment.more.information = Rhagor o wybodaeth am dalu’ch bil treth Hunanasesiad
-howtoPaySelfAssessment.budgeting.for.sa.bill = Cyllido ar gyfer eich bil treth Hunanasesiad
-howtoPaySelfAssessment.sent.tax.return.late = ydych wedi cyflwyno’ch Ffurflen Dreth yn hwyr
-howtoPaySelfAssessment.paid.tax.late = ydych wedi talu’ch treth yn hwyr
-howtoPaySelfAssessment.did.not.pay.enough.tax = nad ydych wedi talu digon o dreth
-howtoPaySelfAssessment.self.assessment.penalties = Cosbau Hunanasesiad
-howToPaySelfAssessment.you.can.appeal.if = Gallwch apelio os oes gennych
-howToPaySelfAssessment.reasonable.excuse = esgus rhesymol
-howToPaySelfAssessment.for.example.stay.in.hospital = er enghraifft os bu raid i chi aros yn yr ysbyty, a hynny’n annisgwyl. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
-howToPaySelfAssessment.affected.by.covid = Os yw coronafeirws (COVID-19) wedi effeithio ar eich busnes, mae gennych 3 mis ychwanegol i apelio yn erbyn unrhyw gosb ddyddiedig Chwefror 2020 neu’n hwyrach.
-howToPaySelfAssessment.you.can = Gallwch:
-howToPaySelfAssessment.appeal.online = apelio yn erbyn cosb o £100 am gyflwyno Hunanasesiad yn hwyr ar-lein (yn agor tab newydd)
-howToPaySelfAssessment.appeal.form = apelio yn erbyn unrhyw gosb am dalu neu gyflwyno’n hwyr gan ddefnyddio ffurflen SA370 (yn agor tab newydd)
-howToPaySelfAssessment.notice.by.email = Os ydych yn cael eich hysbysiad o gosb drwy e-bost, gallwch lenwi ffurflen SA370 i apelio yn erbyn cosbau Hunanasesiad am gyflwyno’n hwyr a thalu’n hwyr, neu gallwch ysgrifennu i CThEM gyda’ch rhesymau am apelio.
-howToPaySelfAssessment.send.to.hmrc = Anfonwch eich ffurflen neu’ch llythyr i
-howToPaySelfAssessment.sa.hmrc.address =  Wasanaeth Cwsmeriaid Cymraeg CThEM.
-howToPaySelfAssessment.youll.need = Bydd angen dadansoddiad arnoch o’ch cosbau a llog.
-howToPaySelfAssessment.view.penalties = Bwrw golwg dros eich cosbau Hunanasesiad
-howToPaySelfAssessment.view.interest = Bwrw golwg dros eich llog Hunanasesiad
-howToPaySelfAssessment.view.tax_return_calculations = Fideo - Bwrw golwg dros eich cyfrifiad Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
-howToPaySelfAssessment.taxbill = Fideo - Sut ydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
-howToPaySelfAssessment.view.budget_for_my_self_assessment_tax = Fideo - Sut ydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
-howToPaySelfAssessment.view.self_assessment_penalties = Fideo - Cosbau Hunanasesiad (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.income_from_property = Fideo - Incwm o eiddo - beth ydw i’n ei gynnwys ar fy Ffurflen Dreth? (yn agor tab newydd)
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help with your self assessment tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -202,6 +146,7 @@ helpWithYourSelfAssessmentTaxReturn.help_with_record = Rhagor o help gyda chadw 
 helpWithYourSelfAssessmentTaxReturn.business_records_if = Cofnodion busnes os ydych yn hunangyflogedig (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.keeping_pay = Cadw’ch cofnodion cyflog a threth (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.complete_and_file = llenwi a chyflwyno’ch Ffurflen Dreth erbyn (yn agor tab newydd).
+helpWithYourSelfAssessmentTaxReturn.income_from_property = Fideo - Incwm o eiddo - beth ydw i’n ei gynnwys ar fy Ffurflen Dreth? (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help With Making Tax Digital For Income Tax
@@ -405,11 +350,9 @@ payment_and_penalties.list_sent_late = ydych wedi anfon eich Ffurflen Dreth yn h
 payment_and_penalties.list_paid_late = ydych wedi talu treth yn hwyr
 payment_and_penalties.list_not_enough = nad ydych wedi talu digon o dreth
 payment_and_penalties.appeal_penalty = Apelio yn erbyn cosb
-payment_and_penalties.affected_covid = Os yw coronafeirws (COVID-19) wedi effeithio ar eich busnes, mae gennych 3 mis ychwanegol i apelio yn erbyn unrhyw gosb ddyddiedig Chwefror 2020 neu’n hwyrach.
 payment_and_penalties.appeal_if = Gallwch apelio yn erbyn cosb os oes gennych
-payment_and_penalties.excuse_link = esgus rhesymol,
-payment_and_penalties.for_example = er enghraifft, os bu raid i chi aros yn yr ysbyty, a hynny’n annisgwyl. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
-payment_and_penalties.more_help = Rhagor o help gyda chosbau
+payment_and_penalties.excuse_link = esgus rhesymol (yn agor tab newydd)
+payment_and_penalties.you_must_appeal =. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
 payment_and_penalties.find_more = Dysgwch ragor am gosbau Hunanasesiad (yn agor tab newydd)
 payment_and_penalties.interest_rates = Cyfraddau llog ar gyfer taliadau hwyr a thaliadau cynnar (yn agor tab newydd)
 payment_and_penalties.sa_penalties_video = Fideo - Cosbau Hunanasesiad (yn agor tab newydd)

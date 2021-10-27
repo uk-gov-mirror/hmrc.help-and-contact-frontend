@@ -92,11 +92,10 @@ data-journey-click="link - click:Payment and penalties : How do I budget for my 
   <li>@Messages("payment_and_penalties.list_not_enough")</li>
 </ul>
 <h2 class="govuk-heading-m">@Messages("payment_and_penalties.appeal_penalty")</h2>
-<p class="govuk-body">@Messages("payment_and_penalties.affected_covid")</p>
 
-<p class="govuk-body">@Messages("payment_and_penalties.appeal_if") <a class="govuk-link" href="https://www.gov.uk/tax-appeals/reasonable-excuses" id="reasonable-excuse"
+<p class="govuk-body">@Messages("payment_and_penalties.appeal_if") <a class="govuk-link" href="https://www.gov.uk/tax-appeals/reasonable-excuses" id="reasonable-excuse" target="_blank"
                                                    data-journey-click="link - click:Payment and penalties : reasonable excuses">
-   @Messages("payment_and_penalties.excuse_link")</a> @Messages("payment_and_penalties.for_example")</p>
+   @Messages("payment_and_penalties.excuse_link")</a>@Messages("payment_and_penalties.you_must_appeal")</p>
 
 
 @if(utr.isDefined) {
@@ -118,6 +117,10 @@ data-journey-click="link - click:Payment and penalties : How do I budget for my 
 </ul>
 }
 
+<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/tax-appeals/penalty" id="more-about-sa" target="_blank"
+                         data-journey-click="link - click:Payment and penalties : Find out more about Self Assessment penalties">
+    @Messages("payment_and_penalties.find_more")</a></p>
+
 <h2 class="govuk-heading-m">@Messages("payment_and_penalties.penalties_interest")</h2>
 
 @if(utr.isDefined) {
@@ -135,12 +138,7 @@ data-journey-click="link - click:Payment and penalties : How do I budget for my 
 <p class="govuk-body">@Messages("payment_and_penalties.conditional.no_penalties")</p>
 }
 
-<h2 class="govuk-heading-m">@Messages("payment_and_penalties.more_help")</h2>
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/tax-appeals/penalty" id="more-about-sa" target="_blank"
-      data-journey-click="link - click:Payment and penalties : Find out more about Self Assessment penalties">
- @Messages("payment_and_penalties.find_more")</a></p>
 <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments" id="interest-rates" target="_blank"
-      data-journey-click="link - click:Payment and penalties : Interest rates for late and early payments">
- @Messages("payment_and_penalties.interest_rates")</a></p>
-
+                         data-journey-click="link - click:Payment and penalties : Interest rates for late and early payments">
+    @Messages("payment_and_penalties.interest_rates")</a></p>
 }
