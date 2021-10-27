@@ -22,7 +22,7 @@ class ExpensesPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen
       mockGetNavLinks()
 
       When("the Expenses page is accessed")
-      val result: WSResponse = HttpRequest.get("/self-assessment/expenses")
+      val result: WSResponse = HttpRequest.get("/self-assessment/expenses", port)
 
       Then("we get an OK response")
       result.status mustBe OK

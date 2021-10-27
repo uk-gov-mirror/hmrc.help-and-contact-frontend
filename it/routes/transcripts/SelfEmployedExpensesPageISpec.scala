@@ -26,7 +26,7 @@ class SelfEmployedExpensesPageISpec
 
       When("Expenses if you're self employed  page is called")
       val result: WSResponse =
-        HttpRequest.get("/transcript/expenses-if-you-are-self-employed")
+        HttpRequest.get("/transcript/expenses-if-you-are-self-employed", port)
 
       Then("we get an OK response")
       result.status mustBe OK

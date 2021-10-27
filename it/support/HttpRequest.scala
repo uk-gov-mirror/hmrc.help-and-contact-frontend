@@ -6,10 +6,10 @@ import play.api.test.Helpers.{await, testServerPort}
 
 object HttpRequest {
 
-  def get(uri: String)(implicit wsClient: WSClient, timeout: Timeout): WSResponse =
+  def get(uri: String, port: Int)(implicit wsClient: WSClient, timeout: Timeout): WSResponse =
     await(
       wsClient
-        .url(s"http://localhost:${testServerPort}/business-account/help$uri")
+        .url(s"http://localhost:${port}/business-account/help$uri")
         .withFollowRedirects(false)
         .execute("GET")
     )

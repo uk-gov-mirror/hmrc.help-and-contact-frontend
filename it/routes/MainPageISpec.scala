@@ -24,7 +24,8 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       mockGetNavLinks()
 
       When("the Main page is accessed")
-      val result: WSResponse = HttpRequest.get("/")
+
+      val result: WSResponse = HttpRequest.get("/", port)
 
       Then("we get an OK response")
       result.status mustBe OK
@@ -47,7 +48,7 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       mockGetNavLinks()
 
       When("the Main page is accessed")
-      val result: WSResponse = HttpRequest.get("/")
+      val result: WSResponse = HttpRequest.get("/", port)
 
       Then("we get an SEE_OTHER response")
       result.status mustBe SEE_OTHER
@@ -67,7 +68,7 @@ class MainPageISpec extends FeatureSpec with MustMatchers with GivenWhenThen wit
       mockGetNavLinks()
 
       When("the Main page is accessed")
-      val result: WSResponse = HttpRequest.get("/")
+      val result: WSResponse = HttpRequest.get("/", port)
 
       Then("we get an OK response")
       result.status mustBe OK

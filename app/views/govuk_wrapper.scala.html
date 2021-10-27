@@ -15,14 +15,13 @@
  *@
 
 @import config.FrontendAppConfig
+@import uk.gov.hmrc.govukfrontend.views.html.components._
 @import uk.gov.hmrc.hmrcfrontend.views.html.components.{HmrcLanguageSelect, HmrcReportTechnicalIssue}
 @import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, LanguageSelect}
 @import uk.gov.hmrc.hmrcfrontend.views.html.helpers._
 
 
-@this(govukLayout: GovukLayout,
-      govukTemplate: GovukTemplate,
-      govukHeader: GovukHeader,
+@this(govukTemplate: GovukTemplate,
       govukFooter: HmrcStandardFooter,
       hmrcHead: HmrcHead,
       hmrcScripts: HmrcScripts,
@@ -40,7 +39,6 @@
         footerBlock: Option[Html] = None,
         contentHeader: Option[Html] = None,
         headBlock: Option[Html] = None,
-        footerItems: Seq[FooterItem] = Seq.empty,
         mainContent: Option[Html] = None,
         serviceInfoContent: Option[Html] = None,
         fullWidth: Boolean = false,

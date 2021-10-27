@@ -88,7 +88,3 @@ lazy val microservice = Project(appName, file("."))
   )
   .settings(majorVersion := 0)
 
-TwirlKeys.templateImports ++= Seq(
-  "uk.gov.hmrc.govukfrontend.views.html.components._",
-  "uk.gov.hmrc.govukfrontend.views.html.helpers._"
-)
