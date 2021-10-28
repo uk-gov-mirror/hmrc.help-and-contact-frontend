@@ -91,61 +91,6 @@ vat.questions_about_vat.heading = Contact HMRC about VAT
 #######################################################
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ How to Pay your Self Assessment
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-howToPaySelfAssessment.title = How to pay your Self Assessment
-howToPaySelfAssessment.heading = How to pay your Self Assessment
-howToPaySelfAssessment.viewing.your.calculation = Viewing your calculation
-howToPaySelfAssessment.viewing.your.calculations = Viewing your Self Assessment tax return calculations
-howToPaySelfAssessment.paying.your.sa.bill = How do I pay my Self Assessment tax bill?
-howToPaySelfAssessment.penalties.appeals = Penalties and appeals
-howToPaySelfAssessment.appeal.against.penalty = Appeal against a penalty
-howToPaySelfAssessment.check.status.of.appeal = Check the status of an appeal
-howToPaySelfAssessment.further.help.with.penalties = Further help with penalties
-howToPaySelfAssessment.hmrcs.online.tax.return.automatically_ = HMRC’s online tax return automatically works out how much you need to pay. You fill in your figures and once you have checked that everything is correct, you can view your calculation.
-howToPaySelfAssessment.this.shows.how.your.tax.bill.has.been_ = This shows how your tax bill has been worked out. It shows your income, your personal allowance, the tax due, any class 4 and class 2 National Insurance contributions, and the payments that are due on 31 January 2018. You can print a copy of this for your own records.
-howToPaySelfAssessment.the.deadlines.for.paying.are.31.january_ = The deadlines for paying are 31 January for a tax bill for the previous year and your first payment on account, and 31 July for your second payment on account. Make sure you pay HMRC on time. You will be charged interest and may have to pay a penalty if your payment is late. You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-howToPaySelfAssessment.if.you.are.paying.your.bill.the_ = If you are paying your bill the same or the next day you can use:
-howToPaySelfAssessment.if.you.have.longer.to.pay.your.bill_ = If you have longer to pay your bill you can use:
-howToPaySelfAssessment.youll.have.a.penalty.showing_ = You’ll have a penalty showing on your account if you:
-howToPaySelfAssessment.hmrc_will_send_you_contact_details_ = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
-howtoPaySelfAssessment.video.transcript = - video transcript
-howtoPaySelfAssessment.online.telephone.banking = online or telephone banking
-howtoPaySelfAssessment.faster.payments = (Faster Payments)
-howtoPaySelfAssessment.chaps = CHAPS
-howtoPaySelfAssessment.debit.credit.card.online = a debit or credit card online
-howtoPaySelfAssessment.bank.building.society = a bank or building society
-howtoPaySelfAssessment.bacs = Bacs
-howtoPaySelfAssessment.direct.debit = Direct Debit
-howtoPaySelfAssessment.cheque = Cheque by post
-howtoPaySelfAssessment.3.working.days = (3 working days)
-howtoPaySelfAssessment.3.working.days.already.setup = (3 working days if you already have one set up, 5 working days if you need to set one up)
-howtoPaySelfAssessment.budgeting.for.sa.bill = How do I budget for my Self Assessment tax bill?
-howtoPaySelfAssessment.more.information = More information about paying your Self Assessment tax bill
-howtoPaySelfAssessment.sent.tax.return.late = sent in your tax return late
-howtoPaySelfAssessment.paid.tax.late = paid tax late
-howtoPaySelfAssessment.did.not.pay.enough.tax = didn’t pay enough tax
-howToPaySelfAssessment.you.can.appeal.if = You can appeal if you have a
-howToPaySelfAssessment.reasonable.excuse = reasonable excuse
-howToPaySelfAssessment.for.example.stay.in.hospital = for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.
-howToPaySelfAssessment.affected.by.covid = If your business has been affected by coronavirus (COVID-19), you have an extra 3 months to appeal any penalty dated February 2020 or later.
-howtoPaySelfAssessment.self.assessment.penalties = Self Assessment penalties
-howToPaySelfAssessment.you.can = You can:
-howToPaySelfAssessment.appeal.online = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
-howToPaySelfAssessment.appeal.form = appeal any late filing or late payment penalty using form SA370 (opens in new tab)
-howToPaySelfAssessment.notice.by.email = If you get your penalty notice by email, you can fill in form SA370 to appeal against Self Assessment penalties for late filing and late payment, or you can write to HMRC with your reasons for appealing.
-howToPaySelfAssessment.send.to.hmrc = Send your form or letter to HMRC''s
-howToPaySelfAssessment.sa.hmrc.address =  address for Self Assessment enquiries.
-howToPaySelfAssessment.youll.need = You''ll need a breakdown of your penalties and interest.
-howToPaySelfAssessment.view.penalties = View your Self Assessment penalties
-howToPaySelfAssessment.view.interest = View your Self Assessment interest
-howToPaySelfAssessment.view.tax_return_calculations = Video - Viewing your Self Assessment tax return calculation (opens in new tab)
-howToPaySelfAssessment.taxbill = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
-howToPaySelfAssessment.view.budget_for_my_self_assessment_tax = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
-howToPaySelfAssessment.view.self_assessment_penalties = Video - Self Assessment penalties (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help with your self assessment tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 helpWithYourSelfAssessmentTaxReturn.title = Help with your Self Assessment tax return
@@ -202,6 +147,7 @@ helpWithYourSelfAssessmentTaxReturn.help_with_record = More help with record kee
 helpWithYourSelfAssessmentTaxReturn.business_records_if = Business records if you’re self-employed (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.keeping_pay = Keeping your pay and tax records (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.complete_and_file = Complete and file your tax return (opens in new tab).
+helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -406,11 +352,9 @@ payment_and_penalties.list_sent_late = sent in your tax return late
 payment_and_penalties.list_paid_late = paid tax late
 payment_and_penalties.list_not_enough = didn’t pay enough tax
 payment_and_penalties.appeal_penalty = Appealing a penalty
-payment_and_penalties.affected_covid = If your business has been affected by coronavirus (COVID-19), you have an extra 3 months to appeal any penalty dated February 2020 or later.
 payment_and_penalties.appeal_if = You can appeal a penalty if you have a
-payment_and_penalties.excuse_link = reasonable excuse,
-payment_and_penalties.for_example = for example you had an unexpected stay in hospital. You must appeal within 30 days of the date the penalty was sent to you.
-payment_and_penalties.more_help = More help with penalties
+payment_and_penalties.excuse_link = reasonable excuse (opens in new tab)
+payment_and_penalties.you_must_appeal =. You must appeal within 30 days of the date the penalty was sent to you.
 payment_and_penalties.find_more = Find out more about Self Assessment penalties (opens in new tab)
 payment_and_penalties.interest_rates = Interest rates for late and early payments (opens in new tab)
 payment_and_penalties.sa_penalties_video = Video - Self Assessment penalties (opens in new tab)
