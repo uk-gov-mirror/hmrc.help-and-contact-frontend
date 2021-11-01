@@ -38,7 +38,7 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
 ) extends AuthAction
     with AuthorisedFunctions {
 
-  override def parser: BodyParser[AnyContent] = defaultParser.defaultBodyParser
+  override def parser: BodyParser[AnyContent] = defaultParser.default
 
   final val saEnrolmentKey: String        = "IR-SA"
   final val saEnrolmentIdentifier: String = "UTR"
@@ -60,15 +60,15 @@ class AuthActionImpl @Inject()(override val authConnector: AuthConnector,
       case _: NoActiveSession =>
         Redirect(config.loginUrl, Map("continue" -> Seq(config.loginContinueUrl)))
       case _: InsufficientEnrolments =>
-        Redirect(routes.UnauthorisedController.onPageLoad())
+        Redirect(routes.UnauthorisedController.onPageLoad)
       case _: InsufficientConfidenceLevel =>
-        Redirect(routes.UnauthorisedController.onPageLoad())
+        Redirect(routes.UnauthorisedController.onPageLoad)
       case _: UnsupportedAuthProvider =>
-        Redirect(routes.UnauthorisedController.onPageLoad())
+        Redirect(routes.UnauthorisedController.onPageLoad)
       case _: UnsupportedAffinityGroup =>
-        Redirect(routes.UnauthorisedController.onPageLoad())
+        Redirect(routes.UnauthorisedController.onPageLoad)
       case _: UnsupportedCredentialRole =>
-        Redirect(routes.UnauthorisedController.onPageLoad())
+        Redirect(routes.UnauthorisedController.onPageLoad)
     }
 
   }

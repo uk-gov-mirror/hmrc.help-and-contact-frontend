@@ -19,34 +19,36 @@ package controllers.actions.mocks
 import config.FrontendAppConfig
 import controllers.actions.mocks.MockAuth._
 import controllers.actions.{AuthAction, AuthActionImpl, mocks}
+import models.SaUtr
 import models.requests.AuthenticatedRequest
-import org.mockito.Matchers._
+import org.mockito.ArgumentMatchers.any
 import org.mockito.Mockito._
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
 import org.scalatest.{BeforeAndAfterEach, Suite}
 import org.scalatestplus.mockito.MockitoSugar
-import play.api.mvc.{Request, Result}
-import play.api.test.{NoMaterializer, StubPlayBodyParsersFactory}
+import play.api.mvc.{PlayBodyParsers, Request, Result}
+import play.api.test.Helpers.baseApplicationBuilder.injector
+import play.api.test.Helpers.stubPlayBodyParsers
 import uk.gov.hmrc.auth.core.AuthConnector
-import models.SaUtr
-import org.mockito.ArgumentMatchers.any
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-trait MockAuth extends MockitoSugar with BeforeAndAfterEach with StubPlayBodyParsersFactory {
+trait MockAuth extends MockitoSugar with BeforeAndAfterEach {
   this: Suite =>
 
   final def testUtr: String = MockAuth.testUtr
 
   final def ActiveSa: UserType = mocks.UserType.ActiveSa
 
+  val parser: PlayBodyParsers = injector.instanceOf[PlayBodyParsers]
+
   final val mockAuthAction: AuthAction = spy(
     new AuthActionImpl(
       mock[AuthConnector],
       mock[FrontendAppConfig],
-      stubPlayBodyParsers(NoMaterializer)
+      parser
     )
   )
 

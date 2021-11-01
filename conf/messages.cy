@@ -1,6 +1,6 @@
 error.boolean = Please give an answer
 error.required = Please enter a value
-error.summary.title = Mae problem wedi codi
+error.summary.titles = Mae problem wedi codi
 error.summary.text = Check the following
 
 session_expired.title = For your security, this service has been reset

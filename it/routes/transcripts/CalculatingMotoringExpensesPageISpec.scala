@@ -26,7 +26,7 @@ class CalculatingMotoringExpensesPageISpec
 
       When("Calculating motoring expenses page is called")
       val result: WSResponse =
-        HttpRequest.get("/transcript/calculating-motoring-expenses")
+        HttpRequest.get("/transcript/calculating-motoring-expenses", port)
 
       Then("we get an OK response")
       result.status mustBe OK
