@@ -25,6 +25,7 @@ import play.api.i18n.I18nSupport
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import play.api.mvc.MessagesControllerComponents
 import views.html.transcripts._
+import views.html.transcripts.ct._
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      viewing_your_self_assessment_calculation: viewing_your_self_assessment_calculation,
@@ -50,7 +51,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      class_2_ni: class_2_ni,
                                      cash_basis: cash_basis,
                                      add_a_tax: add_a_tax,
-
+                                     how_to_pay_corporation_tax: how_to_pay_corporation_tax,
                                      override val controllerComponents: MessagesControllerComponents)
     extends FrontendController(controllerComponents)
     with I18nSupport {
@@ -81,10 +82,13 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "new-your-first-tax-return" -> new_your_first_tax_return(appConfig)(request.serviceInfoContent),
       "new-income-from-property" -> new_income_from_property(appConfig)(request.serviceInfoContent),
       "new-your-self-employed-tax-return" -> new_your_self_employed_tax_return(appConfig)(request.serviceInfoContent),
-      "new-registering-for-self-assessment" -> new_registering_for_self_assessment(appConfig)(request.serviceInfoContent),
+      "new-registering-for-self-assessment" -> new_registering_for_self_assessment(appConfig)(
+        request.serviceInfoContent
+      ),
       "class-2-ni" -> class_2_ni(appConfig)(request.serviceInfoContent),
       "cash-basis" -> cash_basis(appConfig)(request.serviceInfoContent),
-      "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent)
+      "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
+      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>
