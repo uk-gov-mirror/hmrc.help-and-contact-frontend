@@ -26,11 +26,13 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "ct.how_to_pay"
 
-  def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) = {
+  def fakeServiceInfoRequest(saUtr: Option[SaUtr] = None) =
     ServiceInfoRequest(AuthenticatedRequest(fakeRequest, saUtr, None), Some(HtmlFormat.empty))
-  }
 
-  def createView(saUtr: Option[SaUtr] = None) = () => inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeServiceInfoRequest(saUtr), messages)
+  def createView(saUtr: Option[SaUtr] = None) =
+    () =>
+      inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeServiceInfoRequest(saUtr),
+                                                                                          messages)
 
   "HowToPayCorporationTax view" must {
     behave like normalPage(createView(), messageKeyPrefix)
@@ -41,7 +43,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
     }
 
     "have correct h2 headings" in {
-      val doc = asDocument(createView()())
+      val doc      = asDocument(createView()())
       val headings = doc.getElementsByTag("h2").toString
       headings must include("Deadlines")
       headings must include("If your taxable profits are up to £1.5 million")
@@ -52,8 +54,10 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
     "have correct content" in {
       val doc = asDocument(createView()())
       doc.text() must include("The deadline for your payment will depend on your taxable profits.")
-      doc.text() must include("You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. " +
-        "Your accounting period is usually your financial year, but you may have 2 accounting periods in ")
+      doc.text() must include(
+        "You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. " +
+          "Your accounting period is usually your financial year, but you may have 2 accounting periods in "
+      )
       doc.text() must include("You must ")
       doc.text() must include("Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may")
       doc.text() must include(" if you do not pay on time. They will ")
@@ -71,7 +75,8 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/first-company-accounts-and-return",
         "link - click:How to pay your Corporation Tax:the year you set up your company",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "instalments",
@@ -79,7 +84,8 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
         "link - click:How to pay your Corporation Tax:in instalments",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "charge-you-interest",
@@ -87,7 +93,8 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/guidance/corporation-tax-interest-charges",
         "link - click:How to pay your Corporation Tax:charge you interest",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "pay-you-interest",
@@ -95,7 +102,8 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/get-refund-interest-corporation-tax",
         "link - click:How to pay your Corporation Tax:pay you interest",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
       assertLinkById(
         doc,
         "ct-detailed-info",
@@ -103,7 +111,24 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "https://www.gov.uk/pay-corporation-tax/bank-details",
         "link - click:How to pay your Corporation Tax:read detailed information",
         expectedIsExternal = true,
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "ct-how-to-pay-video",
+        "Video - Paying your Corporation Tax bill (opens in new tab)",
+        "https://www.youtube.com/watch?v=l8qfAzNm03E",
+        "link - click:How to pay your Corporation Tax:Video",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "ct-how-to-pay-video-transcript",
+        "Paying your Corporation Tax bill - video transcript",
+        "/business-account/help/transcript/how-to-pay-corporation-tax",
+        "link - click:How to pay your Corporation Tax:Video transcript",
+        exactUrl = false
+      )
     }
   }
 }

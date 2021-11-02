@@ -19,6 +19,7 @@ package controllers
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import views.html.transcripts._
+import views.html.transcripts.ct._
 
 class TranscriptControllerSpec extends ControllerSpecBase {
 
@@ -44,18 +45,22 @@ class TranscriptControllerSpec extends ControllerSpecBase {
   behave like pageRouter(
     "viewing-your-self-assessment-calculation",
     () =>
-      inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+      inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest,
+                                                                                                        messages)
   )
 
   behave like pageRouter(
     "paying-your-self-assessment-tax-bill",
-    () => inject[paying_your_self_assessment_tax_bill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+    () =>
+      inject[paying_your_self_assessment_tax_bill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest,
+                                                                                                    messages)
   )
 
   behave like pageRouter(
     "budgeting-your-self-assessment-tax-bill",
     () =>
-      inject[budgeting_your_self_assessment_tax_bill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+      inject[budgeting_your_self_assessment_tax_bill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest,
+                                                                                                       messages)
   )
 
   behave like pageRouter(
@@ -80,12 +85,15 @@ class TranscriptControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     "your-income-from-property-tax-return",
-    () => inject[your_income_from_property_tax_return].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+    () =>
+      inject[your_income_from_property_tax_return].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest,
+                                                                                                    messages)
   )
 
   behave like pageRouter(
     "expenses-if-you-are-self-employed",
-    () => inject[expenses_if_you_are_self_employed].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+    () =>
+      inject[expenses_if_you_are_self_employed].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
 
   behave like pageRouter(
@@ -95,6 +103,13 @@ class TranscriptControllerSpec extends ControllerSpecBase {
 
   behave like pageRouter(
     "registering-for-self-assessment",
-    () => inject[registering_for_self_assessment].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+    () =>
+      inject[registering_for_self_assessment].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
+
+  behave like pageRouter(
+    "how-to-pay-corporation-tax",
+    () => inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  )
+
 }

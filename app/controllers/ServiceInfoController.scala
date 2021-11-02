@@ -19,6 +19,7 @@ package controllers
 import connectors.ServiceInfoPartialConnector
 import javax.inject.Inject
 import models.requests.AuthenticatedRequest
+import play.api.Logging
 import play.api.i18n.Messages
 import play.api.mvc.MessagesControllerComponents
 import play.twirl.api.Html
@@ -32,7 +33,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ServiceInfoController @Inject()(serviceInfoPartialConnector: ServiceInfoPartialConnector,
                                               service_info: service_info,
                                               mcc: MessagesControllerComponents,
-                                              partialService: PartialService) extends FrontendController(mcc) {
+                                              partialService: PartialService) extends FrontendController(mcc) with Logging {
 
   def serviceInfoPartial[A](request: AuthenticatedRequest[A])(implicit hc: HeaderCarrier, ec: ExecutionContext): Future[Option[Html]] = {
     val maybeNavLinks = serviceInfoPartialConnector.getNavLinks()
@@ -40,6 +41,7 @@ class ServiceInfoController @Inject()(serviceInfoPartialConnector: ServiceInfoPa
     for {
       navLinks <- maybeNavLinks
     } yield {
+      logger.info("[ServiceInfoController][serviceInfoPartial] successful")
       Some(service_info(partialService.partialList(navLinks)))
     }
   }

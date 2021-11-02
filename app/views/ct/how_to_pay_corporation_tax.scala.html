@@ -69,4 +69,20 @@
     <p class="govuk-body"><a class="govuk-link" id="ct-detailed-info" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
     data-journey-click="link - click:How to pay your Corporation Tax:read detailed information">@messages("ct.how_to_pay.detailed_info")</a></p>
 
+    <div class="govuk-inset-text">
+
+        <p class="govuk-body">
+            <a class="govuk-link" href="https://www.youtube.com/watch?v=l8qfAzNm03E" id="ct-how-to-pay-video" target="_blank"
+               data-journey-click="link - click:How to pay your Corporation Tax:Video">@messages("ct.how_to_pay.video")</a>
+        </p>
+
+        <p class="govuk-body">
+            @defining("how-to-pay-corporation-tax") { transcriptKey =>
+            <a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad(transcriptKey)" id="ct-how-to-pay-video-transcript"
+               data-journey-click="link - click:How to pay your Corporation Tax:Video transcript">@messages("ct.how-to_pay.video.transcript")</a>
+            }
+        </p>
+
+    </div>
+
   }
