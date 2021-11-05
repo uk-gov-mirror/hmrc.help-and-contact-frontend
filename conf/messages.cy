@@ -1166,6 +1166,27 @@ ct.how.to.pay.transcript.paragraph16 = Ar ôl i chi anfon y taliad, byddwch yn c
 ct.how.to.pay.transcript.paragraph17 = Cofiwch wneud yn siŵr eich bod yn talu erbyn y dyddiad cau er mwyn osgoi unrhyw log neu gosbau.
 ct.how.to.pay.transcript.paragraph18.p1 = Gallwch ddod o hyd i ragor o wybodaeth ar
 ct.how.to.pay.transcript.paragraph18.linkText = GOV.UK
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Can't Access SA Online Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cant.access.sa.online.title = Dydw i ddim yn gallu cael gafael ar Hunanasesiad ar-lein drwy ddefnyddio fy nghyfrif treth busnes - trawsgrifiad fideo
+cant.access.sa.online.heading = Dydw i ddim yn gallu cael gafael ar Hunanasesiad ar-lein drwy ddefnyddio fy nghyfrif treth busnes - trawsgrifiad fideo
+cant.access.sa.online.paragraph1 = Os ydych yn mewngofnodi i’ch cyfrif treth busnes ond ni allwch ddod o hyd i’r gwasanaeth Hunanasesiad, mae’n debygol o fod oherwydd un o ddau reswm.
+cant.access.sa.online.paragraph2 = Mae’n bosibl nad ydych wedi defnyddio Hunanasesiad nac wedi anfon Ffurflen Dreth ar-lein o’r blaen, felly mae’n debyg nad ydych wedi ychwanegu Hunanasesiad at eich cyfrif.
+cant.access.sa.online.paragraph3 = I’w ychwanegu, dewiswch yr opsiwn i ychwanegu treth, toll neu gynllun i ddechrau arni.
+cant.access.sa.online.paragraph4 = Yna dewiswch y gwasanaeth yr ydych am ei ychwanegu - yn yr achos hwn: Hunanasesiad.
+cant.access.sa.online.paragraph5 = Neu, os ydych wedi defnyddio Hunanasesiad neu wedi anfon Ffurflen Dreth ar-lein o’r blaen, efallai eich bod yn defnyddio cyfrif gwahanol y tro hwn.
+cant.access.sa.online.paragraph6 = I gael gwybod a oes gennych gyfrif arall lle rydych wedi ychwanegu Hunanasesiad, dewiswch yr opsiwn i wirio hyn‘’.
+cant.access.sa.online.paragraph7 = Byddwn yn gofyn am eich Cyfeirnod Unigryw y Trethdalwr, neu UTR.
+cant.access.sa.online.paragraph8 = Gallwch ddod o hyd i’ch UTR ar eich Ffurflen Dreth, datganiad o gyfrif, neu gyfrifiad Hunanasesiad arall.
+cant.access.sa.online.paragraph9 = Byddwn yn gwirio a yw’r UTR wedi cael ei ddefnyddio ar gyfer cyfrif arall.
+cant.access.sa.online.paragraph10 = Os nad ydyw, byddwn yn gofyn i chi ychwanegu’r gwasanaeth Hunanasesu at y cyfrif hwn.
+cant.access.sa.online.paragraph11 = Os ydyw, gallwch adfer eich dynodydd defnyddiwr (ID) a’ch cyfrinair ar gyfer y cyfrif hwnnw, ar-lein. Yna, gallwch fewngofnodi i weld eich Hunanasesiad a’i anfon.
+cant.access.sa.online.paragraph12 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
+cant.access.sa.online.link = GOV.UK
+cant.access.sa.online.paragraph13 = ac yn ein fideos defnyddiol eraill ar YouTube.
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

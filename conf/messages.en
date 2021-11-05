@@ -1169,6 +1169,26 @@ ct.how.to.pay.transcript.paragraph18.p1 = You can find more information on
 ct.how.to.pay.transcript.paragraph18.linkText = GOV.UK
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Can't Access SA Online Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cant.access.sa.online.title = I can’t access Self Assessment online using my business tax account - video transcript
+cant.access.sa.online.heading = I can’t access Self Assessment online using my business tax account - video transcript
+cant.access.sa.online.paragraph1 = If you sign in to your business tax account but can’t find the Self Assessment service, it’s likely to be for one of two reasons.
+cant.access.sa.online.paragraph2 = You may not have used Self Assessment or sent a tax return online before, so you probably haven’t added Self Assessment to your account.
+cant.access.sa.online.paragraph3 = To add this, choose ‘add a tax, duty or scheme’ to get started.
+cant.access.sa.online.paragraph4 = Then choose the service you want to add – in this case: ‘Self Assessment’.
+cant.access.sa.online.paragraph5 = Or, if you have used Self Assessment or sent a tax return online before, you may be using a different account this time.
+cant.access.sa.online.paragraph6 = To find out if you have another account where you’ve added Self Assessment, choose ‘Check if your Self Assessment is in another account’.
+cant.access.sa.online.paragraph7 = We’ll ask for your Unique Taxpayer Reference, or UTR.
+cant.access.sa.online.paragraph8 = You can find your UTR on your tax return, statement of account or other Self Assessment calculations.
+cant.access.sa.online.paragraph9 = We’ll check if the UTR has been used for another account.
+cant.access.sa.online.paragraph10 = If it hasn’t, we’ll ask you to add the Self Assessment service to this account.
+cant.access.sa.online.paragraph11 = If it has, you can recover your user ID and password for that account, online. You can then sign in to access and send your Self Assessment.
+cant.access.sa.online.paragraph12 = You can find out more about Self Assessment on
+cant.access.sa.online.link = GOV.UK
+cant.access.sa.online.paragraph13 = and in our other helpful videos on YouTube.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.contact_hmrc.heading = Contact HMRC about Self Assessment
