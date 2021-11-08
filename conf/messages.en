@@ -21,6 +21,10 @@ unauthorised.heading = You can’t see this page
 unauthorised.nocorptax = You haven’t added Corporation Tax to this account.
 unauthorised.correctid = Make sure you’re signed in with the correct user ID.
 
+timeout.title= Your session is about to end
+timeout.message= For your security, we will sign you out in
+timeout.keep-alive-button= Stay signed in
+
 ########################################################################################################################
 ### Help and Contact main
 ########################################################################################################################

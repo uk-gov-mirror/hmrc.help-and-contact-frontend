@@ -28,7 +28,9 @@
       hmrcReportTechnicalIssue: HmrcReportTechnicalIssue,
       hmrcLanguageSelect: HmrcLanguageSelect,
       hmrcStandardHeader: HmrcStandardHeader,
-      appConfig: FrontendAppConfig)
+      appConfig: FrontendAppConfig,
+      hmrcTimeoutDialogHelper: HmrcTimeoutDialogHelper
+)
 
 @(title: String,
         mainClass: Option[String] = None,
@@ -51,6 +53,15 @@
   serviceName = Some(messages("site.service_name")),
   serviceUrl = Some(appConfig.getBusinessAccountUrl("home")),
   signOutUrl = Some(appConfig.getBusinessAccountUrl("signout"))
+ )
+ @hmrcTimeoutDialogHelper(
+  signOutUrl = "/business-account/timeout",
+  keepAliveUrl = Some("/business-account/keep-alive"),
+  timeout = Some(appConfig.sessionTimeoutInSeconds),
+  countdown = Some(appConfig.sessionCountdownInSeconds),
+  title = Some(messages("timeout.title")),
+  message = Some(messages("timeout.message")),
+  keepAliveButtonText = Some(messages("timeout.keep-alive-button"))
  )
 }}
 
