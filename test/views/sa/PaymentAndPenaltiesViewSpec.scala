@@ -106,6 +106,21 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       )
       assertLinkById(
         doc,
+        "find-out-video",
+        "Video - How to find out about Self Assessment penalties (opens in new tab)",
+        "https://www.youtube.com/watch?v=bMKtl3zybCQ",
+        "link - click:Payment and penalties : How to find out about Self Assessment penalties video",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "find-out-transcript",
+        "How to find out about Self Assessment penalties - video transcript",
+        "/business-account/help/transcript/how-to-find-sa-penalties",
+        "link - click:Payment and penalties : How to find out about Self Assessment penalties transcript"
+      )
+      assertLinkById(
+        doc,
         "pay-a-penalty",
         "pay a penalty",
         "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",

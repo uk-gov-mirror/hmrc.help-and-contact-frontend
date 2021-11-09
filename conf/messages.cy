@@ -349,6 +349,8 @@ payment_and_penalties.penalty_showing = Bydd cosb i’w gweld ar eich cyfrif os:
 payment_and_penalties.list_sent_late = ydych wedi anfon eich Ffurflen Dreth yn hwyr
 payment_and_penalties.list_paid_late = ydych wedi talu treth yn hwyr
 payment_and_penalties.list_not_enough = nad ydych wedi talu digon o dreth
+payment_and_penalties.how_to_find_out_video = Fideo – Sut i gael gwybod am gosbau Hunanasesu (yn agor tab newydd)
+payment_and_penalties.how_to_find_out_transcript = Sut i gael gwybod am gosbau Hunanasesu - trawsgrifiad fideo
 payment_and_penalties.appeal_penalty = Apelio yn erbyn cosb
 payment_and_penalties.appeal_if = Gallwch apelio yn erbyn cosb os oes gennych
 payment_and_penalties.excuse_link = esgus rhesymol (yn agor tab newydd)
@@ -748,6 +750,20 @@ ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig (yn agor tab ne
 #######################################################
 ##  Transcripts
 #######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ How to find out about Self Assessment penalties  transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+howToFindSaPenaltiesTranscript.title = Sut i gael gwybod am gosbau Hunanasesu - trawsgrifiad fideo
+howToFindSaPenaltiesTranscript.heading = Sut i gael gwybod am gosbau Hunanasesu - trawsgrifiad fideo
+howToFindSaPenaltiesTranscript.paragraph1 = Efallai eich bod ar ddeall bod modd wynebu cosbau os ydych yn hwyr yn anfon ac yn talu’ch Ffurflen Dreth ar-lein i CThEM.
+howToFindSaPenaltiesTranscript.paragraph2 = Cofiwch y dylech anfon a thalu’ch Ffurflen Dreth ar-lein erbyn 31 Ionawr, os na, byddwch fel arfer yn cael cosb am hynny.
+howToFindSaPenaltiesTranscript.paragraph3 = Gallwch wirio a oes angen i chi anfon Ffurflen Dreth drwy ddefnyddio ein gwiriwr Hunanasesiad ar
+howToFindSaPenaltiesTranscript.paragraph4 = Os oes angen i chi anfon Ffurflen Dreth a’n bod yn ei chael yn hwyr, cewch gosb o gan bunt [£100] os yw’ch Ffurflen Dreth hyd at dri mis yn hwyr. Ni fydd y cosbau hyn yn cael eu gostwng, hyd yn oed os nad oes gennych unrhyw beth i’w dalu ar eich Ffurflen Dreth.
+howToFindSaPenaltiesTranscript.paragraph5 = Os yw’n fwy na thri mis yn hwyr, codir deg punt ychwanegol y dydd arnoch am hyd at 90 diwrnod.
+howToFindSaPenaltiesTranscript.paragraph6 = Ar ôl hyn, cewch gosbau ychwanegol hyd nes i ni gael eich Ffurflen Dreth a’ch bod wedi talu’ch bil treth. Hefyd codir llog arnoch ar daliadau hwyr.
+howToFindSaPenaltiesTranscript.paragraph7 = Os na fydd yn rhaid i chi anfon Ffurflen Dreth, gallwch ofyn am gael eich tynnu o Hunanasesiad drwy’ch Cyfrif Treth Personol. Os nad ydych yn dweud wrthym eich bod wedi rhoi’r gorau i fod yn hunangyflogedig, neu os nad ydych bellach yn rhan o Hunanasesiad, efallai y codir cosb arnoch hefyd.
+howToFindSaPenaltiesTranscript.paragraph8 = Y ffordd hawsaf o osgoi cosbau yw anfon eich Ffurflen Dreth a thalu unrhyw dreth sy’n ddyledus erbyn 31 Ionawr. Cewch fwy o help a gwybodaeth ynghylch gosbau Hunanasesiad, sut i’w hapelio a’r cyfrif treth personol ar
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript

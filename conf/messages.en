@@ -351,6 +351,8 @@ payment_and_penalties.penalty_showing = You’ll have a penalty showing on your 
 payment_and_penalties.list_sent_late = sent in your tax return late
 payment_and_penalties.list_paid_late = paid tax late
 payment_and_penalties.list_not_enough = didn’t pay enough tax
+payment_and_penalties.how_to_find_out_video = Video - How to find out about Self Assessment penalties (opens in new tab)
+payment_and_penalties.how_to_find_out_transcript = How to find out about Self Assessment penalties - video transcript
 payment_and_penalties.appeal_penalty = Appealing a penalty
 payment_and_penalties.appeal_if = You can appeal a penalty if you have a
 payment_and_penalties.excuse_link = reasonable excuse (opens in new tab)
@@ -764,6 +766,20 @@ ct.register_deregister_close_company_ = close the limited company (opens in new 
 #######################################################
 ##  Transcripts
 #######################################################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ How to find out about Self Assessment penalties  transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+howToFindSaPenaltiesTranscript.title = How to find out about Self Assessment penalties - video transcript
+howToFindSaPenaltiesTranscript.heading = How to find out about Self Assessment penalties - video transcript
+howToFindSaPenaltiesTranscript.paragraph1 = You may have heard there are penalties if you’re late sending and paying your online tax return to HMRC.
+howToFindSaPenaltiesTranscript.paragraph2 = Remember you should send and pay your online tax return by 31st January, if you don’t you’ll usually be charged a penalty.
+howToFindSaPenaltiesTranscript.paragraph3 = You can check if you need to send a tax return by using our Self Assessment checker on
+howToFindSaPenaltiesTranscript.paragraph4 = If you do need to send one and we receive your return late you’ll get a penalty of one hundred pounds [£100] if your tax return is up to three months late. These penalties won’t be reduced, even if you have nothing to pay on your return.
+howToFindSaPenaltiesTranscript.paragraph5 = If it’s more than three months late you’ll be charged an additional ten pounds a day for up to ninety days.
+howToFindSaPenaltiesTranscript.paragraph6 = After this you’ll be charged further penalties until we receive your tax return and you’ve paid your tax bill. You’ll also be charged interest on late payments.
+howToFindSaPenaltiesTranscript.paragraph7 = If you don’t have to send a tax return you can ask to be removed from Self Assessment through your personal tax account. If you don’t tell us you’ve stopped being self-employed, or are no longer part of Self Assessment, you may also be charged a penalty.
+howToFindSaPenaltiesTranscript.paragraph8 = The easiest way to avoid penalties is to send your return and pay any tax due by 31st January. You’ll find more help and information about Self assessment penalties, how to appeal them and the personal tax account on
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
