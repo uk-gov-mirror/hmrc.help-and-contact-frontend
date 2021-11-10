@@ -83,7 +83,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   def getPortalUrl(key: String, saUtr: Option[SaUtr] = None, taxYearCode: Option[String] = None)(implicit request: Request[_]): String =
     buildPortalUrl(portalHost + loadConfig(s"urls.portal.$key"))(saUtr, taxYearCode)
 
-  def sessionTimeoutInSeconds: Long  = 900
+  def sessionTimeoutInSeconds: Int  = 900
   def sessionCountdownInSeconds: Int = 60
 
   lazy val taxYearStart: Int = TaxYear.current.startYear
