@@ -285,8 +285,6 @@ register_or_stopping.help_page = Cofrestru neu stopio
 register_or_stopping.class_2_ni = Cyfraniadau Yswiriant Gwladol Dosbarth 2
 register_or_stopping.when_you_register = Pan fyddwch yn cofrestru ar gyfer Hunanasesiad fel unigolyn hunangyflogedig, rydych hefyd yn cofrestru ar
 register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2 (yn agor tab newydd).
-register_or_stopping.class_2_video = Fideo - Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth (yn agor tab newydd)
-register_or_stopping.class_2_transcript = Cyfraniadau Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth – trawsgrifiad fideo
 register_or_stopping.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
 register_or_stopping.unique_taxpayer = Rhif 10 digid yw’ch Cyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer Hunanasesiad. Gallwch ddod o hyd iddo ar y canlynol:
 register_or_stopping.list_welcome_letter = eich llythyr Croeso i Hunanasesiad (SA250)
@@ -431,35 +429,6 @@ sa302.evidence.check_mortgage = Gwiriwch fod eich darparwr morgais yn derbyn dog
 sa302.evidence.print_documents = Ni allwch argraffu’ch dogfennau tan hyd at 72 awr ar ôl i chi anfon eich Ffurflen Dreth.
 sa302.evidence.evidence_of_income = Dysgwch ragor am gael tystiolaeth o’ch incwm (yn agor tab newydd)
 sa302.evidence.find_sa302 = Dod o hyd i’ch SA302
-
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class_2_ni.title = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
-class_2_ni.heading = Yswiriant Gwladol Dosbarth 2 a’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
-class_2_ni.if_self_employed = Os ydych yn hunangyflogedig neu mewn partneriaeth, rydych yn talu Yswiriant Gwladol Dosbarth 2 er mwyn bod yn gymwys ar gyfer Pensiwn y Wladwriaeth a budd-daliadau eraill. Mae’r rhan fwyaf o bobl yn talu hyn yn eu taliad Hunanasesiad – erbyn 31 Ionawr, yn dilyn diwedd y flwyddyn dreth.
-class_2_ni.you_must_pay = Mae’n rhaid i chi dalu, os yw’ch elw’n cyrraedd y Trothwy Elw Bychan, neu os yw’n fwy na hynny – gallwch ddod o hyd i’r cyfraddau presennol ar wefan
-class_2_ni.dont_have_to = Nid oes rhaid i chi dalu os yw’ch elw o dan y trothwy – ond gall hyn effeithio ar eich Pensiwn y Wladwriaeth a’ch budd-daliadau eraill. Felly, efallai y byddwch yn penderfynu talu cyfraniadau gwirfoddol.
-class_2_ni.when_se =  Os ydych yn hunangyflogedig, mae angen i chi gofrestru ar gyfer Hunanasesiad er mwyn talu Yswiriant Gwladol Dosbarth 2. Mae hefyd angen i chi wneud hyn pan fo’ch trosiant blynyddol yn llai na mil o bunnoedd a’ch bod am dalu cyfraniadau gwirfoddol.
-class_2_ni.tax_return = Ar eich Ffurflen Dreth, dewiswch ‘hunangyflogedig’ neu ‘mewn partneriaeth’ – dyma’r adran sy’n cynnwys eich cyfraniadau Dosbarth 2.
-class_2_ni.your_return = Mae’ch Ffurflen Dreth yn dangos y swm sy’n ddyledus, ar sail nifer yr wythnosau yn y flwyddyn dreth yr oeddech yn hunangyflogedig, yn ôl eich cofnodion Yswiriant Gwladol.
-class_2_ni.amount_shows = Os yw’r swm yn dangos ‘Ddim ar gael, gwiriwch yr help’:
-class_2_ni.list_be_registered = efallai nad ydych wedi’ch cofrestru’n gywir ar gyfer Hunanasesiad, ac felly bydd angen i chi gofrestru ar wefan GOV.UK, neu
-class_2_ni.list_be_registered2 = neu
-class_2_ni.list_the_service = efallai nad yw’r gwasanaeth ar gael. Pan fydd ar gael, dewiswch y botwm ‘Ailgyfrifo’ er mwyn dangos y swm sy’n ddyledus.
-class_2_ni.shows_zero = Os yw’r swm yn dangos sero, gallai hyn fod oherwydd:
-class_2_ni.list_not_registered = nad ydych wedi’ch cofrestru’n gywir ar gyfer Hunanasesiad
-class_2_ni.list_already_paid = eich bod eisoes wedi talu uchafswm yr Yswiriant Gwladol
-class_2_ni.list_received_certain = eich bod wedi cael rhai budd-daliadau, sy’n golygu nad oes cyfraniadau Dosbarth 2 yn ddyledus
-class_2_ni.list_abroad = eich bod wedi bod dramor ac felly’n talu cyfraniadau Dosbarth 2 yn wahanol
-class_2_ni.not_sure_contact = Os nad ydych yn siŵr, cysylltwch â Gwasanaeth Cwsmeriaid Cymraeg CThEM.
-class_2_ni.started_or_stopped = Os gwnaethoch ddechrau neu roi’r gorau i hunangyflogaeth yn ystod y flwyddyn a’ch bod o’r farn bod y swm yn anghywir, dewiswch y cysylltiad ‘Diweddaru’ch manylion hunangyflogaeth’ er mwyn diweddaru’ch cofnod, ac yna dewiswch ‘Ailgyfrifo’.
-class_2_ni.make_voluntary = Er mwyn gwneud taliadau Dosbarth 2 gwirfoddol, dewiswch ‘Iawn’. Fel arall, dewiswch ‘Na’.
-class_2_ni.full_calculation = Mae’ch cyfrifiad llawn yn dangos faint o dreth ac Yswiriant Gwladol sydd arnoch.
-class_2_ni.more_information = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Cash basis and simplified expenses - Transcript

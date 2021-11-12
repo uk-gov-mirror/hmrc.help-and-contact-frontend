@@ -286,8 +286,6 @@ register_or_stopping.help_page = Registering or stopping
 register_or_stopping.class_2_ni = Class 2 National Insurance contributions
 register_or_stopping.when_you_register = When you register for Self Assessment as self employed, you are also registering for
 register_or_stopping.class_2_link = Class 2 National Insurance contributions (opens in new tab).
-register_or_stopping.class_2_video = Video - Class 2 National Insurance contributions and your Self Assessment tax return (opens in new tab)
-register_or_stopping.class_2_transcript = Class 2 National Insurance contributions and your Self Assessment tax return - video transcript
 register_or_stopping.registering_for_sa = Registering for Self Assessment
 register_or_stopping.unique_taxpayer = Your Self Assessment Unique Taxpayer Reference (UTR) is a 10 digit number. You can find it on:
 register_or_stopping.list_welcome_letter = your Welcome to Self Assessment letter (SA250)
@@ -434,34 +432,6 @@ sa302.evidence.check_mortgage = Check that your mortgage provider accepts docume
 sa302.evidence.print_documents = You cannot print your documents until up to 72 hours after you have sent your tax return.
 sa302.evidence.evidence_of_income = Find out more about getting evidence of your income (opens in new tab)
 sa302.evidence.find_sa302 = Find your SA302
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Class 2 National Insurance and your Self Assessment tax return - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-class_2_ni.title = Class 2 National Insurance and your Self Assessment tax return - video transcript
-class_2_ni.heading = Class 2 National Insurance and your Self Assessment tax return - video transcript
-class_2_ni.if_self_employed = If you’re self-employed or in a partnership, you pay Class 2 National Insurance to qualify for State Pension and other benefits. Most people pay this in their Self Assessment payment – by 31 January, following the end of the tax year.
-class_2_ni.you_must_pay = You must pay if your profits are at, or above, the Small Profits Threshold – you can find the current rates on
-class_2_ni.dont_have_to = You don’t have to pay if your profits are under the threshold – but this can affect your State Pension and other benefits. So, you may decide to pay voluntary contributions.
-class_2_ni.when_se = When you’re self-employed, to pay Class 2 National Insurance, you need to register for Self Assessment. You also need to do this when your annual turnover is below a thousand pounds and you want to pay voluntary contributions.
-class_2_ni.tax_return = On your tax return, select self-employed or in a partnership – this is the section where your Class 2 contributions are included.
-class_2_ni.your_return = Your return shows the amount due, based on the number of weeks in the tax year you were self-employed on your National Insurance records.
-class_2_ni.amount_shows = If the amount shows ‘Not available, check help’:
-class_2_ni.list_be_registered = you may not be registered correctly for self-employment, so you’ll need to register on
-class_2_ni.list_be_registered2 = or
-class_2_ni.list_the_service = the service may be unavailable. When it’s available select the ‘Recalculate’ button to show the amount due.
-class_2_ni.shows_zero = If the amount shows zero, this may be because:
-class_2_ni.list_not_registered = you’re not registered correctly for self-employment
-class_2_ni.list_already_paid = you’ve already paid the maximum National Insurance
-class_2_ni.list_received_certain = you received certain benefits meaning no Class 2 is due
-class_2_ni.list_abroad = you were abroad and pay Class 2 differently
-class_2_ni.not_sure_contact = If you’re not sure, contact the National Insurance helpline.
-class_2_ni.started_or_stopped = If you started or stopped self-employment during the year and think the amount is incorrect, select the ‘Update your self-employment details’ link to update your record, then select ‘Recalculate’.
-class_2_ni.make_voluntary = To make voluntary Class 2 payments, select ‘Yes’, otherwise select ‘No’.
-class_2_ni.full_calculation = Your full calculation shows how much tax and National Insurance you owe.
-class_2_ni.more_information = You can find more information about Self Assessment on
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Cash basis and simplified expenses - Transcript
