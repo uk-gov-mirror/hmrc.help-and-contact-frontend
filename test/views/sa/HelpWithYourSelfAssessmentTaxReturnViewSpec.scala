@@ -169,7 +169,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "income-from-property-video",
-        "Video - Income from property - what do I include on my tax return? (opens in new tab)",
+        "Video - If I have income from property - how do I fill in my tax return? (opens in new tab)",
         "https://youtu.be/DCUZy4ASz1A",
         "link - click:Help with your Self Assessment tax return : Income from property - video",
         expectedOpensInNewTab = true
