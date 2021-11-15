@@ -399,8 +399,6 @@ expenses.list_mileage = ymilltiroedd busnes eich cerbyd
 expenses.list_hours = hyr oriau yr ydych yn gweithio gartref
 expenses.list_how_many = nifer y bobl sy’n byw yn eich safle busnes
 expenses.find_out_more_simplified = Dysgwch ragor am dreuliau symlach (yn agor tab newydd)
-expenses.cash_basis_video = Fideo – Y sail arian parod a threuliau symlach (yn agor tab newydd)
-expenses.cash_basis_transcript = Y sail arian parod a threuliau symlach – trawsgrifiad fideo
 expenses.claiming_travel_header = Hawlio treuliau teithio os ydych yn hunangyflogedig
 expenses.allowable_business_expense = Gallwch hawlio treuliau busnes caniataol ar gyfer eitemau megis tanwydd ac yswiriant cerbyd.
 expenses.cannot_claim = Ni allwch hawlio am gostau gyrru neu deithio nad ydynt at ddefnydd busnes, nac am ddirwyon neu gostau teithio rhwng y cartref a’r gwaith.
@@ -429,29 +427,6 @@ sa302.evidence.check_mortgage = Gwiriwch fod eich darparwr morgais yn derbyn dog
 sa302.evidence.print_documents = Ni allwch argraffu’ch dogfennau tan hyd at 72 awr ar ôl i chi anfon eich Ffurflen Dreth.
 sa302.evidence.evidence_of_income = Dysgwch ragor am gael tystiolaeth o’ch incwm (yn agor tab newydd)
 sa302.evidence.find_sa302 = Dod o hyd i’ch SA302
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Cash basis and simplified expenses - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-cash_basis.title = Y sail arian parod a threuliau symlach - trawsgrifiad fideo
-cash_basis.heading = Y sail arian parod a threuliau symlach - trawsgrifiad fideo
-cash_basis.simplified_expenses = Mae’r sail arian parod a threuliau symlach yn ddau gynllun treth incwm a all wneud bywyd yn haws i fusnesau hunangyflogedig.
-cash_basis.instead_of = Yn hytrach na defnyddio rheolau cyfrifyddu traddodiadol, gellir defnyddio’r sail arian parod os ydych yn fusnes hunangyflogedig neu’n bartneriaeth, a bod gennych gyfanswm incwm busnes blynyddol o £150,000 neu lai.
-cash_basis.only_be_taxed = Dim ond ar yr arian sy’n dod i mewn ac yn mynd allan o’ch busnes yn ystod y flwyddyn dreth y cewch eich trethu. Bydd hyn yn haws ei gyfrifo ac yn arbed eich amser.
-cash_basis.limit_claims = Nid yw’r sail arian parod yn addas ar gyfer pob busnes. Mae’n gallu cyfyngu ar hawliadau i rai treuliau a cholledion.
-cash_basis.used_by_all = Gellir defnyddio treuliau symlach gan bob busnes a phartneriaeth hunangyflogedig nad oes ganddynt gwmnïau cyfyngedig fel partneriaid.
-cash_basis.way_of_working = Maent yn ffordd o gyfrifo rhai o’ch treuliau busnes caniataol gan ddefnyddio cyfraddau unffurf. Mae’n haws na defnyddio’ch costau busnes gwirioneddol, a all fod yn anodd eu cyfrifo.
-cash_basis.flat_rates = Gellir defnyddio cyfraddau unffurf ar gyfer costau busnes yn achos
-cash_basis.list_some_vehicles = rhai cerbydau
-cash_basis.list_home = gweithio o’ch cartref
-cash_basis.list_living = a byw ar safle’ch busnes.
-cash_basis.need_to_record = Bydd angen i chi gadw cofnod o’r canlynol:
-cash_basis.list_your_miles = milltiroedd busnes eich cerbyd
-cash_basis.list_hours_working = yr oriau rydych yn eu gweithio gartref
-cash_basis.list_how_many = a faint o bobl sy’n byw ar safle’ch busnes yn ystod y flwyddyn
-cash_basis.apply_flat_rate = Yna, gallwch roi’r gyfradd unffurf ar waith i gyfrifo’ch treuliau ar ddiwedd y flwyddyn dreth.
-cash_basis.more_info = Gallwch ddod o hyd i ragor o wybodaeth am y cynlluniau hyn ar
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister

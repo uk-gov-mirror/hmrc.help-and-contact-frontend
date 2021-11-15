@@ -97,13 +97,6 @@ class ExpensesViewSpec extends ViewBehaviours {
         "link - click:Expenses : What expenses can I include in my Self Assessment tax return? - video",
         expectedOpensInNewTab = true
       )
-/*      assertLinkById(
-        doc,
-        "what-expenses-transcript",
-        "What expenses can I include in my Self Assessment tax return? - video transcript",
-        "/business-account/help/transcript/expenses-if-you-are-self-employed",
-        "link - click:Expenses : What expenses can I include in my Self Assessment tax return? - transcript"
-      )*/
       assertLinkById(
         doc,
         "find-out-more-simplified",
@@ -111,21 +104,6 @@ class ExpensesViewSpec extends ViewBehaviours {
         "https://www.gov.uk/simpler-income-tax-simplified-expenses",
         "link - click:Expenses : Find out more about simplified expenses",
         expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "cash-basis-video",
-        "Video - Cash basis and simplified expenses (opens in new tab)",
-        "https://youtu.be/T4UDYw9kCjA",
-        "link - click:Expenses : Cash basis and simplified expenses - video",
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "cash-basis-transcript",
-        "Cash basis and simplified expenses - video transcript",
-        "/business-account/help/transcript/cash-basis",
-        "link - click:Expenses : Cash basis and simplified expenses - transcript"
       )
       assertLinkById(
         doc,
