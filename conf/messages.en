@@ -402,8 +402,6 @@ expenses.list_mileage = your vehicles’ business mileage
 expenses.list_hours = hours you work at home
 expenses.list_how_many = how many people live at your business premises
 expenses.find_out_more_simplified = Find out more about simplified expenses (opens in new tab)
-expenses.cash_basis_video = Video - Cash basis and simplified expenses (opens in new tab)
-expenses.cash_basis_transcript = Cash basis and simplified expenses - video transcript
 expenses.claiming_travel_header = Claiming travel expenses if you’re self-employed
 expenses.allowable_business_expense = You can claim allowable business expenses for items including fuel and vehicle insurance.
 expenses.cannot_claim = You cannot claim for non-business driving, or travel costs, or for fines or travel between home and work.
@@ -432,29 +430,6 @@ sa302.evidence.check_mortgage = Check that your mortgage provider accepts docume
 sa302.evidence.print_documents = You cannot print your documents until up to 72 hours after you have sent your tax return.
 sa302.evidence.evidence_of_income = Find out more about getting evidence of your income (opens in new tab)
 sa302.evidence.find_sa302 = Find your SA302
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Cash basis and simplified expenses - Transcript
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-cash_basis.title = Cash basis and simplified expenses - video transcript
-cash_basis.heading = Cash basis and simplified expenses - video transcript
-cash_basis.simplified_expenses = Cash basis and simplified expenses are two income tax schemes that can make life easier for self-employed businesses.
-cash_basis.instead_of = Instead of using traditional accounting rules, cash basis can be used if you’re a self-employed business or partnership with a total annual business income of £150,000 or less.
-cash_basis.only_be_taxed = You’ll only be taxed on the money that comes in and goes out of your business during the tax year. This will be easier to calculate and save you time.
-cash_basis.limit_claims = Cash basis doesn’t suit all businesses. It can limit claims to some expenses and losses.
-cash_basis.used_by_all = Simplified expenses can be used by all self-employed businesses and partnerships which don’t have limited companies as partners.
-cash_basis.way_of_working = They’re a way of working out some of your allowable business expenses using flat rates. It’s easier than using your actual business costs, which can be difficult to work out.
-cash_basis.flat_rates = Flat rates can be used for business costs for
-cash_basis.list_some_vehicles = some vehicles
-cash_basis.list_home = working from home
-cash_basis.list_living = and living at your business premises.
-cash_basis.need_to_record = You’ll need to record
-cash_basis.list_your_miles = your vehicle’s business miles
-cash_basis.list_hours_working = the hours you work at home
-cash_basis.list_how_many = and how many people live at your business premises over the year
-cash_basis.apply_flat_rate = You can then apply the flat rate to work out your expenses at the end of the tax year.
-cash_basis.more_info = You can find more information about these schemes on
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
