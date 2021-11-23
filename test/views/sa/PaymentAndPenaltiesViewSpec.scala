@@ -17,7 +17,7 @@
 package views.sa
 
 import models.SaUtr
-import play.twirl.api.HtmlFormat
+import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.sa.payment_and_penalties
 import config.FrontendAppConfig
@@ -27,7 +27,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
   val messageKeyPrefix                  = "payment_and_penalties"
   lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
-  def createView(hasUtr: Option[SaUtr] = None) =
+  def createView(hasUtr: Option[SaUtr] = None): () => Html =
     () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
   "Self Assessment Expenses view" must {
@@ -78,7 +78,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
       doc.text() must include("You’ll have a penalty showing on your account if you:")
 
-      doc.text() must include("sent in your tax return late")
+      doc.text() must include("use the online service to appeal a late filing penalty")
 
       doc.text() must include("paid tax late")
 
@@ -142,13 +142,6 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         "link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - video",
         expectedOpensInNewTab = true
       )
-      /*assertLinkById(
-        doc,
-        "how-do-i-pay-transcript",
-        "How do I pay my Self Assessment tax bill? - transcript",
-        "/business-account/help/transcript/paying-your-self-assessment-tax-bill",
-        "link - click:Payment and penalties : How do I pay my Self Assessment tax bill? - transcript"
-      )*/
       assertLinkById(
         doc,
         "budget-for-taxbill",
@@ -165,13 +158,6 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         "link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - video",
         expectedOpensInNewTab = true
       )
-      /*assertLinkById(
-        doc,
-        "how-do-i-budget-transcript",
-        "How do I budget for my Self Assessment tax bill? - video transcript",
-        "/business-account/help/transcript/budgeting-your-self-assessment-tax-bill",
-        "link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - transcript"
-      )*/
       assertLinkById(
         doc,
         "reasonable-excuse",
@@ -208,23 +194,43 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
     }
 
     "have correct links with Sa enrolment" in {
-      val doc = asDocument(createView(Some(SaUtr("abcdefgh")))())
+      val doc = asDocument(createView(Some(SaUtr("1234567800")))())
       assertLinkById(
         doc,
         "view-sa-penalties",
         "View your Self Assessment penalties",
-        "http://localhost:8080/portal/self-assessment/ind/abcdefgh/account/penalties?lang=eng",
+        "http://localhost:8080/portal/self-assessment/ind/1234567800/account/penalties?lang=eng",
         "link - click:Payment and penalties : View your Self Assessment penalties"
       )
       assertLinkById(
         doc,
         "view-sa-interest",
         "View your Self Assessment interest",
-        "http://localhost:8080/portal/self-assessment/ind/abcdefgh/account/interests?lang=eng",
+        "http://localhost:8080/portal/self-assessment/ind/1234567800/account/interests?lang=eng",
         "link - click:Payment and penalties : View your Self Assessment interest"
       )
+      assertLinkById(
+        doc,
+        "appeal-sa-late",
+        "use the online service to appeal a late filing penalty",
+        "http://localhost:9091/digital-forms/form/self-assessment-appeal-late-filing-penalty/draft/guide",
+        "link - click:Payment and penalties : appeal a £100 Self Assessment late filing penalty online"
+      )
+      assertLinkById(
+        doc,
+        "appeal-filing",
+        "use form SA370 to appeal any late filing or late payment penalty (opens in new tab)",
+        "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
+        "link - click:Payment and penalties : appeal any late filing or late payment penalty using form SA370",
+        expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "write-hmrc",
+        "write to HMRC",
+        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
+        "link - click:Payment and penalties : Write to HMRC"
+      )
     }
-
   }
-
 }

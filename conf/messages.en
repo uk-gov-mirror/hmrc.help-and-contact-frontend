@@ -350,7 +350,7 @@ payment_and_penalties.how_do_i_budget_video = Video - How do I budget for my Sel
 payment_and_penalties.how_do_i_budget_transcript = How do I budget for my Self Assessment tax bill? - video transcript
 payment_and_penalties.penalties = Penalties
 payment_and_penalties.penalty_showing = You’ll have a penalty showing on your account if you:
-payment_and_penalties.list_sent_late = sent in your tax return late
+payment_and_penalties.list_sent_late = use the online service to appeal a late filing penalty
 payment_and_penalties.list_paid_late = paid tax late
 payment_and_penalties.list_not_enough = didn’t pay enough tax
 payment_and_penalties.how_to_find_out_video = Video - How to find out about Self Assessment penalties (opens in new tab)
@@ -366,17 +366,15 @@ payment_and_penalties.sa_penalties_transcript = Self Assessment penalties - vide
 payment_and_penalties.penalties_interest = Your penalties and interest
 payment_and_penalties.conditional.you_can = You can:
 payment_and_penalties.conditional.appeal_sa_late = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
-payment_and_penalties.conditional.appeal_filling = appeal any late filing or late payment penalty using form SA370 (opens in new tab)
+payment_and_penalties.conditional.appeal_filling = use form SA370 to appeal any late filing or late payment penalty (opens in new tab)
 payment_and_penalties.conditional.or = or
 payment_and_penalties.conditional.write_hmrc = write to HMRC
-payment_and_penalties.conditional.reasons_for = with your reasons for appealing
+payment_and_penalties.conditional.reasons_for = to appeal any late filing or late payment penalty
 payment_and_penalties.conditional.happens_next = What happens next
 payment_and_penalties.conditional.send_contact = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
 payment_and_penalties.conditional.no_penalties = You have no penalties or interest to display.
 payment_and_penalties.conditional.view_penalties = View your Self Assessment penalties
 payment_and_penalties.conditional.view_interest = View your Self Assessment interest
-
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses

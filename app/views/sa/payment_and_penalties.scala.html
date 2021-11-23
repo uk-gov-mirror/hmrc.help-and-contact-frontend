@@ -111,20 +111,18 @@ data-journey-click="link - click:Payment and penalties : How do I budget for my 
 @if(utr.isDefined) {
 <p class="govuk-body">@Messages("payment_and_penalties.conditional.you_can")</p>
 <ul class="govuk-list govuk-list--bullet">
-    <li><a class="govuk-link" href="@appConfig.getDfsFormUrl("SAASUB")" id="appeal-sa-late" target="_blank"
+    <li><a class="govuk-link" href="@appConfig.getDfsFormUrl("SAASUB")" id="appeal-sa-late"
            data-journey-click="link - click:Payment and penalties : appeal a £100 Self Assessment late filing penalty online">
         @Messages("payment_and_penalties.list_sent_late")</a></li>
 
     <li><a class="govuk-link" href="https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370" id="appeal-filing"
-           target="_blank" data-journey-click="link - click:Payment and penalties : appeal any late filing or late payment penalty using form SA370">@Messages("payment_and_penalties.conditional.appeal_filling")</a>
-        @Messages("payment_and_penalties.conditional.or")
-        <a class="govuk-link" href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment" id="write-hmrc"
+    target="_blank" data-journey-click="link - click:Payment and penalties : appeal any late filing or late payment penalty using form SA370">@Messages("payment_and_penalties.conditional.appeal_filling")</a></li>
+       <li><a class="govuk-link" href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment" id="write-hmrc"
            data-journey-click="link - click:Payment and penalties : Write to HMRC">@Messages("payment_and_penalties.conditional.write_hmrc")</a>
         @Messages("payment_and_penalties.conditional.reasons_for")</li>
-
-    <p class="govuk-body">@Messages("payment_and_penalties.conditional.happens_next")</p>
-    <p class="govuk-body">@Messages("payment_and_penalties.conditional.send_contact")</p>
 </ul>
+    <h3 class="govuk-heading-s">@Messages("payment_and_penalties.conditional.happens_next")</h3>
+    <p class="govuk-body">@Messages("payment_and_penalties.conditional.send_contact")</p>
 }
 
 <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/tax-appeals/penalty" id="more-about-sa" target="_blank"
