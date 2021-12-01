@@ -33,7 +33,7 @@
 
     <p class="govuk-body">
         @messages("ct.register_deregister_after_you_have")
-        <a class="govuk-link" id="register-company-house" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerYourCompany")"
+        <a class="govuk-link" id="register-company-house" target="_blank" rel="external noopener" href="@appConfig.getGovUrl("registerYourCompany")" rel="noreferrer noopener"
         data-journey-click="link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company">@messages("ct.register_deregister.register_with_companies_house")</a>
         @messages("ct.register_deregister.with_companies_house_")
         <a class="govuk-link" id="register-for-hmrc-taxes" href="@appConfig.getPortalUrl("businessRegistrationSelectTaxes")"
