@@ -193,8 +193,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
         "Ask for a copy of your Corporation Tax UTR (opens in new tab)",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
         "link - click:Help and contact:Ask for a copy of your Corporation Tax UTR",
-        true,
-        true
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,

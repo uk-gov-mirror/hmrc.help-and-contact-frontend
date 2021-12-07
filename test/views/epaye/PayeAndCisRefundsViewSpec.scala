@@ -50,7 +50,6 @@ class PayeAndCisRefundsViewSpec extends ViewBehaviours {
         "More about refunds (opens in new tab)",
         "https://www.gov.uk/payroll-errors/correcting-payments-to-hmrc",
         "link - click:PAYE refunds and Construction Industry Scheme (CIS) refunds:More about refunds",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
       assertLinkById(
         doc,
@@ -58,7 +57,6 @@ class PayeAndCisRefundsViewSpec extends ViewBehaviours {
         "How to claim a CIS refund (opens in new tab)",
         "https://www.gov.uk/guidance/claim-a-refund-of-construction-industry-scheme-deductions-if-youre-a-limited-company",
         "link - click:PAYE refunds and Construction Industry Scheme (CIS) refunds:How to claim a CIS refund",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
   }
