@@ -87,7 +87,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "registered your company (opens in new tab)",
         "https://www.gov.uk/limited-company-formation/register-your-company",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -105,7 +104,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "Check if you’re unsure what counts as being active (opens in new tab)",
         "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if unsure if active",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -123,7 +121,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "accounting period (opens in new tab)",
         "https://www.gov.uk/corporation-tax-accounting-period",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Accounting period",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -132,7 +129,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "Company Tax Return (opens in new tab)",
         "https://www.gov.uk/company-tax-returns",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Returns",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -148,7 +144,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "close the limited company (opens in new tab)",
         "https://www.gov.uk/closing-a-limited-company",
         "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:close the limited company",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
   }

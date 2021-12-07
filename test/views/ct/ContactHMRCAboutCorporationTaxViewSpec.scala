@@ -88,7 +88,6 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "Find out about call charges (opens in new tab)",
         "https://www.gov.uk/call-charges",
         "link - click:Contact HMRC about Corporation Tax:Find out about call charges",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
       assertLinkById(
         doc,
@@ -96,7 +95,6 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "use a different address (opens in new tab)",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
         "link - click:Contact HMRC about Corporation Tax:different address",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
   }

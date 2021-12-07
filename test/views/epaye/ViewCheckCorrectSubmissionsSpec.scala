@@ -50,7 +50,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "GOV.UK guide on payroll (opens in new tab)",
         "https://www.gov.uk/running-payroll/fps-after-payday#viewing-late-fps-reports-in-your-hmrc-online-account",
         "link - click:View, check or correct your submissions:GOV.UK guide on payroll",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
 
@@ -71,7 +70,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
         "link - click:View check or correct your submissions:view user guide",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
 
@@ -82,7 +80,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
         "link - click:View check or correct your submissions:correct user guide",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
 
@@ -93,7 +90,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens in new tab)",
         "https://www.gov.uk/payroll-errors/correcting-your-fps-or-eps",
         "link - click:View check or correct your submissions:Find out more pay roll errors",
-        expectedIsExternal = true,
         expectedOpensInNewTab = true)
     }
   }
