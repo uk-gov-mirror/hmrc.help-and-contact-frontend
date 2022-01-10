@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 HM Revenue & Customs
+ * Copyright 2022 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -99,6 +99,76 @@ class HelpWithYourBtaViewSpec extends ViewBehaviours {
         "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account#tax_services",
         "link - click:Help with your BTA: difference between BTA and PTA read full list",
         expectedOpensInNewTab = true
+      )
+      assertLinkById(
+        doc,
+        "check-tax-position",
+        "check your tax position for taxes that you’ve registered for",
+        "http://localhost:9020/business-account",
+        "link - click:Help with your BTA: Check Tax Position"
+      )
+      assertLinkById(
+        doc,
+        "make-returns-and-payments",
+        "make returns and payments",
+        "http://localhost:9020/business-account",
+        "link - click:Help with your BTA: Make returns and payments"
+      )
+      assertLinkById(
+        doc,
+        "add-or-remove-tax",
+        "add or remove a tax, duty or scheme",
+        "http://localhost:9020/business-account/add-tax",
+        "link - click:Help with your BTA: Add or remove tax"
+      )
+      assertLinkById(
+        doc,
+        "give-someone-access-tax",
+        "give someone else access to a tax, duty or scheme",
+        "http://localhost:9020/business-account/manage-account",
+        "link - click:Help with your BTA: Give someone else access to a tax"
+      )
+      assertLinkById(
+        doc,
+        "check-secure-messages",
+        "check secure messages from HMRC",
+        "http://localhost:9020/business-account/messages",
+        "link - click:Help with your BTA: Check secure messages"
+      )
+      assertLinkById(
+        doc,
+        "add-view-change-tax-agent",
+        "add, view or change a tax agent",
+        "http://localhost:9020/business-account/manage-account",
+        "link - click:Help with your BTA: Add, view or change a tax agent"
+      )
+      assertLinkById(
+        doc,
+        "get-help-with-taxes",
+        "get help with your taxes",
+        "/business-account/help",
+        "link - click:Help with your BTA: Get help with your taxes"
+      )
+      assertLinkById(
+        doc,
+        "update-contact-details",
+        "update your contact details",
+        "http://localhost:9020/business-account/manage-account/account-details",
+        "link - click:Help with your BTA: Update your contact details"
+      )
+      assertLinkById(
+        doc,
+        "manage-your-contact-preferences",
+        "manage your contact preferences",
+        "http://localhost:9020/business-account/manage-account/account-details",
+        "link - click:Help with your BTA: Manage your contact preferences"
+      )
+      assertLinkById(
+        doc,
+        "change-government-gateway-password",
+        "change your Government Gateway password",
+        "http://localhost:9020/business-account/manage-account/account-details",
+        "link - click:Help with your BTA: Change your Government Gateway password"
       )
     }
   }
