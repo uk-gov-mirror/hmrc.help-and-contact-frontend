@@ -147,16 +147,36 @@
         <h2 class="govuk-heading-m">@Messages("help.withYourBta.using.heading")</h2>
         <p class="govuk-body">@Messages("help.withYourBta.using.p1")</p>
         <ul class="govuk-list govuk-list--bullet">
-            <li>@Messages("help.withYourBta.using.bullet1")</li>
-            <li>@Messages("help.withYourBta.using.bullet2")</li>
-            <li>@Messages("help.withYourBta.using.bullet3")</li>
-            <li>@Messages("help.withYourBta.using.bullet4")</li>
-            <li>@Messages("help.withYourBta.using.bullet5")</li>
-            <li>@Messages("help.withYourBta.using.bullet6")</li>
-            <li>@Messages("help.withYourBta.using.bullet7")</li>
-            <li>@Messages("help.withYourBta.using.bullet8")</li>
-            <li>@Messages("help.withYourBta.using.bullet9")</li>
-            <li>@Messages("help.withYourBta.using.bullet10")</li>
+            <li><a class="govuk-link" id="check-tax-position"
+            data-journey-click="link - click:Help with your BTA: Check Tax Position"
+            href="@appConfig.getBusinessAccountUrl("home")">@Messages("help.withYourBta.using.bullet1")</a></li>
+            <li><a class="govuk-link" id="make-returns-and-payments"
+            data-journey-click="link - click:Help with your BTA: Make returns and payments"
+            href="@appConfig.getBusinessAccountUrl("home")">@Messages("help.withYourBta.using.bullet2")</a></li>
+            <li><a class="govuk-link" id="add-or-remove-tax"
+            data-journey-click="link - click:Help with your BTA: Add or remove tax"
+            href="@appConfig.getBusinessAccountUrl("taxChoice")">@Messages("help.withYourBta.using.bullet3")</a></li>
+            <li><a class="govuk-link" id="give-someone-access-tax"
+            data-journey-click="link - click:Help with your BTA: Give someone else access to a tax"
+            href="@appConfig.getBusinessAccountUrl("manageAccount")">@Messages("help.withYourBta.using.bullet4")</a></li>
+            <li><a class="govuk-link" id="check-secure-messages"
+            data-journey-click="link - click:Help with your BTA: Check secure messages"
+            href="@appConfig.getBusinessAccountUrl("messages")">@Messages("help.withYourBta.using.bullet5")</a></li>
+            <li><a class="govuk-link" id="add-view-change-tax-agent"
+            data-journey-click="link - click:Help with your BTA: Add, view or change a tax agent"
+            href="@appConfig.getBusinessAccountUrl("manageAccount")">@Messages("help.withYourBta.using.bullet6")</a></li>
+            <li><a class="govuk-link" id="get-help-with-taxes"
+            data-journey-click="link - click:Help with your BTA: Get help with your taxes"
+            href="@controllers.routes.HelpAndContactController.mainPage">@Messages("help.withYourBta.using.bullet7")</a></li>
+            <li><a class="govuk-link" id="update-contact-details"
+            data-journey-click="link - click:Help with your BTA: Update your contact details"
+            href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet8")</a></li>
+            <li><a class="govuk-link" id="manage-your-contact-preferences"
+            data-journey-click="link - click:Help with your BTA: Manage your contact preferences"
+            href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet9")</a></li>
+            <li><a class="govuk-link" id="change-government-gateway-password"
+            data-journey-click="link - click:Help with your BTA: Change your Government Gateway password"
+            href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet10")</a></li>
         </ul>
     </div>
 

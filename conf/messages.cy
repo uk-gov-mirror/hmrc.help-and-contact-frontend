@@ -1348,7 +1348,7 @@ help.withYourBta.using.bullet5 = gwirio negeseuon diogel oddi wrth CThEM
 help.withYourBta.using.bullet6 = ychwanegu, newid neu fwrw golwg dros asiant treth
 help.withYourBta.using.bullet7 = cael help gyda’ch trethi
 help.withYourBta.using.bullet8 = diweddaru’ch manylion cyswllt
-help.withYourBta.using.bullet9 = cofrestru i gael hysbysiadau di-bapur
+help.withYourBta.using.bullet9 = rheoli’ch dulliau cysylltu dewisol
 help.withYourBta.using.bullet10 =  newid eich cyfrinair ar gyfer Porth y Llywodraeth
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
