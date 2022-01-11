@@ -12,7 +12,7 @@ private object AppDependencies {
     "uk.gov.hmrc" %% "bootstrap-frontend-play-28" % "5.16.0",
     "uk.gov.hmrc" %% "play-language" % "5.0.0-play-28",
     "uk.gov.hmrc" %% "tax-year" % "1.3.0",
-    "uk.gov.hmrc" %% "play-frontend-hmrc" % "1.22.0-play-28"
+    "uk.gov.hmrc" %% "play-frontend-hmrc" % "1.31.0-play-28"
   )
 
   def testCommon(): Seq[ModuleID] = {
