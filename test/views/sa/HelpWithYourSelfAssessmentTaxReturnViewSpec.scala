@@ -117,7 +117,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://youtu.be/EkRFUO9S7Hw",
+        "https://youtu.be/tMldXbmIF5o",
         "link - click:Help with your Self Assessment tax return : My first Self Assessment tax return - video",
         expectedOpensInNewTab = true
       )
