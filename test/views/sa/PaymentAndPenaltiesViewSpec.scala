@@ -154,7 +154,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-budget-video",
         "Video - How do I budget for my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/T2EBuV7Vy28",
+        "https://youtu.be/sGpQ7ZT3tMs",
         "link - click:Payment and penalties : How do I budget for my Self Assessment tax bill? - video",
         expectedOpensInNewTab = true
       )
