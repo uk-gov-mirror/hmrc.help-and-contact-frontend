@@ -1150,6 +1150,30 @@ cant.access.sa.online.link = GOV.UK
 cant.access.sa.online.paragraph13 = ac yn ein fideos defnyddiol eraill ar YouTube.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ When and how to pay epaye Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+when.how.pay.epaye.title = Sut a phryd i dalu TWE
+when.how.pay.epaye.heading = Sut a phryd i dalu TWE
+when.how.pay.epaye.paragraph1 = Rydych chi wedi talu eich cyflogeion ac wedi anfon y Cyflwyniad Taliadau Llawn i CThEM mewn pryd. Ond pryd a sut ydych chi’n talu’r hyn sydd arnoch?
+when.how.pay.epaye.paragraph2 = Ar ôl diwedd pob cyfnod cyflog, mae’n rhaid i’ch taliad glirio a chyrraedd cyfrif banc CThEM erbyn yr 22ain o’r mis. Fodd bynnag, os ydych chi’n talu â siec, mae’n rhaid i hyn gyrraedd CThEM erbyn y 19eg.
+when.how.pay.epaye.paragraph3 = Er enghraifft, os ydych chi wedi talu cyflogeion ym mis treth 4, hynny yw 6 Gorffennaf i 5 Awst, mae angen i chi sicrhau bod eich taliad yn clirio erbyn 22 Awst neu fod eich siec yn cyrraedd CThEM erbyn 19 Awst.
+when.how.pay.epaye.paragraph4 = Os bydd y dyddiad cau ar ddiwrnod dros y penwythnos neu ar ŵyl y banc, mae’n rhaid i’ch taliad glirio erbyn y diwrnod gwaith olaf cyn hynny oni bai’ch bod yn talu drwy ddefnyddio Taliadau Cyflymach.
+when.how.pay.epaye.paragraph5 = Os yw eich taliad yn hwyr, gallech fod yn agored i dalu llog a chosb am dalu’n hwyr.
+when.how.pay.epaye.paragraph6 = Pryd bynnag y byddwch yn talu, mae’n bwysig defnyddio’ch cyfeirnod Swyddfa Gyfrifon. Bydd hwn wedi’i anfon atoch pan wnaethoch gofrestru fel cyflogwr. Mae’n 13 digid o hyd ac mae’n cynnwys cyfuniad o lythrennau a rhifau.
+when.how.pay.epaye.paragraph7 = Os yw’ch taliad yn gynnar iawn neu’n hwyr iawn, mae angen i chi roi gwybod i CThEM am ba flwyddyn dreth a mis mae’r taliad amdano. Rydych chi’n gwneud hyn drwy ychwanegu pedwar rhif at ddiwedd cyfeirnod eich Swyddfa Gyfrifon, i ddangos y flwyddyn dreth a’r mis.
+when.how.pay.epaye.paragraph8 = Er enghraifft, ar gyfer mis treth pedwar, byddai taliad cynnar iawn yn clirio i gyfrif CThEM ar neu cyn 5 Awst a bydd taliad hwyr iawn yn clirio ar neu ar ôl 6 Medi. Yn y ddau achos, mae angen i chi ychwanegu rhif y flwyddyn a’r mis.
+when.how.pay.epaye.paragraph9 = Felly sut allwch chi dalu?
+when.how.pay.epaye.paragraph10 = Mae CThEM yn argymell talu drwy Ddebyd Uniongyrchol, cymeradwyo taliad drwy’ch cyfrif banc ar-lein, trosglwyddiad banc neu gerdyn ar-lein sy’n gyfleus ac yn ddiogel.
+when.how.pay.epaye.paragraph11 = Er mwyn i’ch taliad glirio ar yr un diwrnod neu’r diwrnod nesaf, defnyddiwch Daliadau Cyflymach, neu CHAPS, ond gwiriwch gyda’ch banc am ddyddiadau cau ar gyfer talu. Gallwch hefyd gymeradwyo taliad gan ddefnyddio’ch cyfrif banc ar-lein.
+when.how.pay.epaye.paragraph12 = Os oes gennych dri diwrnod gwaith i’ch taliad glirio, gallwch ddefnyddio Debyd Uniongyrchol sydd eisoes gennych, BACs, cerdyn debyd, cerdyn credyd busnes, neu os oes gennych lyfryn taliadau, gallwch dalu yn eich banc neu gymdeithas adeiladu.
+when.how.pay.epaye.paragraph13 = Os ydych yn talu drwy Ddebyd Uniongyrchol am y tro cyntaf, caniatewch bum diwrnod gwaith i’ch taliad cyntaf glirio. Ar ôl hyn, bydd taliadau yn y dyfodol yn cymryd tri diwrnod gwaith.
+when.how.pay.epaye.paragraph14 = Os oes gennych lai na 250 o gyflogeion a bod gennych lyfryn taliadau, gallwch bostio siec, ond mae hyn yn llai diogel nag opsiynau eraill.
+when.how.pay.epaye.paragraph15 = Sylwer - ni allwch dalu â cherdyn credyd personol mwyach.
+when.how.pay.epaye.paragraph16 = Cofiwch wneud yn siŵr eich bod yn talu erbyn y dyddiad cau er mwyn osgoi unrhyw log neu gosbau.
+when.how.pay.epaye.paragraph17 = Gallwch ddod o hyd i ragor o wybodaeth ar
+when.how.pay.epaye.paragraph17.linkText = GOV.UK
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 sa.contact_hmrc.heading = Cysylltu â CThEM ynghylch Hunanasesiad
