@@ -1149,6 +1149,31 @@ cant.access.sa.online.paragraph12 = You can find out more about Self Assessment 
 cant.access.sa.online.link = GOV.UK
 cant.access.sa.online.paragraph13 = and in our other helpful videos on YouTube.
 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ When and how to pay epaye Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+when.how.pay.epaye.title = When and how to pay PAYE
+when.how.pay.epaye.heading = When and how to pay PAYE
+when.how.pay.epaye.paragraph1 = You’ve paid your employees and sent the Full Payment Submission to HMRC on time. But when and how do you pay what you owe?
+when.how.pay.epaye.paragraph2 = Following the end of each pay period, your cleared payment must reach HMRC’s bank account by the 22nd of the month. However, if you’re paying by cheque, this must reach HMRC by the 19th.
+when.how.pay.epaye.paragraph3 = For example, if you’ve paid employees in tax month 4 - that’s the 6th July to the 5th August - you need to make sure your payment clears by the 22nd August or your cheque reaches HMRC by the 19th August.
+when.how.pay.epaye.paragraph4 = If the deadline falls on a weekend or bank holiday, your payment must clear on the last working day before this, unless you’re using Faster Payments.
+when.how.pay.epaye.paragraph5 = If your payment is late, you may be charged interest and penalties.
+when.how.pay.epaye.paragraph6 = Whenever you pay, it’s important to use your Accounts Office reference number. This will have been sent to you when you registered as an employer. It’s 13 digits long and is made up of a combination of letters and numbers.
+when.how.pay.epaye.paragraph7 = If your payment is very early or very late, you need to let HMRC know which tax year and month this is for. You do this by adding four numbers to the end of your Accounts Office reference number, to show the year and tax month.
+when.how.pay.epaye.paragraph8 = For example, for tax month four, a very early payment would clear into HMRC’s account on or before the 5th August and a very late payment on or after the 6th September. In both cases, you need to add the year and month number.
+when.how.pay.epaye.paragraph9 = So how can you pay?
+when.how.pay.epaye.paragraph10 = HMRC recommends paying by Direct Debit, approving a payment through your online bank account, bank transfer or card online which are convenient and secure.
+when.how.pay.epaye.paragraph11 = For your payment to clear the same or next day, please use Faster Payments, or CHAPS, but please check your bank’s payment deadlines. You can also approve a payment through your online bank account.
+when.how.pay.epaye.paragraph12 = If you have three working days for your payment to clear, you can use an existing Direct Debit, BACS, a debit card, business credit card, or if you have a payment booklet, you can pay at your bank or building society.
+when.how.pay.epaye.paragraph13 = If you pay by Direct Debit for the first time, please allow 5 working days for your first payment to clear. After this, future payments will take 3 working days.
+when.how.pay.epaye.paragraph14 = If you have fewer than 250 employees and you have a payment booklet you can post a cheque, but this is less secure than other options.
+when.how.pay.epaye.paragraph15 = Please note, you can no longer pay using a personal credit card.
+when.how.pay.epaye.paragraph16 = Remember to make sure you pay by the deadline to avoid any interest or penalties.
+when.how.pay.epaye.paragraph17 = You can find more information on
+when.how.pay.epaye.paragraph17.linkText = GOV.UK
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC about Self Assessment
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

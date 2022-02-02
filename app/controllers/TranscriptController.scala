@@ -52,6 +52,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      add_a_tax: add_a_tax,
                                      how_to_pay_corporation_tax: how_to_pay_corporation_tax,
                                      cant_access_sa_online: cant_access_sa_online,
+                                     when_and_how_to_pay_epaye: when_and_how_to_pay_epaye,
                                      override val controllerComponents: MessagesControllerComponents)
     extends FrontendController(controllerComponents)
     with I18nSupport {
@@ -88,7 +89,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "how-to-find-sa-penalties" -> how_to_find_sa_penalties(appConfig)(request.serviceInfoContent),
       "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
       "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent),
-      "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent)
+      "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent),
+      "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>
