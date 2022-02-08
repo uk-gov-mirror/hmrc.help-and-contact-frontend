@@ -112,4 +112,9 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     () => inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
 
+  behave like pageRouter(
+    "cant-pay-taxbill",
+    () => inject[cant_pay_taxbill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  )
+
 }

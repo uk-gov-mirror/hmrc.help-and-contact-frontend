@@ -1210,12 +1210,32 @@ btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account?
 btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
 btaHelp.changing_your_phone_number = Changing your phone number and other account details
 btaHelp.hrmc_forums = HMRC community forums (opens in new tab)
+btaHelp.pay_taxbill_video = Video - Help if you can’t pay your tax bill (opens in new tab)
+btaHelp.pay_taxbill_transcript = Help if you can’t pay your tax bill - video transcript
+
 
 ###########################################
 ##     MTD Itsa Help
 ###########################################
 mtditsaHelp.heading = Making Tax Digital for Income Tax
 mtditsaHelp.help_with_mtditsa = Help with Making Tax Digital for Income Tax
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Help if you can't pay your tax bill - Transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+help.cant.pay.taxbill.transcript.title = Help if you can’t pay your tax bill - video transcript
+help.cant.pay.taxbill.transcript.heading = Help if you can’t pay your tax bill - video transcript
+help.cant.pay.taxbill.transcript.paragraph1 = If you’re having problems paying your tax bill, don’t worry. HMRC can help you get back on track.
+help.cant.pay.taxbill.transcript.paragraph2 = We’ll look at your financial circumstances and how we can help you.
+help.cant.pay.taxbill.transcript.paragraph3 = For example, if you can’t pay by the deadline, we may be able to agree an affordable payment plan.
+help.cant.pay.taxbill.transcript.paragraph4 = That means you can pay in instalments. And if your financial circumstances change again, we’ll look at changing the arrangement so you can still afford to make payments.
+help.cant.pay.taxbill.transcript.paragraph5 = If it’s your health or other personal difficulties causing problems, we’ll work with you or with someone acting on your behalf to find a solution you can afford.
+help.cant.pay.taxbill.transcript.paragraph6 = We also work with Money Helper. They can help you access advice that’s free and independent if you’re having difficulty paying any of your debts.
+help.cant.pay.taxbill.transcript.paragraph7 = Remember we’re here to help.
+help.cant.pay.taxbill.transcript.paragraph8 =You can find out more on
+help.cant.pay.taxbill.transcript.paragraph9 = and watch our other helpful videos on YouTube.
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New tailor your SA tax return transcript
