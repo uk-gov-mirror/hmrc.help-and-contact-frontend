@@ -19,10 +19,10 @@ package controllers.actions
 import base.SpecBase
 import controllers.routes
 import org.mockito.ArgumentMatchers.any
-import org.mockito.Matchers._
 import org.mockito.Mockito._
 import org.scalatest.BeforeAndAfterEach
 import org.scalatestplus.mockito.MockitoSugar
+import org.scalatestplus.play.PlaySpec
 import play.api.Application
 import play.api.inject.bind
 import play.api.inject.guice.GuiceApplicationBuilder
@@ -34,7 +34,7 @@ import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 
 import scala.concurrent.Future
 
-class AuthActionSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach {
+class AuthActionSpec extends PlaySpec with SpecBase with MockitoSugar with BeforeAndAfterEach {
 
   val mockAuthConnector: AuthConnector = mock[AuthConnector]
 
