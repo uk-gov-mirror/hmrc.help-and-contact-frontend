@@ -26,7 +26,6 @@ import org.scalatest.concurrent.ScalaFutures
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.i18n.{Lang, Messages}
 import play.api.mvc.MessagesControllerComponents
-import play.twirl.api.Html
 import services.PartialService
 import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase

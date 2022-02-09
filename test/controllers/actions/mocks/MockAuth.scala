@@ -29,7 +29,6 @@ import org.scalatest.{BeforeAndAfterEach, Suite}
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.{PlayBodyParsers, Request, Result}
 import play.api.test.Helpers.baseApplicationBuilder.injector
-import play.api.test.Helpers.stubPlayBodyParsers
 import uk.gov.hmrc.auth.core.AuthConnector
 
 import scala.concurrent.ExecutionContext.Implicits.global
