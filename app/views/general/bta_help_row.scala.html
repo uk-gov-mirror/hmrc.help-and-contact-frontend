@@ -85,5 +85,27 @@
             </a>
         </p>
     </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="bta-help-pay-taxbill-video"
+               class="govuk-link"
+               href="https://www.youtube.com/watch?v=zeekzM1OkYQ"
+               data-journey-click="link - click:Help and contact:Video - Help if you can’t pay your tax bill" target="_blank"
+               rel="noreferrer noopener">
+                @messages("btaHelp.pay_taxbill_video")
+            </a>
+        </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <p class="govuk-body">
+            <a id="bta-help-pay-taxbill-transcript"
+               class="govuk-link"
+               href="@controllers.routes.TranscriptController.onPageLoad("cant-pay-taxbill")"
+               data-journey-click="link - click:Help and contact:Help if you can’t pay your tax bill - video transcript"
+               rel="noreferrer noopener">
+                @messages("btaHelp.pay_taxbill_transcript")
+            </a>
+        </p>
+    </div>
 </div>
 
