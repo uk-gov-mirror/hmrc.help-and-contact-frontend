@@ -282,6 +282,7 @@ modular.basicRecordKeeping.keeping_pay_and_tax = Cadw’ch cofnodion cyflog a th
 register_or_stopping.title = Hunanasesiad: Cofrestru neu stopio
 register_or_stopping.heading = Hunanasesiad: Cofrestru neu stopio
 register_or_stopping.help_page = Cofrestru neu stopio
+register_or_stopping.hidden_prefix = Hunanasesiad:
 register_or_stopping.class_2_ni = Cyfraniadau Yswiriant Gwladol Dosbarth 2
 register_or_stopping.when_you_register = Pan fyddwch yn cofrestru ar gyfer Hunanasesiad fel unigolyn hunangyflogedig, rydych hefyd yn cofrestru ar
 register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2 (yn agor tab newydd).

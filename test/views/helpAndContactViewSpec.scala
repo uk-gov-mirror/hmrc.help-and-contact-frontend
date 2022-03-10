@@ -75,21 +75,21 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "register-or-stopping-self-assessment",
-        "Registering or stopping",
+        "Self Assessment:Registering or stopping",
         "/business-account/help/self-assessment/register-or-stopping",
         "link - click:Help and contact:Register or stopping Self Assessment"
       )
       assertLinkById(
         doc,
         "payment-and-penalties-self-assessment",
-        "Payment and penalties",
+        "Self Assessment:Payment and penalties",
         "/business-account/help/self-assessment/payment-and-penalties",
         "link - click:Help and contact:Payment and Penalties"
       )
       assertLinkById(
         doc,
         "expenses",
-        "Expenses",
+        "Self Assessment:Expenses",
         "/business-account/help/self-assessment/expenses",
         "link - click:Help and contact:Expenses"
       )
