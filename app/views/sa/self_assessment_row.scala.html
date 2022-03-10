@@ -33,7 +33,7 @@
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-stopping")"
             data-journey-click="link - click:Help and contact:Register or stopping Self Assessment">
-            @messages("register_or_stopping.help_page")
+            <span class="govuk-visually-hidden">@messages("register_or_stopping.hidden_prefix")</span>@messages("register_or_stopping.help_page")
             </a>
         </p>
     </div>
@@ -43,7 +43,7 @@
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "payment-and-penalties")"
             data-journey-click="link - click:Help and contact:Payment and Penalties">
-            @messages("payment_and_penalties.help_page")
+            <span class="govuk-visually-hidden">@messages("register_or_stopping.hidden_prefix")</span>@messages("payment_and_penalties.help_page")
             </a>
         </p>
     </div>
@@ -53,7 +53,7 @@
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "expenses")"
             data-journey-click="link - click:Help and contact:Expenses">
-            @messages("sa.expenses.title")
+            <span class="govuk-visually-hidden">@messages("register_or_stopping.hidden_prefix")</span>@messages("sa.expenses.title")
             </a>
         </p>
     </div>

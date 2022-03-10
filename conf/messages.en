@@ -283,6 +283,7 @@ modular.basicRecordKeeping.keeping_pay_and_tax = Keeping your pay and tax record
 register_or_stopping.title = Self Assessment: registering or stopping
 register_or_stopping.heading = Self Assessment: registering or stopping
 register_or_stopping.help_page = Registering or stopping
+register_or_stopping.hidden_prefix = Self Assessment:
 register_or_stopping.class_2_ni = Class 2 National Insurance contributions
 register_or_stopping.when_you_register = When you register for Self Assessment as self employed, you are also registering for
 register_or_stopping.class_2_link = Class 2 National Insurance contributions (opens in new tab).
