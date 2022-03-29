@@ -184,14 +184,14 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "view-sa-penalties",
         "View your Self Assessment penalties",
-        "http://localhost:8080/portal/self-assessment/ind/1234567800/account/penalties?lang=eng",
+        "http://localhost:8081/portal/self-assessment/ind/1234567800/account/penalties?lang=eng",
         "link - click:Payment and penalties : View your Self Assessment penalties"
       )
       assertLinkById(
         doc,
         "view-sa-interest",
         "View your Self Assessment interest",
-        "http://localhost:8080/portal/self-assessment/ind/1234567800/account/interests?lang=eng",
+        "http://localhost:8081/portal/self-assessment/ind/1234567800/account/interests?lang=eng",
         "link - click:Payment and penalties : View your Self Assessment interest"
       )
       assertLinkById(

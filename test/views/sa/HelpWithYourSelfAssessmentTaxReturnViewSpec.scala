@@ -221,7 +221,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "complete-and-file",
         "Complete and file your tax return (opens in new tab).",
-        s"http://localhost:8080/portal/self-assessment-file/${frontendAppConfig.previousTaxYearCode}/ind/1234567890/return?lang=eng",
+        s"http://localhost:8081/portal/self-assessment-file/${frontendAppConfig.previousTaxYearCode}/ind/1234567890/return?lang=eng",
         "link - click:Help with your Self Assessment tax return : Complete and file your tax return",
         expectedOpensInNewTab = true
       )
