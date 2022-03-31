@@ -39,7 +39,7 @@
     <p class="govuk-body">
       @messages("ct.how_to_pay.up_to_1point5_million.body")
       <a class="govuk-link" id="year-company-set-up" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("firstCompanyAccountsAndReturn")"
-      data-journey-click="link - click:How to pay your Corporation Tax:the year you set up your company">@messages("ct.how_to_pay.year_company_set_up")</a>.
+      >@messages("ct.how_to_pay.year_company_set_up")</a>.
     </p>
 
     <h2 class="govuk-heading-m">@messages("ct.how_to_pay.more_than_1point5_million.heading")</h2>
@@ -47,16 +47,16 @@
     <p class="govuk-body">
       @messages("ct.how_to_pay.you_must_pay_")
       <a class="govuk-link" id="instalments" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("corporationTaxInInstalments")"
-      data-journey-click="link - click:How to pay your Corporation Tax:in instalments">@messages("ct.how_to_pay.instalments")</a>.
+      >@messages("ct.how_to_pay.instalments")</a>.
     </p>
 
     <p class="govuk-body">
       @messages("ct.how_to_pay.make_sure_you_pay_")
       <a class="govuk-link" id="charge-you-interest" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("corporationTaxInterestCharges")"
-      data-journey-click="link - click:How to pay your Corporation Tax:charge you interest">@messages("ct.how_to_pay.charge_you_interest")</a>
+      >@messages("ct.how_to_pay.charge_you_interest")</a>
       @messages("ct.how_to_pay.if_you_do_not_pay_on_time_")
       <a class="govuk-link" id="pay-you-interest" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("corporationTaxInterestRefund")"
-      data-journey-click="link - click:How to pay your Corporation Tax:pay you interest">@messages("ct.how_to_pay.pay_you_interest")</a>
+      >@messages("ct.how_to_pay.pay_you_interest")</a>
       @messages("ct.how_to_pay.if_you_pay_your_tax_early")
     </p>
 
@@ -67,19 +67,19 @@
     <p class="govuk-body">@messages("ct.how_to_pay.the_time_you_need_")</p>
 
     <p class="govuk-body"><a class="govuk-link" id="ct-detailed-info" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("corporationTaxBankDetails")"
-    data-journey-click="link - click:How to pay your Corporation Tax:read detailed information">@messages("ct.how_to_pay.detailed_info")</a></p>
+    >@messages("ct.how_to_pay.detailed_info")</a></p>
 
     <div class="govuk-inset-text">
 
         <p class="govuk-body">
             <a class="govuk-link" href="https://www.youtube.com/watch?v=l8qfAzNm03E" id="ct-how-to-pay-video" target="_blank" rel="noreferrer noopener"
-               data-journey-click="link - click:How to pay your Corporation Tax:Video">@messages("ct.how_to_pay.video")</a>
+               >@messages("ct.how_to_pay.video")</a>
         </p>
 
         <p class="govuk-body">
             @defining("how-to-pay-corporation-tax") { transcriptKey =>
             <a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad(transcriptKey)" id="ct-how-to-pay-video-transcript"
-               data-journey-click="link - click:How to pay your Corporation Tax:Video transcript">@messages("ct.how-to_pay.video.transcript")</a>
+               >@messages("ct.how-to_pay.video.transcript")</a>
             }
         </p>
 

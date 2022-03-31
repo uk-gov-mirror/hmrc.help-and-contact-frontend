@@ -36,15 +36,15 @@
     <p class="govuk-body"><a id="how-to-pay-vat"
     class="govuk-link"
     href="@appConfig.getGovUrl("payVatBankDetails")"
-    data-journey-click="link - click:How to pay VAT and deadlines:how to pay your bill" target="_blank" rel="noreferrer noopener">
+    target="_blank" rel="noreferrer noopener">
     @messages("vat.payments_and_deadlines.how_to_pay_your_bill_link")
     </a></p>
 
     <h2 class="govuk-heading-m">@Messages("vat.payments_and_deadlines.vat_refunds_on_goods_imported_from_the_eu")</h2>
-    <p class="govuk-body">@Messages("vat.payments_and_deadlines.you_can") <a class="govuk-link" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("euVatRefunds")" id="get-eu-vat-refund" data-journey-click="link - click:How to pay VAT and deadlines:get a refund of VAT paid in another EU country">@Messages("vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country")</a> @Messages("vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk")</p>
+    <p class="govuk-body">@Messages("vat.payments_and_deadlines.you_can") <a class="govuk-link" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("euVatRefunds")" id="get-eu-vat-refund" >@Messages("vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country")</a> @Messages("vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk")</p>
     <ul class="govuk-list govuk-list--bullet">
       <li>@Messages("vat.payments_and_deadlines.what_you_can_reclaim_depends")</li>
-      <li>@Messages("vat.payments_and_deadlines.the_rules_for_claiming") <a class="govuk-link" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("inputTax")" id="input-tax" data-journey-click="link - click:How to pay VAT and deadlines:input tax">@Messages("vat.payments_and_deadlines.input_tax")</a> @Messages("vat.payments_and_deadlines.are_slightly_different_in_each_eu_country")</li>
+      <li>@Messages("vat.payments_and_deadlines.the_rules_for_claiming") <a class="govuk-link" target="_blank" rel="noreferrer noopener" href="@appConfig.getGovUrl("inputTax")" id="input-tax" >@Messages("vat.payments_and_deadlines.input_tax")</a> @Messages("vat.payments_and_deadlines.are_slightly_different_in_each_eu_country")</li>
       <li>@Messages("vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_")</li>
       <li>@Messages("vat.payments_and_deadlines.if_your_business_makes_both_taxable_")</li>
     </ul>

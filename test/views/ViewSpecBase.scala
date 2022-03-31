@@ -109,7 +109,7 @@ trait ViewSpecBase extends SpecBase {
       assert(link.attr("href").contains(expectedUrl), s"\n\n Link $linkId does not contain expectedUrl $expectedUrl")
     }
     assert(link.attr("rel").contains("external") == expectedIsExternal, s"\n\n Link $linkId does not meet expectedIsExternal $expectedIsExternal")
-    assert(link.attr("data-journey-click") == expectedGAEvent, s"\n\n Link $linkId does not have expectedGAEvent $expectedGAEvent")
+
     assert(link.attr("target").contains("_blank") == expectedOpensInNewTab, s"\n\n Link $linkId does not meet expectedOpensInNewTab $expectedGAEvent")
   }
 

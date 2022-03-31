@@ -31,7 +31,7 @@
   <p class="govuk-body">@messages("epaye.submissions.if_you_make_fps_on_time_")</p>
   <p class="govuk-body">
       @messages("epaye.submissions.if_you_make_fps_late_")
-      <a class="govuk-link" id="payroll-guide" href="@appConfig.getGovUrl("payrollGuide")" data-journey-click="link - click:View, check or correct your submissions:GOV.UK guide on payroll"
+      <a class="govuk-link" id="payroll-guide" href="@appConfig.getGovUrl("payrollGuide")"
           target="_blank" rel="noreferrer noopener">
         @messages("epaye.submissions.gov_uk_guide_on_payroll")</a>.
   </p>
@@ -46,12 +46,12 @@
     @if(email.isDefined) {
       <p class="govuk-body">@messages("epaye.submissions.we_send_an_email_")</p>
       <p class="govuk-body">@messages("epaye.submissions.your_government_gateway_email_") <span class="govuk-body govuk-!-font-weight-bold">@email.getOrElse(messages("epaye.submissions.not_specified"))</span>.</p>
-      <a class="govuk-body govuk-link" id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="link - click:View, check or correct your submissions:Change this address">
+      <a class="govuk-body govuk-link" id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" >
         @messages("epaye.submissions.change_address_link")</a>
     } else {
       <p class="govuk-body">
         @messages("epaye.submissions.we_can_send_")
-        <a class="govuk-link" id="add-email" href="@appConfig.getBusinessAccountUrl("changeEmail")" data-journey-click="link - click:View check or correct your submissions:add an email">
+        <a class="govuk-link" id="add-email" href="@appConfig.getBusinessAccountUrl("changeEmail")" >
           @messages("epaye.submissions.add_an_email")</a>
         @messages("epaye.submissions.to_your_government_gateway_account")
       </p>
@@ -61,7 +61,7 @@
     <p class="govuk-body">@messages("epaye.submissions.to_check_if_hmrc_received_")</p>
     <p class="govuk-body">
       @messages("epaye.submissions.to_view_a_specific_submission_")
-      <a class="govuk-link" id="view-user-guide" href="@appConfig.getGovUrl("bptGuide")" data-journey-click="link - click:View check or correct your submissions:view user guide"
+      <a class="govuk-link" id="view-user-guide" href="@appConfig.getGovUrl("bptGuide")"
         target="_blank" rel="noreferrer noopener">
         @messages("epaye.submissions.user_guide")</a>@messages("epaye.submissions.but_select_")
     </p>
@@ -73,7 +73,7 @@
   <h3 class="govuk-heading-s">@messages("epaye.submissions.submissions_for_the_current_tax_year")</h3>
     <p class="govuk-body">@messages("epaye.submissions.you_can_make_changes_")</p>
     <p class="govuk-body">@messages("epaye.submissions.follow_the")
-      <a class="govuk-link" id="correct-user-guide" href="@appConfig.getGovUrl("bptGuide")" data-journey-click="link - click:View check or correct your submissions:correct user guide"
+      <a class="govuk-link" id="correct-user-guide" href="@appConfig.getGovUrl("bptGuide")"
           target="_blank" rel="noreferrer noopener">
         @messages("epaye.submissions.user_guide")</a>
       @messages("epaye.submissions.if_you_use_")
@@ -83,7 +83,7 @@
   <h3 class="govuk-heading-m">@messages("epaye.submissions.submissions_from_an_earlier_tax_year")</h3>
     <p class="govuk-body">@messages("epaye.submissions.if_you_spot_an_error_")</p>
     <p class="govuk-body">
-      <a class="govuk-link" id="submit-earlier-year-update" href="@appConfig.getGovUrl("payRollErrors")" data-journey-click="link - click:View check or correct your submissions:Find out more pay roll errors"
+      <a class="govuk-link" id="submit-earlier-year-update" href="@appConfig.getGovUrl("payRollErrors")"
           target="_blank" rel="noreferrer noopener">
         @messages("epaye.submissions.find_out_more_wrong_pay")</a>
     </p>

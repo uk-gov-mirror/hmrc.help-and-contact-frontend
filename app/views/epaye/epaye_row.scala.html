@@ -31,7 +31,7 @@
             <a id="get-started"
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "get-started")"
-            data-journey-click="link - click:Help and contact:Get started with EPAYE">
+            >
             @messages("epaye.get_started")
             </a>
         </p>
@@ -41,7 +41,7 @@
             <a id="paye-and-cis-refunds"
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "refunds")"
-            data-journey-click="link - click:Help and contact:PAYE refunds and Construction Industry Scheme (CIS) refunds">
+            >
             @messages("epaye.paye_and_cis_refunds.heading")
             </a>
         </p>
@@ -51,7 +51,7 @@
             <a id="contact-about-epaye"
             class="govuk-link"
             href="@appConfig.getGovUrl("payeEmployerEnquiries")"
-            data-journey-click="link - click:Help and contact:Contact HMRC about PAYE">
+            >
             @messages("epaye.contact_hmrc.heading")
             </a>
         </p>
@@ -64,7 +64,7 @@
             <a id="view-check-or-correct-epaye"
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "view-check-correct-submissions")"
-            data-journey-click="link - click:Help and contact:View, check or correct your submissions">
+            >
             @messages("epaye.submissions.heading")
             </a>
         </p>
@@ -73,8 +73,7 @@
         <p class="govuk-body">
             <a id="contact-about-employee-change"
             class="govuk-link"
-            href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "change-employee-circumstances")"
-            data-journey-click="link - click:Help and contact:Change employee circumstances">
+            href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "change-employee-circumstances")">
             @messages("epaye.change.emplyee_circumstances")
             </a>
         </p>
@@ -84,7 +83,7 @@
             <a id="remove-epaye"
             class="govuk-link"
             href="@controllers.routes.HelpAndContactController.onPageLoad(Epaye, "remove")"
-            data-journey-click="link - click:Help and contact:Remove EPAYE">
+            >
             @messages("epaye.remove")
             </a>
         </p>
@@ -97,7 +96,7 @@
             <a id="epaye-community-forum"
             class="govuk-link"
             href="https://community.hmrc.gov.uk/customerforums/payepe"
-            data-journey-click="link - click:Help and contact:Epaye community forum" target="_blank"
+             target="_blank"
             rel="noreferrer noopener">
             @messages("epaye.submissions.community_forum")
             </a>
