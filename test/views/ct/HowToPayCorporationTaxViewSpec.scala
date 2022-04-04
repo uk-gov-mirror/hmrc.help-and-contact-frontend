@@ -73,7 +73,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "year-company-set-up",
         "the year you set up your company (opens in new tab)",
         "https://www.gov.uk/first-company-accounts-and-return",
-        "link - click:How to pay your Corporation Tax:the year you set up your company",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -81,7 +81,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "instalments",
         "pay your Corporation Tax in instalments (opens in new tab)",
         "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
-        "link - click:How to pay your Corporation Tax:in instalments",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -89,7 +89,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "charge-you-interest",
         "charge you interest (opens in new tab)",
         "https://www.gov.uk/guidance/corporation-tax-interest-charges",
-        "link - click:How to pay your Corporation Tax:charge you interest",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -97,7 +97,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "pay-you-interest",
         "pay you interest (opens in new tab)",
         "https://www.gov.uk/get-refund-interest-corporation-tax",
-        "link - click:How to pay your Corporation Tax:pay you interest",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -105,7 +105,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "ct-detailed-info",
         "Read detailed information about how to pay your Corporation Tax bill (opens in new tab)",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
-        "link - click:How to pay your Corporation Tax:read detailed information",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -113,7 +113,7 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "ct-how-to-pay-video",
         "Video - Paying your Corporation Tax bill (opens in new tab)",
         "https://www.youtube.com/watch?v=l8qfAzNm03E",
-        "link - click:How to pay your Corporation Tax:Video",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -121,7 +121,6 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
         "ct-how-to-pay-video-transcript",
         "Paying your Corporation Tax bill - video transcript",
         "/business-account/help/transcript/how-to-pay-corporation-tax",
-        "link - click:How to pay your Corporation Tax:Video transcript",
         exactUrl = false
       )
     }

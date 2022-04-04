@@ -86,7 +86,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         "allowable-expenses",
         "Find out more about allowable expenses if you’re self-employed (opens in new tab)",
         "https://www.gov.uk/expenses-if-youre-self-employed",
-        "link - click:Expenses : Find out more about allowable expenses if you’re self-employed",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -94,7 +94,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         "what-expenses-video",
         "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
         "https://youtu.be/2V5K9gs6ZEs",
-        "link - click:Expenses : What expenses can I include in my Self Assessment tax return? - video",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -102,7 +102,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         "find-out-more-simplified",
         "Find out more about simplified expenses (opens in new tab)",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses",
-        "link - click:Expenses : Find out more about simplified expenses",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -110,7 +110,6 @@ class ExpensesViewSpec extends ViewBehaviours {
         "travel-expenses-sa",
         "Travel expenses if you’re self-employed (opens in new tab)",
         "https://www.gov.uk/expenses-if-youre-self-employed/travel",
-        "link - click:Expenses : Travel expenses if you’re self-employed",
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -118,7 +117,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         "simplified-motoring-expenses",
         "Simplified motoring expenses if you’re self employed (opens in new tab)",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-",
-        "link - click:Expenses : Simplified motoring expenses if you’re self employed",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -126,15 +125,13 @@ class ExpensesViewSpec extends ViewBehaviours {
         "claiming-motoring-video",
         "Video - Claiming motoring expenses if you’re self-employed (opens in new tab)",
         "https://youtu.be/r2txvLXi_Fk",
-        "link - click:Expenses : Claiming motoring expenses if you’re self-employed - video",
         expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "claiming-motoring-transcript",
         "Claiming motoring expenses if you’re self-employed - video transcript",
-        "/business-account/help/transcript/calculating-motoring-expenses",
-        "link - click:Expenses : Claiming motoring expenses if you’re self-employed - transcript"
+        "/business-account/help/transcript/calculating-motoring-expenses"
       )
 
     }

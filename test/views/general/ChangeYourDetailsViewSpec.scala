@@ -38,29 +38,25 @@ class ChangeYourDetailsViewSpec extends ViewBehaviours {
         doc,
         "change-your-details-managing-gg-details",
         "managing your Government Gateway details",
-        "http://localhost:9020/user-profile-redirect-frontend/profile-management",
-        "link - click:Help with your BTA change your details: managing your Government gateway details"
+        "http://localhost:9020/user-profile-redirect-frontend/profile-management"
       )
       assertLinkById(
         doc,
         "change-your-details-business-account-details",
         "business tax account details",
-        "http://localhost:9020/business-account/manage-account/account-details",
-        "link - click:Help with your BTA change your details: business account details"
+        "http://localhost:9020/business-account/manage-account/account-details"
       )
       assertLinkById(
         doc,
         "change-your-details-standard-user",
         "manage Government Gateway details for a standard user",
-        "https://www.access.service.gov.uk/group/members",
-        "link - click:Help with your BTA change your details: Manage GG details standard user"
+        "https://www.access.service.gov.uk/group/members"
       )
       assertLinkById(
         doc,
         "change-your-details-more-help",
         "Get help with HMRC services if you have problems signing in (opens in new tab)",
         "https://www.gov.uk/log-in-register-hmrc-online-services/problems-signing-in",
-        "link - click:Help with your BTA change your details: More help",
         expectedOpensInNewTab = true
       )
     }

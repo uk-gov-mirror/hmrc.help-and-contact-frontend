@@ -70,22 +70,14 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
         "record-keeping-video",
         "Video - Basic record keeping for the self employed (opens in new tab)",
         "https://youtu.be/FCHvuD8xsw4",
-        "link - click:Basic record keeping when you’re self-employed : Basic record keeping for the self employed - video",
         expectedOpensInNewTab = true
       )
-   /*   assertLinkById(
-        doc,
-        "record-keeping-transcript",
-        "Basic record keeping when you’re self-employed - video transcript",
-        "/business-account/help/transcript/record-keeping-for-self-employed",
-        "link - click:Basic record keeping when you’re self-employed : Basic record keeping for the self employed - transcript"
-      )*/
+
       assertLinkById(
         doc,
         "business-records",
         "Business records if you’re self-employed (opens in new tab)",
         "https://www.gov.uk/self-employed-records",
-        "link - click:Basic record keeping when you’re self-employed : Business records if you’re self-employed",
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -93,7 +85,6 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
         "keeping-pay-tax",
         "Keeping your pay and tax records (opens in new tab)",
         "https://www.gov.uk/self-employed-records/what-records-to-keep",
-        "link - click:Basic record keeping when you’re self-employed : Keeping your pay and tax records",
         expectedOpensInNewTab = true
       )
 

@@ -49,7 +49,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "payroll-guide",
         "GOV.UK guide on payroll (opens in new tab)",
         "https://www.gov.uk/running-payroll/fps-after-payday#viewing-late-fps-reports-in-your-hmrc-online-account",
-        "link - click:View, check or correct your submissions:GOV.UK guide on payroll",
         expectedOpensInNewTab = true)
     }
 
@@ -58,8 +57,7 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         doc,
         "change-address",
         "Change your Government Gateway email address",
-        "http://localhost:9020/business-account/manage-account/government-gateway-warning",
-        "link - click:View, check or correct your submissions:Change this address"
+        "http://localhost:9020/business-account/manage-account/government-gateway-warning"
       )
     }
 
@@ -69,7 +67,7 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "view-user-guide",
         "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
-        "link - click:View check or correct your submissions:view user guide",
+
         expectedOpensInNewTab = true)
     }
 
@@ -79,7 +77,7 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "correct-user-guide",
         "Basic PAYE Tools user guide (opens in new tab)",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
-        "link - click:View check or correct your submissions:correct user guide",
+
         expectedOpensInNewTab = true)
     }
 
@@ -89,7 +87,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         "submit-earlier-year-update",
         "Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens in new tab)",
         "https://www.gov.uk/payroll-errors/correcting-your-fps-or-eps",
-        "link - click:View check or correct your submissions:Find out more pay roll errors",
         expectedOpensInNewTab = true)
     }
   }
@@ -108,8 +105,7 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
         docWithoutEmail,
         "add-email",
         "add an email",
-        "http://localhost:9020/business-account/manage-account/government-gateway-warning",
-        "link - click:View check or correct your submissions:add an email"
+        "http://localhost:9020/business-account/manage-account/government-gateway-warning"
       )
     }
   }

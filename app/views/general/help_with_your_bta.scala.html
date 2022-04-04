@@ -39,27 +39,27 @@
     <p class="govuk-body">@Messages("help.withYourBta.p3") <a
      class ="govuk-link"
     id="help-with-your-bta-addTaxLink"
-    data-journey-click="link - click: Help with your BTA: add a tax to your business tax account"
+
     href="@appConfig.getBusinessAccountUrl("taxChoice")">@Messages("help.withYourBta.p3.link")</a>.</p>
 
     <h2 class="govuk-heading-m">@Messages("help.withYourBta.addingATax.heading")</h2>
      <div class="govuk-inset-text">
         <p class="govuk-body">
             <a id="how-do-i-add-a-tax-video" class="govuk-link"
-            data-journey-click="link - click:Help with your BTA: Adding a tax to your business tax account video"
+
             href="https://www.youtube.com/watch?v=b2wLXZZddGc"
             target="_blank"
             rel="noreferrer noopener">@Messages("help.withYourBta.addingATax.link1")</a>
         </p>
         <p class="govuk-body">
             <a id="how-do-i-add-a-tax-transcript" class="govuk-link"
-            data-journey-click="link - click:Help with your BTA: Adding a tax to your business tax account transcript"
+
             href="@controllers.routes.TranscriptController.onPageLoad("add-a-tax")">@Messages("help.withYourBta.addingATax.link2")</a>
         </p>
      </div>
 
     <p class="govuk-body">@Messages("help.withYourBta.addingATax.p1") <a id="how-do-i-add-a-tax-BTA-home"
-    class="govuk-link" data-journey-click="link - click:Help with your BTA: bta home"
+    class="govuk-link"
     href="@appConfig.getBusinessAccountUrl("home")">@Messages("help.withYourBta.addingATax.link3")</a>.</p>
 
     <h2 class="govuk-heading-m">@Messages("help.withYourBta.exampleCard.heading")</h2>
@@ -89,7 +89,7 @@
         <h2 class="govuk-heading-m">@Messages("help.withYourBta.why.heading")</h2>
         <p class="govuk-body">@Messages("help.withYourBta.why.p1")</p>
         <p class="govuk-body">@Messages("help.withYourBta.why.p2") <a id="why-register-or-stopping" class="govuk-link"
-        data-journey-click="link - click:Help with your BTA: do not know why you have a business tax account self assessment"
+
         href="@controllers.routes.HelpAndContactController.onPageLoad(HelpCategory.SelfAssessment,"register-or-stopping")">@Messages("help.withYourBta.why.link1")</a> @Messages("help.withYourBta.why.p3")</p>
 
         <ul class="govuk-list govuk-list--bullet">
@@ -110,10 +110,10 @@
         <p class="govuk-body">@Messages("help.withYourBta.manage.p3") <a id="manage-best-out-of" class="govuk-link"
         target="_blank"
         rel="noreferrer noopener"
-        data-journey-click="link - click:Help with your BTA: How to manage your BTA account best out of"
+
         href="https://www.gov.uk/government/publications/use-hmrcs-business-tax-account/use-hmrcs-business-tax-account#best_out_of">@Messages("help.withYourBta.manage.link1")</a> @Messages("help.withYourBta.manage.p4")</p>
         <p class="govuk-body"><a id="manage-profile-management" class="govuk-link"
-        data-journey-click="link - click:Help with your BTA: Profile management"
+
         href="/user-profile-redirect-frontend/profile-management">@Messages("help.withYourBta.manage.link2")</a></p>
 
         <h2 class="govuk-heading-m">@Messages("help.withYourBta.difference.heading")</h2>
@@ -127,7 +127,7 @@
             <li>@Messages("help.withYourBta.difference.bullet6")</li>
         </ul>
         <p class="govuk-body"><a id="difference-PTA" class="govuk-link"
-        data-journey-click="link - click:Help with your BTA: difference between BTA and PTA more about PTA"
+
         href="https://www.gov.uk/personal-tax-account" target="_blank" rel="noreferrer noopener">@Messages("help.withYourBta.difference.link1")</a></p>
         <p class="govuk-body">@Messages("help.withYourBta.difference.p2")</p>
         <ul class="govuk-list govuk-list--bullet">
@@ -141,41 +141,41 @@
         </ul>
 
         <p class="govuk-body"><a id="difference-read-full-list" class="govuk-link"
-        data-journey-click="link - click:Help with your BTA: difference between BTA and PTA read full list"
+
         href="https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account#tax_services" target="_blank" rel="noreferrer noopener">@Messages("help.withYourBta.difference.link2")</a></p>
 
         <h2 class="govuk-heading-m">@Messages("help.withYourBta.using.heading")</h2>
         <p class="govuk-body">@Messages("help.withYourBta.using.p1")</p>
         <ul class="govuk-list govuk-list--bullet">
             <li><a class="govuk-link" id="check-tax-position"
-            data-journey-click="link - click:Help with your BTA: Check Tax Position"
+
             href="@appConfig.getBusinessAccountUrl("home")">@Messages("help.withYourBta.using.bullet1")</a></li>
             <li><a class="govuk-link" id="make-returns-and-payments"
-            data-journey-click="link - click:Help with your BTA: Make returns and payments"
+
             href="@appConfig.getBusinessAccountUrl("home")">@Messages("help.withYourBta.using.bullet2")</a></li>
             <li><a class="govuk-link" id="add-or-remove-tax"
-            data-journey-click="link - click:Help with your BTA: Add or remove tax"
+
             href="@appConfig.getBusinessAccountUrl("taxChoice")">@Messages("help.withYourBta.using.bullet3")</a></li>
             <li><a class="govuk-link" id="give-someone-access-tax"
-            data-journey-click="link - click:Help with your BTA: Give someone else access to a tax"
+
             href="@appConfig.getBusinessAccountUrl("manageAccount")">@Messages("help.withYourBta.using.bullet4")</a></li>
             <li><a class="govuk-link" id="check-secure-messages"
-            data-journey-click="link - click:Help with your BTA: Check secure messages"
+
             href="@appConfig.getBusinessAccountUrl("messages")">@Messages("help.withYourBta.using.bullet5")</a></li>
             <li><a class="govuk-link" id="add-view-change-tax-agent"
-            data-journey-click="link - click:Help with your BTA: Add, view or change a tax agent"
+
             href="@appConfig.getBusinessAccountUrl("manageAccount")">@Messages("help.withYourBta.using.bullet6")</a></li>
             <li><a class="govuk-link" id="get-help-with-taxes"
-            data-journey-click="link - click:Help with your BTA: Get help with your taxes"
+
             href="@controllers.routes.HelpAndContactController.mainPage">@Messages("help.withYourBta.using.bullet7")</a></li>
             <li><a class="govuk-link" id="update-contact-details"
-            data-journey-click="link - click:Help with your BTA: Update your contact details"
+
             href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet8")</a></li>
             <li><a class="govuk-link" id="manage-your-contact-preferences"
-            data-journey-click="link - click:Help with your BTA: Manage your contact preferences"
+
             href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet9")</a></li>
             <li><a class="govuk-link" id="change-government-gateway-password"
-            data-journey-click="link - click:Help with your BTA: Change your Government Gateway password"
+
             href="@appConfig.getBusinessAccountUrl("accountDetails")">@Messages("help.withYourBta.using.bullet10")</a></li>
         </ul>
     </div>

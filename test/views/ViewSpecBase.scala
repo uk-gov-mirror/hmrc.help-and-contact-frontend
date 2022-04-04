@@ -100,7 +100,7 @@ trait ViewSpecBase extends SpecBase {
     }
   }
 
-  def assertLinkById(doc: Document, linkId: String, expectedText: String, expectedUrl: String, expectedGAEvent: String, expectedIsExternal: Boolean = false, expectedOpensInNewTab: Boolean = false, exactUrl: Boolean = true) {
+  def assertLinkById(doc: Document, linkId: String, expectedText: String, expectedUrl: String, expectedIsExternal: Boolean = false, expectedOpensInNewTab: Boolean = false, exactUrl: Boolean = true) {
     val link = doc.getElementById(linkId)
     assert(link.text() == expectedText, s"\n\n Link $linkId does not have text $expectedText")
     if(exactUrl == true){
@@ -109,8 +109,8 @@ trait ViewSpecBase extends SpecBase {
       assert(link.attr("href").contains(expectedUrl), s"\n\n Link $linkId does not contain expectedUrl $expectedUrl")
     }
     assert(link.attr("rel").contains("external") == expectedIsExternal, s"\n\n Link $linkId does not meet expectedIsExternal $expectedIsExternal")
-    assert(link.attr("data-journey-click") == expectedGAEvent, s"\n\n Link $linkId does not have expectedGAEvent $expectedGAEvent")
-    assert(link.attr("target").contains("_blank") == expectedOpensInNewTab, s"\n\n Link $linkId does not meet expectedOpensInNewTab $expectedGAEvent")
+
+    assert(link.attr("target").contains("_blank") == expectedOpensInNewTab, s"\n\n Link $linkId does not meet expectedOpensInNewTab $expectedOpensInNewTab")
   }
 
   def assertLinkByClass(doc: Document, linkClass: String, expectedText: String, expectedUrl: String, expectedIsExternal: Boolean = false, expectedOpensInNewTab: Boolean = false, exactUrl: Boolean = true) {
