@@ -48,7 +48,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
         "how-to-pay-vat",
         "Read detailed information about how to pay your VAT bill (opens in new tab)",
         "https://www.gov.uk/pay-vat/bank-details",
-        expectedGAEvent = "link - click:How to pay VAT and deadlines:how to pay your bill",
+
         expectedOpensInNewTab = true)
     }
 
@@ -58,7 +58,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
         "get-eu-vat-refund",
         "get a refund of VAT paid in another EU country (opens in new tab)",
         "https://www.gov.uk/guidance/vat-refunds-for-uk-businesses-buying-from-other-eu-countries",
-        expectedGAEvent = "link - click:How to pay VAT and deadlines:get a refund of VAT paid in another EU country",
+
         expectedOpensInNewTab = true)
     }
 
@@ -68,7 +68,7 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
         "input-tax",
         "rules for claiming input tax (opens in new tab)",
         "https://www.gov.uk/government/publications/vat-notice-700-the-vat-guide/vat-notice-700-the-vat-guide#input-tax-introduction-and-general-rules",
-        expectedGAEvent = "link - click:How to pay VAT and deadlines:input tax",
+
         expectedOpensInNewTab = true)
     }
 

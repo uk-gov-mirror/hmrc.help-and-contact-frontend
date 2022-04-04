@@ -36,7 +36,7 @@ serviceInfoContent = serviceInfoContent) {
 
  <p class="govuk-body">@Messages("register_or_stopping.when_you_register")
 <a class="govuk-link" href="https://www.gov.uk/self-employed-national-insurance-rates" id = "class-2-ni-contributions" target="_blank" rel="noreferrer noopener"
-data-journey-click="link - click:Registering or stopping : Class 2 National Insurance contributions">@Messages("register_or_stopping.class_2_link")</a></p>
+>@Messages("register_or_stopping.class_2_link")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.registering_for_sa")</h2>
  <p class="govuk-body">@Messages("register_or_stopping.unique_taxpayer")</p>
@@ -46,46 +46,46 @@ data-journey-click="link - click:Registering or stopping : Class 2 National Insu
  <li>@Messages("register_or_stopping.list_other_documents")</li>
 </ul>
 <p class="govuk-body"><a class="govuk-link" href ="https://www.gov.uk/find-lost-utr-number" id = "find-UTR" target="_blank" rel="noreferrer noopener"
- data-journey-click="link - click:Registering or stopping : You can find your UTR if you do not know it">@Messages("register_or_stopping.can_find_utr")</a></p>
+ >@Messages("register_or_stopping.can_find_utr")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.not_self_employed")</h2>
 <p class="govuk-body">@Messages("register_or_stopping.did_not_file_return")
  <a class="govuk-link" href="https://www.gov.uk/government/publications/self-assessment-register-for-self-assessment-and-get-a-tax-return-sa1" id="sa1-register" target="_blank"
- rel="noreferrer noopener" data-journey-click="link - click:Registering or stopping : use form SA1 to register for Self Assessment">
+ rel="noreferrer noopener" >
   @Messages("register_or_stopping.sa1_link")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.are_self_employed")</h2>
 <p class="govuk-body">@Messages("register_or_stopping.did_not_file_this_year")
  <a class="govuk-link" href="@appConfig.getAddTaxUrl("haveSaUtr")" id ="file-register-sa"
-    data-journey-click="link - click:Registering or stopping : If you did not file a tax return last year and have to file one this year, register for Self Assessment">
+    >
   @Messages("register_or_stopping.register_link")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.partnership")</h2>
 <p class="govuk-body">@Messages("register_or_stopping_utr_reference")</p>
 <p class="govuk-body">@Messages("register_or_stopping.new_partnership")</p>
 <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/register-for-self-assessment/partner-or-partnership" target="_blank" id ="registering-partnership"
-rel="noreferrer noopener" data-journey-click="link - click:Registering or stopping : Find out more about registering as a partner or partnership">
+rel="noreferrer noopener" >
  @Messages("register_or_stopping.more_about_registering")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.sa_guidance")</h2>
 <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/guidance/help-and-support-for-self-assessment" target="_blank" id ="learn-sa" rel="noreferrer noopener"
-      data-journey-click="link - click:Registering or stopping : Learn about Self Assessment">
+      >
  @Messages("register_or_stopping.learn_sa")</a></p>
 
 
 <div class="govuk-inset-text">
 <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/L8F6micVczE" target="_blank" id ="registering-sa-video"
-      data-journey-click="link - click:Registering or stopping : Registering for Self Assessment - video" rel="noreferrer noopener">
+       rel="noreferrer noopener">
  @Messages("register_or_stopping.registering_sa_video")</a></p>
 <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("new-registering-for-self-assessment")" id ="registering-sa-transcript"
-      data-journey-click="link - click:Registering or stopping : Registering for Self Assessment - transcript">
+      >
  @Messages("register_or_stopping.registering_sa_transcript")</a></p>
 </div>
 
 <h2 class="govuk-heading-m">@Messages("register_or_stopping.stop_sa")</h2>
 <p class="govuk-body">@Messages("register_or_stopping.you_must")
  <a class="govuk-link" href="@appConfig.getBusinessAccountUrl("stopSelfAssessment")" id="tell-hmrc"
- data-journey-click="link - click:Registering or stopping : You must tell HMRC if you do not need to file tax returns any more">
+ >
   @Messages("register_or_stopping.tell_hmrc_link")</a></p>
  <p class="govuk-body">@Messages("register_or_stopping.because_you_are")</p>
 <ul class="govuk-list govuk-list--bullet">

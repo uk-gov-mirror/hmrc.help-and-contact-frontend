@@ -86,7 +86,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "register-company-house",
         "registered your company (opens in new tab)",
         "https://www.gov.uk/limited-company-formation/register-your-company",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:registered your company",
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -94,7 +93,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "register-for-hmrc-taxes",
         "register for Corporation Tax",
         "http://localhost:8081/portal/business-registration/select-taxes?lang=eng",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:register for Corporation Tax",
+
         expectedIsExternal = false,
         expectedOpensInNewTab = false)
 
@@ -103,7 +102,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "check-unsure-active",
         "Check if you’re unsure what counts as being active (opens in new tab)",
         "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:check if unsure if active",
+
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -111,7 +110,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "ask-for-utr",
         "Request your company’s UTR online",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Request your company UTR online",
         expectedIsExternal = false,
         expectedOpensInNewTab = false)
 
@@ -120,7 +118,6 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "accounting-period",
         "accounting period (opens in new tab)",
         "https://www.gov.uk/corporation-tax-accounting-period",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Accounting period",
         expectedOpensInNewTab = true)
 
       assertLinkById(
@@ -128,22 +125,19 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
         "company-tax-returns",
         "Company Tax Return (opens in new tab)",
         "https://www.gov.uk/company-tax-returns",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Company Tax Returns",
         expectedOpensInNewTab = true)
 
       assertLinkById(
         doc,
         "add-ct-bta",
         "Add Corporation Tax to your business tax account",
-        "http://localhost:9020/business-account/add-tax",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:Add ct to bta")
+        "http://localhost:9020/business-account/add-tax")
 
       assertLinkById(
         doc,
         "close-limited-company",
         "close the limited company (opens in new tab)",
         "https://www.gov.uk/closing-a-limited-company",
-        "link - click:Register for Corporation Tax or tell HMRC you are no longer trading:close the limited company",
         expectedOpensInNewTab = true)
     }
   }

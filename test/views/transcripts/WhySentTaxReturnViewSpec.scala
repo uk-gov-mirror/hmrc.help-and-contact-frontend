@@ -61,8 +61,7 @@ class WhySentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "gov-link",
         "GOV.UK",
-        "https://www.gov.uk/",
-        "link - click:Transcript: GOV.UK home")
+        "https://www.gov.uk/")
     }
   }
 }

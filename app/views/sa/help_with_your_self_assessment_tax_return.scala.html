@@ -36,13 +36,13 @@
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.registering_for_sa")</h2>
 
     <p class="govuk-body"><a class="govuk-link"href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-stopping")" id="find-out-more-link"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Find out more about registering for SA online">
+    >
         @Messages("helpWithYourSelfAssessmentTaxReturn.find_out_more")
     </a></p>
 
 @if(utr.isDefined) {
 <p class="govuk-body"><a class="govuk-link" href="@appConfig.fileAReturn("completeTaxYear", utr.get)" id = "complete-and-file" target="_blank"
-rel="noreferrer noopener" data-journey-click="link - click:Help with your Self Assessment tax return : Complete and file your tax return">
+rel="noreferrer noopener" >
     @Messages("helpWithYourSelfAssessmentTaxReturn.complete_and_file")
 </a></p>
 }
@@ -52,11 +52,11 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
         <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.file_by_deadline")</p>
 <div class="govuk-inset-text">
     <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/Omdl29YfGMY" id = "why-i-have-been-sent-tax-video" target="_blank"
-    rel="noreferrer noopener" data-journey-click="link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - video link">
+    rel="noreferrer noopener">
         @Messages("helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("why-sent-tax-return")" id="why-i-have-been-sent-tax-transcript"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Why have I been sent a tax return - transcript">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa")
     </a></p>
 </div>
@@ -64,7 +64,7 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.not_complete")</h2>
         <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.used_to_file")
             <a class="govuk-link" href="@appConfig.getBusinessAccountUrl("stopSelfAssessment")" id="used-to-file-link"
-               data-journey-click="link - click:Help with your Self Assessment tax return : If you used to file a tax return but do not need to file one for the most recent tax year">
+               >
                 @Messages("helpWithYourSelfAssessmentTaxReturn.used_to_file_link")</a></p>
         <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.must_tell")</p>
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.your_first")</h2>
@@ -79,17 +79,17 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
         <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion")</p>
 
 <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "register-or-stopping")" id="find-out-more-registering"
-      data-journey-click="link - click:Help with your Self Assessment tax return : Find out more about registering for Self Assessment online">
+>
     @Messages("helpWithYourSelfAssessmentTaxReturn.more_about_registering")
 </a></p>
 
 <div class="govuk-inset-text">
     <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/tMldXbmIF5o" id = "my-first-sa-video" target="_blank"
-    rel="noreferrer noopener" data-journey-click="link - click:Help with your Self Assessment tax return : My first Self Assessment tax return - video">
+    rel="noreferrer noopener">
         @Messages("helpWithYourSelfAssessmentTaxReturn.first_sa_video")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("new-your-first-tax-return")" id = "my-first-sa-transcript"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Your first Self Assessment tax return - transcript">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.first_sa_transcript")
     </a></p>
 </div>
@@ -97,17 +97,17 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.help_completing")</h2>
 
     <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.watch_videos") <a class="govuk-link" href ="https://www.gov.uk/guidance/help-and-support-for-self-assessment" target="_blank" id="learn-more-sa" rel="noreferrer noopener"
-                                                                        data-journey-click="link - click:Help with your Self Assessment tax return : Watch videos, get email alerts, take part in webinars and learn more about Self Assessment">
+                                                                        >
         @Messages("helpWithYourSelfAssessmentTaxReturn.learn_more")</a></p>
 
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.how_to_tailor")</h2>
 <div class="govuk-inset-text">
     <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/nOJcs4XJ-tk" id ="tailor-tax-video" target="_blank" rel="noreferrer noopener"
-          data-journey-click="link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - video">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.tailor_tax_video")
     </a></p>
    <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("new-how-do-i-tailor-sa-tax")" id="tailor-tax-transcript"
-          data-journey-click="link - click:Help with your Self Assessment tax return : How do I tailor my Self Assessment tax return - transcript">
+   >
         @Messages("helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript")
     </a></p>
 
@@ -116,11 +116,11 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
     <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.self_employed")</h2>
 <div class="govuk-inset-text">
     <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/jdHBPiWNnyA" id = "self-employed-tax-video" target="_blank" rel="noreferrer noopener"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Your self-employed tax return - video">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.self_employed_video")
     </a></p>
    <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("new-your-self-employed-tax-return")" id ="self-employed-tax-transcript"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Your self-employed tax return - transcript">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.self_employed_transcript")
     </a></p>
 </div>
@@ -128,11 +128,11 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
 <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.income_from_property_header")</h2>
 <div class="govuk-inset-text">
     <p class="govuk-body"><a class="govuk-link" href="https://youtu.be/DCUZy4ASz1A" id = "income-from-property-video" target="_blank" rel="noreferrer noopener"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Income from property - video">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.income_from_property_video")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("new-income-from-property")" id = "income-from-property-transcript"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Income from property - transcript">
+          >
         @Messages("helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link")
     </a></p>
 </div>
@@ -142,19 +142,19 @@ rel="noreferrer noopener" data-journey-click="link - click:Help with your Self A
 <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.more_help_with_sa")</h2>
 
     <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return" id = "who-must-file" target="_blank" rel="noreferrer noopener"
-          data-journey-click="link - click:Help with your Self Assessment tax return : Who must file a tax return">
+    >
         @Messages("helpWithYourSelfAssessmentTaxReturn.who_must_file")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/self-assessment-tax-returns/corrections" id = "need-to-change" target="_blank"
-    rel="noreferrer noopener" data-journey-click="link - click:Help with your Self Assessment tax return : If you need to change your tax return">
+    rel="noreferrer noopener" >
         @Messages("helpWithYourSelfAssessmentTaxReturn.need_to_change")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.HelpAndContactController.onPageLoad(SelfAssessment, "payment-and-penalties")" id="how-to-pay-sa"
-          data-journey-click="link - click:Help with your Self Assessment tax return : How to pay your Self Assessment">
+    >
         @Messages("helpWithYourSelfAssessmentTaxReturn.howtopaysa")
     </a></p>
     <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/topic/personal-tax/self-assessment" id = "sa-resource-list" target="_blank"
-    rel="noreferrer noopener" data-journey-click="link - click:Help with your Self Assessment tax return : Self Assessment resource list">
+    rel="noreferrer noopener" >
         @Messages("helpWithYourSelfAssessmentTaxReturn.sa_resource")
     </a></p>
 

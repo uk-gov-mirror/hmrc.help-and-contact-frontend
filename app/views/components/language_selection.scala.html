@@ -24,9 +24,7 @@
         @Link.toInternalPage(
             id = Some(s"$key-switch"),
             url = s"${langToCall(key)}",
-            value = Some(key.capitalize),
-            dataAttributes = Some(Map("journey-click" -> s"link - click:Help and Contact language select:${if(key == "cymraeg") "Welsh" else key.capitalize}"))
-        ).toHtml
+            value = Some(key.capitalize)).toHtml
     }
 
 </li>

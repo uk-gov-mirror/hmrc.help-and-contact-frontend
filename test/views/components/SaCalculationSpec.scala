@@ -54,7 +54,7 @@ class SaCalculationSpec extends ViewBehaviours {
         "any-class-2-4",
         "any class 2 and class 4 National Insurance contributions (opens in new tab)",
         "https://www.gov.uk/self-employed-national-insurance-rates",
-        "link - click:Help with your Self Assessment tax return : any class 2 and class 4 National Insurance contributions",
+
         expectedOpensInNewTab = true
       )
       assertLinkById(
@@ -62,16 +62,10 @@ class SaCalculationSpec extends ViewBehaviours {
         "viewing-sa-tax-calculation-video",
         "Video - Viewing your Self Assessment tax return calculation (opens in new tab)",
         "https://youtu.be/UACv0_mjbms",
-        "link - click:Help with your Self Assessment tax return : Viewing your Self Assessment tax return calculations - video",
+
         expectedOpensInNewTab = true
       )
-     /* assertLinkById(
-        doc,
-        "viewing-sa-tax-calculation-transcript",
-        "Viewing your Self Assessment tax return calculations - video transcript",
-        "/business-account/help/transcript/viewing-your-self-assessment-calculation",
-        "link - click:Help with your Self Assessment tax return : Viewing your Self Assessment tax return calculations - transcript"
-      )*/
+
 
     }
 
