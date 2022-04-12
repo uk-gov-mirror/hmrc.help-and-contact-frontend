@@ -517,7 +517,7 @@ epaye.paye_and_cis_refunds.cis_refunds = Ad-daliadau CIS
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad CIS (yn agor tab newydd)
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad <span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -674,7 +674,7 @@ ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os b
 
 ct.register_deregister.utr_ = Bydd angen Cyfeirnod Unigryw y Trethdalwr (UTR) eich cwmni arnoch, sy’n 10 digid o hyd.
 ct.register_deregister.get_utr = Fel arfer cewch eich UTR oddi wrth CThEM o fewn ychydig ddiwrnodau o gofrestru’ch cwmni gyda Thŷ’r Cwmnïau.
-ct.register_deregister.request_utr_= Gwnewch gais am UTR ar gyfer eich cwmni ar-lein
+ct.register_deregister.request_utr_= Gwnewch gais am <span class="govuk-visually-hidden">Cyfeirnod Unigryw Trethdalwr</span> UTR ar gyfer eich cwmni ar-lein
 ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’ch cwmni.
 ct.register_deregister.also_need = Hefyd, bydd angen y canlynol arnoch:
 ct.register_deregister.also_need.1 = rhif cofrestru eich cwmni

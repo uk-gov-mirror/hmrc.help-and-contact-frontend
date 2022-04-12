@@ -533,7 +533,7 @@ epaye.paye_and_cis_refunds.cis_refunds = CIS refunds
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = If you are a limited company that acts as a subcontractor under the Construction Industry Scheme (CIS) and your CIS account is in credit at the end of the year, you can request a repayment.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = We aim to process repayments within 25 working days of receiving it, if we agree with your claim.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Do not call unless it has been more than 40 working days, as we may still be considering your claim.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a CIS refund (opens in new tab)
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a <span class="govuk-visually-hidden">Construction Industry Scheme</span> CIS refund (opens in new tab)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -689,7 +689,7 @@ ct.register_deregister.penalty_notice_ = You may get a penalty if you register l
 
 ct.register_deregister.utr_ = You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR).
 ct.register_deregister.get_utr = You usually get your UTR from HMRC within a few days of registering your company with Companies House.
-ct.register_deregister.request_utr_= Request your company’s UTR online
+ct.register_deregister.request_utr_= Request your company’s <span class="govuk-visually-hidden">Unique Taxpayer Reference</span> UTR online
 ct.register_deregister.no_utr_ = if you did not get one after registering your company.
 ct.register_deregister.also_need = You’ll also need:
 ct.register_deregister.also_need.1 = your company’s registration number (CRN)
