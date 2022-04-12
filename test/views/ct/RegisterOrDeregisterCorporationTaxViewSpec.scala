@@ -64,7 +64,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("You may get a penalty if you register late.")
       doc.text() must include("You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR).")
       doc.text() must include("You usually get your UTR from HMRC within a few days of registering your company with Companies House.")
-      doc.text() must include("Request your company’s UTR online if you did not get one after registering your company.")
+      doc.text() must include("Request your company’s Unique Taxpayer Reference UTR online if you did not get one after registering your company.")
       doc.text() must include("You’ll also need:")
       doc.text() must include("your company’s registration number (CRN)")
       doc.text() must include("the date you started to be active - your company’s first accounting period (opens in new tab) will start from this date")
@@ -108,7 +108,7 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "ask-for-utr",
-        "Request your company’s UTR online",
+        "Request your company’s Unique Taxpayer Reference UTR online",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
         expectedIsExternal = false,
         expectedOpensInNewTab = false)
