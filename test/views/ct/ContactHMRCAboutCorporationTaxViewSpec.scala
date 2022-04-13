@@ -64,7 +64,7 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("Best time to call:")
       doc.text() must include("Phone lines may be less busy between 8am to 9am and 5pm to 6pm.")
       doc.text() must include("Write to HMRC for help with general Corporation Tax enquiries.")
-      doc.text() must include("You don’t need to include a street name, city name or PO box when writing to this address.")
+      doc.text() must include("You do not need to include a street name, city name or PO box when writing to this address.")
       doc.text() must include("Couriers should use a")
       doc.text() must include("Corporation Tax Services")
       doc.text() must include("HM Revenue and Customs")
@@ -85,14 +85,14 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "call-charges",
-        "Find out about call charges (opens in new tab)",
+        "Find out about call charges",
         "https://www.gov.uk/call-charges",
 
         expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "courier-address",
-        "use a different address (opens in new tab)",
+        "use a different address",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
 
         expectedOpensInNewTab = true)
