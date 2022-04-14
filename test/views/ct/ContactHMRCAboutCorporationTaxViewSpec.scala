@@ -79,7 +79,7 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "your-online-services-account",
-        "your online services account",
+        "your business tax account",
         "http://localhost:9020/business-account",
         )
       assertLinkById(
