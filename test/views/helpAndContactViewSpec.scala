@@ -45,7 +45,7 @@ class helpAndContactViewSpec extends ViewBehaviours {
     "have correct h2 headings" in {
       val listOfHeadings: List[String] = List(
         "Business tax account",
-        "Coronavirus (COVID-19) support",
+//        "Coronavirus (COVID-19) support",
         "Corporation Tax",
         "PAYE for employers",
         "Making Tax Digital for Income Tax",
@@ -65,10 +65,10 @@ class helpAndContactViewSpec extends ViewBehaviours {
       headings mustBe listOfHeadings
     }
 
-    "have the covid section" in {
-      val doc = asDocument(createView())
-      doc.getElementById("covid-help") must not be null
-    }
+//    "have the covid section" in {
+//      val doc = asDocument(createView())
+//      doc.getElementById("covid-help") must not be null
+//    }
 
     "have correct links" in {
       val doc = asDocument(createView())

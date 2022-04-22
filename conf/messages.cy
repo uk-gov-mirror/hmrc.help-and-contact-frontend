@@ -1192,11 +1192,11 @@ help_and_contact.community_forum = Fforwm Cymunedol Troi Treth yn Ddigidol ar gy
 ###########################################
 ##     COVID-19
 ###########################################
-covid.coronavirus_measures.heading = Cymorth Coronafeirws (COVID-19)
-covid.digital_assistant_for_help_and_support = Cynorthwyydd digidol ar gyfer help a chymorth (yn agor tab newydd)
-covid.videos_hmrc_youtube_channel = Fideos a gweminarau (sianel YouTube CThEM) (yn agor tab newydd) 
-covid.financial_support_for_businesses = Cymorth ariannol i fusnesau (yn agor tab newydd)
-covid.debt_management_for_tax_bills = Rheolaeth dyledion ar gyfer biliau treth: cysylltwch â CThEM (yn agor tab newydd)
+## covid.coronavirus_measures.heading = Cymorth Coronafeirws (COVID-19)
+## covid.digital_assistant_for_help_and_support = Cynorthwyydd digidol ar gyfer help a chymorth (yn agor tab newydd)
+covid.videos_hmrc_youtube_channel = Fideos a gweminarau (sianel YouTube CThEM) (yn agor tab newydd)
+## covid.financial_support_for_businesses = Cymorth ariannol i fusnesau (yn agor tab newydd)
+## covid.debt_management_for_tax_bills = Rheolaeth dyledion ar gyfer biliau treth: cysylltwch â CThEM (yn agor tab newydd)
 covid.coronavirus_job_retention_scheme = Cynllun Cadw Swyddi yn sgil Coronafeirws (CJRS): cysylltwch â CThEM (yn agor tab newydd)
 covid.self_employment_income_support_scheme = Cynllun Cymhorthdal Incwm Hunangyflogaeth (SEISS): Estyniad i’r Grant (yn agor tab newydd)
 

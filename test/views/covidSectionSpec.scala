@@ -14,57 +14,57 @@
  * limitations under the License.
  */
 
-package views
-
-import views.behaviours.ViewBehaviours
-import views.html.covid
-
-class covidSectionSpec extends ViewBehaviours {
-
-  val messageKeyPrefix = "help_and_contact"
-
-  def createView =
-    () =>
-      covid(frontendAppConfig)(
-        fakeRequest,
-        messages
-      )
-
-  "Help and contact view" must {
-
-    "contain heading" in {
-      val doc = asDocument(createView())
-      doc.getElementById("covid-help").html() mustBe "Coronavirus (COVID-19) support"
-    }
-
-    "have correct links" in {
-      val doc = asDocument(createView())
-      assertLinkById(
-        doc,
-        "covid-digital-assistant-for-help-and-support",
-        "Digital assistant for help and support (opens in new tab)",
-        "https://www.tax.service.gov.uk/ask-hmrc/virtual-assistant/support-for-coronavirus",
-
-          expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "covid-financial-support-for-businesses",
-        "Financial support for businesses (opens in new tab)",
-        "https://www.gov.uk/government/collections/financial-support-for-businesses-during-coronavirus-covid-19#business-support-grant-funds",
-
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "covid-debt-management-for-tax-bills",
-        "Debt management for tax bills: contact HMRC (opens in new tab)",
-        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/coronavirus-covid-19-helpline",
-
-        expectedOpensInNewTab = true
-      )
-    }
-
-  }
-
-}
+//package views
+//
+//import views.behaviours.ViewBehaviours
+//import views.html.covid
+//
+//class covidSectionSpec extends ViewBehaviours {
+//
+//  val messageKeyPrefix = "help_and_contact"
+//
+//  def createView =
+//    () =>
+//      covid(frontendAppConfig)(
+//        fakeRequest,
+//        messages
+//      )
+//
+//  "Help and contact view" must {
+//
+//    "contain heading" in {
+//      val doc = asDocument(createView())
+//      doc.getElementById("covid-help").html() mustBe "Coronavirus (COVID-19) support"
+//    }
+//
+//    "have correct links" in {
+//      val doc = asDocument(createView())
+//      assertLinkById(
+//        doc,
+//        "covid-digital-assistant-for-help-and-support",
+//        "Digital assistant for help and support (opens in new tab)",
+//        "https://www.tax.service.gov.uk/ask-hmrc/virtual-assistant/support-for-coronavirus",
+//
+//          expectedOpensInNewTab = true
+//      )
+//      assertLinkById(
+//        doc,
+//        "covid-financial-support-for-businesses",
+//        "Financial support for businesses (opens in new tab)",
+//        "https://www.gov.uk/government/collections/financial-support-for-businesses-during-coronavirus-covid-19#business-support-grant-funds",
+//
+//        expectedOpensInNewTab = true
+//      )
+//      assertLinkById(
+//        doc,
+//        "covid-debt-management-for-tax-bills",
+//        "Debt management for tax bills: contact HMRC (opens in new tab)",
+//        "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/coronavirus-covid-19-helpline",
+//
+//        expectedOpensInNewTab = true
+//      )
+//    }
+//
+//  }
+//
+//}
