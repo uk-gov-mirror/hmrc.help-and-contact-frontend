@@ -1193,11 +1193,11 @@ help_and_contact.community_forum = Making Tax Digital for VAT community forum (o
 ###########################################
 ##     COVID-19
 ###########################################
-covid.coronavirus_measures.heading = Coronavirus (COVID-19) support
-covid.digital_assistant_for_help_and_support = Digital assistant for help and support (opens in new tab)
+##covid.coronavirus_measures.heading = Coronavirus (COVID-19) support
+##covid.digital_assistant_for_help_and_support = Digital assistant for help and support (opens in new tab)
 covid.videos_hmrc_youtube_channel = Videos and webinars (HMRC You Tube channel) (opens in new tab)
-covid.financial_support_for_businesses = Financial support for businesses (opens in new tab)
-covid.debt_management_for_tax_bills = Debt management for tax bills: contact HMRC (opens in new tab)
+##covid.financial_support_for_businesses = Financial support for businesses (opens in new tab)
+##covid.debt_management_for_tax_bills = Debt management for tax bills: contact HMRC (opens in new tab)
 covid.coronavirus_job_retention_scheme = Coronavirus Job Retention Scheme (CJRS): contact HMRC (opens in new tab)
 covid.self_employment_income_support_scheme = Self-Employment Income Support Scheme (SEISS): Grant Extension (opens in new tab)
 
