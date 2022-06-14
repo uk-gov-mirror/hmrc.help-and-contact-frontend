@@ -123,7 +123,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-pay-video",
         "Video - How do I pay my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/QqVIhCvHE4o",
+        "https://youtu.be/3kcZmOv6cpo",
 
         expectedOpensInNewTab = true
       )
