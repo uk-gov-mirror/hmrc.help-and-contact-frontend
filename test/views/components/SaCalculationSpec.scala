@@ -52,10 +52,10 @@ class SaCalculationSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "any-class-2-4",
-        "any class 2 and class 4 National Insurance contributions (opens in new tab)",
+        "any class 2 and class 4 National Insurance contributions",
         "https://www.gov.uk/self-employed-national-insurance-rates",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

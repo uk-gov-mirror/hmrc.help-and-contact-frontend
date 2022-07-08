@@ -71,42 +71,42 @@ class HowToPayCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "year-company-set-up",
-        "the year you set up your company (opens in new tab)",
+        "the year you set up your company",
         "https://www.gov.uk/first-company-accounts-and-return",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "instalments",
-        "pay your Corporation Tax in instalments (opens in new tab)",
+        "pay your Corporation Tax in instalments",
         "https://www.gov.uk/guidance/corporation-tax-paying-in-instalments",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "charge-you-interest",
-        "charge you interest (opens in new tab)",
+        "charge you interest",
         "https://www.gov.uk/guidance/corporation-tax-interest-charges",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "pay-you-interest",
-        "pay you interest (opens in new tab)",
+        "pay you interest",
         "https://www.gov.uk/get-refund-interest-corporation-tax",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "ct-detailed-info",
-        "Read detailed information about how to pay your Corporation Tax bill (opens in new tab)",
+        "Read detailed information about how to pay your Corporation Tax bill",
         "https://www.gov.uk/pay-corporation-tax/bank-details",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

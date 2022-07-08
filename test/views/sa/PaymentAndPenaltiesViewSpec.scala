@@ -99,10 +99,10 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "understanding-payments",
-        "Understanding balancing payments and payments on account (opens in new tab)",
+        "Understanding balancing payments and payments on account",
         "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -114,10 +114,10 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "ways-to-pay-taxbill",
-        "Read detailed information about ways to pay your tax bill (opens in new tab)",
+        "Read detailed information about ways to pay your tax bill",
         "https://www.gov.uk/pay-self-assessment-tax-bill",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -130,10 +130,10 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "budget-for-taxbill",
-        "Budget for your tax bill if you’re self-employed (opens in new tab)",
+        "Budget for your tax bill if you’re self-employed",
         "https://www.gov.uk/self-assessment-ready-reckoner",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -146,34 +146,34 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "reasonable-excuse",
-        "reasonable excuse (opens in new tab)",
+        "reasonable excuse",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "more-about-sa",
-        "Find out more about Self Assessment penalties (opens in new tab)",
+        "Find out more about Self Assessment penalties",
         "https://www.gov.uk/tax-appeals/penalty",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "interest-rates",
-        "Interest rates for late and early payments (opens in new tab)",
+        "Interest rates for late and early payments",
         "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "interest-rates",
-        "Interest rates for late and early payments (opens in new tab)",
+        "Interest rates for late and early payments",
         "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
 
     }
@@ -204,10 +204,10 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "appeal-filing",
-        "use form SA370 to appeal any late filing or late payment penalty (opens in new tab)",
+        "use form SA370 to appeal any late filing or late payment penalty",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

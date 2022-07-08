@@ -51,17 +51,17 @@ vat.payments_and_deadlines.the_deadline_for_submitting_ = The deadline for submi
 vat.payments_and_deadlines.you_need_to_allow_time_ = You need to allow time for the payment to reach HMRC’s account.
 vat.payments_and_deadlines.vat_refunds_on_goods_imported_from_the_eu = VAT refunds on goods imported from the EU
 vat.payments_and_deadlines.you_can = You can
-vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = get a refund of VAT paid in another EU country (opens in new tab)
+vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = get a refund of VAT paid in another EU country
 vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk = if you are registered for VAT in the UK, but:
 vat.payments_and_deadlines.what_you_can_reclaim_depends = what you can reclaim depends on the other EU country’s rules for claiming VAT
 vat.payments_and_deadlines.the_rules_for_claiming = the
-vat.payments_and_deadlines.input_tax = rules for claiming input tax (opens in new tab)
+vat.payments_and_deadlines.input_tax = rules for claiming input tax
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are slightly different in each EU country
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
 vat.correct_a_mistake = Correct errors on your VAT returns
-vat.community_forum = VAT community forum (opens in new tab)
-vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill (opens in new tab)
+vat.community_forum = VAT community forum
+vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -124,7 +124,7 @@ helpWithYourSelfAssessmentTaxReturn.first_sa_video = Video - My first Self Asses
 helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = My first Self Assessment tax return - video transcript
 helpWithYourSelfAssessmentTaxReturn.help_completing = Help with completing and filing your tax return
 helpWithYourSelfAssessmentTaxReturn.watch_videos = Watch videos, get email alerts, take part in webinars and
-helpWithYourSelfAssessmentTaxReturn.learn_more = learn more about Self Assessment (opens in new tab).
+helpWithYourSelfAssessmentTaxReturn.learn_more = learn more about Self Assessment
 helpWithYourSelfAssessmentTaxReturn.how_to_tailor = How to tailor your return
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = How do I tailor my Self Assessment tax return? - video transcript
@@ -135,10 +135,10 @@ helpWithYourSelfAssessmentTaxReturn.income_from_property_header = If you have in
 helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Video - If I have income from property - how do I fill in my tax return? (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = If I have income from property, how do I fill in my tax return? - video transcript
 helpWithYourSelfAssessmentTaxReturn.more_help_with_sa = More help with Self Assessment
-helpWithYourSelfAssessmentTaxReturn.who_must_file = Who must file a tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.need_to_change = If you need to change your tax return (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.who_must_file = Who must file a tax return
+helpWithYourSelfAssessmentTaxReturn.need_to_change = If you need to change your tax return
 helpWithYourSelfAssessmentTaxReturn.howtopaysa = How to pay your Self Assessment
-helpWithYourSelfAssessmentTaxReturn.sa_resource = Self Assessment resource list (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.sa_resource = Self Assessment resource list
 helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Your first Self Assessment tax return
 helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Your self-employed tax return
 helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_ = If I have income from property, how do I fill in my tax return?
@@ -150,7 +150,7 @@ helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = How do I tail
 helpWithYourSelfAssessmentTaxReturn.help_with_record = More help with record keeping
 helpWithYourSelfAssessmentTaxReturn.business_records_if = Business records if you’re self-employed (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.keeping_pay = Keeping your pay and tax records (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.complete_and_file = Complete and file your tax return (opens in new tab).
+helpWithYourSelfAssessmentTaxReturn.complete_and_file = Complete and file your tax return
 helpWithYourSelfAssessmentTaxReturn.income_from_property = Video - Income from property - what do I include on my tax return? (opens in new tab)
 
 
@@ -169,7 +169,7 @@ modular.sa_tax_return.list_partnerships = partners in partnerships
 modular.sa_tax_return.list_trustees = trustees
 modular.sa_tax_return.list_others = other similar people
 modular.sa_tax_return.if_you_receive_hmrc = If you receive a tax return, or a notice to file, you must complete a return and submit it to HMRC.
-modular.sa_tax_return.who_must_file_link = Who must file a Self Assessment tax return (opens in new tab)
+modular.sa_tax_return.who_must_file_link = Who must file a Self Assessment tax return
 modular.sa_tax_return.if_you_receive_return = If you receive a tax return, or a notice to file, you must complete and file a return.
 modular.sa_tax_return.file_tax_return = If you must file a tax return, you do so after the end of the tax year it applies to.
 modular.sa_tax_return.sa_tax_year = The Self Assessment tax year is 6 April to 5 April. For the tax year 6 April {0} to 5 April {1}, you must file your return by 31 January {2}.
@@ -185,7 +185,7 @@ modular.sa_tax_return.list_complete_and_file = complete and file your tax return
 modular.sa_tax_return.list_pay_what_you_owe = pay what you owe by 31 January {0}
 modular.sa_tax_return.if_you_do_not_register = If you do not register, file or pay on time, you may have to pay a penalty.
 modular.sa_tax_return.have_not_received = If you have not received a notice to file a Self Assessment tax return, you can
-modular.sa_tax_return.have_not_received_link =  check anonymously if you need to file a return (opens in new tab).
+modular.sa_tax_return.have_not_received_link =  check anonymously if you need to file a return
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help With Making Tax Digital For Income Tax
@@ -207,9 +207,9 @@ helpWithMTDITSA.self_assessment_and_income_tax.heading = Self Assessment and Mak
 helpWithMTDITSA.self_assessment_and_income_tax.p1 = Self Assessment is the system HMRC currently uses to collect Income Tax.
 helpWithMTDITSA.self_assessment_and_income_tax.p2 = After you sign up for Making Tax Digital for Income Tax, you must still submit a Self Assessment tax return for the tax year before the current one.
 helpWithMTDITSA.self_assessment_and_income_tax.p3 = You must then
-helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = send quarterly updates (opens in new tab)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = send quarterly updates
 helpWithMTDITSA.self_assessment_and_income_tax.p3.1 = and a
-helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = final declaration for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = final declaration for Making Tax Digital for Income Tax
 helpWithMTDITSA.self_assessment_and_income_tax.p3.2 = for the current tax year.
 helpWithMTDITSA.self_assessment_and_income_tax.p4 = This replaces your annual Self Assessment tax return.
 helpWithMTDITSA.self_assessment_and_income_tax.p5 = You do not need to pay Income Tax quarterly. Your Income Tax is due every 31 January after the tax year ends. This is the same as Self Assessment.
@@ -223,19 +223,19 @@ helpWithMTDITSA.example_change.p4 = Jay must also start sending Making Tax Digit
 helpWithMTDITSA.example_change.p5 = By 31 January 2023, Jay must also:
 helpWithMTDITSA.example_change.p5.bullet1 = send HMRC a Making Tax Digital for Income Tax final declaration for tax year 2021 to 2022
 helpWithMTDITSA.example_change.p5.bullet2 = pay HMRC the Income Tax due for tax year 2021 to 2022
-helpWithMTDITSA.example_change.linkText = Find out more about Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.example_change.linkText = Find out more about Making Tax Digital for Income Tax
 helpWithMTDITSA.sign_up.heading = Signing up for Making Tax Digital for Income Tax
 helpWithMTDITSA.sign_up.p1 = After you
-helpWithMTDITSA.sign_up.p1.linkText = sign up for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.sign_up.p1.linkText = sign up for Making Tax Digital for Income Tax
 helpWithMTDITSA.sign_up.p1.1 = you can
 helpWithMTDITSA.sign_up.p1.linkText1 = add it to your business tax account
 helpWithMTDITSA.sign_up.p2 = This makes it easy for you to manage Making Tax Digital for Income Tax online with your other business taxes.
 helpWithMTDITSA.sign_up.p3 = You may need to have items that prove your identity to add Making Tax Digital for Income Tax to your account.
 helpWithMTDITSA.getting_software.heading = Getting Making Tax Digital for Income Tax software
 helpWithMTDITSA.getting_software.p1 = You must use software to send your Making Tax Digital for Income Tax quarterly updates and final declaration.
-helpWithMTDITSA.getting_software.linkText = Find software for Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.getting_software.linkText = Find software for Making Tax Digital for Income Tax
 helpWithMTDITSA.more_help.heading = More help
-helpWithMTDITSA.more_help.linkText = Making Tax Digital for Income Tax (opens in new tab)
+helpWithMTDITSA.more_help.linkText = Making Tax Digital for Income Tax
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -273,8 +273,8 @@ modular.basicRecordKeeping.example = Example: For the tax year 2019 to 2020, the
 modular.basicRecordKeeping.record_keeping_video = Video - Basic record keeping for the self employed (opens in new tab)
 modular.basicRecordKeeping.record_keeping_transcript = Basic record keeping when you’re self-employed - video transcript
 modular.basicRecordKeeping.more_help_record = More help with record keeping
-modular.basicRecordKeeping.self_record = Business records if you’re self-employed (opens in new tab)
-modular.basicRecordKeeping.keeping_pay_and_tax = Keeping your pay and tax records (opens in new tab)
+modular.basicRecordKeeping.self_record = Business records if you’re self-employed
+modular.basicRecordKeeping.keeping_pay_and_tax = Keeping your pay and tax records
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -286,25 +286,25 @@ register_or_stopping.help_page = Registering or stopping
 register_or_stopping.hidden_prefix = Self Assessment:
 register_or_stopping.class_2_ni = Class 2 National Insurance contributions
 register_or_stopping.when_you_register = When you register for Self Assessment as self employed, you are also registering for
-register_or_stopping.class_2_link = Class 2 National Insurance contributions (opens in new tab).
+register_or_stopping.class_2_link = Class 2 National Insurance contributions
 register_or_stopping.registering_for_sa = Registering for Self Assessment
 register_or_stopping.unique_taxpayer = Your Self Assessment Unique Taxpayer Reference (UTR) is a 10 digit number. You can find it on:
 register_or_stopping.list_welcome_letter = your Welcome to Self Assessment letter (SA250)
 register_or_stopping.list_previous_tax_returns = tax returns you completed in previous years
 register_or_stopping.list_other_documents = other documents from HMRC
-register_or_stopping.can_find_utr = You can find your UTR (opens in new tab) if you do not know it.
+register_or_stopping.can_find_utr = You can find your UTR if you do not know it.
 register_or_stopping.not_self_employed = If you are not self-employed
 register_or_stopping.did_not_file_return = If you did not file a tax return last year and have to file one this year,
-register_or_stopping.sa1_link = use form SA1 to register for Self Assessment (opens in new tab).
+register_or_stopping.sa1_link = use form SA1 to register for Self Assessment.
 register_or_stopping.are_self_employed = If you are self-employed
 register_or_stopping.did_not_file_this_year = If you did not file a tax return last year and have to file one this year,
 register_or_stopping.register_link = register for Self Assessment.
 register_or_stopping.partnership = If you are a partner or partnership
 register_or_stopping_utr_reference = You will need the Unique Taxpayer Reference (UTR) for the partnership and your own personal UTR if you already have one.
 register_or_stopping.new_partnership = If it is a new partnership, the nominated partner will also have to register the partnership.
-register_or_stopping.more_about_registering = Find out more about registering as a partner or partnership (opens in new tab).
+register_or_stopping.more_about_registering = Find out more about registering as a partner or partnership.
 register_or_stopping.sa_guidance = Self Assessment guidance
-register_or_stopping.learn_sa = Learn about Self Assessment (opens in new tab)
+register_or_stopping.learn_sa = Learn about Self Assessment
 register_or_stopping.registering_sa_video = Video - Registering for Self Assessment (opens in new tab)
 register_or_stopping.registering_sa_transcript = Registering for Self Assessment - video transcript
 register_or_stopping.stop_sa = Stopping Self Assessment
@@ -335,18 +335,18 @@ payment_and_penalties.payment_balancing = 31 January {0} for your balancing paym
 payment_and_penalties.first_payment = 31 January {0} for your first payment on account. This is for tax year {1} to {2}
 payment_and_penalties.second_payment = 31 July {0} for your second payment on account. This is for tax year {1} to {2}
 payment_and_penalties.dont_wait = You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-payment_and_penalties.understanding_payments = Understanding balancing payments and payments on account (opens in new tab)
+payment_and_penalties.understanding_payments = Understanding balancing payments and payments on account
 payment_and_penalties.how_to_pay_bill = How to pay your Self Assessment tax bill
 payment_and_penalties.make_sure = Make sure you pay HMRC by the deadline. You’ll be charged interest and may have to
 payment_and_penalties.pay_penalty_link = pay a penalty
 payment_and_penalties.late_payment = if your payment is late.
 payment_and_penalties.depends = The time you need to allow depends on how you pay.
 payment_and_penalties.no_longer = You can no longer pay at the Post Office.
-payment_and_penalties.read_info = Read detailed information about ways to pay your tax bill (opens in new tab)
+payment_and_penalties.read_info = Read detailed information about ways to pay your tax bill
 payment_and_penalties.how_do_i_pay_video = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
 payment_and_penalties.how_do_i_pay_transcript = How do I pay my Self Assessment tax bill? - video transcript
 payment_and_penalties.budgeting_for_sa = Budgeting for your Self Assessment tax bill
-payment_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed (opens in new tab)
+payment_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed
 payment_and_penalties.how_do_i_budget_video = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
 payment_and_penalties.how_do_i_budget_transcript = How do I budget for my Self Assessment tax bill? - video transcript
 payment_and_penalties.penalties = Penalties
@@ -356,16 +356,16 @@ payment_and_penalties.list_paid_late = paid tax late
 payment_and_penalties.list_not_enough = didn’t pay enough tax
 payment_and_penalties.appeal_penalty = Appealing a penalty
 payment_and_penalties.appeal_if = You can appeal a penalty if you have a
-payment_and_penalties.excuse_link = reasonable excuse (opens in new tab)
+payment_and_penalties.excuse_link = reasonable excuse
 payment_and_penalties.you_must_appeal =. You must appeal within 30 days of the date the penalty was sent to you.
-payment_and_penalties.find_more = Find out more about Self Assessment penalties (opens in new tab)
-payment_and_penalties.interest_rates = Interest rates for late and early payments (opens in new tab)
+payment_and_penalties.find_more = Find out more about Self Assessment penalties
+payment_and_penalties.interest_rates = Interest rates for late and early payments
 payment_and_penalties.sa_penalties_video = Video - Self Assessment penalties (opens in new tab)
 payment_and_penalties.sa_penalties_transcript = Self Assessment penalties - video transcript
 payment_and_penalties.penalties_interest = Your penalties and interest
 payment_and_penalties.conditional.you_can = You can:
 payment_and_penalties.conditional.appeal_sa_late = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
-payment_and_penalties.conditional.appeal_filling = use form SA370 to appeal any late filing or late payment penalty (opens in new tab)
+payment_and_penalties.conditional.appeal_filling = use form SA370 to appeal any late filing or late payment penalty
 payment_and_penalties.conditional.or = or
 payment_and_penalties.conditional.write_hmrc = write to HMRC
 payment_and_penalties.conditional.reasons_for = to appeal any late filing or late payment penalty
@@ -384,7 +384,7 @@ expenses.can_include = Expenses you can include in your Self Assessment tax retu
 expenses.allowable_expenses = Include all of your allowable expenses for the tax year 6 April to 5 April on your Self Assessment tax return.
 expenses.send_proof = You do not need to send proof of your expenses when you file your tax return.
 expenses.keep_proof = You should keep proof and records so that you can show them to HMRC if asked. You need to make sure your records are accurate.
-expenses.find_out_more = Find out more about allowable expenses if you’re self-employed (opens in new tab)
+expenses.find_out_more = Find out more about allowable expenses if you’re self-employed
 expenses.what_expenses_video = Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)
 expenses.what_expenses_transcript = What expenses can I include in my Self Assessment tax return? - video transcript
 expenses.simplified = Simplified expenses
@@ -398,7 +398,7 @@ expenses.keep_records = Keep records during the tax year of:
 expenses.list_mileage = your vehicles’ business mileage
 expenses.list_hours = hours you work at home
 expenses.list_how_many = how many people live at your business premises
-expenses.find_out_more_simplified = Find out more about simplified expenses (opens in new tab)
+expenses.find_out_more_simplified = Find out more about simplified expenses
 expenses.claiming_travel_header = Claiming travel expenses if you’re self-employed
 expenses.allowable_business_expense = You can claim allowable business expenses for items including fuel and vehicle insurance.
 expenses.cannot_claim = You cannot claim for non-business driving, or travel costs, or for fines or travel between home and work.
@@ -406,8 +406,8 @@ expenses.actual_costs = You can claim either the actual costs, or a flat rate fo
 expenses.decide_to_use = If you decide to use the actual costs, you will need to know how many miles the vehicle has done over the year. Then work out what percentage was for business. You can also claim a capital allowance for the purchase of the vehicle.
 expenses.flat_rate_covers = The flat rate covers the whole cost of buying, running and maintaining the vehicle – so you cannot claim a capital allowance for its purchase.
 expenses.claiming_travel = More help with claiming travel expenses
-expenses.travel_if = Travel expenses if you’re self-employed (opens in new tab)
-expenses.simplified_motoring_expenses = Simplified motoring expenses if you’re self employed (opens in new tab)
+expenses.travel_if = Travel expenses if you’re self-employed
+expenses.simplified_motoring_expenses = Simplified motoring expenses if you’re self employed
 expenses.motoring_expenses_video = Video - Claiming motoring expenses if you’re self-employed (opens in new tab)
 expenses.motoring_expenses_transcript = Claiming motoring expenses if you’re self-employed - video transcript
 
@@ -425,7 +425,7 @@ sa302.evidence.list_print_calculation = print your calculation and tax year over
 sa302.evidence.might_be = You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
 sa302.evidence.check_mortgage = Check that your mortgage provider accepts documents you have printed yourself.
 sa302.evidence.print_documents = You cannot print your documents until up to 72 hours after you have sent your tax return.
-sa302.evidence.evidence_of_income = Find out more about getting evidence of your income (opens in new tab)
+sa302.evidence.evidence_of_income = Find out more about getting evidence of your income
 sa302.evidence.find_sa302 = Find your SA302
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -468,7 +468,7 @@ sa.evidence.where_to_get.pre_link=You can get your SA302 in the
 sa.evidence.where_to_get.link_text=more Self Assessment details
 sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
-sa.evidence.community_forum = Self Assessment community forum (opens in new tab)
+sa.evidence.community_forum = Self Assessment community forum
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -528,12 +528,12 @@ epaye.paye_and_cis_refunds.national_insurance_contributions_ = National Insuranc
 epaye.paye_and_cis_refunds.hm_revenue_and_customs = HM Revenue and Customs
 epaye.paye_and_cis_refunds.bx9_1bx = BX9 1BX
 epaye.paye_and_cis_refunds.united_kingdom = United Kingdom
-epaye.paye_and_cis_refunds.more_about_refunds = More about refunds (opens in new tab)
+epaye.paye_and_cis_refunds.more_about_refunds = More about refunds
 epaye.paye_and_cis_refunds.cis_refunds = CIS refunds
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = If you are a limited company that acts as a subcontractor under the Construction Industry Scheme (CIS) and your CIS account is in credit at the end of the year, you can request a repayment.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = We aim to process repayments within 25 working days of receiving it, if we agree with your claim.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Do not call unless it has been more than 40 working days, as we may still be considering your claim.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a <span class="govuk-visually-hidden">Construction Industry Scheme</span> CIS refund (opens in new tab)
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = How to claim a <span class="govuk-visually-hidden">Construction Industry Scheme</span> CIS refund
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -564,7 +564,7 @@ epaye.submissions.when_you_can_view_ = When you can view your submissions
 epaye.submissions.submissions_show_up_ = Submissions show up in your balance at different times depending on when you submit them.
 epaye.submissions.if_you_make_fps_on_time_ = If you make a Full Payment Submission (FPS) on time, your balance will be updated by the 12th of the next month.
 epaye.submissions.if_you_make_fps_late_ = If you make a FPS late, see the
-epaye.submissions.gov_uk_guide_on_payroll = GOV.UK guide on payroll (opens in new tab)
+epaye.submissions.gov_uk_guide_on_payroll = GOV.UK guide on payroll
 epaye.submissions.eps_between_20th_and_5th_ = If we receive an Employer Payment Summary (EPS) between the 20th and the 5th of the month, your balance will be updated by the 12th of the next month.
 epaye.submissions.eps_between_6th_and_19th_ = If we receive an EPS between the 6th and the 19th of the month, your balance will be updated within 1 day.
 epaye.submissions.your_payments_to_hmrc = Your payments to HMRC
@@ -581,7 +581,7 @@ epaye.submissions.payroll_software_confirmations = Payroll software confirmation
 epaye.submissions.you_can_also_check_ = You can also check or view submissions in HMRC’s Basic PAYE Tools (BPT) software.
 epaye.submissions.to_check_if_hmrc_received_ = To check if HMRC received a submission, select ‘View successful submissions’ from your employer homepage.
 epaye.submissions.to_view_a_specific_submission_ = To view a specific submission, follow these instructions in the
-epaye.submissions.user_guide = Basic PAYE Tools user guide (opens in new tab)
+epaye.submissions.user_guide = Basic PAYE Tools user guide
 epaye.submissions.but_select_ = , but select ‘View’ instead of ‘Change’.
 epaye.submissions.contact_your_software_provider_ = Contact your software provider if you do not use BPT.
 epaye.submissions.correct_a_paye_submission = Correct a PAYE submission
@@ -592,14 +592,14 @@ epaye.submissions.follow_the = Follow the
 epaye.submissions.if_you_use_ = if you use HMRC’s Basic PAYE Tools software (BPT).
 epaye.submissions.submissions_from_an_earlier_tax_year = Submissions from an earlier tax year
 epaye.submissions.if_you_spot_an_error_ = If you have made an error in a submission after that tax year has ended, you must submit an Earlier Year Update if it is after April 19.
-epaye.submissions.community_forum = PAYE for employers community forum (opens in new tab)
-epaye.submissions.find_out_more_wrong_pay = Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens in new tab)
+epaye.submissions.community_forum = PAYE for employers community forum
+epaye.submissions.find_out_more_wrong_pay = Find out more in the section ‘if you’ve reported the wrong pay or deductions’
 
 
 #######################################################
 ##  Corporation Tax
 #######################################################
-ct.ask_for_a_copy_ = Ask for a copy of your Corporation Tax UTR (opens in new tab)
+ct.ask_for_a_copy_ = Ask for a copy of your Corporation Tax UTR
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -642,19 +642,19 @@ ct.how_to_pay.deadlines.heading = Deadlines
 ct.how_to_pay.deadlines.body = The deadline for your payment will depend on your taxable profits.
 ct.how_to_pay.up_to_1point5_million.heading = If your taxable profits are up to £1.5 million
 ct.how_to_pay.up_to_1point5_million.body = You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. Your accounting period is usually your financial year, but you may have 2 accounting periods in
-ct.how_to_pay.year_company_set_up = the year you set up your company (opens in new tab)
+ct.how_to_pay.year_company_set_up = the year you set up your company
 ct.how_to_pay.more_than_1point5_million.heading = If your taxable profits are more than £1.5 million
 ct.how_to_pay.you_must_pay_ = You must
-ct.how_to_pay.instalments = pay your Corporation Tax in instalments (opens in new tab)
+ct.how_to_pay.instalments = pay your Corporation Tax in instalments
 ct.how_to_pay.make_sure_you_pay_ = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may
-ct.how_to_pay.charge_you_interest = charge you interest (opens in new tab)
+ct.how_to_pay.charge_you_interest = charge you interest
 ct.how_to_pay.if_you_do_not_pay_on_time_ = if you do not pay on time. They will
-ct.how_to_pay.pay_you_interest = pay you interest (opens in new tab)
+ct.how_to_pay.pay_you_interest = pay you interest
 ct.how_to_pay.if_you_pay_your_tax_early = if you pay your tax early.
 ct.how_to_pay.ways_to_pay = Ways to pay
 ct.how_to_pay.you_can_no_longer_pay_ = You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.
 ct.how_to_pay.the_time_you_need_ = The time you need to allow depends on how you pay.
-ct.how_to_pay.detailed_info = Read detailed information about how to pay your Corporation Tax bill (opens in new tab)
+ct.how_to_pay.detailed_info = Read detailed information about how to pay your Corporation Tax bill
 ct.how_to_pay.video = Video - Paying your Corporation Tax bill (opens in new tab)
 ct.how-to_pay.video.transcript = Paying your Corporation Tax bill - video transcript
 
@@ -671,7 +671,7 @@ ct.register_deregister.add_ct.heading = Add Corporation Tax to your business tax
 ct.register_deregister.no_longer_trading.heading = Tell HMRC you are no longer trading
 
 ct.register_deregister_after_you_have = When you have
-ct.register_deregister.register_with_companies_house = registered your company (opens in new tab)
+ct.register_deregister.register_with_companies_house = registered your company
 ct.register_deregister.with_companies_house_ = with Companies House, you must
 ct.register_deregister.register_link = register for Corporation Tax
 ct.register_deregister.3months = with HM Revenue and Customs (HMRC) within 3 months of being active.
@@ -682,7 +682,7 @@ ct.register_deregister.being_active.3 = advertising
 ct.register_deregister.being_active.4 = renting a property
 ct.register_deregister.being_active.5 = employing someone
 ct.register_deregister.being_active.6 = similar trading activity
-ct.register_deregister.check_link = Check if you’re unsure what counts as being active (opens in new tab)
+ct.register_deregister.check_link = Check if you’re unsure what counts as being active
 ct.register_deregister.dormant = You must also register your company for Corporation Tax with HMRC if your company is registered as dormant, but is now active
 
 ct.register_deregister.penalty_notice_ = You may get a penalty if you register late.
@@ -694,20 +694,20 @@ ct.register_deregister.no_utr_ = if you did not get one after registering your c
 ct.register_deregister.also_need = You’ll also need:
 ct.register_deregister.also_need.1 = your company’s registration number (CRN)
 ct.register_deregister.also_need.2_a = the date you started to be active - your company’s first
-ct.register_deregister.also_need.2_link = accounting period (opens in new tab)
+ct.register_deregister.also_need.2_link = accounting period
 ct.register_deregister.also_need.2_b = will start from this date
 ct.register_deregister.also_need.3 = the date your annual accounts are made up to (the accounts preparation date)
 
 ct.register_deregister.deadline = HMRC will tell you the deadline for paying Corporation Tax.
 ct.register_deregister.must_file = You must file a
-ct.register_deregister.deadline_link = Company Tax Return (opens in new tab)
+ct.register_deregister.deadline_link = Company Tax Return
 ct.register_deregister.deadline_end = , even if you make a loss or have no Corporation Tax to pay.
 ct.register_deregister.add_link = Add Corporation Tax to your business tax account
 ct.register_deregister.add_to = to:
 ct.register_deregister.add.1 = file your Company Tax return online
 ct.register_deregister.add.2 = make a payment online
 ct.register_deregister_stop_paying_ = To stop paying Corporation Tax, you must
-ct.register_deregister_close_company_ = close the limited company (opens in new tab)
+ct.register_deregister_close_company_ = close the limited company
 
 #######################################################
 ##  Transcripts
@@ -1187,7 +1187,7 @@ help_and_contact.making_tax_digital = Making Tax Digital for VAT
 help_and_contact.sign_up.making_tax_digital = Sign up for Making Tax Digital for VAT
 help_and_contact.making_tax_digital_webinar = Making Tax Digital for VAT webinars
 help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital for VAT
-help_and_contact.community_forum = Making Tax Digital for VAT community forum (opens in new tab)
+help_and_contact.community_forum = Making Tax Digital for VAT community forum
 
 
 ###########################################
@@ -1210,7 +1210,7 @@ btaHelp.help_with_business_tax_account = Help with your business tax account
 btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account? (opens in new tab)
 btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
 btaHelp.changing_your_phone_number = Changing your phone number and other account details
-btaHelp.hrmc_forums = HMRC community forums (opens in new tab)
+btaHelp.hrmc_forums = HMRC community forums
 btaHelp.pay_taxbill_video = Video - Help if you can’t pay your tax bill (opens in new tab)
 btaHelp.pay_taxbill_transcript = Help if you can’t pay your tax bill - video transcript
 
@@ -1356,7 +1356,7 @@ help.withYourBta.manage.heading = How to manage your business tax account detail
 help.withYourBta.manage.p1 = Keep a record of the Government Gateway user ID and password that you used to create your business tax account.
 help.withYourBta.manage.p2 = Your business tax account uses 2-stage verification. We will ask you to enter an access code sent to another device or app.
 help.withYourBta.manage.p3 = Do not create another Government Gateway user ID and password. To view all your business taxes in one place you must
-help.withYourBta.manage.link1 = use only one ID for all your online business tax services (opens in new tab)
+help.withYourBta.manage.link1 = use only one ID for all your online business tax services
 help.withYourBta.manage.p4 = and sign into the business tax account with it.
 help.withYourBta.manage.link2 = Manage your Government Gateway details
 
@@ -1368,7 +1368,7 @@ help.withYourBta.difference.bullet3 = benefits
 help.withYourBta.difference.bullet4 = National Insurance
 help.withYourBta.difference.bullet5 = State Pension
 help.withYourBta.difference.bullet6 = other personal records and details
-help.withYourBta.difference.link1 = Read more about your personal tax account (opens in new tab)
+help.withYourBta.difference.link1 = Read more about your personal tax account
 help.withYourBta.difference.p2 = Your business tax account is for online management of your:
 help.withYourBta.difference.bullet7 = Self Assessment
 help.withYourBta.difference.bullet8 = Making Tax Digital for Income Tax
@@ -1377,7 +1377,7 @@ help.withYourBta.difference.bullet10 = Making Tax Digital for VAT
 help.withYourBta.difference.bullet11 = Corporation Tax
 help.withYourBta.difference.bullet12 = PAYE for employers
 help.withYourBta.difference.bullet13 = other business taxes, duties and schemes
-help.withYourBta.difference.link2 = Read the full list of taxes, duties and schemes you can manage (opens in new tab)
+help.withYourBta.difference.link2 = Read the full list of taxes, duties and schemes you can manage
 
 help.withYourBta.using.heading = Using your business tax account
 help.withYourBta.using.p1 = Use your account to:
@@ -1426,7 +1426,7 @@ help.changingDetails.changeTeamMember.p3 = If an administrator removes a standar
 help.changingDetails.changeTeamMember.p4 = To change or remove an administrator’s phone number or authenticator app, you must call HMRC.
 
 help.changingDetails.moreHelp.heading = More help
-help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have problems signing in (opens in new tab)
+help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have problems signing in
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

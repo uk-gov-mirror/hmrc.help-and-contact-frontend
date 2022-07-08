@@ -87,26 +87,26 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "class-2-ni-contributions",
-        "Class 2 National Insurance contributions (opens in new tab).",
+        "Class 2 National Insurance contributions",
         "https://www.gov.uk/self-employed-national-insurance-rates",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "find-UTR",
-        "You can find your UTR (opens in new tab) if you do not know it.",
+        "You can find your UTR if you do not know it.",
         "https://www.gov.uk/find-lost-utr-number",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "sa1-register",
-        "use form SA1 to register for Self Assessment (opens in new tab).",
+        "use form SA1 to register for Self Assessment.",
         "https://www.gov.uk/government/publications/self-assessment-register-for-self-assessment-and-get-a-tax-return-sa1",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -118,18 +118,18 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "registering-partnership",
-        "Find out more about registering as a partner or partnership (opens in new tab).",
+        "Find out more about registering as a partner or partnership.",
         "https://www.gov.uk/register-for-self-assessment/partner-or-partnership",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "learn-sa",
-        "Learn about Self Assessment (opens in new tab)",
+        "Learn about Self Assessment",
         "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

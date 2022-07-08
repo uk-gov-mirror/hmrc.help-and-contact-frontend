@@ -84,10 +84,10 @@ class ExpensesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "allowable-expenses",
-        "Find out more about allowable expenses if you’re self-employed (opens in new tab)",
+        "Find out more about allowable expenses if you’re self-employed",
         "https://www.gov.uk/expenses-if-youre-self-employed",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -100,25 +100,25 @@ class ExpensesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "find-out-more-simplified",
-        "Find out more about simplified expenses (opens in new tab)",
+        "Find out more about simplified expenses",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "travel-expenses-sa",
-        "Travel expenses if you’re self-employed (opens in new tab)",
+        "Travel expenses if you’re self-employed",
         "https://www.gov.uk/expenses-if-youre-self-employed/travel",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "simplified-motoring-expenses",
-        "Simplified motoring expenses if you’re self employed (opens in new tab)",
+        "Simplified motoring expenses if you’re self employed",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

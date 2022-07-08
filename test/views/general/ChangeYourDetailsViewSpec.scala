@@ -55,9 +55,9 @@ class ChangeYourDetailsViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "change-your-details-more-help",
-        "Get help with HMRC services if you have problems signing in (opens in new tab)",
+        "Get help with HMRC services if you have problems signing in",
         "https://www.gov.uk/log-in-register-hmrc-online-services/problems-signing-in",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
     }
   }
