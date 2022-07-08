@@ -54,7 +54,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   private lazy val businessAccountHost: String = servicesConfig.getString("urls.business-account.host")
 
-  private lazy val tarHost: String = servicesConfig.getString("urls.tar.host")
+  private lazy val tarHost: String = servicesConfig.getString("microservice.services.tax-account-router-frontend.host")
 
   private lazy val addTaxHost: String = servicesConfig.getString("urls.add-tax.host")
 
@@ -62,7 +62,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def getBusinessAccountUrl(key: String): String = businessAccountHost + loadConfig(s"urls.business-account.$key")
 
-  def getTarUrl: String = tarHost + loadConfig(s"urls.tar.url")
+  def getTarUrl: String = tarHost + loadConfig(s"microservice.services.tax-account-router-frontend.url")
 
   def getAddTaxUrl(key: String): String = addTaxHost + loadConfig(s"urls.add-tax.$key")
 
