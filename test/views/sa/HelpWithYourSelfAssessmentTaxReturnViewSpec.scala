@@ -115,9 +115,9 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "learn-more-sa",
-        "learn more about Self Assessment (opens in new tab).",
+        "learn more about Self Assessment",
         "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -145,16 +145,16 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "who-must-file",
-        "Who must file a tax return (opens in new tab)",
+        "Who must file a tax return",
         "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "need-to-change",
-        "If you need to change your tax return (opens in new tab)",
+        "If you need to change your tax return",
         "https://www.gov.uk/self-assessment-tax-returns/corrections",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -165,9 +165,9 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "sa-resource-list",
-        "Self Assessment resource list (opens in new tab)",
+        "Self Assessment resource list",
         "https://www.gov.uk/topic/personal-tax/self-assessment",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
 
     }
@@ -177,9 +177,9 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "complete-and-file",
-        "Complete and file your tax return (opens in new tab).",
+        "Complete and file your tax return",
         s"http://localhost:8081/portal/self-assessment-file/${frontendAppConfig.previousTaxYearCode}/ind/1234567890/return?lang=eng",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
     }
   }

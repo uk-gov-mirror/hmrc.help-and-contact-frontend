@@ -88,14 +88,14 @@ class ContactHMRCAboutCorporationTaxViewSpec extends ViewBehaviours {
         "Find out about call charges",
         "https://www.gov.uk/call-charges",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
       assertLinkById(
         doc,
         "courier-address",
         "use a different address",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
   }
 }

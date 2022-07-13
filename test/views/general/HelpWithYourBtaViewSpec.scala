@@ -67,9 +67,9 @@ class HelpWithYourBtaViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "manage-best-out-of",
-        "use only one ID for all your online business tax services (opens in new tab)",
+        "use only one ID for all your online business tax services",
         "https://www.gov.uk/government/publications/use-hmrcs-business-tax-account/use-hmrcs-business-tax-account#best_out_of",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -80,18 +80,18 @@ class HelpWithYourBtaViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "difference-PTA",
-        "Read more about your personal tax account (opens in new tab)",
+        "Read more about your personal tax account",
         "https://www.gov.uk/personal-tax-account",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "difference-read-full-list",
-        "Read the full list of taxes, duties and schemes you can manage (opens in new tab)",
+        "Read the full list of taxes, duties and schemes you can manage",
         "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account#tax_services",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

@@ -76,16 +76,16 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "business-records",
-        "Business records if you’re self-employed (opens in new tab)",
+        "Business records if you’re self-employed",
         "https://www.gov.uk/self-employed-records",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "keeping-pay-tax",
-        "Keeping your pay and tax records (opens in new tab)",
+        "Keeping your pay and tax records",
         "https://www.gov.uk/self-employed-records/what-records-to-keep",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
 
 

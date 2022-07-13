@@ -57,31 +57,31 @@ class HelpWithMakingTaxDigitalForIncomeTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "mtd-itsa-send-quarterly-updates",
-        "send quarterly updates (opens in new tab)",
+        "send quarterly updates",
         "https://www.gov.uk/guidance/follow-the-rules-for-making-tax-digital-for-income-tax#send-updates-using-software",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "mtd-itsa-final-declaration",
-        "final declaration for Making Tax Digital for Income Tax (opens in new tab)",
+        "final declaration for Making Tax Digital for Income Tax",
         "https://www.gov.uk/guidance/follow-the-rules-for-making-tax-digital-for-income-tax#submitting-a-final-declaration",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "mtd-itsa-find-out-more",
-        "Find out more about Making Tax Digital for Income Tax (opens in new tab)",
+        "Find out more about Making Tax Digital for Income Tax",
         "https://www.gov.uk/guidance/follow-the-rules-for-making-tax-digital-for-income-tax",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "mtd-itsa-sign-up",
-        "sign up for Making Tax Digital for Income Tax (opens in new tab)",
+        "sign up for Making Tax Digital for Income Tax",
         "https://www.gov.uk/guidance/sign-up-your-business-for-making-tax-digital-for-income-tax",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
@@ -92,18 +92,18 @@ class HelpWithMakingTaxDigitalForIncomeTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "mtd-itsa-compatible-software",
-        "Find software for Making Tax Digital for Income Tax (opens in new tab)",
+        "Find software for Making Tax Digital for Income Tax",
         "https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,
         "mtd-itsa-collections-mtd-itsa",
-        "Making Tax Digital for Income Tax (opens in new tab)",
+        "Making Tax Digital for Income Tax",
         "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax",
 
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
     }
   }

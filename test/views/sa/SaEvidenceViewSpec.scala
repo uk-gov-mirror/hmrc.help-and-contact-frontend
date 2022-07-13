@@ -35,9 +35,9 @@ class SaEvidenceViewSpec extends ViewBehaviours {
         assertLinkById(
           doc,
           "getting-evidence",
-          "Find out more about getting evidence of your income (opens in new tab)",
+          "Find out more about getting evidence of your income",
           "https://www.gov.uk/sa302-tax-calculation",
-          expectedOpensInNewTab = true
+          expectedOpensInNewTab = false
         )
       }
       "have a link to find your SA302" in {

@@ -189,9 +189,9 @@ class helpAndContactViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "ask-for-ct-utr",
-        "Ask for a copy of your Corporation Tax UTR (opens in new tab)",
+        "Ask for a copy of your Corporation Tax UTR",
         "http://localhost:9200/ask-for-copy-of-your-corporation-tax-utr",
-        expectedOpensInNewTab = true
+        expectedOpensInNewTab = false
       )
       assertLinkById(
         doc,

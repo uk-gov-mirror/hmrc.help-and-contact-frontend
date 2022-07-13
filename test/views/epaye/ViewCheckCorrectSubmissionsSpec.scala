@@ -47,9 +47,9 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       assertLinkById(
         doc,
         "payroll-guide",
-        "GOV.UK guide on payroll (opens in new tab)",
+        "GOV.UK guide on payroll",
         "https://www.gov.uk/running-payroll/fps-after-payday#viewing-late-fps-reports-in-your-hmrc-online-account",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
     "have the correct 'Change this address' link" in {
@@ -65,29 +65,29 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
       assertLinkById(
         doc,
         "view-user-guide",
-        "Basic PAYE Tools user guide (opens in new tab)",
+        "Basic PAYE Tools user guide",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
     "have the correct 'Basic PAYE Tools user guide (opens in new tab) ' link" in {
       assertLinkById(
         doc,
         "correct-user-guide",
-        "Basic PAYE Tools user guide (opens in new tab)",
+        "Basic PAYE Tools user guide",
         "https://www.gov.uk/government/publications/basic-paye-tools-user-guide/basic-paye-tools-user-guide",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
     "have the correct 'submit an Earlier Year Update' link" in {
       assertLinkById(
         doc,
         "submit-earlier-year-update",
-        "Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens in new tab)",
+        "Find out more in the section ‘if you’ve reported the wrong pay or deductions’",
         "https://www.gov.uk/payroll-errors/correcting-your-fps-or-eps",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
   }
 

@@ -46,30 +46,30 @@ class paymentsAndDeadlinesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "how-to-pay-vat",
-        "Read detailed information about how to pay your VAT bill (opens in new tab)",
+        "Read detailed information about how to pay your VAT bill",
         "https://www.gov.uk/pay-vat/bank-details",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
     "contain the 'get a refund of VAT paid in another EU country' link" in {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "get-eu-vat-refund",
-        "get a refund of VAT paid in another EU country (opens in new tab)",
+        "get a refund of VAT paid in another EU country",
         "https://www.gov.uk/guidance/vat-refunds-for-uk-businesses-buying-from-other-eu-countries",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
     "contain the 'input tax' link" in {
       val doc = asDocument(createView())
       assertLinkById(doc,
         "input-tax",
-        "rules for claiming input tax (opens in new tab)",
+        "rules for claiming input tax",
         "https://www.gov.uk/government/publications/vat-notice-700-the-vat-guide/vat-notice-700-the-vat-guide#input-tax-introduction-and-general-rules",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
 
   }

@@ -50,17 +50,17 @@ vat.payments_and_deadlines.the_deadline_for_submitting_ = Fel arfer, mae angen c
 vat.payments_and_deadlines.you_need_to_allow_time_ = Dylech ganiatáu digon o amser i’r taliad gyrraedd cyfrif CThEM.
 vat.payments_and_deadlines.vat_refunds_on_goods_imported_from_the_eu = Ad-daliadau TAW ar nwyddau wedi’u mewnforio o’r UE
 vat.payments_and_deadlines.you_can = Gallwch gael
-vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = ad-daliad o TAW a dalwyd mewn gwlad arall yn yr (yn agor tab newydd)
+vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country = ad-daliad o TAW a dalwyd mewn gwlad arall yn yr
 vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk = UE os ydych wedi’ch cofrestru ar gyfer TAW yn y DU, ond:
 vat.payments_and_deadlines.what_you_can_reclaim_depends = mae’r hyn y gallwch ei adennill yn dibynnu ar reolau hawlio TAW y wlad arall yn yr UE
 vat.payments_and_deadlines.the_rules_for_claiming = mae’r
-vat.payments_and_deadlines.input_tax = rheolau am hawlio treth fewnbwn (yn agor tab newydd)
+vat.payments_and_deadlines.input_tax = rheolau am hawlio treth fewnbwn
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = ychydig yn wahanol ym mhob gwlad yn yr UE
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob wlad yn yr UE wedi gosod isafswm a all gael ei ad-dalu
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
 vat.correct_a_mistake = Cywiro camgymeriadau ar eich Ffurflenni TAW
-vat.community_forum = Fforwm Cymunedol TAW (yn agor tab newydd)
-vat.payments_and_deadlines.how_to_pay_your_bill_link = Darllenwch wybodaeth fanwl am sut i dalu’ch bil TAW (yn agor tab newydd)
+vat.community_forum = Fforwm Cymunedol TAW
+vat.payments_and_deadlines.how_to_pay_your_bill_link = Darllenwch wybodaeth fanwl am sut i dalu’ch bil TAW
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -123,7 +123,7 @@ helpWithYourSelfAssessmentTaxReturn.first_sa_video = Fideo – Fy Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Eich Ffurflen Dreth Hunanasesiad gyntaf – trawsgrifiad fideo
 helpWithYourSelfAssessmentTaxReturn.help_completing = Help wrth lenwi a chyflwyno’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.watch_videos = Gallwch wylio fideos, cael e-byst hysbysu, cymryd rhan mewn gweminarau a
-helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma (yn agor tab newydd).
+helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma
 helpWithYourSelfAssessmentTaxReturn.how_to_tailor = Sut i deilwra’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Fideo – Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
@@ -134,10 +134,10 @@ helpWithYourSelfAssessmentTaxReturn.income_from_property_header = Os oes gennych
 helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Fideo – Os oes gennyf  incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = Os oes gennyf  incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? – trawsgrifiad fideo
 helpWithYourSelfAssessmentTaxReturn.more_help_with_sa = Rhagor o help gyda Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.who_must_file = Pwy sy’n gorfod cyflwyno Ffurflen Dreth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.need_to_change = Os oes angen i chi newid eich Ffurflen Dreth (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.who_must_file = Pwy sy’n gorfod cyflwyno Ffurflen Dreth
+helpWithYourSelfAssessmentTaxReturn.need_to_change = Os oes angen i chi newid eich Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.howtopaysa = Sut i dalu’ch Hunanasesiad
-helpWithYourSelfAssessmentTaxReturn.sa_resource = Rhestr o adnoddau ar gyfer Hunanasesiad (yn agor tab newydd)
+helpWithYourSelfAssessmentTaxReturn.sa_resource = Rhestr o adnoddau ar gyfer Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.your_first_self_assessment = Eich Ffurflen Dreth Hunanasesiad gyntaf
 helpWithYourSelfAssessmentTaxReturn.your_self_employed_return = Eich Ffurflen Dreth Hunangyflogaeth
 helpWithYourSelfAssessmentTaxReturn.if_i_have_income_from_property_ = Os oes gennyf  incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
@@ -149,7 +149,7 @@ helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = Teilwra’ch 
 helpWithYourSelfAssessmentTaxReturn.help_with_record = Rhagor o help gyda chadw cofnodion
 helpWithYourSelfAssessmentTaxReturn.business_records_if = Cofnodion busnes os ydych yn hunangyflogedig (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.keeping_pay = Cadw’ch cofnodion cyflog a threth (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.complete_and_file = llenwi a chyflwyno’ch Ffurflen Dreth erbyn (yn agor tab newydd).
+helpWithYourSelfAssessmentTaxReturn.complete_and_file = llenwi a chyflwyno’ch Ffurflen Dreth erbyn
 helpWithYourSelfAssessmentTaxReturn.income_from_property = Fideo - Incwm o eiddo - beth ydw i’n ei gynnwys ar fy Ffurflen Dreth? (yn agor tab newydd)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -172,9 +172,9 @@ helpWithMTDITSA.self_assessment_and_income_tax.heading = Hunanasesiad a’r cynl
 helpWithMTDITSA.self_assessment_and_income_tax.p1 = Hunanasesiad yw’r system y mae CThEM yn ei defnyddio ar hyn o bryd i gasglu Treth Incwm.
 helpWithMTDITSA.self_assessment_and_income_tax.p2 = Ar ôl i chi gofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm, bydd yn dal i fod yn rhaid i chi gyflwyno Ffurflen Dreth Hunanasesiad ar gyfer y flwyddyn dreth cyn yr un bresennol.
 helpWithMTDITSA.self_assessment_and_income_tax.p3 = Ar ôl hynny, bydd yn rhaid i chi
-helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = anfon diweddariadau chwarterol (yn agor tab newydd)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText1 = anfon diweddariadau chwarterol
 helpWithMTDITSA.self_assessment_and_income_tax.p3.1 = a
-helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = datganiad terfynol ar gyfer Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.self_assessment_and_income_tax.p3.linkText2 = datganiad terfynol ar gyfer Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.self_assessment_and_income_tax.p3.2 = ar gyfer y flwyddyn dreth bresennol.
 helpWithMTDITSA.self_assessment_and_income_tax.p4 = Mae hyn yn disodli’ch Ffurflen Dreth Hunanasesiad flynyddol.
 helpWithMTDITSA.self_assessment_and_income_tax.p5 = Does dim angen i chi dalu Treth Incwm yn chwarterol. Mae’ch Treth Incwm yn ddyledus bob 31 Ionawr ar ôl i’r flwyddyn dreth ddod i ben. Dyma’r un drefn ag a ddefnyddir ar gyfer Hunanasesiad.
@@ -188,19 +188,19 @@ helpWithMTDITSA.example_change.p4 = Hefyd, bydd yn rhaid i Jay ddechrau anfon di
 helpWithMTDITSA.example_change.p5 = Erbyn 31 Ionawr 2023, bydd yn rhaid i Jay hefyd:
 helpWithMTDITSA.example_change.p5.bullet1 = anfon datganiad terfynol ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm i CThEM ar gyfer blwyddyn dreth 2021 i 2022
 helpWithMTDITSA.example_change.p5.bullet2 = talu’r Dreth Incwm sy’n ddyledus ar gyfer blwyddyn dreth 2021 i 2022 i CThEM
-helpWithMTDITSA.example_change.linkText = Dysgwch ragor am y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.example_change.linkText = Dysgwch ragor am y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.sign_up.heading = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.sign_up.p1 = Ar ôl i chi
-helpWithMTDITSA.sign_up.p1.linkText = gofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.sign_up.p1.linkText = gofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.sign_up.p1.1 = gallwch
 helpWithMTDITSA.sign_up.p1.linkText1 = ychwanegu’r cynllun at eich cyfrif treth busnes
 helpWithMTDITSA.sign_up.p2 = Mae hyn yn ei gwneud yn hawdd i chi reoli Troi Treth yn Ddigidol ar gyfer Treth Incwm ar-lein ynghyd â’ch trethi busnes eraill.
 helpWithMTDITSA.sign_up.p3 = Efallai y bydd angen arnoch eitemau sy’n profi pwy ydych, er mwyn ychwanegu Troi Treth yn Ddigidol ar gyfer Treth Incwm at eich cyfrif.
 helpWithMTDITSA.getting_software.heading = Cael hyd i feddalwedd ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.getting_software.p1 = Mae’n rhaid i chi ddefnyddio meddalwedd er mwyn anfon eich diweddariadau chwarterol a’ch datganiad terfynol ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm.
-helpWithMTDITSA.getting_software.linkText = Dewch o hyd i feddalwedd ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.getting_software.linkText = Dewch o hyd i feddalwedd ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm
 helpWithMTDITSA.more_help.heading = Rhagor o help
-helpWithMTDITSA.more_help.linkText = Troi Treth yn Ddigidol ar gyfer Treth Incwm (yn agor tab newydd)
+helpWithMTDITSA.more_help.linkText = Troi Treth yn Ddigidol ar gyfer Treth Incwm
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -218,7 +218,7 @@ modular.sa_tax_return.list_partnerships = partneriaid mewn partneriaethau
 modular.sa_tax_return.list_trustees = ymddiriedolwyr
 modular.sa_tax_return.list_others = pobl debyg eraill
 modular.sa_tax_return.if_you_receive_hmrc = Os cewch Ffurflen Dreth, neu hysbysiad i gyflwyno un, mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth.
-modular.sa_tax_return.who_must_file_link = Pwy sy’n gorfod cyflwyno Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
+modular.sa_tax_return.who_must_file_link = Pwy sy’n gorfod cyflwyno Ffurflen Dreth Hunanasesiad
 modular.sa_tax_return.if_you_receive_return = Os cewch Ffurflen Dreth, neu hysbysiad i gyflwyno un, mae’n rhaid i chi lenwi a chyflwyno Ffurflen Dreth.
 modular.sa_tax_return.file_tax_return = Os oes rhaid i chi gyflwyno Ffurflen Dreth, byddwch yn gwneud hynny ar ôl diwedd y flwyddyn dreth y mae’n berthnasol iddi.
 modular.sa_tax_return.sa_tax_year = Mae’r flwyddyn dreth Hunanasesiad yn rhedeg rhwng 6 Ebrill a 5 Ebrill. Ar gyfer blwyddyn dreth 6 Ebrill {0} i 5 Ebrill {1}, mae’n rhaid i chi gyflwyno’ch Ffurflen Dreth erbyn 31 Ionawr {2}.
@@ -234,7 +234,7 @@ modular.sa_tax_return.list_complete_and_file = llenwi a chyflwyno’ch Ffurflen 
 modular.sa_tax_return.list_pay_what_you_owe = talu’r hyn sydd arnoch erbyn 31 Ionawr {0}
 modular.sa_tax_return.if_you_do_not_register = Os na fyddwch yn cyflwyno neu’n talu mewn pryd, efallai y bydd yn rhaid i chi dalu cosb.
 modular.sa_tax_return.have_not_received = Os nad ydych wedi cael hysbysiad i gyflwyno Ffurflen Dreth Hunanasesiad,
-modular.sa_tax_return.have_not_received_link = gallwch wirio’n ddienw a oes angen i chi gyflwyno Ffurflen Dreth (yn agor tab newydd).
+modular.sa_tax_return.have_not_received_link = gallwch wirio’n ddienw a oes angen i chi gyflwyno Ffurflen Dreth
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Viewing your SA calculation
@@ -271,8 +271,8 @@ modular.basicRecordKeeping.example = Enghraifft: Ar gyfer blwyddyn dreth 2019 i 
 modular.basicRecordKeeping.record_keeping_video = Fideo – Cadw cofnodion sylfaenol ar gyfer pobl hunangyflogedig (yn agor tab newydd)
 modular.basicRecordKeeping.record_keeping_transcript = Cadw cofnodion sylfaenol pan fyddwch yn hunangyflogedig – trawsgrifiad fideo
 modular.basicRecordKeeping.more_help_record = Rhagor o help gyda chadw cofnodion
-modular.basicRecordKeeping.self_record = Cofnodion busnes os ydych yn hunangyflogedig (yn agor tab newydd)
-modular.basicRecordKeeping.keeping_pay_and_tax = Cadw’ch cofnodion cyflog a threth (yn agor tab newydd)
+modular.basicRecordKeeping.self_record = Cofnodion busnes os ydych yn hunangyflogedig
+modular.basicRecordKeeping.keeping_pay_and_tax = Cadw’ch cofnodion cyflog a threth
 
 
 
@@ -285,25 +285,25 @@ register_or_stopping.help_page = Cofrestru neu stopio
 register_or_stopping.hidden_prefix = Hunanasesiad:
 register_or_stopping.class_2_ni = Cyfraniadau Yswiriant Gwladol Dosbarth 2
 register_or_stopping.when_you_register = Pan fyddwch yn cofrestru ar gyfer Hunanasesiad fel unigolyn hunangyflogedig, rydych hefyd yn cofrestru ar
-register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2 (yn agor tab newydd).
+register_or_stopping.class_2_link =  gyfer cyfraniadau Yswiriant Gwladol Dosbarth 2
 register_or_stopping.registering_for_sa = Cofrestru ar gyfer Hunanasesiad
 register_or_stopping.unique_taxpayer = Rhif 10 digid yw’ch Cyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer Hunanasesiad. Gallwch ddod o hyd iddo ar y canlynol:
 register_or_stopping.list_welcome_letter = eich llythyr Croeso i Hunanasesiad (SA250)
 register_or_stopping.list_previous_tax_returns = Ffurflenni Treth a gafodd eu llenwi gennych mewn blynyddoedd blaenorol
 register_or_stopping.list_other_documents = dogfennau eraill gan CThEM
-register_or_stopping.can_find_utr = Gallwch ddod o hyd i’ch UTR (yn agor tab newydd) os nad ydych yn gwybod beth ydyw.
+register_or_stopping.can_find_utr = Gallwch ddod o hyd i’ch UTR os nad ydych yn gwybod beth ydyw.
 register_or_stopping.not_self_employed = Os nad ydych yn hunangyflogedig
 register_or_stopping.did_not_file_return = Os na wnaethoch gyflwyno Ffurflen Dreth y llynedd a bod yn rhaid i chi gyflwyno un eleni,
-register_or_stopping.sa1_link = defnyddiwch ffurflen SA1 i gofrestru ar gyfer Hunanasesiad (yn agor tab newydd).
+register_or_stopping.sa1_link = defnyddiwch ffurflen SA1 i gofrestru ar gyfer Hunanasesiad.
 register_or_stopping.are_self_employed = Os ydych yn hunangyflogedig
 register_or_stopping.did_not_file_this_year = Os na wnaethoch gyflwyno Ffurflen Dreth y llynedd a bod yn rhaid i chi gyflwyno un eleni,
 register_or_stopping.register_link = cofrestrwch ar gyfer Hunanasesiad (yn agor tab newydd).
 register_or_stopping.partnership = Os ydych yn bartner neu’n bartneriaeth
 register_or_stopping_utr_reference = Bydd angen y Cyfeirnod Unigryw y Trethdalwr (UTR) arnoch ar gyfer y bartneriaeth a’ch UTR personol eich hun os oes gennych un eisoes.
 register_or_stopping.new_partnership = Os yw’n bartneriaeth newydd, bydd yn rhaid i’r partner enwebedig hefyd gofrestru’r bartneriaeth.
-register_or_stopping.more_about_registering = Dysgwch ragor am gofrestru fel partner neu bartneriaeth (yn agor tab newydd).
+register_or_stopping.more_about_registering = Dysgwch ragor am gofrestru fel partner neu bartneriaeth.
 register_or_stopping.sa_guidance = Arweiniad Hunanasesiad
-register_or_stopping.learn_sa = Dysgu am Hunanasesiad (yn agor tab newydd)
+register_or_stopping.learn_sa = Dysgu am Hunanasesiad
 register_or_stopping.registering_sa_video = Fideo – Cofrestru ar gyfer Hunanasesiad (yn agor tab newydd)
 register_or_stopping.registering_sa_transcript = Cofrestru ar gyfer Hunanasesiad - trawsgrifiad fideo
 register_or_stopping.stop_sa = Stopio Hunanasesiad
@@ -333,18 +333,18 @@ payment_and_penalties.payment_balancing = 31 Ionawr {0} ar gyfer eich taliad man
 payment_and_penalties.first_payment = 31 Ionawr {0} ar gyfer eich taliad ar gyfrif cyntaf. Mae hyn ar gyfer blwyddyn dreth {1} i {2}
 payment_and_penalties.second_payment = 1 Gorffennaf {0} ar gyfer eich ail daliad ar gyfrif. Mae hyn ar gyfer blwyddyn dreth {1} i {2}
 payment_and_penalties.dont_wait = Does dim rhaid i chi aros tan 31 Ionawr neu 31 Gorffennaf i’w dalu. Os byddwch yn gwneud hynny, efallai y byddwch yn methu’r dyddiad cau, yn dibynnu ar sut rydych yn talu.
-payment_and_penalties.understanding_payments = Deall taliadau mantoli a thaliadau ar gyfrif (yn agor tab newydd)
+payment_and_penalties.understanding_payments = Deall taliadau mantoli a thaliadau ar gyfrif
 payment_and_penalties.how_to_pay_bill = Sut i dalu’ch bil treth Hunanasesiad
 payment_and_penalties.make_sure = Gwnewch yn siŵr eich bod yn talu CThEM erbyn y dyddiad cau.
 payment_and_penalties.pay_penalty_link = Os bydd eich taliad yn hwyr,
 payment_and_penalties.late_payment = codir llog arnoch ac efallai y bydd yn rhaid i chi dalu cosb.
 payment_and_penalties.depends = Mae’r amser y mae angen i chi ei ganiatáu yn dibynnu ar eich dull o dalu.
 payment_and_penalties.no_longer = Ni allwch dalu yn Swyddfa’r Post mwyach.
-payment_and_penalties.read_info = Darllenwch wybodaeth fanwl am ffyrdd o dalu’ch bil treth (yn agor tab newydd)
+payment_and_penalties.read_info = Darllenwch wybodaeth fanwl am ffyrdd o dalu’ch bil treth
 payment_and_penalties.how_do_i_pay_video = Fideo – Sut rydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
 payment_and_penalties.how_do_i_pay_transcript = Sut rydw i’n talu fy mil treth Hunanasesiad? – trawsgrifiad fideo
 payment_and_penalties.budgeting_for_sa = Cyllidebu ar gyfer eich bil treth Hunanasesiad
-payment_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig (yn agor tab newydd)
+payment_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig
 payment_and_penalties.how_do_i_budget_video = Fideo – Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
 payment_and_penalties.how_do_i_budget_transcript = Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? – trawsgrifiad fideo
 payment_and_penalties.penalties = Cosbau
@@ -354,16 +354,16 @@ payment_and_penalties.list_paid_late = ydych wedi talu treth yn hwyr
 payment_and_penalties.list_not_enough = nad ydych wedi talu digon o dreth
 payment_and_penalties.appeal_penalty = Apelio yn erbyn cosb
 payment_and_penalties.appeal_if = Gallwch apelio yn erbyn cosb os oes gennych
-payment_and_penalties.excuse_link = esgus rhesymol (yn agor tab newydd)
+payment_and_penalties.excuse_link = esgus rhesymol
 payment_and_penalties.you_must_appeal =. Mae’n rhaid i chi apelio cyn pen 30 diwrnod i’r dyddiad yr anfonwyd y gosb atoch.
-payment_and_penalties.find_more = Dysgwch ragor am gosbau Hunanasesiad (yn agor tab newydd)
-payment_and_penalties.interest_rates = Cyfraddau llog ar gyfer taliadau hwyr a thaliadau cynnar (yn agor tab newydd)
+payment_and_penalties.find_more = Dysgwch ragor am gosbau Hunanasesiad
+payment_and_penalties.interest_rates = Cyfraddau llog ar gyfer taliadau hwyr a thaliadau cynnar
 payment_and_penalties.sa_penalties_video = Fideo - Cosbau Hunanasesiad (yn agor tab newydd)
 payment_and_penalties.sa_penalties_transcript = Cosbau Hunanasesiad – trawsgrifiad fideo
 payment_and_penalties.penalties_interest = Eich cosbau a llog
 payment_and_penalties.conditional.you_can = Gallwch wneud y canlynol:
 payment_and_penalties.conditional.appeal_sa_late = apelio ar-lein yn erbyn cosb o £100 am gyflwyno Ffurflen Dreth Hunanasesiad yn hwyr (yn agor tab newydd)
-payment_and_penalties.conditional.appeal_filling = defnyddio ffurflen SA370 i apelio yn erbyn unrhyw gosb am gyflwyno neu dalu’n hwyr (yn agor tab newydd)
+payment_and_penalties.conditional.appeal_filling = defnyddio ffurflen SA370 i apelio yn erbyn unrhyw gosb am gyflwyno neu dalu’n hwyr
 payment_and_penalties.conditional.or = neu
 payment_and_penalties.conditional.write_hmrc = ysgrifennu at CThEM
 payment_and_penalties.conditional.reasons_for = i apelio yn erbyn unrhyw gosb am gyflwyno neu dalu’n hwy
@@ -383,7 +383,7 @@ expenses.can_include = Treuliau y gallwch eu cynnwys yn eich Ffurflen Dreth Huna
 expenses.allowable_expenses = Dylech gynnwys eich holl dreuliau caniataol ar gyfer y flwyddyn dreth o 6 Ebrill i 5 Ebrill ar eich Ffurflen Dreth Hunanasesiad.
 expenses.send_proof = Nid oes rhaid i chi anfon tystiolaeth o’ch treuliau pan fyddwch yn cyflwyno’ch Ffurflen Dreth. 
 expenses.keep_proof = Dylech gadw tystiolaeth a chofnodion fel y gallwch eu dangos i CThEM, os gofynnir i chi wneud hynny. Mae’n rhaid i chi wneud yn siŵr bod eich cofnodion yn gywir.
-expenses.find_out_more = Dysgwch ragor am dreuliau caniataol os ydych yn hunangyflogedig (yn agor tab newydd)
+expenses.find_out_more = Dysgwch ragor am dreuliau caniataol os ydych yn hunangyflogedig
 expenses.what_expenses_video = Fideo - Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
 expenses.what_expenses_transcript = Pa dreuliau y gallaf eu cynnwys yn fy Ffurflen Dreth Hunanasesiad? – trawsgrifiad fideo
 expenses.simplified = Treuliau symlach
@@ -397,7 +397,7 @@ expenses.keep_records = Cadwch gofnodion o’r canlynol yn ystod y flwyddyn dret
 expenses.list_mileage = ymilltiroedd busnes eich cerbyd
 expenses.list_hours = hyr oriau yr ydych yn gweithio gartref
 expenses.list_how_many = nifer y bobl sy’n byw yn eich safle busnes
-expenses.find_out_more_simplified = Dysgwch ragor am dreuliau symlach (yn agor tab newydd)
+expenses.find_out_more_simplified = Dysgwch ragor am dreuliau symlach
 expenses.claiming_travel_header = Hawlio treuliau teithio os ydych yn hunangyflogedig
 expenses.allowable_business_expense = Gallwch hawlio treuliau busnes caniataol ar gyfer eitemau megis tanwydd ac yswiriant cerbyd.
 expenses.cannot_claim = Ni allwch hawlio am gostau gyrru neu deithio nad ydynt at ddefnydd busnes, nac am ddirwyon neu gostau teithio rhwng y cartref a’r gwaith.
@@ -405,8 +405,8 @@ expenses.actual_costs = Gallwch hawlio naill ai’r costau gwirioneddol, neu gyf
 expenses.decide_to_use = Os penderfynwch ddefnyddio’r costau gwirioneddol, bydd angen i chi wybod faint o filltiroedd y mae’r cerbyd wedi’i wneud dros y flwyddyn. Yna, cyfrifwch pa ganran oedd at ddiben busnes. Gallwch hefyd hawlio lwfans cyfalaf am brynu’r cerbyd.
 expenses.flat_rate_covers = Mae’r gyfradd unffurf yn cwmpasu’r holl gost o brynu, rhedeg a chynnal y cerbyd, felly ni allwch hawlio lwfans cyfalaf am ei brynu.
 expenses.claiming_travel = Rhagor o help gyda hawlio treuliau teithio
-expenses.travel_if = Treuliau teithio os ydych yn hunangyflogedig (yn agor tab newydd)
-expenses.simplified_motoring_expenses = Treuliau moduro symlach os ydych yn hunangyflogedig (yn agor tab newydd)
+expenses.travel_if = Treuliau teithio os ydych yn hunangyflogedig
+expenses.simplified_motoring_expenses = Treuliau moduro symlach os ydych yn hunangyflogedig
 expenses.motoring_expenses_video = Fideo – Hawlio treuliau moduro os ydych yn hunangyflogedig (yn agor tab newydd)
 expenses.motoring_expenses_transcript = Hawlio treuliau moduro os ydych yn hunangyflogedig – trawsgrifiad fideo
 
@@ -424,7 +424,7 @@ sa302.evidence.list_print_calculation = argraffu’ch cyfrifiad a’ch trosolwg 
 sa302.evidence.might_be = Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
 sa302.evidence.check_mortgage = Gwiriwch fod eich darparwr morgais yn derbyn dogfennau rydych wedi’u hargraffu eich hun.
 sa302.evidence.print_documents = Ni allwch argraffu’ch dogfennau tan hyd at 72 awr ar ôl i chi anfon eich Ffurflen Dreth.
-sa302.evidence.evidence_of_income = Dysgwch ragor am gael tystiolaeth o’ch incwm (yn agor tab newydd)
+sa302.evidence.evidence_of_income = Dysgwch ragor am gael tystiolaeth o’ch incwm
 sa302.evidence.find_sa302 = Dod o hyd i’ch SA302
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -466,7 +466,7 @@ sa.evidence.where_to_get.pre_link=Gallwch gael eich SA302 yn adran
 sa.evidence.where_to_get.link_text=‘Rhagor o fanylion Hunanasesiad’
 sa.evidence.where_to_get.post_link=eich cyfrif.
 sa.evidence.why_you_might_need_documents=Efallai y gofynnir i chi am y dogfennau hyn fel tystiolaeth o’ch incwm, er enghraifft, os ydych yn gwneud cais am forgais a’ch bod yn hunangyflogedig.
-sa.evidence.community_forum = Fforwm Cymunedol Hunanasesiad (yn agor tab newydd)
+sa.evidence.community_forum = Fforwm Cymunedol Hunanasesiad
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -517,7 +517,7 @@ epaye.paye_and_cis_refunds.cis_refunds = Ad-daliadau CIS
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad <span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS (yn agor tab newydd)
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad <span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -548,7 +548,7 @@ epaye.submissions.when_you_can_view_ = Pryd y gallwch weld eich cyflwyniadau
 epaye.submissions.submissions_show_up_ = Mae cyflwyniadau yn ymddangos yn eich balans ar adegau gwahanol, yn dibynnu ar bryd yr ydych yn eu cyflwyno.
 epaye.submissions.if_you_make_fps_on_time_ = Os ydych yn gwneud Cyflwyniad Taliadau Llawn (FPS) mewn pryd, caiff eich balans ei ddiweddaru erbyn y 12fed o’r mis nesaf.
 epaye.submissions.if_you_make_fps_late_ = Os ydych yn cyflwyno FPS yn hwyr, gweler y
-epaye.submissions.gov_uk_guide_on_payroll = canllaw ynghylch y gyflogres ar GOV.UK (yn agor tab newydd)
+epaye.submissions.gov_uk_guide_on_payroll = canllaw ynghylch y gyflogres ar GOV.UK
 epaye.submissions.eps_between_20th_and_5th_ = Os ydym yn cael Crynodeb o Daliadau’r Cyflogwr (EPS) rhwng yr 20fed a’r 5ed o’r mis, caiff eich balans ei ddiweddaru erbyn y 12fed o’r mis nesaf.
 epaye.submissions.eps_between_6th_and_19th_ = Os ydym yn cael EPS rhwng y 6ed a’r 19eg o’r mis, caiff eich balans ei ddiweddaru cyn pen 1 diwrnod.
 epaye.submissions.your_payments_to_hmrc = Eich taliadau i CThEM
@@ -565,7 +565,7 @@ epaye.submissions.payroll_software_confirmations = Cadarnhad meddalwedd y gyflog
 epaye.submissions.you_can_also_check_ = Gallwch hefyd wirio neu weld cyflwyniadau ym meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
 epaye.submissions.to_check_if_hmrc_received_ = Er mwyn gwirio a yw CThEM wedi cael cyflwyniad, dewiswch 'Gweld y cyflwyniadau sydd wedi llwyddo' ar eich hafan i gyflogwyr.
 epaye.submissions.to_view_a_specific_submission_ = Er mwyn gweld cyflwyniad penodol, dilynwch y cyfarwyddiadau hyn yn y canllaw i ddefnyddwyr, ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’:
-epaye.submissions.user_guide = canllaw ynghylch defnyddio Offer TWE Sylfaenol (yn agor tab newydd)
+epaye.submissions.user_guide = canllaw ynghylch defnyddio Offer TWE Sylfaenol
 epaye.submissions.but_select_ = , ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’.
 epaye.submissions.contact_your_software_provider_ = Cysylltwch â darparwr eich meddalwedd os nad ydych yn defnyddio BPT.
 epaye.submissions.correct_a_paye_submission = Cywiro cyflwyniad TWE
@@ -576,15 +576,15 @@ epaye.submissions.follow_the = Dilynwch y
 epaye.submissions.if_you_use_ = os ydych yn defnyddio meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
 epaye.submissions.submissions_from_an_earlier_tax_year = Cyflwyniadau o flwyddyn dreth gynharach
 epaye.submissions.if_you_spot_an_error_ = Os ydych wedi gwneud camgymeriad mewn cyflwyniad ar ôl i’r flwyddyn dreth honno ddod i ben, mae’n rhaid i chi gyflwyno Diweddariad Blwyddyn Gynharach os bydd hynny ar ôl 19 Ebrill.
-epaye.submissions.community_forum = Fforwm Cymunedol TWE i gyflogwyr (yn agor tab newydd)
-epaye.submissions.find_out_more_wrong_pay = Mae rhagor o wybodaeth i’w chael yn yr adran ‘os ydych wedi rhoi gwybod am y tâl neu’r didyniadau anghywir’ (yn agor tab newydd)
+epaye.submissions.community_forum = Fforwm Cymunedol TWE i gyflogwyr
+epaye.submissions.find_out_more_wrong_pay = Mae rhagor o wybodaeth i’w chael yn yr adran ‘os ydych wedi rhoi gwybod am y tâl neu’r didyniadau anghywir’
 
 
 #######################################################
 ##  Corporation Tax
 #######################################################
 
-ct.ask_for_a_copy_ = Gofynnwch am gopi o’ch UTR Treth Gorfforaeth (yn agor tab newydd)
+ct.ask_for_a_copy_ = Gofynnwch am gopi o’ch UTR Treth Gorfforaeth
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -627,19 +627,19 @@ ct.how_to_pay.deadlines.heading = Dyddiadau cau
 ct.how_to_pay.deadlines.body = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
 ct.how_to_pay.up_to_1point5_million.heading = Os yw eich elw trethadwy hyd at £1.5 miliwn
 ct.how_to_pay.up_to_1point5_million.body = Rhaid i chi dalu eich Treth Gorfforaeth naw mis ac un diwrnod ar ôl diwedd eich cyfnod cyfrifyddu. Fel arfer eich cyfnod cyfrifyddu yw’ch blwyddyn ariannol, ond mae’n bosibl y bydd gennych ddau gyfnod cyfrifyddu yn ystod
-ct.how_to_pay.year_company_set_up = y flwyddyn rydych yn sefydlu eich cwmni (yn agor tab newydd)
+ct.how_to_pay.year_company_set_up = y flwyddyn rydych yn sefydlu eich cwmni
 ct.how_to_pay.more_than_1point5_million.heading = Os yw eich elw trethadwy dros £1.5 miliwn
 ct.how_to_pay.you_must_pay_ = Rhaid i chi
-ct.how_to_pay.instalments = dalu eich Treth Gorfforaeth mewn rhandaliadau (yn agor tab newydd)
+ct.how_to_pay.instalments = dalu eich Treth Gorfforaeth mewn rhandaliadau
 ct.how_to_pay.make_sure_you_pay_ = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
-ct.how_to_pay.charge_you_interest = codi llog arnoch (yn agor tab newydd)
+ct.how_to_pay.charge_you_interest = codi llog arnoch
 ct.how_to_pay.if_you_do_not_pay_on_time_ = os na fyddwch yn talu mewn pryd. Byddant yn
-ct.how_to_pay.pay_you_interest = talu llog i chi (yn agor tab newydd)
+ct.how_to_pay.pay_you_interest = talu llog i chi
 ct.how_to_pay.if_you_pay_your_tax_early = os byddwch yn talu’ch treth yn gynnar.
 ct.how_to_pay.ways_to_pay = Dulliau talu
 ct.how_to_pay.you_can_no_longer_pay_ = Ni allwch dalu yn Swyddfa’r Post mwyach. Ni allwch dalu Treth Gorfforaeth drwy’r post.
 ct.how_to_pay.the_time_you_need_ = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
-ct.how_to_pay.detailed_info = Darllenwch wybodaeth fanwl am sut i dalu’ch bil Treth Gorfforaeth (yn agor tab newydd)
+ct.how_to_pay.detailed_info = Darllenwch wybodaeth fanwl am sut i dalu’ch bil Treth Gorfforaeth
 ct.how_to_pay.video = Fideo - Talu eich bil Treth Gorfforaeth (yn agor tab newydd)
 ct.how-to_pay.video.transcript = Talu eich bil Treth Gorfforaeth – trawsgrifiad fideo
 
@@ -656,7 +656,7 @@ ct.register_deregister.add_ct.heading = Ychwanegwch Dreth Gorfforaeth i’ch cyf
 ct.register_deregister.no_longer_trading.heading = Dweud wrth CThEM nad ydych yn masnachu mwyach
 
 ct.register_deregister_after_you_have = Pan fyddwch wedi
-ct.register_deregister.register_with_companies_house = cofrestru’ch cwmni (yn agor tab newydd)
+ct.register_deregister.register_with_companies_house = cofrestru’ch cwmni
 ct.register_deregister.with_companies_house_ = gyda Thŷ’r Cwmnïau, mae’n rhaid i chi
 ct.register_deregister.register_link = gofrestru ar gyfer Treth Gorfforaeth
 ct.register_deregister.3months = gyda Chyllid a Thollau EM (CThEM) cyn pen 3 mis o fod yn weithgar.
@@ -667,7 +667,7 @@ ct.register_deregister.being_active.3 = hysbysebu
 ct.register_deregister.being_active.4 = rhoi eiddo ar osod
 ct.register_deregister.being_active.5 = cyflogi rhywun
 ct.register_deregister.being_active.6 = gweithgarwch masnachu tebyg
-ct.register_deregister.check_link = Gwiriwch os ydych yn ansicr ynghylch beth sy’n cyfrif fel bod yn weithgar (yn agor tab newydd)
+ct.register_deregister.check_link = Gwiriwch os ydych yn ansicr ynghylch beth sy’n cyfrif fel bod yn weithgar
 ct.register_deregister.dormant = Mae’n rhaid i chi hefyd gofrestru’ch cwmni ar gyfer Treth Gorfforaeth gyda CThEM os yw’ch cwmni wedi’i gofrestru’n segur, ond ei fod yn weithgar erbyn hyn
 
 ct.register_deregister.penalty_notice_ = Mae’n bosibl y codir cosb arnoch os byddwch yn cofrestru’n hwyr.
@@ -679,7 +679,7 @@ ct.register_deregister.no_utr_ = os na chawsoch un ar ôl cofrestru’ch cwmni.
 ct.register_deregister.also_need = Hefyd, bydd angen y canlynol arnoch:
 ct.register_deregister.also_need.1 = rhif cofrestru eich cwmni
 ct.register_deregister.also_need.2_a = y dyddiad y gwnaethoch ddechrau bod yn weithgar - byd
-ct.register_deregister.also_need.2_link = cyfnod cyfrifyddu cyntaf eich busnes (yn agor tab newydd)
+ct.register_deregister.also_need.2_link = cyfnod cyfrifyddu cyntaf eich busnes
 ct.register_deregister.also_need.2_b = yn dechrau ar y dyddiad hwn
 ct.register_deregister.also_need.3 = dyddiad cau eich cyfrifon blynyddol (dyddiad paratoi’r cyfrifon)
 
@@ -692,7 +692,7 @@ ct.register_deregister.add_to = er mwyn:
 ct.register_deregister.add.1 = cyflwyno’ch Ffurflen Dreth y Cwmni ar-lein
 ct.register_deregister.add.2 = talu ar-lein
 ct.register_deregister_stop_paying_ = I roi’r gorau i dalu Treth Gorfforaeth, mae’n rhaid i chi
-ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig (yn agor tab newydd)
+ct.register_deregister_close_company_ = gau’r cwmni cyfyngedig
 
 #######################################################
 ##  Transcripts
@@ -1186,7 +1186,7 @@ help_and_contact.making_tax_digital = Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.sign_up.making_tax_digital = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.making_tax_digital_webinar = Gweminarau Troi Treth yn Ddigidol ar gyfer TAW
 help_and_contact.contact_hmrc_about_mtd = Cysylltu â CThEM am y cynllun Troi Treth yn Ddigidol ar gyfer TAW
-help_and_contact.community_forum = Fforwm Cymunedol Troi Treth yn Ddigidol ar gyfer TAW (yn agor tab newydd)
+help_and_contact.community_forum = Fforwm Cymunedol Troi Treth yn Ddigidol ar gyfer TAW
 
 
 ###########################################
@@ -1355,7 +1355,7 @@ help.withYourBta.manage.heading = Sut i reoli manylion eich cyfrif treth busnes
 help.withYourBta.manage.p1 = Cadwch gofnod o’r Dynodydd Defnyddiwr (ID) a’r cyfrinair ar gyfer Porth y Llywodraeth a ddefnyddiwyd gennych i greu eich cyfrif treth busnes.
 help.withYourBta.manage.p2 = Mae’ch cyfrif treth busnes yn defnyddio dull gwirio 2 gam. Byddwn yn gofyn i chi nodi cod cyrchu a anfonir i ap neu ddyfais arall.
 help.withYourBta.manage.p3 = Peidiwch â chreu Dynodydd Defnyddiwr (ID) a chyfrinair arall ar gyfer Porth y Llywodraeth. I weld eich trethi busnes i gyd yn yr un lle, mae’n rhaid i chi ddefnyddio
-help.withYourBta.manage.link1 = un Dynodydd Defnyddiwr (ID) yn unig ar gyfer pob un o’ch gwasanaethau treth busnes ar-lein (yn agor tab newydd)
+help.withYourBta.manage.link1 = un Dynodydd Defnyddiwr (ID) yn unig ar gyfer pob un o’ch gwasanaethau treth busnes ar-lein
 help.withYourBta.manage.p4 = a’i ddefnyddio i fewngofnodi i’r cyfrif treth busnes.
 help.withYourBta.manage.link2 = Rheoli’ch manylion ar gyfer Porth y Llywodraeth
 
@@ -1367,7 +1367,7 @@ help.withYourBta.difference.bullet3 = budd-daliadau
 help.withYourBta.difference.bullet4 = Yswiriant Gwladol
 help.withYourBta.difference.bullet5 = Pensiwn y Wladwriaeth
 help.withYourBta.difference.bullet6 = manylion a chofnodion personol eraill
-help.withYourBta.difference.link1 = Darllenwch ragor am eich cyfrif treth personol (yn agor tab newydd)
+help.withYourBta.difference.link1 = Darllenwch ragor am eich cyfrif treth personol
 help.withYourBta.difference.p2 = Mae’ch cyfrif treth busnes ar gyfer rheoli’r canlynol ar-lein:
 help.withYourBta.difference.bullet7 = Hunanasesiad
 help.withYourBta.difference.bullet8 = Troi Treth yn Ddigidol ar gyfer Treth Incwm
@@ -1376,7 +1376,7 @@ help.withYourBta.difference.bullet10 = Troi Treth yn Ddigidol ar gyfer TAW
 help.withYourBta.difference.bullet11 = Treth Gorfforaeth
 help.withYourBta.difference.bullet12 = TWE i gyflogwyr
 help.withYourBta.difference.bullet13 = trethi, tollau a chynlluniau busnes eraill
-help.withYourBta.difference.link2 = Darllenwch y rhestr lawn o drethi, tollau a chynlluniau y gallwch eu rheoli (yn agor tab newydd)
+help.withYourBta.difference.link2 = Darllenwch y rhestr lawn o drethi, tollau a chynlluniau y gallwch eu rheoli
 
 help.withYourBta.using.heading = Defnyddio’ch cyfrif treth busnes
 help.withYourBta.using.p1 = Defnyddiwch eich cyfrif i wneud y canlynol:
@@ -1425,7 +1425,7 @@ help.changingDetails.changeTeamMember.p3 = Os bydd gweinyddwr yn tynnu dewisiada
 help.changingDetails.changeTeamMember.p4 = I newid neu tynnu rhif ffôn neu ap dilysu gweinyddwr, bydd yn rhaid i’r gweinyddwr ffonio CThEM.
 
 help.changingDetails.moreHelp.heading = Rhagor o help
-help.changingDetails.moreHelp.linkText = Help gyda gwasanaethau CThEM os ydych yn cael problemau wrth fewngofnodi (yn agor tab newydd)
+help.changingDetails.moreHelp.linkText = Help gyda gwasanaethau CThEM os ydych yn cael problemau wrth fewngofnodi
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

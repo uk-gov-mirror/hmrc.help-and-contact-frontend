@@ -52,14 +52,14 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
 
     "have correct content" in {
       val doc = asDocument(createView())
-      doc.text() must include("When you have registered your company (opens in new tab) with Companies House, you must register for Corporation Tax with HM Revenue and Customs (HMRC) within 3 months of being active.")
+      doc.text() must include("When you have registered your company with Companies House, you must register for Corporation Tax with HM Revenue and Customs (HMRC) within 3 months of being active.")
       doc.text() must include("buying")
       doc.text() must include("selling")
       doc.text() must include("advertising")
       doc.text() must include("renting a property")
       doc.text() must include("employing someone")
       doc.text() must include("similar trading activity")
-      doc.text() must include("Check if you’re unsure what counts as being active (opens in new tab).")
+      doc.text() must include("Check if you’re unsure what counts as being active.")
       doc.text() must include("You must also register your company for Corporation Tax with HMRC if your company is registered as dormant, but is now active")
       doc.text() must include("You may get a penalty if you register late.")
       doc.text() must include("You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR).")
@@ -67,15 +67,15 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       doc.text() must include("Request your company’s Unique Taxpayer Reference UTR online if you did not get one after registering your company.")
       doc.text() must include("You’ll also need:")
       doc.text() must include("your company’s registration number (CRN)")
-      doc.text() must include("the date you started to be active - your company’s first accounting period (opens in new tab) will start from this date")
+      doc.text() must include("the date you started to be active - your company’s first accounting period will start from this date")
       doc.text() must include("the date your annual accounts are made up to (the accounts preparation date)")
       doc.getElementsByTag("article").first.getElementsByTag("h3").text() must include("What happens next")
       doc.text() must include("HMRC will tell you the deadline for paying Corporation Tax.")
-      doc.text() must include("You must file a Company Tax Return (opens in new tab), even if you make a loss or have no Corporation Tax to pay.")
+      doc.text() must include("You must file a Company Tax Return, even if you make a loss or have no Corporation Tax to pay.")
       doc.text() must include("Add Corporation Tax to your business tax account to:")
       doc.text() must include("file your Company Tax return online")
       doc.text() must include("make a payment online")
-      doc.text() must include("To stop paying Corporation Tax, you must close the limited company (opens in new tab).")
+      doc.text() must include("To stop paying Corporation Tax, you must close the limited company.")
 
     }
 
@@ -84,9 +84,9 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "register-company-house",
-        "registered your company (opens in new tab)",
+        "registered your company",
         "https://www.gov.uk/limited-company-formation/register-your-company",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
 
       assertLinkById(
         doc,
@@ -100,10 +100,10 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "check-unsure-active",
-        "Check if you’re unsure what counts as being active (opens in new tab)",
+        "Check if you’re unsure what counts as being active",
         "https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading",
 
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
 
       assertLinkById(
         doc,
@@ -116,16 +116,16 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "accounting-period",
-        "accounting period (opens in new tab)",
+        "accounting period",
         "https://www.gov.uk/corporation-tax-accounting-period",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
 
       assertLinkById(
         doc,
         "company-tax-returns",
-        "Company Tax Return (opens in new tab)",
+        "Company Tax Return",
         "https://www.gov.uk/company-tax-returns",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
 
       assertLinkById(
         doc,
@@ -136,9 +136,9 @@ class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "close-limited-company",
-        "close the limited company (opens in new tab)",
+        "close the limited company",
         "https://www.gov.uk/closing-a-limited-company",
-        expectedOpensInNewTab = true)
+        expectedOpensInNewTab = false)
     }
   }
 }
