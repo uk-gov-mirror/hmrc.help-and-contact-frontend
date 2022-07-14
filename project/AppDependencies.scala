@@ -8,11 +8,11 @@ private object AppDependencies {
 
   val compile: Seq[ModuleID] = Seq(
     ws,
-    "uk.gov.hmrc" %% "http-caching-client" % "9.5.0-play-28",
-    "uk.gov.hmrc" %% "bootstrap-frontend-play-28" % "5.24.0",
+    "uk.gov.hmrc" %% "http-caching-client" % "9.6.0-play-28",
+    "uk.gov.hmrc" %% "bootstrap-frontend-play-28" % "6.3.0",
     "uk.gov.hmrc" %% "play-language" % "5.1.0-play-28",
-    "uk.gov.hmrc" %% "tax-year" % "1.3.0",
-    "uk.gov.hmrc" %% "play-frontend-hmrc" % "3.13.0-play-28"
+    "uk.gov.hmrc" %% "tax-year" % "3.0.0",
+    "uk.gov.hmrc" %% "play-frontend-hmrc" % "3.22.0-play-28"
   )
 
   def testCommon(): Seq[ModuleID] = {
@@ -20,23 +20,23 @@ private object AppDependencies {
     Seq(
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0"             % scope,
       "org.jsoup"              % "jsoup"               % "1.14.3"            % scope,
-      "uk.gov.hmrc" %% "bootstrap-test-play-28" % "5.24.0"  % scope,
+      "uk.gov.hmrc" %% "bootstrap-test-play-28" % "6.3.0"  % scope,
       "com.typesafe.play"      %% "play-test"          % PlayVersion.current % scope,
-      "org.scalacheck"         %% "scalacheck"         % "1.15.4"            % scope,
+      "org.scalacheck"         %% "scalacheck"         % "1.16.0"            % scope,
       "org.scalatestplus" %% "mockito-3-12" % "3.2.10.0" % scope,
-      "com.fasterxml.jackson.module" %% "jackson-module-scala"   % "2.13.1" % scope
+      "com.fasterxml.jackson.module" %% "jackson-module-scala"   % "2.13.3" % scope
     )
   }
 
   def test(): Seq[ModuleID] = {
     val scope: String = "test"
-    Seq("org.mockito" % "mockito-core" % "4.3.1" % scope)
+    Seq("org.mockito" % "mockito-core" % "4.6.1" % scope)
 
   }
 
   def integrationTest(): Seq[ModuleID] = {
     val scope: String = "it"
-    Seq("com.github.tomakehurst" % "wiremock-jre8" % "2.32.0" % scope)
+    Seq("com.github.tomakehurst" % "wiremock-jre8" % "2.33.2" % scope)
   }
 
   def apply(): Seq[ModuleID] =
