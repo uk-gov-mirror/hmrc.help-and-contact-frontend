@@ -18,7 +18,6 @@ val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
 val playSettings: Seq[Setting[_]] = Seq.empty
-val silencerVersion = "1.7.1"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -47,7 +46,7 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.12.12",
+    scalaVersion := "2.12.15",
     isPublicArtefact := true
   )
   .configs(IntegrationTest)
@@ -61,12 +60,7 @@ lazy val microservice = Project(appName, file("."))
     testGrouping in IntegrationTest := TestPhases.oneForkedJvmPerTest(
       (definedTests in IntegrationTest).value
     ),
-    parallelExecution in IntegrationTest := false,
-    scalacOptions += "-P:silencer:pathFilters=views;routes",
-    libraryDependencies ++= Seq(
-      compilerPlugin("com.github.ghik" % "silencer-plugin" % silencerVersion cross CrossVersion.full),
-      "com.github.ghik" % "silencer-lib" % silencerVersion % Provided cross CrossVersion.full
-    )
+    parallelExecution in IntegrationTest := false
   )
   .settings(
     // concatenate js
