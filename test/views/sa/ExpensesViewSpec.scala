@@ -93,7 +93,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         doc,
         "what-expenses-video",
         "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/2V5K9gs6ZEs",
+        "https://youtu.be/qkEW2Ne0zEg",
 
         expectedOpensInNewTab = true
       )
