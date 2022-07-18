@@ -123,7 +123,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/nOJcs4XJ-tk",
+        "https://youtu.be/Qf5vaSO8-0M",
         expectedOpensInNewTab = true
       )
 
@@ -131,14 +131,14 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "self-employed-tax-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/jdHBPiWNnyA",
+        "https://youtu.be/BkDPUuYVQFY",
         expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "income-from-property-video",
         "Video - If I have income from property - how do I fill in my tax return? (opens in new tab)",
-        "https://youtu.be/DCUZy4ASz1A",
+        "https://youtu.be/thgFM03Hl9U",
         expectedOpensInNewTab = true
       )
 
