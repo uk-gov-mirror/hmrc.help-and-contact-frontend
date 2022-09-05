@@ -60,7 +60,6 @@ vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are sligh
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
 vat.correct_a_mistake = Correct errors on your VAT returns
-vat.community_forum = VAT community forum
 vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -468,7 +467,6 @@ sa.evidence.where_to_get.pre_link=You can get your SA302 in the
 sa.evidence.where_to_get.link_text=more Self Assessment details
 sa.evidence.where_to_get.post_link=section of your account.
 sa.evidence.why_you_might_need_documents=You might be asked for these documents as evidence of your income, for example if you are applying for a mortgage and you are self-employed.
-sa.evidence.community_forum = Self Assessment community forum
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -592,7 +590,6 @@ epaye.submissions.follow_the = Follow the
 epaye.submissions.if_you_use_ = if you use HMRC’s Basic PAYE Tools software (BPT).
 epaye.submissions.submissions_from_an_earlier_tax_year = Submissions from an earlier tax year
 epaye.submissions.if_you_spot_an_error_ = If you have made an error in a submission after that tax year has ended, you must submit an Earlier Year Update if it is after April 19.
-epaye.submissions.community_forum = PAYE for employers community forum
 epaye.submissions.find_out_more_wrong_pay = Find out more in the section ‘if you’ve reported the wrong pay or deductions’
 
 
@@ -1187,7 +1184,6 @@ help_and_contact.making_tax_digital = Making Tax Digital for VAT
 help_and_contact.sign_up.making_tax_digital = Sign up for Making Tax Digital for VAT
 help_and_contact.making_tax_digital_webinar = Making Tax Digital for VAT webinars
 help_and_contact.contact_hmrc_about_mtd = Contact HMRC about Making Tax Digital for VAT
-help_and_contact.community_forum = Making Tax Digital for VAT community forum
 
 
 ###########################################
@@ -1210,7 +1206,6 @@ btaHelp.help_with_business_tax_account = Help with your business tax account
 btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account? (opens in new tab)
 btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
 btaHelp.changing_your_phone_number = Changing your phone number and other account details
-btaHelp.hrmc_forums = HMRC community forums
 btaHelp.pay_taxbill_video = Video - Help if you can’t pay your tax bill (opens in new tab)
 btaHelp.pay_taxbill_transcript = Help if you can’t pay your tax bill - video transcript
 
