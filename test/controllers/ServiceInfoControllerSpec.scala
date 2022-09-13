@@ -66,7 +66,8 @@ class ServiceInfoControllerSpec extends ControllerSpecBase with MockitoSugar wit
           ListLinks("testEnHelp", "testUrl"),
         )
 
-      when(mockServiceInfoPartialConnector.getNavLinks()(any(), any()))
+
+      when(mockServiceInfoPartialConnector.getNavLinks()(any(), any(), any()))
         .thenReturn(Future.successful(Some(navContent)))
 
       when(mockPartialService.partialList(any())(any())).thenReturn(listLinks)
@@ -82,7 +83,7 @@ class ServiceInfoControllerSpec extends ControllerSpecBase with MockitoSugar wit
 
       implicit val messages: Messages = messagesApi.preferred(Seq(Lang("en")))
 
-      when(mockServiceInfoPartialConnector.getNavLinks()(any(), any()))
+      when(mockServiceInfoPartialConnector.getNavLinks()(any(), any(), any()))
         .thenReturn(Future.successful(None))
 
       when(mockPartialService.partialList(any())(any())).thenReturn(Seq())
