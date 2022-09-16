@@ -16,7 +16,7 @@
 
 package models.requests
 
-import play.api.libs.json.{Json, Reads}
+import play.api.libs.json.Json
 import play.api.mvc.WrappedRequest
 import play.twirl.api.Html
 

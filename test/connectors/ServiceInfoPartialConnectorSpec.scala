@@ -17,12 +17,15 @@
 package connectors
 
 import base.SpecBase
-import models.requests.{NavContent, NavLinks}
+import models.SaUtr
+import models.requests.{AuthenticatedRequest, NavContent, NavLinks}
 import org.mockito.ArgumentMatchers.{any, eq => eqTo}
 import org.mockito.Mockito.when
 import org.scalatest.BeforeAndAfterEach
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatestplus.mockito.MockitoSugar
+import play.api.mvc.AnyContentAsEmpty
+import play.api.test.FakeRequest
 import play.twirl.api.Html
 import uk.gov.hmrc.http.{HeaderCarrier, HttpClient}
 
@@ -30,6 +33,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with BeforeAndAfterEach with ScalaFutures {
+
+  implicit val request: AuthenticatedRequest[AnyContentAsEmpty.type] =
+    AuthenticatedRequest(FakeRequest("", ""), Some(SaUtr("123456789")), Some("user@example.com"))
 
   "The ServiceInfoPartialConnector.getNavLinks() method" when {
     lazy val btaNavLinkUrl: String = TestServiceInfoPartialConnector.btaNavLinksUrl

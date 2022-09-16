@@ -18,6 +18,7 @@ val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
 val playSettings: Seq[Setting[_]] = Seq.empty
+val silencerVersion = "1.7.6"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -33,7 +34,7 @@ lazy val microservice = Project(appName, file("."))
     ScoverageKeys.coverageExcludedFiles := "<empty>;Reverse.*;.*filters.*;.*handlers.*;.*components.*;.*models.*;.*repositories.*;" +
       ".*BuildInfo.*;.*javascript.*;.*FrontendAuditConnector.*;.*Routes.*;.*GuiceInjector;.*DataCacheConnector;" +
       ".*ControllerConfiguration;.*LanguageSwitchController",
-    ScoverageKeys.coverageMinimum := 95.28,
+    ScoverageKeys.coverageMinimumStmtTotal := 95.28,
     ScoverageKeys.coverageFailOnMinimum := true,
     ScoverageKeys.coverageHighlighting := true,
     parallelExecution in Test := false
@@ -60,7 +61,10 @@ lazy val microservice = Project(appName, file("."))
     testGrouping in IntegrationTest := TestPhases.oneForkedJvmPerTest(
       (definedTests in IntegrationTest).value
     ),
-    parallelExecution in IntegrationTest := false
+    parallelExecution in IntegrationTest := false,
+    javaOptions ++= Seq(
+      "-Dlogger.resource=logback-test.xml"
+    )
   )
   .settings(
     // concatenate js
@@ -81,4 +85,11 @@ lazy val microservice = Project(appName, file("."))
     includeFilter in uglify := GlobFilter("helpandcontactfrontend-*.js")
   )
   .settings(majorVersion := 0)
+  .settings(
+    scalacOptions += "-P:silencer:pathFilters=views;routes",
+    libraryDependencies ++= Seq(
+      compilerPlugin("com.github.ghik" % "silencer-plugin" % silencerVersion cross CrossVersion.full),
+      "com.github.ghik" % "silencer-lib" % silencerVersion % Provided cross CrossVersion.full
+    )
+  )
 

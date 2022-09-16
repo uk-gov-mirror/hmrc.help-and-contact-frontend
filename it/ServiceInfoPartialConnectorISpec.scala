@@ -1,6 +1,9 @@
 import connectors.ServiceInfoPartialConnector
-import models.requests.{NavContent, NavLinks}
+import models.SaUtr
+import models.requests.{AuthenticatedRequest, NavContent, NavLinks}
 import org.scalatest.{FeatureSpec, GivenWhenThen, MustMatchers, WordSpec}
+import play.api.mvc.AnyContentAsEmpty
+import play.api.test.FakeRequest
 import play.api.test.Helpers.{await, defaultAwaitTimeout}
 import support.IntegrationTest
 import support.stubs.StubServiceInfoPartialConnector
@@ -12,6 +15,9 @@ import scala.concurrent.Future
 class ServiceInfoPartialConnectorISpec extends WordSpec with MustMatchers with IntegrationTest {
 
   implicit val hc: HeaderCarrier = HeaderCarrier()
+
+  implicit val request: AuthenticatedRequest[AnyContentAsEmpty.type] =
+    AuthenticatedRequest(FakeRequest("", ""), Some(SaUtr("123456789")), Some("user@example.com"))
 
   lazy val connector: ServiceInfoPartialConnector = inject[ServiceInfoPartialConnector]
 
