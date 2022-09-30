@@ -26,6 +26,7 @@ import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
 import play.api.mvc.{AnyContent, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
+import utils.LoggingUtil
 import views.html.ct._
 import views.html.epaye._
 import views.html.general._
@@ -59,7 +60,7 @@ class HelpAndContactController @Inject()(
                                           override val controllerComponents: MessagesControllerComponents,
                                           errorHandler: ErrorHandler
                                         ) extends FrontendController(controllerComponents)
-  with I18nSupport {
+  with I18nSupport with LoggingUtil {
   implicit val ec: ExecutionContext                    = controllerComponents.executionContext
 
   val youtubeFeatureSwitch = appConfig.youtubeLinksEnabled
@@ -83,7 +84,9 @@ class HelpAndContactController @Inject()(
       case "how-to-pay" => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
       case "register-or-tell-hmrc-you-are-no-longer-trading" =>
         Ok(register_or_deregister_corporation_tax(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _ =>
+        warnLog(s"[HelpAndContactController][corporationTax] - Page not found: $page")
+        NotFound(errorHandler.notFoundTemplate)
     }
 
   private def ePaye(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
@@ -98,7 +101,9 @@ class HelpAndContactController @Inject()(
       case "latency" => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
       case "paye-refund" => MovedPermanently("/business-account/help/epaye/refunds")
       case "" => MovedPermanently("/business-account/help")
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _ =>
+        warnLog(s"[HelpAndContactController][ePaye] - Page not found: $page")
+        NotFound(errorHandler.notFoundTemplate)
     }
 
   private def selfAssessment(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
@@ -126,21 +131,27 @@ class HelpAndContactController @Inject()(
       }
       case "register-or-stopping" => Ok(register_or_stopping(appConfig)(request.serviceInfoContent))
       case "help-with-making-tax-digital-for-income-tax" => Ok(helpWithMTDIT(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _ =>
+        warnLog(s"[HelpAndContactController][selfAssessment] - Page not found: $page")
+        NotFound(errorHandler.notFoundTemplate)
     }
 
   private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "how-to-pay" => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
       case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _ =>
+        warnLog(s"[HelpAndContactController][vat] - Page not found: $page")
+        NotFound(errorHandler.notFoundTemplate)
     }
 
   private def gen(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "help-with-your-business-tax-account" => Ok(help_with_your_bta(appConfig)(request.serviceInfoContent))
       case "change-your-details" => Ok(change_your_details(appConfig)(request.serviceInfoContent))
-      case _ => NotFound(errorHandler.notFoundTemplate)
+      case _ =>
+        warnLog(s"[HelpAndContactController][gen] - Page not found: $page")
+        NotFound(errorHandler.notFoundTemplate)
     }
 
 }
