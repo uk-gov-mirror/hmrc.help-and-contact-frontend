@@ -18,7 +18,7 @@ val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
 val playSettings: Seq[Setting[_]] = Seq.empty
-val silencerVersion = "1.7.6"
+val silencerVersion = "1.7.12"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -47,7 +47,7 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.12.15",
+    scalaVersion := "2.13.8",
     isPublicArtefact := true
   )
   .configs(IntegrationTest)
