@@ -77,6 +77,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   lazy val languageTranslationEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.welsh-translation")
 
   lazy val youtubeLinksEnabled: Boolean = servicesConfig.getBoolean("microservice.services.features.youtube-links")
+  lazy val monthlyRTIDateBy10thFeatureSwitch: Boolean = servicesConfig.getBoolean("features.monthly-RTI-date-by-10th")
 
   def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))
 

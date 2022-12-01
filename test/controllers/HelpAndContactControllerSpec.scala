@@ -206,7 +206,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
     "view-check-correct-submissions",
     () =>
       inject[view_check_correct_submissions]
-        .apply(frontendAppConfig, Some("user@example.com"))(Some(HtmlFormat.empty))(fakeRequest, messages)
+        .apply(frontendAppConfig, Some("user@example.com"), false)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
 
   behave like pageRedirect(

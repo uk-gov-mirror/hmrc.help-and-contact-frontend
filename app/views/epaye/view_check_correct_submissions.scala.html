@@ -20,7 +20,7 @@
   main_template: main_template
 )
 
-@(appConfig: FrontendAppConfig, email:Option[String])(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+@(appConfig: FrontendAppConfig, email:Option[String], monthlyRTIDateBy10thFeatureSwitch: Boolean)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
 
 @main_template(title = messages("epaye.submissions.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
 
@@ -28,14 +28,23 @@
 
 <h2 class="govuk-heading-m">@messages("epaye.submissions.when_you_can_view_")</h2>
   <p class="govuk-body">@messages("epaye.submissions.submissions_show_up_")</p>
-  <p class="govuk-body">@messages("epaye.submissions.if_you_make_fps_on_time_")</p>
+
+    @if(monthlyRTIDateBy10thFeatureSwitch) {
+    <p class="govuk-body">@messages("epaye.submissions.if_you_make_fps_on_time_10th")</p>
+    } else {
+    <p class="govuk-body">@messages("epaye.submissions.if_you_make_fps_on_time_")</p>
+    }
   <p class="govuk-body">
       @messages("epaye.submissions.if_you_make_fps_late_")
       <a class="govuk-link" id="payroll-guide" href="@appConfig.getGovUrl("payrollGuide")"
       rel="noreferrer noopener">
         @messages("epaye.submissions.gov_uk_guide_on_payroll")</a>.
   </p>
-  <p class="govuk-body">@messages("epaye.submissions.eps_between_20th_and_5th_")</p>
+    @if(monthlyRTIDateBy10thFeatureSwitch) {
+    <p class="govuk-body">@messages("epaye.submissions.eps_between_20th_and_5th_by_10th")</p>
+    } else {
+    <p class="govuk-body">@messages("epaye.submissions.eps_between_20th_and_5th_")</p>
+    }
   <p class="govuk-body">@messages("epaye.submissions.eps_between_6th_and_19th_")</p>
 
 <h2 class="govuk-heading-m">@messages("epaye.submissions.your_payments_to_hmrc")</h2>

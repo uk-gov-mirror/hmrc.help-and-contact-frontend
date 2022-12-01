@@ -94,8 +94,10 @@ class HelpAndContactController @Inject()(
       case "get-started" => MovedPermanently("/business-account/epaye/get-started")
       case "remove" => MovedPermanently("/business-account/epaye/remove")
       case "refunds" => Ok(paye_and_cis_refunds(appConfig)(request.serviceInfoContent))
-      case "view-check-correct-submissions" =>
-        Ok(view_check_correct_submissions(appConfig, request.request.email)(request.serviceInfoContent))
+      case "view-check-correct-submissions" => {
+        val monthlyRTIDateBy10thFeatureSwitch = appConfig.monthlyRTIDateBy10thFeatureSwitch
+        Ok(view_check_correct_submissions(appConfig, request.request.email, monthlyRTIDateBy10thFeatureSwitch)(request.serviceInfoContent))
+      }
       case "change-employee-circumstances" => MovedPermanently("/business-account/epaye/change-employee-circumstances")
       case "check-submissions" => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
       case "latency" => MovedPermanently("/business-account/help/epaye/view-check-correct-submissions")
