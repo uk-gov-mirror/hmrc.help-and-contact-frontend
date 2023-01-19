@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 HM Revenue & Customs
+ * Copyright 2023 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -81,8 +81,6 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def languageMap: Map[String, Lang] = Map("english" -> Lang("en"), "cymraeg" -> Lang("cy"))
 
-  def routeToSwitchLanguage(lang: String): Call = routes.LanguageSwitchController.switchToLanguage(lang)
-
   private lazy val portalHost: String = loadConfig("portal.host")
 
   def getPortalUrl(key: String, saUtr: Option[SaUtr] = None, taxYearCode: Option[String] = None)(implicit request: Request[_]): String =
@@ -108,8 +106,8 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def languageLinks: Seq[(Language, String)] = {
     Seq(
-      (En, routes.LanguageSwitchController.switchToLanguage("english").url),
-      (Cy, routes.LanguageSwitchController.switchToLanguage("cymraeg").url)
+      (En, routes.LanguageController.switchToEnglish.url),
+      (Cy, routes.LanguageController.switchToWelsh.url)
     )
   }
 }
