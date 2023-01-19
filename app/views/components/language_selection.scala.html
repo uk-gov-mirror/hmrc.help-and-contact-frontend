@@ -1,5 +1,5 @@
 @*
- * Copyright 2022 HM Revenue & Customs
+ * Copyright 2023 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +14,26 @@
  * limitations under the License.
  *@
 
-@import uk.gov.hmrc.urls.Link
+@()(implicit messages: Messages)
 
-@(langMap: Map[String, Lang], langToCall: (String => Call), customClass: Option[String] = None)(implicit messages: Messages)
+<div aria-label="@messages("language-switcher.nav")" class="language-switcher">
+    <ul>
+        <li>
+        @if(messages.lang == Lang("en")) {
+            <div>@messages("language-switcher.english")</div>
+            <div aria-hidden="true"> | </div>
+            <a id="switch-language" href="@controllers.routes.LanguageController.switchToWelsh">
+                <div class="visuallyhidden">@messages("language-switcher.welsh.hidden")</div>
+                <div aria-hidden="true">@messages("language-switcher.welsh")</div>
+            </a>
+        } else {
 
-<li class="@if(customClass.isDefined) {@customClass.get}">
-
-    @langMap.filter(l => messages.lang.code != l._2.code).map {  case (key: String, value: Lang) =>
-        @Link.toInternalPage(
-            id = Some(s"$key-switch"),
-            url = s"${langToCall(key)}",
-            value = Some(key.capitalize)).toHtml
-    }
-
-</li>
+            <a id="switch-language" href="@controllers.routes.LanguageController.switchToEnglish">
+                <div class="visuallyhidden">@messages("language-switcher.english.hidden")</div>
+                <div aria-hidden="true">@messages("language-switcher.english")</div></a>
+            <div aria-hidden="true"> | </div>
+            <div>@messages("language-switcher.welsh")</div>
+        }
+        </li>
+    </ul>
+</div>
