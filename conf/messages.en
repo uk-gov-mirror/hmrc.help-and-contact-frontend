@@ -637,25 +637,6 @@ ct.contact_hmrc.if_you_are_replying_ = If you’re replying to a letter you’ve
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ct.how_to_pay.title = How to pay your Corporation Tax
 ct.how_to_pay.heading = How to pay your Corporation Tax
-ct.how_to_pay.deadlines.heading = Deadlines
-ct.how_to_pay.deadlines.body = The deadline for your payment will depend on your taxable profits.
-ct.how_to_pay.up_to_1point5_million.heading = If your taxable profits are up to £1.5 million
-ct.how_to_pay.up_to_1point5_million.body = You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. Your accounting period is usually your financial year, but you may have 2 accounting periods in
-ct.how_to_pay.year_company_set_up = the year you set up your company
-ct.how_to_pay.more_than_1point5_million.heading = If your taxable profits are more than £1.5 million
-ct.how_to_pay.you_must_pay_ = You must
-ct.how_to_pay.instalments = pay your Corporation Tax in instalments
-ct.how_to_pay.make_sure_you_pay_ = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. They may
-ct.how_to_pay.charge_you_interest = charge you interest
-ct.how_to_pay.if_you_do_not_pay_on_time_ = if you do not pay on time. They will
-ct.how_to_pay.pay_you_interest = pay you interest
-ct.how_to_pay.if_you_pay_your_tax_early = if you pay your tax early.
-ct.how_to_pay.ways_to_pay = Ways to pay
-ct.how_to_pay.you_can_no_longer_pay_ = You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.
-ct.how_to_pay.the_time_you_need_ = The time you need to allow depends on how you pay.
-ct.how_to_pay.detailed_info = Read detailed information about how to pay your Corporation Tax bill
-ct.how_to_pay.video = Video - Paying your Corporation Tax bill (opens in new tab)
-ct.how-to_pay.video.transcript = Paying your Corporation Tax bill - video transcript
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Register for Corporation Tax or tell HMRC you are no longer trading

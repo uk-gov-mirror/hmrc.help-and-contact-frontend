@@ -622,25 +622,6 @@ ct.contact_hmrc.if_you_are_replying_ = Os ydych yn ateb llythyr rydych wedi’i 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ct.how_to_pay.title = Sut i dalu Treth Gorfforaeth
 ct.how_to_pay.heading = Sut i dalu Treth Gorfforaeth
-ct.how_to_pay.deadlines.heading = Dyddiadau cau
-ct.how_to_pay.deadlines.body = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
-ct.how_to_pay.up_to_1point5_million.heading = Os yw eich elw trethadwy hyd at £1.5 miliwn
-ct.how_to_pay.up_to_1point5_million.body = Rhaid i chi dalu eich Treth Gorfforaeth naw mis ac un diwrnod ar ôl diwedd eich cyfnod cyfrifyddu. Fel arfer eich cyfnod cyfrifyddu yw’ch blwyddyn ariannol, ond mae’n bosibl y bydd gennych ddau gyfnod cyfrifyddu yn ystod
-ct.how_to_pay.year_company_set_up = y flwyddyn rydych yn sefydlu eich cwmni
-ct.how_to_pay.more_than_1point5_million.heading = Os yw eich elw trethadwy dros £1.5 miliwn
-ct.how_to_pay.you_must_pay_ = Rhaid i chi
-ct.how_to_pay.instalments = dalu eich Treth Gorfforaeth mewn rhandaliadau
-ct.how_to_pay.make_sure_you_pay_ = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
-ct.how_to_pay.charge_you_interest = codi llog arnoch
-ct.how_to_pay.if_you_do_not_pay_on_time_ = os na fyddwch yn talu mewn pryd. Byddant yn
-ct.how_to_pay.pay_you_interest = talu llog i chi
-ct.how_to_pay.if_you_pay_your_tax_early = os byddwch yn talu’ch treth yn gynnar.
-ct.how_to_pay.ways_to_pay = Dulliau talu
-ct.how_to_pay.you_can_no_longer_pay_ = Ni allwch dalu yn Swyddfa’r Post mwyach. Ni allwch dalu Treth Gorfforaeth drwy’r post.
-ct.how_to_pay.the_time_you_need_ = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
-ct.how_to_pay.detailed_info = Darllenwch wybodaeth fanwl am sut i dalu’ch bil Treth Gorfforaeth
-ct.how_to_pay.video = Fideo - Talu eich bil Treth Gorfforaeth (yn agor tab newydd)
-ct.how-to_pay.video.transcript = Talu eich bil Treth Gorfforaeth – trawsgrifiad fideo
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Register for Corporation Tax or tell HMRC you are no longer trading

@@ -24,7 +24,7 @@ import org.scalatestplus.play.guice._
 import play.api.i18n.{Messages, MessagesApi}
 import play.api.mvc.AnyContent
 import play.api.test.{FakeRequest, Injecting}
-import views.html.ct.{contact_hmrc_about_ct, how_to_pay_corporation_tax, register_or_deregister_corporation_tax}
+import views.html.ct.{contact_hmrc_about_ct, register_or_deregister_corporation_tax}
 import views.html.epaye.{paye_and_cis_refunds, view_check_correct_submissions}
 import views.html.help_and_contact
 import views.html.sa._
@@ -41,8 +41,6 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
   def messages: Messages = messagesApi.preferred(fakeRequest)
 
   def contactHMRCAboutCt: contact_hmrc_about_ct = inject[contact_hmrc_about_ct]
-
-  def howToPayCorporationTax: how_to_pay_corporation_tax = inject[how_to_pay_corporation_tax]
 
   def registerOrDeregisterCorporationTax: register_or_deregister_corporation_tax = inject[register_or_deregister_corporation_tax]
 

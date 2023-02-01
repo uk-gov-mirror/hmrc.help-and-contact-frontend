@@ -19,7 +19,6 @@ package controllers
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
 import views.html.transcripts._
-import views.html.transcripts.ct._
 
 class TranscriptControllerSpec extends ControllerSpecBase {
 
@@ -105,11 +104,6 @@ class TranscriptControllerSpec extends ControllerSpecBase {
     "registering-for-self-assessment",
     () =>
       inject[registering_for_self_assessment].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
-  )
-
-  behave like pageRouter(
-    "how-to-pay-corporation-tax",
-    () => inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
 
   behave like pageRouter(
