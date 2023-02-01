@@ -166,13 +166,6 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
 
   behave like pageRouter(
     HelpCategory.CorporationTax,
-    "how-to-pay",
-    () =>
-      inject[how_to_pay_corporation_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
-  )
-
-  behave like pageRouter(
-    HelpCategory.CorporationTax,
     "register-or-tell-hmrc-you-are-no-longer-trading",
     () =>
       inject[register_or_deregister_corporation_tax]

@@ -39,7 +39,6 @@ import scala.concurrent.ExecutionContext
 class HelpAndContactController @Inject()(
                                           appConfig: FrontendAppConfig,
                                           contact_hmrc_about_ct: contact_hmrc_about_ct,
-                                          how_to_pay_corporation_tax: how_to_pay_corporation_tax,
                                           register_or_deregister_corporation_tax: register_or_deregister_corporation_tax,
                                           paye_and_cis_refunds: paye_and_cis_refunds,
                                           view_check_correct_submissions: view_check_correct_submissions,
@@ -81,7 +80,7 @@ class HelpAndContactController @Inject()(
   private def corporationTax(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {
       case "contact-hmrc" => Ok(contact_hmrc_about_ct(appConfig)(request.serviceInfoContent))
-      case "how-to-pay" => Ok(how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent))
+      case "how-to-pay" => MovedPermanently("https://www.gov.uk/pay-corporation-tax")
       case "register-or-tell-hmrc-you-are-no-longer-trading" =>
         Ok(register_or_deregister_corporation_tax(appConfig)(request.serviceInfoContent))
       case _ =>

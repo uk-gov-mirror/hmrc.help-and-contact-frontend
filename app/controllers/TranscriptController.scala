@@ -25,7 +25,6 @@ import play.api.i18n.I18nSupport
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import play.api.mvc.MessagesControllerComponents
 import views.html.transcripts._
-import views.html.transcripts.ct._
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      viewing_your_self_assessment_calculation: viewing_your_self_assessment_calculation,
@@ -50,7 +49,6 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      new_registering_for_self_assessment: new_registering_for_self_assessment,
                                      how_to_find_sa_penalties: how_to_find_sa_penalties,
                                      add_a_tax: add_a_tax,
-                                     how_to_pay_corporation_tax: how_to_pay_corporation_tax,
                                      cant_access_sa_online: cant_access_sa_online,
                                      when_and_how_to_pay_epaye: when_and_how_to_pay_epaye,
                                      cant_pay_taxbill: cant_pay_taxbill,
@@ -89,7 +87,6 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       ),
       "how-to-find-sa-penalties" -> how_to_find_sa_penalties(appConfig)(request.serviceInfoContent),
       "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
-      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent),
       "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent),
       "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(request.serviceInfoContent),
       "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent)
