@@ -997,27 +997,25 @@ registering.for.self.assessment.transcript.paragraph12 = For more information ab
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 newRegistering.for.self.assessment.transcript.title = Registering for Self Assessment - video transcript
 newRegistering.for.self.assessment.transcript.heading = Registering for Self Assessment - video transcript
-newRegistering.for.self.assessment.transcript.paragraph1 = You may need to register for Self Assessment if you’re:
+newRegistering.for.self.assessment.transcript.paragraph1 = If you need to send a tax return and didn’t send one last year, you need to register for Self Assessment by the fifth of October following the end of the tax year or you may be fined.
+newRegistering.for.self.assessment.transcript.paragraph2 = There are different ways to register if you’re:
 newRegistering.for.self.assessment.transcript.list1 = self-employed
-newRegistering.for.self.assessment.transcript.list2 = a partner in a partnership
-newRegistering.for.self.assessment.transcript.list3 = or for another reason such as untaxed income.
-newRegistering.for.self.assessment.transcript.paragraph2 = If you didn’t send a tax return last year, you need to register by 5th October following the end of the tax year.
-newRegistering.for.self.assessment.transcript.paragraph3 = Here, we’ll explain the different ways to register.
-newRegistering.for.self.assessment.transcript.paragraph4 = If you’re self-employed, you’ll need to register:
-newRegistering.for.self.assessment.transcript.list4 = if your turnover is more than a thousand pounds in a tax year
-newRegistering.for.self.assessment.transcript.list5 = to prove you’re self-employed
-newRegistering.for.self.assessment.transcript.list6 = or to pay voluntary Class 2 National Insurance contributions.
-newRegistering.for.self.assessment.transcript.paragraph5 = If you’ve sent a tax return before, but didn’t last year, use your existing Self Assessment Unique Taxpayer Reference, or UTR – and re-register online using form CWF1.
-newRegistering.for.self.assessment.transcript.paragraph6 = Otherwise, register online.
-newRegistering.for.self.assessment.transcript.paragraph7 = We’ll send you a letter with your UTR and set up your account for the Self Assessment online service. You’ll get another letter a few days later with a code to activate your online service. Use this the first time you sign in.
-newRegistering.for.self.assessment.transcript.paragraph8 = Partnerships must be registered by a nominated partner, but each partner needs to register individually as well – using form SA401 and the UTR for the partnership.
-newRegistering.for.self.assessment.transcript.paragraph9 = If you need to register for another reason, use form SA1.
-newRegistering.for.self.assessment.transcript.paragraph10 = Once you’ve registered, if you already have a UTR and online account, you can use them to send your online tax return.
-newRegistering.for.self.assessment.transcript.paragraph11 = If not, we’ll send your UTR in the post within ten working days.
-newRegistering.for.self.assessment.transcript.paragraph12 = Use your UTR to create a new online account and sign up for the Self Assessment online service. We’ll then send you a code to activate your account within seven working days of signing up.
-newRegistering.for.self.assessment.transcript.paragraph13 = You can find out more about Self Assessment on
-newRegistering.for.self.assessment.transcript.paragraph13_2 =  and watch our other helpful videos on YouTube.
-newRegistering.for.self.assessment.video_link = Video - Registering for Self Assessment (opens in new tab)
+newRegistering.for.self.assessment.transcript.list2 = registering a partner or partnership
+newRegistering.for.self.assessment.transcript.list3 = or registering for another reason.
+newRegistering.for.self.assessment.transcript.paragraph3 = How you register also depends on whether you’ve sent a tax return before or not.
+newRegistering.for.self.assessment.transcript.paragraph4 = If you’re self-employed, your registration will be for Self Assessment and Class 2 National Insurance.
+newRegistering.for.self.assessment.transcript.paragraph5 = If you’ve not sent a tax return before, register through your business tax account. You’ll need a Government Gateway user ID and password to sign-in. If you don’t have a user ID for a business tax account, you can create one.
+newRegistering.for.self.assessment.transcript.paragraph6 = After you’ve registered, you’ll get a letter with your ten-digit Unique Taxpayer Reference number, or UTR, within ten days. Or within twenty-one days if you’re abroad. You’ll need this to send your return.
+newRegistering.for.self.assessment.transcript.paragraph7 = If you have sent a tax return online before, but didn’t last year, re-register online using the link to form CWF1 and your Government Gateway user ID and password. You’ll also need your existing UTR which you can find on a Self Assessment letter or in your Personal Tax Account.
+newRegistering.for.self.assessment.transcript.paragraph8 = And if you’ve sent a tax return before, but didn’t use the online service, sign-in to your business tax account using your Government Gateway user ID and password and your existing UTR, then add Self Assessment.
+newRegistering.for.self.assessment.transcript.paragraph9 = You can also register by filling in a form on-screen, printing it and posting it to HMRC. You’ll then get a letter with your UTR within 10 working days.
+newRegistering.for.self.assessment.transcript.paragraph10 = If you’re registering a partnership, this must be done by a nominated partner. Each partner needs to register individually as well – using form SA401 and the partnership’s UTR.
+newRegistering.for.self.assessment.transcript.paragraph11 = If you need to register for another reason, and you haven’t sent a tax return online before, use form SA1. You can do this online or fill in the form, print it, then post it to HMRC. You’ll get your UTR in the post within 10 working days.
+newRegistering.for.self.assessment.transcript.paragraph12 = Once you get your UTR, if you registered online, sign-in to your personal tax account and use your UTR to activate your Self Assessment.
+newRegistering.for.self.assessment.transcript.paragraph13 = If you posted your form, create your personal tax account, and use your UTR to sign up for Self Assessment. Within seven working days of doing this, you’ll get a code in the post to activate your Self Assessment. Once activated, you can file your tax return.
+newRegistering.for.self.assessment.transcript.paragraph14 = If you’ve sent a tax return online before, sign-in to your existing account.
+newRegistering.for.self.assessment.transcript.paragraph15 = Remember, you can send your tax return any time before the deadline.
+newRegistering.for.self.assessment.transcript.paragraph16 = You can find out more about Self Assessment on GOV.UK and watch our other helpful videos on YouTube.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Basic record keeping transcript
