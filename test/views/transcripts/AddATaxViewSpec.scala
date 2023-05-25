@@ -18,7 +18,7 @@ package views.transcripts
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.transcripts.{add_a_tax, viewing_your_self_assessment_calculation}
+import views.html.transcripts.add_a_tax
 
 import scala.collection.JavaConverters._
 
@@ -45,33 +45,33 @@ class AddATaxViewSpec extends ViewBehaviours {
       val bulletList1 = List("Corporation Tax", "Self Assessment", "PAYE for employers, and", "VAT")
       val bulletList2 = List("your Company Registration Number – sent to you by Companies House, or", "the postcode of your registered office.")
       val bulletList3 = List("an individual or sole trader", "partnership, or", "trust")
-      val bulletList4 = List("your National Insurance number, or", "the postcode you used when registering for Self Assessment")
-      val bulletList5 = List("the HMRC office number, and", "your Accounts Office reference number")
-      val bulletList6 = List("VAT Registration Number", "postcode on your Certificate of Registration", "date of registration", "month your last VAT Return ended on, and", "amount from Box 5 on your last VAT Return")
+      val bulletList4 = List("if you’re currently submitting VAT returns", "the total from your latest VAT return and,", "the last month of your latest VAT accounting period")
 
-      val bulletsList = bulletList1 ++ bulletList2 ++ bulletList3 ++ bulletList4 ++ bulletList5 ++ bulletList6
+      val bulletsList = bulletList1 ++ bulletList2 ++ bulletList3 ++ bulletList4
 
       val contentList = List(
         "You can add more than 40 services to your business tax account. Here’s how you add the 4 main ones:",
         "This is the business tax account homepage. Any services you add will appear here.",
-        "Each time you add a service, we’ll send you an activation pin within 10 days. Once you put the pin in, you can start using the service.",
+        "For some services, we’ll send you an activation pin within 10 working days. Once you put the pin in, you can start using the service.",
         "Let‘s start. Select ‘add a tax, duty or scheme’.",
         "Select ‘Corporation Tax’. On the following screen, enter your 10-digit Corporation Tax Unique Taxpayer Reference.",
         "Then enter either:",
-        "If your company is not based in the UK – then select this option. That’s it.",
+        "If your company is not based in the UK – then select this option.",
         "To add Self Assessment, you’ll need your Unique Taxpayer Reference number.",
         "If you don’t have it, you can’t add this service at this time. Instead you’ll be directed to register for Self Assessment.",
         "Once you receive your Unique Taxpayer Reference letter, log back into your business tax account and enter your 10-digit Taxpayer Reference number here.",
         "Then select if you’re:",
-        "Re-enter your Taxpayer Reference number followed by either:",
-        "If you live abroad, select this option. That’s it.",
-        "To add PAYE for employers, select this option.",
-        "If you’ve a PAYE reference number, enter it here, as well as:",
-        "If you don’t have a PAYE reference number, you’ll be directed to register as an employer. Once you’ve received your reference numbers, log back into your Business Tax Account and add the details. That’s it.",
-        "To add VAT, select the ‘type’ of VAT service you want.",
-        "Enter your 9-digit VAT number, followed by the:",
+        "If you’re an individual or sole trader. You’ll be asked to enter your National Insurance number. If you don’t have it, you’ll be asked for your postcode.",
+        "Next, confirm your identity to get access to Self Assessment right away. But don’t worry if you can’t do this. You can still request an activation pin in the post.",
+        "To add PAYE for Employers, select this option (Employers or intermediaries, for example PAYE for employers, or CIS).",
+        "If you have a PAYE reference number, enter it here, (Request access to PAYE for Employers page) as well as the HMRC office number and your Accounts office reference number.",
+        "If you don’t have a PAYE reference number, you’ll be directed to register as an employer.",
+        "Once you’ve received your reference numbers, log back into your Business Tax Account and add the details.",
+        "And to add VAT, select the type of VAT service you want and enter your 9-digit VAT number.",
+        "You’re then asked to enter the date you became VAT registered and the UK postcode for where your business is registered for VAT.",
+        "You’ll also need to tell us:",
         "That’s it.",
-        "You can find more information about the business tax account on GOV.UK"
+        "You can find more information about the Business Tax Account on GOV.UK"
 
       )
 
