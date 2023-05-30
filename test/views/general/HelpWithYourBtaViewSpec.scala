@@ -43,7 +43,7 @@ class HelpWithYourBtaViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-add-a-tax-video",
         "Video - How do I add a tax to my business tax account? (opens in new tab)",
-        "https://www.youtube.com/watch?v=b2wLXZZddGc",
+        "https://www.youtube.com/watch?v=DZHrRO95jsU",
         expectedOpensInNewTab = true
       )
       assertLinkById(
