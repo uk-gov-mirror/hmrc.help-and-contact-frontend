@@ -94,7 +94,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "why-i-have-been-sent-tax-video",
         "Video - Why have I been sent a tax return? (opens in new tab)",
-        "https://youtu.be/utyVSPFJoDw",
+        "https://www.youtube.com/watch?v=utyVSPFJoDw",
         expectedOpensInNewTab = true
       )
 
@@ -108,7 +108,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://youtu.be/tMldXbmIF5o",
+        "https://www.youtube.com/watch?v=tMldXbmIF5o",
         expectedOpensInNewTab = true
       )
 
@@ -123,7 +123,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/Qf5vaSO8-0M",
+        "https://www.youtube.com/watch?v=Qf5vaSO8-0M",
         expectedOpensInNewTab = true
       )
 
@@ -131,14 +131,14 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "self-employed-tax-video",
         "Video - Your self-employed tax return (opens in new tab)",
-        "https://youtu.be/BkDPUuYVQFY",
+        "https://www.youtube.com/watch?v=BkDPUuYVQFY",
         expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "income-from-property-video",
         "Video - If I have income from property - how do I fill in my tax return? (opens in new tab)",
-        "https://youtu.be/thgFM03Hl9U",
+        "https://www.youtube.com/watch?v=thgFM03Hl9U",
         expectedOpensInNewTab = true
       )
 

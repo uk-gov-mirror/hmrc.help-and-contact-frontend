@@ -61,7 +61,7 @@ class SaCalculationSpec extends ViewBehaviours {
         doc,
         "viewing-sa-tax-calculation-video",
         "Video - Viewing your Self Assessment tax return calculation (opens in new tab)",
-        "https://youtu.be/UACv0_mjbms",
+        "https://www.youtube.com/watch?v=UACv0_mjbms",
 
         expectedOpensInNewTab = true
       )

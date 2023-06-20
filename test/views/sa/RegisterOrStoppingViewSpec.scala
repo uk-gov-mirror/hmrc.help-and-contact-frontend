@@ -135,7 +135,7 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
         doc,
         "registering-sa-video",
         "Video - Registering for Self Assessment (opens in new tab)",
-        "https://youtu.be/Ls_wqOstiBM",
+        "https://www.youtube.com/watch?v=Ls_wqOstiBM",
 
         expectedOpensInNewTab = true
       )
