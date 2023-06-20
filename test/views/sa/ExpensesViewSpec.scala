@@ -93,7 +93,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         doc,
         "what-expenses-video",
         "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
-        "https://youtu.be/qkEW2Ne0zEg",
+        "https://www.youtube.com/watch?v=qkEW2Ne0zEg",
 
         expectedOpensInNewTab = true
       )
@@ -124,7 +124,7 @@ class ExpensesViewSpec extends ViewBehaviours {
         doc,
         "claiming-motoring-video",
         "Video - Claiming motoring expenses if you’re self-employed (opens in new tab)",
-        "https://youtu.be/r2txvLXi_Fk",
+        "https://www.youtube.com/watch?v=r2txvLXi_Fk",
         expectedOpensInNewTab = true
       )
       assertLinkById(

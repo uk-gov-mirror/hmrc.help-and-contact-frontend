@@ -123,7 +123,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-pay-video",
         "Video - How do I pay my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/3kcZmOv6cpo",
+        "https://www.youtube.com/watch?v=3kcZmOv6cpo",
 
         expectedOpensInNewTab = true
       )
@@ -139,7 +139,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-budget-video",
         "Video - How do I budget for my Self Assessment tax bill? (opens in new tab)",
-        "https://youtu.be/sGpQ7ZT3tMs",
+        "https://www.youtube.com/watch?v=sGpQ7ZT3tMs",
 
         expectedOpensInNewTab = true
       )
