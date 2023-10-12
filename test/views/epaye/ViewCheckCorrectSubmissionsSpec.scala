@@ -40,7 +40,6 @@ class ViewCheckCorrectSubmissionsSpec extends ViewBehaviours{
 
     "contain correct dynamic content" in {
       doc.text() must include("We send an email to your Government Gateway address each time we receive a Full Payment Submission (FPS) or Employer Payment Summary (EPS).")
-      doc.text() must include("Your Government Gateway email is user@example.com")
     }
 
     "have the correct 'Guide on payroll' link" in {

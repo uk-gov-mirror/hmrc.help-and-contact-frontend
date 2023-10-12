@@ -54,7 +54,6 @@
   <h3 class="govuk-heading-s">@messages("epaye.submissions.email_confirmations")</h3>
     @if(email.isDefined) {
       <p class="govuk-body">@messages("epaye.submissions.we_send_an_email_")</p>
-      <p class="govuk-body">@messages("epaye.submissions.your_government_gateway_email_") <span class="govuk-body govuk-!-font-weight-bold">@email.getOrElse(messages("epaye.submissions.not_specified"))</span>.</p>
       <a class="govuk-body govuk-link" id="change-address" href="@appConfig.getBusinessAccountUrl("changeEmail")" >
         @messages("epaye.submissions.change_address_link")</a>
     } else {
