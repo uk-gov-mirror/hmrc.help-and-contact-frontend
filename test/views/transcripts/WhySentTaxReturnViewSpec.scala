@@ -31,9 +31,10 @@ class WhySentTaxReturnViewSpec extends ViewBehaviours {
   "WhySentTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)
 
-    "contain heading ID" in {
+    "contain heading ID with correct title" in {
       val doc = asDocument(createView())
       doc.getElementsByTag("h1").attr("id") mustBe "why-sent-tax-return-transcript"
+      doc.getElementsByTag("h1").text() mustBe "What to do if you’ve been sent a tax return? - video transcript"
     }
 
     "have correct content" in {

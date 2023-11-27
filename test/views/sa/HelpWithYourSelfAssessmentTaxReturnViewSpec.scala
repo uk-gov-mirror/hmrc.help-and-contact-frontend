@@ -93,8 +93,8 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "why-i-have-been-sent-tax-video",
-        "Video - Why have I been sent a tax return? (opens in new tab)",
-        "https://www.youtube.com/watch?v=utyVSPFJoDw",
+        "Video - What to do if you’ve been sent a tax return? (opens in a new tab)",
+        "https://www.youtube.com/watch?v=_C2tlkfKRbY",
         expectedOpensInNewTab = true
       )
 
