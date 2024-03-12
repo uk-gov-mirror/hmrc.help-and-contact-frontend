@@ -16,10 +16,10 @@
 
 package controllers
 
-import javax.inject.Inject
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
+import javax.inject.Inject
 import models.HelpCategory
 import models.HelpCategory._
 import models.requests.ServiceInfoRequest

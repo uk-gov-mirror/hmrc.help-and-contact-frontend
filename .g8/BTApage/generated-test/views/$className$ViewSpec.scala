@@ -1,8 +1,6 @@
 package views
 
-import play.twirl.api.HtmlFormat
-import views.behaviours.ViewBehaviours
-import views.html.$className;format="decap"$
+import play.twirl.api.HtmlFormat;format="decap"$
 
 class $className$ViewSpec extends ViewBehaviours {
 

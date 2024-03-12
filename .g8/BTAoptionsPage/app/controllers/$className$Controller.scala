@@ -1,18 +1,12 @@
 package controllers
 
-import javax.inject.Inject
-
 import config.FrontendAppConfig
-import connectors.DataCacheConnector
 import controllers.actions._
+import javax.inject.Inject
 import play.api.data.Form
 import play.api.i18n.{I18nSupport, MessagesApi}
 import uk.gov.hmrc.play.bootstrap.controller.FrontendController
-import utils.{Enumerable, Navigator}
-
-import forms.$className$FormProvider
-import identifiers.$className$Id
-import views.html.$className;format="decap"$
+import utils.Enumerable;format="decap"$
 
 import scala.concurrent.Future
 

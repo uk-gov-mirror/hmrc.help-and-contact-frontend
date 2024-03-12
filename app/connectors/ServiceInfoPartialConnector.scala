@@ -17,7 +17,6 @@
 package connectors
 
 import config.FrontendAppConfig
-
 import javax.inject.{Inject, Singleton}
 import models.requests.{AuthenticatedRequest, NavContent}
 import uk.gov.hmrc.http.{HeaderCarrier, HttpClient, HttpReadsInstances}

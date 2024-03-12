@@ -1,9 +1,6 @@
 package controllers
 
-import controllers.actions._
-import play.api.test.Helpers._
-import play.twirl.api.HtmlFormat
-import views.html.$className;format="decap"$
+import play.twirl.api.HtmlFormat;format="decap"$
 
 class $className$ControllerSpec extends ControllerSpecBase {
 

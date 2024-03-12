@@ -16,10 +16,10 @@
 
 package connectors
 
-import akka.actor.ActorSystem
 import com.typesafe.config.Config
+import org.apache.pekko.actor.ActorSystem
 import org.mockito.ArgumentMatchers.{any, eq => meq}
-import org.mockito.Mockito.{doAnswer, reset, spy, times, verify}
+import org.mockito.Mockito._
 import org.scalatest.{BeforeAndAfterEach, Suite}
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.libs.json.Writes

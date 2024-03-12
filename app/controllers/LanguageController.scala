@@ -18,12 +18,11 @@ package controllers
 
 import config.FrontendAppConfig
 import controllers.LanguageController.{english, welsh}
+import javax.inject.Inject
 import play.api.i18n.{I18nSupport, Lang}
 import play.api.mvc.{Action, AnyContent, Flash, MessagesControllerComponents}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import utils.LoggingUtil
-
-import javax.inject.Inject
 
 class LanguageController @Inject()(appConfig: FrontendAppConfig, cc: MessagesControllerComponents)
   extends FrontendController(cc)

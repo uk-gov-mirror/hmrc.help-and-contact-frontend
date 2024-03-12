@@ -19,7 +19,6 @@ package views.behaviours
 import play.api.mvc.{AnyContent, Request}
 import play.twirl.api.HtmlFormat
 import views.ViewSpecBase
-import play.api.i18n.{I18nSupport, MessagesApi}
 
 trait ViewBehaviours extends ViewSpecBase {
 

@@ -18,7 +18,7 @@ package views.transcripts
 
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.transcripts.{cant_access_sa_online, new_tailor_tax_return}
+import views.html.transcripts.cant_access_sa_online
 
 import scala.collection.JavaConverters._
 

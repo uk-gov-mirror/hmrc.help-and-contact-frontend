@@ -16,11 +16,11 @@
 
 package views.sa
 
+import config.FrontendAppConfig
 import models.SaUtr
 import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.sa.payment_and_penalties
-import config.FrontendAppConfig
 
 class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 

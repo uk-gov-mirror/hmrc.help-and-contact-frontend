@@ -16,10 +16,11 @@
 
 package views.sa
 
+import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.help_with_making_tax_digital_for_income_tax
-import play.twirl.api.HtmlFormat
-import collection.JavaConverters._
+
+import scala.collection.JavaConverters._
 
 
 

@@ -16,16 +16,16 @@
 
 package config
 
-import javax.inject.{Inject, Singleton}
 import controllers.routes
+import javax.inject.{Inject, Singleton}
+import models.SaUtr
 import play.api.i18n.Lang
-import play.api.mvc.{Call, Request}
+import play.api.mvc.Request
+import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, Language}
 import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
 import uk.gov.hmrc.play.language.LanguageUtils
-import models.SaUtr
-import utils.PortalUrlBuilder
 import uk.gov.hmrc.time.TaxYear
-import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, Language}
+import utils.PortalUrlBuilder
 
 
 @Singleton

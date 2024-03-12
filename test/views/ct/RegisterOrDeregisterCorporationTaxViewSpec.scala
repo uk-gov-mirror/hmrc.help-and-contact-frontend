@@ -19,7 +19,8 @@ package views.ct
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.ct.register_or_deregister_corporation_tax
-import collection.JavaConverters._
+
+import scala.collection.JavaConverters._
 
 class RegisterOrDeregisterCorporationTaxViewSpec extends ViewBehaviours {
 

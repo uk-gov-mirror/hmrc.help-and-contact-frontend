@@ -2,15 +2,16 @@ import com.typesafe.sbt.digest.Import._
 import com.typesafe.sbt.uglify.Import._
 import com.typesafe.sbt.web.Import._
 import net.ground5hark.sbt.concat.Import._
+import play.sbt.PlayImport.PlayKeys
 import play.sbt.routes.RoutesKeys
 import sbt.Keys._
 import sbt._
+import sbt.plugins.JUnitXmlReportPlugin
 import scoverage.ScoverageKeys
 import uk.gov.hmrc.DefaultBuildSettings._
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
-import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin._
 import uk.gov.hmrc.sbtsettingkeys.Keys.isPublicArtefact
-
+import uk.gov.hmrc.versioning.SbtGitVersioning.autoImport.majorVersion
 
 val appName = "help-and-contact-frontend"
 
@@ -18,7 +19,6 @@ val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
 val playSettings: Seq[Setting[_]] = Seq.empty
-val silencerVersion = "1.7.12"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
@@ -40,14 +40,13 @@ lazy val microservice = Project(appName, file("."))
     parallelExecution in Test := false
   )
   .settings(scalaSettings: _*)
-  .settings(publishingSettings: _*)
   .settings(defaultSettings(): _*)
   .settings(
     scalacOptions ++= Seq("-feature"),
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.13.8",
+    scalaVersion := "2.13.12",
     isPublicArtefact := true
   )
   .configs(IntegrationTest)
@@ -85,11 +84,4 @@ lazy val microservice = Project(appName, file("."))
     includeFilter in uglify := GlobFilter("helpandcontactfrontend-*.js")
   )
   .settings(majorVersion := 0)
-  .settings(
-    scalacOptions += "-P:silencer:pathFilters=views;routes",
-    libraryDependencies ++= Seq(
-      compilerPlugin("com.github.ghik" % "silencer-plugin" % silencerVersion cross CrossVersion.full),
-      "com.github.ghik" % "silencer-lib" % silencerVersion % Provided cross CrossVersion.full
-    )
-  )
 
