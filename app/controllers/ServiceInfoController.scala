@@ -19,13 +19,13 @@ package controllers
 import connectors.ServiceInfoPartialConnector
 import javax.inject.Inject
 import models.requests.AuthenticatedRequest
-import utils.LoggingUtil
 import play.api.i18n.Messages
 import play.api.mvc.MessagesControllerComponents
 import play.twirl.api.Html
 import services.PartialService
 import uk.gov.hmrc.http.HeaderCarrier
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
+import utils.LoggingUtil
 import views.html.service_info
 
 import scala.concurrent.{ExecutionContext, Future}

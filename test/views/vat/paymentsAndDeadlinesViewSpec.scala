@@ -16,8 +16,7 @@
 
 package views.vat
 
-import play.twirl.api.{Html, HtmlFormat}
-import models.Vrn
+import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.vat.payments_and_deadlines
 

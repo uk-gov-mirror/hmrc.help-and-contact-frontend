@@ -19,13 +19,13 @@ package controllers.actions
 import com.google.inject.{ImplementedBy, Inject}
 import config.FrontendAppConfig
 import controllers.routes
+import models.SaUtr
 import models.requests.AuthenticatedRequest
 import play.api.mvc.Results._
 import play.api.mvc._
 import uk.gov.hmrc.auth.core._
 import uk.gov.hmrc.auth.core.retrieve.v2.Retrievals
 import uk.gov.hmrc.auth.core.retrieve.~
-import models.SaUtr
 import uk.gov.hmrc.http.HeaderCarrier
 import uk.gov.hmrc.play.http.HeaderCarrierConverter
 

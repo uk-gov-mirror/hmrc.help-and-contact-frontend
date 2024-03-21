@@ -1,7 +1,7 @@
 import connectors.ServiceInfoPartialConnector
 import models.SaUtr
 import models.requests.{AuthenticatedRequest, NavContent, NavLinks}
-import org.scalatest.{FeatureSpec, GivenWhenThen, MustMatchers, WordSpec}
+import org.scalatestplus.play.PlaySpec
 import play.api.mvc.AnyContentAsEmpty
 import play.api.test.FakeRequest
 import play.api.test.Helpers.{await, defaultAwaitTimeout}
@@ -12,7 +12,7 @@ import uk.gov.hmrc.http.HeaderCarrier
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class ServiceInfoPartialConnectorISpec extends WordSpec with MustMatchers with IntegrationTest {
+class ServiceInfoPartialConnectorISpec extends PlaySpec with IntegrationTest {
 
   implicit val hc: HeaderCarrier = HeaderCarrier()
 

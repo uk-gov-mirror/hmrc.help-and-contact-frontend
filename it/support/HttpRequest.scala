@@ -1,8 +1,8 @@
 package support
 
-import akka.util.Timeout
+import org.apache.pekko.util.Timeout
 import play.api.libs.ws.{WSClient, WSResponse}
-import play.api.test.Helpers.{await, testServerPort}
+import play.api.test.Helpers.await
 
 object HttpRequest {
 

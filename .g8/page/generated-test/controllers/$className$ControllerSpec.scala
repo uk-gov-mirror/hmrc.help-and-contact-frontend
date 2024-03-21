@@ -1,8 +1,4 @@
-package controllers
-
-import controllers.actions._
-import play.api.test.Helpers._
-import views.html.$className;format="decap"$
+package controllers;format="decap"$
 
 class $className$ControllerSpec extends ControllerSpecBase {
 

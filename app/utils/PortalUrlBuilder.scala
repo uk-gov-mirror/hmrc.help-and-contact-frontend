@@ -16,9 +16,9 @@
 
 package utils
 
-import play.api.mvc.Request
-import play.api.i18n.Lang
 import models.SaUtr
+import play.api.i18n.Lang
+import play.api.mvc.Request
 import uk.gov.hmrc.play.language.LanguageUtils
 import utils.PortalUrlBuilder.WELSH
 

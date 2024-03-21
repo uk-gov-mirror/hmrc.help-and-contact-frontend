@@ -16,8 +16,8 @@
 
 package models.requests
 
-import play.api.mvc.{Request, WrappedRequest}
 import models.SaUtr
+import play.api.mvc.{Request, WrappedRequest}
 
 case class AuthenticatedRequest[A](request: Request[A], saUtr: Option[SaUtr], email: Option[String]) extends WrappedRequest[A](request)
 

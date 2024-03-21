@@ -16,14 +16,13 @@
 
 package controllers
 
-import javax.inject.Inject
-
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
+import javax.inject.Inject
 import play.api.i18n.I18nSupport
-import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import play.api.mvc.MessagesControllerComponents
+import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.transcripts._
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,

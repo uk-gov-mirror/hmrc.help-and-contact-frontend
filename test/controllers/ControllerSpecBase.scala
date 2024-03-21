@@ -17,8 +17,8 @@
 package controllers
 
 import base.SpecBase
-import controllers.actions.{AuthAction, FakeServiceInfoAction, ServiceInfoAction}
 import controllers.actions.mocks.MockAuth
+import controllers.actions.{AuthAction, FakeServiceInfoAction, ServiceInfoAction}
 import play.api.Application
 import play.api.inject.guice.GuiceApplicationBuilder
 import play.api.inject.guice.GuiceableModule.fromPlayBinding

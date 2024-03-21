@@ -17,8 +17,8 @@
 package utils
 
 import base.SpecBase
-import play.api.mvc.Cookie
 import models.SaUtrGenerator
+import play.api.mvc.Cookie
 import uk.gov.hmrc.play.language.LanguageUtils
 
 import scala.util.Random

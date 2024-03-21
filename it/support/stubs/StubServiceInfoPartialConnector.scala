@@ -1,6 +1,6 @@
 package support.stubs
 
-import com.github.tomakehurst.wiremock.client.WireMock.{aResponse, get, getRequestedFor, stubFor, urlEqualTo, urlMatching, verify}
+import com.github.tomakehurst.wiremock.client.WireMock._
 
 object StubServiceInfoPartialConnector {
 

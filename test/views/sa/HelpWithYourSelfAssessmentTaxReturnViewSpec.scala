@@ -16,12 +16,12 @@
 
 package views.sa
 
+import models.SaUtr
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import models.{SaUtr, SaUtrGenerator}
 import views.html.sa.help_with_your_self_assessment_tax_return
-import collection.JavaConverters._
-import config.FrontendAppConfig
+
+import scala.collection.JavaConverters._
 
 class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 

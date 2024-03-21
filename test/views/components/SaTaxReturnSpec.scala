@@ -16,10 +16,10 @@
 
 package views.components
 
+import config.FrontendAppConfig
 import org.jsoup.Jsoup
 import views.behaviours.ViewBehaviours
 import views.html.components.sa_tax_return
-import config.FrontendAppConfig
 
 class SaTaxReturnSpec extends ViewBehaviours {
 

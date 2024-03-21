@@ -1,8 +1,5 @@
 package forms
 
-import forms.behaviours.FormBehaviours
-import models._
-
 class $className$FormProviderSpec extends FormBehaviours {
 
   val validData: Map[String, String] = Map(

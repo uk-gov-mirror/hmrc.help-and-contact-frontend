@@ -16,8 +16,8 @@
 
 package controllers
 
-import play.api.test.Helpers._
 import play.api.mvc.{AnyContent, Request, Result}
+import play.api.test.Helpers._
 import views.html.unauthorised
 
 import scala.concurrent.Future
