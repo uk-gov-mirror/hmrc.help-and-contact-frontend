@@ -22,10 +22,11 @@ import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import models.{HelpCategory, SaUtr}
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatestplus.mockito.MockitoSugar
-import play.api.mvc.AnyContentAsEmpty
+import play.api.mvc.{AnyContentAsEmpty, Request}
 import play.api.test.FakeRequest
 import play.api.test.Helpers._
 import play.twirl.api.HtmlFormat
+import services.ThresholdService
 import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase
 import views.html.ct._
@@ -38,8 +39,10 @@ import views.html.vat._
 class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar with ScalaFutures with ViewSpecBase with MockAuth {
 
   implicit val hc: HeaderCarrier = HeaderCarrier()
-  val authAction = inject[AuthAction]
+  val authAction: AuthAction = inject[AuthAction]
+  val thresholdService: ThresholdService = inject[ThresholdService]
 
+  implicit val request: Request[_] = FakeRequest()
 
   def SUT: HelpAndContactController = inject[HelpAndContactController]
 
@@ -116,7 +119,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
   behave like pageRouter(
     HelpCategory.VAT,
     "register-or-deregister",
-    () => inject[register_or_deregister].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+    () => inject[register_or_deregister].apply(frontendAppConfig, thresholdService.formattedVatThreshold())(Some(HtmlFormat.empty))(fakeRequest, messages)
   )
 
 
