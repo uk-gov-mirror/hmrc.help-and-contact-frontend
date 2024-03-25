@@ -16,10 +16,14 @@
 
 package config
 
+import com.typesafe.config.{ConfigList, ConfigRenderOptions}
 import controllers.routes
+
 import javax.inject.{Inject, Singleton}
-import models.SaUtr
+import models.{SaUtr, VatThreshold}
+import play.api.Configuration
 import play.api.i18n.Lang
+import play.api.libs.json.Json
 import play.api.mvc.Request
 import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, Language}
 import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
@@ -30,6 +34,7 @@ import utils.PortalUrlBuilder
 
 @Singleton
 class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
+                                  configuration: Configuration,
                                   override val languageUtils: LanguageUtils)
     extends PortalUrlBuilder {
 
@@ -110,4 +115,8 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
       (Cy, routes.LanguageController.switchToWelsh.url)
     )
   }
+
+  def thresholdString: String = configuration.get[ConfigList]("vat-threshold").render(ConfigRenderOptions.concise())
+  lazy val thresholds: Seq[VatThreshold] = Json.parse(thresholdString).as[List[VatThreshold]]
+
 }

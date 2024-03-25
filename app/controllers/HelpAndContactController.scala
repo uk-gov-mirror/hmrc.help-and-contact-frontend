@@ -19,12 +19,14 @@ package controllers
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
+
 import javax.inject.Inject
 import models.HelpCategory
 import models.HelpCategory._
 import models.requests.ServiceInfoRequest
 import play.api.i18n.{I18nSupport, MessagesApi}
-import play.api.mvc.{AnyContent, MessagesControllerComponents}
+import play.api.mvc.{AnyContent, MessagesControllerComponents, Result}
+import services.ThresholdService
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import utils.LoggingUtil
 import views.html.ct._
@@ -57,12 +59,14 @@ class HelpAndContactController @Inject()(
                                           authenticate: AuthAction,
                                           serviceInfo: ServiceInfoAction,
                                           override val controllerComponents: MessagesControllerComponents,
-                                          errorHandler: ErrorHandler
+                                          errorHandler: ErrorHandler,
+                                          thresholdService: ThresholdService
                                         ) extends FrontendController(controllerComponents)
   with I18nSupport with LoggingUtil {
-  implicit val ec: ExecutionContext                    = controllerComponents.executionContext
+  implicit val ec: ExecutionContext = controllerComponents.executionContext
 
   val youtubeFeatureSwitch = appConfig.youtubeLinksEnabled
+
   def mainPage = (authenticate andThen serviceInfo) { implicit request =>
     Ok(help_and_contact(appConfig)(request.serviceInfoContent))
   }
@@ -118,7 +122,7 @@ class HelpAndContactController @Inject()(
           )
         )
       }
-      case "expenses" =>  {
+      case "expenses" => {
         Ok(expenses(appConfig)(request.serviceInfoContent))
       }
       case "help-with-return" => {
@@ -137,14 +141,15 @@ class HelpAndContactController @Inject()(
         NotFound(errorHandler.notFoundTemplate)
     }
 
-  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
+  private def vat(page: String)(implicit request: ServiceInfoRequest[AnyContent]): Result = {
     page match {
       case "how-to-pay" => Ok(payments_and_deadlines(appConfig)(request.serviceInfoContent))
-      case "register-or-deregister" => Ok(register_or_deregister(appConfig)(request.serviceInfoContent))
+      case "register-or-deregister" => Ok(register_or_deregister(appConfig, thresholdService.formattedVatThreshold())(request.serviceInfoContent))
       case _ =>
         warnLog(s"[HelpAndContactController][vat] - Page not found: $page")
         NotFound(errorHandler.notFoundTemplate)
     }
+  }
 
   private def gen(page: String)(implicit request: ServiceInfoRequest[AnyContent]) =
     page match {

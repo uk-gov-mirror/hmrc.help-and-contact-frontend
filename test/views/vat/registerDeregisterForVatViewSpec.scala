@@ -17,6 +17,7 @@
 package views.vat
 
 import play.twirl.api.HtmlFormat
+import services.ThresholdService
 import views.behaviours.ViewBehaviours
 import views.html.vat.register_or_deregister
 
@@ -24,12 +25,18 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "vat.register_or_deregister"
 
-  def createView =
+  val thresholdService: ThresholdService = inject[ThresholdService]
+
+  def createView: () => HtmlFormat.Appendable = {
+
+    val vatThreshold = thresholdService.formattedVatThreshold()
+
     () =>
-      inject[register_or_deregister].apply(frontendAppConfig)(Some(HtmlFormat.empty))(
+      inject[register_or_deregister].apply(frontendAppConfig, vatThreshold)(Some(HtmlFormat.empty))(
         fakeRequest,
         messages
-    )
+      )
+  }
 
   "Register or Deregister for VAT view" must {
 

@@ -20,14 +20,14 @@
   main_template: main_template
 )
 
-@(appConfig: FrontendAppConfig)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+@(appConfig: FrontendAppConfig, vatThresholdFormatted: String)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
 
 @main_template(title = messages("vat.register_or_deregister.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
 
   <h1 id="register-deregister-vat" class="govuk-heading-l">@Messages("vat.register_or_deregister.heading")</h1>
 
   <h2 class="govuk-heading-m">@Messages("vat.register_or_deregister.register_for_vat")</h2>
-  <p class="govuk-body">@Messages("vat.register_or_deregister.you_must_register_for_vat_with_hmrc_")</p>
+  <p class="govuk-body">@Messages("vat.register_or_deregister.you_must_register_for_vat_with_hmrc_", vatThresholdFormatted)</p>
 
   <p class="govuk-body">@Messages("vat.register_or_deregister.when_you_register_")</p>
 
