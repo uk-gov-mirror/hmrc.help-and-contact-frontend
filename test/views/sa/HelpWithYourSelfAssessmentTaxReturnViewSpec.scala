@@ -47,8 +47,6 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return",
         "Help with completing and filing your tax return",
         "How to tailor your return",
-        "If you are self-employed",
-        "If you have income from property",
         "Viewing your Self Assessment calculation",
         "More help with Self Assessment",
         "Basic record keeping when you’re self-employed",
@@ -124,21 +122,6 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
         "https://www.youtube.com/watch?v=Qf5vaSO8-0M",
-        expectedOpensInNewTab = true
-      )
-
-      assertLinkById(
-        doc,
-        "self-employed-tax-video",
-        "Video - Your self-employed tax return (opens in new tab)",
-        "https://www.youtube.com/watch?v=BkDPUuYVQFY",
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "income-from-property-video",
-        "Video - If I have income from property - how do I fill in my tax return? (opens in new tab)",
-        "https://www.youtube.com/watch?v=thgFM03Hl9U",
         expectedOpensInNewTab = true
       )
 
