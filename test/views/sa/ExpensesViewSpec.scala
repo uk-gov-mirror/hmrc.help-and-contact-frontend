@@ -91,14 +91,6 @@ class ExpensesViewSpec extends ViewBehaviours {
       )
       assertLinkById(
         doc,
-        "what-expenses-video",
-        "Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)",
-        "https://www.youtube.com/watch?v=qkEW2Ne0zEg",
-
-        expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
         "find-out-more-simplified",
         "Find out more about simplified expenses",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses",
