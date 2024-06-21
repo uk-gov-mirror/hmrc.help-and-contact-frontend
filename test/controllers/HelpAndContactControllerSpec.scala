@@ -242,7 +242,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
         HelpCategory.SelfAssessment,
         "evidence-of-income",
         () =>
-          inject[sa_evidence].apply(frontendAppConfig, true, "http://localhost:9020/business-account/self-assessment")(
+          inject[sa_evidence].apply(frontendAppConfig, hasSAenrolment = true)(
             Some(HtmlFormat.empty)
           )(fakeServiceInfoRequest(testUtr), messages),
         fakeServiceInfoRequest(testUtr)
