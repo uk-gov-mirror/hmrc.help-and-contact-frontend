@@ -116,8 +116,7 @@ class HelpAndContactController @Inject()(
       case "evidence-of-income" => {
         Ok(
           sa_evidence(appConfig,
-            request.request.saUtr.isDefined,
-            appConfig.getBusinessAccountUrl("selfAssessmentBase"))(
+            request.request.saUtr.isDefined)(
             request.serviceInfoContent
           )
         )
