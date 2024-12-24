@@ -42,7 +42,8 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
         doc,
         "gov-link",
         "GOV.UK",
-        "https://www.gov.uk/")
+        "https://www.gov.uk/",
+        expectedOpensInNewTab = true)
     }
 
     "have correct content" in {
@@ -55,28 +56,31 @@ class PayingYourSelfAssessmentTaxBillViewSpec extends ViewBehaviours {
 
       val contentList = List(
         "After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.",
-        "There are lots of ways to pay this bill, and 2 deadlines for paying it by. Paying on time means you’ll avoid " +
-          "being charged interest and a late penalty. The deadlines are:",
-        "To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay " +
-          "regularly throughout the year, use a budget payment plan.",
-        "For your payment to reach us the same or next day, pay by:",
+        "There are lots of ways to pay this bill and two deadlines for paying it by.",
+        "Paying on-time means you’ll avoid being charged interest and a late penalty.",
+        "The deadlines are:",
+        "To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay" +
+          " regularly throughout the year, use a budget payment plan.",
+        "You can also pay your Self Assessment tax bill through the HMRC app.",
+      "For your payment to reach us the same or next day, pay by:",
 
-        "For payment to reach us within 3 days, pay by:",
-        "After paying, you can view your HMRC online account to check payment has been received. It should show as paid" +
-          " within 7 working days.",
+        "Alternatively, you can use a paying-in slip from HMRC at your bank or building society",
+        "For payment to reach us within three days, pay by:",
+        "Alternatively, you can send a cheque through the post.",
+        "After paying, you can view your HMRC online account, to check payment has been received – it should show as paid" +
+          " within seven working days.",
         "You can find more information about Self Assessment on GOV.UK."
       )
       val contentLIList = List(
 
-        "31 January for your tax bill from the previous year and first payment on account",
-        "and 31 July for your second payment on account.",
-        "approving your payment through your online account",
+        "31 January for your tax bill from the previous year and first payment on account and",
+        "31 July for your second payment on account.",
+        "approving your payment through your online bank account",
       "online or telephone banking, using faster payments",
       "CHAPS",
       "or your debit or corporate credit card online",
         "Direct Debit",
         "or Bacs",
-        "alternatively you can send a cheque through the post.",
       )
 
       contentList.zipAll(elements, "", "").foreach {
