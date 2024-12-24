@@ -42,7 +42,10 @@ class NewYourFirstTaxReturnSpec extends ViewBehaviours {
         doc,
         "gov-link",
         "GOV.UK",
-        "https://www.gov.uk/")
+        "https://www.gov.uk/",
+        expectedOpensInNewTab = true
+      )
+
     }
 
     "have correct content" in {
@@ -62,12 +65,12 @@ class NewYourFirstTaxReturnSpec extends ViewBehaviours {
         "Go to GOV.UK and login with the user ID and password you received when you registered online.",
         "First, we’ll need some details about you. The online screens will guide you – if you get stuck," +
           " there are prompts on screen and links that explain more. For example, if you enter your date of birth the wrong way, the box will light up red.",
-        "In the section called Tailor your return you answer yes or no to a series of questions – this means you only fill" +
+        "In the section called ’Tailor your return’ you answer yes or no to a series of questions – this means you only fill" +
           " in the sections that apply to you. If you’re not sure about a question, click on the ‘Help about’ link for guidance.",
-        "The Save and continue button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.",
+        "The ’Save and continue’ button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.",
         "When you’ve completed your return, check it through. You can go back if you need to correct anything.",
-        "Use View your calculation to find out if you owe tax and how much.",
-        "Now you can save a copy for your records. In the Submit return section, you’ll need your user" +
+        "Use ’View your calculation’ to find out if you owe tax and how much.",
+        "Now you can save a copy for your records. In the ’Submit return’ section, you’ll need your user" +
           " ID and password to send it to HMRC. Finally, you’ll get an online message to confirm that we’ve received it.",
         "You can find out more about Self Assessment on GOV.UK and watch our other helpful videos and webinars on YouTube."
       )
