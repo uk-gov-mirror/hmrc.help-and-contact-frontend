@@ -21,23 +21,14 @@ import utils.WithName
 
 sealed trait HelpCategory
 object HelpCategory {
-  case object CorporationTax extends WithName("corporation_tax") with HelpCategory
-  case object Epaye extends WithName("paye_for_employers") with HelpCategory
-  case object SelfAssessment extends WithName("self_assessment") with HelpCategory
+  case object CorporationTax extends WithName("corporation-tax") with HelpCategory
+  case object Epaye extends WithName("epaye") with HelpCategory
+  case object SelfAssessment extends WithName("self-assessment") with HelpCategory
   case object VAT extends WithName("vat") with HelpCategory
-  case object GEN extends WithName("contact_hmrc") with HelpCategory
-  case object BTA extends WithName("bta") with HelpCategory
+  case object GEN extends WithName("general") with HelpCategory
 
 
-  // [IMPORTANT] Ensure rendering order.
-  val values = Seq(
-    BTA,
-    SelfAssessment,
-    VAT,
-    Epaye,
-    CorporationTax,
-    GEN
-  )
+  val values = Seq(VAT, SelfAssessment, CorporationTax, Epaye)
 
   implicit val jsLiteral: JavascriptLiteral[HelpCategory] = new JavascriptLiteral[HelpCategory] {
     override def to(value: HelpCategory): String = value match {
