@@ -105,7 +105,7 @@ helpWithYourSelfAssessmentTaxReturn.filing_your_sa = Filing your Self Assessment
 helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = You will usually be sent a tax return or a letter about a tax return if you are registered as self-employed.
 helpWithYourSelfAssessmentTaxReturn.file_by_deadline = You must file your tax return even if you have no tax to pay. If you do not file it by the deadline, you may have to pay a penalty.
 helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Video - What to do if you’ve been sent a tax return? (opens in a new tab)
-helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = What to do if you’ve been sent a tax return? - video transcript
+helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Video transcript – What to do if you’ve been sent a tax return
 helpWithYourSelfAssessmentTaxReturn.not_complete = If you do not need to complete and file a Self Assessment tax return
 helpWithYourSelfAssessmentTaxReturn.used_to_file = If you used to file a tax return but do not need to file one for the most recent tax year,
 helpWithYourSelfAssessmentTaxReturn.used_to_file_link =  tell HMRC to stop Self Assessment.
@@ -779,15 +779,15 @@ selfAssessmentPenaltiesTranscript.paragraph9 = The easiest way to avoid penaltie
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-whySentTaxReturnTranscript.title = What to do if you’ve been sent a tax return? - video transcript
-whySentTaxReturnTranscript.heading = What to do if you’ve been sent a tax return? - video transcript
-whySentTaxReturnTranscript.paragraph1 = You’ll usually be sent a tax return if you’re registered as self-employed, but there are plenty of other reasons why you may need to fill one in.
-whySentTaxReturnTranscript.paragraph2 = You can check if you need to fill in a Self Assessment tax return quickly and easily on
-whySentTaxReturnTranscript.paragraph2_2 = using the link at the end of this video.
-whySentTaxReturnTranscript.paragraph3 = It’s not connected to HM Revenue and Customs online services so it’s completely anonymous.
-whySentTaxReturnTranscript.paragraph4 = If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.
-whySentTaxReturnTranscript.paragraph5 = If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.
-whySentTaxReturnTranscript.paragraph6 = You must also tell HMRC if you’ve stopped being self-employed. You can do all this – and find out much more – on
+
+whySentTaxReturnTranscript.title = Video transcript – What to do if you’ve  been sent a tax return
+whySentTaxReturnTranscript.heading = Video transcript – What to do if you’ve been sent a tax return
+whySentTaxReturnTranscript.paragraph1 = You’ll usually be sent a tax return if you’re registered as self-employed, but there are plenty of other reasons why you may need to fill one in. You can check if you need to fill in a Self Assessment tax return quickly and easily on
+whySentTaxReturnTranscript.paragraph1_2 = using the link at the end of this video.
+whySentTaxReturnTranscript.paragraph2 = It’s not connected to HM Revenue and Customs online services so it’s completely anonymous
+whySentTaxReturnTranscript.paragraph3 = If you’re sent a tax return, or if you get an email or letter from HMRC telling you to complete one, you must do it - even if you don’t have any tax to pay. If you don’t send a tax return back by the deadline you may have to pay a penalty.
+whySentTaxReturnTranscript.paragraph4 = If you used to send a tax return but don’t need to send one for the last tax year, contact HMRC to close your Self Assessment account.
+whySentTaxReturnTranscript.paragraph5 = You must also tell HMRC if you’ve stopped being self-employed. You can do all this – and find out much more – on
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

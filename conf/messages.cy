@@ -104,7 +104,7 @@ helpWithYourSelfAssessmentTaxReturn.filing_your_sa = Cyflwyno’ch Ffurflen Dret
 helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = Fel rheol, anfonir Ffurflen Dreth neu lythyr atoch ynglŷn â Ffurflen Dreth os ydych wedi’ch cofrestru fel unigolyn hunangyflogedig.
 helpWithYourSelfAssessmentTaxReturn.file_by_deadline = Mae’n rhaid i chi gyflwyno’ch Ffurflen Dreth, hyd yn oed os nad oes gennych dreth i’w thalu. Os na fyddwch yn ei chyflwyno erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
 helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Fideo – Beth i’w wneud os ydych wedi cael Ffurflen Dreth? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Beth i’w wneud os ydych wedi cael Ffurflen Dreth? – trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Video transcript - Beth i’w wneud os ydych wedi cael Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.not_complete = Os nad oes angen i chi lenwi a chyflwyno Ffurflen Dreth Hunanasesiad
 helpWithYourSelfAssessmentTaxReturn.used_to_file = Os oeddech yn arfer cyflwyno Ffurflen Dreth ond nad oes angen i chi gyflwyno un ar gyfer y flwyddyn dreth ddiweddaraf,
 helpWithYourSelfAssessmentTaxReturn.used_to_file_link =  rhowch wybod i CThEM i stopio Hunanasesiad.
@@ -764,15 +764,14 @@ selfAssessmentPenaltiesTranscript.paragraph9 = Y ffordd hawsaf o osgoi cosbau yw
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Why have I been sent a tax return
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-whySentTaxReturnTranscript.title = Pam yr ydwyf wedi cael Ffurflen Dreth? - trawsgrifiad fideo
-whySentTaxReturnTranscript.heading = Pam yr ydwyf wedi cael Ffurflen Dreth? - trawsgrifiad fideo
-whySentTaxReturnTranscript.paragraph1 = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig, ond mae nifer o resymau eraill pam y mae’n bosibl y bydd angen i chi lenwi un.
-whySentTaxReturnTranscript.paragraph2 = Gallwch weld a oes angen i chi lenwi Ffurflen Dreth Hunanasesiad, yn gyflym ac yn hawdd ar
-whySentTaxReturnTranscript.paragraph2_2 =  gan ddefnyddio’r cysylltiad ar ddiwedd y fideo hwn.
-whySentTaxReturnTranscript.paragraph3 = Nid yw’n gysylltiedig â gwasanaethau ar-lein Cyllid a Thollau EM felly mae’n gwbl ddienw.
-whySentTaxReturnTranscript.paragraph4 = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny – hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os na fyddwch yn anfon eich Ffurflen Dreth atom erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
-whySentTaxReturnTranscript.paragraph5 = Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad.
-whySentTaxReturnTranscript.paragraph6 = Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig. Gallwch wneud hyn i gyd – a chael gwybod llawer mwy – ar
+whySentTaxReturnTranscript.title = Video transcript - Beth i’w wneud os ydych wedi cael Ffurflen Dreth
+whySentTaxReturnTranscript.heading = Video transcript - Beth i’w wneud os ydych wedi cael Ffurflen Dreth
+whySentTaxReturnTranscript.paragraph1 = Fel rheol, byddwch yn cael Ffurflen Dreth os ydych wedi’ch cofrestru’n hunangyflogedig, ond mae nifer o resymau eraill pam y mae’n bosibl y bydd angen i chi lenwi un. Gallwch weld a oes angen i chi lenwi Ffurflen Dreth Hunanasesiad, yn gyflym ac yn hawdd ar
+whySentTaxReturnTranscript.paragraph1_2 =  gan ddefnyddio’r cysylltiad ar ddiwedd y fideo hwn.
+whySentTaxReturnTranscript.paragraph2 = Nid yw’n gysylltiedig â gwasanaethau ar-lein Cyllid a Thollau EF felly mae’n gwbl ddienw.
+whySentTaxReturnTranscript.paragraph3 = Os anfonir Ffurflen Dreth atoch, neu os cewch e-bost neu lythyr gan CThEM yn dweud wrthych am lenwi un, mae’n rhaid i chi wneud hynny – hyd yn oed os nad oes gennych unrhyw dreth i’w thalu. Os na fyddwch yn anfon eich Ffurflen Dreth atom erbyn y dyddiad cau, efallai y bydd yn rhaid i chi dalu cosb.
+whySentTaxReturnTranscript.paragraph4 = Os oeddech yn arfer anfon Ffurflen Dreth ond nad oes angen i chi anfon un ar gyfer y flwyddyn dreth ddiwethaf, cysylltwch â CThEM er mwyn cau’ch cyfrif Hunanasesiad.
+whySentTaxReturnTranscript.paragraph5 = Mae’n rhaid i chi roi gwybod i CThEM hefyd os ydych wedi rhoi’r gorau i fod yn hunangyflogedig. Gallwch wneud hyn i gyd – a chael gwybod llawer mwy – ar
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
