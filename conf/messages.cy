@@ -515,7 +515,7 @@ epaye.paye_and_cis_refunds.cis_refunds = Ad-daliadau CIS
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad <span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -715,17 +715,17 @@ payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Ar ôl llenwi’ch Ffurfl
 payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae llawer o ffyrdd o dalu’r bil hwn, a dau ddyddiad cau ar gyfer talu.
 payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Mae talu mewn pryd yn golygu na fydd llog na chosb hwyr yn cael eu codi arnoch.
 payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Y dyddiadau cau yw:
-payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 Ionawr ar gyfer eich bil treth am y flwyddyn flaenorol a’r taliad cyntaf ar gyfrif a
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 Ionawr ar gyfer eich bil treth am y <b>flwyddyn flaenorol</b> a’r taliad <b>cyntaf</b> ar gyfrif a
 payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif.
 payingYourSelfAssessmentTaxBillTranscript.paragraph5 = I’ch helpu i osgoi colli’r dyddiad cau, gallwch ddewis gwneud eich taliadau yn gynharach. Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, defnyddiwch gynllun talu cyllidebol.
 payingYourSelfAssessmentTaxBillTranscript.paragraph6 = Gallwch hefyd dalu’ch bil treth Hunanasesiad drwy ap CThEF.
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Er mwyn i’ch taliad ein cyrraedd ar yr un diwrnod neu’r diwrnod nesaf, talwch drwy un o’r dulliau canlynol:
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Er mwyn i’ch taliad ein cyrraedd ar yr <b>un diwrnod</b> neu’r <b>diwrnod nesaf</b>, talwch drwy un o’r dulliau canlynol:
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Cymeradwyo’r taliad drwy’ch cyfrif banc ar-lein
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = Bancio ar-lein neu dros y ffôn, gan ddefnyddio’r gwasanaeth Taliadau Cyflymach
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = CHAPS
 payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = Neu eich cerdyn debyd neu gerdyn credyd corfforaethol ar-lein
 payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Fel arall, gallwch ddefnyddio slip talu gan CThEF yn eich banc neu gymdeithas adeiladu
-payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Er mwyn i daliad ein cyrraedd o fewn tridiau, talwch drwy un o’r canlynol:
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Er mwyn i daliad ein cyrraedd o fewn <b>tridiau</b>, talwch drwy un o’r canlynol:
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Debyd Uniongyrchol
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = Neu Bacs
 payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Fel arall, gallwch anfon siec drwy’r post.
