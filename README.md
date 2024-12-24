@@ -1,6 +1,6 @@
 # Help and Contact Frontend
 
-## ⚠️ **DO NOT DEPLOY TO PROD** ⚠️
+## ⚠️ **DO NOT MERGE** ⚠️
 
 **IMPORTANT:** This code is intended for development and local testing only. **DO NOT** deploy this to production.
 
