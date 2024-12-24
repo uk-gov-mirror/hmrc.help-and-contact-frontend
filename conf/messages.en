@@ -251,7 +251,7 @@ modular.viewingSaCalculation.list_ni_contributions = any class 2 and class 4 Nat
 modular.viewingSaCalculation.list_opens = (opens in new tab)
 modular.viewingSaCalculation.print_a_copy = You can print a copy of the calculation for your records.
 modular.viewingSaCalculation.viewing_return_calculation_video = Video - Viewing your Self Assessment tax return calculation (opens in new tab)
-modular.viewingSaCalculation.viewing_return_calculation_transcript = Viewing your Self Assessment tax return calculations - video transcript
+modular.viewingSaCalculation.viewing_return_calculation_transcript = Video transcript – Viewing your Self Assessment tax return calculations
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Basic record keeping
@@ -343,7 +343,7 @@ payment_and_penalties.depends = The time you need to allow depends on how you pa
 payment_and_penalties.no_longer = You can no longer pay at the Post Office.
 payment_and_penalties.read_info = Read detailed information about ways to pay your tax bill
 payment_and_penalties.how_do_i_pay_video = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
-payment_and_penalties.how_do_i_pay_transcript = How do I pay my Self Assessment tax bill? - video transcript
+payment_and_penalties.how_do_i_pay_transcript = Video transcript – How do I pay my Self Assessment tax bill?
 payment_and_penalties.budgeting_for_sa = Budgeting for your Self Assessment tax bill
 payment_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed
 payment_and_penalties.how_do_i_budget_video = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
@@ -708,49 +708,44 @@ howToFindSaPenaltiesTranscript.paragraph8 = The easiest way to avoid penalties i
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Viewing your Self Assessment tax return calculations - video transcript
-viewingYourCalculationTranscript.heading = Viewing your Self Assessment tax return calculations - video transcript
+viewingYourCalculationTranscript.title = Video transcript - Viewing your Self Assessment tax return calculation
+viewingYourCalculationTranscript.heading = Video transcript - Viewing your Self Assessment tax return calculation
 viewingYourCalculationTranscript.paragraph1 = When you use our Self Assessment online tax return, it automatically works out how much you’ll need to pay us.
-viewingYourCalculationTranscript.paragraph2 = After adding your figures and checking everything is correct, you can view your calculation. This shows the amount you’re due to pay for this tax return. It will include:
-viewingYourCalculationTranscript.para2bullet1 = Income Tax
-viewingYourCalculationTranscript.para2bullet2 = Class 4 National Insurance
-viewingYourCalculationTranscript.para2bullet3 = and Class 2 National Insurance contributions
-viewingYourCalculationTranscript.paragraph3 = if they’re due.
+viewingYourCalculationTranscript.paragraph2 = After adding your figures, and checking everything is correct, you can view your calculation.
+viewingYourCalculationTranscript.paragraph3 = This shows the amount you’re due to pay for this tax return. It will include Income Tax, Class 4 National Insurance and Class 2 National Insurance contributions, if they’re due.
+
 viewingYourCalculationTranscript.paragraph4 = If the amount of Income Tax and Class 4 National Insurance is £1,000 or more, you have to make a payment on account.
-viewingYourCalculationTranscript.paragraph5 = A payment on account is made twice a year on 31 January and 31 July to help you spread the cost of each year’s tax.
+viewingYourCalculationTranscript.paragraph5 = A payment on account is made twice a year, on the 31st of January and the 31st of July, to help you spread the cost of each year’s tax.
 viewingYourCalculationTranscript.paragraph6 = Each payment is half of your last Income Tax and Class 4 National Insurance bill.  These payments are taken off the amount you’re due to pay the following year.
-viewingYourCalculationTranscript.paragraph7 = If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’.
-viewingYourCalculationTranscript.paragraph8 = This shows your:
-viewingYourCalculationTranscript.para8bullet1 = income
-viewingYourCalculationTranscript.para8bullet2 = personal allowance
-viewingYourCalculationTranscript.para8bullet3 = tax due
-viewingYourCalculationTranscript.para8bullet4 = Class 4 National Insurance
-viewingYourCalculationTranscript.para8bullet5 = Class 2 National Insurance
-viewingYourCalculationTranscript.para8bullet6 = and the total of any payments due
-viewingYourCalculationTranscript.paragraph9 = Remember, these estimated payments don’t include any payments you’ve already made. You can print a copy of this for your own records.
-viewingYourCalculationTranscript.paragraph10 = You can find more information about Self Assessment on
+viewingYourCalculationTranscript.paragraph7 = If you’d like to see how the figures have been worked out in more detail, select ‘View and print your full calculation’. This shows your income, personal allowance, tax due, Class 4 National Insurance, Class 2 National Insurance and the total of any payments due.
+viewingYourCalculationTranscript.paragraph8 = Remember, these estimated payments don’t include any payments you’ve already made. You can print a copy of this for your own records.
+viewingYourCalculationTranscript.paragraph9 = You can find more information about Self Assessment on
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = How do I pay my Self Assessment tax bill? - video transcript
-payingYourSelfAssessmentTaxBillTranscript.heading = How do I pay my Self Assessment tax bill? - video transcript
+payingYourSelfAssessmentTaxBillTranscript.title = Video transcript - How do I pay my Self Assessment tax bill?
+payingYourSelfAssessmentTaxBillTranscript.heading = Video transcript - How do I pay my Self Assessment tax bill?
 payingYourSelfAssessmentTaxBillTranscript.paragraph1 = After completing your online Self Assessment return, you’ll see your tax calculation and how much you’ll pay.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = There are lots of ways to pay this bill, and 2 deadlines for paying it by. Paying on time means you’ll avoid being charged interest and a late penalty. The deadlines are:
-payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 January for your tax bill from the previous year and first payment on account
-payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = and 31 July for your second payment on account.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay regularly throughout the year, use a budget payment plan.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = For your payment to reach us the same or next day, pay by:
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = online or telephone banking, using faster payments
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = CHAPS
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = or your debit or corporate credit card online
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = approving your payment through your online account
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = For payment to reach us within 3 days, pay by:
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = There are lots of ways to pay this bill and two deadlines for paying it by.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Paying on-time means you’ll avoid being charged interest and a late penalty.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = The deadlines are:
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 January for your tax bill from the <b>previous year</b> and <b>first</b> payment on account and
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = 31 July for your second payment on account.
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = To help you avoid missing the deadline, you can choose to make your payments earlier. If you prefer to pay regularly throughout the year, use a budget payment plan.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 =You can also pay your Self Assessment tax bill through the HMRC app.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = For your payment to reach us the <b>same</b> or <b>next day</b>, pay by:
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = approving your payment through your online bank account
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = online or telephone banking, using faster payments
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = CHAPS
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = or your debit or corporate credit card online
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Alternatively, you can use a paying-in slip from HMRC at your bank or building society
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = For payment to reach us within <b>three days</b>, pay by:
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Direct Debit
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = or Bacs
-payingYourSelfAssessmentTaxBillTranscript.list3.bullet3 = alternatively you can send a cheque through the post.
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = After paying, you can view your HMRC online account to check payment has been received. It should show as paid within 7 working days.
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = You can find more information about Self Assessment on
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Alternatively, you can send a cheque through the post.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = After paying, you can view your HMRC online account, to check payment has been received – it should show as paid within seven working days.
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = You can find more information about Self Assessment on
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript

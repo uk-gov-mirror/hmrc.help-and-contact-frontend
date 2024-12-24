@@ -92,7 +92,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "why-i-have-been-sent-tax-video",
         "Video - What to do if you’ve been sent a tax return? (opens in a new tab)",
-        "https://www.youtube.com/watch?v=_C2tlkfKRbY",
+        "https://www.youtube.com/watch?v=ZWasvKMvJvs",
         expectedOpensInNewTab = true
       )
 

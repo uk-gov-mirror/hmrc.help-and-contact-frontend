@@ -249,7 +249,7 @@ modular.viewingSaCalculation.list_ni_contributions = unrhyw gyfraniadau Yswirian
 modular.viewingSaCalculation.list_opens = (yn agor tab newydd)
 modular.viewingSaCalculation.print_a_copy = Gallwch argraffu copi o’r cyfrifiad ar gyfer eich cofnodion.
 modular.viewingSaCalculation.viewing_return_calculation_video = Fideo – Bwrw golwg dros gyfrifiad ar gyfer eich Ffurflen Dreth Hunanasesiad (yn agor tab newydd)
-modular.viewingSaCalculation.viewing_return_calculation_transcript = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad – trawsgrifiad fideo
+modular.viewingSaCalculation.viewing_return_calculation_transcript = Video transcript - Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Basic record keeping
@@ -341,7 +341,7 @@ payment_and_penalties.depends = Mae’r amser y mae angen i chi ei ganiatáu yn 
 payment_and_penalties.no_longer = Ni allwch dalu yn Swyddfa’r Post mwyach.
 payment_and_penalties.read_info = Darllenwch wybodaeth fanwl am ffyrdd o dalu’ch bil treth
 payment_and_penalties.how_do_i_pay_video = Fideo – Sut rydw i’n talu fy mil treth Hunanasesiad? (yn agor tab newydd)
-payment_and_penalties.how_do_i_pay_transcript = Sut rydw i’n talu fy mil treth Hunanasesiad? – trawsgrifiad fideo
+payment_and_penalties.how_do_i_pay_transcript = Video transcript - Sut ydw i’n talu fy mil treth Hunanasesiad
 payment_and_penalties.budgeting_for_sa = Cyllidebu ar gyfer eich bil treth Hunanasesiad
 payment_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig
 payment_and_penalties.how_do_i_budget_video = Fideo – Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
@@ -515,7 +515,7 @@ epaye.paye_and_cis_refunds.cis_refunds = Ad-daliadau CIS
 epaye.paye_and_cis_refunds.if_you_are_a_limited_company_that_acts_as_a_subcontractor_ = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
 epaye.paye_and_cis_refunds.we_aim_to_process_repayments_within_25_working_days_ = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
 epaye.paye_and_cis_refunds.do_not_call_unless_it_has_been_more_than_ = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
-epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad <span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS
+epaye.paye_and_cis_refunds.how_to_claim_cis_refund = Sut i wneud cais am ad-daliad span class="govuk-visually-hidden">Ad-daliadau Cynllun y Diwydiant Adeiladu</span> CIS
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Contact HMRC
@@ -693,49 +693,44 @@ howToFindSaPenaltiesTranscript.paragraph8 = Y ffordd hawsaf o osgoi cosbau yw an
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Viewing your self assessment calculation transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-viewingYourCalculationTranscript.title = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
-viewingYourCalculationTranscript.heading = Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad - trawsgrifiad fideo
-viewingYourCalculationTranscript.paragraph1 = Pan fyddwch yn defnyddio’ch Ffurflen Dreth Hunanasesiad ar-lein, mae’n cyfrifo’n awtomatig faint y bydd angen i chi ein talu.
-viewingYourCalculationTranscript.paragraph2 = Ar ôl ychwanegu’ch ffigurau a gwirio bod pob dim yn gywir, gallwch fwrw golwg dros eich cyfrifiad. Mae hyn yn dangos y swm sydd angen i chi ei dalu ar gyfer y Ffurflen Dreth hon. Bydd yn cynnwys:
-viewingYourCalculationTranscript.para2bullet1 = Treth Incwm
-viewingYourCalculationTranscript.para2bullet2 = Yswiriant Gwladol Dosbarth 4
-viewingYourCalculationTranscript.para2bullet3 = a chyfraniadau Yswiriant Gwladol Dosbarth 2
-viewingYourCalculationTranscript.paragraph3 = os maen nhw’n ddyledus.
+viewingYourCalculationTranscript.title = Video transcript - Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad
+viewingYourCalculationTranscript.heading = Video transcript - Bwrw golwg dros gyfrifiadau’ch Ffurflen Dreth Hunanasesiad
+viewingYourCalculationTranscript.paragraph1 = Pan fyddwch yn defnyddio’ch Ffurflen Dreth Hunanasesiad ar-lein, mae’n cyfrifo’n awtomatig faint y mae angen i chi ein talu.
+viewingYourCalculationTranscript.paragraph2 = Ar ôl ychwanegu’ch ffigurau a gwirio bod pob dim yn gywir, gallwch fwrw golwg dros eich cyfrifiad.
+viewingYourCalculationTranscript.paragraph3 = Mae hyn yn dangos y swm sydd angen i chi ei dalu ar gyfer y Ffurflen Dreth hon. Bydd hyn yn cynnwys Treth Incwm, Yswiriant Gwladol Dosbarth 4 a chyfraniadau Yswiriant Gwladol Dosbarth 2, os ydynt yn ddyledus.
+
 viewingYourCalculationTranscript.paragraph4 = Os yw swm y Dreth Incwm ac Yswiriant Gwladol Dosbarth 4 yn £1,000 neu fwy, mae’n rhaid i chi wneud taliad ar gyfrif.
-viewingYourCalculationTranscript.paragraph5 = Mae taliad ar gyfrif yn cael ei wneud ddwywaith y flwyddyn ar 31 Ionawr a 31 Gorffennaf i’ch helpu i rannu cost treth bob blwyddyn.
+viewingYourCalculationTranscript.paragraph5 = Mae taliad ar gyfrif yn cael ei wneud ddwywaith y flwyddyn, ar 31 Ionawr a 31 Gorffennaf, i’ch helpu i rannu cost treth bob blwyddyn.
 viewingYourCalculationTranscript.paragraph6 = Mae pob taliad yn werth hanner eich bil Treth Incwm ac Yswiriant Gwladol Dosbarth 4 diwethaf.  Didynnir y taliadau hyn oddi wrth y swm sydd arnoch y flwyddyn ganlynol.
-viewingYourCalculationTranscript.paragraph7 = Os hoffech weld sut mae’r ffigurau wedi’u cyfrifo mewn mwy o fanylder, dewiswch ‘Bwrw golwg dros eich cyfrifiad llawn a’i argraffu’.
-viewingYourCalculationTranscript.paragraph8 = Mae hyn yn dangos eich
-viewingYourCalculationTranscript.para8bullet1 = incwm
-viewingYourCalculationTranscript.para8bullet2 = lwfans personol
-viewingYourCalculationTranscript.para8bullet3 = treth sy’n ddyledus
-viewingYourCalculationTranscript.para8bullet4 = Yswiriant Gwladol Dosbarth 4
-viewingYourCalculationTranscript.para8bullet5 = Yswiriant Gwladol Dosbarth 2
-viewingYourCalculationTranscript.para8bullet6 = a chyfanswm o unrhyw daliadau sy’n ddyledus
-viewingYourCalculationTranscript.paragraph9 = Cofiwch nad yw’r taliadau amcangyfrifedig hyn yn cynnwys unrhyw daliadau rydych wedi’u gwneud eisoes. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
-viewingYourCalculationTranscript.paragraph10 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
+viewingYourCalculationTranscript.paragraph7 = Os hoffech weld sut mae’r ffigurau wedi’u cyfrifo mewn mwy o fanylder, dewiswch ‘Bwrw golwg dros eich cyfrifiad llawn a’i argraffu’. Mae’n dangos eich incwm, eich lwfans personol, y dreth sy’n ddyledus, unrhyw Yswiriant Gwladol Dosbarth 4, Yswiriant Gwladol Dosbarth 2, a chyfanswm unrhyw daliadau sy’n ddyledus.
+viewingYourCalculationTranscript.paragraph8 = Cofiwch nad yw’r taliadau amcangyfrifedig hyn yn cynnwys unrhyw daliadau rydych wedi’u gwneud eisoes. Gallwch argraffu copi ohono ar gyfer eich cofnodion eich hun.
+viewingYourCalculationTranscript.paragraph9 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Paying your self assessment tax bill transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payingYourSelfAssessmentTaxBillTranscript.title = Sut ydw i’n talu fy mil treth Hunanasesiad? - trawsgrifiad fideo
-payingYourSelfAssessmentTaxBillTranscript.heading = Sut ydw i’n talu fy mil treth Hunanasesiad? - trawsgrifiad fideo
-payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Ar ôl cyflwyno’ch Ffurflen Dreth Hunanasesiad ar-lein, byddwch yn gweld eich cyfrifiad treth a faint y byddwch yn ei dalu.
-payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae llawer o ffyrdd o dalu’r bil hwn, a 2 ddyddiad cau ar gyfer ei dalu. Mae talu mewn pryd yn golygu na fydd llog na chosb hwyr yn cael eu codi arnoch. Y dyddiadau cau yw:
-payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 Ionawr ar gyfer eich bil treth am y flwyddyn flaenorol a’r taliad cyntaf ar gyfrif
-payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = a 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif.
-payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Er mwyn eich helpu i osgoi colli’r dyddiad cau, gallwch ddewis gwneud eich taliadau yn gynharach. Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, gallwch ddefnyddio cynllun talu cyllidebol.
-payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Er mwyn i’ch taliad ein cyrraedd ar yr un diwrnod neu’r diwrnod nesaf, talwch drwy’r canlynol:
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Bancio ar-lein neu dros y ffôn, gan ddefnyddio’r gwasanaeth Taliadau Cyflymach
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = CHAPS
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = neu eich cerdyn debyd neu gerdyn credyd corfforaethol ar-lein
-payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = Cymeradwyo’ch taliad gan ddefnyddio’ch cyfrif ar-lein
-payingYourSelfAssessmentTaxBillTranscript.paragraph5 = Er mwyn i daliad ein cyrraedd o fewn tridiau, talwch drwy’r canlynol:
+payingYourSelfAssessmentTaxBillTranscript.title = Video transcript - Sut ydw i’n talu fy mil treth Hunanasesiad
+payingYourSelfAssessmentTaxBillTranscript.heading = Video transcript - Sut ydw i’n talu fy mil treth Hunanasesiad
+payingYourSelfAssessmentTaxBillTranscript.paragraph1 = Ar ôl llenwi’ch Ffurflen Dreth Hunanasesiad ar-lein, byddwch yn gweld eich cyfrifiad treth a faint y byddwch yn ei dalu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph2 = Mae llawer o ffyrdd o dalu’r bil hwn, a dau ddyddiad cau ar gyfer talu.
+payingYourSelfAssessmentTaxBillTranscript.paragraph3 = Mae talu mewn pryd yn golygu na fydd llog na chosb hwyr yn cael eu codi arnoch.
+payingYourSelfAssessmentTaxBillTranscript.paragraph4 = Y dyddiadau cau yw:
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet1 = 31 Ionawr ar gyfer eich bil treth am y <b>flwyddyn flaenorol</b> a’r taliad <b>cyntaf</b> ar gyfrif a
+payingYourSelfAssessmentTaxBillTranscript.list1.bullet2 = 31 Gorffennaf ar gyfer eich ail daliad ar gyfrif.
+payingYourSelfAssessmentTaxBillTranscript.paragraph5 = I’ch helpu i osgoi colli’r dyddiad cau, gallwch ddewis gwneud eich taliadau yn gynharach. Os yw’n well gennych dalu’n rheolaidd drwy gydol y flwyddyn, defnyddiwch gynllun talu cyllidebol.
+payingYourSelfAssessmentTaxBillTranscript.paragraph6 = Gallwch hefyd dalu’ch bil treth Hunanasesiad drwy ap CThEF.
+payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Er mwyn i’ch taliad ein cyrraedd ar yr <b>un diwrnod</b> neu’r <b>diwrnod nesaf</b>, talwch drwy un o’r dulliau canlynol:
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet1 = Cymeradwyo’r taliad drwy’ch cyfrif banc ar-lein
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet2 = Bancio ar-lein neu dros y ffôn, gan ddefnyddio’r gwasanaeth Taliadau Cyflymach
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet3 = CHAPS
+payingYourSelfAssessmentTaxBillTranscript.list2.bullet4 = Neu eich cerdyn debyd neu gerdyn credyd corfforaethol ar-lein
+payingYourSelfAssessmentTaxBillTranscript.paragraph8 = Fel arall, gallwch ddefnyddio slip talu gan CThEF yn eich banc neu gymdeithas adeiladu
+payingYourSelfAssessmentTaxBillTranscript.paragraph9 = Er mwyn i daliad ein cyrraedd o fewn <b>tridiau</b>, talwch drwy un o’r canlynol:
 payingYourSelfAssessmentTaxBillTranscript.list3.bullet1 = Debyd Uniongyrchol
-payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = neu Bacs
-payingYourSelfAssessmentTaxBillTranscript.list3.bullet3 = fel arall, gallwch anfon siec drwy’r post.
-payingYourSelfAssessmentTaxBillTranscript.paragraph6 = Ar ôl talu, gallwch weld eich cyfrif CThEM ar-lein i wirio bod y taliad wedi dod i law. Dylai ddangos ei fod wedi’i dalu o fewn saith diwrnod gwaith.
-payingYourSelfAssessmentTaxBillTranscript.paragraph7 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
+payingYourSelfAssessmentTaxBillTranscript.list3.bullet2 = Neu Bacs
+payingYourSelfAssessmentTaxBillTranscript.paragraph10 = Fel arall, gallwch anfon siec drwy’r post.
+payingYourSelfAssessmentTaxBillTranscript.paragraph11 = Ar ôl talu, gallwch fwrw golwg dros eich cyfrif CThEF ar-lein i wirio a yw’ch taliad wedi dod i law – dylai ddangos fel ei fod wedi ei dalu cyn pen saith diwrnod gwaith.
+payingYourSelfAssessmentTaxBillTranscript.paragraph12 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Budgeting for your Self Assessment tax bill transcript
