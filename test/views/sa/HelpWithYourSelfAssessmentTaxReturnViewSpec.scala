@@ -121,7 +121,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://www.youtube.com/watch?v=Qf5vaSO8-0M",
+        "https://www.youtube.com/watch?v=pWROONSUsN8",
         expectedOpensInNewTab = true
       )
 

@@ -125,7 +125,7 @@ helpWithYourSelfAssessmentTaxReturn.watch_videos = Gallwch wylio fideos, cael e-
 helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma
 helpWithYourSelfAssessmentTaxReturn.how_to_tailor = Sut i deilwra’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Fideo – Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad? (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Video transcript - Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad?
 helpWithYourSelfAssessmentTaxReturn.self_employed = Os ydych yn hunangyflogedig
 helpWithYourSelfAssessmentTaxReturn.self_employed_video = Fideo – Eich Ffurflen Dreth Hunangyflogaeth (yn agor tab newydd)
 helpWithYourSelfAssessmentTaxReturn.self_employed_transcript = Eich Ffurflen Dreth Hunangyflogaeth – trawsgrifiad fideo
@@ -1201,23 +1201,22 @@ help.cant.pay.taxbill.transcript.paragraph9 = a gwylio ein fideos defnyddiol era
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New tailor your SA tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-sa.new_tailor_tax_return_transcript.heading = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
-sa.new_tailor_tax_return_transcript.title = Sut ydw i’n addasu fy Ffurflen Dreth Hunanasesiad? - trawsgrifiad fideo
+sa.new_tailor_tax_return_transcript.heading = Video transcript - Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad?
+sa.new_tailor_tax_return_transcript.title = Video transcript - Sut ydw i’n teilwra fy Ffurflen Dreth Hunanasesiad?
 sa.new_tailor_tax_return_transcript.paragraph1 = Pan fyddwch yn llenwi’ch Ffurflen Dreth ar-lein, gwelwch adran o’r enw ‘Addasu eich Ffurflen Dreth’.
 sa.new_tailor_tax_return_transcript.paragraph2 = Mae’n cynnwys tair tudalen o gwestiynau sy’n gofyn i chi ateb ‘Iawn’ neu ‘Na’. Mae hyn yn golygu mai dim ond yr adrannau y mae angen i chi eu llenwi y byddwch yn eu cael. Os nad ydych yn siŵr am gwestiwn, cliciwch ar y cysylltiad ‘Help’ i gael arweiniad.
 sa.new_tailor_tax_return_transcript.paragraph3 = Mae tudalen un yn gofyn a ydych wedi cael incwm fel cyflogai, o hunangyflogaeth neu o bartneriaeth.
 sa.new_tailor_tax_return_transcript.paragraph4 = Mae’n rhaid i chi ateb ‘Iawn’ neu ‘Na’ i bob un o’r cwestiynau. Os byddwch yn dewis ‘Iawn’, mae’n bosibl y gofynnir i chi am ragor o wybodaeth; er enghraifft, os atebwch eich bod yn gyflogedig, mae’n gofyn faint o gyflogwyr oedd gennych, a’u henwau.
 sa.new_tailor_tax_return_transcript.paragraph5 = Mae defnyddio ‘Cadw ac yn eich blaen’ yn mynd â chi i’r dudalen nesaf. Mae hyn yn cadw’ch atebion hyd yn hyn. Gallwch wedyn stopio a dod yn ôl yn nes ymlaen.
 sa.new_tailor_tax_return_transcript.paragraph6 = Mae tudalen dau’n gofyn am fathau eraill o incwm, megis llog o gyfrifon banc a chynilion, difidendau o gyfranddaliadau a phensiynau.
-sa.new_tailor_tax_return_transcript.paragraph7 = Dylech dim ond ateb ‘Iawn’ i’r cwestiwn hwn os gwnaethoch hawlio’n anghywir neu cawsoch ordaliad o gynllun cymorth CThEM yn sgil coronafeirws. Defnyddiwch y cysylltiad ‘Help’ i gael rhagor o arweiniad.
-sa.new_tailor_tax_return_transcript.paragraph8 = Sylwer – mae’r cwestiwn ynghylch colledion ar incwm trethadwy arall yn cyfeirio at incwm megis enillion achlysurol neu gomisiwn. Nid yw’n ymwneud â cholledion sydd i’w nodi rywle arall yn eich Ffurflen Dreth – er enghraifft, mae colledion o hunangyflogaeth yn mynd yn yr adran hunangyflogaeth. Os nad ydych yn sicr, defnyddiwch y cysylltiad ‘Help’ i gael arweiniad pellach.
-sa.new_tailor_tax_return_transcript.paragraph9 = Mae’r drydedd dudalen yn ymwneud yn bennaf â rhyddhad treth, gan gynnwys cyfraniadau pensiwn, rhoddion elusennol, Lwfans Pâr Priod a Lwfans Priodas.
-sa.new_tailor_tax_return_transcript.paragraph10 = Mae hyn ar gyfer treth rydych wedi’i thalu yn y flwyddyn dreth sy’n cael ei chynnwys yn y Ffurflen Dreth ar-lein hon, ac sydd eisoes wedi’i had-dalu gennym neu’r Ganolfan Byd Gwaith. Nid yw’n ymwneud ag ad-daliadau a ddaeth o flwyddyn gynharach, neu oddi wrth gyflogwr.
-sa.new_tailor_tax_return_transcript.paragraph11 = Yr adran nesaf yw ‘Llenwi’ch Ffurflen Dreth’. Yn seiliedig ar eich atebion yn yr adran ‘Addasu eich Ffurflen Dreth’, mae’n dangos yr adrannau y mae angen i chi eu llenwi nesaf.
-sa.new_tailor_tax_return_transcript.paragraph12 = Cofiwch – mae’ch Ffurflen Dreth Hunanasesiad yn cwmpasu’r flwyddyn dreth a ddaeth i ben ar 5 Ebrill, a’r dyddiad cau ar gyfer ei chyflwyno yw’r unfed ar ddeg ar hugain o Ionawr y flwyddyn ddilynol. Mae’n rhaid talu unrhyw dreth sydd arnoch erbyn yr unfed ar ddeg ar hugain o Ionawr.
-sa.new_tailor_tax_return_transcript.paragraph13 = Gallwch gyflwyno ar unrhyw adeg, ond peidiwch â’i adael tan y funud olaf.
-sa.new_tailor_tax_return_transcript.paragraph14 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
-sa.new_tailor_tax_return_transcript.paragraph14_2 =  a gallwch wylio ein fideos a gweminarau defnyddiol eraill ar YouTube.
+sa.new_tailor_tax_return_transcript.paragraph7 = Sylwer – mae’r cwestiwn ynghylch colledion ar incwm trethadwy arall yn cyfeirio at incwm megis enillion achlysurol neu gomisiwn. Nid yw’n ymwneud â cholledion sydd i’w nodi rywle arall yn eich Ffurflen Dreth – er enghraifft, mae colledion o hunangyflogaeth yn mynd yn yr adran hunangyflogaeth. Os nad ydych yn sicr, defnyddiwch y cysylltiad ‘Help’ i gael arweiniad pellach.
+sa.new_tailor_tax_return_transcript.paragraph8 = Mae’r drydedd dudalen yn ymwneud yn bennaf â rhyddhadau treth, gan gynnwys cyfraniadau pensiwn, rhoddion elusennol, Lwfans Pâr Priod a Lwfans Priodasol.
+sa.new_tailor_tax_return_transcript.paragraph9 = Mae hyn ar gyfer treth rydych wedi’i thalu yn y flwyddyn dreth sy’n cael ei chynnwys yn y Ffurflen Dreth ar-lein hon, ac sydd eisoes wedi’i had-dalu gennym neu’r Ganolfan Byd Gwaith. Nid yw’n ymwneud ag ad-daliadau a ddaeth o flwyddyn gynharach, neu oddi wrth gyflogwr.
+sa.new_tailor_tax_return_transcript.paragraph10 = Yr adran nesaf yw ‘Llenwi’ch Ffurflen Dreth’. Yn seiliedig ar eich atebion yn yr adran ‘Addasu eich Ffurflen Dreth’, mae’n dangos yr adrannau y mae angen i chi eu llenwi nesaf.
+sa.new_tailor_tax_return_transcript.paragraph11 = Cofiwch – mae’ch Ffurflen Dreth Hunanasesiad yn cwmpasu’r flwyddyn dreth a ddaeth i ben ar 5 Ebrill, a’r dyddiad cau ar gyfer ei chyflwyno yw’r unfed ar ddeg ar hugain o Ionawr y flwyddyn ddilynol. Mae’n rhaid talu unrhyw dreth sydd arnoch erbyn yr unfed ar ddeg ar hugain o Ionawr.
+sa.new_tailor_tax_return_transcript.paragraph12 = Gallwch gyflwyno ar unrhyw adeg, ond peidiwch â’i adael tan y funud olaf.
+sa.new_tailor_tax_return_transcript.paragraph13 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
+sa.new_tailor_tax_return_transcript.paragraph13_2 =  a gallwch wylio ein fideos a’n gweminarau defnyddiol eraill ar YouTube.
 
 
 
