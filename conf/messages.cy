@@ -119,7 +119,7 @@ helpWithYourSelfAssessmentTaxReturn.to_work_out = Rydym yn defnyddio’r wybodae
 helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion = Os mai hon yw’ch Ffurflen Dreth gyntaf, mae’n rhaid i chi gofrestru ar gyfer Hunanasesiad cyn y gallwch lenwi a chyflwyno’ch Ffurflen Dreth.
 helpWithYourSelfAssessmentTaxReturn.more_about_registering = Rhagor o wybodaeth am gofrestru ar gyfer Hunanasesiad ar-lein
 helpWithYourSelfAssessmentTaxReturn.first_sa_video = Fideo – Fy Ffurflen Dreth Hunanasesiad gyntaf (yn agor tab newydd)
-helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Eich Ffurflen Dreth Hunanasesiad gyntaf – trawsgrifiad fideo
+helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Video Transcript - Fy Ffurflen Dreth Hunanasesiad gyntaf
 helpWithYourSelfAssessmentTaxReturn.help_completing = Help wrth lenwi a chyflwyno’ch Ffurflen Dreth
 helpWithYourSelfAssessmentTaxReturn.watch_videos = Gallwch wylio fideos, cael e-byst hysbysu, cymryd rhan mewn gweminarau a
 helpWithYourSelfAssessmentTaxReturn.learn_more = dysgu mwy am Hunanasesiad yma
@@ -1224,8 +1224,8 @@ sa.new_tailor_tax_return_transcript.paragraph14_2 =  a gallwch wylio ein fideos 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New your first SA tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-new.yourSelfEmployedTaxReturnTranscript.heading = Fy Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
-new.yourSelfEmployedTaxReturnTranscript.title = Fy Ffurflen Dreth Hunanasesiad gyntaf - trawsgrifiad fideo
+new.yourSelfEmployedTaxReturnTranscript.heading = Video Transcript - Fy Ffurflen Dreth Hunanasesiad gyntaf
+new.yourSelfEmployedTaxReturnTranscript.title = Video Transcript - Fy Ffurflen Dreth Hunanasesiad gyntaf
 new.yourSelfEmployedTaxReturnTranscript.paragraph1 = A oes angen i chi lenwi Ffurflen Dreth Hunanasesiad?
 new.yourSelfEmployedTaxReturnTranscript.paragraph2 = Gallwch wirio hyn ar
 new.yourSelfEmployedTaxReturnTranscript.paragraph2_2 =  drwy ateb ychydig o gwestiynau.

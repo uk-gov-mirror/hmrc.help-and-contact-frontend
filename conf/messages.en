@@ -120,7 +120,7 @@ helpWithYourSelfAssessmentTaxReturn.to_work_out = We use the information on your
 helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion = If this is your first tax return, you must register for Self Assessment before you can complete and file your return.
 helpWithYourSelfAssessmentTaxReturn.more_about_registering = Find out more about registering for Self Assessment online
 helpWithYourSelfAssessmentTaxReturn.first_sa_video = Video - My first Self Assessment tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = My first Self Assessment tax return - video transcript
+helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Video transcript – My first Self Assessment tax return
 helpWithYourSelfAssessmentTaxReturn.help_completing = Help with completing and filing your tax return
 helpWithYourSelfAssessmentTaxReturn.watch_videos = Watch videos, get email alerts, take part in webinars and
 helpWithYourSelfAssessmentTaxReturn.learn_more = learn more about Self Assessment
@@ -1230,8 +1230,8 @@ sa.new_tailor_tax_return_transcript.paragraph14_2 =  and watch our other helpful
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New your first SA tax return transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-new.yourSelfEmployedTaxReturnTranscript.heading = My first Self Assessment tax return - video transcript
-new.yourSelfEmployedTaxReturnTranscript.title = My first Self Assessment tax return - video transcript
+new.yourSelfEmployedTaxReturnTranscript.heading = Video transcript – My first Self Assessment tax return
+new.yourSelfEmployedTaxReturnTranscript.title = Video transcript – My first Self Assessment tax return
 new.yourSelfEmployedTaxReturnTranscript.paragraph1 = Do you need to complete a Self Assessment tax return?
 new.yourSelfEmployedTaxReturnTranscript.paragraph2 = To help you find out, you can check on
 new.yourSelfEmployedTaxReturnTranscript.paragraph2_2 =  by answering some questions.
@@ -1243,11 +1243,11 @@ new.yourSelfEmployedTaxReturnTranscript.paragraph6 = Make sure you’ve got your
 new.yourSelfEmployedTaxReturnTranscript.paragraph7 = Go to
 new.yourSelfEmployedTaxReturnTranscript.paragraph7_2 = and login with the user ID and password you received when you registered online.
 new.yourSelfEmployedTaxReturnTranscript.paragraph8 = First, we’ll need some details about you. The online screens will guide you – if you get stuck, there are prompts on screen and links that explain more. For example, if you enter your date of birth the wrong way, the box will light up red.
-new.yourSelfEmployedTaxReturnTranscript.paragraph9 = In the section called Tailor your return you answer yes or no to a series of questions – this means you only fill in the sections that apply to you. If you’re not sure about a question, click on the ‘Help about’ link for guidance.
-new.yourSelfEmployedTaxReturnTranscript.paragraph10 = The Save and continue button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.
+new.yourSelfEmployedTaxReturnTranscript.paragraph9 = In the section called ’Tailor your return’ you answer yes or no to a series of questions – this means you only fill in the sections that apply to you. If you’re not sure about a question, click on the ‘Help about’ link for guidance.
+new.yourSelfEmployedTaxReturnTranscript.paragraph10 = The ’Save and continue’ button will save what you’ve entered so far; it’s handy if you want to stop and come back to it later.
 new.yourSelfEmployedTaxReturnTranscript.paragraph11 = When you’ve completed your return, check it through. You can go back if you need to correct anything.
-new.yourSelfEmployedTaxReturnTranscript.paragraph12 = Use View your calculation to find out if you owe tax and how much.
-new.yourSelfEmployedTaxReturnTranscript.paragraph13 = Now you can save a copy for your records. In the Submit return section, you’ll need your user ID and password to send it to HMRC. Finally, you’ll get an online message to confirm that we’ve received it.
+new.yourSelfEmployedTaxReturnTranscript.paragraph12 = Use ’View your calculation’ to find out if you owe tax and how much.
+new.yourSelfEmployedTaxReturnTranscript.paragraph13 = Now you can save a copy for your records. In the ’Submit return’ section, you’ll need your user ID and password to send it to HMRC. Finally, you’ll get an online message to confirm that we’ve received it.
 new.yourSelfEmployedTaxReturnTranscript.paragraph14 = You can find out more about Self Assessment on
 new.yourSelfEmployedTaxReturnTranscript.paragraph14_2 = and watch our other helpful videos and webinars on YouTube.
 
