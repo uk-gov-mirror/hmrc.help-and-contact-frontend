@@ -47,6 +47,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return",
         "Help with completing and filing your tax return",
         "How to tailor your return",
+        "If you have income from property",
         "Viewing your Self Assessment calculation",
         "More help with Self Assessment",
         "Basic record keeping when you’re self-employed",

@@ -1249,24 +1249,23 @@ new.yourSelfEmployedTaxReturnTranscript.paragraph14_2 = a gallwch gwylio ein fid
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New income from property transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-new.incomeFromPropertyTaxReturnTranscript.heading = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? - trawsgrifiad fideo
-new.incomeFromPropertyTaxReturnTranscript.title = Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth? - trawsgrifiad fideo
+new.incomeFromPropertyTaxReturnTranscript.heading = Video transcript - Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
+new.incomeFromPropertyTaxReturnTranscript.title = Video transcript - Os oes gennyf incwm o eiddo, sut ydw i’n llenwi fy Ffurflen Dreth?
 new.incomeFromPropertyTaxReturnTranscript.paragraph1 = Mae’n rhaid i’ch Ffurflen Dreth gynnwys unrhyw incwm o eiddo sydd yn y DU neu’r Ardal Economaidd Ewropeaidd.
-new.incomeFromPropertyTaxReturnTranscript.paragraph2 = Ar gyfer incwm o eiddo y tu allan i’r ardaloedd hyn, llenwch y tudalennau ar gyfer incwm tramor ar y Ffurflen Dreth yn lle hynny.
-new.incomeFromPropertyTaxReturnTranscript.paragraph3 = Yn yr adran hon, peidiwch â chynnwys unrhyw incwm o roi ystafelloedd ar osod megis gwely a brecwast, oni bai eich bod yn hawlio rhyddhad rhentu ystafell. Mae hyn yn cyfrif fel masnach ac yn cael ei nodi rywle arall yn eich Ffurflen Dreth.
-new.incomeFromPropertyTaxReturnTranscript.paragraph4 = I ddechrau, rhowch wybod i ni pa fath o incwm o eiddo yr oedd gennych yn ystod y flwyddyn gan gynnwys llety gwyliau wedi’i ddodrefnu.
-new.incomeFromPropertyTaxReturnTranscript.paragraph5 = Ar y dudalen hon, rhowch wybod i ni faint o incwm o eiddo a gawsoch. Dylech gynnwys unrhyw daliadau a gawsoch drwy’r cynllun cymorth yn sgil coronafeirws. Defnyddiwch y cysylltiad ‘Help’ i gael arweiniad pellach.
+new.incomeFromPropertyTaxReturnTranscript.paragraph2 = O ran incwm o eiddo sydd y tu allan i’r ardaloedd hyn, llenwch dudalennau’r Ffurflen Dreth incwm tramor yn lle hynny.
+new.incomeFromPropertyTaxReturnTranscript.paragraph3 = Yn yr adran hon, peidiwch â chynnwys incwm o roi ystafelloedd ar osod, er enghraifft gwely a brecwast oni bai eich bod yn hawlio rhyddhad Rhentu Ystafell. Mae hyn yn cyfrif fel masnach ac yn cael ei nodi yn rhywle arall yn eich Ffurflen Dreth.
+new.incomeFromPropertyTaxReturnTranscript.paragraph4 = I ddechrau, rhowch wybod i ni ba fath o incwm o eiddo a gawsoch yn ystod y flwyddyn gan gynnwys llety gwyliau wedi’i ddodrefnu.
+new.incomeFromPropertyTaxReturnTranscript.paragraph5 = Ar y dudalen hon, rhowch wybod i ni faint o incwm o eiddo a gawsoch. Defnyddiwch y cysylltiad ‘Help’ i gael arweiniad pellach.
 new.incomeFromPropertyTaxReturnTranscript.paragraph6 = Mae angen i ni wybod a ydych yn hawlio’r lwfans incwm o eiddo – os ydych yn hawlio’r lwfans hwn, ni allwch hawlio treuliau.
 new.incomeFromPropertyTaxReturnTranscript.paragraph7 = Mae hefyd angen i chi roi gwybod i ni os ydych yn defnyddio’r dull cyfrifyddu traddodiadol - mae hyn y golygu eich bod yn cofnodi incwm a threuliau pan ydych yn anfon anfoneb at gwsmer neu’n cael bil.
-new.incomeFromPropertyTaxReturnTranscript.paragraph8 = Os nad ydych yn hawlio’r lwfans incwm o eiddo, nodwch eich costau rhedeg yma. Gallwch gynnwys costau atgyweirio, ond nid costau gwella nac uwchraddio. Peidiwch â chynnwys unrhyw gostau ariannol preswyl ar y dudalen hon.
-new.incomeFromPropertyTaxReturnTranscript.paragraph9 = Os yw cyfanswm eich incwm blynyddol yn is nag 85 mil o bunnoedd, ychwanegwch gyfanswm eich costau rhedeg yma, ond peidiwch â chynnwys costau ariannol preswyl.
-new.incomeFromPropertyTaxReturnTranscript.paragraph10 = Nesaf, ychwanegwch 25 y cant o’ch costau ariannol preswyl – gallwch nodi’r 75 y cant arall yn nes ymlaen.
-new.incomeFromPropertyTaxReturnTranscript.paragraph11 = Ar dudalen pedwar, nodwch yr hyn a alwn yn ‘addasiadau’ – sef hawliadau a allai ostwng eich bil treth. Er enghraifft, os ydych yn hawlio rhyddhad rhentu ystafell a bod eich incwm yn uwch na’r trothwy, ychwanegwch y swm a eithrir sef £7,500 – neu £3,750, os ydych yn berchennog ar y cyd.
-new.incomeFromPropertyTaxReturnTranscript.paragraph12 = Ar dudalen pump, byddwch yn gweld eich elw neu golled addasedig ar gyfer y flwyddyn.
-new.incomeFromPropertyTaxReturnTranscript.paragraph13 = Os ydych mewn elw, mae’n rhaid i chi nodi colledion o flwyddyn gynharach. Ni all y swm hwn fod yn fwy na’ch elw addasedig ar gyfer y flwyddyn bresennol. Byddwn wedyn yn cyfrifo’ch elw trethadwy.
-new.incomeFromPropertyTaxReturnTranscript.paragraph14 = Nodwch gyfanswm eich costau ariannol preswyl ar gyfer y flwyddyn hon yma. Bydd hyn yn helpu i ostwng cyfanswm eich bil treth. Gallwch hefyd nodi unrhyw gostau ariannol preswyl nad oedd modd eu defnyddio yn y flwyddyn dreth flaenorol. Defnyddiwch y cysylltiad ‘Help’ er mwyn cyfrifo’r swm i’w nodi.
-new.incomeFromPropertyTaxReturnTranscript.paragraph15 = Yn olaf, ar dudalen chwech, ychwanegwch unrhyw wybodaeth ychwanegol. Wedyn, gwiriwch eich ffigurau ar y sgrin grynhoi – gallwch fynd yn ôl i wneud cywiriadau.
-new.incomeFromPropertyTaxReturnTranscript.paragraph16 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
+new.incomeFromPropertyTaxReturnTranscript.paragraph8 = Os nad ydych yn hawlio’r Lwfans Incwm o Eiddo, nodwch eich costau rhedeg yma. Gallwch gynnwys costau ar gyfer gwaith atgyweirio, ond nid ar gyfer gwelliannau na gwaith uwchraddio. Peidiwch â chynnwys unrhyw gostau ariannol preswyl ar y dudalen hon.
+new.incomeFromPropertyTaxReturnTranscript.paragraph9 = Os yw cyfanswm eich incwm blynyddol yn is nag 85 mil o bunnoedd, ychwanegwch gyfanswm eich costau rhedeg yma.
+new.incomeFromPropertyTaxReturnTranscript.paragraph10 = Ar dudalen pedwar, nodwch yr hyn a alwn yn ‘addasiadau’ – sef hawliadau a allai ostwng eich bil treth. Er enghraifft, os ydych yn hawlio rhyddhad rhentu ystafell a bod eich incwm yn fwy na’r trothwy, ychwanegwch y swm esempt sef £7,500 – neu £3,750, os ydych yn berchennog ar y cyd.
+new.incomeFromPropertyTaxReturnTranscript.paragraph11 = Ar dudalen pump, byddwch yn gweld eich elw neu golled addasedig ar gyfer y flwyddyn.
+new.incomeFromPropertyTaxReturnTranscript.paragraph12 = Os ydych wedi gwneud elw, mae’n rhaid i chi nodi colledion o flwyddyn gynharach. Ni all y swm hwn fod yn fwy na’ch elw addasedig ar gyfer y flwyddyn bresennol. Byddwn wedyn yn cyfrifo’ch elw trethadwy.
+new.incomeFromPropertyTaxReturnTranscript.paragraph13 = Nodwch yma gyfanswm eich costau ariannol preswyl ar gyfer y flwyddyn hon. Bydd hyn yn helpu i ostwng cyfanswm eich bil treth. Gallwch hefyd nodi unrhyw gostau ariannol preswyl nad oedd modd eu defnyddio yn y flwyddyn dreth flaenorol. Defnyddiwch y cysylltiad ‘Help’ er mwyn cyfrifo’r swm i’w nodi.
+new.incomeFromPropertyTaxReturnTranscript.paragraph14 = Yn olaf, ar dudalen chwech, ychwanegwch unrhyw wybodaeth ychwanegol. Yna gwiriwch eich ffigurau ar sgrin y crynodeb – gallwch fynd yn ôl i wneud cywiriadau.
+new.incomeFromPropertyTaxReturnTranscript.paragraph15 = Gallwch ddod o hyd i ragor o wybodaeth am Hunanasesiad ar
 
 
 #######################################################

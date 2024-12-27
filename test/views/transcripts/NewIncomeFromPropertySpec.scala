@@ -49,7 +49,8 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
         doc,
         "gov-link",
         "GOV.UK",
-        "https://www.gov.uk/")
+        "https://www.gov.uk/",
+        expectedOpensInNewTab = true)
     }
 
     "have correct content" in {
@@ -60,15 +61,13 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
         "In this section, don’t include income from letting rooms, such as bed and breakfast unless you’re claiming rent a room relief." +
           " This counts as trade and goes elsewhere in your tax return.",
         "To begin, tell us what type of property income you had during the year including furnished holiday lettings.",
-       "On this page tell us how much property income you received. Include any coronavirus " +
-         "support scheme payments. Use the ‘help about’ link for further guidance.",
+       "On this page tell us how much property income you received. Use the help about link for further guidance.",
         "We need to know if you’re claiming the property income allowance – if you are, then you can’t claim expenses.",
         "You also need to tell us if you’re using traditional accounting – " +
           "that means you record income and expenses when you invoice customers or receive a bill.",
         "If you’re not claiming the property income allowance, enter your running costs here. You can include the cost of repairs, " +
           "but not improvements or upgrades. Don’t include any residential finance costs on this page.",
-        "If your total annual income is below 85 thousand pounds, add your total running costs here but don’t include residential finance costs.",
-        "Next, enter 25 percent of your residential finance costs – you can enter the other 75 percent further on.",
+        "If your total annual income is below 85 thousand pounds, add your total running costs here.",
         "On page four enter what we call adjustments – claims that could reduce your tax bill. For example," +
           " if you claim rent a room relief and your income is over the threshold, add the exempt amount of £7,500 – or, £3,750, if you’re a joint owner.",
         "On page five you’ll see your adjusted profit or loss for the year.",
