@@ -47,6 +47,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Your first Self Assessment tax return",
         "Help with completing and filing your tax return",
         "How to tailor your return",
+        "If you have income from property",
         "Viewing your Self Assessment calculation",
         "More help with Self Assessment",
         "Basic record keeping when you’re self-employed",
@@ -92,7 +93,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "why-i-have-been-sent-tax-video",
         "Video - What to do if you’ve been sent a tax return? (opens in a new tab)",
-        "https://www.youtube.com/watch?v=_C2tlkfKRbY",
+        "https://www.youtube.com/watch?v=ZWasvKMvJvs",
         expectedOpensInNewTab = true
       )
 
@@ -106,7 +107,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "my-first-sa-video",
         "Video - My first Self Assessment tax return (opens in new tab)",
-        "https://www.youtube.com/watch?v=tMldXbmIF5o",
+        "https://www.youtube.com/watch?v=FzvFjcuy-Wg",
         expectedOpensInNewTab = true
       )
 
@@ -121,7 +122,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "tailor-tax-video",
         "Video - How do I tailor my Self Assessment tax return? (opens in new tab)",
-        "https://www.youtube.com/watch?v=Qf5vaSO8-0M",
+        "https://www.youtube.com/watch?v=pWROONSUsN8",
         expectedOpensInNewTab = true
       )
 
