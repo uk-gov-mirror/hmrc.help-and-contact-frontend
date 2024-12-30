@@ -29,9 +29,23 @@ object PageType {
     val category = HelpCategory.BTA
   }
 
+  case object RegisterAddCT extends PageType {
+    val name = "register-add-corporation-tax"
+    val messageKey = "help_and_contact.register_add_corporation_tax"
+    val category = HelpCategory.CorporationTax
+  }
+
+  case object HowToPayCT extends PageType {
+    val name = "how-to-pay"
+    val messageKey = "help_and_contact.how_to_pay_corporation_tax"
+    val category = HelpCategory.CorporationTax
+  }
+
   // [IMPORTANT] Ensure rendering order.
   val values: Seq[PageType] = Seq(
-    HelpWithBTA
+    HelpWithBTA,
+    RegisterAddCT,
+    HowToPayCT
   )
 
   def withName(name: String): Option[PageType] = values.find(_.name == name)

@@ -1473,3 +1473,83 @@ help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have
 #~~ Misc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help.transcripts.missing = We will publish a transcript for this video in August 2021.
+
+########## 2025 Corporation Tax new help and contact changes start ##########
+help_and_contact.register_add_corporation_tax = Register or add Corporation Tax
+help_and_contact.how_to_pay_corporation_tax = How to pay and deadlines
+
+ctax.register.add.heading = Register or add Corporation Tax
+ctax.register.add.section1.title = Register for Corporation Tax with HMRC
+ctax.register.add.section1.p1.preText = When you have
+ctax.register.add.section1.p1.linkText = registered your company (opens in new tab)
+ctax.register.add.section1.p1.postText = with Companies House, you must
+ctax.register.add.section1.p2.linkText = register for Corporation Tax
+ctax.register.add.section1.p2.postText = with HM Revenue and Customs (HMRC) within 3 months of being active.
+ctax.register.add.section1.p4 = Being active for Corporation Tax purposes includes:
+ctax.register.add.section1.list_item1 = buying
+ctax.register.add.section1.list_item2 = selling
+ctax.register.add.section1.list_item3 = advertising
+ctax.register.add.section1.list_item4 = renting a property
+ctax.register.add.section1.list_item5 = employing someone
+ctax.register.add.section1.list_item6 = similar trading activity
+ctax.register.add.section1.p5 = Check if you’re unsure what counts as being active (opens in new tab)
+ctax.register.add.section1.p6 = You must also register your company for Corporation Tax with HMRC if your company is registered as dormant, but is now active.
+ctax.register.add.section1.inset1 = You may get a penalty if you register late.
+
+ctax.register.add.section2.title = What you need to tell HMRC when registering for Corporation Tax
+ctax.register.add.section2.p1 = You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR).
+ctax.register.add.section2.p2 = You usually get your UTR from HMRC within a few days of registering your company with Companies House.
+ctax.register.add.section2.p3.linkText = Request your company’s Unique Taxpayer Reference
+ctax.register.add.section2.p3.postLink = online if you did not get one after registering your company.
+ctax.register.add.section2.p4 = You’ll also need:
+ctax.register.add.section2.list_item1 = your company’s registration number (CRN)
+ctax.register.add.section2.list_item2.preText = the date you started to be active - your company’s first
+ctax.register.add.section2.list_item2.linkText = accounting period (opens in new tab)
+ctax.register.add.section2.list_item2.postText = will start from this date
+ctax.register.add.section2.list_item3 = the date your annual accounts are made up to (the accounts preparation date)
+
+ctax.register.add.section3.title = What happens next
+ctax.register.add.section3.p1 = HMRC will tell you the deadline for paying Corporation Tax.
+ctax.register.add.section3.p2.preText = You must file a
+ctax.register.add.section3.p2.linkText = Company Tax Return (opens in new tab),
+ctax.register.add.section3.p2.postText = even if you make a loss or have no Corporation Tax to pay.
+
+ctax.register.add.section4.title = Add Corporation Tax to your business tax account
+ctax.register.add.section4.p1.linkText = Add Corporation Tax to your business tax account
+ctax.register.add.section4.p1.postText = to:
+ctax.register.add.section4.list_item1 = file your Company Tax return online
+ctax.register.add.section4.list_item2 = make a payment online
+
+ctax.register.add.section5.title = Tell HMRC you are no longer trading
+ctax.register.add.section5.p1.preText = To stop paying Corporation Tax, you must
+ctax.register.add.section5.p1.linkText = close the limited company (opens in new tab).
+
+ctax.howtopay.heading = How to pay and deadlines
+ctax.howtopay.section1.title = Deadlines
+ctax.howtopay.section1.p1 = The deadline for your payment will depend on your taxable profits.
+
+ctax.howtopay.section2.title = If your taxable profits are up to £1.5 million
+ctax.howtopay.section2.p1 = You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. Your accounting period is usually your financial year, but you may have 2 accounting periods in
+ctax.howtopay.section2.p1.linkText = the year you set up your company (opens in new tab).
+
+ctax.howtopay.section3.title = If your taxable profits are more than £1.5 million
+ctax.howtopay.section3.p1 = You must
+ctax.howtopay.section3.p1.linkText = pay your Corporation Tax in instalments (opens in new tab).
+ctax.howtopay.section3.p2 = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. The may
+ctax.howtopay.section3.p2.linkText = charge you interest (opens in new tab)
+ctax.howtopay.section3.p3 = if you do not pay on time. They will
+ctax.howtopay.section3.p3.linkText = pay you interest (opens in new tab)
+ctax.howtopay.section3.p4 = if you pay your tax early.
+
+ctax.howtopay.section4.title = Ways to pay
+ctax.howtopay.section4.p1 = You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.
+ctax.howtopay.section4.p2 = The time you need to allow depends on how you pay.
+ctax.howtopay.section4.p3.linkText = Read detailed information about how to pay your Corporation Tax bill (opens in new tab)
+
+ctax.howtopay.section5.p1.linkText = Video - Paying your Corporation Tax bill (opens in new tab)
+ctax.howtopay.section5.p2.linkText = Paying your Corporation Tax bill - video transcript
+
+
+
+
+########## 2025 Corporation Tax new help and contact changes end ###########
