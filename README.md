@@ -1,12 +1,10 @@
 # Help and Contact Frontend
 
-## ⚠️ **DO NOT MERGE** ⚠️
+## ⚠️ **DO NOT MERGE THIS BRANCH** ⚠️
 
-**IMPORTANT:** This code is intended for development and local testing only. **DO NOT** deploy this to production.
+This feature branch is intended for development and local testing of new Help and Contact Pages only. **DO NOT** merge.
 
-If there is an urgent ticket related to this repository, please contact **Hazal Gunduz (@hazal.ozeren)** or **Ali Shah (@ali.shah)** from Telford Live Services Team immediately.
-
-This repository contains the Help and Contact section of the Business tax account.
+**IMPORTANT:** For those who have YouTube Links on their page, please check if they are up-to-date. You can either check the main branch for the latest links or confirm directly with Diksha Diksha.
 
 ### Running Help and Contact locally
 
