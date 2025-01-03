@@ -104,6 +104,45 @@ help_and_contact.pta = Personal tax account
 help_and_contact.paragraph13 = Your personal tax account is used to check your records and manage your details with HM Revenue and Customs (HMRC).
 help_and_contact.paragraph14_link_text = Read more about your personal tax account (opens in new tab)
 
+help_and_contact.change_contact_and_account_details = Change contact and account details
+help_and_contact.change_your_personal_details = Change your personal details
+help_and_contact.you_can_do_this_by = You can do this by
+help_and_contact.managing_your_hmrc_sign_in_details = managing your HMRC sign in details
+help_and_contact.you_can_change_your = You can change your:
+help_and_contact.list_item14 = name
+help_and_contact.list_item15 = phone number
+help_and_contact.list_item16 = email address
+help_and_contact.list_item17 = password
+help_and_contact.list_item18 = security preferences
+help_and_contact.to_get_access_codes_for_your_business_account = To get access codes for your business account, you can use:
+help_and_contact.list_item19 = your phone number
+help_and_contact.list_item20 = an authenticator app
+help_and_contact.we_recommend_that_you_set_up = We recommend that you set up at least 1 backup device for your access codes.
+help_and_contact.changes_take_up_to_2_days_to_update = Changes take up to 2 days to update.
+help_and_contact.change_your_business_details = Change your business details
+help_and_contact.to_change_your_business_details = To change your business details,
+help_and_contact.go_to_your_business_tax_account_details = go to your business tax account details
+help_and_contact.you_can_change_your = You can change your:
+help_and_contact.company_name = company name
+help_and_contact.address = address
+help_and_contact.phone_number = phone number
+help_and_contact.email_address = email address
+help_and_contact.contact_preferences = contact preferences
+help_and_contact.you_must_change_your_details = You must change your details for each tax separately. These details do not automatically match your HMRC sign in details.
+help_and_contact.change_team_member_details_as_an_administrator = Change team member details as an administrator
+help_and_contact.if_youre_an_administrator_on_a_bta = If you’re an administrator on a business tax account, you can
+help_and_contact.manage_the_hmrc_sign_in_details_for_standard_user = manage the HMRC sign in details for a standard user (opens in new tab)
+help_and_contact.you_can = You can:
+help_and_contact.change_their_password = change their password
+help_and_contact.remove_their_security = remove their security preferences
+help_and_contact.resend_user_id = resend their HMRC sign in user ID
+help_and_contact.delete_user_id = delete their HMRC sign in user ID
+help_and_contact.if_an_administrator_removes_a_users = If an administrator removes a user’s security preferences, the user must add a new phone number or authenticator app to get access codes. If they do not, they will not be able to sign in again.
+help_and_contact.to_change_or_remove_administrators_phone = To change or remove an administrator’s phone number or authenticator app, you must call HMRC.
+help_and_contact.get_more_help = Get more help
+help_and_contact.get_help_with_hmrc_services = Get help with HMRC services if you have problems signing in (opens in new tab)
+
+
 help_and_contact.govuk_link = GOV.UK
 
 

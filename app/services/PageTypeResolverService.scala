@@ -25,5 +25,6 @@ import javax.inject.Inject
 class PageTypeResolverService {
   def resolve(pageType: PageType)(implicit messages: Messages): Html = pageType match {
     case PageType.HelpWithBTA => views.html.help_with_your_bta()(messages)
+    case PageType.ChangeContactAndAccountDetails => views.html.change_contact_and_account_details()(messages)
   }
 }

@@ -104,6 +104,45 @@ help_and_contact.pta = Cyfrif treth personol
 help_and_contact.paragraph13 = Defnyddir eich cyfrif treth personol i wirio’ch cofnodion a rheoli’ch manylion gyda Chyllid a Thollau EF (CThEF).
 help_and_contact.paragraph14_link_text = Darllenwch ragor am eich cyfrif treth personol
 
+help_and_contact.change_contact_and_account_details = Newid manylion cyswllt a chyfrif
+help_and_contact.change_your_personal_details = Newid eich manylion personol
+help_and_contact.you_can_do_this_by = Gallwch wneud hyn
+help_and_contact.managing_your_hmrc_sign_in_details = reoli drwy reoli’ch manylion ar gyfer mewngofnodi i wasanaethau CThEF
+help_and_contact.you_can_change_your = Gallwch newid y canlynol:
+help_and_contact.list_item14 = enw
+help_and_contact.list_item15 = eich rhif ffôn
+help_and_contact.list_item16 = cyfeiriad e-bost
+help_and_contact.list_item17 = cyfrinair
+help_and_contact.list_item18 = dewisiadau diogelwch
+help_and_contact.to_get_access_codes_for_your_business_account = I gael codau mynediad ar gyfer eich cyfrif busnes, gallwch ddefnyddio’r canlynol:
+help_and_contact.list_item19 = eich rhif ffôn
+help_and_contact.list_item20 = ap dilysu
+help_and_contact.we_recommend_that_you_set_up = Rydym yn argymell eich bod yn sefydlu o leiaf un ddyfais wrth gefn ar gyfer eich codau cyrchu.
+help_and_contact.changes_take_up_to_2_days_to_update = Mae newidiadau’n cymryd hyd at 2 ddiwrnod i’w diweddaru.
+help_and_contact.change_your_business_details = Newid eich manylion busnes
+help_and_contact.to_change_your_business_details = I newid eich manylion busnes,
+help_and_contact.go_to_your_business_tax_account_details = ewch i’ch manylion cyfrif treth busnes
+help_and_contact.you_can_change_your = Gallwch newid y canlynol:
+help_and_contact.company_name = enw’r cwmni
+help_and_contact.address = cyfeiriad
+help_and_contact.phone_number = eich rhif ffôn
+help_and_contact.email_address = cyfeiriad e-bost
+help_and_contact.contact_preferences = dewisiadau o ran cysylltu
+help_and_contact.you_must_change_your_details = Mae’n rhaid i chi newid eich manylion ar gyfer pob math o dreth ar wahân. Nid yw’r manylion hyn yn cyd-fynd yn awtomatig â’ch manylion ar gyfer mewngofnodi i wasanaethau CThEF.
+help_and_contact.change_team_member_details_as_an_administrator = Newid manylion aelodau o’r tîm fel gweinyddwr
+help_and_contact.if_youre_an_administrator_on_a_bta = Os ydych yn weinyddwr ar gyfrif treth busnes, gallwch
+help_and_contact.manage_the_hmrc_sign_in_details_for_standard_user = reoli’r manylion ar gyfer mewngofnodi i wasanaethau CThEF ar gyfer defnyddiwr safonol (yn agor tab newydd)
+help_and_contact.you_can = Gallwch wneud y canlynol:
+help_and_contact.change_their_password = newid eich cyfrinair
+help_and_contact.remove_their_security = tynnu ei ddewisiadau diogelwch
+help_and_contact.resend_user_id = ail-anfon ei Dynodydd Defnyddiwr (ID) ar gyfer mewngofnodi i wasanaethau CThEF
+help_and_contact.delete_user_id = dileu ei Dynodydd Defnyddiwr (ID) ar gyfer mewngofnodi i wasanaethau CThEF
+help_and_contact.if_an_administrator_removes_a_users = Os bydd gweinyddwr yn tynnu dewisiadau diogelwch defnyddiwr, bydd yn rhaid i’r defnyddiwr ychwanegu rhif ffôn newydd neu ap dilysu er mwyn cael y codau cyrchu. Os na fydd yn gwneud hyn, ni fydd modd iddo fewngofnodi eto.
+help_and_contact.to_change_or_remove_administrators_phone = I newid neu dynnu rhif ffôn neu ap dilysu gweinyddwr, bydd yn rhaid i chi ffonio CThEF.
+help_and_contact.get_more_help = Cael rhagor o gymorth
+help_and_contact.get_help_with_hmrc_services = Cael help gyda gwasanaethau CThEF os ydych yn cael problemau wrth fewngofnodi (yn agor tab newydd)
+
+
 help_and_contact.govuk_link = GOV.UK
 
 ########################################################################################################################
