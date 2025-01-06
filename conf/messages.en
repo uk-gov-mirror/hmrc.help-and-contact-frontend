@@ -146,7 +146,7 @@ help_and_contact.how_to_add_tax = How to add a tax
 help_and_contact.how_to_add_tax_to_your_bta = How to add a tax to your business tax account
 help_and_contact.any_services_you_add = Any services you add will show on your business tax account (BTA).
 help_and_contact.you_can_add_more_than_40_services = You can add more than 40 services to your business tax account.
-help_and_contact.each_time_you_add_service = Each time you add a service, we’ll send you an activation pin within 10 days. After you've entered the pin, you can use the service.
+help_and_contact.each_time_you_add_service = Each time you add a service, we’ll send you an activation pin within 10 days. After you’ve entered the pin, you can use the service.
 help_and_contact.add_corporation_tax = Add Corporation Tax
 help_and_contact.select_add_tax_duty_scheme = Select ‘add a tax, duty or scheme’.
 help_and_contact.select_corporation_tax = Select ‘Corporation Tax’.
@@ -1327,7 +1327,7 @@ btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account?
 btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
 btaHelp.changing_your_phone_number = Changing your phone number and other account details
 btaHelp.pay_taxbill_video = Video - Help if you can’t pay your tax bill (opens in new tab)
-btaHelp.pay_taxbill_transcript = Help if you can’t pay your tax bill - video transcript
+btaHelp.pay_taxbill_transcript = How to get help when you can’t pay your tax bill - Video Transcript
 
 
 ###########################################
@@ -1340,8 +1340,8 @@ mtditsaHelp.help_with_mtditsa = Help with Making Tax Digital for Income Tax
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Help if you can't pay your tax bill - Transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-help.cant.pay.taxbill.transcript.title = Help if you can’t pay your tax bill - video transcript
-help.cant.pay.taxbill.transcript.heading = Help if you can’t pay your tax bill - video transcript
+help.cant.pay.taxbill.transcript.title = How to get help when you can’t pay your tax bill - Video Transcript
+help.cant.pay.taxbill.transcript.heading = How to get help when you can’t pay your tax bill - Video Transcript
 help.cant.pay.taxbill.transcript.paragraph1 = If you’re having problems paying your tax bill, don’t worry. HMRC can help you get back on track.
 help.cant.pay.taxbill.transcript.paragraph2 = We’ll look at your financial circumstances and how we can help you.
 help.cant.pay.taxbill.transcript.paragraph3 = For example, if you can’t pay by the deadline, we may be able to agree an affordable payment plan.
@@ -1349,8 +1349,9 @@ help.cant.pay.taxbill.transcript.paragraph4 = That means you can pay in instalme
 help.cant.pay.taxbill.transcript.paragraph5 = If it’s your health or other personal difficulties causing problems, we’ll work with you or with someone acting on your behalf to find a solution you can afford.
 help.cant.pay.taxbill.transcript.paragraph6 = We also work with Money Helper. They can help you access advice that’s free and independent if you’re having difficulty paying any of your debts.
 help.cant.pay.taxbill.transcript.paragraph7 = Remember we’re here to help.
-help.cant.pay.taxbill.transcript.paragraph8 =You can find out more on
-help.cant.pay.taxbill.transcript.paragraph9 = and watch our other helpful videos on YouTube.
+help.cant.pay.taxbill.transcript.paragraph8 =You can find more on
+help.cant.pay.taxbill.transcript.paragraph9 = and watch our other helpful videos on
+help.cant.pay.taxbill.transcript.paragraph9_1 = YouTube
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
