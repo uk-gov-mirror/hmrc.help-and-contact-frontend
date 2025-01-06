@@ -28,5 +28,6 @@ class PageTypeResolverService {
     case PageType.HelpWithBTA => views.html.help_with_your_bta()(messages)
     case PageType.ChangeContactAndAccountDetails => views.html.change_contact_and_account_details()(messages)
     case PageType.HowToAddTax => views.html.how_to_add_tax()(messages)
+    case PageType.ViewOrCorrectYourSubmissions => views.html.epaye_view_or_correct_submissions()(messages)
   }
 }

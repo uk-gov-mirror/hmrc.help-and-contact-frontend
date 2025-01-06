@@ -39,11 +39,18 @@ object PageType {
     val category = HelpCategory.BTA
   }
 
+  case object ViewOrCorrectYourSubmissions extends PageType {
+    val name = "view-or-correct-your-submissions"
+    val messageKey = "help_and_contact.view_or_correct_submissions"
+    val category = HelpCategory.Epaye
+  }
+
   // [IMPORTANT] Ensure rendering order.
   val values: Seq[PageType] = Seq(
     HelpWithBTA,
     ChangeContactAndAccountDetails,
-    HowToAddTax
+    HowToAddTax,
+    ViewOrCorrectYourSubmissions
   )
 
   def withName(name: String): Option[PageType] = values.find(_.name == name)

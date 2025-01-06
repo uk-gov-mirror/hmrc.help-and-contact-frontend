@@ -686,46 +686,42 @@ epaye.get_started = Cymraeg Dechrau arni gyda TWE ar gyfer cyflogwyr
 epaye.remove = Dileu TWE i gyflogwyr
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ View, Check or Correct Submissions
+#~~ View or Correct Submissions
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.submissions.title = Gweld, gwirio neu gywiro eich cyflwyniadau
-epaye.submissions.heading = Gweld, gwirio neu gywiro eich cyflwyniadau
-epaye.submissions.when_you_can_view_ = Pryd y gallwch weld eich cyflwyniadau
+epaye.submissions.title = Gweld neu gywiro eich cyflwyniadau
+epaye.submissions.heading = Gweld neu gywiro eich cyflwyniadau
+epaye.submissions.when_you_can_view_ = Pryd y gallwch fwrw golwg dros eich cyflwyniadau
 epaye.submissions.submissions_show_up_ = Mae cyflwyniadau yn ymddangos yn eich balans ar adegau gwahanol, yn dibynnu ar bryd yr ydych yn eu cyflwyno.
 epaye.submissions.if_you_make_fps_on_time_ = Os ydych yn gwneud Cyflwyniad Taliadau Llawn (FPS) mewn pryd, caiff eich balans ei ddiweddaru erbyn y 12fed o’r mis nesaf.
-epaye.submissions.if_you_make_fps_on_time_10th = Os ydych yn gwneud Cyflwyniad Taliadau Llawn (FPS) mewn pryd, caiff eich balans ei ddiweddaru erbyn y 10fed o’r mis nesaf.
-epaye.submissions.if_you_make_fps_late_ = Os ydych yn cyflwyno FPS yn hwyr, gweler y
-epaye.submissions.gov_uk_guide_on_payroll = canllaw ynghylch y gyflogres ar GOV.UK
-epaye.submissions.eps_between_20th_and_5th_ = Os ydym yn cael Crynodeb o Daliadau’r Cyflogwr (EPS) rhwng yr 20fed a’r 5ed o’r mis, caiff eich balans ei ddiweddaru erbyn y 12fed o’r mis nesaf.
-epaye.submissions.eps_between_20th_and_5th_by_10th = Os ydym yn cael Crynodeb o Daliadau’r Cyflogwr (EPS) rhwng yr 20fed a’r 5ed o’r mis, caiff eich balans ei ddiweddaru erbyn y 10fed o’r mis nesaf.
-epaye.submissions.eps_between_6th_and_19th_ = Os ydym yn cael EPS rhwng y 6ed a’r 19eg o’r mis, caiff eich balans ei ddiweddaru cyn pen 1 diwrnod.
+epaye.submissions.if_you_make_fps_late_ = Os ydych yn gwneud FPS yn hwyr, gweler y
+epaye.submissions.gov_uk_guide_on_payroll_ = canllaw ynghylch y gyflogres ar GOV.UK (yn agor tab newydd)
+epaye.submissions.employer_payment_summary_ = Crynodeb o Daliadau’r Cyflogwr
+epaye.submissions.receive_employer_payment_summary_ = Os byddwn yn cael Crynodeb o Daliadau’r Cyflogwr (EPS):
+epaye.submissions.receive_employer_payment_summary_bullet1 = cyn y 10fed o’r mis – gallwch fwrw golwg dros yr hyn yr ydych wedi’i hawlio, a’r balans sydd arnoch, erbyn y 10fed o’r mis ar ôl y 10fed
+epaye.submissions.receive_employer_payment_summary_bullet2 = neu ar gyfer blwyddyn dreth gynharach – gallwch fwrw golwg dros yr hyn yr ydych wedi’i hawlio, a’r balans sydd arnoch, cyn pen 3 diwrnod
 epaye.submissions.your_payments_to_hmrc = Eich taliadau i CThEM
 epaye.submissions.payments_you_made_ = Gall taliadau a wnaed gennych i CThEM gymryd hyd at 6 diwrnod gwaith cyn ymddangos yn eich balans.
 epaye.submissions.check_your_paye_submissions = Gwirio eich cyflwyniadau TWE
 epaye.submissions.email_confirmations = E-byst cadarnhad
-epaye.submissions.we_send_an_email_ = Rydym yn anfon e-bost i’ch cyfeiriad Porth y Llywodraeth bob tro rydym yn cael Cyflwyniad Taliadau Llawn (FPS) neu Grynodeb o Daliadau’r Cyflogwr (EPS).
-epaye.submissions.your_government_gateway_email_ = Eich e-bost Porth y Llywodraeth yw
-epaye.submissions.change_address_link = Newid eich cyfeiriad e-bost ar gyfer Porth y Llywodraeth
-epaye.submissions.we_can_send_ = Rydym yn anfon e-bost bob tro rydym yn cael Cyflwyniad Taliadau Llawn (FPS) neu Grynodeb o Daliadau’r Cyflogwr (EPS), os ydych yn
-epaye.submissions.add_an_email = ychwanegu e-bost
-epaye.submissions.to_your_government_gateway_account = i’ch cyfrif Porth y Llywodraeth.
+epaye.submissions.we_send_an_email_ = Rydym yn anfon e-bost i’ch cyfeiriad e-bost ar gyfer mewngofnodi i wasanaethau CThEF bob tro yr ydym yn cael Cyflwyniad Taliadau Llawn (FPS) neu Grynodeb o Daliadau’r Cyflogwr (EPS).
+epaye.submissions.your_hmrc_email_ = <b>user@test.com</b> yw’ch cyfeiriad e-bost ar gyfer mewngofnodi i wasanaethau CThEF.
+epaye.submissions.change_address_link = Newid eich cyfeiriad e-bost ar gyfer mewngofnodi i wasanaethau CThEF
 epaye.submissions.payroll_software_confirmations = Cadarnhad meddalwedd y gyflogres
 epaye.submissions.you_can_also_check_ = Gallwch hefyd wirio neu weld cyflwyniadau ym meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
 epaye.submissions.to_check_if_hmrc_received_ = Er mwyn gwirio a yw CThEM wedi cael cyflwyniad, dewiswch 'Gweld y cyflwyniadau sydd wedi llwyddo' ar eich hafan i gyflogwyr.
 epaye.submissions.to_view_a_specific_submission_ = Er mwyn gweld cyflwyniad penodol, dilynwch y cyfarwyddiadau hyn yn y canllaw i ddefnyddwyr, ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’:
-epaye.submissions.user_guide = canllaw ynghylch defnyddio Offer TWE Sylfaenol
+epaye.submissions.user_guide = canllaw ynghylch defnyddio Offer TWE Sylfaenol (yn agor tab newydd)
 epaye.submissions.but_select_ = , ond dewiswch ‘Gweld’ yn hytrach na ‘Newid’.
 epaye.submissions.contact_your_software_provider_ = Cysylltwch â darparwr eich meddalwedd os nad ydych yn defnyddio BPT.
 epaye.submissions.correct_a_paye_submission = Cywiro cyflwyniad TWE
-epaye.submissions.you_must_use_your_payroll_software_ = Mae’n rhaid i chi ddefnyddio eich meddalwedd gyflogres er mwyn cywiro Cyflwyniadau Taliadau Llawn (FPS) neu Grynodebau o Daliadau’r Cyflogwr (EPS). Ni all staff CThEM wneud newidiadau ar eich rhan.
+epaye.submissions.you_must_use_your_payroll_software_ = Mae’n rhaid i chi ddefnyddio eich meddalwedd gyflogres er mwyn cywiro Cyflwyniad Taliadau Llawn (FPS) neu Grynodebau o Daliadau’r Cyflogwr (EPS). Ni all staff CThEM wneud newidiadau ar eich rhan.
 epaye.submissions.submissions_for_the_current_tax_year = Cyflwyniadau ar gyfer y flwyddyn dreth bresennol
 epaye.submissions.you_can_make_changes_ = Gallwch wneud newidiadau i gyflwyniadau ar gyfer y flwyddyn dreth bresennol hyd at 19 Ebrill.
 epaye.submissions.follow_the = Dilynwch y
 epaye.submissions.if_you_use_ = os ydych yn defnyddio meddalwedd Offer TWE Sylfaenol (BPT) CThEM.
 epaye.submissions.submissions_from_an_earlier_tax_year = Cyflwyniadau o flwyddyn dreth gynharach
 epaye.submissions.if_you_spot_an_error_ = Os ydych wedi gwneud camgymeriad mewn cyflwyniad ar ôl i’r flwyddyn dreth honno ddod i ben, mae’n rhaid i chi gyflwyno Diweddariad Blwyddyn Gynharach os bydd hynny ar ôl 19 Ebrill.
-epaye.submissions.find_out_more_wrong_pay = Mae rhagor o wybodaeth i’w chael yn yr adran ‘os ydych wedi rhoi gwybod am y tâl neu’r didyniadau anghywir’
-
+epaye.submissions.find_out_more_wrong_pay = Mae rhagor o wybodaeth i’w chael yn yr adran ‘os ydych wedi rhoi gwybod am y tâl neu’r didyniadau anghywir’ (yn agor tab newydd)
 
 #######################################################
 ##  Corporation Tax
