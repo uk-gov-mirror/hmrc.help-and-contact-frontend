@@ -17,6 +17,7 @@
 package services
 
 import models.PageType
+import models.PageType.HelpWithBTA
 import play.api.i18n.Messages
 import play.twirl.api.{Html, HtmlFormat}
 
@@ -26,5 +27,6 @@ class PageTypeResolverService {
   def resolve(pageType: PageType)(implicit messages: Messages): Html = pageType match {
     case PageType.HelpWithBTA => views.html.help_with_your_bta()(messages)
     case PageType.ChangeContactAndAccountDetails => views.html.change_contact_and_account_details()(messages)
+    case PageType.HowToAddTax => views.html.how_to_add_tax()(messages)
   }
 }
