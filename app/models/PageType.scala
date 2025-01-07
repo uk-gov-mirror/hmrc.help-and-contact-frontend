@@ -16,6 +16,8 @@
 
 package models
 
+import models.HelpCategory.VAT
+
 sealed trait PageType {
   def name: String
   def messageKey: String
@@ -28,15 +30,23 @@ object PageType {
     val messageKey = "help_and_contact.help_with_business_tax_account"
     val category = HelpCategory.BTA
   }
+
   case object ChangeContactAndAccountDetails extends PageType {
     val name = "change-contact-and-account-details"
     val messageKey = "help_and_contact.change_contact_and_account_details"
     val category = HelpCategory.BTA
   }
+
   case object HowToAddTax extends PageType {
     val name = "how-to-add-tax"
     val messageKey = "help_and_contact.how_to_add_tax"
     val category = HelpCategory.BTA
+  }
+
+  case object RegisterOrDeregisterVAT extends PageType {
+    val name = "register-or-deregister-vat"
+    val messageKey = "help_and_contact.register_or_deregister"
+    val category = HelpCategory.VAT
   }
 
   case object ViewOrCorrectYourSubmissions extends PageType {
@@ -50,6 +60,7 @@ object PageType {
     HelpWithBTA,
     ChangeContactAndAccountDetails,
     HowToAddTax,
+    RegisterOrDeregisterVAT,
     ViewOrCorrectYourSubmissions
   )
 

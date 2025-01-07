@@ -183,6 +183,32 @@ help_and_contact.if_you_prefer = Os byddai’n well gennych,
 help_and_contact.you_can_watch_our_video_on_how_to_add_tax = gallwch wylio ein fideo ar sut i ychwanegu treth
 help_and_contact.transcript_how_do_i_add_tax_bta = Trawsgrifiad fideo ar sut i ychwanegu treth at fy nghyfrif Cyfrif Treth Busnes
 
+help_and_contact.register_or_deregister = Cofrestru neu datgofrestru
+help_and_contact.register_or_deregister_for_vat = Cofrestru neu datgofrestru ar gyfer TAW
+help_and_contact.register_for_vat = Cofrestru ar gyfer TAW
+help_and_contact.you_must_register_if = Mae’n rhaid i chi gofrestru os yw’r canlynol yn wir:
+help_and_contact.your_total_vat_taxable = roedd cyfanswm eich trosiant trethadwy TAW ar gyfer y 12 mis diwethaf dros £90,000 (y trothwy TAW)
+help_and_contact.you_expect_your_turnover_togo = rydych yn disgwyl i’ch trosiant fod yn fwy nag £90,000 yn ystod y 30 diwrnod nesaf
+help_and_contact.you_must_also_register = Mae’n rhaid i chi hefyd gofrestru (ni waeth beth fo’r trosiant trethadwy TAW) os yw pob un o’r canlynol yn wir:
+help_and_contact.youre_based_outside = rydych wedi’ch lleoli y tu allan i’r DU
+help_and_contact.your_business_is_based_outside = mae’ch busnes wedi’i leoli y tu allan i’r DU
+help_and_contact.you_supply_any_goods_or_services = rydych yn cyflenwi unrhyw nwyddau neu wasanaethau i’r DU (neu rydych yn disgwyl gwneud hynny yn ystod y 30 diwrnod nesaf)
+help_and_contact.when_you_register_youll_be_sent = Ar ôl i chi gofrestru, bydd tystysgrif cofrestru TAW yn cael ei hanfon atoch. Mae hon yn cadarnhau’r canlynol:
+help_and_contact.your_vat_number = eich rhif TAW
+help_and_contact.when_to_submit_your_first = pryd i gyflwyno’ch Ffurflen TAW gyntaf a’ch taliad cyntaf
+help_and_contact.the_date_you_went_over_the_threshold = y dyddiad yr aethoch dros y trothwy, neu’r dyddiad y gwnaethoch ofyn i gael cofrestru os oedd yn wirfoddol
+help_and_contact.most_businesses_can = Gall y rhan fwyaf o fusnesau
+help_and_contact.register_for_vat_online = gofrestru ar gyfer TAW ar-lein
+help_and_contact.and_create_an_online_vat_account = a chreu cyfrif TAW ar-lein. Mae hyn yn cynnwys partneriaethau a grŵp o gwmnïau sy’n cofrestru o dan un rhif TAW.
+help_and_contact.deregister_for_vat = Datgofrestru rhag TAW
+help_and_contact.you_must = Mae’n rhaid i chi
+help_and_contact.cancel_your_vat_registration = ganslo’ch cofrestriad
+help_and_contact.if_you_are_no_longer_eligible = os nad ydych bellach yn gymwys i fod wedi’ch cofrestru ar gyfer TAW. Er enghraifft:
+help_and_contact.you_stop_trading_or_making = rydych yn rhoi’r gorau i fasnachu neu’n rhoi’r gorau i wneud cyflenwadau trethadwy TAW
+help_and_contact.you_join_a_vat_group = rydych yn ymuno â grŵp TAW
+help_and_contact.you_must_cancel_within_30_days = Mae’n rhaid i chi ganslo cyn pen 30 diwrnod os ydych yn peidio â bod yn gymwys neu gallwch wynebu cosb.
+
+
 help_and_contact.govuk_link = GOV.UK
 
 ########################################################################################################################
