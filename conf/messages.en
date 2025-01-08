@@ -1475,8 +1475,11 @@ help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have
 help.transcripts.missing = We will publish a transcript for this video in August 2021.
 
 ########## 2025 Corporation Tax new help and contact changes start ##########
+
 help_and_contact.register_add_corporation_tax = Register or add Corporation Tax
 help_and_contact.how_to_pay_corporation_tax = How to pay and deadlines
+help_and_contact.closing_limited_company = Closing a limited company
+help_and_contact.get_ct_utr = Get a copy of your Unique Taxpayer Reference (UTR)
 
 ctax.register.add.heading = Register or add Corporation Tax
 ctax.register.add.section1.title = Register for Corporation Tax with HMRC
@@ -1549,7 +1552,110 @@ ctax.howtopay.section4.p3.linkText = Read detailed information about how to pay 
 ctax.howtopay.section5.p1.linkText = Video - Paying your Corporation Tax bill (opens in new tab)
 ctax.howtopay.section5.p2.linkText = Paying your Corporation Tax bill - video transcript
 
+ctax.closinglimitedcompany.heading = Closing a limited company
+ctax.closinglimitedcompany.p1 = You usually need to have the agreement of your company’s directors and shareholders to close a limited company.
+ctax.closinglimitedcompany.p2 = The way you close the company depends on whether it can pay its bills or not, that is, if it is ‘solvent’ or ‘insolvent’.
+ctax.closinglimitedcompany.p3.preText = Your company might be forced into
+ctax.closinglimitedcompany.p3.linkText = compulsory liquidation (opens in a new tab)
+ctax.closinglimitedcompany.p3.postText = if you do not pay creditors.
 
+ctax.closinglimitedcompany.section2.title = Dormant companies
+ctax.closinglimitedcompany.section2.p1 = You do not have to close your company if it’s no longer trading. You can let it become ‘dormant’ for tax as long as it’s not:
+ctax.closinglimitedcompany.list_item1 = carrying on business activity
+ctax.closinglimitedcompany.list_item2 = trading
+ctax.closinglimitedcompany.list_item3 = receiving income
+ctax.closinglimitedcompany.section2.p2 = Your company will still be registered at Companies House.
+ctax.closinglimitedcompany.section2.p3 = Find out more about closing a limited company (opens in a new tab)
 
+ctax.getctutr.heading = Ask for a copy of your Corporation Tax UTR
+ctax.getctutr.p1 = You can use an online service to ask for a copy of your Corporation Tax Unique Taxpayer Reference (UTR).
+ctax.getctutr.p2 = We will send a copy of it by post to the company’s registered address as shown on Companies House. It’s sent by post to keep your details secure.
+ctax.getctutr.p3 = You will need your:
+ctax.getctutr.list_item1 = company registration number
+ctax.getctutr.list_item2 = registered company name
+ctax.getctutr.p4 = Ask for a copy of your Corporation Tax UTR (opens in a new tab)
 
 ########## 2025 Corporation Tax new help and contact changes end ###########
+
+
+########## 2025 Contact HMRC changes start ##########
+help_and_contact.contact_hmrc.nav = Contact HMRC
+
+contact.hmrc.heading = Contact HMRC
+contact.hmrc.link1 = Contact HMRC about Self Assessment (opens in new tab)
+contact.hmrc.link2 = Contact HMRC about VAT (opens in new tab)
+contact.hmrc.link3 = Contact HMRC about PAYE for employers (opens in new tab)
+contact.hmrc.link4 = Contact HMRC about Corporation Tax (opens in new tab)
+contact.hmrc.link5 = Contact HMRC about Making Tax Digital for VAT (opens in new tab)
+
+########## 2025 Contact HMRC changes end ##########
+
+########## 2025 PAYE changes start ##########
+help_and_contact.paye_stop_being_an_employer = If you stop being an employer
+help_and_contact.paye_changes_employee_circumstances = Changes in employee circumstances
+help_and_contact.paye_cis_refunds = PAYE and CIS refunds
+
+paye.stop.employer.heading = If you stop being an employer
+paye.stop.employer.section1.p1 = You need to tell HM Revenue and Customs (HMRC) straight away if your business stops employing people.
+paye.stop.employer.section1.p2 = You’ll need to close your PAYE scheme and submit a final payroll return.
+
+paye.stop.employer.section2.title = If you temporarily stop employing staff
+paye.stop.employer.section2.p1 = Your PAYE scheme continues to run if you stop employing staff for less than a whole tax year (for example, if you run a seasonal business). You don’t need to give your employees a P45 if you keep them on your payroll.
+
+paye.stop.employer.section3.title = Mergers and successions
+paye.stop.employer.section3.p1.preText = The rules are different if you stop employing staff because
+paye.stop.employer.section3.p1.linkText = your business merges or changes ownership (opens in a new tab).
+paye.stop.employer.section3.p2.preText = Find out more about
+paye.stop.employer.section3.p2.linkText = stopping being an employer (opens in a new tab).
+
+
+paye.changes.circumstance.heading = Changes in employee circumstances
+paye.changes.circumstance.section1.title = Get maternity or other parental leave pay in advance
+paye.changes.circumstance.section1.p1.preText = You must allow your employees to take
+paye.changes.circumstance.section1.p1.linkText = paid paternal leave (opens in new tab)
+paye.changes.circumstance.section1.p1.postText = if they have children or adopt.
+paye.changes.circumstance.section1.p2.preText = You can
+paye.changes.circumstance.section1.p2.linkText = reclaim the payments (opens in new tab)
+paye.changes.circumstance.section1.p2.postText = from HMRC after you've made them.
+paye.changes.circumstance.section1.p3.preText = You can
+paye.changes.circumstance.section1.p3.linkText = ask HMRC to refund you before you make the payments (opens in new tab)
+
+paye.changes.circumstance.section2.title = Sending employees to work abroad
+paye.changes.circumstance.section2.p1.preText = Complete
+paye.changes.circumstance.section2.p1.linkText = form CA3821
+paye.changes.circumstance.section2.p1.postText = the first time you send employees.
+paye.changes.circumstance.section2.p2.preText = And complete
+paye.changes.circumstance.section2.p2.linkText = form CA3822
+paye.changes.circumstance.section2.p2.postText = for each individual employee you send.
+
+paye.changes.circumstance.section3.title = Get HMRC to pay for an employee tax refund
+paye.changes.circumstance.section3.p1 = If an employee has paid too much PAYE you may need to refund them.
+paye.changes.circumstance.section3.p2 = Take the refund out of your next payment to HMRC.
+paye.changes.circumstance.section3.p3.preText = Or
+paye.changes.circumstance.section3.p3.linkText = ask HMRC to reimburse you
+paye.changes.circumstance.section3.p3.postText = if the refund is bigger than your next payment.
+
+paye.cis.refunds.heading = PAYE refunds and Construction Industry Scheme (CIS) refunds
+paye.cis.refunds.section1.title = PAYE refunds
+paye.cis.refunds.section1.p1 = If HMRC owes you money for employer’s PAYE, you can deduct the amount that you are owed from your next employer’s PAYE payment to HMRC.
+paye.cis.refunds.section1.p2 = You do not need to tell HMRC.
+paye.cis.refunds.section1.p3 = If the refund is because you made a mistake in a payroll submission, you must correct the submission before you adjust your payment to HMRC.
+
+paye.cis.refunds.section2.title = Apply for a refund by post
+paye.cis.refunds.section2.p1 = You can also request a refund by post.
+paye.cis.refunds.section2.p2 = It takes several months for HMRC to process refund requests. It is faster to deduct the refund from your next employer’s PAYE payment.
+paye.cis.refunds.section2.p3 = You will only get a refund if you do not owe money for other taxes.
+paye.cis.refunds.section2.p4 = Write to the following address, including details of the bank account you want the refund to go to:
+paye.cis.refunds.section2.p5 = National Insurance Contributions and Employers Office
+paye.cis.refunds.section2.p6 = HM Revenue and Customs
+paye.cis.refunds.section2.p7 = BX9 1BX
+paye.cis.refunds.section2.p8 = United Kingdom
+paye.cis.refunds.section2.linkText = More about refunds (opens in new tab)
+
+paye.cis.refunds.section3.title = CIS refunds
+paye.cis.refunds.section3.p1 = If you are a limited company that acts as a subcontractor under the Construction Industry Scheme (CIS) and your CIS account is in credit at the end of the year, you can request a repayment.
+paye.cis.refunds.section3.p2 = We aim to process repayments within 25 working days of receiving it, if we agree with your claim.
+paye.cis.refunds.section3.p3 = Do not call unless it has been more than 40 working days, as we may still be considering your claim.
+paye.cis.refunds.section3.linkText = How to claim a CIS refund (opens in new tab)
+
+########## 2025 PAYE changes END ##########

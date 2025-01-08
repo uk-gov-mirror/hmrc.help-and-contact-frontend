@@ -61,14 +61,9 @@
    @Messages("ctax.howtopay.section5.p1.linkText")
   </a>
   <br /><br />
-
-  <p class="govuk-body">
-   @defining("how-to-pay-corporation-tax") { transcriptKey =>
-   <a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad(transcriptKey)" id="ct-how-to-pay-video-transcript"
-      data-journey-click="link - click:How to pay your Corporation Tax:Video transcript">@messages("ctax.howtopay.section5.p2.linkText")</a>
-   }
-  </p>
-
-  </div>
+  <a class="govuk-link govuk-link--no-visited-state" href="https://bta-cards-prototype.herokuapp.com/help-and-contact/ct/video_transcript">
+   @Messages("ctax.howtopay.section5.p2.linkText")
+  </a>
+ </div>
 
 </div>
