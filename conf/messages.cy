@@ -704,7 +704,37 @@ epaye.change.emplyee_circumstances = Cymraeg Newidiadau yn amgylchiadau cyflogai
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Get started
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.get_started = Cymraeg Dechrau arni gyda TWE ar gyfer cyflogwyr
+epaye.get_started = Dechrau arni gyda TWE ar gyfer cyflogwyr
+epaye.payroll_software = 1. Meddalwedd gyflogres
+epaye.you_cannot_pay = Ni allwch dalu eich cyflogeion hyd nes eich bod wedi gosod meddalwedd gyflogres.
+epaye.each_time_you_pay = Bob tro y byddwch yn talu cyflogai, bydd y meddalwedd yn:
+epaye.notify_hmrc_bullet = rhoi gwybod i CThEF
+epaye.calculate_what_you_need_bullet = cyfrifo’r hyn sy’n rhaid i chi ei dalu i CThEF o ran treth ac Yswiriant Gwladol
+epaye.you_can_use_either = Gallwch ddefnyddio naill ai:
+epaye.you_can_use_either_bullet1_1 = meddalwedd
+epaye.you_can_use_either_bullet1_2 = Offer TWE Sylfaenol (BPT) (yn agor tab newydd)
+epaye.you_can_use_either_bullet1_3 = CThEF (sy’n rhad ac am ddim)
+epaye.you_can_use_either_bullet2_1 = meddalwedd fasnachol y gyflogres (yn agor tab newydd)
+epaye.you_can_use_either_bullet2_2 = (mae rhai pecynnau’n rhad ac am ddim)
+epaye.paying_your_employees = 2. Talu eich cyflogeion
+epaye.you_must_make_a_submission = Mae’n rhaid i chi wneud cyflwyniad drwy eich meddalwedd gyflogres bob tro’r ydych yn talu cyflogai. Gelwir hyn yn ‘Datganiad Taliadau Llawn (FPS)’.
+epaye.you_must_submit_the_FPS = Mae’n rhaid i chi gyflwyno’r FPS ar neu cyn y diwrnod rydych yn talu eich cyflogai, ar wahân i
+epaye.you_can_submit_late_FPS_link = pan allwch gyflwyno FPS hwyr (yn agor tab newydd).
+epaye.if_you_do_not_pay_header = Os nad ydych yn talu unrhyw gyflogeion
+epaye.if_you_do_not_pay = Os nad ydych yn talu unrhyw gyflogeion yn ystod mis treth, mae dal yn rhaid i chi wneud cyflwyniad drwy eich meddalwedd gyflogres.
+epaye.instead_of_an_FPS = Fodd bynnag, yn hytrach na FPS, bydd yn rhaid i chi gyflwyno
+epaye.instead_of_an_FPS_link = Crynodeb o Daliadau’r Cyflogwr (EPS) sy’n dangos ‘dim’ (yn agor tab newydd)
+epaye.paying_hmrc = 3. Talu CThEF
+epaye.you_need_to_use = Bydd yn rhaid i chi ddefnyddio eich cyfeirnod Swyddfa Gyfrifon wrth dalu CThEF.
+epaye.your_accounts_office_reference = Mae eich cyfeirnod Swyddfa Gyfrifon yn 13 o gymeriadau, er enghraifft 123PA01234567. Mae’n wahanol i’ch cyfeirnod TWE y Cyflogwr. Bydd hwn ar:
+epaye.the_letter_from_bullet = y llythyr a gawsoch gan CThEF pan wnaethoch gofrestru ar gyfer TWE am y tro cyntaf
+epaye.the_paying_paye_bullet = y llythyr ‘Talu TWE drwy ddull electronig’ y mae CThEF yn ei anfon atoch ar ddechrau bob blwyddyn dreth (llythyr ‘P30B’)
+epaye.make_sure_to_use = Sicrhewch eich bod yn defnyddio’r cyfeirnod Swyddfa Gyfrifon cywir os ydych yn rheoli mwy nag un cynllun cyflogres.
+epaye.further_resources = Adnoddau pellach
+epaye.further_resources_link1 = rhedeg eich cyflogres (yn agor tab newydd)
+epaye.further_resources_link2 = talu TWE y cyflogwr (yn agor tab newydd)
+epaye.further_resources_link3 = Fideo – Sut ydw i’n defnyddio meddalwedd gyflogres? (yn agor tab newydd)
+epaye.further_resources_link4 = Sut ydw i’n defnyddio meddalwedd gyflogres? – trawsgrifiad fideo
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove

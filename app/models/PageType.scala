@@ -49,6 +49,12 @@ object PageType {
     val category = HelpCategory.VAT
   }
 
+  case object GetStarted extends PageType {
+    val name = "get-started-PAYE"
+    val messageKey = "help_and_contact.get_started"
+    val category = HelpCategory.Epaye
+  }
+
   case object ViewOrCorrectYourSubmissions extends PageType {
     val name = "view-or-correct-your-submissions"
     val messageKey = "help_and_contact.view_or_correct_submissions"
@@ -109,6 +115,7 @@ object PageType {
     ChangeContactAndAccountDetails,
     HowToAddTax,
     RegisterOrDeregisterVAT,
+    GetStarted,
     ViewOrCorrectYourSubmissions,
     PayeCisRefunds,
     PayeChangeCircumstance,

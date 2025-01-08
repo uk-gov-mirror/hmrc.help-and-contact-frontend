@@ -720,6 +720,36 @@ epaye.change.emplyee_circumstances = Changes in employee circumstances
 #~~ Get started
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 epaye.get_started = Get started with PAYE for employers
+epaye.payroll_software = 1. Payroll software
+epaye.you_cannot_pay = You cannot pay your employees until you’ve installed payroll software.
+epaye.each_time_you_pay = Each time you pay an employee, the software will:
+epaye.notify_hmrc_bullet = notify HMRC
+epaye.calculate_what_you_need_bullet = calculate what you need to pay HMRC in tax and National Insurance
+epaye.you_can_use_either = You can use either:
+epaye.you_can_use_either_bullet1_1 = HMRC’s
+epaye.you_can_use_either_bullet1_2 = Basic PAYE Tools (BPT) (opens in new tab)
+epaye.you_can_use_either_bullet1_3 = software (it’s free)
+epaye.you_can_use_either_bullet2_1 = commercial payroll software (opens in new tab)
+epaye.you_can_use_either_bullet2_2 = (there are some free packages)
+epaye.paying_your_employees = 2. Paying your employees
+epaye.you_must_make_a_submission = You must make a submission through your payroll software each time you pay an employee.This is called a Full Payment Submission (FPS).
+epaye.you_must_submit_the_FPS = You must submit the FPS on or before the day you pay your employee, except
+epaye.you_can_submit_late_FPS_link = when you can submit a late FPS (opens in a new tab)
+epaye.if_you_do_not_pay_header = If you do not pay any employees
+epaye.if_you_do_not_pay = If you don’t pay any of your employees in a tax month, you still need to make a submission through your payroll software.
+epaye.instead_of_an_FPS = But instead of an FPS, you need to submit a
+epaye.instead_of_an_FPS_link = ’nil’ Employer Payment Summary (EPS) (opens in new tab)
+epaye.paying_hmrc = 3. Paying HMRC
+epaye.you_need_to_use = You need to use your accounts office reference when you pay HMRC.
+epaye.your_accounts_office_reference = Your accounts office reference is 13 characters, for example 123PA01234567. It’s different to your employer’s PAYE reference. You can find it on either:
+epaye.the_letter_from_bullet = the letter from HMRC when you first registered for PAYE
+epaye.the_paying_paye_bullet = the ’Paying PAYE electronically’ letter HMRC sends you at the start of each tax year (the ’P30B’)
+epaye.make_sure_to_use = Make sure to use the correct accounts office reference if you manage more than one payroll scheme.
+epaye.further_resources = Further resources
+epaye.further_resources_link1 = running your payroll (opens in new tab)
+epaye.further_resources_link2 = paying employers’ PAYE (opens in new tab)
+epaye.further_resources_link3 = Video - How do I use payroll software? (opens in new tab)
+epaye.further_resources_link4 = How do I use payroll software? - video transcript
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove

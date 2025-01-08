@@ -29,6 +29,7 @@ class PageTypeResolverService {
     case PageType.ChangeContactAndAccountDetails => views.html.change_contact_and_account_details()(messages)
     case PageType.HowToAddTax => views.html.how_to_add_tax()(messages)
     case PageType.RegisterOrDeregisterVAT => views.html.register_or_deregister_for_vat()(messages)
+    case PageType.GetStarted => views.html.epaye_get_started()(messages)
     case PageType.ViewOrCorrectYourSubmissions => views.html.epaye_view_or_correct_submissions()(messages)
     case PageType.PayeCisRefunds => views.html.paye_cis_refunds()(messages)
     case PageType.PayeChangeCircumstance => views.html.paye_change_circumstance()(messages)
