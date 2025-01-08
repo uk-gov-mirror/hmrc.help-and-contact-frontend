@@ -36,7 +36,7 @@ class PageTypeResolverService {
     case PageType.RegisterAddCT => views.html.ctax_register_add()(messages)
     case PageType.HowToPayCT => views.html.ctax_how_to_pay()(messages)
     case PageType.ClosingLimitedCompanyCT => views.html.ctax_closing_limited_company()(messages)
-    case PageType.GetUtrCT => views.html.ctax_closing_limited_company()(messages)
+    case PageType.GetUtrCT => views.html.ctax_ask_utr_corporation_tax()(messages)
     case PageType.ContactHMRC => views.html.contact_hmrc()(messages)
   }
 }
