@@ -1573,3 +1573,188 @@ help.changingDetails.moreHelp.linkText = Help gyda gwasanaethau CThEM os ydych y
 #~~ Misc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help.transcripts.missing = Byddwn yn cyhoeddi trawsgrifiad ar gyfer y fideo hwn ym mis Awst 2021.
+
+########## 2025 Corporation Tax new help and contact changes start ##########
+
+help_and_contact.register_add_corporation_tax = Cofrestru ar gyfer Treth Gorfforaeth, neu ei hychwanegu
+help_and_contact.how_to_pay_corporation_tax = Sut i dalu a dyddiadau cau
+help_and_contact.closing_limited_company = Cau cwmni cyfyngedig
+help_and_contact.get_ct_utr = Cael copi o’ch Cyfeirnod Unigryw y Trethdalwr (UTR)
+
+ctax.register.add.heading = Cofrestru ar gyfer Treth Gorfforaeth, neu ei hychwanegu
+ctax.register.add.section1.title = Cofrestru ar gyfer Treth Gorfforaeth gyda CThEM
+ctax.register.add.section1.p1.preText = Pan fyddwch wedi
+ctax.register.add.section1.p1.linkText = cofrestru’ch cwmni (yn agor tab newydd)
+ctax.register.add.section1.p1.postText = gyda Thŷ’r Cwmnïau, mae’n rhaid i chi
+ctax.register.add.section1.p2.linkText = gofrestru ar gyfer Treth Gorfforaeth
+ctax.register.add.section1.p2.postText = gyda Chyllid a Thollau EM (CThEM) cyn pen 3 mis o fod yn weithgar.
+ctax.register.add.section1.p4 = Mae bod yn weithgar at ddibenion Treth Gorfforaeth yn cynnwys:
+ctax.register.add.section1.list_item1 = prynu
+ctax.register.add.section1.list_item2 = gwerthu
+ctax.register.add.section1.list_item3 = hysbysebu
+ctax.register.add.section1.list_item4 = rhoi eiddo ar osod
+ctax.register.add.section1.list_item5 = cyflogi rhywun
+ctax.register.add.section1.list_item6 = gweithgarwch masnachu tebyg
+ctax.register.add.section1.p5 = Gwiriwch os ydych yn ansicr ynghylch beth sy’n cyfrif fel bod yn weithgar (yn agor tab newydd)
+ctax.register.add.section1.p6 = Mae’n rhaid i chi hefyd gofrestru’ch cwmni ar gyfer Treth Gorfforaeth gyda CThEM os yw’ch cwmni wedi’i gofrestru’n segur, ond ei fod yn weithgar erbyn hyn
+ctax.register.add.section1.inset1 = Mae’n bosibl y codir cosb arnoch os byddwch yn cofrestru’n hwyr.
+
+ctax.register.add.section2.title = Yr hyn sydd angen i chi roi gwybod i CThEM amdano pan fyddwch yn cofrestru ar gyfer Treth Gorfforaeth
+ctax.register.add.section2.p1 = Bydd angen Cyfeirnod Unigryw y Trethdalwr (UTR) eich cwmni arnoch, sy’n 10 digid o hyd.
+ctax.register.add.section2.p2 = Fel arfer cewch eich UTR oddi wrth CThEM o fewn ychydig ddiwrnodau o gofrestru’ch cwmni gyda Thŷ’r Cwmnïau.
+ctax.register.add.section2.p3.linkText = Gwnewch gais am Cyfeirnod Unigryw Trethdalwr ar gyfer eich cwmni ar-lein
+ctax.register.add.section2.p3.postLink = os na chawsoch un ar ôl cofrestru’ch cwmni.
+ctax.register.add.section2.p4 = Hefyd, bydd angen y canlynol arnoch:
+ctax.register.add.section2.list_item1 = rhif cofrestru eich cwmni
+ctax.register.add.section2.list_item2.preText = y dyddiad y gwnaethoch ddechrau bod yn weithgar - byd
+ctax.register.add.section2.list_item2.linkText = cyfnod cyfrifyddu cyntaf eich busnes (yn agor tab newydd)
+ctax.register.add.section2.list_item2.postText = yn dechrau ar y dyddiad hwn
+ctax.register.add.section2.list_item3 = dyddiad cau eich cyfrifon blynyddol (dyddiad paratoi’r cyfrifon)
+
+ctax.register.add.section3.title = Yr hyn sy’n digwydd nesaf
+ctax.register.add.section3.p1 = Bydd CThEM yn rhoi gwybod i chi beth yw’r dyddiad cau ar gyfer talu Treth Gorfforaeth.
+ctax.register.add.section3.p2.preText = Mae’n rhaid i chi gyflwyno
+ctax.register.add.section3.p2.linkText = Ffurflen Dreth y Cwmni (yn agor tab newydd)
+ctax.register.add.section3.p2.postText = hyd yn oed os gwnewch golled neu os nad oes gennych Dreth Gorfforaeth i’w thalu.
+
+ctax.register.add.section4.title = Ychwanegwch Dreth Gorfforaeth i’ch cyfrif treth busnes
+ctax.register.add.section4.p1.linkText = Ychwanegwch Dreth Gorfforaeth i’ch cyfrif treth busnes
+ctax.register.add.section4.p1.postText = er mwyn:
+ctax.register.add.section4.list_item1 = cyflwyno’ch Ffurflen Dreth y Cwmni ar-lein
+ctax.register.add.section4.list_item2 = talu ar-lein
+
+ctax.register.add.section5.title = Dweud wrth CThEM nad ydych yn masnachu mwyach
+ctax.register.add.section5.p1.preText = I roi’r gorau i dalu Treth Gorfforaeth, mae’n rhaid i chi
+ctax.register.add.section5.p1.linkText = gau’r cwmni cyfyngedig (yn agor tab newydd).
+
+ctax.howtopay.heading = Sut i dalu a dyddiadau cau
+ctax.howtopay.section1.title = Dyddiadau cau
+ctax.howtopay.section1.p1 = Bydd y dyddiad cau ar gyfer eich taliad yn dibynnu ar eich elw trethadwy.
+
+ctax.howtopay.section2.title = Os yw eich elw trethadwy hyd at £1.5 miliwn
+ctax.howtopay.section2.p1 = Rhaid i chi dalu eich Treth Gorfforaeth naw mis ac un diwrnod ar ôl diwedd eich cyfnod cyfrifyddu. Fel arfer eich cyfnod cyfrifyddu yw’ch blwyddyn ariannol, ond mae’n bosibl y bydd gennych ddau gyfnod cyfrifyddu yn ystod
+ctax.howtopay.section2.p1.linkText = y flwyddyn rydych yn sefydlu eich cwmni (yn agor tab newydd).
+
+ctax.howtopay.section3.title = Os yw eich elw trethadwy dros £1.5 miliwn
+ctax.howtopay.section3.p1 = Rhaid i chi
+ctax.howtopay.section3.p1.linkText = dalu eich Treth Gorfforaeth mewn rhandaliadau (yn agor tab newydd).
+ctax.howtopay.section3.p2 = Sicrhewch eich bod yn talu Cyllid a Thollau EM (CThEM) erbyn y dyddiad cau. Efallai y byddant yn
+ctax.howtopay.section3.p2.linkText = codi llog arnoch (yn agor tab newydd)
+ctax.howtopay.section3.p3 = os na fyddwch yn talu mewn pryd. Byddant yn
+ctax.howtopay.section3.p3.linkText = talu llog i chi (yn agor tab newydd)
+ctax.howtopay.section3.p4 = os byddwch yn talu’ch treth yn gynnar.
+
+ctax.howtopay.section4.title = Dulliau talu
+ctax.howtopay.section4.p1 = Ni allwch dalu yn Swyddfa’r Post mwyach. Ni allwch dalu Treth Gorfforaeth drwy’r post.
+ctax.howtopay.section4.p2 = Mae’r amser sydd angen i chi ei ganiatáu yn dibynnu ar eich dull talu.
+ctax.howtopay.section4.p3.linkText = Darllenwch wybodaeth fanwl am sut i dalu’ch bil Treth Gorfforaeth (yn agor tab newydd)
+
+ctax.howtopay.section5.p1.linkText = Fideo - Talu eich bil Treth Gorfforaeth (yn agor tab newydd)
+ctax.howtopay.section5.p2.linkText = Talu eich bil Treth Gorfforaeth – trawsgrifiad fideo
+
+ctax.closinglimitedcompany.heading = Cau cwmni cyfyngedig
+ctax.closinglimitedcompany.p1 = Fel arfer, bydd angen i chi gael cadarnhad gan gyfarwyddwyr a chyfranddalwyr eich cwmni er mwyn cau cwmni cyfyngedig.
+ctax.closinglimitedcompany.p2 = Mae’r ffordd yr ydych yn cau’r cwmni yn dibynnu ar p’un a yw’r cwmni’n gallu talu ei filiau – hynny yw, a yw’r cwmni yn ‘solfent’ neu’n ‘ansolfent’?
+ctax.closinglimitedcompany.p3.preText = Os nad ydych yn talu’r credydwyr, mae’n bosibl y bydd eich cwmni  yn mynd i
+ctax.closinglimitedcompany.p3.linkText = ddatodiad gorfodol (yn agor tab newydd).
+ctax.closinglimitedcompany.p3.postText =
+
+ctax.closinglimitedcompany.section2.title = Cwmnïau segur
+ctax.closinglimitedcompany.section2.p1 = Does dim rhaid i chi gau’ch cwmni os nad yw’n masnachu mwyach. Gallwch ei adael i ddod yn ‘segur’ at ddibenion treth, ar yr amodau canlynol:
+ctax.closinglimitedcompany.list_item1 = nid yw’r cwmni’n cynnal gweithgaredd busnes
+ctax.closinglimitedcompany.list_item2 = nid yw’r cwmni’n masnachu
+ctax.closinglimitedcompany.list_item3 = nid yw’r cwmni’n cael incwm
+ctax.closinglimitedcompany.section2.p2 = Bydd eich cwmni wedi’i gofrestru yn Nhŷ’r Cwmnïau o hyd.
+ctax.closinglimitedcompany.section2.p3 = Cael rhagor o wybodaeth am gau cwmni cyfyngedig (yn agor tab newydd)
+
+ctax.getctutr.heading = Gofyn am gopi o’ch UTR ar gyfer Treth Gorfforaeth
+ctax.getctutr.p1 = Gallwch ddefnyddio gwasanaeth ar-lein i ofyn am gopi o’ch Cyfeirnod Unigryw y Trethdalwr (UTR) ar gyfer Treth Gorfforaeth.
+ctax.getctutr.p2 = Byddwn yn anfon copi ohono drwy’r post i gyfeiriad cofrestredig y cwmni fel y’i dangosir yn Nhŷ’r Cwmnïau. Bydd yn eich cyrraedd drwy’r post er mwyn cadw’ch manylion yn ddiogel.
+ctax.getctutr.p3 = Bydd angen y canlynol arnoch:
+ctax.getctutr.list_item1 = rhif cofrestru’r cwmni
+ctax.getctutr.list_item2 = enw cofrestredig y cwmni
+ctax.getctutr.p4 = Gofynnwch am gopi o’ch UTR ar gyfer Treth Gorfforaeth (yn agor tab newydd)
+
+########## 2025 Corporation Tax new help and contact changes end ###########
+
+
+########## 2025 Contact HMRC changes start ##########
+help_and_contact.contact_hmrc.nav = Cysylltu â CThEF
+
+contact.hmrc.heading = Cysylltu â CThEF
+contact.hmrc.link1 = Cysylltu ynghylch Hunanasesiad (yn agor tab newydd)
+contact.hmrc.link2 = Cysylltu ynghylch TAW (yn agor tab newydd)
+contact.hmrc.link3 = Cysylltu ynghylch TWE i gyflogwyr (yn agor tab newydd)
+contact.hmrc.link4 = Cysylltu â CThEF ynghylch Treth Gorfforaeth (yn agor tab newydd)
+contact.hmrc.link5 = Cysylltu â CThEF ynghylch Troi Treth yn Ddigidol ar gyfer TAW (yn agor tab newydd)
+
+########## 2025 Contact HMRC changes end ##########
+
+########## 2025 PAYE changes start ##########
+help_and_contact.paye_stop_being_an_employer = Os ydych yn rhoi’r gorau i fod yn gyflogwr
+help_and_contact.paye_changes_employee_circumstances = Newidiadau yn amgylchiadau cyflogeion
+help_and_contact.paye_cis_refunds = TWE ac CIS Ad-daliadau
+
+paye.stop.employer.heading = Os ydych yn rhoi’r gorau i fod yn gyflogwr
+paye.stop.employer.section1.p1 = Mae angen i chi roi gwybod i Gyllid a Thollau EF (CThEF) ar unwaith pan fydd eich cwmni’n rhoi’r gorau i gyflogi pobl.
+paye.stop.employer.section1.p2 = Bydd angen i chi gau’ch cynllun TWE a chyflwyno datganiad terfynol y gyflogres.
+
+paye.stop.employer.section2.title = Os ydych yn rhoi’r gorau i gyflogi staff am gyfnod dros dro
+paye.stop.employer.section2.p1 = Mae eich cynllun TWE yn parhau i redeg os ydych yn rhoi’r gorau i gyflogi staff am lai na blwyddyn dreth gyfan (er enghraifft, os ydych yn rhedeg busnes tymhorol). Does dim angen i chi roi P45 i’ch cyflogwyr os ydych yn eu cadw nhw ar eich cyflogres.
+
+paye.stop.employer.section3.title = Cyfuniadau ac olyniaeth
+paye.stop.employer.section3.p1.preText = Mae’r rheolau’n wahanol os ydych yn rhoi’r gorau i gyflogi staff oherwydd bod
+paye.stop.employer.section3.p1.linkText = eich busnes yn cyfuno ag un arall neu’n newid perchnogaeth (yn agor tab newydd).
+paye.stop.employer.section3.p2.preText = Dysgwch ragor am
+paye.stop.employer.section3.p2.linkText = roi’r gorau i fod yn gyflogwr (yn agor tab newydd).
+
+paye.changes.circumstance.heading = Newidiadau yn amgylchiadau cyflogeion
+paye.changes.circumstance.section1.title = Cael tâl absenoldeb mamolaeth neu dâl absenoldeb arall i rieni, o flaen llaw
+paye.changes.circumstance.section1.p1.preText = Mae’n rhaid i chi ganiatáu i’ch cyflogeion gymryd
+paye.changes.circumstance.section1.p1.linkText = absenoldeb wedi’i dalu i rieni (yn agor tab newydd)
+paye.changes.circumstance.section1.p1.postText = os oes ganddynt blant, neu’n mabwysiadu.
+paye.changes.circumstance.section1.p2.preText = Gallwch
+paye.changes.circumstance.section1.p2.linkText = adennill y taliadau (yn agor tab newydd)
+paye.changes.circumstance.section1.p2.postText = CThEF ar ôl i chi eu gwneud.
+paye.changes.circumstance.section1.p3.preText = Gallwch
+paye.changes.circumstance.section1.p3.linkText = ofyn i CThEF am ad-daliad cyn i chi wneud y taliadau(yn agor tab newydd).
+
+paye.changes.circumstance.section2.title = Anfon cyflogeion i weithio dramor
+paye.changes.circumstance.section2.p1.preText = Mae angen i chi lenwi
+paye.changes.circumstance.section2.p1.linkText = ffurflen CA3821
+paye.changes.circumstance.section2.p1.postText = pan fyddwch yn anfon cyflogeion dramor am y tro cyntaf.
+paye.changes.circumstance.section2.p2.preText = Mae angen i chi lenwi
+paye.changes.circumstance.section2.p2.linkText = ffurflen CA3822
+paye.changes.circumstance.section2.p2.postText = am bob cyflogai unigol rydych yn ei anfon dramor.
+
+paye.changes.circumstance.section3.title = Trefnu bod CThEF yn talu am ad-daliad treth i gyflogai
+paye.changes.circumstance.section3.p1 = Os yw cyflogai wedi talu gormod o TWE, efallai y bydd yn rhaid i chi ei ad-dalu.
+paye.changes.circumstance.section3.p2 = Tynnwch yr ad-daliad o’ch taliad nesaf i CThEF.
+paye.changes.circumstance.section3.p3.preText = neu
+paye.changes.circumstance.section3.p3.linkText = gofynnwch i CThEF i’ch ad-dalu
+paye.changes.circumstance.section3.p3.postText = os yw’r ad-daliad yn fwy na’ch taliad nesaf.
+
+paye.cis.refunds.heading = Ad-daliadau TWE ac Ad-daliadau Cynllun y Diwydiant Adeiladu (CIS)
+paye.cis.refunds.section1.title = Ad-daliadau TWE
+paye.cis.refunds.section1.p1 = Os oes ar CThEM arian i chi ar gyfer TWE y cyflogwr, gallwch ddidynnu’r swm sy’n ddyledus i chi o’ch taliad nesaf i CThEM ar gyfer TWE y cyflogwr.
+paye.cis.refunds.section1.p2 = Does dim rhaid i chi roi gwybod i CThEM.
+paye.cis.refunds.section1.p3 = Os yw’r ad-daliad oherwydd eich bod wedi gwneud camgymeriad ar gyflwyniad cyflogres, mae’n rhaid i chi gywiro’r cyflwyniad cyn i chi addasu’ch taliad i CThEM.
+
+paye.cis.refunds.section2.title = Gwneud cais am ad-daliad drwy’r post
+paye.cis.refunds.section2.p1 = Gallwch hefyd wneud cais am ad-daliad drwy’r post.
+paye.cis.refunds.section2.p2 = Mae’n cymryd sawl mis i CThEM brosesu ceisiadau am ad-daliad. Mae’n gynt didynnu’r ad-daliad o’ch taliad nesaf ar gyfer TWE y cyflogwr.
+paye.cis.refunds.section2.p3 = Cewch ad-daliad dim ond os nad oes arnoch arian ar gyfer trethi eraill.
+paye.cis.refunds.section2.p4 = Ysgrifennwch i’r cyfeiriad canlynol, gan gynnwys manylion y cyfrif banc rydych am i’r ad-daliad fynd iddo:
+paye.cis.refunds.section2.p5 = Swyddfa Cyfraniadau Yswiriant Gwladol a Chyflogwyr
+paye.cis.refunds.section2.p6 = Cyllid a Thollau EM
+paye.cis.refunds.section2.p7 = LL49 9AB
+paye.cis.refunds.section2.p8 = Y Deyrnas Unedig
+paye.cis.refunds.section2.linkText = Rhagor o wybodaeth am ad-daliadau (yn agor tab newydd)
+
+paye.cis.refunds.section3.title = Ad-daliadau CIS
+paye.cis.refunds.section3.p1 = Os ydych yn gwmni cyfyngedig sy’n gweithredu fel isgontractwr o dan Gynllun y Diwydiant Adeiladu (CIS) ac mae eich cyfrif CIS mewn credyd ar ddiwedd y flwyddyn, gallwch wneud cais am ad-daliad.
+paye.cis.refunds.section3.p2 = Ein bwriad yw prosesu ad-daliadau cyn pen 25 diwrnod gwaith ar ôl iddynt ddod i law, os ydym yn cytuno â’ch cais.
+paye.cis.refunds.section3.p3 = Peidiwch â chysylltu â ni dros y ffôn oni bai bod mwy na 40 diwrnod gwaith wedi mynd heibio, oherwydd efallai ein bod yn dal i ystyried eich cais.
+paye.cis.refunds.section3.linkText = Sut i wneud cais am ad-daliad CIS (yn agor tab newydd)
+
+########## 2025 PAYE changes END ##########

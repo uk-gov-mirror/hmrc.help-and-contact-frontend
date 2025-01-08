@@ -24,6 +24,7 @@ import play.api.i18n.I18nSupport
 import play.api.mvc.MessagesControllerComponents
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.transcripts._
+import views.html.transcripts.ct.how_to_pay_corporation_tax
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      viewing_your_self_assessment_calculation: viewing_your_self_assessment_calculation,
@@ -51,6 +52,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      cant_access_sa_online: cant_access_sa_online,
                                      when_and_how_to_pay_epaye: when_and_how_to_pay_epaye,
                                      cant_pay_taxbill: cant_pay_taxbill,
+                                     how_to_pay_corporation_tax: how_to_pay_corporation_tax,
                                      override val controllerComponents: MessagesControllerComponents)
     extends FrontendController(controllerComponents)
     with I18nSupport {
@@ -88,7 +90,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
       "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent),
       "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(request.serviceInfoContent),
-      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent)
+      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent),
+      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent)
     )
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>

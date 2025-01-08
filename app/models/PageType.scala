@@ -54,6 +54,54 @@ object PageType {
     val messageKey = "help_and_contact.view_or_correct_submissions"
     val category = HelpCategory.Epaye
   }
+  case object RegisterAddCT extends PageType {
+    val name = "register-add-corporation-tax"
+    val messageKey = "help_and_contact.register_add_corporation_tax"
+    val category = HelpCategory.CorporationTax
+  }
+
+  case object HowToPayCT extends PageType {
+    val name = "how-to-pay"
+    val messageKey = "help_and_contact.how_to_pay_corporation_tax"
+    val category = HelpCategory.CorporationTax
+  }
+
+  case object ClosingLimitedCompanyCT extends PageType {
+    val name = "closing-limited-company"
+    val messageKey = "help_and_contact.closing_limited_company"
+    val category = HelpCategory.CorporationTax
+  }
+
+  case object GetUtrCT extends PageType {
+    val name = "ask-your-corporation-tax-utr"
+    val messageKey = "help_and_contact.get_ct_utr"
+    val category = HelpCategory.CorporationTax
+  }
+
+  case object ContactHMRC extends PageType {
+    val name = "contact-hmrc"
+    val messageKey = "help_and_contact.contact_hmrc.nav"
+    val category = HelpCategory.GEN
+  }
+
+  case object PayeStopEmployer extends PageType {
+    val name = "stop-being-an-employer"
+    val messageKey = "help_and_contact.paye_stop_being_an_employer"
+    val category = HelpCategory.Epaye
+  }
+
+  case object PayeChangeCircumstance extends PageType {
+    val name = "changes-in-employee-circumstances"
+    val messageKey = "help_and_contact.paye_changes_employee_circumstances"
+    val category = HelpCategory.Epaye
+  }
+
+  case object PayeCisRefunds extends PageType {
+    val name = "paye-and-cis-refunds"
+    val messageKey = "help_and_contact.paye_cis_refunds"
+    val category = HelpCategory.Epaye
+  }
+
 
   // [IMPORTANT] Ensure rendering order.
   val values: Seq[PageType] = Seq(
@@ -61,7 +109,15 @@ object PageType {
     ChangeContactAndAccountDetails,
     HowToAddTax,
     RegisterOrDeregisterVAT,
-    ViewOrCorrectYourSubmissions
+    ViewOrCorrectYourSubmissions,
+    PayeCisRefunds,
+    PayeChangeCircumstance,
+    PayeStopEmployer,
+    RegisterAddCT,
+    HowToPayCT,
+    ClosingLimitedCompanyCT,
+    GetUtrCT,
+    ContactHMRC
   )
 
   def withName(name: String): Option[PageType] = values.find(_.name == name)
