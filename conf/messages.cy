@@ -1656,8 +1656,8 @@ ctax.closinglimitedcompany.heading = Cau cwmni cyfyngedig
 ctax.closinglimitedcompany.p1 = Fel arfer, bydd angen i chi gael cadarnhad gan gyfarwyddwyr a chyfranddalwyr eich cwmni er mwyn cau cwmni cyfyngedig.
 ctax.closinglimitedcompany.p2 = Mae’r ffordd yr ydych yn cau’r cwmni yn dibynnu ar p’un a yw’r cwmni’n gallu talu ei filiau – hynny yw, a yw’r cwmni yn ‘solfent’ neu’n ‘ansolfent’?
 ctax.closinglimitedcompany.p3.preText = Os nad ydych yn talu’r credydwyr, mae’n bosibl y bydd eich cwmni  yn mynd i
-ctax.closinglimitedcompany.p3.linkText = ddatodiad gorfodol (yn agor tab newydd).
-ctax.closinglimitedcompany.p3.postText =
+ctax.closinglimitedcompany.p3.linkText = ddatodiad gorfodol (yn agor tab newydd)
+ctax.closinglimitedcompany.p3.postText = .
 
 ctax.closinglimitedcompany.section2.title = Cwmnïau segur
 ctax.closinglimitedcompany.section2.p1 = Does dim rhaid i chi gau’ch cwmni os nad yw’n masnachu mwyach. Gallwch ei adael i ddod yn ‘segur’ at ddibenion treth, ar yr amodau canlynol:

@@ -1717,7 +1717,7 @@ paye.changes.circumstance.section1.p1.linkText = paid paternal leave (opens in n
 paye.changes.circumstance.section1.p1.postText = if they have children or adopt.
 paye.changes.circumstance.section1.p2.preText = You can
 paye.changes.circumstance.section1.p2.linkText = reclaim the payments (opens in new tab)
-paye.changes.circumstance.section1.p2.postText = from HMRC after you've made them.
+paye.changes.circumstance.section1.p2.postText = from HMRC after you’ve made them.
 paye.changes.circumstance.section1.p3.preText = You can
 paye.changes.circumstance.section1.p3.linkText = ask HMRC to refund you before you make the payments (opens in new tab)
 
