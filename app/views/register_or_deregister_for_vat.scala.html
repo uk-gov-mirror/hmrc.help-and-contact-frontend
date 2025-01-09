@@ -1,0 +1,62 @@
+@*
+ * Copyright 2024 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@()(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+ <h1 class="govuk-heading-l">@Messages("help_and_contact.register_or_deregister_for_vat")</h1>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.register_for_vat")</h2>
+ <p class="govuk-body">@Messages("help_and_contact.you_must_register_if")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.your_total_vat_taxable")</li>
+  <li>@Messages("help_and_contact.you_expect_your_turnover_togo")</li>
+ </ul>
+ <p class="govuk-body">@Messages("help_and_contact.you_must_also_register")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.youre_based_outside")</li>
+  <li>@Messages("help_and_contact.your_business_is_based_outside")</li>
+  <li>@Messages("help_and_contact.you_supply_any_goods_or_services")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.when_you_register_youll_be_sent")
+ </p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.your_vat_number")</li>
+  <li>@Messages("help_and_contact.when_to_submit_your_first")</li>
+  <li>@Messages("help_and_contact.the_date_you_went_over_the_threshold")</li>
+ </ul>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.most_businesses_can")
+  <a href="https://www.access.service.gov.uk/login/signin/creds" class="govuk-link govuk-link--no-visited-state">@Messages("help_and_contact.register_for_vat_online")</a>
+  @Messages("help_and_contact.and_create_an_online_vat_account")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.deregister_for_vat")</h2>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_must")
+  <a href="https://www.gov.uk/register-for-vat" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.cancel_your_vat_registration")</a>
+  @Messages("help_and_contact.if_you_are_no_longer_eligible")
+ </p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.you_stop_trading_or_making")</li>
+  <li>@Messages("help_and_contact.you_join_a_vat_group")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_must_cancel_within_30_days")
+ </p>
+</div>

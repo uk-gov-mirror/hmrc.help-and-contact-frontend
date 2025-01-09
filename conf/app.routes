@@ -12,3 +12,4 @@ GET        /unauthorised                               controllers.UnauthorisedC
 
 GET        /:pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
 GET        /                                           controllers.HelpAndContactController.mainPage
+GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)
