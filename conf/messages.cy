@@ -129,6 +129,9 @@ vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob w
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
 vat.correct_a_mistake = Cywiro camgymeriadau ar eich Ffurflenni TAW
 vat.payments_and_deadlines.how_to_pay_your_bill_link = Darllenwch wybodaeth fanwl am sut i dalu’ch bil TAW
+vat.payments_and_deadlines.how_to_get_help_link = Fideo – Sut i gael help os na allwch dalu’ch bil treth
+vat.payments_and_deadlines.how_to_get_help_transcript_link = Sut i gael help os na allwch dalu’ch bil treth – trawsgrifiad fideo
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -1265,10 +1268,10 @@ help.cant.pay.taxbill.transcript.heading = Cymorth os na allwch dalu’ch bil tr
 help.cant.pay.taxbill.transcript.paragraph1 = Peidiwch â phoeni os ydych yn cael trafferth talu’ch bil treth. Gall CThEM eich rhoi ar ben ffordd.
 help.cant.pay.taxbill.transcript.paragraph2 = Byddwn yn ystyried eich amgylchiadau ariannol a sut y gallwn eich helpu.
 help.cant.pay.taxbill.transcript.paragraph3 = Er enghraifft, os na allwch dalu erbyn y dyddiau cau, efallai y gallwn gytuno ar gynllun talu fforddiadwy.
-help.cant.pay.taxbill.transcript.paragraph4 = Mae hyn yn golygu y gallwch dalu fesul rhandaliad. Ac, os bydd eich amgylchiadau ariannol yn newid eto, byddwn yn ystyried newid y trefniant er mwyn sicrhau eich bod yn dal i allu fforddio’r taliadau.
+help.cant.pay.taxbill.transcript.paragraph4 = Mae hyn yn golygu y gallwch dalu fesul rhandaliad. Ac, os bydd eich amgylchiadau ariannol yn newid eto, byddwn yn ystyried newid y cynllun hwn er mwyn sicrhau eich bod yn dal i allu fforddio’r taliadau.
 help.cant.pay.taxbill.transcript.paragraph5 = Os yw’ch iechyd neu drafferthion personol eraill yn achosi problemau, byddwn yn gweithio gyda chi neu rywun sy’n gweithredu ar eich rhan i ddod o hyd i ddatrysiad y gallwch ei fforddio.
 help.cant.pay.taxbill.transcript.paragraph6 = Rydym hefyd yn gweithio gyda’r gwasanaeth ‘HelpwrArian’. Mae’r gwasanaeth yn gallu’ch helpu i gael mynediad at gyngor annibynnol sy’n rhad ac am ddim os ydych yn cael trafferth talu’ch dyledion.
-help.cant.pay.taxbill.transcript.paragraph7 = Cofiwch ein bod ni yma i’ch helpu.
+help.cant.pay.taxbill.transcript.paragraph7 = Cofiwch ein bod ni yma i’ch helpu chi.
 help.cant.pay.taxbill.transcript.paragraph8 = Gallwch ddod o hyd i ragor o wybodaeth ar
 help.cant.pay.taxbill.transcript.paragraph9 = a gwylio ein fideos defnyddiol eraill ar YouTube.
 
