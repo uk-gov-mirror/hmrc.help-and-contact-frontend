@@ -738,8 +738,8 @@ epaye.make_sure_to_use = Sicrhewch eich bod yn defnyddio’r cyfeirnod Swyddfa G
 epaye.further_resources = Adnoddau pellach
 epaye.further_resources_link1 = rhedeg eich cyflogres (yn agor tab newydd)
 epaye.further_resources_link2 = talu TWE y cyflogwr (yn agor tab newydd)
-epaye.further_resources_link3 = Fideo – Sut ydw i’n defnyddio meddalwedd gyflogres? (yn agor tab newydd)
-epaye.further_resources_link4 = Sut ydw i’n defnyddio meddalwedd gyflogres? – trawsgrifiad fideo
+epaye.further_resources_link3 = Fideo – Sut a phryd i dalu TWE (yn agor tab newydd)
+epaye.further_resources_link4 = Sut a phryd i dalu TWE – trawsgrifiad y fideo
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove
