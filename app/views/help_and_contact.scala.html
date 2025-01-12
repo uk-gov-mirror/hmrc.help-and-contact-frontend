@@ -41,7 +41,7 @@ serviceInfoContent = serviceInfoContent) {
    <ul class="govuk-list govuk-list--spaced">
     @for(link <- filteredLinks) {
     <li class="@if(link.name == name) {help-nav-active}">
-     <a class="govuk-link govuk-link--no-visited-state govuk-link--no-underline"
+     <a class="govuk-link govuk-link--no-visited-state govuk-link--no-underline" id="@link.id"
         href="@routes.HelpAndContactController.renderPage(link.name)">
        @Messages(link.messageKey)
      </a>
