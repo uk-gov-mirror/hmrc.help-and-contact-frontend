@@ -14,13 +14,11 @@
  * limitations under the License.
  */
 
-package views.ct
+package views
 
-import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import play.twirl.api.{Html, HtmlFormat}
-import models.{PageType, SaUtr}
 import views.behaviours.ViewBehaviours
-import views.html.{ctax_how_to_pay, help_and_contact}
+import views.html.ctax_how_to_pay
 
 class CtaxHowToPayViewSpec extends ViewBehaviours {
 
@@ -33,7 +31,6 @@ class CtaxHowToPayViewSpec extends ViewBehaviours {
 
 
   "HowToPayCorporationTax view" must {
-   // behave like normalPage(createView(), messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
