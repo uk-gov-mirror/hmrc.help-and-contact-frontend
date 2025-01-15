@@ -16,10 +16,10 @@
 
 package views.sa
 
-import models.SaUtr
+import models.{PageType, SaUtr}
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.help_with_your_self_assessment_tax_return
+import views.html.sa.help_with_sa_tax_return
 
 import scala.collection.JavaConverters._
 
@@ -27,14 +27,13 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "helpWithYourSelfAssessmentTaxReturn"
 
-  def createView(utr: Option[SaUtr] = None) = () => inject[help_with_your_self_assessment_tax_return].apply(frontendAppConfig, utr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(utr: Option[SaUtr] = None) = () => help_with_sa_tax_return(PageType.HelpWithSATaxReturn.name)(messages)
 
   "SelfAssessmentTaxReturnCheck view" must {
-    behave like normalPage(createView(), messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "help-with-your-sa-tax-return"
+      doc.getElementsByTag("h1").attr("id") mustBe "help-with-sa-tax-return"
     }
 
     "have correct h2 headings" in {

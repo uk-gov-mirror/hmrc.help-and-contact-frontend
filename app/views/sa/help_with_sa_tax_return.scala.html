@@ -1,0 +1,207 @@
+@*
+ * Copyright 2025 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@(name: String)(implicit messages: Messages)
+
+<!--helpWithYourSelfAssessmentTaxReturn-->
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+    <h1 id="@name" class="govuk-heading-l">@messages("help_with_sa.title")</h1>
+    
+    <h2 class="govuk-heading-m">@messages("help_with_sa.what_is.heading")</h2>
+    <p class="govuk-body">
+        @messages("help_with_sa.what_is.info")
+        <br><br>
+        @messages("help_with_sa.what_is.income_tax")
+        <br><br>
+        @messages("help_with_sa.what_is.who_reports")
+    </p>
+
+    <p class="govuk-body">@messages("help_with_sa.used_by")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.used_by.list.1")</li>
+        <li>@messages("help_with_sa.used_by.list.2")</li>
+        <li>@messages("help_with_sa.used_by.list.3")</li>
+        <li>@messages("help_with_sa.used_by.list.4")</li>
+        <li>@messages("help_with_sa.used_by.list.5")</li>
+        <li>@messages("help_with_sa.used_by.list.6")</li>
+    </ul>
+
+    <br><br>
+    <h2 class="govuk-heading-m">@messages("help_with_sa.filing.heading")</h2>
+    <p class="govuk-body">
+        @messages("help_with_sa.filing.info")
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return">
+            @messages("help_with_sa.filing.who_must_file") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        @messages("help_with_sa.filing.when")
+        <br><br>
+        @messages("help_with_sa.filing.tax_year")
+        <br><br>
+        @messages("help_with_sa.filing.register")
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.filing.register.list.1")</li>
+    </ul>
+    <p class="govuk-body">@messages("help_with_sa.filing.register.and")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.filing.register.list.2")</li>
+    </ul>
+    <p class="govuk-body">
+        @messages("help_with_sa.filing.time_allowance")
+        <br><br>
+        @messages("help_with_sa.filing.steps")
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.filing.steps.list.1")</li>
+        <li>
+            <a class="govuk-link govuk-link--no-visited-state" 
+               href="/manage-account/add-sa/do-you-have-utr">
+                @messages("help_with_sa.filing.steps.list.2")
+            </a>
+        </li>
+        <li>@messages("help_with_sa.filing.steps.list.3")</li>
+        <li>@messages("help_with_sa.filing.steps.list.4")</li>
+    </ul>
+
+    <p class="govuk-body">
+        @messages("help_with_sa.filing.penalty_warning")
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/check-if-you-need-tax-return">
+            @messages("help_with_sa.filing.check_if_needed") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" 
+           href="https://www.staging.tax.service.gov.uk/self-assessment-file/2122/ind/1555369057/return?lang=eng">
+            @messages("help_with_sa.filing.complete_return")
+        </a>
+    </p>
+
+    <h2 class="govuk-heading-m">@messages("help_with_sa.calculation.heading")</h2>
+    <p class="govuk-body">@messages("help_with_sa.calculation.info")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.calculation.list.1")</li>
+        <li>@messages("help_with_sa.calculation.list.2")</li>
+        <li>@messages("help_with_sa.calculation.list.3")</li>
+        <li>@messages("help_with_sa.calculation.list.4")</li>
+        <li>
+            <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+               href="https://www.gov.uk/self-employed-national-insurance-rates">
+                @messages("help_with_sa.calculation.list.5") @messages("app.common.openInNewTab")
+            </a>
+        </li>
+    </ul>
+    <p class="govuk-body">@messages("help_with_sa.calculation.print")</p>
+
+    <div class="govuk-inset-text">
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.youtube.com/watch?v=3DGn3xVPMBM">
+            @messages("help_with_sa.calculation.video") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" 
+           href="@controllers.routes.TranscriptController.onPageLoad("viewing-your-self-assessment-calculation")s">
+            @messages("help_with_sa.calculation.video.transcript") @messages("app.common.openInNewTab")
+        </a>
+    </div>
+
+    <br><br>
+    <h2 class="govuk-heading-m">@messages("help_with_sa.more_help.heading")</h2>
+    <p class="govuk-body">
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return">
+            @messages("help_with_sa.more_help.who_must_file") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/self-assessment-tax-returns/corrections">
+            @messages("help_with_sa.more_help.change_return") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" 
+           href="https://www.staging.tax.service.gov.uk/business-account/help/self-assessment/payment-and-penalties">
+            @messages("help_with_sa.more_help.how_to_pay")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/topic/personal-tax/self-assessment">
+            @messages("help_with_sa.more_help.resource_list") @messages("app.common.openInNewTab")
+        </a>
+    </p>
+
+    <br><br>
+    <h2 class="govuk-heading-m">@messages("help_with_sa.record_keeping.heading")</h2>
+    <p class="govuk-body">@messages("help_with_sa.record_keeping.must_record")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("help_with_sa.record_keeping.list.1")</li>
+        <li>@messages("help_with_sa.record_keeping.list.2")</li>
+        <li>@messages("help_with_sa.record_keeping.list.3")</li>
+    </ul>
+    <p class="govuk-body">
+        @messages("help_with_sa.record_keeping.info")
+        <br><br>
+        @messages("help_with_sa.record_keeping.software")
+        <br><br>
+        @messages("help_with_sa.record_keeping.organize")
+        <br><br>
+        @messages("help_with_sa.record_keeping.separate")
+        <br><br>
+        @messages("help_with_sa.record_keeping.vat")
+        <br><br>
+        @messages("help_with_sa.record_keeping.mtd")
+        <br><br>
+        <b>
+            @messages("help_with_sa.record_keeping.duration")
+            <br><br>
+            @messages("help_with_sa.record_keeping.example")
+        </b>
+    </p>
+
+    <div class="govuk-inset-text">
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+            id = "record-keeping-video"
+           href="https://www.youtube.com/watch?v=Jn46jDuKbn8">
+            @messages("help_with_sa.record_keeping.video") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" 
+           href="@controllers.routes.TranscriptController.onPageLoad("record-keeping-for-self-employed")"
+           id = "record-keeping-transcript"
+           >
+            @messages("help_with_sa.record_keeping.video.transcript")
+        </a>
+    </div>
+
+    <br>
+    <h2 class="govuk-heading-m">@messages("help_with_sa.more_help.record_keeping.heading")</h2>
+    <p class="govuk-body">
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/self-employed-records">
+            @messages("help_with_sa.more_help.record_keeping.business") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" 
+           href="https://www.gov.uk/self-employed-records/what-records-to-keep">
+            @messages("help_with_sa.more_help.record_keeping.pay") @messages("app.common.openInNewTab")
+        </a>
+    </p>
+    <br>
+    <br>
+</div>

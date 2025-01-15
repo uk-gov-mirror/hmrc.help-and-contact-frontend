@@ -17,38 +17,36 @@
 package views.sa
 
 import config.FrontendAppConfig
-import models.SaUtr
+import models.{PageType, SaUtr}
 import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
-import views.html.sa.payment_and_penalties
+import views.html.sa.payments_and_penalties
 
 class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix                  = "payment_and_penalties"
+  val messageKeyPrefix                  = "payments_and_penalties"
   lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
-  def createView(hasUtr: Option[SaUtr] = None): () => Html =
-    () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(hasUtr: Option[SaUtr] = None) =
+    payments_and_penalties(PageType.PaymentsAndPenalties.name, frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(messages)
 
   "Self Assessment Expenses view" must {
 
-    behave like normalPage(createView(), messageKeyPrefix)
-
     "contain heading ID" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
       doc.getElementsByTag("h1").attr("id") mustBe "payment-and-penalties"
     }
 
     "contain correct heading" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
 
       val h1s = doc.getElementsByTag("h1")
       h1s.size() mustBe 1
-      h1s.first().text() mustBe "Self Assessment: payment and penalties"
+      h1s.first().text() mustBe "Self Assessment: Payment and penalties"
     }
 
     "contain correct content" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
       doc.text() must include("The deadlines for paying are:")
 
       doc.text() must include(
@@ -95,7 +93,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
     }
 
     "have correct links" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
       assertLinkById(
         doc,
         "understanding-payments",
@@ -179,7 +177,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
     }
 
     "have correct links with Sa enrolment" in {
-      val doc = asDocument(createView(Some(SaUtr("1234567800")))())
+      val doc = asDocument(createView(Some(SaUtr("1234567800"))))
       assertLinkById(
         doc,
         "view-sa-penalties",

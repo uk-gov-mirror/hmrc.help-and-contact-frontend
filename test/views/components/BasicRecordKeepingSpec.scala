@@ -22,7 +22,7 @@ import views.html.components.basic_record_keeping
 
 class BasicRecordKeepingSpec extends ViewBehaviours {
 
-  val view = basic_record_keeping()(request, messages)
+  val view = basic_record_keeping()(messages)
 
   "Self Assessment Expenses view" must {
 
@@ -65,6 +65,7 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
 
     "have correct links" in {
       val doc = Jsoup.parse(view.toString)
+      println("0")
       assertLinkById(
         doc,
         "record-keeping-video",
@@ -73,6 +74,7 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
         expectedOpensInNewTab = true
       )
 
+      println("1")
       assertLinkById(
         doc,
         "business-records",
@@ -80,6 +82,7 @@ class BasicRecordKeepingSpec extends ViewBehaviours {
         "https://www.gov.uk/self-employed-records",
         expectedOpensInNewTab = false
       )
+      println("1")
       assertLinkById(
         doc,
         "keeping-pay-tax",
