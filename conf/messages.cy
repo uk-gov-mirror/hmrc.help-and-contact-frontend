@@ -45,7 +45,7 @@ help_and_contact.registering_or_stopping = Cofrestru neu stopio
 help_and_contact.help_with_sa_tax_return = Cael help gyda llenwi Ffurflen Dreth Hunanasesiad
 help_and_contact.get_evidence_of_income = Cael tystiolaeth o incwm – SA302
 help_and_contact.expenses = Treuliau
-help_and_contact.sign_up_for_mtd_for_income_tax_new_tab = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol (MTD) ar gyfer Treth Incwm (yn agor tab newydd)
+help_and_contact.sign_up_for_mtd_for_income_tax_new_tab = Cofrestru ar gyfer y cynllun Troi Treth yn Ddigidol (MTD) ar gyfer Treth Incwm
 help_and_contact.vat = TAW
 help_and_contact.register_or_deregister = Cofrestru neu ddadgofrestru
 help_and_contact.how_to_pay_and_deadlines = Sut i dalu a dyddiadau cau
@@ -270,6 +270,19 @@ vat.register_or_deregister.you_must_cancel_within_30_days_ = Mae’n rhaid i chi
 vat.correcting_errors_on_returns = Cywiro camgymeriadau ar eich Ffurflenni TAW
 vat.correcting_errors_on_returns.title = Cywiro camgymeriadau ar eich Ffurflenni TAW
 vat.correcting_errors_on_returns.heading= Cywiro camgymeriadau ar eich Ffurflenni TAW
+vat.correcting_errors_on_returns.you_can_correct = Gallwch gywiro gwallau mewn Ffurflenni TAW dros y 4 blynedd diwethaf, os yw gwerth net y gwallau yn un o'r canlynol:
+vat.correcting_errors_on_returns.10_or_less = £10,000 neu lai
+vat.correcting_errors_on_returns.between = rhwng £10,000 a £50,000 ond yn llai na 1% o gyfanswm gwerth eich gwerthiannau
+vat.correcting_errors_on_returns.for_these = Ar gyfer y mathau hyn o wallau, gwnewch addasiad neu gywiriad yn eich Ffurflen TAW nesaf.
+vat.correcting_errors_on_returns.you_must_tell = Rhaid i chi roi gwybod i CThEM ar wahân am wallau net sy'n:
+vat.correcting_errors_on_returns.over_50 = dros £50,000
+vat.correcting_errors_on_returns.over_10 = dros £10,000 os ydynt yn fwy na 1% o gyfanswm gwerth gwerthiannau
+vat.correcting_errors_on_returns.deliberate_errors = gwallau bwriadol
+vat.correcting_errors_on_returns.find_out_more = Dysgwch fwy am
+vat.correcting_errors_on_returns.correcting = gywiro gwallau yn eich Ffurflen TAW
+vat.correcting_errors_on_returns.and_how = a sut i:
+vat.correcting_errors_on_returns.calculate_the = gyfrifo gwerth net y gwallau
+vat.correcting_errors_on_returns.make_an = wneud addasiad
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT
