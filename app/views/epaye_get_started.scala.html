@@ -17,7 +17,7 @@
 @()(implicit messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
-    <h1 class="govuk-heading-l">@Messages("epaye.get_started")</h1>
+    <h1 id="epaye_get_started" class="govuk-heading-l">@Messages("epaye.get_started")</h1>
     <h2 class="govuk-heading-m">@Messages("epaye.payroll_software")</h2>
 
     <p class="govuk-body">@Messages("epaye.you_cannot_pay")</p>
@@ -52,7 +52,7 @@
     <ul class="govuk-list govuk-list--bullet">
        <li><a href="https://www.gov.uk/running-payroll" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link1")</a></li>
        <li><a href="https://www.gov.uk/pay-paye-tax" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link2")</a></li>
-       <li><a href="https://www.youtube.com/watch?v=JU32n2XkZyc" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link3")</a></li>
+       <li><a href="https://www.youtube.com/watch?v=PnjlHOuCnK8" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link3")</a></li>
        <li><a href=@controllers.routes.TranscriptController.onPageLoad("when-and-how-to-pay-epaye") class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link4")</a></li>
     </ul>
 
