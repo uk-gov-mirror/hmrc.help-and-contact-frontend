@@ -14,26 +14,29 @@
  * limitations under the License.
  *@
 
-@()(implicit messages: Messages)
+@import config.FrontendAppConfig
+
+@(name: String, appConfig: FrontendAppConfig, hasSAenrolment: Boolean)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
-    <h1 class="govuk-heading-l">@messages("sa302.evidence.heading")</h1>
-
-    <p class="govuk-body">@messages("sa302.evidence.what_is_sa302")</p>
+    <h1 id="@name" class="govuk-heading-l">@messages("sa302.evidence.heading")</h1>
+    <p class="govuk-body">@Messages("sa302.evidence.complete")</p>
     <ul class="govuk-list govuk-list--bullet">
-        <li>@messages("sa302.evidence.list_get_evidence")</li>
-        <li>@messages("sa302.evidence.list_get_tax_year")</li>
-        <li>@messages("sa302.evidence.list_print_calculation")</li>
+        <li>@Messages("sa302.evidence.list_get_evidence")</li>
+        <li>@Messages("sa302.evidence.list_get_tax_year")</li>
+        <li>@Messages("sa302.evidence.list_print_calculation")</li>
     </ul>
 
-    <p class="govuk-body">
-        @messages("sa302.evidence.why_you_might_need_documents")
-        <br><br>
-        @messages("sa302.evidence.check_mortgage")
-        <br><br>
-        @messages("sa302.evidence.print_documents")
-        <br><br>
+    @if(hasSAenrolment) {
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getBusinessAccountUrl("selfAssessmentBase")" id="find-sa302"
+        >
+        @Messages("sa302.evidence.find_sa302")</a></p>
+    }
 
-        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.gov.uk/sa302-tax-calculation">@messages("sa302.evidence.evidence_of_income") @messages("app.common.openInNewTab")</a>.
-    </p>
+    <p class="govuk-body">@Messages("sa302.evidence.might_be")</p>
+    <p class="govuk-body">@Messages("sa302.evidence.check_mortgage")</p>
+    <p class="govuk-body">@Messages("sa302.evidence.print_documents")</p>
+    <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/sa302-tax-calculation" id="getting-evidence"
+                             rel="noreferrer noopener">
+        @Messages("sa302.evidence.evidence_of_income")</a></p>
 </div>

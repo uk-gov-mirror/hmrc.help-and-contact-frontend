@@ -236,7 +236,7 @@ vat.payments_and_deadlines.input_tax = rheolau am hawlio treth fewnbwn
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = ychydig yn wahanol ym mhob gwlad yn yr UE
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = mae pob wlad yn yr UE wedi gosod isafswm a all gael ei ad-dalu
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = os yw’ch busnes yn gwneud cyflenwadau trethadwy a chyflenwadau sydd wedi’u heithrio, efallai na fyddwch yn gallu adennill yr holl TAW a godwyd arnoch
-vat.correct_a_mistake = Cywiro camgymeriadau ar eich Ffurflenni TAW
+
 vat.payments_and_deadlines.how_to_pay_your_bill_link = Darllenwch wybodaeth fanwl am sut i dalu’ch bil TAW
 vat.payments_and_deadlines.how_to_get_help_link = Fideo – Sut i gael help os na allwch dalu’ch bil treth (yn agor tab newydd)
 vat.payments_and_deadlines.how_to_get_help_transcript_link = Sut i gael help os na allwch dalu’ch bil treth – trawsgrifiad fideo
@@ -263,6 +263,13 @@ vat.register_or_deregister.if_you_are_no_longer_eligible_ = os nad ydych bellach
 vat.register_or_deregister.you_stop_trading_or_ = rydych yn rhoi’r gorau i fasnachu neu’n rhoi’r gorau i wneud cyflenwadau trethadwy TAW
 vat.register_or_deregister.you_join_a_vat_group = ydych yn ymuno â grŵp TAW
 vat.register_or_deregister.you_must_cancel_within_30_days_ = Mae’n rhaid i chi ganslo cyn pen 30 diwrnod os ydych yn peidio â bod yn gymwys neu gallwch wynebu cosb.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Correcting Errors On Returns
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.correcting_errors_on_returns = Cywiro camgymeriadau ar eich Ffurflenni TAW
+vat.correcting_errors_on_returns.title = Cywiro camgymeriadau ar eich Ffurflenni TAW
+vat.correcting_errors_on_returns.heading= Cywiro camgymeriadau ar eich Ffurflenni TAW
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT

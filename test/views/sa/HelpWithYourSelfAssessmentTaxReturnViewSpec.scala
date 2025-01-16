@@ -27,7 +27,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "helpWithYourSelfAssessmentTaxReturn"
 
-  def createView(utr: Option[SaUtr] = None) = () => help_with_sa_tax_return(PageType.HelpWithSATaxReturn.name)(messages)
+  def createView(utr: Option[SaUtr] = None) = () => help_with_sa_tax_return(PageType.HelpWithSATaxReturn.name, utr, frontendAppConfig)(fakeRequest, messages)
 
   "SelfAssessmentTaxReturnCheck view" must {
 

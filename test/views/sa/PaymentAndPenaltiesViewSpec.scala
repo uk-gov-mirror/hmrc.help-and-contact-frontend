@@ -18,7 +18,7 @@ package views.sa
 
 import config.FrontendAppConfig
 import models.{PageType, SaUtr}
-import play.twirl.api.{Html, HtmlFormat}
+import play.twirl.api.{HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.sa.payments_and_penalties
 
@@ -28,7 +28,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
   lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
   def createView(hasUtr: Option[SaUtr] = None) =
-    payments_and_penalties(PageType.PaymentsAndPenalties.name, frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(messages)
+    payments_and_penalties(PageType.PaymentsAndPenalties.name, frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
   "Self Assessment Expenses view" must {
 

@@ -56,6 +56,12 @@ object PageType {
     val category = HelpCategory.VAT
   }
 
+  case object CorrectingErrorsOnReturns extends PageType {
+    val name = "correcting-errors-on-returns"
+    val messageKey = "vat.correcting_errors_on_returns"
+    val category = HelpCategory.VAT
+  }
+
   case object GetStarted extends PageType {
     val name = "get-started-paye"
     val messageKey = "help_and_contact.get_started"
@@ -174,6 +180,7 @@ object PageType {
     // VAT
     RegisterOrDeregisterVAT,
     HowToPayVatAndDeadlines,
+    CorrectingErrorsOnReturns,
 
     // EPAYE
     GetStarted,

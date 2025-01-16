@@ -236,7 +236,6 @@ vat.payments_and_deadlines.input_tax = rules for claiming input tax
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are slightly different in each EU country
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
-vat.correct_a_mistake = Correct errors on your VAT returns
 vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill
 vat.payments_and_deadlines.how_to_get_help_link = Video - How to get help when you can''t pay your tax bill (opens in a new tab)
 vat.payments_and_deadlines.how_to_get_help_transcript_link = How to get help when you can''t pay your tax bill - video transcript
@@ -262,6 +261,26 @@ vat.register_or_deregister.if_you_are_no_longer_eligible_ = if you are no longer
 vat.register_or_deregister.you_stop_trading_or_ = you stop trading or making VAT taxable supplies
 vat.register_or_deregister.you_join_a_vat_group = you join a VAT group
 vat.register_or_deregister.you_must_cancel_within_30_days_ = You must cancel within 30 days if you stop being eligible or you may be charged a penalty.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Correcting Errors On Returns
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.correcting_errors_on_returns = Correcting errors on returns
+vat.correcting_errors_on_returns.title = Correcting errors on returns
+vat.correcting_errors_on_returns.heading = Correcting errors on returns
+vat.correcting_errors_on_returns.you_can_correct = You can correct errors in returns for the preceding 4 years, if the net value of the errors is either:
+vat.correcting_errors_on_returns.10_or_less= £10,000 or less
+vat.correcting_errors_on_returns.between = between £10,000 and £50,000 but less than 1% of the total value of your sales
+vat.correcting_errors_on_returns.for_these = For these kinds of errors, make an adjustment or correction in your next return.
+vat.correcting_errors_on_returns.you_must_tell = You must tell HMRC separately about net errors that are:
+vat.correcting_errors_on_returns.over_50 = over £50,000
+vat.correcting_errors_on_returns.over_10 = over £10,000 if they exceed 1% of the total value of sales
+vat.correcting_errors_on_returns.deliberate_errors = deliberate errors
+vat.correcting_errors_on_returns.find_out_more = Find out more about
+vat.correcting_errors_on_returns.correcting = correcting errors in your VAT return
+vat.correcting_errors_on_returns.and_how = and how to:
+vat.correcting_errors_on_returns.calculate_the =calculate the net value of errors
+vat.correcting_errors_on_returns.make_an =make an adjustment
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT

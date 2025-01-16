@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package views.components
+package views.vat
 
 import org.jsoup.Jsoup
 import views.behaviours.ViewBehaviours
-import views.html.components.sa_calculation
+import views.html.vat.correcting_errors_on_returns
 
-class SaCalculationSpec extends ViewBehaviours {
+class CorrectingErrorsOnReturns extends ViewBehaviours {
 
-  val view = sa_calculation()(messages)
+  val view = correcting_errors_on_returns()
 
-  "Self Assessment Expenses view" must {
+  "VAT Correcting Errors On Returns view" must {
 
     "contain correct content" in {
 

@@ -25,6 +25,7 @@ import play.twirl.api.{Html, HtmlFormat}
 import views.html._
 import views.html.sa._
 import views.html.general._
+import views.html.vat._
 
 import javax.inject.Inject
 
@@ -35,14 +36,15 @@ class PageTypeResolverService @Inject()(
     case p@PageType.HelpWithBTA => help_with_your_bta(p.name, appConfig)
     case p@PageType.RegisteringOrStopping => registering_or_stopping(p.name, appConfig)(messages)
     case p@PageType.PaymentsAndPenalties => payments_and_penalties(p.name, appConfig, request.request.saUtr)(request.serviceInfoContent)
-    case p@PageType.HelpWithSATaxReturn => help_with_sa_tax_return(p.name)
-    case PageType.GetEvidenceOfIncome => get_evidence_of_income()
+    case p@PageType.HelpWithSATaxReturn => help_with_sa_tax_return(p.name, request.request.saUtr, appConfig)
+    case p@PageType.GetEvidenceOfIncome => get_evidence_of_income(p.name, appConfig, request.request.saUtr.isDefined)(request.serviceInfoContent)
     case p@PageType.Expenses => expenses(p.name)
     case PageType.SignUpForMTD => HtmlFormat.empty 
     case PageType.ChangeContactAndAccountDetails => change_contact_and_account_details()(messages)
     case PageType.HowToAddTax => how_to_add_tax()(messages)
     case PageType.RegisterOrDeregisterVAT => register_or_deregister_for_vat()(messages)
     case PageType.HowToPayVatAndDeadlines => how_to_pay_vat_and_deadlines()(messages)
+    case p@PageType.CorrectingErrorsOnReturns => correcting_errors_on_returns(p.name)(messages)
     case PageType.GetStarted => epaye_get_started()(messages)
     case PageType.ViewOrCorrectYourSubmissions => epaye_view_or_correct_submissions()(messages)
     case PageType.PayeCisRefunds => paye_cis_refunds()(messages)
