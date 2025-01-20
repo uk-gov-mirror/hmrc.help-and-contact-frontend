@@ -1,0 +1,113 @@
+@*
+ * Copyright 2024 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@(name: String)(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+ <h1 class="govuk-heading-l" id="@name">
+  @Messages("help_and_contact.how_to_add_tax_to_your_bta")
+ </h1>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.any_services_you_add")
+  <br><br>
+  @Messages("help_and_contact.you_can_add_more_than_40_services")<br><br>
+  @Messages("help_and_contact.each_time_you_add_service")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.add_corporation_tax")</h2>
+ <ol class="govuk-list govuk-list--number">
+  <li>@Messages("help_and_contact.select_add_tax_duty_scheme")</li>
+  <li>@Messages("help_and_contact.select_corporation_tax")</li>
+  <li>
+   @Messages("help_and_contact.enter_your_10_digit_corporation_utr")
+  </li>
+  <li>
+   @Messages("help_and_contact.enter_your_company_registration_number")
+  </li>
+ </ol>
+ <p class="govuk-body">
+  @Messages("help_and_contact.if_your_company_is_not_in_uk")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.add_a_self_assessment")</h2>
+ <p class="govuk-body">
+  @Messages("help_and_contact.youll_need_your_utr") <br><br>
+  @Messages("help_and_contact.if_you_dont_have_your_utr")
+  <a href="	https://www.gov.uk/register-for-self-assessment" class="govuk-link govuk-link--no-visited-state">@Messages("help_and_contact.register_for_self_assessment")</a>.
+ </p>
+ <ol class="govuk-list govuk-list--number">
+  <li>@Messages("help_and_contact.select_add_tax_duty_scheme")</li>
+  <li>@Messages("help_and_contact.select_sa")</li>
+  <li>@Messages("help_and_contact.enter_your_10_digit_utr")</li>
+  <li>
+   @Messages("help_and_contact.select_if_youre_an_individual_or_sole_trader")
+  </li>
+  <li>@Messages("help_and_contact.enter_your_utr_again")</li>
+  <li>
+   @Messages("help_and_contact.enter_your_ni_number")
+  </li>
+ </ol>
+ <p class="govuk-body">@Messages("help_and_contact.if_you_live_abroad")</p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.add_paye_for_employers")</h2>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.youll_need_your_paye_reference_number")<br><br>
+  @Messages("help_and_contact.if_you_do_not_have_your_paye")
+  <a href="	https://www.gov.uk/register-employer" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.register_as_an_employer")</a>.
+ </p>
+ <ol class="govuk-list govuk-list--number">
+  <li>@Messages("help_and_contact.select_add_tax_duty_scheme")</li>
+  <li>@Messages("help_and_contact.select_employers_or_intermediaries")</li>
+  <li>
+   @Messages("help_and_contact.enter_your_hmrc_office_no")
+  </li>
+ </ol>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.add_vat")</h2>
+ <ol class="govuk-list govuk-list--number">
+  <li>@Messages("help_and_contact.select_add_tax_duty_scheme")</li>
+  <li>@Messages("help_and_contact.select_vat_and_vat_services")</li>
+  <li>
+   @Messages("help_and_contact.select_which_type_of_vat")
+  </li>
+  <li>@Messages("help_and_contact.enter_your_9_digit_vat")</li>
+  <li>@Messages("help_and_contact.enter_your_vat_registration_number")</li>
+  <li>@Messages("help_and_contact.enter_the_postcode_on_your_certificate")</li>
+  <li>@Messages("help_and_contact.enter_the_date_of_registration")</li>
+  <li>@Messages("help_and_contact.enter_the_month_your_last_vat_return_ended")</li>
+  <li>@Messages("help_and_contact.enter_the_amount_from_box5")</li>
+ </ol>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.other_help")</h2>
+
+ <div class="govuk-inset-text">
+  <p>
+   <a class="govuk-link" rel="noreferrer noopener" target="_blank"
+      href="https://youtu.be/hspBxF2NVBY">
+    @messages("help_and_contact.video.how_do_i_add_tax_bta") @messages("app.common.openInNewTab")
+   </a>
+  </p>
+  <p>
+   <a class="govuk-link" rel="noreferrer noopener"
+      href="/help-and-contact/transcripts/sa-what-expenses-to-include-in-tax-return.html">
+    @Messages("help_and_contact.transcript_how_do_i_add_tax_bta")
+   </a>
+  </p>
+ </div>
+
+</div>

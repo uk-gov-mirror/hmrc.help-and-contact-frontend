@@ -1,0 +1,70 @@
+@*
+ * Copyright 2025 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@*
+ * Copyright 2025 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@(name: String)(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+    <h1 class="govuk-heading-l" id="@name">@Messages("vat.payments_and_deadlines.heading")</h1>
+
+    <p class="govuk-body">@Messages("vat.payments_and_deadlines.the_deadline_for_submitting_")
+        <br><br>
+        @Messages("vat.payments_and_deadlines.you_need_to_allow_time_")
+        <br><br>
+        <a href="https://www.gov.uk/pay-vat" class="govuk-link govuk-link--no-visited-state">@Messages("vat.payments_and_deadlines.how_to_pay_your_bill_link")</a>
+    </p>
+    <div class="govuk-inset-text">
+        <a href="https://www.youtube.com/watch?v=oXzjkDkPTrM&t=6s" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("vat.payments_and_deadlines.how_to_get_help_link")</a>
+        <br><br>
+        <a href='@controllers.routes.TranscriptController.onPageLoad("cant-pay-taxbill")' class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("vat.payments_and_deadlines.how_to_get_help_transcript_link")</a>
+    </div>
+
+
+
+    <h2 class="govuk-heading-m">@Messages("vat.payments_and_deadlines.vat_refunds_on_goods_imported_from_the_eu")</h2>
+    <p class="govuk-body">
+        @Messages("vat.payments_and_deadlines.you_can")
+        <a href="https://www.gov.uk/guidance/vat-refunds-for-uk-businesses-buying-from-other-eu-countries" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("vat.payments_and_deadlines.get_a_refund_of_vat_paid_in_another_eu_country")</a>
+        @Messages("vat.payments_and_deadlines.if_you_are_registered_for_vat_in_the_uk")
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("vat.payments_and_deadlines.what_you_can_reclaim_depends")</li>
+        <li>
+            @Messages("vat.payments_and_deadlines.the_rules_for_claiming")
+            <a href="https://www.gov.uk/guidance/vat-guide-notice-700#input-tax-introduction-and-general-rules" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("vat.payments_and_deadlines.input_tax")</a>
+            @Messages("vat.payments_and_deadlines.are_slightly_different_in_each_eu_country")
+        </li>
+        <li>@Messages("vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_")</li>
+        <li>@Messages("vat.payments_and_deadlines.if_your_business_makes_both_taxable_")</li>
+    </ul>
+</div>
+<div class="govuk-grid-row">
+</div>

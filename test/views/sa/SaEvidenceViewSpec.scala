@@ -16,9 +16,10 @@
 
 package views.sa
 
+import models.PageType
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.sa_evidence
+import views.html.sa.get_evidence_of_income
 
 class SaEvidenceViewSpec extends ViewBehaviours {
 
@@ -26,9 +27,8 @@ class SaEvidenceViewSpec extends ViewBehaviours {
 
   "SaEvidence view" when {
     "the user has an SA enrolment" must{
-      def createView(hasUtr: Boolean = false) = () => inject[sa_evidence].apply(frontendAppConfig,
-        hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
-      behave like normalPage(createView(), messageKeyPrefix)
+      def createView(hasUtr: Boolean = false) = () =>
+        get_evidence_of_income(PageType.GetEvidenceOfIncome.name, frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
       "have a link to find out more page" in {
         val doc = asDocument(createView()())
@@ -51,12 +51,12 @@ class SaEvidenceViewSpec extends ViewBehaviours {
       }
     }
     "the user has no SA enrolment" must{
-      def createView = () => inject[sa_evidence].apply(frontendAppConfig, hasSAenrolment = false)(Some(HtmlFormat.empty))(fakeRequest, messages)
-      behave like normalPage(createView, messageKeyPrefix)
+      def createView = () =>
+        get_evidence_of_income(PageType.GetEvidenceOfIncome.name, frontendAppConfig, hasSAenrolment = false)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
       "contain heading ID" in {
         val doc = asDocument(createView())
-        doc.getElementsByTag("h1").attr("id") mustBe "sa-evidence"
+        doc.getElementsByTag("h1").attr("id") mustBe "get-evidence-of-income"
       }
 
       "show the static text" in {

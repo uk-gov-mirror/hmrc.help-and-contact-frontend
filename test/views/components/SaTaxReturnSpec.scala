@@ -88,10 +88,10 @@ class SaTaxReturnSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "who-must-send-link",
-        "Who must file a Self Assessment tax return",
+        "Who must file a Self Assessment tax return (opens in new tab)",
         "https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
@@ -102,10 +102,10 @@ class SaTaxReturnSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "not-received-sa-return",
-        "check anonymously if you need to file a return",
+        "check anonymously if you need to file a return (opens in new tab)",
         "https://www.gov.uk/check-if-you-need-tax-return",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
 
     }

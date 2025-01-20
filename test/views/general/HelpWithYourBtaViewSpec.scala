@@ -16,155 +16,58 @@
 
 package views.general
 
-import play.twirl.api.HtmlFormat
+import models.HelpCategory.BTA
+import models.PageType
 import views.behaviours.ViewBehaviours
 import views.html.general.help_with_your_bta
 
 class HelpWithYourBtaViewSpec extends ViewBehaviours {
 
-  def createView = () => inject[help_with_your_bta].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => help_with_your_bta(PageType.HelpWithBTA.name, frontendAppConfig)(messages)
 
   "Help with you BTA view" must {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "help-with-your-bta"
+      doc.getElementsByTag("h1").attr("id") mustBe "help-with-bta"
     }
     
     "have correct links" in {
       val doc = asDocument(createView())
+      println("0")
       assertLinkById(
         doc,
         "help-with-your-bta-addTaxLink",
-        "add a tax to your business tax account",
+        "add a tax to your business tax account.",
         "http://localhost:9020/business-account/add-tax"
       )
       assertLinkById(
         doc,
-        "how-do-i-add-a-tax-video",
-        "Video - How do I add a tax to my business tax account? (opens in new tab)",
-        "https://www.youtube.com/watch?v=DZHrRO95jsU",
+        "manage-best-out-of",
+        "use only one HMRC sign in for all your online business tax services (opens in new tab)",
+        "https://www.gov.uk/government/publications/use-hmrcs-business-tax-account/use-hmrcs-business-tax-account#getting-the-most-from-your-business-tax-account",
         expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
-        "how-do-i-add-a-tax-transcript",
-        "How do I add a tax to my business tax account? - video transcript",
-        "/business-account/help/transcript/add-a-tax"
-      )
-      assertLinkById(
-        doc,
-        "how-do-i-add-a-tax-BTA-home",
-        "business tax account homepage",
-        "http://localhost:9020/business-account"
-      )
-      assertLinkById(
-        doc,
-        "why-register-or-stopping",
-        "Self Assessment",
-        "/business-account/help/self-assessment/register-or-stopping"
-      )
-      assertLinkById(
-        doc,
-        "manage-best-out-of",
-        "use only one ID for all your online business tax services",
-        "https://www.gov.uk/government/publications/use-hmrcs-business-tax-account/use-hmrcs-business-tax-account#best_out_of",
-        expectedOpensInNewTab = false
-      )
-      assertLinkById(
-        doc,
         "manage-profile-management",
-        "Manage your Government Gateway details",
+        "Manage your HMRC sign in details",
         "/user-profile-redirect-frontend/profile-management"
       )
       assertLinkById(
         doc,
         "difference-PTA",
-        "Read more about your personal tax account",
+        "Read more about your personal tax account (opens in new tab)",
         "https://www.gov.uk/personal-tax-account",
-
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "difference-read-full-list",
-        "Read the full list of taxes, duties and schemes you can manage",
+        "View taxes, duties and schemes you can manage (opens in new tab)",
         "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account#tax_services",
-
-        expectedOpensInNewTab = false
-      )
-      assertLinkById(
-        doc,
-        "check-tax-position",
-        "check your tax position for taxes that you’ve registered for",
-        "http://localhost:9020/business-account"
-      )
-      assertLinkById(
-        doc,
-        "make-returns-and-payments",
-        "make returns and payments",
-        "http://localhost:9020/business-account",
-
-      )
-      assertLinkById(
-        doc,
-        "add-or-remove-tax",
-        "add or remove a tax, duty or scheme",
-        "http://localhost:9020/business-account/add-tax",
-
-      )
-      assertLinkById(
-        doc,
-        "give-someone-access-tax",
-        "give someone else access to a tax, duty or scheme",
-        "http://localhost:9020/business-account/manage-account",
-
-      )
-      assertLinkById(
-        doc,
-        "check-secure-messages",
-        "check secure messages from HMRC",
-        "http://localhost:9020/business-account/messages",
-
-      )
-      assertLinkById(
-        doc,
-        "add-view-change-tax-agent",
-        "add, view or change a tax agent",
-        "http://localhost:9020/business-account/manage-account",
-
-      )
-      assertLinkById(
-        doc,
-        "get-help-with-taxes",
-        "get help with your taxes",
-        "/business-account/help",
-
-      )
-      assertLinkById(
-        doc,
-        "update-contact-details",
-        "update your contact details",
-        "http://localhost:9020/business-account/manage-account/account-details",
-
-      )
-      assertLinkById(
-        doc,
-        "manage-your-contact-preferences",
-        "manage your contact preferences",
-        "http://localhost:9020/business-account/manage-account/account-details",
-
-      )
-      assertLinkById(
-        doc,
-        "change-government-gateway-password",
-        "change your Government Gateway password",
-        "http://localhost:9020/business-account/manage-account/account-details",
-
+        expectedOpensInNewTab = true
       )
     }
   }
-
-
-
   }

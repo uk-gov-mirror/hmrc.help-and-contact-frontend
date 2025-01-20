@@ -17,38 +17,36 @@
 package views.sa
 
 import config.FrontendAppConfig
-import models.SaUtr
-import play.twirl.api.{Html, HtmlFormat}
+import models.{PageType, SaUtr}
+import play.twirl.api.{HtmlFormat}
 import views.behaviours.ViewBehaviours
-import views.html.sa.payment_and_penalties
+import views.html.sa.payments_and_penalties
 
 class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix                  = "payment_and_penalties"
+  val messageKeyPrefix                  = "payments_and_penalties"
   lazy val appConfig: FrontendAppConfig = inject[FrontendAppConfig]
 
-  def createView(hasUtr: Option[SaUtr] = None): () => Html =
-    () => inject[payment_and_penalties].apply(frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(hasUtr: Option[SaUtr] = None) =
+    payments_and_penalties(PageType.PaymentsAndPenalties.name, frontendAppConfig, hasUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
 
-  "Self Assessment Expenses view" must {
-
-    behave like normalPage(createView(), messageKeyPrefix)
+  "Self Assessment Payment And Penalties view" must {
 
     "contain heading ID" in {
-      val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "payment-and-penalties"
+      val doc = asDocument(createView())
+      doc.getElementsByTag("h1").attr("id") mustBe "payments-and-penalties"
     }
 
     "contain correct heading" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
 
       val h1s = doc.getElementsByTag("h1")
       h1s.size() mustBe 1
-      h1s.first().text() mustBe "Self Assessment: payment and penalties"
+      h1s.first().text() mustBe "Payments and penalties for Self Assessment"
     }
 
     "contain correct content" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView())
       doc.text() must include("The deadlines for paying are:")
 
       doc.text() must include(
@@ -95,14 +93,14 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
     }
 
     "have correct links" in {
-      val doc = asDocument(createView()())
+      val doc = asDocument(createView(Some(SaUtr("utr"))))
       assertLinkById(
         doc,
         "understanding-payments",
-        "Understanding balancing payments and payments on account",
+        "Understanding balancing payments and payments on account (opens in new tab)",
         "https://www.gov.uk/understand-self-assessment-bill/payments-on-account",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
@@ -146,46 +144,37 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "reasonable-excuse",
-        "reasonable excuse",
+        "reasonable excuse (opens in new tab)",
         "https://www.gov.uk/tax-appeals/reasonable-excuses",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "more-about-sa",
-        "Find out more about Self Assessment penalties",
+        "Find out more about Self Assessment penalties (opens in new tab)",
         "https://www.gov.uk/tax-appeals/penalty",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "interest-rates",
-        "Interest rates for late and early payments",
+        "Interest rates for late and early payments (opens in new tab)",
         "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
-
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
-      assertLinkById(
-        doc,
-        "interest-rates",
-        "Interest rates for late and early payments",
-        "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
-
-        expectedOpensInNewTab = false
-      )
-
     }
 
     "have correct links with Sa enrolment" in {
-      val doc = asDocument(createView(Some(SaUtr("1234567800")))())
+      val doc = asDocument(createView(Some(SaUtr("1234567800"))))
+
       assertLinkById(
         doc,
         "view-sa-penalties",
         "View your Self Assessment penalties",
         "http://localhost:8081/portal/self-assessment/ind/1234567800/account/penalties?lang=eng",
-
+        expectedIsExternal = false
       )
       assertLinkById(
         doc,
@@ -204,17 +193,16 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "appeal-filing",
-        "use form SA370 to appeal any late filing or late payment penalty",
+        "use form SA370 to appeal any late filing or late payment penalty (opens in new tab)",
         "https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370",
-
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "write-hmrc",
-        "write to HMRC",
+        "write to HMRC (opens in new tab)",
         "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment",
-
+        expectedOpensInNewTab = true
       )
     }
   }

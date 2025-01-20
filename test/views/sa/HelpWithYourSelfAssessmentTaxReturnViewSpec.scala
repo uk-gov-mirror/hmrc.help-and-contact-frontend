@@ -16,25 +16,24 @@
 
 package views.sa
 
-import models.SaUtr
+import models.{PageType, SaUtr}
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.help_with_your_self_assessment_tax_return
+import views.html.sa.help_with_sa_tax_return
 
 import scala.collection.JavaConverters._
 
 class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "helpWithYourSelfAssessmentTaxReturn"
+  val messageKeyPrefix = "help_and_contact.help_with_sa_tax_return"
 
-  def createView(utr: Option[SaUtr] = None) = () => inject[help_with_your_self_assessment_tax_return].apply(frontendAppConfig, utr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(utr: Option[SaUtr] = None) = () => help_with_sa_tax_return(PageType.HelpWithSATaxReturn.name, utr, frontendAppConfig)(fakeRequest, messages)
 
   "SelfAssessmentTaxReturnCheck view" must {
-    behave like normalPage(createView(), messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "help-with-your-sa-tax-return"
+      doc.getElementsByTag("h1").attr("id") mustBe "help-with-sa-tax-return"
     }
 
     "have correct h2 headings" in {
@@ -51,11 +50,10 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "Viewing your Self Assessment calculation",
         "More help with Self Assessment",
         "Basic record keeping when you’re self-employed",
-        "More help with record keeping"
+        "More help with record keeping",
       )
       val doc = asDocument(createView()())
-      val headings = doc.getElementsByTag("article").first.getElementsByTag("h2").asScala.toList.map(_.text())
-
+      val headings = doc.getElementsByTag("h2").eachText().asScala.toList
       headings mustBe listOfHeadings
     }
 
@@ -87,7 +85,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "find-out-more-link",
         "Find out more about registering for Self Assessment online",
-        "/business-account/help/self-assessment/register-or-stopping"
+        "/business-account/help/registering-or-stopping"
       )
       assertLinkById(
         doc,
@@ -96,7 +94,6 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         "https://www.youtube.com/watch?v=ZWasvKMvJvs",
         expectedOpensInNewTab = true
       )
-
       assertLinkById(
         doc,
         "used-to-file-link",
@@ -144,7 +141,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "how-to-pay-sa",
         "How to pay your Self Assessment",
-        "/business-account/help/self-assessment/payment-and-penalties"
+        "/business-account/help/payments-and-penalties"
       )
       assertLinkById(
         doc,
