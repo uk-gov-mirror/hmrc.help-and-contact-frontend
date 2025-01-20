@@ -35,7 +35,7 @@ class PayeChangesEmployeeCircumstancesViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "changes-in-employee-circumstances"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-changes-in-employee-circumstances"
     }
 
     "have correct h2 headings" in {

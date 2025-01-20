@@ -34,7 +34,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "payments-and-penalties"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-payments-and-penalties"
     }
 
     "contain correct heading" in {
@@ -137,7 +137,7 @@ class PaymentAndPenaltiesViewSpec extends ViewBehaviours {
         doc,
         "how-do-i-budget-video",
         "Video - How do I budget for my Self Assessment tax bill? (opens in new tab)",
-        "https://www.youtube.com/watch?v=sGpQ7ZT3tMs",
+        "https://www.youtube.com/watch?v=xHn31myAkio",
 
         expectedOpensInNewTab = true
       )

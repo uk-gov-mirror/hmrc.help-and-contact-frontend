@@ -20,7 +20,7 @@
 @(name: String, utr: Option[SaUtr], appConfig: FrontendAppConfig)(implicit request: Request[_], messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
-<h1 id="@name" class="govuk-heading-l">@Messages("helpWithYourSelfAssessmentTaxReturn.heading")</h1>
+<h1 id="page-title-@name" class="govuk-heading-l">@Messages("helpWithYourSelfAssessmentTaxReturn.heading")</h1>
 
 @components.sa_tax_return(appConfig)
 

@@ -35,7 +35,7 @@ class CtaxHowToPayViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "how-to-pay"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-how-to-pay"
     }
 
     "have correct h2 headings" in {

@@ -35,7 +35,7 @@ class CtaxClosingLimitedCompanyViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "closing-limited-company"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-closing-limited-company"
     }
 
     "have correct h2 headings" in {

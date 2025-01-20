@@ -35,7 +35,7 @@ class EpayeGetStartedViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "get-started-paye"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-get-started-paye"
     }
 
     "have correct h2 headings" in {

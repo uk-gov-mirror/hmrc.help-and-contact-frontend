@@ -33,7 +33,7 @@ class PayeAndCisRefundsViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "paye-and-cis-refunds"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-paye-and-cis-refunds"
     }
 
     "have correct h2 headings" in {

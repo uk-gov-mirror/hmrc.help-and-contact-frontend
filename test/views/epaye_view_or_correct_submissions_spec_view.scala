@@ -35,7 +35,7 @@ class EpayeViewCorrectSubmissionViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "view-or-correct-your-submissions"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-view-or-correct-your-submissions"
     }
 
     "have correct h2 headings" in {
