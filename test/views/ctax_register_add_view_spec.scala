@@ -35,7 +35,7 @@ class CtaxRegisterAddViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "register-add-corporation-tax"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-register-add-corporation-tax"
     }
 
     "have correct h2 headings" in {

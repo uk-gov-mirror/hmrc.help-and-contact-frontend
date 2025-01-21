@@ -31,7 +31,7 @@ class ExpensesViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "expenses"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-expenses"
     }
 
     "contain correct heading" in {

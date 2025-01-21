@@ -46,7 +46,8 @@ serviceInfoContent = serviceInfoContent) {
         link = if(pageLink.externalUrl.isDefined) pageLink.externalUrl.get else routes.HelpAndContactController.renderPage(pageLink.name).toString,
         messageKey = Messages(pageLink.messageKey),
         isExternal = pageLink.externalUrl.isDefined,
-        additionalClasses = if (pageLink.name == name) "govuk-!-font-weight-bold" else ""
+        additionalClasses = if (pageLink.name == name) "govuk-!-font-weight-bold" else "",
+        id = Some(s"nav-link-${pageLink.name}")
       )
     </li>
     }

@@ -35,7 +35,7 @@ class ContactHMRCViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "contact-hmrc"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-contact-hmrc"
     }
 
     "have correct links" in {

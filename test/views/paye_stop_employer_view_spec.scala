@@ -35,7 +35,7 @@ class PayeStopEmployerViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "stop-being-an-employer"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-stop-being-an-employer"
     }
 
     "have correct h2 headings" in {

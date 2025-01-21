@@ -35,7 +35,7 @@ class CtaxAskUtrViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "ask-your-corporation-tax-utr"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-ask-your-corporation-tax-utr"
     }
 
 

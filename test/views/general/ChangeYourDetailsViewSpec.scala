@@ -29,7 +29,7 @@ class ChangeYourDetailsViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "change-contact-and-account-details"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-change-contact-and-account-details"
     }
 
     "have correct links" in {

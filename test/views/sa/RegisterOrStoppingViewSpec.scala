@@ -31,7 +31,7 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "registering-or-stopping"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-registering-or-stopping"
     }
 
     "contain correct heading" in {

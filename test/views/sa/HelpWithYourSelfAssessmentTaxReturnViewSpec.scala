@@ -33,7 +33,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
 
     "contain heading ID" in {
       val doc = asDocument(createView()())
-      doc.getElementsByTag("h1").attr("id") mustBe "help-with-sa-tax-return"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-help-with-sa-tax-return"
     }
 
     "have correct h2 headings" in {
