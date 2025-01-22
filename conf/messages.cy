@@ -148,7 +148,7 @@ help_and_contact.how_to_add_tax = Sut i ychwanegu treth
 help_and_contact.how_to_add_tax_to_your_bta = Sut i ychwanegu treth at eich cyfrif treth busnes
 help_and_contact.any_services_you_add = Bydd unrhyw wasanaeth rydych yn ei ychwanegu yn ymddangos ar eich Cyfrif Treth Busnes (BTA).
 help_and_contact.you_can_add_more_than_40_services = Gallwch ychwanegu mwy na 40 gwasanaeth at eich cyfrif treth busnes.
-help_and_contact.each_time_you_add_service = Bob tro yr ydych yn ychwanegu gwasanaeth, byddwn yn anfon pin cychwyn atoch cyn pen 10 diwrnod. Ar ôl i chi nodi’r pin, gallwch ddefnyddio’r gwasanaeth.
+help_and_contact.each_time_you_add_service = Byddwn yn anfon PIN cychwyn atoch cyn pen 10 diwrnod ar gyfer rhai gwasanaethau. Ar ôl i chi nodi’r pin, gallwch ddefnyddio’r gwasanaeth.
 help_and_contact.add_corporation_tax = Ychwanegu Treth Gorfforaeth
 help_and_contact.select_corporation_tax = Dewiswch ‘Treth Gorfforaeth’.
 help_and_contact.enter_your_10_digit_corporation_utr = Nodwch eich Cyfeirnod Unigryw y Trethdalwr ar gyfer Treth Gorfforaeth sy’n 10 digid.
@@ -763,6 +763,32 @@ epaye.further_resources_link1 = rhedeg eich cyflogres (yn agor tab newydd)
 epaye.further_resources_link2 = talu TWE y cyflogwr (yn agor tab newydd)
 epaye.further_resources_link3 = Fideo – Sut ydw i’n defnyddio meddalwedd gyflogres? (yn agor tab newydd)
 epaye.further_resources_link4 = Sut ydw i’n defnyddio meddalwedd gyflogres? – trawsgrifiad fideo
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ PAYE Get started transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+how.payroll.software.title = Sut ydw i’n defnyddio meddalwedd gyflogres? - video transcript
+how.payroll.software.transcript.heading = Sut ydw i’n defnyddio meddalwedd gyflogres? - video transcript
+how.payroll.software.transcript.to_send_your = I anfon eich adroddiadau gan ddefnyddio meddalwedd gyflogres, ewch i
+how.payroll.software.transcript.gov_uk = GOV.UK (yn agor tab newydd)
+how.payroll.software.transcript.and_pick_a_software = a dewis pecyn meddalwedd.
+how.payroll.software.transcript.theyve_all_been = Rydym wedi cymeradwyo pob un o’r pecynnau meddalwedd hyn ac mae gan bob un ganllaw os oes angen rhagor o help arnoch.
+how.payroll.software.transcript.youll_need_to_enter = Bydd angen i chi nodi’ch manylion cyflogwr, gan gynnwys eich cyfeirnodau CThEF a manylion eich cyflogeion gan gynnwys eu rhifau Yswiriant Gwladol. Nesaf, cofrestrwch i gael cyfrif TWE Ar-lein ar
+how.payroll.software.transcript.pay_your_employees = Nodwch fanylion ynghylch sut rydych yn talu eich cyflogeion, gan gynnwys eu: cyflog misol; cyflog wythnosol; cyfradd cyflog fesul awr a nifer yr oriau a weithiwyd.
+how.payroll.software.transcript.using_your_software = Gan ddefnyddio’ch meddalwedd, rydych nawr yn barod i anfon Cyflwyniad Taliadau Llawn (sef FPS) atom ar ddiwrnod cyflog eich cyfloegion, neu cyn hynny.
+how.payroll.software.transcript.your_fps_tells_us = Mae’ch FPS yn rhoi’r wybodaeth ganlynol i ni:
+how.payroll.software.transcript.list_item1 = yr hyn a daloch i’ch cyflogeion
+how.payroll.software.transcript.list_item2 = unrhyw ddidyniadau rydych wedi’u gwneud o’u cyflog
+how.payroll.software.transcript.list_item3 = y cyfanswm sydd arnoch i CThEF
+how.payroll.software.transcript.list_item4 = manylion unrhyw un sydd wedi ymuno neu wedi gadael ers eich adroddiad diwethaf.
+how.payroll.software.transcript.if_you_dont = Os na fyddwch yn anfon eich adroddiadau FPS mewn pryd, efallai y codir cosb arnoch.
+how.payroll.software.transcript.one_more_thing = Un peth arall. Efallai y bydd angen i chi anfon Crynodeb o Daliadau’r Cyflogwr os yw’r canlynol yn berthnasol:
+how.payroll.software.transcript.youre_not_sending = nid ydych yn anfon FPS gan nad ydych wedi talu’ch cyflogeion
+how.payroll.software.transcript.youre_reducing = rydych yn lleihau’ch taliadau TWE er mwyn adennill taliadau statudol i gyflogeion, megis tâl mamolaeth
+how.payroll.software.transcript.youre_claiming_employement = rydych yn hawlio Lwfans Cyflogaeth.
+how.payroll.software.transcript.for_more_information = I gael rhagor o wybodaeth am feddalwedd gyflogres ac anfon adroddiadau, ewch i
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove
