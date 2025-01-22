@@ -150,7 +150,6 @@ help_and_contact.any_services_you_add = Bydd unrhyw wasanaeth rydych yn ei ychwa
 help_and_contact.you_can_add_more_than_40_services = Gallwch ychwanegu mwy na 40 gwasanaeth at eich cyfrif treth busnes.
 help_and_contact.each_time_you_add_service = Bob tro yr ydych yn ychwanegu gwasanaeth, byddwn yn anfon pin cychwyn atoch cyn pen 10 diwrnod. Ar ôl i chi nodi’r pin, gallwch ddefnyddio’r gwasanaeth.
 help_and_contact.add_corporation_tax = Ychwanegu Treth Gorfforaeth
-help_and_contact.select_add_tax_duty_scheme = Dewiswch ‘ychwanegu treth, toll neu gynllun’.
 help_and_contact.select_corporation_tax = Dewiswch ‘Treth Gorfforaeth’.
 help_and_contact.enter_your_10_digit_corporation_utr = Nodwch eich Cyfeirnod Unigryw y Trethdalwr ar gyfer Treth Gorfforaeth sy’n 10 digid.
 help_and_contact.enter_your_company_registration_number = Nodwch eich Rhif Cofrestru Cwmni, neu god post eich swyddfa gofrestredig.
@@ -162,7 +161,6 @@ help_and_contact.register_for_self_assessment = gofrestru ar gyfer Hunanasesiad
 help_and_contact.select_sa = Dewiswch ‘Hunanasesiad’.
 help_and_contact.enter_your_10_digit_utr = Nodwch eich cyfeirnod UTR 10 digid.
 help_and_contact.select_if_youre_an_individual_or_sole_trader = Dewiswch a ydych yn unigolyn neu’n unig fasnachwr, yn bartneriaeth neu’n ymddiriedolaeth.
-help_and_contact.enter_your_utr_again = Nodwch eich UTR eto.
 help_and_contact.enter_your_ni_number = Nodwch eich rhif Yswiriant Gwladol, neu’r cod post a ddefnyddiwyd gennych i gofrestru.
 help_and_contact.if_you_live_abroad = Os ydych yn byw dramor, dewiswch yr opsiwn hwnnw.
 help_and_contact.add_paye_for_employers = Ychwanegu TWE at gyflogwyr
@@ -174,7 +172,6 @@ help_and_contact.enter_your_hmrc_office_no = Nodwch rif eich swyddfa CThEF, cyfe
 help_and_contact.add_vat = Ychwanegu TAW
 help_and_contact.select_vat_and_vat_services = Dewiswch ‘TAW a gwasanaethau TAW’.
 help_and_contact.select_which_type_of_vat = Dewiswch pa fath o wasanaeth TAW rydych am ei ychwanegu o’r opsiynau.
-help_and_contact.enter_your_9_digit_vat = Nodwch eich rhif TAW sy’n 9 digid
 help_and_contact.enter_your_vat_registration_number = Nodwch eich Rhif Cofrestru TAW
 help_and_contact.enter_the_postcode_on_your_certificate = Nodwch y cod post sydd ar eich Tystysgrif Cofrestru
 help_and_contact.enter_the_date_of_registration = Nodwch y dyddiad cofrestru
@@ -521,7 +518,6 @@ register_or_stopping.can_choose = Gallwch ddewis parhau i fod wedi’ch cofrestr
 register_or_stopping.get_help = Get help with this page
 
 
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Payment and Penalties
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -548,6 +544,7 @@ payments_and_penalties.budgeting_for_sa = Cyllidebu ar gyfer eich bil treth Huna
 payments_and_penalties.budget_taxbill = Cyllidebu ar gyfer eich bil treth Hunanasesiad os ydych yn hunangyflogedig
 payments_and_penalties.how_do_i_budget_video = Fideo – Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? (yn agor tab newydd)
 payments_and_penalties.how_do_i_budget_transcript = Sut rydw i’n cyllidebu ar gyfer fy mil treth Hunanasesiad? – trawsgrifiad fideo
+payments_and_penalties.how_to_find_out_about_sa_video = Fideo - Sut i gael gwybod am gosbau Hunanasesu
 payments_and_penalties.penalties = Cosbau
 payments_and_penalties.penalty_showing = Bydd cosb i’w gweld ar eich cyfrif os:
 payments_and_penalties.list_sent_late = defnyddio’r gwasanaeth ar-lein i apelio yn erbyn cosb am gyflwyno’n hwyr
