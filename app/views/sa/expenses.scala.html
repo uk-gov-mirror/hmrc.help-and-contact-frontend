@@ -1,5 +1,5 @@
 @*
- * Copyright 2024 HM Revenue & Customs
+ * Copyright 2025 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,82 +14,105 @@
  * limitations under the License.
  *@
 
-@import config.FrontendAppConfig
+@import views.html.components.basic_record_keeping
 
-@this(
-  main_template: main_template
-)
+@(name: String)(implicit messages: Messages)
 
-@(appConfig: FrontendAppConfig)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+    <h1 id="page-title-@name" class="govuk-heading-l">@messages("expenses.title")</h1>
+    
+    <h2 class="govuk-heading-m">@messages("expenses.can_include")</h2>
+    <p class="govuk-body">
+        @messages("expenses.allowable_expenses")
+        <br><br>
+        @messages("expenses.send_proof")
+        <br><br>
+        @messages("expenses.keep_proof")
+        <br><br>
+        <a id="allowable-expenses" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
+           href="https://www.gov.uk/expenses-if-youre-self-employed">
+            @messages("expenses.find_out_more") @messages("app.common.openInNewTab")
+        </a>
+    </p>
 
-@main_template(title = messages("expenses.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
+    <div class="govuk-inset-text">
+        <p>
+            <a class="govuk-link" rel="noreferrer noopener" target="_blank" 
+               href="https://youtu.be/hspBxF2NVBY">
+                @messages("expenses.what_expenses_video") @messages("app.common.openInNewTab")
+            </a>
+        </p>
+        <p>
+            <a class="govuk-link" rel="noreferrer noopener"
+               href='@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")'>
+                @messages("expenses.what_expenses_transcript")
+            </a>
+        </p>
+    </div>
 
-  <h1 id="expenses" class="govuk-heading-xl">@Messages("expenses.heading")</h1>
+    <br>
+    <h2 class="govuk-heading-m">@messages("expenses.simplified")</h2>
+    <p class="govuk-body">
+        @messages("expenses.cannot_be_used")
+        <br><br>
+        @messages("expenses.if_self_employed")
+    </p>
+    <p class="govuk-body">@messages("expenses.flat_rates")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("expenses.list_vehicles")</li>
+        <li>@messages("expenses.list_home")</li>
+        <li>@messages("expenses.list_living")</li>
+    </ul>
+    <p class="govuk-body">@messages("expenses.keep_records")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@messages("expenses.list_mileage")</li>
+        <li>@messages("expenses.list_hours")</li>
+        <li>@messages("expenses.list_how_many")</li>
+    </ul>
+    <p class="govuk-body">
+        <a id="find-out-more-simplified" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
+           href="https://www.gov.uk/simpler-income-tax-simplified-expenses">
+            @messages("expenses.find_out_more_simplified") @messages("app.common.openInNewTab")
+        </a>
+    </p>
 
-<h2 class="govuk-heading-m">@Messages("expenses.can_include")</h2>
-<p class="govuk-body">@Messages("expenses.allowable_expenses")</p>
-<p class="govuk-body">@Messages("expenses.send_proof")</p>
-<p class="govuk-body">@Messages("expenses.keep_proof")</p>
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/expenses-if-youre-self-employed" id="allowable-expenses" rel="noreferrer noopener"
->@Messages("expenses.find_out_more")</a></p>
+    <br><br>
+    <h2 class="govuk-heading-m">@messages("expenses.claiming_travel_header")</h2>
+    <p class="govuk-body">
+        @messages("expenses.allowable_business_expense")
+        <br><br>
+        @messages("expenses.cannot_claim")
+        <br><br>
+        @messages("expenses.actual_costs")
+        <br><br>
+        @messages("expenses.decide_to_use")
+        <br><br>
+        @messages("expenses.flat_rate_covers")
+    </p>
 
-
-<div class="govuk-inset-text">
- <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=hspBxF2NVBY" id ="have-income-from-property" target="_blank" rel="noreferrer noopener"
- >
-  @Messages("expenses.what_expenses_video")
- </a></p>
- <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("expenses-if-you-are-self-employed")" id="expenses-if-you-are-self-employed-transcript">
-  @Messages("expenses.what_expenses_transcript")
-  </a></p>
+    <br>
+    <h2 class="govuk-heading-m">@messages("expenses.claiming_travel")</h2>
+    <p class="govuk-body">
+        <a id="travel-expenses-sa" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
+           href="https://www.gov.uk/expenses-if-youre-self-employed/travel">
+            @messages("expenses.travel_if") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a id="simplified-motoring-expenses" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
+           href="https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-">
+            @messages("expenses.simplified_motoring_expenses") @messages("app.common.openInNewTab")
+        </a>
+    </p>
+    <div class="govuk-inset-text">
+        <a id="claiming-motoring-video" class="govuk-link" rel="noreferrer noopener" target="_blank"
+           href="https://www.youtube.com/watch?v=r2txvLXi_Fk">
+            @messages("expenses.motoring_expenses_video") @messages("app.common.openInNewTab")
+        </a>
+        <br><br>
+        <a id="claiming-motoring-transcript" class="govuk-link" rel="noreferrer noopener"
+           href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="expenses-if-you-are-self-employed-transcript">
+            @messages("expenses.motoring_expenses_transcript")
+        </a>
+    </div>
+    @basic_record_keeping()
 </div>
-
-<h2 class="govuk-heading-m">@Messages("expenses.simplified")</h2>
-<p class="govuk-body">@Messages("expenses.cannot_be_used")</p>
-<p class="govuk-body">@Messages("expenses.if_self_employed")</p>
-<p class="govuk-body">@Messages("expenses.flat_rates")</p>
-
-
-<ul class="govuk-list govuk-list--bullet">
-<li>@Messages("expenses.list_vehicles")</li>
-<li>@Messages("expenses.list_home")</li>
-<li>@Messages("expenses.list_living")</li>
-</ul>
-
-<p class="govuk-body">@Messages("expenses.keep_records")</p>
-<ul class="govuk-list govuk-list--bullet">
-<li>@Messages("expenses.list_mileage")</li>
-<li>@Messages("expenses.list_hours")</li>
-<li>@Messages("expenses.list_how_many")</li>
-</ul>
-
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/simpler-income-tax-simplified-expenses" id="find-out-more-simplified"
-rel="noreferrer noopener" >@Messages("expenses.find_out_more_simplified")</a></p>
-
-<h2 class="govuk-heading-m">@Messages("expenses.claiming_travel_header")</h2>
-<p class="govuk-body">@Messages("expenses.allowable_business_expense")</p>
-<p class="govuk-body">@Messages("expenses.cannot_claim")</p>
-<p class="govuk-body">@Messages("expenses.actual_costs")</p>
-<p class="govuk-body">@Messages("expenses.decide_to_use")</p>
-<p class="govuk-body">@Messages("expenses.flat_rate_covers")</p>
-
-<h2 class="govuk-heading-m">@Messages("expenses.claiming_travel")</h2>
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/expenses-if-youre-self-employed/travel" id="travel-expenses-sa" rel="noreferrer noopener"
-      >
- @Messages("expenses.travel_if")</a></p>
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-" id="simplified-motoring-expenses"
-rel="noreferrer noopener" >
- @Messages("expenses.simplified_motoring_expenses")</a></p>
-<div class="govuk-inset-text">
- <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=r2txvLXi_Fk" id="claiming-motoring-video" target="_blank"
- rel="noreferrer noopener" >
-  @Messages("expenses.motoring_expenses_video")</a></p>
- <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("calculating-motoring-expenses")" id="claiming-motoring-transcript"
-       >
-  @Messages("expenses.motoring_expenses_transcript")</a></p>
-</div>
-
-@components.basic_record_keeping()
-
-
-}

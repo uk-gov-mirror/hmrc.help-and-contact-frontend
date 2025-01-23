@@ -16,6 +16,7 @@
 
 package views.vat
 
+import models.PageType
 import play.twirl.api.HtmlFormat
 import services.ThresholdService
 import views.behaviours.ViewBehaviours
@@ -23,24 +24,16 @@ import views.html.vat.register_or_deregister
 
 class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
-  val messageKeyPrefix = "vat.register_or_deregister"
+  val messageKeyPrefix = "register-or-deregister-vat"
 
   val thresholdService: ThresholdService = inject[ThresholdService]
 
   def createView: () => HtmlFormat.Appendable = {
 
-    val vatThreshold = thresholdService.formattedVatThreshold()
-
-    () =>
-      inject[register_or_deregister].apply(frontendAppConfig, vatThreshold)(Some(HtmlFormat.empty))(
-        fakeRequest,
-        messages
-      )
+    () => register_or_deregister(PageType.RegisterOrDeregisterVAT.name)(messages)
   }
 
   "Register or Deregister for VAT view" must {
-
-    behave like normalPage(createView, messageKeyPrefix)
 
     "contain correct content" in {
       val doc = asDocument(createView())
@@ -56,7 +49,7 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
         doc,
         "register-for-vat",
         "register for VAT online",
-        "https://www.tax.service.gov.uk/register-for-vat"
+        "https://www.access.service.gov.uk/login/signin/creds"
 
       )
     }
@@ -66,8 +59,9 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "cancel-vat-registration",
-        "cancel your VAT registration",
-        "https://www.gov.uk/vat-registration/cancel-registration"
+        "cancel your VAT registration (opens in new tab)",
+        "https://www.gov.uk/register-for-vat/cancel-your-registration",
+        expectedOpensInNewTab = true
       )
     }
   }

@@ -1,0 +1,60 @@
+@*
+ * Copyright 2024 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@(name: String)(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+    <h1 id="page-title-@name" class="govuk-heading-l">@Messages("epaye.get_started")</h1>
+    <h2 class="govuk-heading-m">@Messages("epaye.payroll_software")</h2>
+
+    <p class="govuk-body">@Messages("epaye.you_cannot_pay")</p>
+    <p class="govuk-body">@Messages("epaye.each_time_you_pay")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("epaye.notify_hmrc_bullet")</li>
+        <li>@Messages("epaye.calculate_what_you_need_bullet")</li>
+    </ul>
+    <p class="govuk-body">@Messages("epaye.you_can_use_either")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("HMRC's") <a href="https://www.gov.uk/basic-paye-tools" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet1_2")</a> @Messages("epaye.you_can_use_either_bullet1_3")</li>
+        <li><a href="https://www.gov.uk/payroll-software" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet2_1")</a> @Messages("epaye.you_can_use_either_bullet2_2")</li>
+    </ul>
+
+    <h2 class="govuk-heading-m">@Messages("epaye.paying_your_employees")</h2>
+    <p class="govuk-body">@Messages("epaye.you_must_make_a_submission")</p>
+    <p class="govuk-body">@Messages("epaye.you_must_submit_the_FPS") <a href="https://www.gov.uk/running-payroll/fps-after-payday" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_submit_late_FPS_link"). </a></p>
+    <h3 class="govuk-heading-s">@messages("epaye.if_you_do_not_pay_header")</h3>
+    <p class="govuk-body">@Messages("epaye.if_you_do_not_pay")</p>
+    <p class="govuk-body">@Messages("epaye.instead_of_an_FPS") <a href="https://www.gov.uk/payroll-errors/correcting-payments-to-hmrc" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.instead_of_an_FPS_link")</a></p>
+
+    <h2 class="govuk-heading-m">@Messages("epaye.paying_hmrc")</h2>
+    <p class="govuk-body">@Messages("epaye.you_need_to_use")</p>
+    <p class="govuk-body">@Messages("epaye.your_accounts_office_reference")</p>
+    <ul class="govuk-list govuk-list--bullet">
+        <li>@Messages("epaye.the_letter_from_bullet")</li>
+        <li>@Messages("epaye.the_paying_paye_bullet")</li>
+    </ul>
+    <p class="govuk-body">@Messages("epaye.make_sure_to_use")</p>
+
+    <h2 class="govuk-heading-m">@Messages("epaye.further_resources")</h2>
+    <ul class="govuk-list govuk-list--bullet">
+       <li><a href="https://www.gov.uk/running-payroll" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link1")</a></li>
+       <li><a href="https://www.gov.uk/pay-paye-tax" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link2")</a></li>
+       <li><a href="https://www.youtube.com/watch?v=JU32n2XkZyc" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link3")</a></li>
+       <li><a href=@controllers.routes.TranscriptController.onPageLoad("how-do-i-use-payroll-software") class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link4")</a></li>
+    </ul>
+
+</div>
+

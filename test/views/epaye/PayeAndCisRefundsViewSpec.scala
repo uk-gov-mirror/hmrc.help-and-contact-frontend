@@ -16,24 +16,24 @@
 
 package views.epaye
 
+import models.PageType
 import org.jsoup.nodes.Document
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.epaye.paye_and_cis_refunds
+import views.html.epaye.paye_cis_refunds
 
 class PayeAndCisRefundsViewSpec extends ViewBehaviours {
 
-  def createView: () => HtmlFormat.Appendable = () => inject[paye_and_cis_refunds].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView: () => HtmlFormat.Appendable = () => paye_cis_refunds(PageType.PayeCisRefunds.name)(messages)
 
   val messageKeyPrefix = "epaye.paye_and_cis_refunds"
   val doc: Document = asDocument(createView())
 
   "GetCisRefund view" must {
-    behave like normalPage(createView, messageKeyPrefix)
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "paye-and-cis-refunds"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-paye-and-cis-refunds"
     }
 
     "have correct h2 headings" in {
@@ -47,15 +47,15 @@ class PayeAndCisRefundsViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "more-about-refunds",
-        "More about refunds",
+        "More about refunds (opens in new tab)",
         "https://www.gov.uk/payroll-errors/correcting-payments-to-hmrc",
-        expectedOpensInNewTab = false)
+        expectedOpensInNewTab = true)
       assertLinkById(
         doc,
         "how-to-claim-cis",
-        "How to claim a Construction Industry Scheme CIS refund",
+        "How to claim a CIS refund (opens in new tab)",
         "https://www.gov.uk/guidance/claim-a-refund-of-construction-industry-scheme-deductions-if-youre-a-limited-company",
-        expectedOpensInNewTab = false)
+        expectedOpensInNewTab = true)
     }
   }
 }
