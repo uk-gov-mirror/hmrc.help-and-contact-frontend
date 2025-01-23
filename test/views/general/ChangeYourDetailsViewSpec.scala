@@ -16,48 +16,51 @@
 
 package views.general
 
+import models.PageType
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.general.change_your_details
+import views.html.general.change_contact_and_account_details
 
 class ChangeYourDetailsViewSpec extends ViewBehaviours {
 
-  def createView = () => inject[change_your_details].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
-
+  def createView = () => change_contact_and_account_details(PageType.ChangeContactAndAccountDetails.name, frontendAppConfig)(messages)
 
   "change your details view" must {
 
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "change-your-details"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-change-contact-and-account-details"
     }
 
     "have correct links" in {
       val doc = asDocument(createView())
       assertLinkById(
         doc,
-        "change-your-details-managing-gg-details",
-        "managing your Government Gateway details",
+        "change-your-details-managing-hmrc-details",
+        "managing your HMRC sign in details",
         "http://localhost:9020/user-profile-redirect-frontend/profile-management"
       )
       assertLinkById(
         doc,
         "change-your-details-business-account-details",
-        "business tax account details",
+        "go to your business tax account details",
         "http://localhost:9020/business-account/manage-account/account-details"
       )
       assertLinkById(
         doc,
         "change-your-details-standard-user",
-        "manage Government Gateway details for a standard user",
-        "https://www.access.service.gov.uk/group/members"
+        "manage the HMRC sign in details for a standard user (opens in new tab)",
+        "https://www.access.service.gov.uk/group/members",
+         expectedOpensInNewTab = true
+
       )
+      println("0")
       assertLinkById(
         doc,
         "change-your-details-more-help",
-        "Get help with HMRC services if you have problems signing in",
+        "Get help with HMRC services if you have problems signing in (opens in new tab)",
         "https://www.gov.uk/log-in-register-hmrc-online-services/problems-signing-in",
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
     }
   }

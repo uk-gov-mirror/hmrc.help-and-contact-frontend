@@ -16,6 +16,7 @@
 
 package views.sa
 
+import models.PageType
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.expenses
@@ -24,15 +25,13 @@ class ExpensesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "expenses"
 
-  def createView = () => inject[expenses].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => expenses(PageType.Expenses.name)(messages)
 
   "Self Assessment Expenses view" must {
 
-    behave like normalPage(createView, messageKeyPrefix)
-
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "expenses"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-expenses"
     }
 
     "contain correct heading" in {
@@ -84,33 +83,32 @@ class ExpensesViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "allowable-expenses",
-        "Find out more about allowable expenses if you’re self-employed",
+        "Find out more about allowable expenses if you’re self-employed (opens in new tab)",
         "https://www.gov.uk/expenses-if-youre-self-employed",
-
-        expectedOpensInNewTab = false
+         expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "find-out-more-simplified",
-        "Find out more about simplified expenses",
+        "Find out more about simplified expenses (opens in new tab)",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "travel-expenses-sa",
-        "Travel expenses if you’re self-employed",
+        "Travel expenses if you’re self-employed (opens in new tab)",
         "https://www.gov.uk/expenses-if-youre-self-employed/travel",
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "simplified-motoring-expenses",
-        "Simplified motoring expenses if you’re self employed",
+        "Simplified motoring expenses if you’re self employed (opens in new tab)",
         "https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,

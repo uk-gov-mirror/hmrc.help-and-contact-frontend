@@ -14,39 +14,49 @@
  * limitations under the License.
  *@
 
-@import config.FrontendAppConfig
+@(name: String)(implicit messages: Messages)
 
-@this(
-  main_template: main_template
-)
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+ <h1 id="page-title-@name" class="govuk-heading-l">@Messages("help_and_contact.register_or_deregister_for_vat")</h1>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.register_for_vat")</h2>
+ <p class="govuk-body">@Messages("help_and_contact.you_must_register_if")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.your_total_vat_taxable")</li>
+  <li>@Messages("help_and_contact.you_expect_your_turnover_togo")</li>
+ </ul>
+ <p class="govuk-body">@Messages("help_and_contact.you_must_also_register")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.youre_based_outside")</li>
+  <li>@Messages("help_and_contact.your_business_is_based_outside")</li>
+  <li>@Messages("help_and_contact.you_supply_any_goods_or_services")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.when_you_register_youll_be_sent")
+ </p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.your_vat_number")</li>
+  <li>@Messages("help_and_contact.when_to_submit_your_first")</li>
+  <li>@Messages("help_and_contact.the_date_you_went_over_the_threshold")</li>
+ </ul>
 
-@(appConfig: FrontendAppConfig, vatThresholdFormatted: String)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+ <p class="govuk-body">
+  @Messages("help_and_contact.most_businesses_can")
+  <a id="register-for-vat" href="https://www.access.service.gov.uk/login/signin/creds" class="govuk-link govuk-link--no-visited-state">@Messages("help_and_contact.register_for_vat_online")</a>
+  @Messages("help_and_contact.and_create_an_online_vat_account")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.deregister_for_vat")</h2>
 
-@main_template(title = messages("vat.register_or_deregister.title"), appConfig = appConfig, bodyClasses = None, serviceInfoContent = serviceInfoContent) {
-
-  <h1 id="register-deregister-vat" class="govuk-heading-l">@Messages("vat.register_or_deregister.heading")</h1>
-
-  <h2 class="govuk-heading-m">@Messages("vat.register_or_deregister.register_for_vat")</h2>
-  <p class="govuk-body">@Messages("vat.register_or_deregister.you_must_register_for_vat_with_hmrc_", vatThresholdFormatted)</p>
-
-  <p class="govuk-body">@Messages("vat.register_or_deregister.when_you_register_")</p>
-
-  <ul class="govuk-list govuk-list--bullet">
-    <li>@Messages("vat.register_or_deregister.your_vat_number")</li>
-    <li>@Messages("vat.register_or_deregister.when_to_submit_your_first_vat_return_and_payment")</li>
-    <li>@Messages("vat.register_or_deregister.your_effective_date_of_registration_")</li>
-  </ul>
-
-  <p class="govuk-body">@Messages("vat.register_or_deregister.most_businesses_can") <a class="govuk-link" href="@appConfig.getGovUrl("registerForVat")" id="register-for-vat" >@Messages("vat.register_or_deregister.register_online")</a> @Messages("vat.register_or_deregister.and_create_an_online_vat_account")</p>
-
-  <h2 class="govuk-heading-m">@Messages("vat.register_or_deregister.deregister_for_vat")</h2>
-  <p class="govuk-body">@Messages("vat.register_or_deregister.you_must") <a class="govuk-link" href="@appConfig.getGovUrl("cancelVatRegistration")" id="cancel-vat-registration">@Messages("vat.register_or_deregister.cancel_your_registration")</a> @Messages("vat.register_or_deregister.if_you_are_no_longer_eligible_")</p>
-
-  <ul class="govuk-list govuk-list--bullet">
-    <li>@Messages("vat.register_or_deregister.you_stop_trading_or_")</li>
-    <li>@Messages("vat.register_or_deregister.you_join_a_vat_group")</li>
-  </ul>
-
-  <p class="govuk-body">@Messages("vat.register_or_deregister.you_must_cancel_within_30_days_")</p>
-
-}
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_must")
+  <a id="cancel-vat-registration" href="https://www.gov.uk/register-for-vat/cancel-your-registration" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.cancel_your_vat_registration")</a>
+  @Messages("help_and_contact.if_you_are_no_longer_eligible")
+ </p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.you_stop_trading_or_making")</li>
+  <li>@Messages("help_and_contact.you_join_a_vat_group")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_must_cancel_within_30_days")
+ </p>
+</div>

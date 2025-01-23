@@ -16,23 +16,22 @@
 
 package views.sa
 
+import models.PageType
 import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
-import views.html.sa.register_or_stopping
+import views.html.sa.registering_or_stopping
 
 class RegisterOrStoppingViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "register_or_stopping"
 
-  def createView = () => inject[register_or_stopping].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => registering_or_stopping(PageType.RegisteringOrStopping.name, frontendAppConfig)(messages)
 
   "Self Assessment Expenses view" must {
 
-    behave like normalPage(createView, messageKeyPrefix)
-
     "contain heading ID" in {
       val doc = asDocument(createView())
-      doc.getElementsByTag("h1").attr("id") mustBe "register-or-stopping"
+      doc.getElementsByTag("h1").attr("id") mustBe "page-title-registering-or-stopping"
     }
 
     "contain correct heading" in {
@@ -95,18 +94,18 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "find-UTR",
-        "You can find your UTR if you do not know it.",
+        "You can find your UTR if you do not know it. (opens in new tab)",
         "https://www.gov.uk/find-lost-utr-number",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
         "sa1-register",
-        "use form SA1 to register for Self Assessment.",
+        "use form SA1 to register for Self Assessment. (opens in new tab)",
         "https://www.gov.uk/government/publications/self-assessment-register-for-self-assessment-and-get-a-tax-return-sa1",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,
@@ -126,25 +125,10 @@ class RegisterOrStoppingViewSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "learn-sa",
-        "Learn about Self Assessment",
+        "Learn about Self Assessment (opens in new tab)",
         "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
 
-        expectedOpensInNewTab = false
-      )
-      assertLinkById(
-        doc,
-        "registering-sa-video",
-        "Video - Registering for Self Assessment (opens in new tab)",
-        "https://www.youtube.com/watch?v=Ls_wqOstiBM",
-
         expectedOpensInNewTab = true
-      )
-      assertLinkById(
-        doc,
-        "registering-sa-transcript",
-        "Registering for Self Assessment - video transcript",
-        "/business-account/help/transcript/new-registering-for-self-assessment"
-
       )
       assertLinkById(
         doc,

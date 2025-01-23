@@ -1,0 +1,94 @@
+@*
+ * Copyright 2024 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@import config.FrontendAppConfig
+
+@(name: String, appConfig: FrontendAppConfig)(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+ <h1 id="page-title-@name" class="govuk-heading-l">@Messages("help_and_contact.change_contact_and_account_details")</h1>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.change_your_personal_details")</h2>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_can_do_this_by")
+  <a id="change-your-details-managing-hmrc-details" href="@appConfig.getUserProfileRedirect("profileManagement")" class="govuk-link govuk-link--no-visited-state">@Messages("help_and_contact.managing_your_hmrc_sign_in_details")</a>.
+ </p>
+ <p class="govuk-body">@Messages("help_and_contact.you_can_change_your")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.list_item14")</li>
+  <li>@Messages("help_and_contact.list_item15")</li>
+  <li>@Messages("help_and_contact.list_item16")</li>
+  <li>@Messages("help_and_contact.list_item17")</li>
+  <li>@Messages("help_and_contact.list_item18")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.to_get_access_codes_for_your_business_account")
+ </p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.list_item19")</li>
+  <li>@Messages("help_and_contact.list_item20")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.we_recommend_that_you_set_up")<br><br>
+  @Messages("help_and_contact.changes_take_up_to_2_days_to_update")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.change_your_business_details")</h2>
+ <p class="govuk-body">
+  @Messages("help_and_contact.to_change_your_business_details")
+  <a  href="@appConfig.getBusinessAccountUrl("accountDetails")" id="change-your-details-business-account-details" class="govuk-link govuk-link--no-visited-state">@Messages("help_and_contact.go_to_your_business_tax_account_details")</a>.
+ </p>
+ <p class="govuk-body">@Messages("help_and_contact.you_can_change_your")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.company_name")</li>
+  <li>@Messages("help_and_contact.address")</li>
+  <li>@Messages("help_and_contact.phone_number")</li>
+  <li>@Messages("help_and_contact.email_address")</li>
+  <li>@Messages("help_and_contact.contact_preferences")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.you_must_change_your_details") <br><br>
+  @Messages("help_and_contact.changes_take_up_to_2_days_to_update")
+ </p>
+ <br><br>
+ <h2 class="govuk-heading-m">
+  @Messages("help_and_contact.change_team_member_details_as_an_administrator")
+ </h2>
+
+ <p class="govuk-body">
+  @Messages("help_and_contact.if_youre_an_administrator_on_a_bta")
+  <a id="change-your-details-standard-user" href="https://www.access.service.gov.uk/group/members" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">
+   @Messages("help_and_contact.manage_the_hmrc_sign_in_details_for_standard_user") @Messages("app.common.openInNewTab")
+  </a>.
+ </p>
+ <p class="govuk-body">@Messages("help_and_contact.you_can")</p>
+ <ul class="govuk-list govuk-list--bullet">
+  <li>@Messages("help_and_contact.change_their_password")</li>
+  <li>@Messages("help_and_contact.remove_their_security")</li>
+  <li>@Messages("help_and_contact.resend_user_id")</li>
+  <li>@Messages("help_and_contact.delete_user_id")</li>
+ </ul>
+ <p class="govuk-body">
+  @Messages("help_and_contact.if_an_administrator_removes_a_users") <br><br>
+  @Messages("help_and_contact.to_change_or_remove_administrators_phone")
+ </p>
+ <br>
+ <h2 class="govuk-heading-m">@Messages("help_and_contact.get_more_help")</h2>
+ <p><a href="@appConfig.getGovUrl("problemsSigningIn")" id="change-your-details-more-help" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">
+  @Messages("help_and_contact.get_help_with_hmrc_services") @Messages("app.common.openInNewTab")
+  </a>
+ </p>
+</div>

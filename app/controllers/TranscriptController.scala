@@ -19,11 +19,14 @@ package controllers
 import config.FrontendAppConfig
 import controllers.actions._
 import handlers.ErrorHandler
+
 import javax.inject.Inject
 import play.api.i18n.I18nSupport
 import play.api.mvc.MessagesControllerComponents
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
+import views.html.epaye.epaye_get_started
 import views.html.transcripts._
+import views.html.transcripts.ct.how_to_pay_corporation_tax
 
 class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      viewing_your_self_assessment_calculation: viewing_your_self_assessment_calculation,
@@ -51,6 +54,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
                                      cant_access_sa_online: cant_access_sa_online,
                                      when_and_how_to_pay_epaye: when_and_how_to_pay_epaye,
                                      cant_pay_taxbill: cant_pay_taxbill,
+                                     how_to_pay_corporation_tax: how_to_pay_corporation_tax,
+                                     how_do_i_use_payroll_software: how_do_i_use_payroll_software,
                                      override val controllerComponents: MessagesControllerComponents)
     extends FrontendController(controllerComponents)
     with I18nSupport {
@@ -88,8 +93,12 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
       "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
       "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent),
       "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(request.serviceInfoContent),
-      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent)
+      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent),
+      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent
+      ),
+      "how-do-i-use-payroll-software" -> how_do_i_use_payroll_software(appConfig)(request.serviceInfoContent)
     )
+
 
     mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>
       Ok(view)

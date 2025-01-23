@@ -1,0 +1,72 @@
+@*
+ * Copyright 2024 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *@
+
+@(name: String)(implicit messages: Messages)
+
+<div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
+    <h1 id="page-title-@name" class="govuk-heading-l">@Messages("paye.changes.circumstance.heading")</h1>
+
+    <h2 class="govuk-heading-m">@Messages("paye.changes.circumstance.section1.title")</h2>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section1.p1.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href=https://www.gov.uk/maternity-paternity-calculator>
+            @Messages("paye.changes.circumstance.section1.p1.linkText")</a>
+        @Messages("paye.changes.circumstance.section1.p1.postText")
+    </p>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section1.p2.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href=https://www.gov.uk/recover-statutory-payments>
+            @Messages("paye.changes.circumstance.section1.p2.linkText")</a>
+        @Messages("paye.changes.circumstance.section1.p2.postText")
+    </p>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section1.p3.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href=https://www.gov.uk/recover-statutory-payments/if-you-cant-afford-to-make-payments>
+            @Messages("paye.changes.circumstance.section1.p3.linkText")</a>
+    </p>
+
+    <h2 class="govuk-heading-m">@Messages("paye.changes.circumstance.section2.title")</h2>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section2.p1.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" href=/government/publications/national-insurance-sending-employees-to-work-abroad-ca3821>
+            @Messages("paye.changes.circumstance.section2.p1.linkText")</a>
+        @Messages("paye.changes.circumstance.section2.p1.postText")
+    </p>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section2.p2.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" href=/guidance/tell-hmrc-about-employees-going-to-work-in-the-european-economic-area-ca3822>
+            @Messages("paye.changes.circumstance.section2.p2.linkText")</a>
+        @Messages("paye.changes.circumstance.section2.p2.postText")
+    </p>
+
+    <h2 class="govuk-heading-m">@Messages("paye.changes.circumstance.section3.title")</h2>
+    <p class="govuk-body">@Messages("paye.changes.circumstance.section3.p1")</p>
+    <p class="govuk-body">@Messages("paye.changes.circumstance.section3.p2")</p>
+
+    <p class="govuk-body">
+        @Messages("paye.changes.circumstance.section3.p3.preText")
+        <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" href=/digital-forms/form/Application-for-funding-a-tax-refund-for-an-employee/insufficient-enrolments>
+            @Messages("paye.changes.circumstance.section3.p3.linkText")</a>
+        @Messages("paye.changes.circumstance.section3.p3.postText")
+    </p>
+
+    <br/><br/>
+</div>

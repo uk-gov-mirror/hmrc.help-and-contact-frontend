@@ -14,8 +14,7 @@
  * limitations under the License.
  *@
 
-@()(implicit request: Request[_], messages: Messages)
-
+@()(implicit messages: Messages)
 
 <h2 class="govuk-heading-m">@Messages("modular.viewingSaCalculation.viewing_your_sa_calculation")</h2>
 <p class="govuk-body">@Messages("modular.viewingSaCalculation.automatically_works_out")</p>
@@ -25,8 +24,8 @@
 <li>@Messages("modular.viewingSaCalculation.list_yourincome")</li>
 <li>@Messages("modular.viewingSaCalculation.list_personal_allowance")</li>
 <li>@Messages("modular.viewingSaCalculation.list_taxdue")</li>
-<li><a class="govuk-link" href="https://www.gov.uk/self-employed-national-insurance-rates" id="any-class-2-4" rel="noreferrer noopener">
-    @Messages("modular.viewingSaCalculation.list_ni_contributions")
+<li><a class="govuk-link" href="https://www.gov.uk/self-employed-national-insurance-rates" id="any-class-2-4" rel="noreferrer noopener" target="_blank">
+    @Messages("modular.viewingSaCalculation.list_ni_contributions") @Messages("app.common.openInNewTab")
         </a></li>
 </ul>
 

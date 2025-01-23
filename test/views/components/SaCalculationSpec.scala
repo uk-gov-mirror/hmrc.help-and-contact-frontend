@@ -22,7 +22,7 @@ import views.html.components.sa_calculation
 
 class SaCalculationSpec extends ViewBehaviours {
 
-  val view = sa_calculation()(request, messages)
+  val view = sa_calculation()(messages)
 
   "Self Assessment Expenses view" must {
 
@@ -52,10 +52,10 @@ class SaCalculationSpec extends ViewBehaviours {
       assertLinkById(
         doc,
         "any-class-2-4",
-        "any class 2 and class 4 National Insurance contributions",
+        "any class 2 and class 4 National Insurance contributions (opens in new tab)",
         "https://www.gov.uk/self-employed-national-insurance-rates",
 
-        expectedOpensInNewTab = false
+        expectedOpensInNewTab = true
       )
       assertLinkById(
         doc,

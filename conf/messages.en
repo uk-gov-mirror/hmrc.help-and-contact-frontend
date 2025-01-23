@@ -25,16 +25,189 @@ timeout.title= You’re about to be signed out
 timeout.message= For your security, we will sign you out in
 timeout.keep-alive-button= Stay signed in
 
+app.common.openInNewTab = (opens in new tab)
+
 ########################################################################################################################
-### Help and Contact main
+### Help and Contact Main Page
 ########################################################################################################################
 
 help_and_contact.title = Help and contact
+
 help_and_contact.heading = Help and contact
+help_and_contact.bta = Business tax account
+help_and_contact.help_with_business_tax_account = Help with your business tax account
+help_and_contact.change_contact_and_account_details = Change contact and account details
+help_and_contact.how_to_add_a_tax = How to add a tax
+
 help_and_contact.self_assessment = Self Assessment
+help_and_contact.payments_and_penalties = Payments and penalties
+help_and_contact.registering_or_stopping = Registering or stopping
+help_and_contact.help_with_sa_tax_return = Help with SA tax return
+help_and_contact.get_evidence_of_income = Get evidence of income - SA302
+help_and_contact.expenses = Expenses
+help_and_contact.sign_up_for_mtd_for_income_tax_new_tab = Sign up for MTD for Income Tax
 help_and_contact.vat = VAT
-help_and_contact.corporation_tax = Corporation Tax
+help_and_contact.register_or_deregister = Register or deregister
+help_and_contact.how_to_pay_and_deadlines = How to pay and deadlines
+help_and_contact.correcting_errors_on_returns = Correcting errors on returns
 help_and_contact.paye_for_employers = PAYE for employers
+help_and_contact.get_started = Get started
+help_and_contact.view_or_correct_submissions = View or correct your submissions
+help_and_contact.paye_and_cis_refunds = PAYE and CIS refunds
+help_and_contact.changes_in_employee_circumstances = Changes in employee circumstances
+help_and_contact.if_you_stop_being_an_employer = If you stop being an employer
+help_and_contact.corporation_tax = Corporation Tax
+help_and_contact.register_or_add_tax = Register or add tax
+help_and_contact.how_to_pay = How to pay
+help_and_contact.closing_a_limited_company = Closing a limited company
+help_and_contact.get_a_copy_of_your_unique_taxpayer_reference_utr = Get a copy of your Unique Taxpayer Reference (UTR)
+help_and_contact.contact_hmrc = Contact HMRC
+
+help_and_contact.help_with_your_bta_account = Help with your business tax account (BTA)
+help_and_contact.paragraph1 = Your business tax account lets you manage your HMRC business taxes, duties, and schemes online.
+help_and_contact.paragraph2 = You do not have to own or run a business to have a business tax account.
+help_and_contact.paragraph3 = To manage a tax, duty or scheme, you must
+help_and_contact.paragraph3_link_text = add a tax to your business tax account
+
+help_and_contact.use_your_bta_to = Use your BTA to:
+help_and_contact.list_item1 = check taxes that you’ve registered for
+help_and_contact.list_item2 = make returns and payments
+help_and_contact.list_item3 = add or remove a tax, duty or scheme
+help_and_contact.list_item4 = give someone else access to a tax, duty or scheme
+help_and_contact.list_item5 = view messages from HMRC
+help_and_contact.list_item6 = add, view, or change a tax agent
+help_and_contact.list_item7 = get help with your taxes
+
+help_and_contact.if_youre_not_a_registered_company = If you are not a registered company
+help_and_contact.paragraph4 = Even if you are not registered as a limited company, you may need a business tax account.
+help_and_contact.paragraph5 = For example, if you’re self-employed or a sole trader and earn taxable income from:
+help_and_contact.list_item8 = renting property
+help_and_contact.list_item9 = selling goods and services
+help_and_contact.list_item10 = similar activity
+help_and_contact.paragraph6 = You also need a business tax account if you:
+help_and_contact.list_item11 = set up a limited company or other organisation that pays Corporation Tax
+help_and_contact.list_item12 = use PAYE because you employ people
+help_and_contact.list_item13 = charge VAT
+
+help_and_contact.how_to_manage_your_business_tax_account = How to manage your business tax account details
+help_and_contact.paragraph7 = Keep a record of the HMRC sign details that you used to create your business tax account.
+help_and_contact.paragraph8 = Your business tax account uses 2-stage verification. We’ll ask you to enter an access code that we send to another device or app.
+help_and_contact.paragraph9 = Do not create another HMRC sign in
+help_and_contact.paragraph10_part1 = To view all your business taxes in one place you must
+help_and_contact.paragraph10_link_text = use only one HMRC sign in for all your online business tax services (opens in new tab)
+help_and_contact.paragraph10_part2 = and sign into the business tax account with it.
+
+help_and_contact.manage_your_hmrc_sign_in_details = Manage your HMRC sign in details
+
+help_and_contact.the_difference_between_your_bta_and_pta_account = The difference between your business tax account and personal tax account
+help_and_contact.paragraph11 = Your business tax account is used to view your tax position and manage all your taxes from one place.
+help_and_contact.paragraph12_link_text = View taxes, duties and schemes you can manage (opens in new tab)
+help_and_contact.pta = Personal tax account
+help_and_contact.paragraph13 = Your personal tax account is used to check your records and manage your details with HM Revenue and Customs (HMRC).
+help_and_contact.paragraph14_link_text = Read more about your personal tax account (opens in new tab)
+
+help_and_contact.change_contact_and_account_details = Change contact and account details
+help_and_contact.change_your_personal_details = Change your personal details
+help_and_contact.you_can_do_this_by = You can do this by
+help_and_contact.managing_your_hmrc_sign_in_details = managing your HMRC sign in details
+help_and_contact.you_can_change_your = You can change your:
+help_and_contact.list_item14 = name
+help_and_contact.list_item15 = phone number
+help_and_contact.list_item16 = email address
+help_and_contact.list_item17 = password
+help_and_contact.list_item18 = security preferences
+help_and_contact.to_get_access_codes_for_your_business_account = To get access codes for your business account, you can use:
+help_and_contact.list_item19 = your phone number
+help_and_contact.list_item20 = an authenticator app
+help_and_contact.we_recommend_that_you_set_up = We recommend that you set up at least 1 backup device for your access codes.
+help_and_contact.changes_take_up_to_2_days_to_update = Changes take up to 2 days to update.
+help_and_contact.change_your_business_details = Change your business details
+help_and_contact.to_change_your_business_details = To change your business details,
+help_and_contact.go_to_your_business_tax_account_details = go to your business tax account details
+help_and_contact.you_can_change_your = You can change your:
+help_and_contact.company_name = company name
+help_and_contact.address = address
+help_and_contact.phone_number = phone number
+help_and_contact.email_address = email address
+help_and_contact.contact_preferences = contact preferences
+help_and_contact.you_must_change_your_details = You must change your details for each tax separately. These details do not automatically match your HMRC sign in details.
+help_and_contact.change_team_member_details_as_an_administrator = Change team member details as an administrator
+help_and_contact.if_youre_an_administrator_on_a_bta = If you’re an administrator on a business tax account, you can
+help_and_contact.manage_the_hmrc_sign_in_details_for_standard_user = manage the HMRC sign in details for a standard user
+help_and_contact.you_can = You can:
+help_and_contact.change_their_password = change their password
+help_and_contact.remove_their_security = remove their security preferences
+help_and_contact.resend_user_id = resend their HMRC sign in user ID
+help_and_contact.delete_user_id = delete their HMRC sign in user ID
+help_and_contact.if_an_administrator_removes_a_users = If an administrator removes a user’s security preferences, the user must add a new phone number or authenticator app to get access codes. If they do not, they will not be able to sign in again.
+help_and_contact.to_change_or_remove_administrators_phone = To change or remove an administrator’s phone number or authenticator app, you must call HMRC.
+help_and_contact.get_more_help = Get more help
+help_and_contact.get_help_with_hmrc_services = Get help with HMRC services if you have problems signing in
+
+help_and_contact.how_to_add_tax = How to add a tax
+help_and_contact.how_to_add_tax_to_your_bta = How to add a tax to your business tax account
+help_and_contact.any_services_you_add = Any services you add will show on your business tax account (BTA).
+help_and_contact.you_can_add_more_than_40_services = You can add more than 40 services to your business tax account.
+help_and_contact.each_time_you_add_service = For some services we’ll send you an activation pin within 10 days. After you’ve entered the pin, you can use the service.
+help_and_contact.add_corporation_tax = Add Corporation Tax
+help_and_contact.select_corporation_tax = Select ‘Corporation Tax’.
+help_and_contact.enter_your_10_digit_corporation_utr = Enter your 10-digit Corporation Tax Unique Taxpayer Reference.
+help_and_contact.enter_your_company_registration_number = Enter your Company Registration Number, or the postcode of your registered office.
+help_and_contact.if_your_company_is_not_in_uk = If your company is not based in the UK, ‘select company is not based in the UK’.
+help_and_contact.add_a_self_assessment = Add Self Assessment
+help_and_contact.youll_need_your_utr = You’ll need your Unique Taxpayer Reference (UTR) number.
+help_and_contact.if_you_dont_have_your_utr = If you do not have your UTR, you’ll need to
+help_and_contact.register_for_self_assessment = register for Self Assessment
+help_and_contact.select_sa = Select ‘Self Assessment’.
+help_and_contact.enter_your_10_digit_utr = Enter your 10-digit UTR.
+help_and_contact.select_if_youre_an_individual_or_sole_trader = Select if you’re an individual or sole trader, partnership, or trust.
+help_and_contact.enter_your_ni_number = Enter your National Insurance number, or the postcode you used to register.
+help_and_contact.if_you_live_abroad = If you live abroad, select that option.
+help_and_contact.add_paye_for_employers = Add PAYE for employers
+help_and_contact.youll_need_your_paye_reference_number = You’ll need your PAYE reference number.
+help_and_contact.if_you_do_not_have_your_paye = If you do not have your PAYE reference number, you’ll need to
+help_and_contact.register_as_an_employer = register as an employer (opens in new tab)
+help_and_contact.select_employers_or_intermediaries = Select ‘Employers or intermediaries’.
+help_and_contact.enter_your_hmrc_office_no = Enter your HMRC office number, PAYE reference number, and Accounts Office reference number
+help_and_contact.add_vat = Add VAT
+help_and_contact.select_vat_and_vat_services = Select ‘VAT and VAT services’.
+help_and_contact.select_which_type_of_vat = Select which type of VAT service you want to add from the options.
+help_and_contact.enter_your_vat_registration_number = Enter your VAT Registration Number
+help_and_contact.enter_the_postcode_on_your_certificate = Enter the postcode on your Certificate of Registration
+help_and_contact.enter_the_date_of_registration = Enter the date of registration
+help_and_contact.enter_the_month_your_last_vat_return_ended = Enter the month your last VAT Return ended on
+help_and_contact.enter_the_amount_from_box5 = Enter the amount from Box 5 on your last return
+help_and_contact.other_help = Other help
+help_and_contact.if_you_prefer = If you prefer,
+help_and_contact.you_can_watch_our_video_on_how_to_add_tax = you can watch our video on how to add a tax (opens in a new tab)
+help_and_contact.transcript_how_do_i_add_tax_bta = Video transcript — ‘How do I add a tax to my Business Tax Account’
+help_and_contact.video.how_do_i_add_tax_bta = Video — for ‘How do I add a tax to my Business Tax Account’
+
+help_and_contact.register_or_deregister = Register or deregister
+help_and_contact.register_or_deregister_for_vat = Register or deregister for VAT
+help_and_contact.register_for_vat = Register for VAT
+help_and_contact.you_must_register_if = You must register if:
+help_and_contact.your_total_vat_taxable = your total VAT taxable turnover for the last 12 months was over £90,000 (the VAT threshold)
+help_and_contact.you_expect_your_turnover_togo = you expect your turnover to go over £90,000 in the next 30 days
+help_and_contact.you_must_also_register = You must also register (regardless of VAT taxable turnover) if all of the following are true:
+help_and_contact.youre_based_outside = you’re based outside the UK
+help_and_contact.your_business_is_based_outside = your business is based outside the UK
+help_and_contact.you_supply_any_goods_or_services = you supply any goods or services to the UK (or expect to in the next 30 days)
+help_and_contact.when_you_register_youll_be_sent = When you register, you’ll be sent a VAT registration certificate. This confirms:
+help_and_contact.your_vat_number = your VAT number
+help_and_contact.when_to_submit_your_first = when to submit your first VAT Return and payment
+help_and_contact.the_date_you_went_over_the_threshold = the date you went over the threshold, or the date you asked to register if it was voluntary
+help_and_contact.most_businesses_can = Most businesses can
+help_and_contact.register_for_vat_online = register for VAT online
+help_and_contact.and_create_an_online_vat_account = and create an online VAT account. This includes partnerships and a group of companies registering under one VAT number.
+help_and_contact.deregister_for_vat = Deregister for VAT
+help_and_contact.you_must = You must
+help_and_contact.cancel_your_vat_registration = cancel your VAT registration (opens in new tab)
+help_and_contact.if_you_are_no_longer_eligible = if you are no longer eligible to be VAT registered. For example:
+help_and_contact.you_stop_trading_or_making = you stop trading or making VAT taxable supplies
+help_and_contact.you_join_a_vat_group = you join a VAT group
+help_and_contact.you_must_cancel_within_30_days = You must cancel within 30 days if you stop being eligible or you may be charged a penalty.
+
 help_and_contact.govuk_link = GOV.UK
 
 
@@ -45,6 +218,8 @@ help_and_contact.govuk_link = GOV.UK
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Payments and Deadlines
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+vat.payments_and_deadlines = How to pay and deadlines
 vat.payments_and_deadlines.title = How to pay VAT and deadlines
 vat.payments_and_deadlines.heading = How to pay VAT and deadlines
 vat.payments_and_deadlines.the_deadline_for_submitting_ = The deadline for submitting the return online and paying HMRC are usually the same - 1 calendar month and 7 days after the end of an accounting period.
@@ -59,8 +234,9 @@ vat.payments_and_deadlines.input_tax = rules for claiming input tax
 vat.payments_and_deadlines.are_slightly_different_in_each_eu_country = are slightly different in each EU country
 vat.payments_and_deadlines.each_eu_country_has_set_a_minimun_amount_ = each EU country has set a minimum amount that can be refunded
 vat.payments_and_deadlines.if_your_business_makes_both_taxable_ = if your business makes both taxable and exempt supplies, you may not be able to reclaim all of the VAT you have been charged
-vat.correct_a_mistake = Correct errors on your VAT returns
 vat.payments_and_deadlines.how_to_pay_your_bill_link = Read detailed information about how to pay your VAT bill
+vat.payments_and_deadlines.how_to_get_help_link = Video - How to get help when you can''t pay your tax bill (opens in a new tab)
+vat.payments_and_deadlines.how_to_get_help_transcript_link = How to get help when you can''t pay your tax bill - video transcript
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Register or Deregister
@@ -85,6 +261,26 @@ vat.register_or_deregister.you_join_a_vat_group = you join a VAT group
 vat.register_or_deregister.you_must_cancel_within_30_days_ = You must cancel within 30 days if you stop being eligible or you may be charged a penalty.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ Correcting Errors On Returns
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vat.correcting_errors_on_returns = Correcting errors on returns
+vat.correcting_errors_on_returns.title = Correcting errors on returns
+vat.correcting_errors_on_returns.heading = Correcting errors on returns
+vat.correcting_errors_on_returns.you_can_correct = You can correct errors in returns for the preceding 4 years, if the net value of the errors is either:
+vat.correcting_errors_on_returns.10_or_less= £10,000 or less
+vat.correcting_errors_on_returns.between = between £10,000 and £50,000 but less than 1% of the total value of your sales
+vat.correcting_errors_on_returns.for_these = For these kinds of errors, make an adjustment or correction in your next return.
+vat.correcting_errors_on_returns.you_must_tell = You must tell HMRC separately about net errors that are:
+vat.correcting_errors_on_returns.over_50 = over £50,000
+vat.correcting_errors_on_returns.over_10 = over £10,000 if they exceed 1% of the total value of sales
+vat.correcting_errors_on_returns.deliberate_errors = deliberate errors
+vat.correcting_errors_on_returns.find_out_more = Find out more about
+vat.correcting_errors_on_returns.correcting = correcting errors in your VAT return
+vat.correcting_errors_on_returns.and_how = and how to:
+vat.correcting_errors_on_returns.calculate_the =calculate the net value of errors
+vat.correcting_errors_on_returns.make_an =make an adjustment
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Questions about VAT
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 vat.questions_about_vat.heading = Contact HMRC about VAT
@@ -105,7 +301,7 @@ helpWithYourSelfAssessmentTaxReturn.filing_your_sa = Filing your Self Assessment
 helpWithYourSelfAssessmentTaxReturn.sent_sa_letter = You will usually be sent a tax return or a letter about a tax return if you are registered as self-employed.
 helpWithYourSelfAssessmentTaxReturn.file_by_deadline = You must file your tax return even if you have no tax to pay. If you do not file it by the deadline, you may have to pay a penalty.
 helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa = Video - What to do if you’ve been sent a tax return? (opens in a new tab)
-helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = Video transcript – What to do if you’ve been sent a tax return
+helpWithYourSelfAssessmentTaxReturn.transcript_why_sent_sa = What to do if you’ve been sent a tax return? - video transcript
 helpWithYourSelfAssessmentTaxReturn.not_complete = If you do not need to complete and file a Self Assessment tax return
 helpWithYourSelfAssessmentTaxReturn.used_to_file = If you used to file a tax return but do not need to file one for the most recent tax year,
 helpWithYourSelfAssessmentTaxReturn.used_to_file_link =  tell HMRC to stop Self Assessment.
@@ -120,19 +316,19 @@ helpWithYourSelfAssessmentTaxReturn.to_work_out = We use the information on your
 helpWithYourSelfAssessmentTaxReturn.register_for_sa_before_completion = If this is your first tax return, you must register for Self Assessment before you can complete and file your return.
 helpWithYourSelfAssessmentTaxReturn.more_about_registering = Find out more about registering for Self Assessment online
 helpWithYourSelfAssessmentTaxReturn.first_sa_video = Video - My first Self Assessment tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = Video transcript – My first Self Assessment tax return
+helpWithYourSelfAssessmentTaxReturn.first_sa_transcript = My first Self Assessment tax return - video transcript
 helpWithYourSelfAssessmentTaxReturn.help_completing = Help with completing and filing your tax return
 helpWithYourSelfAssessmentTaxReturn.watch_videos = Watch videos, get email alerts, take part in webinars and
 helpWithYourSelfAssessmentTaxReturn.learn_more = learn more about Self Assessment
 helpWithYourSelfAssessmentTaxReturn.how_to_tailor = How to tailor your return
 helpWithYourSelfAssessmentTaxReturn.tailor_tax_video = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = Video transcript - How do I tailor my Self Assessment tax return?
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_transcript = How do I tailor my Self Assessment tax return? - video transcript
 helpWithYourSelfAssessmentTaxReturn.self_employed = If you are self-employed
 helpWithYourSelfAssessmentTaxReturn.self_employed_video = Video - Your self-employed tax return (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.self_employed_transcript = Your self-employed tax return - video transcript
 helpWithYourSelfAssessmentTaxReturn.income_from_property_header = If you have income from property
-helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Video - If I have income from property, how do I fill in my tax return? (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = Video transcript – If I have income from property, how do I fill in my tax return?
+helpWithYourSelfAssessmentTaxReturn.income_from_property_video = Video - If I have income from property - how do I fill in my tax return? (opens in new tab)
+helpWithYourSelfAssessmentTaxReturn.income_from_property_transcript_link = If I have income from property, how do I fill in my tax return? - video transcript
 helpWithYourSelfAssessmentTaxReturn.more_help_with_sa = More help with Self Assessment
 helpWithYourSelfAssessmentTaxReturn.who_must_file = Who must file a tax return
 helpWithYourSelfAssessmentTaxReturn.need_to_change = If you need to change your tax return
@@ -145,7 +341,7 @@ helpWithYourSelfAssessmentTaxReturn.video_transcript = - video transcript
 helpWithYourSelfAssessmentTaxReturn.why_have_i_been_sent_tax_return = Video - What to do if you’ve been sent a tax return? (opens in a new tab)
 helpWithYourSelfAssessmentTaxReturn.tailor_your_tax_return = Video - How do I tailor my Self Assessment tax return? (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.view.self_employed_tax_return = Video - Your self-employed tax return (opens in new tab)
-helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = Video transcript - How do I tailor my Self Assessment tax return?
+helpWithYourSelfAssessmentTaxReturn.tailor_tax_return_transcript = How do I tailor my Self Assessment tax return? - video transcript
 helpWithYourSelfAssessmentTaxReturn.help_with_record = More help with record keeping
 helpWithYourSelfAssessmentTaxReturn.business_records_if = Business records if you’re self-employed (opens in new tab)
 helpWithYourSelfAssessmentTaxReturn.keeping_pay = Keeping your pay and tax records (opens in new tab)
@@ -251,7 +447,7 @@ modular.viewingSaCalculation.list_ni_contributions = any class 2 and class 4 Nat
 modular.viewingSaCalculation.list_opens = (opens in new tab)
 modular.viewingSaCalculation.print_a_copy = You can print a copy of the calculation for your records.
 modular.viewingSaCalculation.viewing_return_calculation_video = Video - Viewing your Self Assessment tax return calculation (opens in new tab)
-modular.viewingSaCalculation.viewing_return_calculation_transcript = Video transcript – Viewing your Self Assessment tax return calculations
+modular.viewingSaCalculation.viewing_return_calculation_transcript = Viewing your Self Assessment tax return calculations - video transcript
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Modular - Basic record keeping
@@ -323,56 +519,62 @@ register_or_stopping.get_help = Get help with this page
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ Payment and Penalties
+#~~ Payments and Penalties
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-payment_and_penalties.title = Self Assessment: Payment and penalties
-payment_and_penalties.heading = Self Assessment: payment and penalties
-payment_and_penalties.help_page = Payment and penalties
-payment_and_penalties.when_to_pay = When to pay your Self Assessment tax bill
-payment_and_penalties.deadlines = The deadlines for paying are:
-payment_and_penalties.payment_balancing = 31 January {0} for your balancing payment. This is for tax year {1} to {2}
-payment_and_penalties.first_payment = 31 January {0} for your first payment on account. This is for tax year {1} to {2}
-payment_and_penalties.second_payment = 31 July {0} for your second payment on account. This is for tax year {1} to {2}
-payment_and_penalties.dont_wait = You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
-payment_and_penalties.understanding_payments = Understanding balancing payments and payments on account
-payment_and_penalties.how_to_pay_bill = How to pay your Self Assessment tax bill
-payment_and_penalties.make_sure = Make sure you pay HMRC by the deadline. You’ll be charged interest and may have to
-payment_and_penalties.pay_penalty_link = pay a penalty
-payment_and_penalties.late_payment = if your payment is late.
-payment_and_penalties.depends = The time you need to allow depends on how you pay.
-payment_and_penalties.no_longer = You can no longer pay at the Post Office.
-payment_and_penalties.read_info = Read detailed information about ways to pay your tax bill
-payment_and_penalties.how_do_i_pay_video = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
-payment_and_penalties.how_do_i_pay_transcript = Video transcript – How do I pay my Self Assessment tax bill?
-payment_and_penalties.budgeting_for_sa = Budgeting for your Self Assessment tax bill
-payment_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed
-payment_and_penalties.how_do_i_budget_video = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
-payment_and_penalties.how_do_i_budget_transcript = How do I budget for my Self Assessment tax bill? - video transcript
-payment_and_penalties.penalties = Penalties
-payment_and_penalties.penalty_showing = You’ll have a penalty showing on your account if you:
-payment_and_penalties.list_sent_late = use the online service to appeal a late filing penalty
-payment_and_penalties.list_paid_late = paid tax late
-payment_and_penalties.list_not_enough = didn’t pay enough tax
-payment_and_penalties.appeal_penalty = Appealing a penalty
-payment_and_penalties.appeal_if = You can appeal a penalty if you have a
-payment_and_penalties.excuse_link = reasonable excuse
-payment_and_penalties.you_must_appeal =. You must appeal within 30 days of the date the penalty was sent to you.
-payment_and_penalties.find_more = Find out more about Self Assessment penalties
-payment_and_penalties.interest_rates = Interest rates for late and early payments
-payment_and_penalties.sa_penalties_video = Video - Self Assessment penalties (opens in new tab)
-payment_and_penalties.sa_penalties_transcript = Self Assessment penalties - video transcript
-payment_and_penalties.penalties_interest = Your penalties and interest
-payment_and_penalties.conditional.you_can = You can:
-payment_and_penalties.conditional.appeal_sa_late = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
-payment_and_penalties.conditional.appeal_filling = use form SA370 to appeal any late filing or late payment penalty
-payment_and_penalties.conditional.or = or
-payment_and_penalties.conditional.write_hmrc = write to HMRC
-payment_and_penalties.conditional.reasons_for = to appeal any late filing or late payment penalty
-payment_and_penalties.conditional.happens_next = What happens next
-payment_and_penalties.conditional.send_contact = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
-payment_and_penalties.conditional.no_penalties = You have no penalties or interest to display.
-payment_and_penalties.conditional.view_penalties = View your Self Assessment penalties
-payment_and_penalties.conditional.view_interest = View your Self Assessment interest
+payments_and_penalties.title = Payments and penalties for Self Assessment
+payments_and_penalties.heading = Payments and penalties for Self Assessment
+payments_and_penalties.help_page = Payment and penalties
+payments_and_penalties.when_to_pay = When to pay your Self Assessment tax bill
+payments_and_penalties.deadlines = The deadlines for paying are:
+payments_and_penalties.payment_balancing = 31 January {0} for your balancing payment. This is for tax year {1} to {2}
+payments_and_penalties.first_payment = 31 January {0} for your first payment on account. This is for tax year {1} to {2}
+payments_and_penalties.second_payment = 31 July {0} for your second payment on account. This is for tax year {1} to {2}
+payments_and_penalties.dont_wait = You do not have to wait until 31 January or 31 July to pay. If you do, you might miss the deadline, depending on how you pay.
+payments_and_penalties.understanding_payments = Understanding balancing payments and payments on account
+payments_and_penalties.how_to_pay_bill = How to pay your Self Assessment tax bill
+payments_and_penalties.make_sure = Make sure you pay HMRC by the deadline. You’ll be charged interest and may have to
+payments_and_penalties.pay_penalty_link = pay a penalty
+payments_and_penalties.late_payment = if your payment is late.
+payments_and_penalties.depends = The time you need to allow depends on how you pay.
+payments_and_penalties.no_longer = You can no longer pay at the Post Office.
+payments_and_penalties.read_info = Read detailed information about ways to pay your tax bill
+payments_and_penalties.how_do_i_pay_video = Video - How do I pay my Self Assessment tax bill? (opens in new tab)
+payments_and_penalties.how_do_i_pay_transcript = How do I pay my Self Assessment tax bill? - video transcript
+payments_and_penalties.budgeting_for_sa = Budgeting for your Self Assessment tax bill
+payments_and_penalties.budget_taxbill = Budget for your tax bill if you’re self-employed
+payments_and_penalties.how_do_i_budget_video = Video - How do I budget for my Self Assessment tax bill? (opens in new tab)
+payments_and_penalties.how_do_i_budget_transcript = How do I budget for my Self Assessment tax bill? - video transcript
+payments_and_penalties.how_to_find_out_about_sa_video = Video - How to find out about Self Assessment penalties (opens in new tab)
+payments_and_penalties.penalties = Penalties
+payments_and_penalties.penalty_showing = You’ll have a penalty showing on your account if you:
+payments_and_penalties.list_sent_late = use the online service to appeal a late filing penalty
+payments_and_penalties.list_paid_late = paid tax late
+payments_and_penalties.list_not_enough = didn’t pay enough tax
+payments_and_penalties.appeal_penalty = Appealing a penalty
+payments_and_penalties.appeal_if = You can appeal a penalty if you have a
+payments_and_penalties.excuse_link = reasonable excuse
+payments_and_penalties.you_must_appeal =. You must appeal within 30 days of the date the penalty was sent to you.
+payments_and_penalties.find_more = Find out more about Self Assessment penalties
+payments_and_penalties.interest_rates = Interest rates for late and early payments
+payments_and_penalties.sa_penalties_video = Video - Self Assessment penalties (opens in new tab)
+payments_and_penalties.sa_penalties_transcript = Self Assessment penalties - video transcript
+payments_and_penalties.penalties_interest = Your penalties and interest
+
+payments_and_penalties.view_sa_penalties =view your Self Assessment penalties
+payments_and_penalties.view_sa_interest =view your Self Assessment interest
+payments_and_penalties.interest_rates_for_late_or_early = interest rates for late and early payments (opens in new tab)
+
+payments_and_penalties.conditional.you_can = You can:
+payments_and_penalties.conditional.appeal_sa_late = appeal a £100 Self Assessment late filing penalty online (opens in new tab)
+payments_and_penalties.conditional.appeal_filling = use form SA370 to appeal any late filing or late payment penalty
+payments_and_penalties.conditional.or = or
+payments_and_penalties.conditional.write_hmrc = write to HMRC
+payments_and_penalties.conditional.reasons_for = to appeal any late filing or late payment penalty
+payments_and_penalties.conditional.happens_next = What happens next
+payments_and_penalties.conditional.send_contact = HMRC will send you contact details for the office dealing with your case within 15 days of receiving your appeal.
+payments_and_penalties.conditional.no_penalties = You have no penalties or interest to display.
+payments_and_penalties.conditional.view_penalties = View your Self Assessment penalties
+payments_and_penalties.conditional.view_interest = View your Self Assessment interest
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Expenses
@@ -384,8 +586,8 @@ expenses.allowable_expenses = Include all of your allowable expenses for the tax
 expenses.send_proof = You do not need to send proof of your expenses when you file your tax return.
 expenses.keep_proof = You should keep proof and records so that you can show them to HMRC if asked. You need to make sure your records are accurate.
 expenses.find_out_more = Find out more about allowable expenses if you’re self-employed
-expenses.what_expenses_video = Video - What expenses can I include in my Self Assessment tax return? (opens in new tab)
-expenses.what_expenses_transcript = Video transcript – What expenses can I include in my Self Assessment tax return?
+expenses.what_expenses_video = Video transcript – What expenses can I include in my Self Assessment tax return?
+expenses.what_expenses_transcript = What expenses can I include in my Self Assessment tax return? - video transcript
 expenses.simplified = Simplified expenses
 expenses.cannot_be_used = Simplified expenses cannot be used by limited companies or business partnerships involving a limited company.
 expenses.if_self_employed = If you’re self-employed, or a business partnership, you can choose to use simplified expenses to work out some of your expenses using flat rates instead of working out your actual business costs.
@@ -407,7 +609,7 @@ expenses.flat_rate_covers = The flat rate covers the whole cost of buying, runni
 expenses.claiming_travel = More help with claiming travel expenses
 expenses.travel_if = Travel expenses if you’re self-employed
 expenses.simplified_motoring_expenses = Simplified motoring expenses if you’re self employed
-expenses.motoring_expenses_video = Video - Claiming motoring expenses if you’re self-employed (opens in new tab)
+expenses.motoring_expenses_video = Video - Claiming motoring expenses if you’re self-employed
 expenses.motoring_expenses_transcript = Claiming motoring expenses if you’re self-employed - video transcript
 
 
@@ -547,6 +749,61 @@ epaye.change.emplyee_circumstances = Changes in employee circumstances
 #~~ Get started
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 epaye.get_started = Get started with PAYE for employers
+epaye.payroll_software = 1. Payroll software
+epaye.you_cannot_pay = You cannot pay your employees until you’ve installed payroll software.
+epaye.each_time_you_pay = Each time you pay an employee, the software will:
+epaye.notify_hmrc_bullet = notify HMRC
+epaye.calculate_what_you_need_bullet = calculate what you need to pay HMRC in tax and National Insurance
+epaye.you_can_use_either = You can use either:
+epaye.you_can_use_either_bullet1_1 = HMRC’s
+epaye.you_can_use_either_bullet1_2 = Basic PAYE Tools (BPT) (opens in new tab)
+epaye.you_can_use_either_bullet1_3 = software (it’s free)
+epaye.you_can_use_either_bullet2_1 = commercial payroll software (opens in new tab)
+epaye.you_can_use_either_bullet2_2 = (there are some free packages)
+epaye.paying_your_employees = 2. Paying your employees
+epaye.you_must_make_a_submission = You must make a submission through your payroll software each time you pay an employee.This is called a Full Payment Submission (FPS).
+epaye.you_must_submit_the_FPS = You must submit the FPS on or before the day you pay your employee, except
+epaye.you_can_submit_late_FPS_link = when you can submit a late FPS (opens in a new tab)
+epaye.if_you_do_not_pay_header = If you do not pay any employees
+epaye.if_you_do_not_pay = If you don’t pay any of your employees in a tax month, you still need to make a submission through your payroll software.
+epaye.instead_of_an_FPS = But instead of an FPS, you need to submit a
+epaye.instead_of_an_FPS_link = ’nil’ Employer Payment Summary (EPS) (opens in new tab)
+epaye.paying_hmrc = 3. Paying HMRC
+epaye.you_need_to_use = You need to use your accounts office reference when you pay HMRC.
+epaye.your_accounts_office_reference = Your accounts office reference is 13 characters, for example 123PA01234567. It’s different to your employer’s PAYE reference. You can find it on either:
+epaye.the_letter_from_bullet = the letter from HMRC when you first registered for PAYE
+epaye.the_paying_paye_bullet = the ’Paying PAYE electronically’ letter HMRC sends you at the start of each tax year (the ’P30B’)
+epaye.make_sure_to_use = Make sure to use the correct accounts office reference if you manage more than one payroll scheme.
+epaye.further_resources = Further resources
+epaye.further_resources_link1 = running your payroll (opens in new tab)
+epaye.further_resources_link2 = paying employers’ PAYE (opens in new tab)
+epaye.further_resources_link3 = Video - How do I use payroll software? (opens in new tab)
+epaye.further_resources_link4 = How do I use payroll software? - video transcript
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~ PAYE Get started transcript
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+how.payroll.software.title = How do I use payroll software? - video transcript
+how.payroll.software.transcript.heading = How do I use payroll software? - video transcript
+how.payroll.software.transcript.gov_uk = GOV.UK (opens in new tab)
+how.payroll.software.transcript.and_pick_a_software = and pick a software package.
+how.payroll.software.transcript.to_send_your = To send your reports using payroll software, first go to
+how.payroll.software.transcript.theyve_all_been = They’ve all been recognised by us and come with a user guide if you need more help.
+how.payroll.software.transcript.youll_need_to_enter = You’ll need to enter your employer details including your HMRC reference numbers, and your employees’ details including their National Insurance numbers. Next, register for a PAYE Online account on
+how.payroll.software.transcript.pay_your_employees = pay your employees, including their: monthly salary; weekly wage; hourly pay rate and number of hours worked.
+how.payroll.software.transcript.using_your_software = Using your software, you’re now ready to send us a Full Payment Submission (or FPS) on or before each payday.
+how.payroll.software.transcript.your_fps_tells_us = Your FPS tells us:
+how.payroll.software.transcript.list_item1 = what you’ve paid your employees
+how.payroll.software.transcript.list_item2 = any deductions you’ve made from their pay
+how.payroll.software.transcript.list_item3 = the total you’re due to pay HMRC
+how.payroll.software.transcript.list_item4 = about anyone who’s joined or left since your last report
+how.payroll.software.transcript.if_you_dont = if you don’t send your FPS reports on time you may be charged a penalty.
+how.payroll.software.transcript.one_more_thing = One more thing. You may need to send us an Employer Payment Summary if:
+how.payroll.software.transcript.youre_not_sending = you’re not sending an FPS because you’ve haven’t paid your employees
+how.payroll.software.transcript.youre_reducing = you’re reducing your PAYE payments to reclaim statutory payments to employees such as maternity pay
+how.payroll.software.transcript.youre_claiming_employement = you’re claiming Employment Allowance.
+how.payroll.software.transcript.for_more_information = For more information about payroll software and sending reports go to
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Remove
@@ -554,34 +811,31 @@ epaye.get_started = Get started with PAYE for employers
 epaye.remove = Remove PAYE for employers
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~ View, Check or Correct Submissions
+#~~ View or Correct Submissions
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-epaye.submissions.title = View, check or correct your submissions
-epaye.submissions.heading = View, check or correct your submissions
+epaye.submissions.title = View or correct your submissions
+epaye.submissions.heading = View or correct your submissions
 epaye.submissions.when_you_can_view_ = When you can view your submissions
 epaye.submissions.submissions_show_up_ = Submissions show up in your balance at different times depending on when you submit them.
-epaye.submissions.if_you_make_fps_on_time_ = If you make a Full Payment Submission (FPS) on time, your balance will be updated by the 12th of the next month.
-epaye.submissions.if_you_make_fps_on_time_10th = If you make a Full Payment Submission (FPS) on time, your balance will be updated by the 10th of the next month.
-epaye.submissions.if_you_make_fps_late_ = If you make a FPS late, see the
-epaye.submissions.gov_uk_guide_on_payroll = GOV.UK guide on payroll
-epaye.submissions.eps_between_20th_and_5th_ = If we receive an Employer Payment Summary (EPS) between the 20th and the 5th of the month, your balance will be updated by the 12th of the next month.
-epaye.submissions.eps_between_20th_and_5th_by_10th = If we receive an Employer Payment Summary (EPS) between the 20th and the 5th of the month, your balance will be updated by the 10th of the next month.
-epaye.submissions.eps_between_6th_and_19th_ = If we receive an EPS between the 6th and the 19th of the month, your balance will be updated within 1 day.
+epaye.submissions.if_you_make_fps_on_time_ = If you make a Full Payment Submission (FPS) on time, your balance will be updated by the 12th of the next month.
+epaye.submissions.if_you_make_fps_late_ = If you make an FPS late, see the
+epaye.submissions.gov_uk_guide_on_payroll_ = GOV.UK guide on payroll (opens in new tab)
+epaye.submissions.employer_payment_summary_ = Employer Payment Summary (EPS)
+epaye.submissions.receive_employer_payment_summary_ = If we receive an Employer Payment Summary (EPS):
+epaye.submissions.receive_employer_payment_summary_bullet1 = before the 10th of the month - you can view what you have claimed and the balance of what you owe by the 10th of the month
+epaye.submissions.receive_employer_payment_summary_bullet2 = later than the 10th, or for an earlier tax year - you can view what you have claimed and the balance of what you owe within 3 days
 epaye.submissions.your_payments_to_hmrc = Your payments to HMRC
 epaye.submissions.payments_you_made_ = Payments you made to HMRC can take up to 6 working days to appear in your balance.
 epaye.submissions.check_your_paye_submissions = Check your PAYE submissions
 epaye.submissions.email_confirmations = Email confirmations
-epaye.submissions.we_send_an_email_ = We send an email to your Government Gateway address each time we receive a Full Payment Submission (FPS) or Employer Payment Summary (EPS).
-epaye.submissions.your_government_gateway_email_ = Your Government Gateway email is
-epaye.submissions.change_address_link = Change your Government Gateway email address
-epaye.submissions.we_can_send_ = We can send you an email each time we receive a Full Payment Submission (FPS) or Employer Payment Summary (EPS), if you
-epaye.submissions.add_an_email = add an email
-epaye.submissions.to_your_government_gateway_account = to your Government Gateway account.
+epaye.submissions.we_send_an_email_ = We send an email to your HMRC sign address each time we receive a Full Payment Submission (FPS) or Employer Payment Summary (EPS).
+epaye.submissions.your_hmrc_email_ = Your HMRC sign in email address is <b>user@test.com</b>.
+epaye.submissions.change_address_link = Change your HMRC sign email address
 epaye.submissions.payroll_software_confirmations = Payroll software confirmations
 epaye.submissions.you_can_also_check_ = You can also check or view submissions in HMRC’s Basic PAYE Tools (BPT) software.
 epaye.submissions.to_check_if_hmrc_received_ = To check if HMRC received a submission, select ‘View successful submissions’ from your employer homepage.
 epaye.submissions.to_view_a_specific_submission_ = To view a specific submission, follow these instructions in the
-epaye.submissions.user_guide = Basic PAYE Tools user guide
+epaye.submissions.user_guide = Basic PAYE Tools user guide (opens in new tab)
 epaye.submissions.but_select_ = , but select ‘View’ instead of ‘Change’.
 epaye.submissions.contact_your_software_provider_ = Contact your software provider if you do not use BPT.
 epaye.submissions.correct_a_paye_submission = Correct a PAYE submission
@@ -589,11 +843,10 @@ epaye.submissions.you_must_use_your_payroll_software_ = You must use your payrol
 epaye.submissions.submissions_for_the_current_tax_year = Submissions for the current tax year
 epaye.submissions.you_can_make_changes_ = You can make changes to submissions for the current tax year until 19 April.
 epaye.submissions.follow_the = Follow the
-epaye.submissions.if_you_use_ = if you use HMRC’s Basic PAYE Tools software (BPT).
+epaye.submissions.if_you_use_ =  if you use HMRC’s Basic PAYE Tools software (BPT).
 epaye.submissions.submissions_from_an_earlier_tax_year = Submissions from an earlier tax year
 epaye.submissions.if_you_spot_an_error_ = If you have made an error in a submission after that tax year has ended, you must submit an Earlier Year Update if it is after April 19.
-epaye.submissions.find_out_more_wrong_pay = Find out more in the section ‘if you’ve reported the wrong pay or deductions’
-
+epaye.submissions.find_out_more_wrong_pay = Find out more in the section ‘if you’ve reported the wrong pay or deductions’ (opens  in new tab)
 
 #######################################################
 ##  Corporation Tax
@@ -1025,7 +1278,6 @@ basic.record.keeping.transcript.paragraph7 = Make sure you store your records fo
 basic.record.keeping.transcript.paragraph8 = You can find out more on
 basic.record.keeping.transcript.paragraph8_2 = and in our other helpful videos on YouTube.
 
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ Add a tax transcript
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1177,7 +1429,7 @@ btaHelp.how_i_add_a_tax = Video - How do I add a tax to my business tax account?
 btaHelp.how_i_add_a_tax_transcript = How do I add a tax to my business tax account? - video transcript
 btaHelp.changing_your_phone_number = Changing your phone number and other account details
 btaHelp.pay_taxbill_video = Video - Help if you can’t pay your tax bill (opens in new tab)
-btaHelp.pay_taxbill_transcript = Help if you can’t pay your tax bill - video transcript
+btaHelp.pay_taxbill_transcript = How to get help when you can’t pay your tax bill - Video Transcript
 
 
 ###########################################
@@ -1201,7 +1453,7 @@ help.cant.pay.taxbill.transcript.paragraph6 = We also work with Money Helper. Th
 help.cant.pay.taxbill.transcript.paragraph7 = Remember we’re here to help.
 help.cant.pay.taxbill.transcript.paragraph8 =You can find out more on
 help.cant.pay.taxbill.transcript.paragraph9 = and watch our other helpful videos on YouTube.
-
+help.cant.pay.taxbill.transcript.paragraph9_1 = YouTube
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~ New tailor your SA tax return transcript
@@ -1396,3 +1648,189 @@ help.changingDetails.moreHelp.linkText = Get help with HMRC services if you have
 #~~ Misc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 help.transcripts.missing = We will publish a transcript for this video in August 2021.
+
+########## 2025 Corporation Tax new help and contact changes start ##########
+
+help_and_contact.register_add_corporation_tax = Register or add Corporation Tax
+help_and_contact.how_to_pay_corporation_tax = How to pay and deadlines
+help_and_contact.closing_limited_company = Closing a limited company
+help_and_contact.get_ct_utr = Get a copy of your Unique Taxpayer Reference (UTR)
+
+ctax.register.add.heading = Register or add Corporation Tax
+ctax.register.add.section1.title = Register for Corporation Tax with HMRC
+ctax.register.add.section1.p1.preText = When you have
+ctax.register.add.section1.p1.linkText = registered your company (opens in new tab)
+ctax.register.add.section1.p1.postText = with Companies House, you must
+ctax.register.add.section1.p2.linkText = register for Corporation Tax
+ctax.register.add.section1.p2.postText = with HM Revenue and Customs (HMRC) within 3 months of being active.
+ctax.register.add.section1.p4 = Being active for Corporation Tax purposes includes:
+ctax.register.add.section1.list_item1 = buying
+ctax.register.add.section1.list_item2 = selling
+ctax.register.add.section1.list_item3 = advertising
+ctax.register.add.section1.list_item4 = renting a property
+ctax.register.add.section1.list_item5 = employing someone
+ctax.register.add.section1.list_item6 = similar trading activity
+ctax.register.add.section1.p5 = Check if you’re unsure what counts as being active (opens in new tab)
+ctax.register.add.section1.p6 = You must also register your company for Corporation Tax with HMRC if your company is registered as dormant, but is now active.
+ctax.register.add.section1.inset1 = You may get a penalty if you register late.
+
+ctax.register.add.section2.title = What you need to tell HMRC when registering for Corporation Tax
+ctax.register.add.section2.p1 = You’ll need your company’s 10-digit Unique Taxpayer Reference (UTR).
+ctax.register.add.section2.p2 = You usually get your UTR from HMRC within a few days of registering your company with Companies House.
+ctax.register.add.section2.p3.linkText = Request your company’s Unique Taxpayer Reference
+ctax.register.add.section2.p3.postLink = online if you did not get one after registering your company.
+ctax.register.add.section2.p4 = You’ll also need:
+ctax.register.add.section2.list_item1 = your company’s registration number (CRN)
+ctax.register.add.section2.list_item2.preText = the date you started to be active - your company’s first
+ctax.register.add.section2.list_item2.linkText = accounting period (opens in new tab)
+ctax.register.add.section2.list_item2.postText = will start from this date
+ctax.register.add.section2.list_item3 = the date your annual accounts are made up to (the accounts preparation date)
+
+ctax.register.add.section3.title = What happens next
+ctax.register.add.section3.p1 = HMRC will tell you the deadline for paying Corporation Tax.
+ctax.register.add.section3.p2.preText = You must file a
+ctax.register.add.section3.p2.linkText = Company Tax Return (opens in new tab),
+ctax.register.add.section3.p2.postText = even if you make a loss or have no Corporation Tax to pay.
+
+ctax.register.add.section4.title = Add Corporation Tax to your business tax account
+ctax.register.add.section4.p1.linkText = Add Corporation Tax to your business tax account
+ctax.register.add.section4.p1.postText = to:
+ctax.register.add.section4.list_item1 = file your Company Tax return online
+ctax.register.add.section4.list_item2 = make a payment online
+
+ctax.register.add.section5.title = Tell HMRC you are no longer trading
+ctax.register.add.section5.p1.preText = To stop paying Corporation Tax, you must
+ctax.register.add.section5.p1.linkText = close the limited company (opens in new tab).
+
+ctax.howtopay.heading = How to pay and deadlines
+ctax.howtopay.section1.title = Deadlines
+ctax.howtopay.section1.p1 = The deadline for your payment will depend on your taxable profits.
+
+ctax.howtopay.section2.title = If your taxable profits are up to £1.5 million
+ctax.howtopay.section2.p1 = You must pay your Corporation Tax 9 months and 1 day after the end of your accounting period. Your accounting period is usually your financial year, but you may have 2 accounting periods in
+ctax.howtopay.section2.p1.linkText = the year you set up your company (opens in new tab).
+
+ctax.howtopay.section3.title = If your taxable profits are more than £1.5 million
+ctax.howtopay.section3.p1 = You must
+ctax.howtopay.section3.p1.linkText = pay your Corporation Tax in instalments (opens in new tab).
+ctax.howtopay.section3.p2 = Make sure you pay HM Revenue and Customs (HMRC) by the deadline. The may
+ctax.howtopay.section3.p2.linkText = charge you interest (opens in new tab)
+ctax.howtopay.section3.p3 = if you do not pay on time. They will
+ctax.howtopay.section3.p3.linkText = pay you interest (opens in new tab)
+ctax.howtopay.section3.p4 = if you pay your tax early.
+
+ctax.howtopay.section4.title = Ways to pay
+ctax.howtopay.section4.p1 = You can no longer pay at the Post Office. You cannot pay Corporation Tax by post.
+ctax.howtopay.section4.p2 = The time you need to allow depends on how you pay.
+ctax.howtopay.section4.p3.linkText = Read detailed information about how to pay your Corporation Tax bill (opens in new tab)
+
+ctax.howtopay.section5.p1.linkText = Video - Paying your Corporation Tax bill (opens in new tab)
+ctax.howtopay.section5.p2.linkText = Paying your Corporation Tax bill - video transcript
+
+ctax.closinglimitedcompany.heading = Closing a limited company
+ctax.closinglimitedcompany.p1 = You usually need to have the agreement of your company’s directors and shareholders to close a limited company.
+ctax.closinglimitedcompany.p2 = The way you close the company depends on whether it can pay its bills or not, that is, if it is ‘solvent’ or ‘insolvent’.
+ctax.closinglimitedcompany.p3.preText = Your company might be forced into
+ctax.closinglimitedcompany.p3.linkText = compulsory liquidation (opens in a new tab)
+ctax.closinglimitedcompany.p3.postText = if you do not pay creditors.
+
+ctax.closinglimitedcompany.section2.title = Dormant companies
+ctax.closinglimitedcompany.section2.p1 = You do not have to close your company if it’s no longer trading. You can let it become ‘dormant’ for tax as long as it’s not:
+ctax.closinglimitedcompany.list_item1 = carrying on business activity
+ctax.closinglimitedcompany.list_item2 = trading
+ctax.closinglimitedcompany.list_item3 = receiving income
+ctax.closinglimitedcompany.section2.p2 = Your company will still be registered at Companies House.
+ctax.closinglimitedcompany.section2.p3 = Find out more about closing a limited company (opens in a new tab)
+
+ctax.getctutr.heading = Ask for a copy of your Corporation Tax UTR
+ctax.getctutr.p1 = You can use an online service to ask for a copy of your Corporation Tax Unique Taxpayer Reference (UTR).
+ctax.getctutr.p2 = We will send a copy of it by post to the company’s registered address as shown on Companies House. It’s sent by post to keep your details secure.
+ctax.getctutr.p3 = You will need your:
+ctax.getctutr.list_item1 = company registration number
+ctax.getctutr.list_item2 = registered company name
+ctax.getctutr.p4 = Ask for a copy of your Corporation Tax UTR (opens in a new tab)
+
+########## 2025 Corporation Tax new help and contact changes end ###########
+
+
+########## 2025 Contact HMRC changes start ##########
+help_and_contact.contact_hmrc.nav = Contact HMRC
+
+contact.hmrc.heading = Contact HMRC
+contact.hmrc.link1 = Contact HMRC about Self Assessment (opens in new tab)
+contact.hmrc.link2 = Contact HMRC about VAT (opens in new tab)
+contact.hmrc.link3 = Contact HMRC about PAYE for employers (opens in new tab)
+contact.hmrc.link4 = Contact HMRC about Corporation Tax (opens in new tab)
+contact.hmrc.link5 = Contact HMRC about Making Tax Digital for VAT (opens in new tab)
+
+########## 2025 Contact HMRC changes end ##########
+
+########## 2025 PAYE changes start ##########
+help_and_contact.paye_stop_being_an_employer = If you stop being an employer
+help_and_contact.paye_changes_employee_circumstances = Changes in employee circumstances
+help_and_contact.paye_cis_refunds = PAYE and CIS refunds
+
+paye.stop.employer.heading = If you stop being an employer
+paye.stop.employer.section1.p1 = You need to tell HM Revenue and Customs (HMRC) straight away if your business stops employing people.
+paye.stop.employer.section1.p2 = You’ll need to close your PAYE scheme and submit a final payroll return.
+
+paye.stop.employer.section2.title = If you temporarily stop employing staff
+paye.stop.employer.section2.p1 = Your PAYE scheme continues to run if you stop employing staff for less than a whole tax year (for example, if you run a seasonal business). You don’t need to give your employees a P45 if you keep them on your payroll.
+
+paye.stop.employer.section3.title = Mergers and successions
+paye.stop.employer.section3.p1.preText = The rules are different if you stop employing staff because
+paye.stop.employer.section3.p1.linkText = your business merges or changes ownership (opens in a new tab).
+paye.stop.employer.section3.p2.preText = Find out more about
+paye.stop.employer.section3.p2.linkText = stopping being an employer (opens in a new tab).
+
+
+paye.changes.circumstance.heading = Changes in employee circumstances
+paye.changes.circumstance.section1.title = Get maternity or other parental leave pay in advance
+paye.changes.circumstance.section1.p1.preText = You must allow your employees to take
+paye.changes.circumstance.section1.p1.linkText = paid paternal leave (opens in new tab)
+paye.changes.circumstance.section1.p1.postText = if they have children or adopt.
+paye.changes.circumstance.section1.p2.preText = You can
+paye.changes.circumstance.section1.p2.linkText = reclaim the payments (opens in new tab)
+paye.changes.circumstance.section1.p2.postText = from HMRC after you’ve made them.
+paye.changes.circumstance.section1.p3.preText = You can
+paye.changes.circumstance.section1.p3.linkText = ask HMRC to refund you before you make the payments (opens in new tab)
+
+paye.changes.circumstance.section2.title = Sending employees to work abroad
+paye.changes.circumstance.section2.p1.preText = Complete
+paye.changes.circumstance.section2.p1.linkText = form CA3821
+paye.changes.circumstance.section2.p1.postText = the first time you send employees.
+paye.changes.circumstance.section2.p2.preText = And complete
+paye.changes.circumstance.section2.p2.linkText = form CA3822
+paye.changes.circumstance.section2.p2.postText = for each individual employee you send.
+
+paye.changes.circumstance.section3.title = Get HMRC to pay for an employee tax refund
+paye.changes.circumstance.section3.p1 = If an employee has paid too much PAYE you may need to refund them.
+paye.changes.circumstance.section3.p2 = Take the refund out of your next payment to HMRC.
+paye.changes.circumstance.section3.p3.preText = Or
+paye.changes.circumstance.section3.p3.linkText = ask HMRC to reimburse you
+paye.changes.circumstance.section3.p3.postText = if the refund is bigger than your next payment.
+
+paye.cis.refunds.heading = PAYE refunds and Construction Industry Scheme (CIS) refunds
+paye.cis.refunds.section1.title = PAYE refunds
+paye.cis.refunds.section1.p1 = If HMRC owes you money for employer’s PAYE, you can deduct the amount that you are owed from your next employer’s PAYE payment to HMRC.
+paye.cis.refunds.section1.p2 = You do not need to tell HMRC.
+paye.cis.refunds.section1.p3 = If the refund is because you made a mistake in a payroll submission, you must correct the submission before you adjust your payment to HMRC.
+
+paye.cis.refunds.section2.title = Apply for a refund by post
+paye.cis.refunds.section2.p1 = You can also request a refund by post.
+paye.cis.refunds.section2.p2 = It takes several months for HMRC to process refund requests. It is faster to deduct the refund from your next employer’s PAYE payment.
+paye.cis.refunds.section2.p3 = You will only get a refund if you do not owe money for other taxes.
+paye.cis.refunds.section2.p4 = Write to the following address, including details of the bank account you want the refund to go to:
+paye.cis.refunds.section2.p5 = National Insurance Contributions and Employers Office
+paye.cis.refunds.section2.p6 = HM Revenue and Customs
+paye.cis.refunds.section2.p7 = BX9 1BX
+paye.cis.refunds.section2.p8 = United Kingdom
+paye.cis.refunds.section2.linkText = More about refunds (opens in new tab)
+
+paye.cis.refunds.section3.title = CIS refunds
+paye.cis.refunds.section3.p1 = If you are a limited company that acts as a subcontractor under the Construction Industry Scheme (CIS) and your CIS account is in credit at the end of the year, you can request a repayment.
+paye.cis.refunds.section3.p2 = We aim to process repayments within 25 working days of receiving it, if we agree with your claim.
+paye.cis.refunds.section3.p3 = Do not call unless it has been more than 40 working days, as we may still be considering your claim.
+paye.cis.refunds.section3.linkText = How to claim a CIS refund (opens in new tab)
+
+########## 2025 PAYE changes END ##########
