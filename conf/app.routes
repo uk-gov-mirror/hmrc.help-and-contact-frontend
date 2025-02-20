@@ -12,4 +12,5 @@ GET        /unauthorised                               controllers.UnauthorisedC
 
 GET        /                                           controllers.HelpAndContactController.mainPage
 GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)
+GET        /corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading   controllers.RedirectController.redirectToRegister
 GET        /*pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
