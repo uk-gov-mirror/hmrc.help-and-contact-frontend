@@ -85,7 +85,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "find-out-more-link",
         "Find out more about registering for Self Assessment online",
-        "/business-account/help/registering-or-stopping"
+        "/business-account/help/self-assessment/register-or-stopping"
       )
       assertLinkById(
         doc,
@@ -141,7 +141,7 @@ class HelpWithYourSelfAssessmentTaxReturnViewSpec extends ViewBehaviours {
         doc,
         "how-to-pay-sa",
         "How to pay your Self Assessment",
-        "/business-account/help/payments-and-penalties"
+        "/business-account/help/self-assessment/payment-and-penalties"
       )
       assertLinkById(
         doc,

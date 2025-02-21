@@ -78,7 +78,7 @@ object PageType {
     val name = "view-or-correct-your-submissions"
     val messageKey = "help_and_contact.view_or_correct_submissions"
     val category = HelpCategory.Epaye
-    val route = "epaye/view-check-correct-submissions"
+    val route = "check-submissions"
   }
 
 
@@ -129,7 +129,7 @@ object PageType {
     val name = "changes-in-employee-circumstances"
     val messageKey = "help_and_contact.paye_changes_employee_circumstances"
     val category = HelpCategory.Epaye
-    val route = "epaye/change-employee-circumstances"
+    val route = "change-employee-circumstances"
   }
 
   case object PayeCisRefunds extends PageType {
