@@ -136,7 +136,7 @@ object PageType {
     val name = "paye-and-cis-refunds"
     val messageKey = "help_and_contact.paye_cis_refunds"
     val category = HelpCategory.Epaye
-    val route = "refunds"
+    val route = "epaye/refunds"
   }
 
   case object PaymentsAndPenalties extends PageType {

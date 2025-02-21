@@ -21,7 +21,15 @@ import play.api.mvc._
 
 @Singleton
 class RedirectController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
-  def redirectToRegister = Action {
+  def redirectToRegisterAdd = Action {
     Redirect("/business-account/help/register-add-corporation-tax", MOVED_PERMANENTLY)
+  }
+
+  def redirectToEpayeRefunds = Action {
+    Redirect("/business-account/help/epaye/refunds", MOVED_PERMANENTLY)
+  }
+
+  def redirectToEpayeGetStarted = Action {
+    Redirect("/business-account/help/epaye/get-started", MOVED_PERMANENTLY)
   }
 }

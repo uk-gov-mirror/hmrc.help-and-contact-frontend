@@ -72,7 +72,7 @@ class HelpAndContactViewSpec extends ViewBehaviours with GuiceOneAppPerSuite {
         ("nav-link-correcting-errors-on-returns", "Correcting errors on returns", "/business-account/help/correcting-errors-on-returns"),
         ("nav-link-get-started-paye", "Get started", "/business-account/help/epaye/get-started"),
         ("nav-link-view-or-correct-your-submissions", "View or correct your submissions", "/business-account/help/epaye/view-check-correct-submissions"),
-        ("nav-link-paye-and-cis-refunds", "PAYE and CIS refunds", "/business-account/help/refunds"),
+        ("nav-link-paye-and-cis-refunds", "PAYE and CIS refunds", "/business-account/help/epaye/refunds"),
         ("nav-link-changes-in-employee-circumstances", "Changes in employee circumstances", "/business-account/help/epaye/change-employee-circumstances"),
         ("nav-link-stop-being-an-employer", "If you stop being an employer", "/business-account/help/stop-being-an-employer"),
         ("nav-link-register-add-corporation-tax", "Register or add Corporation Tax", "/business-account/help/register-add-corporation-tax"),
