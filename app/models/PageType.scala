@@ -71,7 +71,7 @@ object PageType {
     val name = "get-started-paye"
     val messageKey = "help_and_contact.get_started"
     val category = HelpCategory.Epaye
-    val route = "epaye/get-started"
+    val route = "epaye"
   }
 
   case object ViewOrCorrectYourSubmissions extends PageType {
@@ -86,7 +86,7 @@ object PageType {
     val name = "register-add-corporation-tax"
     val messageKey = "help_and_contact.register_add_corporation_tax"
     val category = HelpCategory.CorporationTax
-    val route = "register-add-corporation-tax"
+    val route = "corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading"
   }
 
   case object HowToPayCT extends PageType {
@@ -136,7 +136,7 @@ object PageType {
     val name = "paye-and-cis-refunds"
     val messageKey = "help_and_contact.paye_cis_refunds"
     val category = HelpCategory.Epaye
-    val route = "epaye/refunds"
+    val route = "refunds"
   }
 
   case object PaymentsAndPenalties extends PageType {

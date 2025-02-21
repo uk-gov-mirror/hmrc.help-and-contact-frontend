@@ -10,10 +10,10 @@ GET        /this-service-has-been-reset                controllers.SessionExpire
 
 GET        /unauthorised                               controllers.UnauthorisedController.onPageLoad
 
-GET        /                                           controllers.HelpAndContactController.mainPage
+GET        /                                            controllers.HelpAndContactController.mainPage
 GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)
-GET        /corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading   controllers.RedirectController.redirectToRegisterAdd
-GET        /refunds                                     controllers.RedirectController.redirectToEpayeRefunds
-GET        /epaye                                       controllers.RedirectController.redirectToEpayeGetStarted
+GET        /epaye/refunds                               controllers.HelpAndContactController.renderPage(pageType: String = "refunds")
+GET        /epaye/get-started                           controllers.HelpAndContactController.renderPage(pageType: String = "epaye")
+GET        /register-add-corporation-tax                controllers.HelpAndContactController.renderPage(pageType: String = "corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading")
 
 GET        /*pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
