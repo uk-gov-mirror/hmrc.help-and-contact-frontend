@@ -109,9 +109,9 @@ trait ViewSpecBase extends SpecBase {
     if(exactUrl == true){
       assert(link.attr("href") == expectedUrl, s"\n\n Link $linkId does not expectedUrl $expectedUrl")
     } else {
-      assert(link.attr("href").contains(expectedUrl), s"\n\n Link $linkId does not contain expectedUrl $expectedUrl")
+      assert(link.attr("href").equals(expectedUrl), s"\n\n Link $linkId does not contain expectedUrl $expectedUrl")
     }
-    assert(link.attr("rel").contains("external") == expectedIsExternal, s"\n\n Link $linkId does not meet expectedIsExternal $expectedIsExternal")
+    assert(link.attr("rel").equals("external") == expectedIsExternal, s"\n\n Link $linkId does not meet expectedIsExternal $expectedIsExternal")
 
     assert(link.attr("target").contains("_blank") == expectedOpensInNewTab, s"\n\n Link $linkId does not meet expectedOpensInNewTab $expectedOpensInNewTab")
   }

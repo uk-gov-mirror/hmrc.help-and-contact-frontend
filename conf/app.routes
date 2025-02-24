@@ -10,6 +10,15 @@ GET        /this-service-has-been-reset                controllers.SessionExpire
 
 GET        /unauthorised                               controllers.UnauthorisedController.onPageLoad
 
-GET        /:pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
-GET        /                                           controllers.HelpAndContactController.mainPage
+GET        /                                            controllers.HelpAndContactController.mainPage
 GET        /transcript/:videoTitle                      controllers.TranscriptController.onPageLoad(videoTitle: String)
+
+GET        /epaye/refunds                               controllers.HelpAndContactController.renderPage(pageType: String = "refunds")
+GET        /paye-refund                                 controllers.HelpAndContactController.renderPage(pageType: String = "refunds")
+GET        /epaye/get-started                           controllers.HelpAndContactController.renderPage(pageType: String = "epaye")
+GET        /register-add-corporation-tax                controllers.HelpAndContactController.renderPage(pageType: String = "corporation-tax/register-or-tell-hmrc-you-are-no-longer-trading")
+GET        /epaye/view-check-correct-submissions        controllers.HelpAndContactController.renderPage(pageType: String = "check-submissions")
+GET        /latency                                     controllers.HelpAndContactController.renderPage(pageType: String = "check-submissions")
+GET        /epaye/change-employee-circumstances         controllers.HelpAndContactController.renderPage(pageType: String = "change-employee-circumstances")
+
+GET        /*pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
