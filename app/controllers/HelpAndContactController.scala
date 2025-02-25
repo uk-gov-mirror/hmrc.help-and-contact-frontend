@@ -55,7 +55,7 @@ class HelpAndContactController @Inject()(
           request.serviceInfoContent,
           dynamicContent,
           validPageType.name,
-          PageType.values
+          PageType.values.filter(_.showOnPage)
         ))
       case None =>
         NotFound(errorHandler.notFoundTemplate)
