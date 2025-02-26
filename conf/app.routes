@@ -20,5 +20,6 @@ GET        /register-add-corporation-tax                controllers.HelpAndConta
 GET        /epaye/view-check-correct-submissions        controllers.HelpAndContactController.renderPage(pageType: String = "epaye/check-submissions")
 GET        /epaye/latency                               controllers.HelpAndContactController.renderPage(pageType: String = "epaye/check-submissions")
 GET        /epaye/change-employee-circumstances         controllers.HelpAndContactController.renderPage(pageType: String = "change-employee-circumstances")
+GET        /help-with-making-tax-digital-for-income-tax controllers.HelpAndContactController.renderPage(pageType: String = "sign-up-for-mtd")
 
 GET        /*pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
