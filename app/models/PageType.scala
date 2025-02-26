@@ -78,7 +78,7 @@ object PageType {
     val name = "view-or-correct-your-submissions"
     val messageKey = "help_and_contact.view_or_correct_submissions"
     val category = HelpCategory.Epaye
-    val route = "check-submissions"
+    val route = "epaye/check-submissions"
   }
 
 
@@ -108,7 +108,6 @@ object PageType {
     val messageKey = "help_and_contact.get_ct_utr"
     val category = HelpCategory.CorporationTax
     val route = "ask-for-copy-of-your-corporation-tax-utr"
-
   }
 
   case object ContactHMRC extends PageType {
@@ -122,7 +121,7 @@ object PageType {
     val name = "stop-being-an-employer"
     val messageKey = "help_and_contact.paye_stop_being_an_employer"
     val category = HelpCategory.Epaye
-    val route = "stop-being-an-employer"
+    val route = "epaye/remove"
   }
 
   case object PayeChangeCircumstance extends PageType {
@@ -179,7 +178,7 @@ object PageType {
     val name = "sign-up-for-mtd"
     val messageKey = "help_and_contact.sign_up_for_mtd_for_income_tax_new_tab"
     val category = HelpCategory.SelfAssessment
-    val route = "https://www.gov.uk/guidance/sign-up-your-business-for-making-tax-digital-for-income-tax"
+    val route = "sign-up-for-mtd"
 
     override val externalUrl = Some("https://www.gov.uk/guidance/sign-up-your-business-for-making-tax-digital-for-income-tax")
   }
