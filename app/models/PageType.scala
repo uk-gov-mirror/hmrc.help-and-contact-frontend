@@ -121,7 +121,7 @@ object PageType {
     val name = "stop-being-an-employer"
     val messageKey = "help_and_contact.paye_stop_being_an_employer"
     val category = HelpCategory.Epaye
-    val route = "stop-being-an-employer"
+    val route = "epaye/remove"
   }
 
   case object PayeChangeCircumstance extends PageType {

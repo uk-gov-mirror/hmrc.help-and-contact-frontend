@@ -21,5 +21,5 @@ GET        /epaye/view-check-correct-submissions        controllers.HelpAndConta
 GET        /epaye/latency                               controllers.HelpAndContactController.renderPage(pageType: String = "epaye/check-submissions")
 GET        /epaye/change-employee-circumstances         controllers.HelpAndContactController.renderPage(pageType: String = "change-employee-circumstances")
 GET        /help-with-making-tax-digital-for-income-tax controllers.HelpAndContactController.renderPage(pageType: String = "sign-up-for-mtd")
-
+GET        /stop-being-an-employer                               controllers.HelpAndContactController.renderPage(pageType: String = "epaye/remove")
 GET        /*pageType                                  controllers.HelpAndContactController.renderPage(pageType: String)
