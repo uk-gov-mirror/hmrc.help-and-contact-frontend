@@ -1,7 +1,4 @@
-import com.typesafe.sbt.digest.Import._
-import com.typesafe.sbt.uglify.Import._
 import com.typesafe.sbt.web.Import._
-import net.ground5hark.sbt.concat.Import._
 import play.sbt.PlayImport.PlayKeys
 import play.sbt.routes.RoutesKeys
 import sbt.Keys._
@@ -46,7 +43,7 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.13.12",
+    scalaVersion := "2.13.16",
     isPublicArtefact := true
   )
   .configs(IntegrationTest)
