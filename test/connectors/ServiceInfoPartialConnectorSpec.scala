@@ -27,7 +27,8 @@ import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc.AnyContentAsEmpty
 import play.api.test.FakeRequest
 import play.twirl.api.Html
-import uk.gov.hmrc.http.{HeaderCarrier, HttpClient}
+import uk.gov.hmrc.http.{HeaderCarrier, HttpReads}
+import uk.gov.hmrc.http.client.{HttpClientV2, RequestBuilder}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -45,8 +46,10 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
     "a valid NavLink Content is received" should {
       "retrieve the correct Model" in {
-
-        when(mockHttpGet.GET[Option[NavContent]](eqTo(btaNavLinkUrl), any(), any())(any(), any(), any()))
+        import uk.gov.hmrc.http.HttpReads.Implicits._
+        
+        when(mockHttpClientV2.get(any())(any())).thenReturn(mockRequestBuilder)
+        when(mockRequestBuilder.execute[Option[NavContent]](any[HttpReads[Option[NavContent]]], any()))
           .thenReturn(Future.successful(Some(successResponseNavLinks)))
 
         whenReady(result) { response =>
@@ -57,7 +60,10 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
 
     "a BadRequest(400) exception occurs" should {
       "fail and return empty content" in {
-        when(mockHttpGet.GET[Option[NavContent]](eqTo(btaNavLinkUrl), any(), any())(any(), any(), any()))
+        import uk.gov.hmrc.http.HttpReads.Implicits._
+        
+        when(mockHttpClientV2.get(any())(any())).thenReturn(mockRequestBuilder)
+        when(mockRequestBuilder.execute[Option[NavContent]](any[HttpReads[Option[NavContent]]], any()))
           .thenReturn(Future.failed(new Exception))
 
         whenReady(result) { response =>
@@ -67,9 +73,10 @@ class ServiceInfoPartialConnectorSpec extends SpecBase with MockitoSugar with Be
     }
   }
 
-  val mockHttpGet: HttpClient = mock[HttpClient]
+  val mockHttpClientV2: HttpClientV2 = mock[HttpClientV2]
+  val mockRequestBuilder: RequestBuilder = mock[RequestBuilder]
 
-  object TestServiceInfoPartialConnector extends ServiceInfoPartialConnector(mockHttpGet, frontendAppConfig)
+  object TestServiceInfoPartialConnector extends ServiceInfoPartialConnector(mockHttpClientV2, frontendAppConfig)
 
   val serviceInfoPartialSuccess =
     Html(

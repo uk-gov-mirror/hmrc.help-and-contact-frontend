@@ -23,11 +23,13 @@ import handlers.ErrorHandler
 import javax.inject.Inject
 import play.api.i18n.I18nSupport
 import play.api.mvc.MessagesControllerComponents
+import scala.concurrent.{ExecutionContext, Future}
 import uk.gov.hmrc.play.bootstrap.frontend.controller.FrontendController
 import views.html.transcripts._
 import views.html.transcripts.ct.how_to_pay_corporation_tax
 
-class TranscriptController @Inject()(appConfig: FrontendAppConfig,
+class TranscriptController @Inject()(implicit ec: ExecutionContext,
+                                     appConfig: FrontendAppConfig,
                                      viewing_your_self_assessment_calculation: viewing_your_self_assessment_calculation,
                                      paying_your_self_assessment_tax_bill: paying_your_self_assessment_tax_bill,
                                      budgeting_your_self_assessment_tax_bill: budgeting_your_self_assessment_tax_bill,
@@ -61,7 +63,7 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
     extends FrontendController(controllerComponents)
     with I18nSupport {
 
-  def onPageLoad(videoTitle: String) = (authenticate andThen serviceInfo) { implicit request =>
+  def onPageLoad(videoTitle: String) = (authenticate andThen serviceInfo).async { implicit request =>
     val mapOfViews = Map(
       "viewing-your-self-assessment-calculation" -> viewing_your_self_assessment_calculation(appConfig)(
         request.serviceInfoContent
@@ -103,8 +105,8 @@ class TranscriptController @Inject()(appConfig: FrontendAppConfig,
     )
 
 
-    mapOfViews.get(videoTitle).fold(NotFound(errorHandler.notFoundTemplate)) { view =>
-      Ok(view)
+    mapOfViews.get(videoTitle).fold(errorHandler.notFoundTemplate(request).map(NotFound(_))) { view =>
+      Future.successful(Ok(view))
     }
   }
 }
