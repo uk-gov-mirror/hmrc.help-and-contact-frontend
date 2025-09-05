@@ -45,7 +45,7 @@
         serviceInfoContent: Option[Html] = None,
         fullWidth: Boolean = false,
         twoThirds: Boolean = false,
-        scriptsBlock: Option[Html] = None)(contentBlock: Html)(implicit request: Request[_], messages: Messages)
+        scriptsBlock: Option[Html] = None)(contentBlock: Html)(implicit request: RequestHeader, messages: Messages)
 
 @headerDefault = {
 @headerBlock.getOrElse {

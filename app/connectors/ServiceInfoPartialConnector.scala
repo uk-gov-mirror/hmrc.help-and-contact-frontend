@@ -19,20 +19,23 @@ package connectors
 import config.FrontendAppConfig
 import javax.inject.{Inject, Singleton}
 import models.requests.{AuthenticatedRequest, NavContent}
-import uk.gov.hmrc.http.{HeaderCarrier, HttpClient, HttpReadsInstances}
+import uk.gov.hmrc.http.{HeaderCarrier, HttpReadsInstances, StringContextOps}
+import uk.gov.hmrc.http.client.HttpClientV2
 import utils.LoggingUtil
 
 import scala.concurrent.{ExecutionContext, Future}
 
 
 @Singleton
-class ServiceInfoPartialConnector @Inject()(val http: HttpClient,
+class ServiceInfoPartialConnector @Inject()(val http: HttpClientV2,
                                             val config: FrontendAppConfig) extends HttpReadsInstances with LoggingUtil {
 
   lazy val btaNavLinksUrl: String = config.btaUrl + "/business-account/partial/nav-links"
 
   def getNavLinks[A]()(implicit hc: HeaderCarrier, ec: ExecutionContext, request: AuthenticatedRequest[A]): Future[Option[NavContent]] = {
-    http.GET[Option[NavContent]](s"$btaNavLinksUrl")
+    import uk.gov.hmrc.http.HttpReads.Implicits._
+    http.get(url"$btaNavLinksUrl")
+      .execute[Option[NavContent]]
       .recover {
         case e =>
           warnLog(s"[ServiceInfoPartialConnector][getNavLinks] - Unexpected error ${e.getMessage}")

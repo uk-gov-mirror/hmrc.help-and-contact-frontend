@@ -9,6 +9,7 @@ import uk.gov.hmrc.DefaultBuildSettings._
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
 import uk.gov.hmrc.sbtsettingkeys.Keys.isPublicArtefact
 import uk.gov.hmrc.versioning.SbtGitVersioning.autoImport.majorVersion
+import com.typesafe.sbt.uglify.Import._
 
 val appName = "help-and-contact-frontend"
 
@@ -74,6 +75,8 @@ lazy val microservice = Project(appName, file("."))
     ),
     // prevent removal of unused code which generates warning errors due to use of third-party libs
     uglifyCompressOptions := Seq("unused=false", "dead_code=false"),
+    uglifyOps := UglifyOps.singleFile,
+    uglifyMangle := false,
     pipelineStages := Seq(digest),
     // below line required to force asset pipeline to operate in dev rather than only prod
     pipelineStages in Assets := Seq(concat, uglify),
