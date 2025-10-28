@@ -55,9 +55,6 @@ lazy val microservice = Project(appName, file("."))
       base => Seq(base / "it")
     )).value,
     addTestReportOption(IntegrationTest, "int-test-reports"),
-    testGrouping in IntegrationTest := TestPhases.oneForkedJvmPerTest(
-      (definedTests in IntegrationTest).value
-    ),
     parallelExecution in IntegrationTest := false,
     javaOptions ++= Seq(
       "-Dlogger.resource=logback-test.xml"

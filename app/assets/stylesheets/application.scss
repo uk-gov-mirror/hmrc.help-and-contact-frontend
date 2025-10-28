@@ -2,7 +2,7 @@ $govuk-assets-path: "/business-account/help/assets/lib/govuk-frontend/govuk/asse
 $hmrc-assets-path: "/business-account/help/assets/lib/hmrc-frontend/hmrc/";
 $govuk-suppressed-warnings: "ie8";
 
-@import "lib/govuk-frontend/govuk/all";
+@import "lib/govuk-frontend/dist/govuk/all";
 @import "lib/hmrc-frontend/hmrc/all";
 
 .app-reference-number {
