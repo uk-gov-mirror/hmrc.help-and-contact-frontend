@@ -67,7 +67,7 @@
         <a href='@controllers.routes.TranscriptController.onPageLoad("cant-pay-taxbill")' class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener">@Messages("vat.payments_and_deadlines.how_to_get_help_transcript_link")</a>
     </div>
 
-    @components.sa_calculation()
+    @components.sa_calculation(appConfig: FrontendAppConfig)
 
     <h2 class="govuk-heading-m">@Messages("payments_and_penalties.budgeting_for_sa")</h2>
     <p class="govuk-body"><a class="govuk-link" href="@appConfig.getGovUrl("budgetForTaxbill")" target="_blank" id="budget-for-taxbill" rel="noreferrer noopener"

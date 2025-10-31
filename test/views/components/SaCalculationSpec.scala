@@ -22,7 +22,7 @@ import views.html.components.sa_calculation
 
 class SaCalculationSpec extends ViewBehaviours {
 
-  val view = sa_calculation()(messages)
+  val view = sa_calculation(appConfig = frontendAppConfig)(messages)
 
   "Self Assessment Expenses view" must {
 
