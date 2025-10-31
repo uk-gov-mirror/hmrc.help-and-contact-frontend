@@ -52,9 +52,9 @@ class PageTypeResolverService @Inject()(
     case p@PageType.PayeChangeCircumstance => paye_change_circumstance(p.name)(messages)
     case p@PageType.PayeStopEmployer => paye_stop_employer(p.name)(messages)
     case p@PageType.RegisterAddCT => ctax_register_add(p.name)(messages)
-    case p@PageType.HowToPayCT => ctax_how_to_pay(p.name)(messages)
-    case p@PageType.ClosingLimitedCompanyCT => ctax_closing_limited_company(p.name)(messages)
-    case p@PageType.GetUtrCT => ctax_ask_utr_corporation_tax(p.name)(messages)
+    case p@PageType.HowToPayCT => ctax_how_to_pay(p.name, appConfig)(messages)
+    case p@PageType.ClosingLimitedCompanyCT => ctax_closing_limited_company(p.name, appConfig)(messages)
+    case p@PageType.GetUtrCT => ctax_ask_utr_corporation_tax(p.name, appConfig)(messages)
     case p@PageType.ContactHMRC => contact_hmrc(p.name, appConfig)(messages)
   }
 }

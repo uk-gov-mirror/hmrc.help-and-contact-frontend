@@ -30,7 +30,7 @@ class registerDeregisterForVatViewSpec extends ViewBehaviours {
 
   def createView: () => HtmlFormat.Appendable = {
 
-    () => register_or_deregister(PageType.RegisterOrDeregisterVAT.route)(messages)
+    () => register_or_deregister(PageType.RegisterOrDeregisterVAT.route, frontendAppConfig)(messages)
   }
 
   "Register or Deregister for VAT view" must {

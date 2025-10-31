@@ -23,7 +23,7 @@ import views.html.vat.correcting_errors_on_returns
 
 class CorrectingErrorsOnReturns extends ViewBehaviours {
 
-  val view = correcting_errors_on_returns(PageType.CorrectingErrorsOnReturns.name)(messages)
+  val view = correcting_errors_on_returns(PageType.CorrectingErrorsOnReturns.name, frontendAppConfig)(messages)
 
   "VAT Correcting Errors On Returns view" must {
 

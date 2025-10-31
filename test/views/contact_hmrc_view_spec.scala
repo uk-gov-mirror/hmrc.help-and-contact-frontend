@@ -28,7 +28,7 @@ class ContactHMRCViewSpec extends ViewBehaviours {
   val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
 
   def createView(): () => HtmlFormat.Appendable =
-    () =>  contact_hmrc.apply(PageType.ContactHMRC.name)(messages)
+    () =>  contact_hmrc.apply(PageType.ContactHMRC.name, frontendAppConfig)(messages)
 
 
   "Contact HMRC view" must {

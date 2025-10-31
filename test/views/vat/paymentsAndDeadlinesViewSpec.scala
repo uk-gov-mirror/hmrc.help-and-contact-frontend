@@ -23,7 +23,7 @@ import views.html.vat.how_to_pay_vat_and_deadlines
 
 class HowToPayVatAndDeadlines extends ViewBehaviours {
 
-  val view = how_to_pay_vat_and_deadlines(PageType.HowToPayVatAndDeadlines.name)(messages)
+  val view = how_to_pay_vat_and_deadlines(PageType.HowToPayVatAndDeadlines.name, frontendAppConfig)(messages)
 
   "How to pay VAT and deadlines view" must {
 

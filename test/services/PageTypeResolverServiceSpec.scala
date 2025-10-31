@@ -107,7 +107,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.HowToAddTax
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.general.how_to_add_tax(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.general.how_to_add_tax(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -115,7 +115,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.RegisterOrDeregisterVAT
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.vat.register_or_deregister(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.vat.register_or_deregister(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -123,7 +123,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.HowToPayVatAndDeadlines
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.vat.how_to_pay_vat_and_deadlines(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.vat.how_to_pay_vat_and_deadlines(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -131,7 +131,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.CorrectingErrorsOnReturns
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.vat.correcting_errors_on_returns(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.vat.correcting_errors_on_returns(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -139,7 +139,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.GetStarted
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.epaye.epaye_get_started(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.epaye.epaye_get_started(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -188,7 +188,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.HowToPayCT
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_how_to_pay(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_how_to_pay(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -196,7 +196,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.ClosingLimitedCompanyCT
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_closing_limited_company(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_closing_limited_company(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
@@ -204,7 +204,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.GetUtrCT
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_ask_utr_corporation_tax(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.ct.ctax_ask_utr_corporation_tax(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
 
