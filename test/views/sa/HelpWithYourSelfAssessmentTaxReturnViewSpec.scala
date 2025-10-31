@@ -17,7 +17,6 @@
 package views.sa
 
 import models.{PageType, SaUtr}
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.help_with_sa_tax_return
 

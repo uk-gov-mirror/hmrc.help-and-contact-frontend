@@ -19,7 +19,7 @@ package views.vat
 import models.PageType
 import org.jsoup.Jsoup
 import views.behaviours.ViewBehaviours
-import views.html.vat.{correcting_errors_on_returns, how_to_pay_vat_and_deadlines}
+import views.html.vat.how_to_pay_vat_and_deadlines
 
 class HowToPayVatAndDeadlines extends ViewBehaviours {
 

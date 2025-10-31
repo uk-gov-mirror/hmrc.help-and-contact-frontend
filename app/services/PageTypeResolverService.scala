@@ -39,7 +39,7 @@ class PageTypeResolverService @Inject()(
     case p@PageType.PaymentsAndPenalties => payments_and_penalties(p.name, appConfig, request.request.saUtr)(request.serviceInfoContent)
     case p@PageType.HelpWithSATaxReturn => help_with_sa_tax_return(p.name, request.request.saUtr, appConfig)
     case p@PageType.GetEvidenceOfIncome => get_evidence_of_income(p.name, appConfig, request.request.saUtr.isDefined)(request.serviceInfoContent)
-    case p@PageType.Expenses => expenses(p.name)
+    case p@PageType.Expenses => expenses(p.name, appConfig)
     case PageType.SignUpForMTD => HtmlFormat.empty
     case p@PageType.ChangeContactAndAccountDetails => change_contact_and_account_details(p.name, appConfig)(messages)
     case p@PageType.HowToAddTax => how_to_add_tax(p.name)(messages)

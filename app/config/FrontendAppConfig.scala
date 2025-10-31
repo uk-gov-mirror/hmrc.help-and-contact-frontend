@@ -103,4 +103,7 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
   def thresholdString: String = configuration.get[ConfigList]("vat-threshold").render(ConfigRenderOptions.concise())
   lazy val thresholds: Seq[VatThreshold] = Json.parse(thresholdString).as[List[VatThreshold]]
 
+  def getYoutubeVideo(key: String): String =
+    s"https://www.youtube.com/watch?v=${loadConfig(s"urls.external.youtube.$key")}"
+
 }

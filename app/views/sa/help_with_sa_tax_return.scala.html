@@ -42,7 +42,7 @@
 <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.sent_sa_letter")</p>
 <p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.file_by_deadline")</p>
 <div class="govuk-inset-text">
-    <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=ZWasvKMvJvs" id = "why-i-have-been-sent-tax-video" target="_blank"
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("whyIhaveBeenSentTaxVideo")" id = "why-i-have-been-sent-tax-video" target="_blank"
                              rel="noreferrer noopener">
         @Messages("helpWithYourSelfAssessmentTaxReturn.video_why_sent_sa")
     </a></p>
@@ -75,7 +75,7 @@
     </a></p>
 
 <div class="govuk-inset-text">
-    <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=FzvFjcuy-Wg" id = "my-first-sa-video" target="_blank"
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("myFirstSaVideo")" id = "my-first-sa-video" target="_blank"
                              rel="noreferrer noopener">
         @Messages("helpWithYourSelfAssessmentTaxReturn.first_sa_video")
     </a></p>
@@ -88,13 +88,13 @@
 
 <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.help_completing")</h2>
 
-<p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.watch_videos") <a class="govuk-link" href ="https://www.gov.uk/guidance/help-and-support-for-self-assessment" id="learn-more-sa" rel="noreferrer noopener"
+<p class="govuk-body">@Messages("helpWithYourSelfAssessmentTaxReturn.watch_videos") <a class="govuk-link" href ="@appConfig.getGovUrl("helpAndSupportForSelfAssessment")" id="learn-more-sa" rel="noreferrer noopener"
 >
     @Messages("helpWithYourSelfAssessmentTaxReturn.learn_more")</a></p>
 
 <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.how_to_tailor")</h2>
 <div class="govuk-inset-text">
-    <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=pWROONSUsN8" id ="tailor-tax-video" target="_blank" rel="noreferrer noopener"
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("tailorTax")" id ="tailor-tax-video" target="_blank" rel="noreferrer noopener"
     >
         @Messages("helpWithYourSelfAssessmentTaxReturn.tailor_tax_video")
     </a></p>
@@ -109,11 +109,11 @@
 
 <h2 class="govuk-heading-m">@Messages("helpWithYourSelfAssessmentTaxReturn.more_help_with_sa")</h2>
 
-<p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/self-assessment-tax-returns/who-must-send-a-tax-return" id = "who-must-file" target="_blank" rel="noreferrer noopener"
+<p class="govuk-body"><a class="govuk-link" href="@appConfig.getGovUrl("whoMustFile")" id = "who-must-file" target="_blank" rel="noreferrer noopener"
 >
     @Messages("helpWithYourSelfAssessmentTaxReturn.who_must_file")
 </a></p>
-<p class="govuk-body"><a class="govuk-link" target="_blank" href="https://www.gov.uk/self-assessment-tax-returns/corrections" id = "need-to-change"
+<p class="govuk-body"><a class="govuk-link" target="_blank" href="@appConfig.getGovUrl("needToChange")" id = "need-to-change"
                          rel="noreferrer noopener" >
     @Messages("helpWithYourSelfAssessmentTaxReturn.need_to_change")
 </a></p>
@@ -121,7 +121,7 @@
     >
     @Messages("helpWithYourSelfAssessmentTaxReturn.howtopaysa")
     </a></p>
-<p class="govuk-body"><a class="govuk-link" target="_blank" href="https://www.gov.uk/topic/personal-tax/self-assessment" id = "sa-resource-list"
+<p class="govuk-body"><a class="govuk-link" target="_blank" href="@appConfig.getGovUrl("saResourceList")" id = "sa-resource-list"
                          rel="noreferrer noopener" >
     @Messages("helpWithYourSelfAssessmentTaxReturn.sa_resource")
 </a></p>

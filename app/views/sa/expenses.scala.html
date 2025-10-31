@@ -15,8 +15,9 @@
  *@
 
 @import views.html.components.basic_record_keeping
+@import config.FrontendAppConfig
 
-@(name: String)(implicit messages: Messages)
+@(name: String, appConfig: FrontendAppConfig)(implicit messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
     <h1 id="page-title-@name" class="govuk-heading-l">@messages("expenses.title")</h1>
@@ -30,7 +31,7 @@
         @messages("expenses.keep_proof")
         <br><br>
         <a id="allowable-expenses" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
-           href="https://www.gov.uk/expenses-if-youre-self-employed">
+           href="@appConfig.getGovUrl("allowableExpenses")">
             @messages("expenses.find_out_more") @messages("app.common.openInNewTab")
         </a>
     </p>
@@ -38,7 +39,7 @@
     <div class="govuk-inset-text">
         <p>
             <a class="govuk-link" rel="noreferrer noopener" id="what-expenses-can-i-include-video" target="_blank"
-               href="https://www.youtube.com/watch?v=hspBxF2NVBY">
+               href="@appConfig.getYoutubeVideo("whatExpensesCanIncludeVideo")">
                 @messages("expenses.what_expenses_video") @messages("app.common.openInNewTab")
             </a>
         </p>
@@ -71,7 +72,7 @@
     </ul>
     <p class="govuk-body">
         <a id="find-out-more-simplified" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
-           href="https://www.gov.uk/simpler-income-tax-simplified-expenses">
+           href="@appConfig.getGovUrl("findOutMoreSimplified")">
             @messages("expenses.find_out_more_simplified") @messages("app.common.openInNewTab")
         </a>
     </p>
@@ -94,18 +95,19 @@
     <h2 class="govuk-heading-m">@messages("expenses.claiming_travel")</h2>
     <p class="govuk-body">
         <a id="travel-expenses-sa" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
-           href="https://www.gov.uk/expenses-if-youre-self-employed/travel">
+           href="@appConfig.getGovUrl("travelExpensesSa")">
             @messages("expenses.travel_if") @messages("app.common.openInNewTab")
         </a>
         <br><br>
         <a id="simplified-motoring-expenses" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank"
-           href="https://www.gov.uk/simpler-income-tax-simplified-expenses/vehicles-">
+           href="@appConfig.getGovUrl("simplifiedMotoringExpenses")">
             @messages("expenses.simplified_motoring_expenses") @messages("app.common.openInNewTab")
         </a>
     </p>
     <div class="govuk-inset-text">
         <a id="claiming-motoring-video" class="govuk-link" rel="noreferrer noopener" target="_blank"
-           href="https://www.youtube.com/watch?v=r2txvLXi_Fk">
+           href="@appConfig.getYoutubeVideo("calculatingMotoringExpenses")">
+
             @messages("expenses.motoring_expenses_video") @messages("app.common.openInNewTab")
         </a>
         <br><br>

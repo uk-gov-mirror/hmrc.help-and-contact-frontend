@@ -19,7 +19,7 @@ package connectors
 import base.SpecBase
 import models.SaUtr
 import models.requests.{AuthenticatedRequest, NavContent, NavLinks}
-import org.mockito.ArgumentMatchers.{any, eq => eqTo}
+import org.mockito.ArgumentMatchers.any
 import org.mockito.Mockito.when
 import org.scalatest.BeforeAndAfterEach
 import org.scalatest.concurrent.ScalaFutures
