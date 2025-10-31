@@ -62,7 +62,7 @@
   @Messages("help_and_contact.paragraph9")
   <br><br>
   @Messages("help_and_contact.paragraph10_part1")
-  <a id="manage-best-out-of" href="https://www.gov.uk/government/publications/use-hmrcs-business-tax-account/use-hmrcs-business-tax-account#getting-the-most-from-your-business-tax-account" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">
+  <a id="manage-best-out-of" href="@appConfig.getGovUrl("manageBestOutOf")" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">
    @Messages("help_and_contact.paragraph10_link_text")
   </a>
    @Messages("help_and_contact.paragraph10_part2")
@@ -79,12 +79,12 @@
  <h3 class="govuk-heading-s">@Messages("help_and_contact.bta")</h3>
  <p class="govuk-body">
   @Messages("help_and_contact.paragraph11") <br><br>
-  <a id="difference-read-full-list" href="https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account#tax_services" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.paragraph12_link_text")</a>
+  <a id="difference-read-full-list" href="@appConfig.getGovUrl("differenceReadFullList")" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.paragraph12_link_text")</a>
  </p>
  <h3 class="govuk-heading-s">@Messages("help_and_contact.pta")</h3>
  <p class="govuk-body">
   @Messages("help_and_contact.paragraph13") <br><br>
-  <a id="difference-PTA" href="https://www.gov.uk/personal-tax-account" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.paragraph14_link_text")</a>
+  <a id="difference-PTA" href="@appConfig.getGovUrl("ptaLink")" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank">@Messages("help_and_contact.paragraph14_link_text")</a>
  </p>
 </div>
 <div class="govuk-grid-row">

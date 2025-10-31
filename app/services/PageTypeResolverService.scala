@@ -42,11 +42,11 @@ class PageTypeResolverService @Inject()(
     case p@PageType.Expenses => expenses(p.name, appConfig)
     case PageType.SignUpForMTD => HtmlFormat.empty
     case p@PageType.ChangeContactAndAccountDetails => change_contact_and_account_details(p.name, appConfig)(messages)
-    case p@PageType.HowToAddTax => how_to_add_tax(p.name)(messages)
-    case p@PageType.RegisterOrDeregisterVAT => register_or_deregister(p.name)(messages)
-    case p@PageType.HowToPayVatAndDeadlines => how_to_pay_vat_and_deadlines(p.name)(messages)
-    case p@PageType.CorrectingErrorsOnReturns => correcting_errors_on_returns(p.name)(messages)
-    case p@PageType.GetStarted => epaye_get_started(p.name)(messages)
+    case p@PageType.HowToAddTax => how_to_add_tax(p.name, appConfig)(messages)
+    case p@PageType.RegisterOrDeregisterVAT => register_or_deregister(p.name, appConfig)(messages)
+    case p@PageType.HowToPayVatAndDeadlines => how_to_pay_vat_and_deadlines(p.name, appConfig)(messages)
+    case p@PageType.CorrectingErrorsOnReturns => correcting_errors_on_returns(p.name, appConfig)(messages)
+    case p@PageType.GetStarted => epaye_get_started(p.name, appConfig)(messages)
     case p@PageType.ViewOrCorrectYourSubmissions => epaye_view_or_correct_submissions(p.name, request.request.email)(messages)
     case p@PageType.PayeCisRefunds => paye_cis_refunds(p.name)(messages)
     case p@PageType.PayeChangeCircumstance => paye_change_circumstance(p.name)(messages)
@@ -55,6 +55,6 @@ class PageTypeResolverService @Inject()(
     case p@PageType.HowToPayCT => ctax_how_to_pay(p.name)(messages)
     case p@PageType.ClosingLimitedCompanyCT => ctax_closing_limited_company(p.name)(messages)
     case p@PageType.GetUtrCT => ctax_ask_utr_corporation_tax(p.name)(messages)
-    case p@PageType.ContactHMRC => contact_hmrc(p.name)(messages)
+    case p@PageType.ContactHMRC => contact_hmrc(p.name, appConfig)(messages)
   }
 }

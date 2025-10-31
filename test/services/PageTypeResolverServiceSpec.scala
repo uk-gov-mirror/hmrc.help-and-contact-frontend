@@ -212,7 +212,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.ContactHMRC
       val result = service.resolve(pageType)(fakeServiceInfoRequest(), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.general.contact_hmrc(pageType.name)(messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.general.contact_hmrc(pageType.name, frontendAppConfig)(messages)
       result.body mustBe expectedContent.body
     }
   }
