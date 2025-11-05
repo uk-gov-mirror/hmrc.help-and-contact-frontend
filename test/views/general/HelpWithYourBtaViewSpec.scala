@@ -16,7 +16,6 @@
 
 package views.general
 
-import models.HelpCategory.BTA
 import models.PageType
 import views.behaviours.ViewBehaviours
 import views.html.general.help_with_your_bta

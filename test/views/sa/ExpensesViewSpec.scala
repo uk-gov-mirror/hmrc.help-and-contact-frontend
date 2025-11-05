@@ -17,7 +17,6 @@
 package views.sa
 
 import models.PageType
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.expenses
 
@@ -25,7 +24,7 @@ class ExpensesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "expenses"
 
-  def createView = () => expenses(PageType.Expenses.name)(messages)
+  def createView = () => expenses(PageType.Expenses.name, frontendAppConfig)(messages)
 
   "Self Assessment Expenses view" must {
 

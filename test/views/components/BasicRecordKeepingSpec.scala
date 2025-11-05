@@ -16,13 +16,14 @@
 
 package views.components
 
+import config.FrontendAppConfig
 import org.jsoup.Jsoup
 import views.behaviours.ViewBehaviours
 import views.html.components.basic_record_keeping
 
 class BasicRecordKeepingSpec extends ViewBehaviours {
 
-  val view = basic_record_keeping()(messages)
+  val view = basic_record_keeping(appConfig = frontendAppConfig)(messages)
 
   "Self Assessment Expenses view" must {
 

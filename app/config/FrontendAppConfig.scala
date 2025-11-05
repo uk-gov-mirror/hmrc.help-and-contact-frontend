@@ -22,7 +22,6 @@ import controllers.routes
 import javax.inject.{Inject, Singleton}
 import models.{SaUtr, VatThreshold}
 import play.api.Configuration
-import play.api.i18n.Lang
 import play.api.libs.json.Json
 import play.api.mvc.Request
 import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, Language}
@@ -102,5 +101,8 @@ class FrontendAppConfig @Inject()(servicesConfig: ServicesConfig,
 
   def thresholdString: String = configuration.get[ConfigList]("vat-threshold").render(ConfigRenderOptions.concise())
   lazy val thresholds: Seq[VatThreshold] = Json.parse(thresholdString).as[List[VatThreshold]]
+
+  def getYoutubeVideo(key: String): String =
+    s"https://www.youtube.com/watch?v=${loadConfig(s"urls.external.youtube.$key")}"
 
 }

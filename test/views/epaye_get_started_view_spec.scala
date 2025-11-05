@@ -28,7 +28,7 @@ class EpayeGetStartedViewSpec extends ViewBehaviours {
   val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
 
   def createView(): () => HtmlFormat.Appendable =
-    () =>  epaye_get_started.apply(PageType.GetStarted.name)(messages)
+    () =>  epaye_get_started.apply(PageType.GetStarted.name, frontendAppConfig)(messages)
 
 
   "Epaye Get Started view" must {

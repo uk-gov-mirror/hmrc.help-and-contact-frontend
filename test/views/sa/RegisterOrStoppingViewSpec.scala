@@ -17,7 +17,6 @@
 package views.sa
 
 import models.PageType
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.sa.registering_or_stopping
 

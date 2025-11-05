@@ -14,7 +14,9 @@
  * limitations under the License.
  *@
 
-@(name: String)(implicit messages: Messages)
+@import config.FrontendAppConfig
+
+@(name: String, appConfig: FrontendAppConfig)(implicit messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
     <h1 id="page-title-@name" class="govuk-heading-l">@Messages("epaye.get_started")</h1>
@@ -28,16 +30,16 @@
     </ul>
     <p class="govuk-body">@Messages("epaye.you_can_use_either")</p>
     <ul class="govuk-list govuk-list--bullet">
-        <li>@Messages("HMRC's") <a href="https://www.gov.uk/basic-paye-tools" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet1_2")</a> @Messages("epaye.you_can_use_either_bullet1_3")</li>
-        <li><a href="https://www.gov.uk/payroll-software" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet2_1")</a> @Messages("epaye.you_can_use_either_bullet2_2")</li>
+        <li>@Messages("HMRC's") <a href="@appConfig.getGovUrl("basicPayeTools")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet1_2")</a> @Messages("epaye.you_can_use_either_bullet1_3")</li>
+        <li><a href="@appConfig.getGovUrl("payrollSoftware")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_use_either_bullet2_1")</a> @Messages("epaye.you_can_use_either_bullet2_2")</li>
     </ul>
 
     <h2 class="govuk-heading-m">@Messages("epaye.paying_your_employees")</h2>
     <p class="govuk-body">@Messages("epaye.you_must_make_a_submission")</p>
-    <p class="govuk-body">@Messages("epaye.you_must_submit_the_FPS") <a href="https://www.gov.uk/running-payroll/fps-after-payday" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_submit_late_FPS_link"). </a></p>
+    <p class="govuk-body">@Messages("epaye.you_must_submit_the_FPS") <a href="@appConfig.getGovUrl("payrollAfterPayday")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.you_can_submit_late_FPS_link"). </a></p>
     <h3 class="govuk-heading-s">@messages("epaye.if_you_do_not_pay_header")</h3>
     <p class="govuk-body">@Messages("epaye.if_you_do_not_pay")</p>
-    <p class="govuk-body">@Messages("epaye.instead_of_an_FPS") <a href="https://www.gov.uk/payroll-errors/correcting-payments-to-hmrc" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.instead_of_an_FPS_link")</a></p>
+    <p class="govuk-body">@Messages("epaye.instead_of_an_FPS") <a href="@appConfig.getGovUrl("epayeMoreAboutRefunds")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.instead_of_an_FPS_link")</a></p>
 
     <h2 class="govuk-heading-m">@Messages("epaye.paying_hmrc")</h2>
     <p class="govuk-body">@Messages("epaye.you_need_to_use")</p>
@@ -49,7 +51,7 @@
     <p class="govuk-body">@Messages("epaye.make_sure_to_use")</p>
 
     <div class="govuk-inset-text">
-        <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=PnjlHOuCnK8" id="when-and-how-to-pay-epaye-video" target="_blank"
+        <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("whenAndHowToPayEpaye")" id="when-and-how-to-pay-epaye-video" target="_blank"
                                  rel="noreferrer noopener">
             @Messages("epaye.video_when_and_how_to_pay_PAYE")</a></p>
         <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("when-and-how-to-pay-epaye")" id="when-and-how-to-pay-epaye-transcript"
@@ -59,9 +61,9 @@
 
     <h2 class="govuk-heading-m">@Messages("epaye.further_resources")</h2>
     <ul class="govuk-list govuk-list--bullet">
-       <li><a href="https://www.gov.uk/running-payroll" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link1")</a></li>
-       <li><a href="https://www.gov.uk/pay-paye-tax" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link2")</a></li>
-       <li><a href="https://www.youtube.com/watch?v=JU32n2XkZyc" class="govuk-link govuk-link--no-visited-state" id="further-resources-link" target="_blank">@Messages("epaye.further_resources_link3")</a></li>
+       <li><a href="@appConfig.getGovUrl("runningPayroll")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link1")</a></li>
+       <li><a href="@appConfig.getGovUrl("payPayeTax")" class="govuk-link govuk-link--no-visited-state" target="_blank">@Messages("epaye.further_resources_link2")</a></li>
+       <li><a href="@appConfig.getYoutubeVideo("furtherResources")" class="govuk-link govuk-link--no-visited-state" id="further-resources-link" target="_blank">@Messages("epaye.further_resources_link3")</a></li>
        <li><a href=@controllers.routes.TranscriptController.onPageLoad("how-do-i-use-payroll-software") class="govuk-link govuk-link--no-visited-state">@Messages("epaye.further_resources_link4")</a></li>
     </ul>
 

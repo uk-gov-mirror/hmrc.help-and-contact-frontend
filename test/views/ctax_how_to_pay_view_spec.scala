@@ -28,7 +28,7 @@ class CtaxHowToPayViewSpec extends ViewBehaviours {
   val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
 
   def createView(): () => HtmlFormat.Appendable =
-    () =>  ctax_how_to_pay.apply(PageType.HowToPayCT.name)(messages)
+    () =>  ctax_how_to_pay.apply(PageType.HowToPayCT.name, frontendAppConfig)(messages)
 
 
   "HowToPayCorporationTax view" must {

@@ -14,7 +14,9 @@
  * limitations under the License.
  *@
 
-@(name: String)(implicit messages: Messages)
+@import config.FrontendAppConfig
+
+@(name: String, appConfig: FrontendAppConfig)(implicit messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
  <h1 id="page-title-@name" class="govuk-heading-l">@Messages("ctax.howtopay.heading")</h1>
@@ -25,7 +27,7 @@
  <h2 class="govuk-heading-s">@Messages("ctax.howtopay.section2.title")</h2>
  <p class="govuk-body">
   @Messages("ctax.howtopay.section2.p1")
-  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.gov.uk/first-company-accounts-and-return">
+  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="@appConfig.getGovUrl("firstCompanyAccountsAndReturn")">
    @Messages("ctax.howtopay.section2.p1.linkText")
   </a>
  </p>
@@ -33,16 +35,16 @@
  <h2 class="govuk-heading-s">@Messages("ctax.howtopay.section3.title")</h2>
  <p class="govuk-body">
   @Messages("ctax.howtopay.section3.p1")
-  <a class="govuk-link govuk-link--no-visited-state" target="_blank" href="https://www.gov.uk/guidance/corporation-tax-paying-in-instalments">
+  <a class="govuk-link govuk-link--no-visited-state" target="_blank" href="@appConfig.getGovUrl("corporationTaxInInstalments")">
    @Messages("ctax.howtopay.section3.p1.linkText")
   </a>
   <br/><br/>
   @Messages("ctax.howtopay.section3.p2")
-  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.gov.uk/guidance/corporation-tax-interest-charges">
+  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="@appConfig.getGovUrl("corporationTaxInterestCharges")">
    @Messages("ctax.howtopay.section3.p2.linkText")
   </a>
   @Messages("ctax.howtopay.section3.p3")
-  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.gov.uk/get-refund-interest-corporation-tax">
+  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="@appConfig.getGovUrl("corporationTaxInterestRefund")">
    @Messages("ctax.howtopay.section3.p3.linkText")
   </a>
   @Messages("ctax.howtopay.section3.p4")
@@ -52,12 +54,12 @@
  <p class="govuk-body"> @Messages("ctax.howtopay.section4.p1")</p>
  <p class="govuk-body"> @Messages("ctax.howtopay.section4.p2")</p>
  <p class="govuk-body">
-  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.gov.uk/pay-corporation-tax/bank-details">
+  <a class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="@appConfig.getGovUrl("corporationTaxBankDetails")">
    @Messages("ctax.howtopay.section4.p3.linkText")
   </a>
  </p>
  <div class="govuk-inset-text">
-  <a id="ct-how-to-pay-video" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=_eTj5_S9nrA">
+  <a id="ct-how-to-pay-video" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" target="_blank" href="@appConfig.getYoutubeVideo("ctHowToPay")">
    @Messages("ctax.howtopay.section5.p1.linkText")
   </a>
   <br /><br />

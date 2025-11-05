@@ -33,14 +33,14 @@
     </ul>
 
     <p class="govuk-body">@Messages("payments_and_penalties.dont_wait")</p>
-    <p class="govuk-body"><a class="govuk-link" class="govuk-link" href="https://www.gov.uk/understand-self-assessment-bill/payments-on-account" id="understanding-payments"
+    <p class="govuk-body"><a class="govuk-link" class="govuk-link" href="@appConfig.getGovUrl("understandingPayments")" id="understanding-payments"
                              rel="noreferrer noopener" target="_blank" >
         @Messages("payments_and_penalties.understanding_payments") @Messages("app.common.openInNewTab")</a></p>
 
 
     <h2 class="govuk-heading-m">@Messages("payments_and_penalties.how_to_pay_bill")</h2>
     <p class="govuk-body">@Messages("payments_and_penalties.make_sure")
-        <a class="govuk-link" class="govuk-link" href="https://www.gov.uk/self-assessment-tax-returns/penalties" id="pay-a-penalty"
+        <a class="govuk-link" class="govuk-link" href="@appConfig.getGovUrl("payaPenalty")" id="pay-a-penalty"
         >
             @Messages("payments_and_penalties.pay_penalty_link")</a>
         @Messages("payments_and_penalties.late_payment")</p>
@@ -48,12 +48,12 @@
     <p class="govuk-body">@Messages("payments_and_penalties.depends")</p>
     <p class="govuk-body">@Messages("payments_and_penalties.no_longer")</p>
 
-    <p class="govuk-body"><a class="govuk-link" class="govuk-link" href="https://www.gov.uk/pay-self-assessment-tax-bill#ways-to-pay" id="ways-to-pay-taxbill"
+    <p class="govuk-body"><a class="govuk-link" class="govuk-link" href="@appConfig.getGovUrl("waysToPayTaxbill")" id="ways-to-pay-taxbill"
                              rel="noreferrer noopener" target="_blank">
         @Messages("payments_and_penalties.read_info")</a></p>
 
     <div class="govuk-inset-text">
-        <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=aXEmypvzqcQ" id="how-do-i-pay-video" target="_blank"
+        <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("howDoiPay")" id="how-do-i-pay-video" target="_blank"
                                  rel="noreferrer noopener">
             @Messages("payments_and_penalties.how_do_i_pay_video")</a></p>
         <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("paying-your-self-assessment-tax-bill")" id="how-do-i-pay-transcript"
@@ -62,19 +62,19 @@
     </div>
 
     <div class="govuk-inset-text">
-        <a href="https://www.youtube.com/watch?v=oXzjkDkPTrM&t=6s" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" id="how-to-get-help-video" target="_blank">@Messages("vat.payments_and_deadlines.how_to_get_help_link")</a>
+        <a href="@appConfig.getYoutubeVideo("howToGetHelp")" class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener" id="how-to-get-help-video" target="_blank">@Messages("vat.payments_and_deadlines.how_to_get_help_link")</a>
         <br><br>
         <a href='@controllers.routes.TranscriptController.onPageLoad("cant-pay-taxbill")' class="govuk-link govuk-link--no-visited-state" rel="noreferrer noopener">@Messages("vat.payments_and_deadlines.how_to_get_help_transcript_link")</a>
     </div>
 
-    @components.sa_calculation()
+    @components.sa_calculation(appConfig: FrontendAppConfig)
 
     <h2 class="govuk-heading-m">@Messages("payments_and_penalties.budgeting_for_sa")</h2>
-    <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/self-assessment-ready-reckoner" target="_blank" id="budget-for-taxbill" rel="noreferrer noopener"
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getGovUrl("budgetForTaxbill")" target="_blank" id="budget-for-taxbill" rel="noreferrer noopener"
     >@Messages("payments_and_penalties.budget_taxbill")</a></p>
 
     <div class="govuk-inset-text">
-        <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=nDkFMuDo5Bo" id="how-do-i-budget-video" target="_blank"
+        <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("howDoiBudget")" id="how-do-i-budget-video" target="_blank"
                                  rel="noreferrer noopener">
             @Messages("payments_and_penalties.how_do_i_budget_video")</a></p>
         <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("budgeting-your-self-assessment-tax-bill")" id="how-do-i-budget-transcript"
@@ -91,7 +91,7 @@
     </ul>
 
     <div class="govuk-inset-text">
-        <p class="govuk-body"><a class="govuk-link" href="https://www.youtube.com/watch?v=L9uh_gfKsZE" id="how-to-find-sa-penalties" target="_blank"
+        <p class="govuk-body"><a class="govuk-link" href="@appConfig.getYoutubeVideo("howToFindSaPenalties")" id="how-to-find-sa-penalties" target="_blank"
                                  rel="noreferrer noopener">
             @Messages("payments_and_penalties.how_to_find_out_about_sa_video") </a></p>
         <p class="govuk-body"><a class="govuk-link" href="@controllers.routes.TranscriptController.onPageLoad("how-to-find-sa-penalties")" id="how-do-i-budget-transcript"
@@ -101,7 +101,7 @@
 
     <h2 class="govuk-heading-m">@Messages("payments_and_penalties.appeal_penalty")</h2>
 
-    <p class="govuk-body">@Messages("payments_and_penalties.appeal_if") <a class="govuk-link" href="https://www.gov.uk/tax-appeals/reasonable-excuses" id="reasonable-excuse" rel="noreferrer noopener" target="_blank"
+    <p class="govuk-body">@Messages("payments_and_penalties.appeal_if") <a class="govuk-link" href="@appConfig.getGovUrl("reasonableExcuses")" id="reasonable-excuse" rel="noreferrer noopener" target="_blank"
     >
         @Messages("payments_and_penalties.excuse_link") @Messages("app.common.openInNewTab")</a>@Messages("payments_and_penalties.you_must_appeal")</p>
 
@@ -112,16 +112,16 @@
             >
             @Messages("payments_and_penalties.list_sent_late")</a></li>
 
-        <li><a class="govuk-link" href="https://www.gov.uk/government/publications/self-assessment-appeal-against-penalties-for-late-filing-and-late-payment-sa370" id="appeal-filing" rel="noreferrer noopener" target="_blank"
+        <li><a class="govuk-link" href="@appConfig.getGovUrl("formSa370")" id="appeal-filing" rel="noreferrer noopener" target="_blank"
         >@Messages("payments_and_penalties.conditional.appeal_filling") @Messages("app.common.openInNewTab")</a></li>
-        <li><a class="govuk-link" href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/self-assessment" id="write-hmrc" rel="noreferrer noopener" target="_blank"
+        <li><a class="govuk-link" href="@appConfig.getGovUrl("addressForSaEnquiries")" id="write-hmrc" rel="noreferrer noopener" target="_blank"
         >@Messages("payments_and_penalties.conditional.write_hmrc") @Messages("app.common.openInNewTab")</a>
             @Messages("payments_and_penalties.conditional.reasons_for")</li>
     </ul>
     <h3 class="govuk-heading-s">@Messages("payments_and_penalties.conditional.happens_next")</h3>
     <p class="govuk-body">@Messages("payments_and_penalties.conditional.send_contact")</p>
     }
-    <p class="govuk-body"><a class="govuk-link" href="https://www.gov.uk/tax-appeals/penalty" id="more-about-sa" rel="noreferrer noopener" target="_blank"
+    <p class="govuk-body"><a class="govuk-link" href="@appConfig.getGovUrl("howToAppeal")" id="more-about-sa" rel="noreferrer noopener" target="_blank"
     >
         @Messages("payments_and_penalties.find_more") @Messages("app.common.openInNewTab")</a></p>
 
@@ -135,7 +135,7 @@
         <li><a class="govuk-link" href="@appConfig.getPortalUrl("selfAssessmentInterest", utr)" id="view-sa-interest">
             @Messages("payments_and_penalties.conditional.view_interest")</a></li>
         <li>
-            <a class="govuk-link" href="https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments" id="interest-rates" target="_blank"
+            <a class="govuk-link" href="@appConfig.getGovUrl("interestRates")" id="interest-rates" target="_blank"
                rel="noreferrer noopener">
                 @Messages("payments_and_penalties.interest_rates") @Messages("app.common.openInNewTab")
             </a>

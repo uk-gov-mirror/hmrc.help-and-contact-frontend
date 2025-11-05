@@ -17,7 +17,6 @@
 package views.general
 
 import models.PageType
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.general.change_contact_and_account_details
 

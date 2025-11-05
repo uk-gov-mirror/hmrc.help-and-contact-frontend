@@ -16,19 +16,17 @@
 
 package controllers
 
-import org.mockito.Mockito._
 import org.scalatest.BeforeAndAfter
 import org.scalatestplus.mockito.MockitoSugar
-import play.api.mvc.{Action, _}
+import play.api.mvc._
 import play.api.test._
 import play.api.test.Helpers._
 import play.twirl.api.{Html, HtmlFormat}
 
 import scala.concurrent.Future
-import config.FrontendAppConfig
 import controllers.actions.mocks.MockAuth
-import controllers.actions.{AuthAction, ServiceInfoAction}
-import models.{HelpCategory, PageType, SaUtr}
+import controllers.actions.AuthAction
+import models.{PageType, SaUtr}
 import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
 import org.scalatest.concurrent.ScalaFutures
 import services.{PageTypeResolverService, ThresholdService}

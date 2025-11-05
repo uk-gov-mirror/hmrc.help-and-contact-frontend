@@ -28,7 +28,7 @@ class CtaxAskUtrViewSpec extends ViewBehaviours {
   val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
 
   def createView(): () => HtmlFormat.Appendable =
-    () =>  ctax_ask_utr_corporation_tax.apply(PageType.GetUtrCT.name)(messages)
+    () =>  ctax_ask_utr_corporation_tax.apply(PageType.GetUtrCT.name, frontendAppConfig)(messages)
 
 
   "Ask for a copy of your Corporation Tax UTR view" must {

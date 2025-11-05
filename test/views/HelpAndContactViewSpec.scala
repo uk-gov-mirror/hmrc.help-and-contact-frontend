@@ -17,13 +17,11 @@
 package views
 
 import models.PageType
-import org.jsoup.nodes.{Document, Element}
+import org.jsoup.nodes.Document
 import play.twirl.api.{Html, HtmlFormat}
 import views.behaviours.ViewBehaviours
 import views.html.help_and_contact
 import org.scalatestplus.play.guice.GuiceOneAppPerSuite
-import play.twirl.api.TwirlHelperImports.twirlJavaCollectionToScala
-
 
 class HelpAndContactViewSpec extends ViewBehaviours with GuiceOneAppPerSuite {
 

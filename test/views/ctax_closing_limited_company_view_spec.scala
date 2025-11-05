@@ -28,7 +28,7 @@ class CtaxClosingLimitedCompanyViewSpec extends ViewBehaviours {
   val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
 
   def createView(): () => HtmlFormat.Appendable =
-    () =>  ctax_closing_limited_company.apply(PageType.ClosingLimitedCompanyCT.name)(messages)
+    () =>  ctax_closing_limited_company.apply(PageType.ClosingLimitedCompanyCT.name, frontendAppConfig)(messages)
 
 
   "Closing a limited company view" must {
