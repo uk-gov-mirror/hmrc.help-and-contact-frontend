@@ -1,32 +1,32 @@
-import com.typesafe.sbt.web.Import._
+import com.typesafe.sbt.web.Import.*
 import play.sbt.PlayImport.PlayKeys
 import play.sbt.routes.RoutesKeys
-import sbt.Keys._
-import sbt._
+import sbt.Keys.*
+import sbt.*
 import sbt.plugins.JUnitXmlReportPlugin
 import scoverage.ScoverageKeys
-import uk.gov.hmrc.DefaultBuildSettings._
+import uk.gov.hmrc.DefaultBuildSettings.*
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
 import uk.gov.hmrc.sbtsettingkeys.Keys.isPublicArtefact
 import uk.gov.hmrc.versioning.SbtGitVersioning.autoImport.majorVersion
-import com.typesafe.sbt.uglify.Import._
+import com.typesafe.sbt.uglify.Import.*
 
 val appName = "help-and-contact-frontend"
 
 val appDependencies: Seq[ModuleID] = AppDependencies()
 val appOverrides: Set[ModuleID] = Set.empty
 val plugins: Seq[Plugins] = Seq.empty
-val playSettings: Seq[Setting[_]] = Seq.empty
+val playSettings: Seq[Setting[?]] = Seq.empty
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(
-    Seq(
+    (Seq(
       play.sbt.PlayScala,
       SbtDistributablesPlugin
-    ) ++ plugins: _*
+    ) ++ plugins) *
   )
   .disablePlugins(JUnitXmlReportPlugin)
-  .settings(playSettings: _*)
+  .settings(playSettings *)
   .settings(RoutesKeys.routesImport ++= Seq("models._"))
   .settings(
     ScoverageKeys.coverageExcludedFiles := "<empty>;Reverse.*;.*filters.*;.*handlers.*;.*components.*;.*models.*;.*repositories.*;" +
@@ -37,8 +37,8 @@ lazy val microservice = Project(appName, file("."))
     ScoverageKeys.coverageHighlighting := true,
     parallelExecution in Test := false
   )
-  .settings(scalaSettings: _*)
-  .settings(defaultSettings(): _*)
+  .settings(scalaSettings *)
+  .settings(defaultSettings() *)
   .settings(
     scalacOptions ++= Seq("-feature"),
     libraryDependencies ++= appDependencies,

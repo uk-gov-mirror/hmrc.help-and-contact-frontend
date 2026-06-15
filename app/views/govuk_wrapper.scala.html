@@ -51,27 +51,30 @@
 
 
 @headerDefault = {
-@headerBlock.getOrElse {
- @hmrcStandardHeader(
-  serviceName = Some(messages("site.service_name")),
-  serviceUrl = Some(appConfig.getTarUrl),
-  signOutUrl = Some(appConfig.getBusinessAccountUrl("signout")),
-  userResearchBanner =
-   Option.when(appConfig.showUserResearchBanner)(UserResearchBanner(
-     url = appConfig.urBannerUrl(messages.lang.code),
-     language = if(messages.lang.code == "en") En else Cy)
-   )),
- )
- @hmrcTimeoutDialogHelper(
-  signOutUrl = "/business-account/timeout",
-  keepAliveUrl = Some("/business-account/keep-alive"),
-  timeout = Some(appConfig.sessionTimeoutInSeconds),
-  countdown = Some(appConfig.sessionCountdownInSeconds),
-  title = Some(messages("timeout.title")),
-  message = Some(messages("timeout.message")),
-  keepAliveButtonText = Some(messages("timeout.keep-alive-button"))
- )
-}}
+    @headerBlock.getOrElse {
+        @hmrcStandardHeader(
+            serviceName = Some(messages("site.service_name")),
+            serviceUrl = Some(appConfig.getTarUrl),
+            signOutUrl = Some(appConfig.getBusinessAccountUrl("signout")),
+            isWelshTranslationAvailable = true,
+            userResearchBanner =
+                Option.when(appConfig.showUserResearchBanner)(
+                    UserResearchBanner(
+                        url = appConfig.urBannerUrl(messages.lang.code),
+                        language = if(messages.lang.code == "en") En else Cy
+                    ))
+        )
+        @hmrcTimeoutDialogHelper(
+            signOutUrl = "/business-account/timeout",
+            keepAliveUrl = Some("/business-account/keep-alive"),
+            timeout = Some(appConfig.sessionTimeoutInSeconds),
+            countdown = Some(appConfig.sessionCountdownInSeconds),
+            title = Some(messages("timeout.title")),
+            message = Some(messages("timeout.message")),
+            keepAliveButtonText = Some(messages("timeout.keep-alive-button"))
+        )
+    }
+}
 
 @footerDefault = {
  @govukFooter()
@@ -88,7 +91,7 @@
    case "cy" => Cy
   }
 
-  if(appConfig.languageTranslationEnabled) {
+  if(appConfig.languageTranslationEnabled && !appConfig.isServiceNavigationEnabled) {
    hmrcLanguageSelect(LanguageSelect(
     playLangToUiLanguage(messages.lang),
     appConfig.languageLinks: _*
@@ -132,11 +135,11 @@
  </div>
 }
 
- @govukTemplate(
- pageTitle = Some(title),
- headerBlock = hmrcHead(headBlock = Some(headerDefault)),
- bodyEndBlock = Some(bodyEndDefault),
- footerBlock = footerDefault,
- headBlock = headBlock,
- beforeContentBlock = Some(beforeContentBlock)
+@govukTemplate(
+    pageTitle = Some(title),
+    headerBlock = hmrcHead(headBlock = Some(headerDefault)),
+    bodyEndBlock = Some(bodyEndDefault),
+    footerBlock = footerDefault,
+    headBlock = headBlock,
+    beforeContentBlock = Some(beforeContentBlock)
 )(mainContentDefault)
