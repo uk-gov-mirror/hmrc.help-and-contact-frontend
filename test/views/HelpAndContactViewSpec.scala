@@ -27,16 +27,12 @@ class HelpAndContactViewSpec extends ViewBehaviours with GuiceOneAppPerSuite {
 
   val messageKeyPrefix = "help_and_contact"
 
-  val serviceInfoContent: Option[Html] = Some(Html("<div>Service info content</div>"))
-
   def createView(dynamicHtmlContent: Html = HtmlFormat.empty, page: String): () => HtmlFormat.Appendable =
     () =>
-      inject[help_and_contact].apply(frontendAppConfig)(serviceInfoContent,
+      inject[help_and_contact].apply(frontendAppConfig)(Some(serviceNavigation),
         dynamicContent = dynamicHtmlContent,
         name = page, pageTypes = PageType.values)(
-        fakeRequest,
-        messages
-      )
+        fakeRequest, messages)
 
   "Help and contact view" must {
 

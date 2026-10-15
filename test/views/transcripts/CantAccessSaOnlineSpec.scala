@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.cant_access_sa_online
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class CantAccessSaOnlineSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "cant.access.sa.online"
 
-  def createView = () => inject[cant_access_sa_online].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[cant_access_sa_online].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "Can't access SA online view" must {
     behave like normalPage(createView, messageKeyPrefix)

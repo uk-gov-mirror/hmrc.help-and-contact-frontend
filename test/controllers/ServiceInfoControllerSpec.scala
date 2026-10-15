@@ -50,6 +50,8 @@ class ServiceInfoControllerSpec extends ControllerSpecBase with MockitoSugar wit
     "retrieve the correct Model and return HTML" in {
       implicit val messages: Messages = messagesApi.preferred(Seq(Lang("en")))
 
+      val serviceInfoPartialResult  = ListLinks("testEnAccount","testUrl",None,Some(true))
+
       val navContent = NavContent(
         NavLinks("testEnHome", "testCyHome", "testUrl"),
         NavLinks("testEnAccount", "testCyAccount", "testUrl"),
@@ -75,11 +77,12 @@ class ServiceInfoControllerSpec extends ControllerSpecBase with MockitoSugar wit
       val result = testController.serviceInfoPartial(AuthenticatedRequest(fakeRequest, Some(saUtr), None))
 
       whenReady(result) { response =>
-        response.toString must include (testView.apply(listLinks).toString())
+        response.toString must include (serviceInfoPartialResult.toString)
       }
     }
 
     "retrieve the empty Model and empty HTML" in {
+      val serviceInfoEmptyResult  = List.empty
 
       implicit val messages: Messages = messagesApi.preferred(Seq(Lang("en")))
 
@@ -92,7 +95,7 @@ class ServiceInfoControllerSpec extends ControllerSpecBase with MockitoSugar wit
 
 
       whenReady(result) { response =>
-        response.toString must include (testView.apply(Seq()).toString())
+        response.toString must include (serviceInfoEmptyResult.toString)
       }
     }
   }

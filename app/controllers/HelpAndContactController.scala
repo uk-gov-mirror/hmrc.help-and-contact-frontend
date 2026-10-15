@@ -53,7 +53,7 @@ class HelpAndContactController @Inject()(implicit ec: ExecutionContext,
       case Some(validPageType) =>
         val dynamicContent: Html = viewResolver.resolve(validPageType)
         Future.successful(Ok(help_and_contact(appConfig)(
-          request.serviceInfoContent,
+          Some(request.serviceInfoContent),
           dynamicContent,
           validPageType.name,
           PageType.values

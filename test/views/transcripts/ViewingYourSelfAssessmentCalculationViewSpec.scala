@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.viewing_your_self_assessment_calculation
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class ViewingYourSelfAssessmentCalculationViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "viewingYourCalculationTranscript"
 
-  def createView = () => inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[viewing_your_self_assessment_calculation].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "ViewingYourCalculation view" must {
     behave like normalPage(createView, messageKeyPrefix)

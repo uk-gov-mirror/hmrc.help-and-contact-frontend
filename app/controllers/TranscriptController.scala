@@ -66,42 +66,42 @@ class TranscriptController @Inject()(implicit ec: ExecutionContext,
   def onPageLoad(videoTitle: String) = (authenticate andThen serviceInfo).async { implicit request =>
     val mapOfViews = Map(
       "viewing-your-self-assessment-calculation" -> viewing_your_self_assessment_calculation(appConfig)(
-        request.serviceInfoContent
+        Some(request.serviceInfoContent)
       ),
       "paying-your-self-assessment-tax-bill" -> paying_your_self_assessment_tax_bill(appConfig)(
-        request.serviceInfoContent
+        Some(request.serviceInfoContent)
       ),
       "budgeting-your-self-assessment-tax-bill" -> budgeting_your_self_assessment_tax_bill(appConfig)(
-        request.serviceInfoContent
+        Some(request.serviceInfoContent)
       ),
-      "why-sent-tax-return" -> why_sent_tax_return(appConfig)(request.serviceInfoContent),
-      "your-first-tax-return" -> your_first_tax_return(appConfig)(request.serviceInfoContent),
-      "tailor-your-tax-return" -> tailor_your_tax_return(appConfig)(request.serviceInfoContent),
-      "your-self-employed-tax-return" -> your_self_employed_tax_return(appConfig)(request.serviceInfoContent),
+      "why-sent-tax-return" -> why_sent_tax_return(appConfig)(Some(request.serviceInfoContent)),
+      "your-first-tax-return" -> your_first_tax_return(appConfig)(Some(request.serviceInfoContent)),
+      "tailor-your-tax-return" -> tailor_your_tax_return(appConfig)(Some(request.serviceInfoContent)),
+      "your-self-employed-tax-return" -> your_self_employed_tax_return(appConfig)(Some(request.serviceInfoContent)),
       "your-income-from-property-tax-return" -> your_income_from_property_tax_return(appConfig)(
-        request.serviceInfoContent
+        Some(request.serviceInfoContent)
       ),
-      "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(appConfig)(request.serviceInfoContent),
-      "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(request.serviceInfoContent),
-      "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(request.serviceInfoContent),
-      "record-keeping-for-self-employed" -> basic_record_keeping(appConfig)(request.serviceInfoContent),
-      "new-how-do-i-tailor-sa-tax" -> new_tailor_tax_return(appConfig)(request.serviceInfoContent),
-      "new-your-first-tax-return" -> new_your_first_tax_return(appConfig)(request.serviceInfoContent),
-      "new-income-from-property" -> new_income_from_property(appConfig)(request.serviceInfoContent),
-      "new-your-self-employed-tax-return" -> new_your_self_employed_tax_return(appConfig)(request.serviceInfoContent),
+      "expenses-if-you-are-self-employed" -> expenses_if_you_are_self_employed(appConfig)(Some(request.serviceInfoContent)),
+      "calculating-motoring-expenses" -> calculating_motoring_expenses(appConfig)(Some(request.serviceInfoContent)),
+      "registering-for-self-assessment" -> registering_for_self_assessment(appConfig)(Some(request.serviceInfoContent)),
+      "record-keeping-for-self-employed" -> basic_record_keeping(appConfig)(Some(request.serviceInfoContent)),
+      "new-how-do-i-tailor-sa-tax" -> new_tailor_tax_return(appConfig)(Some(request.serviceInfoContent)),
+      "new-your-first-tax-return" -> new_your_first_tax_return(appConfig)(Some(request.serviceInfoContent)),
+      "new-income-from-property" -> new_income_from_property(appConfig)(Some(request.serviceInfoContent)),
+      "new-your-self-employed-tax-return" -> new_your_self_employed_tax_return(appConfig)(Some(request.serviceInfoContent)),
       "new-registering-for-self-assessment" -> new_registering_for_self_assessment(appConfig)(
-        request.serviceInfoContent
+        Some(request.serviceInfoContent)
       ),
-      "how-to-find-sa-penalties" -> how_to_find_sa_penalties(appConfig)(request.serviceInfoContent),
-      "add-a-tax" -> add_a_tax(appConfig)(request.serviceInfoContent),
-      "cant-access-sa-online" -> cant_access_sa_online(appConfig)(request.serviceInfoContent),
-      "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(request.serviceInfoContent),
-      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(request.serviceInfoContent),
-      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(request.serviceInfoContent
+      "how-to-find-sa-penalties" -> how_to_find_sa_penalties(appConfig)(Some(request.serviceInfoContent)),
+      "add-a-tax" -> add_a_tax(appConfig)(Some(request.serviceInfoContent)),
+      "cant-access-sa-online" -> cant_access_sa_online(appConfig)(Some(request.serviceInfoContent)),
+      "when-and-how-to-pay-epaye" -> when_and_how_to_pay_epaye(appConfig)(Some(request.serviceInfoContent)),
+      "cant-pay-taxbill" -> cant_pay_taxbill(appConfig)(Some(request.serviceInfoContent)),
+      "how-to-pay-corporation-tax" -> how_to_pay_corporation_tax(appConfig)(Some(request.serviceInfoContent)
       ),
-      "how-do-i-use-payroll-software" -> how_do_i_use_payroll_software(appConfig)(request.serviceInfoContent),
-      "register_online_sa_not_self_employed" -> register_online_sa_not_self_employed(appConfig)(request.serviceInfoContent),
-      "register_online_sa_self_employed" -> register_online_sa_self_employed(appConfig)(request.serviceInfoContent)
+      "how-do-i-use-payroll-software" -> how_do_i_use_payroll_software(appConfig)(Some(request.serviceInfoContent)),
+      "register_online_sa_not_self_employed" -> register_online_sa_not_self_employed(appConfig)(Some(request.serviceInfoContent)),
+      "register_online_sa_self_employed" -> register_online_sa_self_employed(appConfig)(Some(request.serviceInfoContent))
     )
 
 

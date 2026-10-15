@@ -19,6 +19,7 @@ package base
 import config.FrontendAppConfig
 import controllers.actions.AuthAction
 import handlers.ErrorHandler
+import models.requests.{ListLinks, ServiceNavigationInfo}
 import org.scalatestplus.play.PlaySpec
 import org.scalatestplus.play.guice._
 import play.api.i18n.{Messages, MessagesApi}
@@ -33,7 +34,7 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
   def messagesApi: MessagesApi = inject[MessagesApi]
 
-  def fakeRequest: FakeRequest[AnyContent] = FakeRequest("", "")
+  def fakeRequest: FakeRequest[AnyContent] = FakeRequest()
 
   def messages: Messages = messagesApi.preferred(fakeRequest)
 
@@ -43,5 +44,7 @@ trait SpecBase extends PlaySpec with GuiceOneAppPerSuite with Injecting {
 
   def authenticate: AuthAction = inject[AuthAction]
 
+  val listLinks = Seq(ListLinks(message = "Home", url = "/home"))
 
+  val serviceNavigation: ServiceNavigationInfo = ServiceNavigationInfo(navLinks = listLinks)
 }

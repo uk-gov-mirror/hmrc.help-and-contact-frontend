@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.add_a_tax
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class AddATaxViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "add.a.tax.transcript"
 
-  def createView = () => inject[add_a_tax].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[add_a_tax].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "Add a tax view" must {
     behave like normalPage(createView, messageKeyPrefix)

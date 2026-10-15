@@ -29,7 +29,7 @@ class WhenAndHowToPayEpayeSpec extends PlaySpec {
   trait EnglishTest extends ViewBehaviours {
 
     def createView: () => HtmlFormat.Appendable =
-      () => inject[when_and_how_to_pay_epaye].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+      () => inject[when_and_how_to_pay_epaye].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
   }
 
   "when and how to pay epaye for english speakers" must {

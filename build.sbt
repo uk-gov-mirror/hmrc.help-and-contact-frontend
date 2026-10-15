@@ -44,7 +44,7 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= appDependencies,
     PlayKeys.playDefaultPort := 9733,
     retrieveManaged := true,
-    scalaVersion := "2.13.16",
+    scalaVersion := "2.13.18",
     isPublicArtefact := true
   )
   .configs(IntegrationTest)
@@ -84,4 +84,3 @@ lazy val microservice = Project(appName, file("."))
     majorVersion := 0,
     Test / TwirlKeys.templateImports ++= Seq("play.api.mvc._", "play.api.data._")
   )
-

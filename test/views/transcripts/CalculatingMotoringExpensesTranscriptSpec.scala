@@ -17,17 +17,17 @@
 package views.transcripts
 
 import org.jsoup.nodes.Document
-import play.twirl.api.{Html, HtmlFormat}
+import play.twirl.api.Html
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.calculating_motoring_expenses
 
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class CalculatingMotoringExpensesTranscriptSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.expenses.claiming_motoring_expenses"
 
-  def createView(): Html = inject[calculating_motoring_expenses].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView(): Html = inject[calculating_motoring_expenses].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "CalculatingMotoringExpensesTranscript view" must {
     behave like normalPage(createView, messageKeyPrefix)

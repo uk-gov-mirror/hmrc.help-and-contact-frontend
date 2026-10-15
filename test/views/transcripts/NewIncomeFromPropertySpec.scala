@@ -16,11 +16,10 @@
 
 package views.transcripts
 
-import play.twirl.api.{Html, HtmlFormat}
+import play.twirl.api.Html
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.new_income_from_property
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class NewIncomeFromPropertySpec extends ViewBehaviours {
 
@@ -28,7 +27,7 @@ class NewIncomeFromPropertySpec extends ViewBehaviours {
 
   def createView: () => Html =
     () =>
-      inject[new_income_from_property].apply(frontendAppConfig)(Some(HtmlFormat.empty))(
+      inject[new_income_from_property].apply(frontendAppConfig)(Some(serviceNavigation))(
         fakeRequest,
         messages
       )
