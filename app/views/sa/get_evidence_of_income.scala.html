@@ -1,5 +1,5 @@
 @*
- * Copyright 2025 HM Revenue & Customs
+ * Copyright 2026 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,8 +15,9 @@
  *@
 
 @import config.FrontendAppConfig
+@import models.requests.ServiceNavigationInfo
 
-@(name: String, appConfig: FrontendAppConfig, hasSAenrolment: Boolean)(serviceInfoContent: Option[Html])(implicit request: Request[_], messages: Messages)
+@(name: String, appConfig: FrontendAppConfig, hasSAenrolment: Boolean)(serviceInfoContent: Option[ServiceNavigationInfo])(implicit request: Request[_], messages: Messages)
 
 <div class="govuk-grid-column-three-quarters govuk-!-padding-left-8">
     <h1 id="page-title-@name" class="govuk-heading-l">@messages("sa302.evidence.heading")</h1>

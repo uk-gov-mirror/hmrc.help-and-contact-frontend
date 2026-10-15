@@ -1,5 +1,5 @@
 @*
- * Copyright 2024 HM Revenue & Customs
+ * Copyright 2026 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,54 +16,56 @@
 
 @import config.FrontendAppConfig
 @import uk.gov.hmrc.govukfrontend.views.html.components._
-@import uk.gov.hmrc.hmrcfrontend.views.html.components.{HmrcLanguageSelect, HmrcReportTechnicalIssue, HmrcUserResearchBanner}
-@import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, LanguageSelect}
+@import uk.gov.hmrc.hmrcfrontend.views.html.components.{HmrcReportTechnicalIssue, HmrcUserResearchBanner}
 @import uk.gov.hmrc.hmrcfrontend.views.viewmodels.userresearchbanner.UserResearchBanner
 @import uk.gov.hmrc.hmrcfrontend.views.html.helpers._
-
+@import uk.gov.hmrc.hmrcfrontend.views.viewmodels.language.{Cy, En, LanguageSelect}
+@import uk.gov.hmrc.hmrcfrontend.views.Aliases.NotificationBadge
+@import uk.gov.hmrc.hmrcfrontend.views.html.components.HmrcNotificationBadge
+@import models.requests._
+@import uk.gov.hmrc.govukfrontend.views.Implicits.RichServiceNavigation
 
 @this(govukTemplate: GovukTemplate,
-      govukFooter: HmrcStandardFooter,
-      hmrcHead: HmrcHead,
-      hmrcScripts: HmrcScripts,
-      hmrcReportTechnicalIssueHelper: HmrcReportTechnicalIssueHelper,
-      hmrcLanguageSelect: HmrcLanguageSelect,
-      hmrcStandardHeader: HmrcStandardHeader,
-      appConfig: FrontendAppConfig,
-      hmrcTimeoutDialogHelper: HmrcTimeoutDialogHelper,
-      hmrcUserResearchBanner : HmrcUserResearchBanner
+    govukFooter: HmrcStandardFooter,
+    hmrcHead: HmrcHead,
+    hmrcScripts: HmrcScripts,
+    hmrcReportTechnicalIssueHelper: HmrcReportTechnicalIssueHelper,
+    hmrcStandardHeader: HmrcStandardHeader,
+    appConfig: FrontendAppConfig,
+    hmrcTimeoutDialogHelper: HmrcTimeoutDialogHelper,
+    hmrcUserResearchBanner : HmrcUserResearchBanner,
+    hmrcNotificationBadge : HmrcNotificationBadge
 )
 
 @(title: String,
-        mainClass: Option[String] = None,
-        mainDataAttributes: Option[Html] = None,
-        bodyClasses: Option[String] = None,
-        headerBlock: Option[Html] = None,
-        sidebar: Option[Html] = None,
-        footerBlock: Option[Html] = None,
-        contentHeader: Option[Html] = None,
-        headBlock: Option[Html] = None,
-        mainContent: Option[Html] = None,
-        serviceInfoContent: Option[Html] = None,
-        fullWidth: Boolean = false,
-        twoThirds: Boolean = false,
-        scriptsBlock: Option[Html] = None)(contentBlock: Html)(implicit request: RequestHeader, messages: Messages)
-
+    mainClass: Option[String] = None,
+    mainDataAttributes: Option[Html] = None,
+    bodyClasses: Option[String] = None,
+    headerBlock: Option[Html] = None,
+    sidebar: Option[Html] = None,
+    footerBlock: Option[Html] = None,
+    contentHeader: Option[Html] = None,
+    headBlock: Option[Html] = None,
+    mainContent: Option[Html] = None,
+    fullWidth: Boolean = false,
+    twoThirds: Boolean = false,
+    scriptsBlock: Option[Html] = None,
+    navLinks: Seq[ListLinks] = Seq(),
+    activeTab: String = "home")(contentBlock: Html)(implicit request: RequestHeader, messages: Messages)
 
 @headerDefault = {
     @headerBlock.getOrElse {
         @hmrcStandardHeader(
-            serviceName = Some(messages("site.service_name")),
-            serviceUrl = Some(appConfig.getTarUrl),
+            userResearchBanner = Option.when(appConfig.showUserResearchBanner)(
+                                 UserResearchBanner(url = appConfig.urBannerUrl(messages.lang.code),
+                                                    language = if(messages.lang.code == "en") En else Cy)),
             signOutUrl = Some(appConfig.getBusinessAccountUrl("signout")),
-            isWelshTranslationAvailable = true,
-            userResearchBanner =
-                Option.when(appConfig.showUserResearchBanner)(
-                    UserResearchBanner(
-                        url = appConfig.urBannerUrl(messages.lang.code),
-                        language = if(messages.lang.code == "en") En else Cy
-                    ))
+            serviceNavigation = Some(ServiceNavigation(
+                                        serviceName = Some(messages("site.service_name")),
+                                        serviceUrl = Some(appConfig.getTarUrl),
+                                        navigation = navTabItems).withLanguageToggle())
         )
+
         @hmrcTimeoutDialogHelper(
             signOutUrl = "/business-account/timeout",
             keepAliveUrl = Some("/business-account/keep-alive"),
@@ -77,69 +79,58 @@
 }
 
 @footerDefault = {
- @govukFooter()
+    @govukFooter()
 }
 
-@beforeContentBlock = {
- <div class="centered-content soft--ends">
- @serviceInfoContent
- </div>
-
- @{
-  def playLangToUiLanguage(l: Lang) = l.code match {
-   case "en" => En
-   case "cy" => Cy
-  }
-
-  if(appConfig.languageTranslationEnabled && !appConfig.isServiceNavigationEnabled) {
-   hmrcLanguageSelect(LanguageSelect(
-    playLangToUiLanguage(messages.lang),
-    appConfig.languageLinks: _*
-   ))
-  }
- }
-
- }
-
 @bodyEndDefault = {
- @hmrcScripts(scriptsBlock)
+    @hmrcScripts(scriptsBlock)
 }
 
 @headerAndMainContent = {
-@contentHeader.getOrElse(None)
-@mainContent
+    @contentHeader.getOrElse(None)
+    @mainContent
 }
 
+@navTabItems: Seq[ServiceNavigationItem] = @{navLinks
+    .filter(menuItem => !menuItem.showBoolean.contains(false))
+    .map { menuItem =>
+        val menuText = menuItem.alerts match {
+            case Some(alert) if(alert != "0") => { menuItem.message + " " + hmrcNotificationBadge(NotificationBadge(alert))}
+            case _ => menuItem.message
+        }
+        val requestUrl = menuItem.url.toLowerCase()
+        val isActiveTab = (requestUrl.contains(activeTab.toLowerCase()) ||
+                            (activeTab.toLowerCase().equals("home") && requestUrl.endsWith("business-account")))
+        ServiceNavigationItem(content = HtmlContent(menuText), href = menuItem.url, active = isActiveTab)
+    }
+}
 
 @mainContentDefault = {
+    <div class="govuk-grid-row">
+        <div class= @{if(fullWidth) "govuk-grid-column-full-from-desktop" else "govuk-grid-column-two-thirds"}>
+            <div id="wrapper" class="site-wrapper" @mainClass.map { mainClassVal => class="@mainClass" } @mainDataAttributes >
+                <div id="content">
+                    @components.article(headerAndMainContent)
+                    @sidebar
 
- <div class="govuk-grid-row">
-  <div class= @{if(fullWidth) "govuk-grid-column-full-from-desktop" else "govuk-grid-column-two-thirds"}>
-   <div id="wrapper" class="site-wrapper" @mainClass.map { mainClassVal => class="@mainClass" } @mainDataAttributes >
-    <div id="content">
-     @components.article(headerAndMainContent)
-     @sidebar
-
-     @if(twoThirds) {
-      <div class="govuk-grid-column-two-thirds">
-       @hmrcReportTechnicalIssueHelper()
-      </div>
-     } else {
-        <div class="govuk-!-margin-top-6">
-      @hmrcReportTechnicalIssueHelper()
+                    @if(twoThirds) {
+                        <div class="govuk-grid-column-two-thirds">
+                            @hmrcReportTechnicalIssueHelper()
+                        </div>
+                    } else {
+                        <div class="govuk-!-margin-top-6">
+                            @hmrcReportTechnicalIssueHelper()
+                        </div>
+                    }
+                </div>
+            </div>
         </div>
-     }
     </div>
-   </div>
-  </div>
- </div>
 }
 
-@govukTemplate(
-    pageTitle = Some(title),
-    headerBlock = hmrcHead(headBlock = Some(headerDefault)),
+@govukTemplate(pageTitle = Some(title),
+    headBlock = Some(hmrcHead(headBlock)),
+    headerBlock = headerDefault,
     bodyEndBlock = Some(bodyEndDefault),
-    footerBlock = footerDefault,
-    headBlock = headBlock,
-    beforeContentBlock = Some(beforeContentBlock)
+    footerBlock = footerDefault
 )(mainContentDefault)

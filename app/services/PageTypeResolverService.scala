@@ -36,9 +36,9 @@ class PageTypeResolverService @Inject()(
   def resolve(pageType: PageType)(implicit request: ServiceInfoRequest[AnyContent], messages: Messages): Html = pageType match {
     case p@PageType.HelpWithBTA => help_with_your_bta(p.name, appConfig)
     case p@PageType.RegisteringOrStopping => registering_or_stopping(p.name, appConfig)(messages)
-    case p@PageType.PaymentsAndPenalties => payments_and_penalties(p.name, appConfig, request.request.saUtr)(request.serviceInfoContent)
+    case p@PageType.PaymentsAndPenalties => payments_and_penalties(p.name, appConfig, request.request.saUtr)(Some(request.serviceInfoContent))
     case p@PageType.HelpWithSATaxReturn => help_with_sa_tax_return(p.name, request.request.saUtr, appConfig)
-    case p@PageType.GetEvidenceOfIncome => get_evidence_of_income(p.name, appConfig, request.request.saUtr.isDefined)(request.serviceInfoContent)
+    case p@PageType.GetEvidenceOfIncome => get_evidence_of_income(p.name, appConfig, request.request.saUtr.isDefined)(Some(request.serviceInfoContent))
     case p@PageType.Expenses => expenses(p.name, appConfig)
     case PageType.SignUpForMTD => HtmlFormat.empty
     case p@PageType.ChangeContactAndAccountDetails => change_contact_and_account_details(p.name, appConfig)(messages)

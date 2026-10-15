@@ -32,7 +32,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
   implicit val message: Messages = messages
 
   def fakeServiceInfoRequest(utr: Option[SaUtr] = None, email: Option[String] = Some("user@example.com")): ServiceInfoRequest[AnyContent] =
-    ServiceInfoRequest[AnyContent](AuthenticatedRequest(FakeRequest("", ""), utr, email), Some(HtmlFormat.empty))
+    ServiceInfoRequest[AnyContent](AuthenticatedRequest(FakeRequest("", ""), utr, email), serviceNavigation)
 
   "PageTypeResolverService" should {
 
@@ -58,7 +58,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.PaymentsAndPenalties
       val result = service.resolve(pageType)(fakeServiceInfoRequest(testUtr), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.sa.payments_and_penalties(pageType.name, frontendAppConfig, testUtr)(Some(HtmlFormat.empty))(fakeRequest, messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.sa.payments_and_penalties(pageType.name, frontendAppConfig, testUtr)(Some(serviceNavigation))(fakeRequest, messages)
       result.body mustBe expectedContent.body
     }
 
@@ -76,7 +76,7 @@ class PageTypeResolverServiceSpec extends ControllerSpecBase with MockitoSugar w
       val service = new PageTypeResolverService(frontendAppConfig)
       val pageType = PageType.GetEvidenceOfIncome
       val result = service.resolve(pageType)(fakeServiceInfoRequest(testUtr), message)
-      val expectedContent: HtmlFormat.Appendable = views.html.sa.get_evidence_of_income(pageType.name, frontendAppConfig, testUtr.isDefined)(Some(HtmlFormat.empty))(fakeRequest, messages)
+      val expectedContent: HtmlFormat.Appendable = views.html.sa.get_evidence_of_income(pageType.name, frontendAppConfig, testUtr.isDefined)(Some(serviceNavigation))(fakeRequest, messages)
       result.body mustBe expectedContent.body
     }
 

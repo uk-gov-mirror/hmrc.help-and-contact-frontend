@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.new_tailor_tax_return
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class NewTailorYourTaxReturnSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "sa.new_tailor_tax_return_transcript"
 
-  def createView = () => inject[new_tailor_tax_return].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[new_tailor_tax_return].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "NewTailorYourTaxReturn view" must {
     behave like normalPage(createView, messageKeyPrefix)

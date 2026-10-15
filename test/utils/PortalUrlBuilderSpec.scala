@@ -29,7 +29,6 @@ class PortalUrlBuilderSpec extends SpecBase {
     def languageUtils: LanguageUtils = inject[LanguageUtils]
   }
 
-
   val fakeRequestWithWelsh = fakeRequest.withCookies(Cookie("PLAY_LANG", "cy"))
 
   "build portal url" when {

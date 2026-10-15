@@ -16,11 +16,10 @@
 
 package views.transcripts
 
-import play.twirl.api.{Html, HtmlFormat}
+import play.twirl.api.Html
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.new_registering_for_self_assessment
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class NewRegisteringForSelfAssessmentViewSpec extends ViewBehaviours {
 
@@ -28,7 +27,7 @@ class NewRegisteringForSelfAssessmentViewSpec extends ViewBehaviours {
 
   def createView: () => Html =
     () =>
-      inject[new_registering_for_self_assessment].apply(frontendAppConfig)(Some(HtmlFormat.empty))(
+      inject[new_registering_for_self_assessment].apply(frontendAppConfig)(Some(serviceNavigation))(
         fakeRequest,
         messages
     )

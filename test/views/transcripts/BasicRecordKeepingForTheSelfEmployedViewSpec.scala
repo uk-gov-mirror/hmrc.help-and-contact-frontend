@@ -16,7 +16,6 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.basic_record_keeping
 
@@ -26,7 +25,7 @@ class BasicRecordKeepingForTheSelfEmployedViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "basic.record.keeping.transcript"
 
-  def createView = () => inject[basic_record_keeping].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[basic_record_keeping].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "BudgetingYourSelfAssessment view" must {
     behave like normalPage(createView, messageKeyPrefix)

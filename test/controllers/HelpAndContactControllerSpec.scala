@@ -16,25 +16,24 @@
 
 package controllers
 
+import controllers.actions.AuthAction
+import controllers.actions.mocks.MockAuth
+import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
+import models.{PageType, SaUtr}
 import org.scalatest.BeforeAndAfter
+import org.scalatest.concurrent.ScalaFutures
 import org.scalatestplus.mockito.MockitoSugar
 import play.api.mvc._
-import play.api.test._
 import play.api.test.Helpers._
-import play.twirl.api.{Html, HtmlFormat}
-
-import scala.concurrent.Future
-import controllers.actions.mocks.MockAuth
-import controllers.actions.AuthAction
-import models.{PageType, SaUtr}
-import models.requests.{AuthenticatedRequest, ServiceInfoRequest}
-import org.scalatest.concurrent.ScalaFutures
+import play.api.test._
+import play.twirl.api.Html
 import services.{PageTypeResolverService, ThresholdService}
 import uk.gov.hmrc.http.HeaderCarrier
 import views.ViewSpecBase
-import views.html.{help_and_contact}
+import views.html.help_and_contact
 
 import scala.collection.Seq
+import scala.concurrent.Future
 
 class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar with BeforeAndAfter with MockAuth with ViewSpecBase with ScalaFutures {
 
@@ -50,8 +49,7 @@ class HelpAndContactControllerSpec extends ControllerSpecBase with MockitoSugar 
   val helpAndContactView: help_and_contact = inject[help_and_contact]
 
   def fakeServiceInfoRequest(utr: Option[SaUtr] = None): ServiceInfoRequest[AnyContentAsEmpty.type] =
-    ServiceInfoRequest[AnyContentAsEmpty.type](AuthenticatedRequest(FakeRequest("", ""), utr, Some("user@example.com")), Some(HtmlFormat.empty))
-
+    ServiceInfoRequest[AnyContentAsEmpty.type](AuthenticatedRequest(FakeRequest("", ""), utr, Some("user@example.com")), serviceNavigation)
 
   val pageTypeTestCases = Seq(
     "help-with-your-business-tax-account" -> views.html.general.help_with_your_bta(PageType.HelpWithBTA.route, frontendAppConfig)(messages),

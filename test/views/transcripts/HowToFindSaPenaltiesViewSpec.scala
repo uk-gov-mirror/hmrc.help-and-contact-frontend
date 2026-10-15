@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.how_to_find_sa_penalties
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class HowToFindSaPenaltiesViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "howToFindSaPenaltiesTranscript"
 
-  def createView = () => inject[how_to_find_sa_penalties].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[how_to_find_sa_penalties].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "HowToFindSaPenalties view" must {
     behave like normalPage(createView, messageKeyPrefix)

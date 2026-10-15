@@ -16,17 +16,15 @@
 
 package views.transcripts
 
-import play.twirl.api.HtmlFormat
 import views.behaviours.ViewBehaviours
 import views.html.transcripts.cant_pay_taxbill
-
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 class CantPayTaxbillViewSpec extends ViewBehaviours {
 
   val messageKeyPrefix = "help.cant.pay.taxbill.transcript"
 
-  def createView = () => inject[cant_pay_taxbill].apply(frontendAppConfig)(Some(HtmlFormat.empty))(fakeRequest, messages)
+  def createView = () => inject[cant_pay_taxbill].apply(frontendAppConfig)(Some(serviceNavigation))(fakeRequest, messages)
 
   "CantPayTaxbill view" must {
     behave like normalPage(createView, messageKeyPrefix)
